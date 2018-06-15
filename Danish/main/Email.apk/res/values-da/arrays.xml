@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="all_month_str">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Maj</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="calendar_remind_string_array">
+        <item>I aften</item>
+        <item>I morgen</item>
+        <item>Weekend</item>
+        <item>Næste uge</item>
+        <item>Næste måned</item>
+        <item>Vælg dato</item>
+    </string-array>
+    <string-array name="compose_modes">
+        <item>Svar</item>
+        <item>Svar alle</item>
+        <item>Videresend</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Minimal</item>
+        <item>Lille</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Enorm</item>
+    </string-array>
+    <string-array name="menu_att_mgr_sort_string_array">
+        <item>Set for nyligt</item>
+        <item>Format</item>
+        <item>Navn</item>
+        <item>Afsender</item>
+        <item>Modtagelsesdato</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>System</item>
+        <item>Ofte anvendt</item>
+        <item>Alle mapper</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Nyere besked</item>
+        <item>Ældre besked</item>
+        <item>Indbakke</item>
+    </string-array>
+    <string-array name="signature_normal_string_array_next">
+        <item>Adresse:</item>
+        <item>Tlf:</item>
+        <item>Navn:</item>
+        <item>E-mail:</item>
+        <item>Mobil:</item>
+        <item>WeChat:</item>
+        <item>Fax:</item>
+        <item>Postnummer:</item>
+    </string-array>
+    <string-array name="signature_special_string_array_next">
+        <item>Tak</item>
+        <item>Venlig hilsen</item>
+        <item>Sendt fra min</item>
+        <item>Original e-mail</item>
+        <item>Sendt fra min</item>
+        <item>Sendt fra</item>
+        <item>Fra</item>
+        <item>Denne e-mail</item>
+        <item>Ansvarsfralæggelse</item>
+        <item>E-mailansvarsfralæggelse</item>
+    </string-array>
+</resources>
