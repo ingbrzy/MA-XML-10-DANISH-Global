@@ -570,7 +570,6 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Indtast pinkode til SIM-kort</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kortet låses op…</string>
-    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_attempts_countdown">Prøv igen om %1$d sekunder.</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har indtastet din adgangskode forkert %1$d gange. 
 
