@@ -68,6 +68,7 @@
     <string name="accessibility_wifi_two_bars">Wi-Fi har to bjælker.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi har tre bjælker.</string>
     <string name="accessibility_wifi_signal_full">Wi-Fi har fuldt signal.</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="data_usage_uninstalled_apps">Fjernede apps</string>
     <string name="data_usage_uninstalled_apps_users">Fjernede apps og brugere</string>
     <string name="tether_settings_title_usb">Netdeling via USB</string>
@@ -331,7 +332,7 @@ Advarsel! Alle dine data vil blive slettet.
     <string name="notification_missedCall_call_back">Ring tilbage</string>
     <string name="notification_missedCall_message">Besked</string>
     <string name="accessibility_call_muted">Opkaldslyd slået fra.</string>
-    <string name="accessibility_speakerphone_enabled">Speakerphone is on</string>
+    <string name="accessibility_speakerphone_enabled">Højttalertelefonen aktiveret</string>
     <string name="respond_via_sms_canned_response_1">Kan ikke tale nu. Hvad så?</string>
     <string name="respond_via_sms_canned_response_2">Jeg ringer tilbage om lidt.</string>
     <string name="respond_via_sms_canned_response_3">Jeg ringer til dig senere.</string>
@@ -343,14 +344,14 @@ Advarsel! Alle dine data vil blive slettet.
     <string name="respond_via_sms_confirmation_format">Besked sendt til %s.</string>
     <string name="enable_account_preference_title">Opkaldskonti</string>
     <string name="outgoing_call_not_allowed_user_restriction">Kun nødopkald er tilladt.</string>
-    <string name="outgoing_call_not_allowed_no_permission">"This app can't make outgoing calls without the required permissions."</string>
+    <string name="outgoing_call_not_allowed_no_permission">Denne app kan ikke foretage udgående opkald uden de nødvendige tilladelser.</string>
     <string name="outgoing_call_error_no_phone_number_supplied">Indtast et gyldigt nummer for at foretage et opkald.</string>
-    <string name="duplicate_video_call_not_allowed">"Can't add more calls"</string>
+    <string name="duplicate_video_call_not_allowed">Kan ikke tilføje flere opkald</string>
     <string name="no_vm_number">Mangler voicemailnummer</string>
     <string name="no_vm_number_msg">Intet voicemailnummer er gemt på SIM-kortet.</string>
     <string name="add_vm_number_str">Tilføj nummer</string>
     <string name="change_default_dialer_dialog_title">Gør %s til din standard telefon-app?</string>
-    <string name="change_default_dialer_dialog_affirmative">Set as default Phone app</string>
+    <string name="change_default_dialer_dialog_affirmative">Indstil som standardtelefon-app</string>
     <string name="change_default_dialer_dialog_negative">Annuller</string>
     <string name="change_default_dialer_warning_message">%s vil kunne foretage og styre alle aspekter af opkald. Kun apps, du har tillid til, bør indstilles som standard telefon-app.</string>
     <string name="blocked_numbers">Blokerede numre</string>
@@ -363,7 +364,7 @@ Advarsel! Alle dine data vil blive slettet.
     <string name="block_button">Bloker</string>
     <string name="non_primary_user">Kun enhedsejer kan se og administrere blokerede numre.</string>
     <string name="delete_icon_description">Stop blokering</string>
-    <string name="blocked_numbers_butter_bar_title">Blocklist is off</string>
+    <string name="blocked_numbers_butter_bar_title">Blokeringsliste er slået fra</string>
     <string name="blocked_numbers_butter_bar_body">Når du ringer eller skriver til et nødopkaldsnummer, slås blokering fra for at sikre, at nødopkaldstjenester kan kontakte dig.</string>
     <string name="blocked_numbers_butter_bar_button">Genaktiver nu</string>
     <string name="blocked_numbers_number_blocked_message">%1$s blokeret</string>
@@ -390,9 +391,9 @@ Advarsel! Alle dine data vil blive slettet.
     <string name="answering_ends_other_managed_video_call">Hvis du svarer, afsluttes dit igangværende videoopkald</string>
     <string name="answer_incoming_call">Svar</string>
     <string name="decline_incoming_call">Afvis</string>
-    <string name="cant_call_due_to_ongoing_call">"Can't place a call. %1$s other call is ongoing."</string>
-    <string name="cant_call_due_to_ongoing_calls">"Can't place a call. %1$s other calls are ongoing."</string>
-    <string name="cant_call_due_to_ongoing_unknown_call">"Can't place a call due to a call in another app."</string>
+    <string name="cant_call_due_to_ongoing_call">Kan ikke foretage opkald. %1$s andet opkald er i gang.</string>
+    <string name="cant_call_due_to_ongoing_calls">Kan ikke foretage opkald. %1$s andre opkald er i gang.</string>
+    <string name="cant_call_due_to_ongoing_unknown_call">Kan ikke foretage et opkald på grund af et opkald i en anden app.</string>
     <string name="notification_channel_incoming_call">Indkommende opkald</string>
     <string name="notification_channel_missed_call">Ubesvarede opkald</string>
     <string name="alert_outgoing_call">Start af dette opkald vil afslutte dit %1$s-opkald.</string>

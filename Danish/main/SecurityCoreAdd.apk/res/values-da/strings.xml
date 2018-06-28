@@ -387,15 +387,15 @@ Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string
     <string name="second_space_desktop_tips_dialog_title">Vigtig opdatering</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Forstået</string>
     <string name="second_space_desktop_tips_dialog_message">Efter denne opdatering vil ikonerne for at flytte data og administrere Second space ikke længere være vist på startskærmen. Du vil kunne få adgang til deres korresponderende funktioner i Indstillingerne.</string>
-    <string name="green_guard">Parental controls</string>
-    <string name="bind_device">Add devices</string>
+    <string name="green_guard">Forældrekontrol</string>
+    <string name="bind_device">Tilføj enheder</string>
     <string name="green_guard_des1">Tilføj enheder for at kunne administrere dem langt væk fra</string>
     <string name="green_guard_title2">Se placeringsoplysninger</string>
     <string name="green_guard_des2">Ved, hvor alle administrerede enheder præcis er</string>
     <string name="green_guard_title3">Administrer apps</string>
     <string name="green_guard_des3">Kontrollér installerede apps og begræns anvendelse</string>
     <string name="experience_more_features">Tilføj en enhed for at se alle funktioner</string>
-    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
+    <string name="can_not_switch_when_green_kid_active">Skift til Second space er begrænset af forældrekontrol</string>
     <string name="need_network_when_bind">Opret forbindelse til netværket, inden du tilføjer enheder</string>
-    <string name="this_function_can_not_use_in_second_space">This feature can only be used in First space</string>
+    <string name="this_function_can_not_use_in_second_space">Denne funktion kan kun bruges i First space</string>
 </resources>

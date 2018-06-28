@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Tilføj til arbejdsområde</string>
     <string name="activity_not_found">Appen er ikke installeret på din enhed</string>
     <string name="add_screen">Tilføj skærm</string>
@@ -92,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Flere apps</string>
     <string name="default_folder_title_security">System</string>
+    <string name="default_folder_title_services">Servicer</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Værktøj</string>
     <string name="default_screen_preview_title">Tryk for at indstille standardskærm</string>
@@ -235,6 +237,7 @@
     <string name="open_personal_assistant_dialog_btn_cancel">Annuller</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå fra</string>
     <string name="open_personal_assistant_dialog_desc">Du vil ikke være i stand til at bruge App Vault og modtage dens opdateringer. Slå fra nu?</string>
+    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
     <string name="open_personal_assistant_dialog_title">Slå App Vault fra</string>
     <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ikke mere plads på denne startskærm</string>
@@ -342,6 +345,4 @@
     <string name="widget_gadget_player">Musik</string>
     <string name="widget_global_search">Søg</string>
     <string name="widget_quick_function">Hurtigfunktioner</string>
-    <string name="default_folder_title_services">Servicer</string>
-    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
 </resources>

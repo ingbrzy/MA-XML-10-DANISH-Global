@@ -48,6 +48,10 @@
         <item quantity="other">%s flere notifikationer indeni.</item>
         <item quantity="one">%s flere notifikationer indeni.</item>
     </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="other">%d notifikationskategorier</item>
+        <item quantity="one">%d notifikationskategori</item>
+    </plurals>
     <plurals name="notification_num_channels_desc">
         <item quantity="other">1 ud af %d notifikationskategorier fra denne app</item>
         <item quantity="one">1 ud af %d notifikationskategori fra denne app</item>
