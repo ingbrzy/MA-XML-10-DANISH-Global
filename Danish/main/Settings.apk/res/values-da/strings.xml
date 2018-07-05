@@ -1899,18 +1899,8 @@ Der så ikke ud til at være heste eller dyr af nogen art; mændene kørte med t
     <string name="got_it">Forstået</string>
     <string name="gsm_to_wifi_connect_type_title">GSM til Wi-Fi</string>
     <string name="gxzw_add_fingerprint_continue">Fortsæt</string>
-    <string name="gxzw_add_fingerprint_edge_message">Flyt fingeren, så sensoren kan registrere kanterne af dit fingeraftryk.</string>
-    <string name="gxzw_add_fingerprint_edge_title">Bevæg din finger en smule</string>
-    <string name="gxzw_add_fingerprint_finish">Afslut</string>
-    <string name="gxzw_add_fingerprint_indicate">Tryk hårdere her</string>
     <string name="gxzw_add_fingerprint_know">Forstået</string>
-    <string name="gxzw_add_fingerprint_message">Hold fingre og skærmoverflade rene</string>
     <string name="gxzw_add_fingerprint_move_indicate">Bevæg din finger en smule</string>
-    <string name="gxzw_add_fingerprint_move_message">Kan ikke registrere de resterende områder af dit fingeraftryk. Flyt fingeren en smule</string>
-    <string name="gxzw_add_fingerprint_move_title">Bevæg din finger en smule</string>
-    <string name="gxzw_add_fingerprint_put_finger_message">Tryk lidt hårdere og løft fingeren, når du føler vibrationer. Gentag flere gange.</string>
-    <string name="gxzw_add_fingerprint_put_finger_title">Tryk hårdere og løft efter vibration</string>
-    <string name="gxzw_add_fingerprint_title">Tilføj fingeraftryk</string>
     <string name="handy_mode">Enhåndstilstand</string>
     <string name="handy_mode_enable">Enhåndstilstand</string>
     <string name="handy_mode_size">Skærmstørrelse</string>
@@ -2493,6 +2483,7 @@ Der er andre brugere til stede på denne enhed.
     <string name="memory_title">Tilgængelig: %1$s\u0009\u0009Total: %2$s</string>
     <string name="memory_usage">Hukommelsesforbrug</string>
     <string name="memory_usage_apps">Hukommelse, der bruges af apps</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Der er i gennemsnit brugt %1$s hukommelse inden for de sidste tre timer</string>
     <string name="menu_cancel">Kassér</string>
     <string name="menu_check">Oplevelse</string>
@@ -2713,6 +2704,7 @@ vil %1$s vises som en USB-lagerenhed, når den tilsluttes til en computer."</str
     <string name="nfc_how_it_works_got_it">OK, det er forstået</string>
     <string name="nfc_how_it_works_title">Betaling på terminalen</string>
     <string name="nfc_more_title">Flere...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp til betaling</string>
     <string name="nfc_payment_default_not_set">Ikke angivet</string>
     <string name="nfc_payment_favor_default">Brug altid standard-app</string>
@@ -2915,6 +2907,7 @@ Dette gør det også muligt for appen at slå Forstyr ikke til eller fra og ænd
     <string name="overlay_display_devices_title">Simulér sekundære visninger</string>
     <string name="overlay_settings">Vis oven på andre apps</string>
     <string name="owner_info_settings_edit_text_hint">Eksempel: Jacobs Android</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskærmsunderskrift</string>
     <string name="packages_subtitle">Inkluderede pakker</string>
@@ -3195,6 +3188,7 @@ Dette gør det også muligt for appen at slå Forstyr ikke til eller fra og ænd
     <string name="private_sms_recording_intro_header">Tegn et oplåsningsmønster:</string>
     <string name="private_sms_reset_by_account">For at nulstille din adgangskode skal du logge ind på din Mi-konto</string>
     <string name="process_dex2oat_label">Appoptimering</string>
+    <string name="process_kernel_label">Android-OS</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="process_provider_in_use_description">Udbyderen %1$s er i brug.</string>
     <string name="process_service_in_use_description">Tjenesten %1$s er i brug.</string>
@@ -3476,7 +3470,6 @@ Denne indstilling påvirker alle brugere på denne telefon."</string>
     <string name="screen_paper_mode_off_apps_title">Brug ikke læsetilstand</string>
     <string name="screen_paper_mode_range_title">Indstillinger</string>
     <string name="screen_paper_mode_set_apps_title">Læsetilstands-apps</string>
-    <string name="screen_paper_mode_summary">Reducer skærmens udsendelse af blåt lys</string>
     <string name="screen_paper_mode_time_summary">Skemalæg tid til at slå læsetilstand til og fra</string>
     <string name="screen_paper_mode_time_title">Skema</string>
     <string name="screen_paper_mode_title">Læsetilstand</string>
@@ -4021,6 +4014,7 @@ Muligvis pga. en forkert pinkode."</string>
     <string name="sim_reenter_new">Indtast ny pinkode igen</string>
     <string name="sim_select_card">Vælg et SIM-kort</string>
     <string name="sim_selection_required_pref">Du har ikke valgt endnu</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_slot_empty">Intet SIM-kort</string>
@@ -4311,6 +4305,7 @@ Du kan også skifte til et hurtigere ^1 for at få en bedre ydeevne."</string>
     <string name="suggestions_summary">Mere end %1$d</string>
     <string name="suggestions_title">Forslag</string>
     <string name="sum_carrier_select">Vælg en netværksudbyder</string>
+    <string name="summary_range_symbol_combination">%1$s-%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="super_resolution_access_title">Tilgængelige apps</string>
     <string name="super_resolution_desc">Gør billeder skarpere med en Al-algoritme</string>

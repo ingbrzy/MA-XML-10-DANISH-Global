@@ -128,14 +128,6 @@
         <item quantity="other">PIN-kode skal være på %d cifre</item>
         <item quantity="one">Pin skal være %d cifre</item>
     </plurals>
-    <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN-koden kan indeholde op til %d tal</item>
-        <item quantity="one">PIN kan indeholde op til %d tal</item>
-    </plurals>
-    <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">Pin skal være %d tal i længde</item>
-        <item quantity="one">PIN skal være på %d tal</item>
-    </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Forbind mindst %d prikker. Prøv igen.</item>
         <item quantity="one">Forbind mindst %d prikk. Prøv igen.</item>
