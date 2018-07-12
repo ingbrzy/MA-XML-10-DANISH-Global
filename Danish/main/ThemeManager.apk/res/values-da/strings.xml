@@ -101,7 +101,6 @@
     <string name="incompatible_dialog_ok">Forstået</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Indstiller baggrund…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbagekaldsringetone</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -294,7 +293,6 @@
     <string name="resource_pack_price_info">Oprindelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerede købt %1$d komponenter i dette tema. Det er billigere, hvis du køber de resterende komponenter enkeltvis.</string>
     <string name="resource_present">Gave</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi Credits</string>
     <string name="resource_purchase_common_error">Der er opstået en fejl. Prøv igen</string>

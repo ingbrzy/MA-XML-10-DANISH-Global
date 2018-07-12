@@ -1365,9 +1365,7 @@ din enhed"</string>
     <string name="menu_text_antispam">Blokeringsliste</string>
     <string name="menu_text_license_manager">Tilladelser</string>
     <string name="menu_text_garbage_cleanup">Renser</string>
-    <string name="menu_text_garbage_cleanup_danger">%s over</string>
     <string name="menu_text_power_manager">Batteriforbrug</string>
-    <string name="menu_text_power_percent_title">Batteri %s</string>
     <string name="menu_text_power_percent_title_default">Batteri</string>
     <string name="last_check_canceled">Forrige scanning blev annulleret</string>
     <string name="examination_score_100">Alt ser fint ud!</string>
