@@ -146,7 +146,7 @@ For at aktivere din konto, følg det
     <string name="passport_license_host_unreachable">Kan ikke oprette forbindelse til netværket. Du kan se denne side på %s.</string>
     <string name="passport_login_failed">Kan ikke logge ind</string>
     <string name="passport_reg_failed">Kan ikke oprette konto</string>
-    <string name="passport_verification_failed">Autentifikation mislykkedes</string>
+    <string name="passport_verification_failed">"Couldn't verify account"</string>
     <string name="passport_reset_fail_title">Kunne ikke nulstille</string>
     <string name="passport_identification_expired">Bekræftelseskoden er udløbet. Start forfra</string>
     <string name="passport_bad_authentication">Ugyldigt brugernavn eller adgangskode</string>

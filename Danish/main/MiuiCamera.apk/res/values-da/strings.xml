@@ -380,6 +380,7 @@
     <string name="pref_camera_beauty">Forskøn</string>
     <string name="pref_camera_beauty_deep">Forskønnelse Pro</string>
     <string name="pref_camera_asd_night_title">Forstærk lavbelyste foto automatisk</string>
+    <string name="pref_camera_super_resolution_title">Turn on SR</string>
     <string name="simple_mode_button_text_scene">Sluk Scenetilstand</string>
     <string name="pref_camera_peak_title">Fokus topper</string>
     <string name="pref_camera_peak_entry_off">Slukket</string>
@@ -429,6 +430,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portræt slører baggrunden
 og fremhæver folk tæt på."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
     <string name="simple_mode_button_text_square">Sluk Kvadrat</string>
     <string name="face_beauty_smart">Smart</string>
@@ -443,6 +445,7 @@ og fremhæver folk tæt på."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Tilstande</string>
     <string name="button_front_camera_title">Tag en selfie</string>
     <string name="button_normal_video_title">Optag video</string>
@@ -537,4 +540,17 @@ og optimerer dine billeder baseret på denne information"</string>
     <string name="lens_dirty_detected_title_front">Linsen på forkameraet er snavset</string>
     <string name="lens_dirty_detected_content">"Det ser ud til, at dit kameras linse er snavsede.
 Rens linsen for at få bedre effekt."</string>
+    <string name="lighting_hint_title">Studio lighting</string>
+    <string name="lighting_hint_usage">"You can use studio lighting effects
+in Portrait mode"</string>
+    <string name="lighting_hint_needed">Place your object in the spotlight</string>
+    <string name="lighting_hint_too_far">Bring the camera closer</string>
+    <string name="lighting_hint_too_close">Move the camera further away</string>
+    <string name="lighting_pattern_nature">Natural</string>
+    <string name="lighting_pattern_stage">Stage</string>
+    <string name="lighting_pattern_movie">Movie</string>
+    <string name="lighting_pattern_rainbow">Rainbow</string>
+    <string name="lighting_pattern_leaf">Leaves</string>
+    <string name="lighting_pattern_dot">Dots</string>
+    <string name="lighting_pattern_shutter">Blinds</string>
 </resources>

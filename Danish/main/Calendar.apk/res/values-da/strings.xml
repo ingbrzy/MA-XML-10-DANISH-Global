@@ -34,7 +34,9 @@
     <string name="alert_reminder_expired">Udløbet</string>
     <string name="alert_title">Kalendernotifikationer</string>
     <string name="anniversary_event_title">Jubilæum: %1$s</string>
+    <string name="anniversary_secondary_tag">Jubilæum</string>
     <string name="app_label">Kalender</string>
+    <string name="birthday_born">Birth date</string>
     <string name="birthday_calendar_display_name">Fødselsdagsremindere</string>
     <string name="birthday_event_description_a_week_ago">En uge siden</string>
     <string name="birthday_event_description_a_week_later">En uge til</string>
@@ -74,6 +76,7 @@
     <string name="countdown_event_title">Nedtælling: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Nedtælling: %1$s om 3 dage</string>
     <string name="countdown_notify_title">Nedtælling: %1$s</string>
+    <string name="countdown_secondary_tag">Nedtælling</string>
     <string name="countdown_today">I dag</string>
     <string name="create_an_account_desc">"Kalender fungerer bedre med en Mi Account.
 
@@ -120,6 +123,7 @@
     <string name="edit_event_birthday_import_from_contact">Importér fødselsdag fra kontakter</string>
     <string name="edit_event_birthday_name_empty_hint">Indtast et navn</string>
     <string name="edit_event_birthday_name_hint">Navn</string>
+    <string name="edit_event_birthday_reminder_3_days_before">Mind også om 3 dage i forvejen</string>
     <string name="edit_event_birthday_reminder_time">Remindertid</string>
     <string name="edit_event_calendar_label">Kalender</string>
     <string name="edit_event_choose_date">Vælg dato</string>
@@ -180,6 +184,10 @@
     <string name="global_football_final">FINALE</string>
     <string name="global_football_no_match">Der er ikke planlagt nogen fodboldkampe for i dag.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
+    <string name="guide_card_import">Importér</string>
+    <string name="guide_card_primary_text">"Import your friends' birthdays"</string>
+    <string name="guide_card_second_text">Never miss important dates</string>
+    <string name="guide_card_title">Importér fødselsdage</string>
     <string name="hint_attendees">Gæster</string>
     <string name="hint_description">Beskrivelse</string>
     <string name="hint_what">Eventnavn</string>
@@ -416,12 +424,4 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="xiaomi_calendar_display_name">Mi Account Kalender</string>
     <string name="yearly">Årlig (hver %s)</string>
     <string name="yearly_plain">Årlig</string>
-    <string name="anniversary_secondary_tag">Jubilæum</string>
-    <string name="birthday_born">Birth date</string>
-    <string name="countdown_secondary_tag">Nedtælling</string>
-    <string name="edit_event_birthday_reminder_3_days_before">Mind også om 3 dage i forvejen</string>
-    <string name="guide_card_import">Importér</string>
-    <string name="guide_card_primary_text">"Import your friends' birthdays"</string>
-    <string name="guide_card_second_text">Never miss important dates</string>
-    <string name="guide_card_title">Importér fødselsdage</string>
 </resources>

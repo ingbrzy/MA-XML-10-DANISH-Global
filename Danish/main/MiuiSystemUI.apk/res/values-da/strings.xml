@@ -233,7 +233,6 @@
     <string name="adb_warning_title">Tillad USB-fejlfinding?</string>
     <string name="add_tile">Tilføj titel</string>
     <string name="adjust_button_width">Tilpas knapbredde</string>
-    <string name="airplane_mode">Flytilstand</string>
     <string name="alarm_template">kl. %1$s</string>
     <string name="alarm_template_far">på %1$s</string>
     <string name="allow_mock_location">Tillad forfalsk placeringer</string>
@@ -244,7 +243,6 @@
     <string name="apn_settings_not_available">Indstillinger for Access Point Name er ikke tilgængelige for denne bruger</string>
     <string name="app_info">App-oplysninger</string>
     <string name="app_label">System-UI</string>
-    <string name="app_name">Nøglebeskyttelse</string>
     <string name="app_process_limit_title">Grænse for baggrundsproces</string>
     <string name="as_important">Vigtigt</string>
     <string name="as_unimportant">Ikke-vigtigt</string>
@@ -469,8 +467,6 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="dlg_confirm_kill_storage_users_title">Slå USB-hukommelse til</string>
     <string name="dlg_error_title">USB-handling mislykkedes</string>
     <string name="dnd_is_off">DND er slået fra</string>
-    <string name="do_disclosure_generic">Denne enhed administreres af din virksomhed</string>
-    <string name="do_disclosure_with_name">Denne enhed administreres af %s</string>
     <string name="do_not_silence">Sæt ikke på lydløs</string>
     <string name="do_not_silence_block">Sæt ikke på lydløs eller bloker</string>
     <string name="dock_forced_resizable">Denne app virker muligvis ikke med opdelt skærm.</string>
@@ -518,7 +514,6 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="external_source_trusted">Tilladt</string>
     <string name="external_source_untrusted">Ikke tilladt</string>
     <string name="failed_to_open_app_settings_toast">Kunne ikke åbne indstillinger for %1$s</string>
-    <string name="fingerprint_not_recognized">Ikke genkendt</string>
     <string name="float_incall_ignore">Ignorer</string>
     <string name="float_incall_message">Besked</string>
     <string name="force_allow_on_external">Forcér tilladelse til apps om at måtte skrive til eksternt lager</string>
@@ -643,96 +638,11 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyboard_shortcut_group_system_recents">Nylige</string>
     <string name="keyboard_shortcut_group_system_shortcuts_helper">Tastaturgenveje</string>
     <string name="keyboard_shortcut_group_system_switch_input">Skift indtastningsmetode</string>
-    <string name="keyboardview_keycode_delete">Slet</string>
-    <string name="keyguard_accessibility_next_alarm">Næste alarm er indstillet til %1$s</string>
-    <string name="keyguard_accessibility_pin_area">Område for pinkoden</string>
-    <string name="keyguard_accessibility_sim_pin_area">Område for pinkoden til SIM-kortet</string>
-    <string name="keyguard_accessibility_sim_puk_area">Område for PUK-koden til SIM-kortet</string>
-    <string name="keyguard_carrier_default">Ingen dækning.</string>
-    <string name="keyguard_charged">Opladet</string>
     <string name="keyguard_indication_charging_time">Oplader (%s indtil fuld)</string>
     <string name="keyguard_indication_charging_time_fast">Oplader hurtigt (%s indtil fuld)</string>
     <string name="keyguard_indication_charging_time_slowly">Oplader langsomt (%s indtil fuld)</string>
     <string name="keyguard_indication_trust_disabled">Enheden vil forblive låst, indtil du manuelt låser op</string>
-    <string name="keyguard_instructions_when_pattern_disabled">Tryk på menuen for at låse op.</string>
-    <string name="keyguard_low_battery">Tilslut din oplader.</string>
-    <string name="keyguard_missing_sim_instructions">Indsæt et SIM-kort.</string>
-    <string name="keyguard_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke læses. Indsæt et SIM-kort.</string>
-    <string name="keyguard_missing_sim_message">Der er ikke noget SIM-kort i telefonen.</string>
-    <string name="keyguard_missing_sim_message_short">Intet SIM-kort</string>
-    <string name="keyguard_network_locked_message">Netværket er låst</string>
-    <string name="keyguard_password_enter_password_code">Indtast adgangskoden for at låse op</string>
-    <string name="keyguard_password_enter_pin_code">Indtast pinkoden</string>
-    <string name="keyguard_password_enter_pin_password_code">Indtast pinkoden for at låse op</string>
-    <string name="keyguard_password_enter_pin_prompt">Ny pinkode til SIM-kortet</string>
-    <string name="keyguard_password_enter_puk_code">Indtast PUK-koden og den nye pinkode til SIM-kortet</string>
-    <string name="keyguard_password_enter_puk_prompt">PUK-kode til SIM-kort</string>
-    <string name="keyguard_password_entry_touch_hint"><font size="17">Tryk for at angive adgangskode</font></string>
-    <string name="keyguard_password_wrong_pin_code">Forkert pinkode.</string>
-    <string name="keyguard_permanent_disabled_sim_instructions">"Dit SIM-kort er blevet permanent deaktiveret.
-Kontakt din tjenesteudbyder for at få et nyt SIM-kort."</string>
-    <string name="keyguard_permanent_disabled_sim_message_short">Ubrugeligt SIM-kort.</string>
-    <string name="keyguard_plugged_in">Oplader</string>
-    <string name="keyguard_plugged_in_charging_fast">Oplader hurtigt</string>
-    <string name="keyguard_plugged_in_charging_slowly">Oplader langsomt</string>
-    <string name="keyguard_sim_locked_message">SIM-kortet er låst.</string>
-    <string name="keyguard_sim_puk_locked_message">SIM-kortet er låst med PUK-kode.</string>
-    <string name="keyguard_sim_unlock_progress_dialog_message">Låser SIM-kortet op…</string>
     <string name="keyguard_unlock">Stryg op for at låse op</string>
-    <string name="kg_enter_confirm_pin_hint">Bekræft den ønskede pinkode</string>
-    <string name="kg_failed_attempts_almost_at_erase_profile">Du har forsøgt at låse telefonen op med den forkerte adgangskode %1$d gange. Efter endnu %2$d mislykkede forsøg fjernes arbejdsprofilen, hvilket sletter alle profildata.</string>
-    <string name="kg_failed_attempts_almost_at_erase_user">Du har forsøgt at låse telefonen op med den forkerte adgangskode %1$d gange. Efter endnu %2$d mislykkede forsøg fjernes denne bruger, hvilket sletter alle brugerdata.</string>
-    <string name="kg_failed_attempts_almost_at_login">"Du har tegnet dit oplåsningsmønster forkert %1$d gange. Efter endnu %2$d mislykkede forsøg bliver du bedt om at låse din telefon op ved hjælp af en e-mailkonto.
-
- Prøv igen om %3$d sekunder."</string>
-    <string name="kg_failed_attempts_almost_at_wipe">Du har forsøgt at låse telefonen op med den forkerte adgangskode %1$d gange. Efter endnu %2$d mislykkede forsøg nulstilles denne telefon, hvilket sletter alle dens data.</string>
-    <string name="kg_failed_attempts_now_erasing_profile">Du har forsøgt at låse telefonen op på forkert vis %d gange. Arbejdsprofilen fjernes, hvilket sletter alle profildata.</string>
-    <string name="kg_failed_attempts_now_erasing_user">Du har forsøgt at låse telefonen op på forkert vis %d gange. Brugeren fjernes, hvilket sletter alle brugerdata.</string>
-    <string name="kg_failed_attempts_now_wiping">Du har forsøgt at låse telefonen op på forkert vis %d gange. Telefonen nulstilles, hvilket sletter alle dens data.</string>
-    <string name="kg_forgot_pattern_button_text">Har du glemt mønsteret?</string>
-    <string name="kg_invalid_confirm_pin_hint">Pinkoderne stemmer ikke overens</string>
-    <string name="kg_invalid_puk">Indtast den korrekte PUK-kode. Gentagne forsøg deaktiverer permanent SIM-kortet.</string>
-    <string name="kg_invalid_sim_pin_hint">Indtast en pinkode på mellem 4 og 8 tal.</string>
-    <string name="kg_invalid_sim_puk_hint">PUK-koden skal være på 8 tal eller mere.</string>
-    <string name="kg_login_too_many_attempts">Du har brugt for mange forsøg på at tegne mønsteret korrekt</string>
-    <string name="kg_password_instructions">Angiv adgangskode</string>
-    <string name="kg_password_pin_failed">Pinkoden til SIM-kortet blev afvist</string>
-    <string name="kg_password_puk_failed">PUK-koden til SIM-kortet blev afvist</string>
-    <string name="kg_password_wrong_pin_code_pukked">Forkert pinkode til SIM-kort. Du er nu nødt til at kontakte dit mobilselskab for at låse din enhed op.</string>
-    <string name="kg_password_wrong_puk_code_dead">SIM-kortet er ubrugeligt. Kontakt dit mobilselskab.</string>
-    <string name="kg_pattern_instructions">Tegn dit mønster</string>
-    <string name="kg_pin_accepted">Koden blev accepteret.</string>
-    <string name="kg_pin_instructions">Indtast pinkode</string>
-    <string name="kg_prompt_reason_device_admin">Enheden er blevet låst af administratoren</string>
-    <string name="kg_prompt_reason_restart_password">Der skal indtastes en adgangskode efter genstart af enheden</string>
-    <string name="kg_prompt_reason_restart_pattern">Der skal angives et mønster efter genstart af enheden</string>
-    <string name="kg_prompt_reason_restart_pin">Der skal indtastes en pinkode efter genstart af enheden</string>
-    <string name="kg_prompt_reason_switch_profiles_password">Der skal indtastes en adgangskode, når du skifter profil</string>
-    <string name="kg_prompt_reason_switch_profiles_pattern">Der skal angives et mønster, når du skifter profil</string>
-    <string name="kg_prompt_reason_switch_profiles_pin">Der skal indtastes en pinkode, når du skifter profil</string>
-    <string name="kg_prompt_reason_timeout_password">Der kræves en adgangskode som ekstra beskyttelse</string>
-    <string name="kg_prompt_reason_timeout_pattern">Der kræves et mønster som ekstra beskyttelse</string>
-    <string name="kg_prompt_reason_timeout_pin">Der kræves en pinkode som ekstra beskyttelse</string>
-    <string name="kg_prompt_reason_user_request">Enheden blev låst manuelt</string>
-    <string name="kg_puk_enter_pin_hint">Indtast den ønskede pinkode</string>
-    <string name="kg_puk_enter_puk_hint">SIM-kortet er nu deaktiveret. Indtast PUK-koden for at fortsætte. Kontakt mobilselskabet for at få flere oplysninger.</string>
-    <string name="kg_puk_enter_puk_hint_multi">SIM-kortet fra \"%1$s\" er nu deaktiveret. Indtast PUK-koden for at fortsætte. Kontakt mobilselskabet for at få flere oplysninger.</string>
-    <string name="kg_sim_pin_instructions">Indtast pinkoden til SIM-kortet</string>
-    <string name="kg_sim_pin_instructions_multi">Indtast pinkoden til SIM-kortet for \"%1$s\"</string>
-    <string name="kg_sim_unlock_progress_dialog_message">Låser SIM-kortet op…</string>
-    <string name="kg_too_many_failed_attempts_countdown">Prøv igen om %d sekunder.</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har indtastet din adgangskode forkert %1$d gange. 
-
-Prøv igen om %2$d sekunder."</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">"Du har tegnet dit oplåsningsmønster forkert %1$d gange. 
-
-Prøv igen om %2$d sekunder."</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">"Du har indtastet en forkert pinkode %1$d gange. 
-
-Prøv igen om %2$d sekunder."</string>
-    <string name="kg_wrong_password">Forkert adgangskode</string>
-    <string name="kg_wrong_pattern">Forkert mønster</string>
-    <string name="kg_wrong_pin">Forkert pinkode</string>
     <string name="label_view">Se</string>
     <string name="launch_defaults_none">Ingen standardværdier sat</string>
     <string name="launch_defaults_some">Nogle standardværdier sat</string>
@@ -1018,6 +928,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="power_remaining_charging_duration_only">%1$s igen til fuldt opladet</string>
     <string name="power_remaining_duration_only">Omtrent %1$s tilbage</string>
     <string name="power_remaining_duration_only_short">%1$s tilbage</string>
+    <string name="process_kernel_label">Android-OS</string>
     <string name="profile_owned_footer">Profilen kan være overvåget</string>
     <string name="prompt_danger">Fare</string>
     <string name="prompt_detecting">Detekterer</string>

@@ -68,6 +68,7 @@
     <string name="accessibility_wifi_two_bars">Wi-Fi har to bjælker.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi har tre bjælker.</string>
     <string name="accessibility_wifi_signal_full">Wi-Fi har fuldt signal.</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="data_usage_uninstalled_apps">Fjernede apps</string>
     <string name="data_usage_uninstalled_apps_users">Fjernede apps og brugere</string>
     <string name="tether_settings_title_usb">Netdeling via USB</string>
@@ -406,7 +407,7 @@ Advarsel! Alle dine data vil blive slettet.
     <string name="can_not_dial_vt_while_voice_prompt">Kan ikke foretage et videoopkald, mens du er i gang med taleopkald</string>
     <string name="voice_dial_out">Stemmeopkald</string>
     <string name="notification_AllMissedCallTitle">Alle ubesvarede opkald</string>
-    <string name="close">Luk</string>
+    <string name="close">Turn off</string>
     <string name="callFailed_simError">SIM-kortfejl</string>
     <string name="incall_error_supp_service_unknown">Denne tjeneste understøttes ikke.</string>
     <string name="incall_error_power_off">Slå flytilstand fra for at foretage et opkald.</string>

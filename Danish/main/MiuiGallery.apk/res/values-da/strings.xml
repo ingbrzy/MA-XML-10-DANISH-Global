@@ -54,6 +54,7 @@
     <string name="album_name_people">Personer</string>
     <string name="album_name_recent_discovery">Seneste</string>
     <string name="album_name_tags">Tags</string>
+    <string name="album_notes">Noter</string>
     <string name="album_others_share_baby_info_format">Babyalbum fra %s</string>
     <string name="album_others_share_info_format">Fra %s</string>
     <string name="album_owner_share">Delt</string>
@@ -160,7 +161,7 @@
     <string name="backup_no_network_title">Kan ikke oprette forbindelse med Mi Cloud</string>
     <string name="backup_no_wifi_btn_text">Brug data</string>
     <string name="backup_no_wifi_desc">Du kan også sikkerhedskopiere emner ved hjælp af mobildata</string>
-    <string name="backup_no_wifi_title">Sync will resume after you connect to Wi-Fi</string>
+    <string name="backup_no_wifi_title">Synkronisering vil fortsætte, efter at du har tilsluttet til Wi-Fi</string>
     <string name="backup_only_in_wifi">Brug kun Wi‑Fi til at sikkerhedskopiere fotos og videoer</string>
     <string name="backup_only_in_wifi_summary">Brug aldrig mobildata til at sikkerhedskopiere fotos eller videoer</string>
     <string name="backup_only_wifi_dialog_message">Brug mobildata til at sikkerhedskopiere fotos og videoer?</string>
@@ -206,8 +207,8 @@
     <string name="change_to_face_mode">Vis kun ansigt</string>
     <string name="change_to_photo_mode">Vis fulde forhåndsvisninger</string>
     <string name="change_to_visible">Gendan denne person?</string>
-    <string name="checked">Selected</string>
-    <string name="checked_something">Selected %s</string>
+    <string name="checked">Valgt</string>
+    <string name="checked_something">Valgt %s</string>
     <string name="choose_baby_sexy">Køn</string>
     <string name="choose_owner_relation">Forhold</string>
     <string name="choose_people">Vælg en persons album</string>
@@ -373,8 +374,7 @@
     <string name="enable_cloud_for_sharing">Tænd for Mi Cloud-albummer, for at se delte fotos.</string>
     <string name="enable_face_album_summary">Sorter automatisk fotos efter de personer, der er i dem</string>
     <string name="enable_face_album_title">Sorter efter personer</string>
-    <string name="enabling_face_feature">Lige et øjeblik…</string>
-    <string name="enter_choice_mode">Entered Share dialog</string>
+    <string name="enter_choice_mode">Indtastet Del-dialog</string>
     <string name="enter_email_hint">Indtast e-mailadresse</string>
     <string name="error_album_not_exist">Albummet eksisterer ikke</string>
     <string name="error_build_thumbnail_action">Download original fil</string>
@@ -438,7 +438,7 @@
     <string name="error_unknown_msg">Der opstod en fejl. Send os din feedback.</string>
     <string name="error_unknown_tip">Der opstod en fejl.</string>
     <string name="exit">Afslut</string>
-    <string name="exit_choice_mode">Left Share dialog</string>
+    <string name="exit_choice_mode">Efterlod Del-dialog</string>
     <string name="exit_share">Forlad album</string>
     <string name="exit_share_failed">Kunne ikke forlade %1$s</string>
     <string name="exit_share_in_process">Forlader album \"%s\"…</string>
@@ -446,7 +446,6 @@
     <string name="exit_video_play">Afslut</string>
     <string name="expand_desc">Mere</string>
     <string name="expand_people">Vis flere folk</string>
-    <string name="face_album_detecting_tip">Lige et øjeblik…</string>
     <string name="face_album_empty">"Ikke nok fotos til at genkende folk.
 Tag flere fotos af dine venner!"</string>
     <string name="face_album_empty_syncing">Synkroniserer data. Kom tilbage om et stykke tid</string>
@@ -454,7 +453,6 @@ Tag flere fotos af dine venner!"</string>
     <string name="face_album_long_tap_tip">For at vælge flere folk eller at ændre gruppeindstillinger skal du trykke &amp; holde et profilfoto.</string>
     <string name="face_album_new_name_hint">Nyt navn</string>
     <string name="face_album_not_named">Unavngivet</string>
-    <string name="face_album_pending_enable_tip">Vil sortere fotos, når enheden er tilsluttet til wi-fi.</string>
     <string name="face_album_rename_hint">Indtast navn</string>
     <string name="face_album_title">Fotos med %s</string>
     <string name="face_album_use_tip">Sortér automatisk fotos efter de folk, der er på billederne.</string>
@@ -465,6 +463,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="face_name_edit">Redigér</string>
     <string name="face_name_input">Indtast navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fuldføre handlingen</string>
     <string name="fail_to_pick_email">Ugyldig e-mailadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Tjek din dataforbindelse og prøv igen.</string>
@@ -472,7 +471,10 @@ Tag flere fotos af dine venner!"</string>
     <string name="fancy_color_desc">Farver</string>
     <string name="fast_share_auto_render">Forskøn</string>
     <string name="fast_share_auto_render_finish">Forskønnet</string>
-    <string name="feature_guidance_photo_effects">Photo effects</string>
+    <string name="feature_guidance_photo_effects">"Nye fotoeffekter
+er tilgængelige"</string>
+    <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgængelige</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Hukommelse</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Pink</string>
@@ -541,6 +543,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Indstil</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri skal have adgang til 
 %s
  for at fungere normalt, tryk på \"Indstil\" for at gå til Tilladelser."</string>
@@ -575,8 +578,8 @@ Tag flere fotos af dine venner!"</string>
     <string name="image_invalid_path">Ugyldig sti</string>
     <string name="image_not_found">Kunne ikke finde billede</string>
     <string name="image_quota_fulfiled">For mange billeder. Slet nogle billeder og prøv igen.</string>
-    <string name="image_with_time">Photo taken on %s</string>
-    <string name="image_with_time_and_location">Photo taken on %1$s. Location: %2$s.</string>
+    <string name="image_with_time">Foto taget på %s</string>
+    <string name="image_with_time_and_location">Foto taget på %1$s. Placering: %2$s.</string>
     <string name="impunity_declaration_settings">Meddelelse om internetforbindelse</string>
     <string name="impunity_declaration_summary">Vis meddelelse om internetforbindelse, hver gang du åbner Galleri</string>
     <string name="initializing_cloud">Initialiserer…</string>
@@ -736,6 +739,7 @@ til at gøre Galleri personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Vælg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Unavngivet</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Fotos med kæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Fotos</string>
@@ -810,7 +814,13 @@ til at gøre Galleri personligt"</string>
     <string name="photo_print_package_installing">Indlæser plug-in…</string>
     <string name="photo_save_to_msg">Gemt på %s</string>
     <string name="photomovie_audio_custom">Lokal</string>
+    <string name="photomovie_audio_default">Hukommelse</string>
+    <string name="photomovie_audio_kawaii">Romantisk</string>
+    <string name="photomovie_audio_light">Ballade</string>
+    <string name="photomovie_audio_linear">Rock</string>
     <string name="photomovie_audio_none">Ingen</string>
+    <string name="photomovie_audio_soft">Ukulele</string>
+    <string name="photomovie_audio_sport">Techno</string>
     <string name="photomovie_cancel_download">Annuller</string>
     <string name="photomovie_delete_disable">Du skal bruge mindst 3 billeder for at oprette et klip.</string>
     <string name="photomovie_download">Download</string>
@@ -832,6 +842,11 @@ til at gøre Galleri personligt"</string>
     <string name="photomovie_tab_music">Musik</string>
     <string name="photomovie_tab_template">Skabelon</string>
     <string name="photomovie_template_default">Langsom</string>
+    <string name="photomovie_template_kawaii">Charms</string>
+    <string name="photomovie_template_light">Brise</string>
+    <string name="photomovie_template_linear">Køretur</string>
+    <string name="photomovie_template_soft">Ungdom</string>
+    <string name="photomovie_template_sport">Vigor</string>
     <string name="pick_from_contact">Vælg blandt kontakter</string>
     <string name="pick_too_many_recipients">For mange modtagere</string>
     <string name="picker_cancel_download">Annuller downloading</string>
@@ -844,6 +859,7 @@ til at gøre Galleri personligt"</string>
     <string name="picker_image_will_download">%d af de valgte fotos findes ikke på enhed. De vil blive downloadet.</string>
     <string name="picker_no_network_message">Tilslut til netværket for at downloade</string>
     <string name="picker_origin_need_download">%1$d af de valgte fotos (%2$d MB) findes ikke på enhed. Download ved hjælp af mobildata?</string>
+    <string name="picker_origin_request_progress_message">Forbereder originale filer (%1$d/%2$d)…</string>
     <string name="picker_title_format">Vælg %1$d til %2$d fotos</string>
     <string name="picker_title_selection_format">Valgte fotos: %d</string>
     <string name="picker_title_selection_format_multiple">Vælg %1$d til %2$d fotos (%3$d)</string>
@@ -957,12 +973,12 @@ til at gøre Galleri personligt"</string>
     <string name="search_net_error">Der opstod en netværksfejl. Opret forbindelse til et andet netværk, og prøv igen.</string>
     <string name="search_request_applied">Anvendt</string>
     <string name="search_request_open">Tilmeld dig test-teamet</string>
+    <string name="search_request_requesting">Anvendt. Vent et stykke tid, før du starter.</string>
     <string name="search_result_empty">Kunne ikke finde noget</string>
     <string name="search_retry">Prøv igen</string>
     <string name="search_select_network">Vælg netværk</string>
     <string name="search_set_network_connection">Netværksindstillinger</string>
     <string name="search_setting_sub_title">Søg efter personer, steder og objekter på dine fotos.</string>
-    <string name="search_setting_sub_title_open">Anvendt. Vent et stykke tid før du starter.</string>
     <string name="search_setting_title">Find fotos i Galleri</string>
     <string name="search_syncing">Synkroniserer data, kom tilbage om et stykke tid</string>
     <string name="search_title_album">Album</string>
@@ -975,6 +991,9 @@ til at gøre Galleri personligt"</string>
     <string name="search_title_recommend">Anbefalet</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leder efter projektor…</string>
     <string name="secret_album_card_description">Det bedste sted for alle dine små hemmeligheder</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -992,6 +1011,7 @@ til at gøre Galleri personligt"</string>
     <string name="secret_reason_too_large">Filen er for stor</string>
     <string name="secret_reason_type_not_support">Denne filtype understøttes ikke</string>
     <string name="secret_reason_unknow_reasons">Ukendt fejl</string>
+    <string name="secret_reason_video_not_support">Kan ikke føje videoer til skjult album</string>
     <string name="see_ignore_faces">Se folk, du har ignoreret.</string>
     <string name="select_item_face">"Er dette '%s'?"</string>
     <string name="select_origin_tip">Original fil (%s)</string>
@@ -1062,7 +1082,7 @@ til at gøre Galleri personligt"</string>
     <string name="sticker_words">Ord</string>
     <string name="storage_description_primary">Internt lager</string>
     <string name="storage_description_sdcard">SD-kort</string>
-    <string name="storage_description_usb">USB storage</string>
+    <string name="storage_description_usb">USB-lager</string>
     <string name="storage_description_xspace">Dual apps-data</string>
     <string name="storage_no_space">Ikke nok plads</string>
     <string name="sub_discard_confirm_message">Gem ændringer?</string>
@@ -1128,8 +1148,8 @@ til at gøre Galleri personligt"</string>
     <string name="turn_off_and_move">Sluk og flyt</string>
     <string name="turn_on_and_remove">Tænd og flyt</string>
     <string name="turn_on_sync">Tænd synkronisering</string>
-    <string name="unchecked">Deselected</string>
-    <string name="unchecked_something">Deselected %s</string>
+    <string name="unchecked">Fravalgt</string>
+    <string name="unchecked_something">Fravalgt %s</string>
     <string name="unpublish_failed">Kunne ikke stoppe med at udgive</string>
     <string name="unpublish_succeeded">Album ikke længere udgivet</string>
     <string name="unpublishing">Annullerer…</string>
@@ -1205,7 +1225,7 @@ til at gøre Galleri personligt"</string>
     <string name="video_editor_smart_effect_fastslow">Bevægelse</string>
     <string name="video_editor_smart_effect_freesze">Stop bevægelse</string>
     <string name="video_editor_smart_effect_halo">Halo</string>
-    <string name="video_editor_smart_effect_high_iframes_text">Denne effekt fungerer bedst på videoer med høj framerate.</string>
+    <string name="video_editor_smart_effect_high_iframes_text">Denne effekt fungerer bedst på videoer med en framerate på 120 fps.</string>
     <string name="video_editor_smart_effect_movie">Film</string>
     <string name="video_editor_smart_effect_none">Ingen</string>
     <string name="video_editor_smart_effect_radical">Optimistisk</string>
@@ -1233,16 +1253,17 @@ til at gøre Galleri personligt"</string>
     <string name="video_editor_unsupport_audio_file">Ikke-understøttet lydfil</string>
     <string name="video_editor_unzip_file_fail">Kunne ikke udpakke video.</string>
     <string name="video_editor_video_is_short">Kan ikke redigere denne video.</string>
+    <string name="video_editor_video_loading">Forbereder video. Vent et sekund eller to og prøv så igen.</string>
     <string name="video_editor_watermark">Vandmærke</string>
     <string name="video_err">Kan ikke afspille video.</string>
     <string name="video_not_exist">Video findes ikke.</string>
-    <string name="video_with_time">Video taken on %s</string>
-    <string name="video_with_time_and_location">Video taken on %1$s. Location: %2$s.</string>
+    <string name="video_with_time">Video taget på %s</string>
+    <string name="video_with_time_and_location">Video taget på %1$s. Placering: %2$s.</string>
     <string name="view_by_gallery_tip">MIUI Galleri</string>
     <string name="view_face_album">Se album</string>
     <string name="view_more_face_desc">Se flere folk</string>
-    <string name="view_queuing_status">Kontrollér status</string>
     <string name="voice_assistant">Stemmeinput</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Velkommen til Mi Cloud</string>
     <string name="where_is_barcode">Hvor er QR-koden?</string>
     <string name="who_is_this">Hvem er det?</string>
