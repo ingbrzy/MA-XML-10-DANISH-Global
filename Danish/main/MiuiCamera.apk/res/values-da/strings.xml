@@ -377,6 +377,7 @@
     <string name="pref_camera_delay_capture_entry_5s">5 s forsinkelse</string>
     <string name="pref_camera_delay_capture_entry_10s">10 s forsinkelse</string>
     <string name="pref_ai_detect">AI-detektion</string>
+    <string name="pref_google_lens">Google lens</string>
     <string name="pref_camera_beauty">Forskøn</string>
     <string name="pref_camera_beauty_deep">Forskønnelse Pro</string>
     <string name="pref_camera_asd_night_title">Forstærk lavbelyste foto automatisk</string>
@@ -426,10 +427,11 @@
     <string name="pref_camera_portrait_mode_entry_on">Portrættilstand er tændt.</string>
     <string name="portrait_mode_lowlight_hint">Det er for mørkt nu.</string>
     <string name="portrait_mode_too_close_hint">Gå længere væk fra objektet.</string>
-    <string name="portrait_mode_too_far_hint">Placer objektet inden for 2,5 meters afstand.</string>
+    <string name="portrait_mode_too_far_hint">Place object within 2 meters</string>
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portræt slører baggrunden
 og fremhæver folk tæt på."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
     <string name="simple_mode_button_text_square">Sluk Kvadrat</string>
     <string name="face_beauty_smart">Smart</string>
@@ -444,6 +446,7 @@ og fremhæver folk tæt på."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Tilstande</string>
     <string name="button_front_camera_title">Tag en selfie</string>
     <string name="button_normal_video_title">Optag video</string>

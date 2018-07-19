@@ -15,7 +15,7 @@
     <string name="hide_touch_assistant_intro">Skjul Kvikbold i valgte apps</string>
     <string name="hide_when_fullscreen">Flyt til siden ved fuld skærm</string>
     <string name="hide_when_fullscreen_intro">Fly til siden når der gås i fuldskærmstilstand.</string>
-    <string name="mi_wallet_summary">Transport card/Mi Pay/Key card</string>
+    <string name="mi_wallet_summary">Transportkort/Mi Pay/nøglekort</string>
     <string name="motion_behavior">Foretrukken fagt</string>
     <string name="name_alipay_payment_code">Alipay betaling</string>
     <string name="name_alipay_scan">Alipay scanner</string>

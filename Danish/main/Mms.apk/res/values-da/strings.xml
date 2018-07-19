@@ -192,6 +192,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny besked</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_prefix">"Vds: "</string>
@@ -396,7 +397,7 @@
     <string name="pref_show_blocked_messages_summary">Vis blokeret SMS i samtaleliste</string>
     <string name="pref_show_list_avatar_summary">Vis profilfotos og kontaktinfo i listevisning</string>
     <string name="pref_show_photo_word_summary">Tildel automatisk et billede til kontaktpersoner uden et</string>
-    <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
+    <string name="pref_show_sms_template_entry_summary">Detektér engangsadgangskoder og vis hurtige menuer</string>
     <string name="pref_show_sms_template_in_summary">Opdag automatisk engangsadgangskoder i SMS-beskeder</string>
     <string name="pref_show_sms_template_summary">Slå til for at brug de smarte funktioner i Mi Message såsom kodekopiering, saldotjek etc.</string>
     <string name="pref_smart_messages_settings">Smarte beskeder</string>
@@ -543,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">Send besked</string>
     <string name="send_sms">Send besked</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt den: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Besked udløbet eller utilgængelig</string>

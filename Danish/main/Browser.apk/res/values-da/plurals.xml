@@ -21,11 +21,11 @@
         <item quantity="one">%d matches</item>
     </plurals>
     <plurals name="mw_last_num_days">
-        <item quantity="other">Last %d days</item>
-        <item quantity="one">Last %d days</item>
+        <item quantity="other">Sidste %d dage</item>
+        <item quantity="one">Sidste %d dag</item>
     </plurals>
     <plurals name="mw_matches_found">
-        <item quantity="other">%1$d of %2$d</item>
+        <item quantity="other">1 match</item>
         <item quantity="one">1 match</item>
     </plurals>
     <plurals name="nav_screen_incognito_time">
@@ -73,8 +73,8 @@
         <item quantity="one">Slet %1$d element fra historikken?</item>
     </plurals>
     <plurals name="video_push_multi_message">
-        <item quantity="other">%1$d updates available.</item>
-        <item quantity="one">%1$d update available.</item>
+        <item quantity="other">%1$d opdateringer er tilgængelige.</item>
+        <item quantity="one">%1$d opdatering er tilgængelig.</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">%d minutter tilbage</item>

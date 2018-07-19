@@ -298,7 +298,7 @@ for at åbne Andet rum fra låseskærm"</string>
     <string name="xspace_default_setting_label">Standard app</string>
     <string name="xspace_default_app_title">Standard app</string>
     <string name="xspace_default_app_summary">Angiv standardapp for betalinger, deling, favoritter og meget mere.</string>
-    <string name="xspace_default_setting_dialog_title">Standard</string>
+    <string name="xspace_default_setting_dialog_title"> default</string>
     <string name="xspace_default_guide_notification_content">Tryk for at ændre</string>
     <string name="xspace_default_guide_notification_main_title">Bruger standard-app</string>
     <string name="xspace_default_guide_notification_xspace_title">Bruger dual-app</string>
