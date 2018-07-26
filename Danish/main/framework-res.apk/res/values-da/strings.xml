@@ -23,8 +23,10 @@
     <string name="dialog_alert_title">Bemærk</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Denne video kan ikke streames på denne enhed.</string>
     <string name="selectTextMode">Markér tekst</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon for fingeraftryk</string>
     <string name="paste_as_plain_text">Indsæt som almindelig tekst</string>
+    <string name="autofill">AutoFyld</string>
     <string name="BaMmi">Opkaldsspærring</string>
     <string name="CLIRDefaultOffNextCallOff">Standarder for opkalds-id til ikke begrænset. Næste opkald: Ikke begrænset</string>
     <string name="CLIRDefaultOffNextCallOn">Standarder for opkalds-id til ikke begrænset. Næste opkald: Begrænset</string>
@@ -41,8 +43,10 @@
     <string name="ColrMmi">Id for opkaldsmodtager er skjult</string>
     <string name="CwMmi">Ventende opkald</string>
     <string name="DndMmi">Forstyr ikke</string>
+    <string name="EmergencyCallWarningSummary">Nødopkald kræver adgang til et mobilnetværk.</string>
+    <string name="EmergencyCallWarningTitle">Wi‑Fi-opkald er aktiveret</string>
     <string name="Midnight">Midnat</string>
-    <string name="NetworkPreferenceSwitchSummary">Hvis du vil forbedre signalet, kan du prøve at ændre den valgte netværkstype i System > Netværk og internet > Mobilnetværk > Foretrukken netværkstype.</string>
+    <string name="NetworkPreferenceSwitchSummary">Hvis du vil forbedre signalet, kan du prøve at ændre den valgte netværkstype i Indstillinger > Netværk og internet > Mobilnetværk > Foretrukken netværkstype.</string>
     <string name="NetworkPreferenceSwitchTitle">Der er ingen forbindelse til netværket</string>
     <string name="Noon">Middag</string>
     <string name="PinMmi">ændring af pinkode</string>
@@ -129,12 +133,11 @@
     <string name="app_category_productivity">Produktivitet</string>
     <string name="app_category_social">Sociale medier og kommunikation</string>
     <string name="app_category_video">Film og video</string>
-    <string name="app_info">Oplysninger om appen</string>
+    <string name="app_info">Appinfo</string>
     <string name="app_not_found">Der blev ikke fundet nogen applikation, der kan håndtere denne handling</string>
     <string name="app_running_notification_text">Tryk for at få flere oplysninger eller for at stoppe appen.</string>
     <string name="app_running_notification_title">%1$s kører</string>
     <string name="app_upgrading_toast">%1$s opgraderer…</string>
-    <string name="autofill">AutoFyld</string>
     <string name="autofill_address_name_separator">" "</string>
     <string name="autofill_address_summary_format">$1$2$3</string>
     <string name="autofill_address_summary_name_format">$1$2$3</string>
@@ -270,10 +273,6 @@ ved hjælp af %s"</string>
     <string name="deleted_key">%1$s er slettet</string>
     <string name="demo_restarting_message">Nulstiller enheden…</string>
     <string name="demo_starting_message">Starter demoen…</string>
-    <string name="demo_user_inactivity_timeout_countdown">Du mister alle ændringer, og demoen starter igen om %1$s sekunder…</string>
-    <string name="demo_user_inactivity_timeout_left_button">Annuller</string>
-    <string name="demo_user_inactivity_timeout_right_button">Nulstil nu</string>
-    <string name="demo_user_inactivity_timeout_title">Vil du nulstille enheden?</string>
     <string name="deny">Afvis</string>
     <string name="description_target_unlock_tablet">Glid hurtigt henover for at låse op.</string>
     <string name="device_storage_monitor_notification_channel">Lagerplads på enheden</string>
@@ -293,18 +292,6 @@ ved hjælp af %s"</string>
     <string name="dump_heap_notification_detail">En heap dump er blevet indsamlet. Tryk for at dele</string>
     <string name="dump_heap_text">Processen %1$s har overskredet sin proceshukommelsesgrænse på %2$s. En heap dump er tilgængelig og kan deles med udvikleren. Vær forsigtig: Denne heap dump kan indeholde dine personlige oplysninger, som appen har adgang til.</string>
     <string name="dump_heap_title">Vil du dele en heap dump?</string>
-    <string name="durationDayHour">%1$d dag %2$d t.</string>
-    <string name="durationDayHours">%1$d dag %2$d t.</string>
-    <string name="durationDays">%1$d dage</string>
-    <string name="durationHourMinute">%1$d t. %2$d min.</string>
-    <string name="durationHourMinutes">%1$d t. %2$d min.</string>
-    <string name="durationHours">%1$d timer</string>
-    <string name="durationMinute">%1$d min.</string>
-    <string name="durationMinuteSecond">%1$d min. %2$d s</string>
-    <string name="durationMinuteSeconds">%1$d min. %2$d s</string>
-    <string name="durationMinutes">%1$d min.</string>
-    <string name="durationSecond">%1$d sek.</string>
-    <string name="durationSeconds">%1$d sek.</string>
     <string name="editTextMenuTitle">Teksthandlinger</string>
     <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
     <string name="elapsed_time_short_format_mm_ss">%1$02d:%2$02d</string>
@@ -384,6 +371,7 @@ Kontakt din organisations administrator, hvis du har nogen spørgsmål."</string
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Funktionskoden er komplet.</string>
     <string name="fcError">Forbindelsesproblemer eller ugyldig funktionskode.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Find</string>
     <string name="find_next">Find næste</string>
     <string name="find_on_page">Find på siden</string>
@@ -405,14 +393,13 @@ Kontakt din organisations administrator, hvis du har nogen spørgsmål."</string
     <string name="floating_toolbar_close_overflow_description">Luk overløb</string>
     <string name="floating_toolbar_open_overflow_description">Flere valgmuligheder</string>
     <string name="force_close">OK</string>
-    <string name="foreground_service_app_in_background">%1$s kører i baggrunden</string>
-    <string name="foreground_service_apps_in_background">%1$d apps kører i baggrunden</string>
+    <string name="foreground_service_app_in_background">%1$s bruger batteri</string>
+    <string name="foreground_service_apps_in_background">%1$d apps bruger batteri</string>
     <string name="foreground_service_multiple_separator">%1$s, %2$s</string>
     <string name="foreground_service_tap_for_details">Tryk for at se oplysninger om batteri- og dataforbrug</string>
     <string name="forward_intent_to_owner">Du bruger denne app uden for din arbejdsprofil</string>
     <string name="forward_intent_to_work">Du bruger denne app i din arbejdsprofil</string>
     <string name="gadget_host_error_inflating">Widget kunne ikke tilføjes.</string>
-    <string name="gigabyteShort">GB</string>
     <string name="global_action_assist">Assistance</string>
     <string name="global_action_bug_report">Fejlrapport</string>
     <string name="global_action_emergency">Nødopkald</string>
@@ -511,7 +498,7 @@ Er du sikker på, at du vil navigere væk fra denne side?"</string>
     <string name="keyboardview_keycode_enter">Angiv</string>
     <string name="keyboardview_keycode_mode_change">Ændring af tilstand</string>
     <string name="keyboardview_keycode_shift">Shift</string>
-    <string name="keygaurd_accessibility_media_controls">Mediekontrolelementer</string>
+    <string name="keygaurd_accessibility_media_controls">Mediestyring</string>
     <string name="keyguard_accessibility_add_widget">Tilføj widget.</string>
     <string name="keyguard_accessibility_camera">Kamera</string>
     <string name="keyguard_accessibility_expand_lock_area">Udvid oplåsningsområdet.</string>
@@ -570,6 +557,7 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Indtast pinkode til SIM-kort</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kortet låses op…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_attempts_countdown">Prøv igen om %1$d sekunder.</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har indtastet din adgangskode forkert %1$d gange. 
 
@@ -583,7 +571,6 @@ Prøv igen om %2$d sekunder."</string>
     <string name="kg_wrong_password">Forkert adgangskode</string>
     <string name="kg_wrong_pattern">Forkert mønster</string>
     <string name="kg_wrong_pin">Forkert pinkode</string>
-    <string name="kilobyteShort">kB</string>
     <string name="language_picker_section_all">Alle sprog</string>
     <string name="language_picker_section_suggested">Foreslået</string>
     <string name="language_selection_title">Tilføj et sprog</string>
@@ -772,7 +759,6 @@ Prøv igen om %2$d sekunder."</string>
     <string name="mediasize_na_tabloid">Tabloid</string>
     <string name="mediasize_unknown_landscape">Ukendt liggende format</string>
     <string name="mediasize_unknown_portrait">Ukendt stående format</string>
-    <string name="megabyteShort">Mb</string>
     <string name="meid">MEID</string>
     <string name="menu_delete_shortcut_label">slet</string>
     <string name="menu_enter_shortcut_label">indtast</string>
@@ -821,8 +807,8 @@ Prøv igen om %2$d sekunder."</string>
     <string name="notification_channel_developer">Udviklermeddelelser</string>
     <string name="notification_channel_device_admin">Enhedsadministration</string>
     <string name="notification_channel_emergency_callback">Nødtilbagekaldstilstand</string>
-    <string name="notification_channel_foreground_service">Apps, der kører i baggrunden</string>
-    <string name="notification_channel_mobile_data_alert">Underretninger om mobildata</string>
+    <string name="notification_channel_foreground_service">Apps, der bruger batteri</string>
+    <string name="notification_channel_mobile_data_status">Status for mobildata</string>
     <string name="notification_channel_network_alert">Underretninger</string>
     <string name="notification_channel_network_alerts">Netværksunderretninger</string>
     <string name="notification_channel_network_available">Tilgængeligt netværk</string>
@@ -837,10 +823,11 @@ Prøv igen om %2$d sekunder."</string>
     <string name="notification_channel_voice_mail">Talebeskeder</string>
     <string name="notification_channel_vpn">VPN-status</string>
     <string name="notification_channel_wfc">Wi-Fi-opkald</string>
-    <string name="notification_hidden_by_policy_text">Indholdet er skjult af politikken</string>
-    <string name="notification_hidden_text">Indholdet er skjult</string>
+    <string name="notification_hidden_text">Ny underretning</string>
     <string name="notification_listener_binding_label">Underretningslytter</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Tjeneste til rangering af underretninger</string>
+    <string name="notification_reply_button_accessibility">Svar</string>
     <string name="notification_title">Loginfejl for %1$s</string>
     <string name="notification_work_profile_content_description">Arbejdsprofil</string>
     <string name="now_string_shortest">nu</string>
@@ -950,8 +937,8 @@ Prøv igen om %2$d sekunder."</string>
     <string name="permdesc_requestInstallPackages">Tillader, at en app anmoder om installation af pakker.</string>
     <string name="permdesc_route_media_output">Tillader, at en applikation viderefører medieoutput til andre eksterne enheder.</string>
     <string name="permdesc_runInBackground">Denne app kan køre i baggrunden. Dette kan aflade batteriet hurtigere.</string>
-    <string name="permdesc_sdcardRead">Tillader, at appen læser indholdet på dit USB-lager.</string>
-    <string name="permdesc_sdcardWrite">Lader appen skrive til USB.</string>
+    <string name="permdesc_sdcardRead">Tillader, at appen læser indholdet af dit SD-kort.</string>
+    <string name="permdesc_sdcardWrite">Tillader, at appen kan skrive til SD-kortet.</string>
     <string name="permdesc_sendSms">Tillader, at appen kan sende sms-beskeder. Dette kan resultere i uventede opkrævninger. Skadelige apps kan koste dig penge ved at sende beskeder uden din bekræftelse.</string>
     <string name="permdesc_setAlarm">Tillader, at appen kan indstille en alarm i en installeret alarmapp. Nogle alarmapps har muligvis ikke denne funktion.</string>
     <string name="permdesc_setInputCalibration">Tillader, at appen ændrer kalibreringsparametrene for berøringsskærmen. Dette bør aldrig være nødvendigt for almindelige apps.</string>
@@ -980,7 +967,7 @@ Prøv igen om %2$d sekunder."</string>
     <string name="permgroupdesc_calendar">have adgang til din kalender</string>
     <string name="permgroupdesc_camera">tage billeder og optage video</string>
     <string name="permgroupdesc_contacts">have adgang til dine kontaktpersoner</string>
-    <string name="permgroupdesc_location">at få adgang til enhedens placering</string>
+    <string name="permgroupdesc_location">få adgang til enhedens placering</string>
     <string name="permgroupdesc_microphone">optage lyd</string>
     <string name="permgroupdesc_phone">foretage og administrere telefonopkald</string>
     <string name="permgroupdesc_sensors">få adgang til sensordata om dine livstegn</string>
@@ -1077,8 +1064,8 @@ for kontoen %s."</string>
     <string name="permlab_requestInstallPackages">anmod om installation af pakker</string>
     <string name="permlab_route_media_output">viderefør medieoutput</string>
     <string name="permlab_runInBackground">kør i baggrunden</string>
-    <string name="permlab_sdcardRead">læse USB-lagerets indhold</string>
-    <string name="permlab_sdcardWrite">ændre eller slette indhold på USB-lager</string>
+    <string name="permlab_sdcardRead">læse indholdet af dit SD-kort</string>
+    <string name="permlab_sdcardWrite">ændre eller slette indholdet på dit SD-kort</string>
     <string name="permlab_sendSms">Send og se sms-beskeder</string>
     <string name="permlab_setAlarm">indstille en alarm</string>
     <string name="permlab_setInputCalibration">skift kalibrering for inputenheden</string>
@@ -1086,7 +1073,7 @@ for kontoen %s."</string>
     <string name="permlab_setWallpaper">angive baggrund</string>
     <string name="permlab_setWallpaperHints">ændre størrelsen på din baggrund</string>
     <string name="permlab_sim_communication">send kommandoer til SIM</string>
-    <string name="permlab_statusBar">deaktiver eller rediger statuslinje</string>
+    <string name="permlab_statusBar">deaktivere eller redigere statuslinje</string>
     <string name="permlab_statusBarService">vær statusbjælken</string>
     <string name="permlab_subscribedFeedsRead">læse feeds, jeg abonnerer på</string>
     <string name="permlab_systemAlertWindow">Denne app kan vises oven på andre apps</string>
@@ -1152,6 +1139,7 @@ for kontoen %s."</string>
     <string name="policylab_watchLogin">Overvåg forsøg på oplåsning af skærm</string>
     <string name="policylab_wipeData">Slette alle data</string>
     <string name="policylab_wipeData_secondaryUser">Slet brugerdata</string>
+    <string name="popup_window_default_title">Pop op-vindue</string>
     <string name="postalTypeCustom">Tilpasset</string>
     <string name="postalTypeHome">Hjem</string>
     <string name="postalTypeOther">Andet</string>
@@ -1166,7 +1154,7 @@ for kontoen %s."</string>
     <string name="print_service_installed_title">Tjenesten %s er installeret</string>
     <string name="profile_encrypted_detail">Arbejdsprofilen er låst</string>
     <string name="profile_encrypted_message">Tryk for at låse profilen op</string>
-    <string name="progress_erasing">Sletter USB-lageret...</string>
+    <string name="progress_erasing">Sletter SD-kortet...</string>
     <string name="quick_contacts_not_available">Der blev ikke fundet nogen applikation, som kan vise denne kontaktperson.</string>
     <string name="reason_service_unavailable">Udskrivningstjenesten er ikke aktiveret</string>
     <string name="reason_unknown">ukendt</string>
@@ -1200,8 +1188,6 @@ for kontoen %s."</string>
     <string name="replace">Erstat...</string>
     <string name="report">Rapportér</string>
     <string name="reset">Nulstil</string>
-    <string name="reset_retail_demo_mode_text">Tryk for at nulstille enheden</string>
-    <string name="reset_retail_demo_mode_title">Vil du nulstille enheden?</string>
     <string name="restr_pin_confirm_pin">Bekræft den nye pinkode</string>
     <string name="restr_pin_create_pin">Opret en pinkode til ændring af begrænsninger</string>
     <string name="restr_pin_enter_admin_pin">Indtast administratorpinkoden</string>
@@ -1354,7 +1340,6 @@ Du kan skade hørelsen ved at lytte til meget højt musik over længere tid."</s
     <string name="system_error_manufacturer">Der er et internt problem med enheden. Kontakt producenten for at få yderligere oplysninger.</string>
     <string name="system_error_wipe_data">Der er et internt problem med enheden, og den vil muligvis være ustabil, indtil du gendanner fabriksdataene.</string>
     <string name="taking_remote_bugreport_notification_title">Opretter fejlrapport…</string>
-    <string name="terabyteShort">Tb</string>
     <string name="tethered_notification_message">Tryk for at konfigurere</string>
     <string name="tethered_notification_title">Netdeling eller hotspot er aktivt</string>
     <string name="textSelectionCABTitle">Tekstmarkering</string>
@@ -1385,7 +1370,7 @@ Du kan skade hørelsen ved at lytte til meget højt musik over længere tid."</s
     <string name="unsupported_display_size_show">Vis altid</string>
     <string name="upload_file">Vælg fil</string>
     <string name="usb_accessory_notification_title">Tilsluttet et USB-ekstraudstyr</string>
-    <string name="usb_charging_notification_title">USB, der oplader denne enhed</string>
+    <string name="usb_charging_notification_title">USB oplader denne enhed</string>
     <string name="usb_midi_notification_title">USB til MIDI</string>
     <string name="usb_midi_peripheral_manufacturer_name">Android</string>
     <string name="usb_midi_peripheral_name">USB-port til eksterne Android-enheder</string>
@@ -1396,6 +1381,8 @@ Du kan skade hørelsen ved at lytte til meget højt musik over længere tid."</s
     <string name="usb_notification_message">Tryk for at se flere muligheder.</string>
     <string name="usb_ptp_notification_title">USB til billedoverførsel</string>
     <string name="usb_supplying_notification_title">USB, der leverer strøm til den tilsluttede enhed</string>
+    <string name="usb_unsupported_audio_accessory_message">Den tilsluttede enhed er ikke kompatibel med denne telefon. Tryk for at få flere oplysninger.</string>
+    <string name="usb_unsupported_audio_accessory_title">Der blev registreret et analogt lydtilbehør</string>
     <string name="use_a_different_app">Brug en anden app</string>
     <string name="user_creation_account_exists">Vil du give %1$s tilladelse til at oprette en ny bruger med %2$s?</string>
     <string name="user_creation_adding">Vil du give %1$s tilladelse til at oprette en ny bruger med %2$s (der findes allerede en bruger med denne konto)?</string>
@@ -1464,7 +1451,14 @@ Vil du lukke den?"</string>
     <string name="whichViewApplication">Åbn med</string>
     <string name="whichViewApplicationLabel">Åbn</string>
     <string name="whichViewApplicationNamed">Åbn med %1$s</string>
+    <string name="wifi_available_action_all_networks">Alle netværk</string>
+    <string name="wifi_available_action_connect">Opret forbindelse</string>
+    <string name="wifi_available_content_failed_to_connect">Tryk for at se alle netværk</string>
     <string name="wifi_available_sign_in">Log ind på Wi-Fi-netværk</string>
+    <string name="wifi_available_title">Opret forbindelse til et åbent Wi-Fi-netværk</string>
+    <string name="wifi_available_title_connected">Forbundet til Wi-Fi-netværket</string>
+    <string name="wifi_available_title_connecting">Opretter forbindelse til et åbent Wi‑Fi-netværk</string>
+    <string name="wifi_available_title_failed_to_connect">Der kan ikke oprettes forbindelse til Wi-Fi-netværket</string>
     <string name="wifi_calling_off_summary">Fra</string>
     <string name="wifi_connect_alert_message">Applikationen %1$s vil gerne have forbindelse til Wi-Fi-netværk %2$s</string>
     <string name="wifi_connect_alert_title">Vil du tillade denne forbindelse?</string>
@@ -1505,5 +1499,6 @@ Vil du lukke den?"</string>
     <string name="zen_mode_feature_name">Forstyr ikke</string>
     <string name="zen_mode_forever">Indtil du deaktiverer \"Forstyr ikke\"</string>
     <string name="zen_mode_forever_dnd">Indtil du slår \"Forstyr ikke\" fra</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Indtil %1$s</string>
 </resources>

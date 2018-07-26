@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Tilføj til arbejdsområde</string>
     <string name="activity_not_found">Appen er ikke installeret på din enhed</string>
     <string name="add_screen">Tilføj skærm</string>
@@ -236,9 +237,9 @@
     <string name="open_personal_assistant_dialog_btn_cancel">Annuller</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå fra</string>
     <string name="open_personal_assistant_dialog_desc">Du vil ikke være i stand til at bruge App Vault og modtage dens opdateringer. Slå fra nu?</string>
-    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
+    <string name="open_personal_assistant_dialog_desc_international">Du vil ikke kunne bruge App-bokskort (aktier, genveje etc.) og modtage opdateringer, efter du har slået denne funktion fra.</string>
     <string name="open_personal_assistant_dialog_title">Slå App Vault fra</string>
-    <string name="open_personal_assistant_title">App vault</string>
+    <string name="open_personal_assistant_title">App-boks</string>
     <string name="out_of_space">Ikke mere plads på denne startskærm</string>
     <string name="permdesc_install_shortcut">Gør det muligt for en app at tilføje genveje uden brugerintervention.</string>
     <string name="permdesc_install_widget">Gør det muligt for en app at tilføje widgets uden brugerintervention.</string>
@@ -280,11 +281,11 @@
     <string name="recommend_apps_tips">Denne funktion kræver tilslutning til nettet for at fungere normalt. For at slukke denne funktion, skal du trykke på denne mappes navn.</string>
     <string name="recommend_loading">Indlæser</string>
     <string name="refresh">Opdatér</string>
-    <string name="reset_description_first_time">You can restore the layout from %1$s within 2 hours</string>
-    <string name="reset_description_others">You can restore the layout from %1$s</string>
-    <string name="reset_fail">"Couldn't restore"</string>
+    <string name="reset_description_first_time">Du kan gendanne layoutet fra %1$s indenfor to timer</string>
+    <string name="reset_description_others">Du kan gendanne layoutet fra %1$s</string>
+    <string name="reset_fail">Kunne ikke gendanne</string>
     <string name="reset_scene_prompt">Skærmen bliver nulstillet til standardlayout.</string>
-    <string name="reset_title">Restore</string>
+    <string name="reset_title">Gendan</string>
     <string name="screen_cells_config_title">Startskærmlayout</string>
     <string name="screen_locked_toast">Startskærmens layout er låst.</string>
     <string name="screen_number">%d skærm</string>

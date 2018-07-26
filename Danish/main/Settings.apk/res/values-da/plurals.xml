@@ -84,6 +84,10 @@
         <item quantity="other">%d forsøg</item>
         <item quantity="one">%d forsøg</item>
     </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
     <plurals name="enterprise_privacy_number_packages_lower_bound">
         <item quantity="other">Mindst %d apps</item>
         <item quantity="one">Mindst %d app</item>
@@ -127,6 +131,14 @@
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN-kode skal være på %d cifre</item>
         <item quantity="one">Pin skal være %d cifre</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">You can enter up to %d digits</item>
+        <item quantity="one">You can enter up to %d digit</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">Enter at least %d digits</item>
+        <item quantity="one">Enter at least %d digit</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Forbind mindst %d prikker. Prøv igen.</item>
@@ -223,6 +235,10 @@
     <plurals name="show_rep_countdown">
         <item quantity="other">Du er %1$d trin fra at rapportere en fejl.</item>
         <item quantity="one">Du er %1$d trin fra at rapportere en fejl.</item>
+    </plurals>
+    <plurals name="show_reset_countdown">
+        <item quantity="other">Complete %1$d steps to perform a factory reset</item>
+        <item quantity="one">Complete %1$d step to perform a factory reset</item>
     </plurals>
     <plurals name="special_access_summary">
         <item quantity="other">%d apps kan anvende ubegrænset data</item>

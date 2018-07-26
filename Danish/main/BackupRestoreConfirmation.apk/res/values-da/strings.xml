@@ -5,7 +5,7 @@
     <string name="backup_confirm_text">"Der er anmodet om en fuld sikkerhedskopiering af alle data til en tilsluttet stationær computer. Vil du tillade dette?
 
 Hvis du ikke har anmodet om sikkerhedskopiering, skal du ikke tillade denne handling."</string>
-    <string name="allow_backup_button_label">Sikkerhedskopier mine data</string>
+    <string name="allow_backup_button_label">Sikkerhedskopiér mine data</string>
     <string name="deny_backup_button_label">Undlad at sikkerhedskopiere</string>
     <string name="restore_confirm_text">"Der er anmodet om en fuld sikkerhedskopiering af alle data til en tilsluttet stationær computer. Vil du tillade dette?
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="attachment_chooser">
-        <item>Camera</item>
-        <item>Gallery</item>
+        <item>Kamera</item>
+        <item>Galleri</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Navn</item>
@@ -18,18 +18,18 @@
         <item>Note</item>
     </string-array>
     <string-array name="first_guide_contents">
-        <item>Welcome to Notes!</item>
-        <item>Take notes</item>
-        <item>You can use text, images, and voice recordings in your notes. A rich library of styles and fonts will make your simple scribbles look stunning.</item>
-        <item>Checklists and reminders come to help when you need basic and effective tools for planning your next trip or putting together a grocery list.</item>
-        <item>Share notes</item>
-        <item>You can generate scrolling screenshots in Notes automatically, and them share them with your friends.</item>
-        <item>Create &amp; switch between folders</item>
-        <item>Press the arrow below to create a new folder or switch between existing ones.</item>
+        <item>Velkommen til Noter!</item>
+        <item>Tag noter</item>
+        <item>Du kan bruge tekst, billeder og stemmeoptagelser i dine noter. Et rigt bibliotek af typografier og skrifttyper vil få din simple skriverier til at se forbløffende ud.</item>
+        <item>Tjeklister og påmindelser hjælper dig, når du har brug for grundlæggende og effektive værktøjer til planlægning af din næste rejse eller til at lave en indkøbsliste.</item>
+        <item>Del noter</item>
+        <item>Du kan automatisk generere scrollende skærmbilleder i Noter og derefter dele dem med dine venner.</item>
+        <item>Opret &amp; skift mellem mapper</item>
+        <item>Tryk på pilen nedenfor for at oprette en ny mappe eller skifte mellem eksisterende.</item>
     </string-array>
     <string-array name="folder_operations">
-        <item>Rename</item>
-        <item>Delete</item>
+        <item>Omdøb</item>
+        <item>Slet</item>
     </string-array>
     <string-array name="font_size_names">
         <item>Lille</item>
@@ -38,11 +38,11 @@
         <item>Enorm</item>
     </string-array>
     <string-array name="note_sort_way">
-        <item>By creation date</item>
-        <item>By modification date</item>
+        <item>Efter oprettelsesdato</item>
+        <item>Efter ændringsdato</item>
     </string-array>
     <string-array name="second_guide_contents">
-        <item>Voice notes</item>
-        <item>Create notes using our built-in speech-to-text engine attaching the original recordings of your voice to the notes.</item>
+        <item>Stemmenoter</item>
+        <item>Opret noter ved hjælp af vores indbyggede tale-til-tekst-generator. Så kan du vedhæfte de originale optagelser af din stemme til noterne.</item>
     </string-array>
 </resources>
