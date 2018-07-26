@@ -20,7 +20,6 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søg</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ac_gree">GREE AirC</string>
     <string name="ac_mode_auto">Automatisk</string>
     <string name="ac_mode_cold">Køling</string>
@@ -103,7 +102,6 @@
     <string name="bind_stb">Fortsæt med at parre set-top-boks</string>
     <string name="bind_stb_dlg">Par set-top-boks for at skifte kanaler</string>
     <string name="bind_stb_dlg_agree">Par</string>
-    <string name="brand_device">%1$s %2$s</string>
     <string name="brand_search_box_hint">Vælg producent</string>
     <string name="brand_title_all">Alle</string>
     <string name="brand_title_hot">Populær</string>
@@ -306,7 +304,6 @@
     <string name="hot_videos">Populær</string>
     <string name="hour">tim</string>
     <string name="humidity">Luftfugtighed:</string>
-    <string name="humidity_frame">%1$d%%</string>
     <string name="increase">Op</string>
     <string name="input_complete">OK</string>
     <string name="input_dialogue_cancel_button">Annuller</string>
@@ -406,7 +403,6 @@
     <string name="loading_more">Lige et øjeblik…</string>
     <string name="locate_current_place">Find nuværende placering</string>
     <string name="location_select">Omdøb enhed</string>
-    <string name="lock_screen_device_sum">%1$d</string>
     <string name="login">Log ind</string>
     <string name="login_directly">Log ind</string>
     <string name="login_done">Logget ind</string>
@@ -433,7 +429,6 @@
     <string name="match_data">Information om parring</string>
     <string name="match_data_error_tips">"Kunne ikke få oplysninger
 Gå tilbage for at fortsætte"</string>
-    <string name="match_dataset_frame">%1$d/%2$d</string>
     <string name="match_direction_default">Virker retningsknapperne?</string>
     <string name="match_dvd_intro_pause">Slip, når DVD-afspilning bliver sat på pause</string>
     <string name="match_dvd_intro_play">Slip, når DVD begynder at afspille</string>
@@ -663,8 +658,6 @@ direkte fra din låseskærm"</string>
     <string name="scaning">Søger…</string>
     <string name="scanning_milink">Søger efter enheder…</string>
     <string name="scene_default">Standard</string>
-    <string name="scene_name_frame">%1$s %2$s%3$s</string>
-    <string name="scene_name_frame_short">%1$s%2$s</string>
     <string name="screenshot">Skærmfoto</string>
     <string name="screenshot_failed">Kunne ikke tage screenshot</string>
     <string name="screenshot_failed_and_check_connection">Kunne ikke tage screenshot. Kontrollér den tilsluttede enheder</string>
@@ -772,7 +765,6 @@ Gå til Startside > \"+\" > Scanner."</string>
     <string name="start_diagnosis">Test</string>
     <string name="start_match">Par</string>
     <string name="stb">Set-top-boks</string>
-    <string name="stb_detail_title_frame">%1$s - %2$d</string>
     <string name="stb_power">STB tænd/sluk</string>
     <string name="steps">Forsøg #%d</string>
     <string name="sticky_on_top">Hæng op</string>
