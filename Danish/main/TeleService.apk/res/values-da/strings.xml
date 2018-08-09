@@ -87,6 +87,7 @@
     <string name="accessibility_wifi_signal_full">Wi-Fi har fuldt signal.</string>
     <string name="accessibility_wifi_security_type_none">Åbent netværk</string>
     <string name="accessibility_wifi_security_type_secured">Sikkert netværk</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="data_usage_uninstalled_apps">Fjernede apps</string>
     <string name="data_usage_uninstalled_apps_users">Fjernede apps og brugere</string>
     <string name="tether_settings_title_usb">Netdeling via USB</string>
@@ -542,7 +543,7 @@ Advarsel! Alle dine data vil blive slettet.
     <string name="sum_loading_settings">Indlæser indstillinger…</string>
     <string name="sum_hide_caller_id">Nummer skjules i udgående opkald</string>
     <string name="sum_show_caller_id">Nummer vises i udgående opkald</string>
-    <string name="sum_default_caller_id">Use default carrier settings to display my number in outgoing calls</string>
+    <string name="sum_default_caller_id">Anvend standard-operatørindstillinger for at vise mit nummer i udgående opkald</string>
     <string name="labelCW">Opkald venter</string>
     <string name="sum_cw_enabled">Under opkald, giv mig besked om indgående opkald</string>
     <string name="sum_cw_disabled">Under opkald, giv mig besked om indgående opkald</string>
@@ -557,6 +558,7 @@ Advarsel! Alle dine data vil blive slettet.
     <string name="sum_cfu_disabled">Slået fra</string>
     <string name="set_time_period">Indstil tidsperiode</string>
     <string name="all_day">" Hele dagen "</string>
+    <string name="time_interval_char">:</string>
     <string name="time_start">" Fra "</string>
     <string name="time_start_hour">time start hour</string>
     <string name="time_start_minute">time start minute</string>
@@ -570,12 +572,12 @@ Advarsel! Alle dine data vil blive slettet.
     <string name="messageCFB">Nummer når optaget</string>
     <string name="sum_cfb_enabled">Viderestiller til {0}</string>
     <string name="sum_cfb_disabled">Slået fra</string>
-    <string name="disable_cfb_forbidden">"Your carrier doesn't support turning off call forwarding when your phone is busy."</string>
+    <string name="disable_cfb_forbidden">Din operatør understøtter ikke deaktivering af viderestilling af opkald, når din telefon er optaget.</string>
     <string name="labelCFNRy">Når ubesvaret</string>
     <string name="messageCFNRy">Nummer når ubesvaret</string>
     <string name="sum_cfnry_enabled">Viderestiller til {0}</string>
     <string name="sum_cfnry_disabled">Slået fra</string>
-    <string name="disable_cfnry_forbidden">"Your carrier doesn't support turning off call forwarding when your phone doesn't answer."</string>
+    <string name="disable_cfnry_forbidden">Din operatør understøtter ikke deaktivering af viderestilling af opkald, når din telefon ikke besvares.</string>
     <string name="labelCFNRc">Når ukontaktbar</string>
     <string name="messageCFNRc">Nummer når ukontaktbar</string>
     <string name="sum_cfnrc_enabled">Viderestiller til {0}</string>
@@ -740,9 +742,9 @@ Næste periode begynder om %2$d days (%3$s)"</string>
     <string name="enable_disable_atr">Områdetrafikmeldinger</string>
     <string name="atr_enable">Områdetrafikmeldinger er slået til</string>
     <string name="atr_disable">Områdetrafikmeldinger er slået fra</string>
-    <string name="enable_disable_lafs">Local airport flight schedules</string>
-    <string name="lafs_enable">Local airport flight schedules are on</string>
-    <string name="lafs_disable">Local airport flight schedules are off</string>
+    <string name="enable_disable_lafs">Flytider for lokal lufthavn</string>
+    <string name="lafs_enable">Flytider for lokal lufthavn er slået til</string>
+    <string name="lafs_disable">Flytider for lokal lufthavn er slået fra</string>
     <string name="enable_disable_restaurants">Restauranter</string>
     <string name="restaurants_enable">Restauranter er slået til</string>
     <string name="restaurants_disable">Restauranter er slået fra</string>
@@ -872,7 +874,7 @@ Du har %d forsøg tilbage."</string>
     <string name="card_title_incoming_call">Indkommende opkald</string>
     <string name="card_title_call_ended">Opkald afsluttet</string>
     <string name="card_title_on_hold">På pause</string>
-    <string name="card_title_hanging_up">"Hanging up "</string>
+    <string name="card_title_hanging_up">"Lægger på "</string>
     <string name="card_title_in_call">Opkald i gang</string>
     <string name="card_title_unconditionalCF">Ubetinget viderestilling er slået til</string>
     <string name="card_title_conditionalCF">Betinget viderestilling er slået til</string>
@@ -886,7 +888,7 @@ Du har %d forsøg tilbage."</string>
     <string name="card_title_MTcall_forwarding">Indgående opkald er viderestillet</string>
     <string name="card_title_forwarded_MTcall">Viderestillet indgående opkald</string>
     <string name="card_title_callonhold">Sæt i venteposition</string>
-    <string name="card_title_callretrieved">Call retrieved</string>
+    <string name="card_title_callretrieved">Opkald hentet</string>
     <string name="card_title_multipartycall">Flerpartsopkald</string>
     <string name="card_title_callonhold_released">Opkald frigivet</string>
     <string name="card_title_forwardcheckreceived">Viderestillingskontrol modtaget</string>
@@ -1011,6 +1013,10 @@ Prøv igen eller ring til kundeservice for flere muligheder."</string>
     <string name="accessibility_settings_activity_title">Tilgængelighed</string>
     <string name="status_hint_label_incoming_wifi_call">WiFI-opkald fra</string>
     <string name="status_hint_label_wifi_call">WiFi-opkald</string>
+    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
+    <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
+    <string name="tty_mode_key">button_tty_mode_key</string>
+    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="emergency_action_launch_hint">Tryk igen for at åbne</string>
     <string name="message_decode_error">Der opstod en fejl under afkodning af beskeden.</string>
     <string name="callFailed_cdma_activation">Et SIM-kort har aktiveret din service og opdateret din telefons roaming-evner.</string>
@@ -1057,6 +1063,38 @@ Prøv igen eller ring til kundeservice for flere muligheder."</string>
 Kontakt din operatør."</string>
     <string name="search_app_name">Telefon;Opkaldsoptagelse;Viderestil opkald;viderestilling;Banke på;Blokeringsliste;Landekode;Områdekode;Landekoder;Områdekoder;Optag opkald;Optag opkald;Numerisk tastatur;Opkald;Opkald;Telefoni;VoIP;VoLTE;Ubesvarede opkald;Ubesvarede opkald;SIP;T9;IP-telefoni;FDN</string>
     <string name="search_antispam_setting">Blokeringsliste</string>
+    <string name="search_call_record_setting">@string/call_record_setting</string>
+    <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
+    <string name="search_call_waiting_title">@string/call_waiting_title</string>
+    <string name="search_answer_state_setting_title">@string/answer_state_setting_title</string>
+    <string name="search_cloud_antispam_title">@string/cloud_antispam_title</string>
+    <string name="search_preference_telocation_title">@string/preference_telocation_title</string>
+    <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
+    <string name="search_call_recording_notification_toggle_title">@string/call_recording_notification_toggle_title</string>
+    <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
+    <string name="search_turnover_mute_title">@string/turnover_mute_title</string>
+    <string name="search_handon_ringer_title">@string/handon_ringer_title</string>
+    <string name="search_crescendo_ringer_title">@string/crescendo_ringer_title</string>
+    <string name="search_flash_when_ring_title">@string/flash_when_ring_title</string>
+    <string name="search_enable_proximity_title">@string/enable_proximity_title</string>
+    <string name="search_enable_antispam_strange_title">@string/enable_antispam_strange_title</string>
+    <string name="search_telocation_enable_title">@string/telocation_enable_title</string>
+    <string name="search_telocation_custom_location_title">@string/telocation_custom_location_title</string>
+    <string name="search_telocation_contacts_countrycode">@string/telocation_contacts_countrycode</string>
+    <string name="search_telocation_auto_country_code">@string/telocation_auto_country_code</string>
+    <string name="search_preference_dial_pad_touch_tone_title">@string/preference_dial_pad_touch_tone_title</string>
+    <string name="search_autoip_phone">@string/autoip_phone</string>
+    <string name="search_missed_call_notify_times_title">@string/missed_call_notify_times_title</string>
+    <string name="search_connect_disconnect_vibrate_title">@string/connect_disconnect_vibrate_title</string>
+    <string name="search_call_waiting_tone_title">@string/call_waiting_tone_title</string>
+    <string name="search_reject_via_sms">@string/reject_via_sms</string>
+    <string name="search_sip_settings">@string/sip_settings</string>
+    <string name="search_caller_id_title">@string/caller_id_title</string>
+    <string name="search_fdn">@string/fdn</string>
+    <string name="search_voicemail_settings">@string/voicemail_settings</string>
+    <string name="search_dtmf_tones_title">@string/dtmf_tones_title</string>
+    <string name="search_t9_indexing_method_title">@string/t9_indexing_method_title</string>
+    <string name="search_auto_retry_mode_title">@string/auto_retry_mode_title</string>
     <string name="path_app_name">System-apps/Telefon</string>
     <string name="path_call_record_setting">System-apps/Telefon/Opkaldsoptagelse</string>
     <string name="path_call_forwarding_settings">System-apps/Telefon/Indstillinger for viderestilling</string>
@@ -1474,6 +1512,8 @@ PIN2-relaterede funktioner vil blive låst efter endnu et mislykket forsøg."</s
     <string name="vice_slot_volte_data_switch_title">Brug mobildata under VoLTE-opkald på det sekundære SIM</string>
     <string name="vice_slot_volte_data_switch_summary">Under VoLTE-opkald vil enheden tilslutte til et mobildatanetværk ved hjælp af det sekundære SIM</string>
     <string name="vice_slot_volte_data_switch_prompt">Din enhed vil tilslutte til et mobildatanetværk ved hjælp af det sekundære SIM under pågående VoLTE-opkald. Dette kan generere yderligere dataudgifter. Kontakt din lokale teleudbyder for oplysninger om din dataplan.</string>
+    <string name="opened_dual_4g_confirm_prompt_with_sim">SIM %1$s only supports 4G. To make sure your SIM card works normally, dual 4G was turned on.</string>
+    <string name="change_data_sim_4g_only_prompt">"SIM %1$s only supports 4G. When SIM %2$s isn't your default SIM for mobile data, SIM card might not work normally. Switch now?"</string>
     <string name="call_settings_primary_user_only">Opkaldsindstillinger kan kun ændres af den primære bruger.</string>
     <string name="roaming_notification_title">Det ser ud til, at roaming er aktiveret</string>
     <string name="roaming_notification_content">Du kan tilføje landekoder automatisk for at gøre opkald mere bekvemmelig.</string>
@@ -1492,7 +1532,8 @@ PIN2-relaterede funktioner vil blive låst efter endnu et mislykket forsøg."</s
     <string name="sim_roaming_settings_title">Mi Roaming</string>
     <string name="sim_roaming_settings_summary">Opret forbindelse til mobildatanetværker under roaming</string>
     <string name="lable_network_not_supported">Netværket understøttes ikke</string>
-    <string name="change_data_preference_4g_only_prompt">Det ser ud til, at du har et Kun 4G-SIM-kort. Indstil som standard til mobildata?</string>
+    <string name="change_data_preference_4g_only_prompt">Looks like you have a 4G only SIM card. To make sure it works normally, set it as default for mobile data. Set now?</string>
+    <string name="opened_dual_4g_confirm_prompt">Looks like you have a 4G only SIM card. Dual 4G was turned on automatically.</string>
     <string name="dialpad_zero">0</string>
     <string name="dialpad_one">1</string>
     <string name="dialpad_two">2</string>
@@ -1547,29 +1588,29 @@ PIN2-relaterede funktioner vil blive låst efter endnu et mislykket forsøg."</s
     <string name="voice_service_switch_title">Brug VoLTE-opkaldstjenester</string>
     <string name="voice_service_switch_summary">Slå til for at bruge VoLTE-opkaldsfunktionen i VoLTE-netværker</string>
     <string name="voice_service_warning_dialog_title">VoLTE-opkald</string>
-    <string name="voice_service_warning_dialog_body">"This tablet supports VoLTE calls in 4G networks. Make sure the networks that your device is connected to support this functionality. VoLTE services are provided by your carrier. Contact your local carrier to learn whether VoLTE is supported in your area.
+    <string name="voice_service_warning_dialog_body">"Denne tablet understøtter VoLTE-opkald i 4G-netværker. Sørg for, at de netværker, din enhed opretter forbindelse til, understøtter denne funktion. VoLTE-tjenester udbydes af din operatør. Kontakt din lokale operatør for at høre, om VoLTE understøttes i dit område.
 
-If you see _ in your status bar, VoLTE calls aren't available. If you can't make or receive calls, or your calls are interrupted, make sure your network is compatible with VoLTE.
+Hvis du ser _ i din statuslinje, er VoLTE-opkald ikke tilgængelige. Hvis du ikke kan foretage eller modtage opkald, eller dine opkald afbrydes, skal du sørge for, at dit netværk er kompatibelt med VoLTE.
 
-This tablet doesn't have an earpiece. You can switch to hands-free mode or use earphones to make calls."</string>
+Denne tablet har ingen høretelefoner. Du kan skifte til håndfri tilstand eller bruge høretelefoner til at foretage opkald."</string>
     <string name="voice_service_warning_dialog_cancel">Annuller</string>
     <string name="voice_service_warning_dialog_ok_timer">Forstået (%d)</string>
     <string name="voice_service_warning_dialog_ok">Forstået</string>
     <string name="voice_service_cannot_call_notification_title">Kan ikke foretage opkald i det aktuelle netværk</string>
     <string name="voice_service_cannot_call_notification_content">Du kan opleve forbindelsesproblemer, når du forsøger at foretage opkald.</string>
-    <string name="wificall_switch_title">Make calls using Wi-Fi</string>
-    <string name="wificall_switch_summary">Your device will switch between Wi-Fi and VoLTE when connection is poor</string>
+    <string name="wificall_switch_title">Foretag opkald med Wi-Fi</string>
+    <string name="wificall_switch_summary">Din enhed vil skifte mellem Wi-Fi og VoLTE, når forbindelsen er dårlig</string>
     <string name="preferred_wificall_title">Netværkspræferencer</string>
-    <string name="wfcmode_wifi_only">Wi-Fi only</string>
-    <string name="wfcmode_wifi_preferred">Prefer Wi-Fi</string>
-    <string name="wfcmode_mobile_preferred">Prefer mobile networks</string>
-    <string name="wifi_call_setting">Wi-Fi calls</string>
+    <string name="wfcmode_wifi_only">Kun Wi-Fi</string>
+    <string name="wfcmode_wifi_preferred">Foretræk Wi-Fi</string>
+    <string name="wfcmode_mobile_preferred">Foretræk mobilnetværk</string>
+    <string name="wifi_call_setting">Wi-Fi-opkald</string>
     <string name="cloud_sim_enabled_preferred_network_summary">Kan ikke ændre netværkspræferencerne, når Mi Roaming er i brug</string>
     <string name="cloud_sim_enabled_dual_4g_summary">Kan ikke slukke for Dual 4G, når Mi Roaming er i brug</string>
     <string name="dc_alert_dialog_title">Advarsel om dataforbrug</string>
     <string name="dc_alert_dialog_message">Nogle apps kræver mobildataforbindelse. Du kan kontakte din operatør for at høre, hvilke %s der er tilgængeligt for dig.</string>
     <string name="do_not_show_again">Vis ikke igen</string>
-    <string name="data_plan">mobildataplaner</string>
+    <string name="data_plan">Mobildataplaner</string>
     <string name="preferred_network_mode_td_scdma_only_choice">Kun TD-SCDMA</string>
     <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
     <string name="preferred_network_mode_lte_choice">LTE</string>

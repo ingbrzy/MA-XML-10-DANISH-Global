@@ -463,6 +463,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="face_name_edit">Redigér</string>
     <string name="face_name_input">Indtast navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fuldføre handlingen</string>
     <string name="fail_to_pick_email">Ugyldig e-mailadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Tjek din dataforbindelse og prøv igen.</string>
@@ -473,6 +474,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="feature_guidance_photo_effects">"Nye fotoeffekter
 er tilgængelige"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgængelige</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Hukommelse</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Pink</string>
@@ -541,6 +543,7 @@ er tilgængelige"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Indstil</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri skal have adgang til 
 %s
  for at fungere normalt, tryk på \"Indstil\" for at gå til Tilladelser."</string>
@@ -736,6 +739,7 @@ til at gøre Galleri personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Vælg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Unavngivet</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Fotos med kæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Fotos</string>
@@ -987,6 +991,9 @@ til at gøre Galleri personligt"</string>
     <string name="search_title_recommend">Anbefalet</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leder efter projektor…</string>
     <string name="secret_album_card_description">Det bedste sted for alle dine små hemmeligheder</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1224,9 +1231,9 @@ til at gøre Galleri personligt"</string>
     <string name="video_editor_smart_effect_radical">Optimistisk</string>
     <string name="video_editor_smart_effect_rhythm">Puls</string>
     <string name="video_editor_smart_effect_street">Metropolis</string>
-    <string name="video_editor_smart_effect_time_limit_txt_40">Du kan anvende denne effekt på videoer, der er op til 40 sekunder lang.</string>
+    <string name="video_editor_smart_effect_time_limit_txt_40">This effect can be applied to videos no longer than 40 seconds. Adjusted duration automatically.</string>
     <string name="video_editor_smart_effect_time_limit_txt_6">Du kan anvende denne effekt på videoer, der er mindst 6 sekunder lang.</string>
-    <string name="video_editor_smart_effect_time_limit_txt_60">Du kan anvende denne effekt på videoer, der er op til 60 sekunder lang.</string>
+    <string name="video_editor_smart_effect_time_limit_txt_60">This effect can be applied to videos no longer than 60 seconds. Adjusted duration automatically.</string>
     <string name="video_editor_template_family">Familie</string>
     <string name="video_editor_template_forbidden_tips">Kan ikke gøre dette, når skabelon anvendes</string>
     <string name="video_editor_template_oldfilm">Vintage</string>
@@ -1246,7 +1253,7 @@ til at gøre Galleri personligt"</string>
     <string name="video_editor_unsupport_audio_file">Ikke-understøttet lydfil</string>
     <string name="video_editor_unzip_file_fail">Kunne ikke udpakke video.</string>
     <string name="video_editor_video_is_short">Kan ikke redigere denne video.</string>
-    <string name="video_editor_video_loading">Forbereder video. Vent et sekund eller to og prøv så igen.</string>
+    <string name="video_editor_video_loading">Preparing video… Wait a second or two and try again.</string>
     <string name="video_editor_watermark">Vandmærke</string>
     <string name="video_err">Kan ikke afspille video.</string>
     <string name="video_not_exist">Video findes ikke.</string>
@@ -1256,6 +1263,7 @@ til at gøre Galleri personligt"</string>
     <string name="view_face_album">Se album</string>
     <string name="view_more_face_desc">Se flere folk</string>
     <string name="voice_assistant">Stemmeinput</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Velkommen til Mi Cloud</string>
     <string name="where_is_barcode">Hvor er QR-koden?</string>
     <string name="who_is_this">Hvem er det?</string>

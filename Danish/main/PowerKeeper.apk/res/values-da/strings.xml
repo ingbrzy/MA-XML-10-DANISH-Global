@@ -86,4 +86,7 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="sleepmode_privacy_link">Se mere om privatliv og sikkerhed</string>
     <string name="sleepmode_disclaimer_cancel">Annuller</string>
     <string name="sleepmode_disclaimer_agree">Acceptér</string>
+    <string name="appconfig_active_app_dialog_title">Administrer aktive apps</string>
+    <string name="config_classify">Sortér efter app-indstillinger</string>
+    <string name="active_classify">Sortér efter aktivitetsstatus</string>
 </resources>

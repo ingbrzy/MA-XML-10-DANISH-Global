@@ -165,16 +165,16 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="one">%s app er ikke beskyttet</item>
     </plurals>
     <plurals name="menu_text_antivirus_2">
-        <item quantity="other">%d items</item>
-        <item quantity="one">%d item</item>
+        <item quantity="other">%d elementer</item>
+        <item quantity="one">%d element</item>
     </plurals>
     <plurals name="menu_text_antivirus_3">
-        <item quantity="other">%d days</item>
-        <item quantity="one">%d day</item>
+        <item quantity="other">%d dage</item>
+        <item quantity="one">%d dag</item>
     </plurals>
     <plurals name="menu_text_antispam_2">
-        <item quantity="other">%d items</item>
-        <item quantity="one">%d item</item>
+        <item quantity="other">%d elementer</item>
+        <item quantity="one">%d element</item>
     </plurals>
     <plurals name="menu_text_app_manager_2">
         <item quantity="other">%d apps</item>
@@ -279,6 +279,10 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
     <plurals name="found_apps_title">
         <item quantity="other">%d apps fundet</item>
         <item quantity="one">%d apps fundet</item>
+    </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">Factory reset(%ds)</item>
+        <item quantity="one">Factory reset(%ds)</item>
     </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">%d låste apps venter på at blive frigivet</item>

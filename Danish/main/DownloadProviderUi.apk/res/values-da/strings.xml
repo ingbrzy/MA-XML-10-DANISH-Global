@@ -153,9 +153,9 @@
     <string name="paused_waiting_for_network">Venter på netværk</string>
     <string name="paused_waiting_to_retry">Venter på at prøve igen</string>
     <string name="pref_download_settings_title">Maks. størrelse download</string>
-    <string name="pref_summary_any_bytes_popup">Vent altid på forbindelse til wifi for download af filer</string>
+    <string name="pref_summary_any_bytes_popup">Vent altid på forbindelse til Wi-Fi for download af filer</string>
     <string name="pref_summary_enable_max_bytes_popup">Vis pop-op-notifikation, når der bruges mobildata til at downloade indhold</string>
-    <string name="pref_summary_max_bytes_limit_format">Vent på wifi, hvis filstørrelsen overskrider %s</string>
+    <string name="pref_summary_max_bytes_limit_format">Vent på Wi-Fi, hvis filstørrelsen overskrider %s</string>
     <string name="pref_summary_no_limit_popup">Ubegrænset</string>
     <string name="pref_title_enable_max_bytes_popup">Vis besked om dataforbrug</string>
     <string name="preferences_title">Indstillinger</string>
@@ -166,7 +166,7 @@
     <string name="recommend_failed">Mislykkedes</string>
     <string name="recommend_install">Installer</string>
     <string name="recommend_installing">Installerer…</string>
-    <string name="recommend_loading">Loader#8230;</string>
+    <string name="recommend_loading">Indlæser #8230;</string>
     <string name="recommend_open">Åbn</string>
     <string name="recommend_paused">På pause</string>
     <string name="recommend_prepare">Venter…</string>

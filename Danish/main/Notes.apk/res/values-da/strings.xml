@@ -114,6 +114,7 @@
     <string name="menu_title_select_folder">Vælg mappe</string>
     <string name="menu_unhide">Synliggør</string>
     <string name="menu_unstick">Tag ned</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Ikke nu</string>
     <string name="note_description_content">Appen Noter er et godt værktøj til skrive dine ideer ned. Den har indbyggede påmindelser og synkroniserer dine elementer med Mi Cloud, så du kan få adgang til dem overalt, når som helst. Sørg for, at du kan undvære disse funktioner, inden du sletter appen.</string>
     <string name="note_description_title">Om Noter</string>
@@ -125,6 +126,7 @@
     <string name="note_sort_way">Vælg, hvordan du vil sortere dine noter</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Notepåmindelse</string>
     <string name="permdesc_accessNote">Ondsindede apps kan bruge dette til at gå ind på dine personlige data.</string>
     <string name="permlab_accessNote">Gå ind på noter</string>
@@ -221,7 +223,4 @@
     <string name="unknown_source">Ukendt kilde</string>
     <string name="widget_content_loading">Lige et øjeblik…</string>
     <string name="widget_havenot_content">Tryk for at oprette et notat. Hold widget for at ændre størrelse.</string>
-    <string name="welcome_note_for_cm">"Og flere fede funktioner!
-  - Synkronisér med Mi Cloud
-  - Indstil påmindelser"</string>
 </resources>

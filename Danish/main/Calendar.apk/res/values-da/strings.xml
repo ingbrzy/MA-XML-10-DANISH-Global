@@ -36,7 +36,7 @@
     <string name="anniversary_event_title">Jubilæum: %1$s</string>
     <string name="anniversary_secondary_tag">Jubilæum</string>
     <string name="app_label">Kalender</string>
-    <string name="birthday_born">Birth date</string>
+    <string name="birthday_born">Fødselsdato</string>
     <string name="birthday_calendar_display_name">Fødselsdagsremindere</string>
     <string name="birthday_event_description_a_week_ago">En uge siden</string>
     <string name="birthday_event_description_a_week_later">En uge til</string>
@@ -53,7 +53,7 @@
     <string name="birthday_notification_title_today">%1$ss %3$s</string>
     <string name="birthday_notification_type_term_lunar" />
     <string name="birthday_saved">Fødselsdag gemt</string>
-    <string name="birthday_term">Birthday</string>
+    <string name="birthday_term">Fødselsdag</string>
     <string name="button_day">Dag</string>
     <string name="button_month">Måned</string>
     <string name="button_week">Uge</string>
@@ -185,8 +185,8 @@
     <string name="global_football_no_match">Der er ikke planlagt nogen fodboldkampe for i dag.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
     <string name="guide_card_import">Importér</string>
-    <string name="guide_card_primary_text">"Import your friends' birthdays"</string>
-    <string name="guide_card_second_text">Never miss important dates</string>
+    <string name="guide_card_primary_text">Importér dine venners fødselsdage</string>
+    <string name="guide_card_second_text">Aldrig glip af vigtige datoer</string>
     <string name="guide_card_title">Importér fødselsdage</string>
     <string name="hint_attendees">Gæster</string>
     <string name="hint_description">Beskrivelse</string>
@@ -424,4 +424,5 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="xiaomi_calendar_display_name">Mi Account Kalender</string>
     <string name="yearly">Årlig (hver %s)</string>
     <string name="yearly_plain">Årlig</string>
+    <string name="discard_label">Cancel</string>
 </resources>

@@ -21,80 +21,68 @@
         <item quantity="one">%d ikke-vigtig(e) notifikation(er)</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
-        <item quantity="other">Incorrect PIN code, %d attempts remaining</item>
-        <item quantity="one">Incorrect PIN code, %d attempt remaining</item>
+        <item quantity="other">Forkert PIN-kode, %d forsøg tilbage</item>
+        <item quantity="one">Forkert PIN-kode, %d forsøg tilbage</item>
     </plurals>
     <plurals name="incorrect_pukcode_remaining_attempts">
-        <item quantity="other">Incorrect PUK code, %d attempts remaining</item>
-        <item quantity="one">Incorrect PUK code, %d attempt remaining</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
-        <item quantity="other">About %d hours until full</item>
-        <item quantity="one">About %d hour until full</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
-        <item quantity="other">About %d minutes until full​</item>
-        <item quantity="one">About %d minute until full​</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_charging_full_need_time__text">
-        <item quantity="other">About %1$d h %2$d m until full</item>
-        <item quantity="one">About %1$d h %2$d m until full</item>
+        <item quantity="other">Forkert PUK-kode, %d forsøg tilbage</item>
+        <item quantity="one">Forkert PUK-kode, %d forsøg tilbage</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
-        <item quantity="other">About %d hours left</item>
-        <item quantity="one">About %d hour left</item>
+        <item quantity="other">Omkring %d timer tilbage</item>
+        <item quantity="one">Omkring %d time tilbage</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_min_time_text">
-        <item quantity="other">About %d minutes left</item>
-        <item quantity="one">About %d minute left</item>
+        <item quantity="other">Omkring %d minutter tilbage</item>
+        <item quantity="one">Omkring %d minut tilbage</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
-        <item quantity="other">About %1$d h %2$d m left</item>
-        <item quantity="one">About %1$d h %2$d m left</item>
+        <item quantity="other">Omkring %1$d h %2$d m tilbage</item>
+        <item quantity="one">Omkring %1$d h %2$d m tilbage</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
-        <item quantity="other">%d hours</item>
-        <item quantity="one">%d hour</item>
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_min_time_format">
-        <item quantity="other">%d minutes</item>
-        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">%1$d h %2$d m</item>
-        <item quantity="one">%1$d h %2$d m</item>
+        <item quantity="other">%1$d t %2$d m</item>
+        <item quantity="one">%1$d t %2$d m</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
-        <item quantity="other">Enter SIM PIN, you have %d remaining attempts.</item>
-        <item quantity="one">Enter SIM PIN, you have %d remaining attempt before you must contact your carrier to unlock your device.</item>
+        <item quantity="other">Indtast SIM-PIN-kode. Du har %d forsøg tilbage.</item>
+        <item quantity="one">Indtast SIM-PIN-kode. Du har %d forsøg tilbage, før du er nødt til at kontakte din operatør for at låse din enhed op.</item>
     </plurals>
     <plurals name="kg_password_default_puk_message">
-        <item quantity="other">SIM is now disabled. Enter PUK code to continue. You have %d remaining attempts before SIM becomes permanently unusable. Contact carrier for details.</item>
-        <item quantity="one">SIM is now disabled. Enter PUK code to continue. You have %d remaining attempt before SIM becomes permanently unusable. Contact carrier for details.</item>
+        <item quantity="other">SIM-kortet er nu deaktiveret. Indtast PUK-koden for at fortsætte. Du har %d forsøg tilbage, inden SIM-kortet bliver permanent ubrugeligt. Kontakt operatør for detaljer.</item>
+        <item quantity="one">SIM-kortet er nu deaktiveret. Indtast PUK-koden for at fortsætte. Du har %d forsøg tilbage, inden SIM-kortet bliver permanent ubrugeligt. Kontakt operatør for detaljer.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Incorrect SIM PIN code, you have %d remaining attempts.</item>
-        <item quantity="one">Incorrect SIM PIN code, you have %d remaining attempt before you must contact your carrier to unlock your device.</item>
+        <item quantity="other">Forkert SIM-PIN-kode. Du har %d forsøg tilbage.</item>
+        <item quantity="one">Forkert SIM-PIN-kode. Du har %d forsøg tilbage, før du er nødt til at kontakte din operatør for at låse din enhed op.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
-        <item quantity="other">Incorrect SIM PUK code, you have %d remaining attempts before SIM becomes permanently unusable.</item>
-        <item quantity="one">Incorrect SIM PUK code, you have %d remaining attempt before SIM becomes permanently unusable.</item>
+        <item quantity="other">Forkert SIM-PIN-kode. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.</item>
+        <item quantity="one">Forkert SIM-PIN-kode. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">"Device hasn't been unlocked for %d hours. Confirm password."</item>
-        <item quantity="one">"Device hasn't been unlocked for %d hour. Confirm password."</item>
+        <item quantity="other">Enhed har ikke været låst op i %d timer. Bekræft adgangskode.</item>
+        <item quantity="one">Enhed har ikke været låst op i %d time. Bekræft adgangskode.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">"Device hasn't been unlocked for %d hours. Confirm pattern."</item>
-        <item quantity="one">"Device hasn't been unlocked for %d hour. Confirm pattern."</item>
+        <item quantity="other">Enhed har ikke været låst op i %d timer. Bekræft mønster.</item>
+        <item quantity="one">Enhed har ikke været låst op i %d time. Bekræft mønster.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">"Device hasn't been unlocked for %d hours. Confirm PIN."</item>
-        <item quantity="one">"Device hasn't been unlocked for %d hour. Confirm PIN."</item>
+        <item quantity="other">Enhed har ikke været låst op i %d timer. Bekræft PIN-kode.</item>
+        <item quantity="one">Enhed har ikke været låst op i %d time. Bekræft PIN-kode.</item>
     </plurals>
     <plurals name="new_notifications_msg">
-        <item quantity="other">%d new notifications</item>
-        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d ny notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
     </plurals>
     <plurals name="notification_channels_list_desc_2_and_others">
         <item quantity="other">%1$s, %2$s og %3$d andre</item>
@@ -113,12 +101,12 @@
         <item quantity="one">1 ud af %d notifikationskategori fra denne app</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
-        <item quantity="other">Try again in %d minutes</item>
-        <item quantity="one">Try again in %d minute</item>
+        <item quantity="other">Prøv igen om %d minutter</item>
+        <item quantity="one">Prøv igen om %d minut</item>
     </plurals>
     <plurals name="phone_locked_timeout_seconds_string">
-        <item quantity="other">Try again in %d seconds</item>
-        <item quantity="one">Try again in %d second</item>
+        <item quantity="other">Prøv igen om %d sekunder</item>
+        <item quantity="one">Prøv igen om %d sekund</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d skift over denne linje er aktive</item>

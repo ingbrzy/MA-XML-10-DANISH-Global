@@ -32,12 +32,12 @@
     <string name="pref_front_mirror_title">Spejl frontkamera</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
     <string name="pref_video_hfr_title">Video HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
-    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
-    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
-    <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
-    <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30 fps</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 6 0fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30 fps</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60 fps</string>
+    <string name="pref_video_quality_entry_720p">HD 720P, 30 fps</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30 fps</string>
     <string name="pref_video_encoder_title">Videooptager</string>
     <string name="pref_video_encoder_entry_h264">H.264 High-kompabilitet</string>
     <string name="pref_video_encoder_entry_h265">H.265 High-ydeevne</string>
@@ -381,7 +381,7 @@
     <string name="pref_camera_beauty">Forskøn</string>
     <string name="pref_camera_beauty_deep">Forskønnelse Pro</string>
     <string name="pref_camera_asd_night_title">Forstærk lavbelyste foto automatisk</string>
-    <string name="pref_camera_super_resolution_title">Turn on SR</string>
+    <string name="pref_camera_super_resolution_title">Slå SR til</string>
     <string name="simple_mode_button_text_scene">Sluk Scenetilstand</string>
     <string name="pref_camera_peak_title">Fokus topper</string>
     <string name="pref_camera_peak_entry_off">Slukket</string>
@@ -427,10 +427,11 @@
     <string name="pref_camera_portrait_mode_entry_on">Portrættilstand er tændt.</string>
     <string name="portrait_mode_lowlight_hint">Det er for mørkt nu.</string>
     <string name="portrait_mode_too_close_hint">Gå længere væk fra objektet.</string>
-    <string name="portrait_mode_too_far_hint">Place object within 2 meters</string>
+    <string name="portrait_mode_too_far_hint">Placer objektet inden for 2 meters afstand</string>
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portræt slører baggrunden
 og fremhæver folk tæt på."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
     <string name="simple_mode_button_text_square">Sluk Kvadrat</string>
     <string name="face_beauty_smart">Smart</string>
@@ -445,6 +446,7 @@ og fremhæver folk tæt på."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Tilstande</string>
     <string name="button_front_camera_title">Tag en selfie</string>
     <string name="button_normal_video_title">Optag video</string>
@@ -490,6 +492,7 @@ og så skabe et foto med minimal støj."</string>
     <string name="beauty_fragment_tab_name_makeup">Avanceret</string>
     <string name="beauty_fragment_tab_name_3d_beauty">Skønhed</string>
     <string name="beauty_fragment_tab_name_3d_remodeling">Remodellering</string>
+    <string name="beauty_fragment_tab_name_3d_makeup">Makeup</string>
     <string name="edit_skin_white">Tone</string>
     <string name="edit_skin_smooth">Glat</string>
     <string name="edit_eye_large">Store øjne</string>
@@ -503,6 +506,10 @@ og så skabe et foto med minimal støj."</string>
     <string name="edit_smile">Smli</string>
     <string name="edit_slim_nose">Næse</string>
     <string name="popup_tip_3d_beauty_intro_text">3D-skønhed</string>
+    <string name="edit_eyebrow_dye">Øjenbryn</string>
+    <string name="edit_pupil_line">Eyeliner</string>
+    <string name="edit_jelly_lips">Lipgloss</string>
+    <string name="edit_blusher">Rouge</string>
     <string name="sticker_tab1">Nuttet</string>
     <string name="sticker_tab2">Sjov</string>
     <string name="user_agreement2">Servicevilkår</string>
@@ -539,17 +546,17 @@ og optimerer dine billeder baseret på denne information"</string>
     <string name="lens_dirty_detected_title_front">Linsen på forkameraet er snavset</string>
     <string name="lens_dirty_detected_content">"Det ser ud til, at dit kameras linse er snavsede.
 Rens linsen for at få bedre effekt."</string>
-    <string name="lighting_hint_title">Studio lighting</string>
-    <string name="lighting_hint_usage">"You can use studio lighting effects
-in Portrait mode"</string>
-    <string name="lighting_hint_needed">Place your object in the spotlight</string>
-    <string name="lighting_hint_too_far">Bring the camera closer</string>
-    <string name="lighting_hint_too_close">Move the camera further away</string>
-    <string name="lighting_pattern_nature">Natural</string>
-    <string name="lighting_pattern_stage">Stage</string>
-    <string name="lighting_pattern_movie">Movie</string>
-    <string name="lighting_pattern_rainbow">Rainbow</string>
-    <string name="lighting_pattern_leaf">Leaves</string>
-    <string name="lighting_pattern_dot">Dots</string>
-    <string name="lighting_pattern_shutter">Blinds</string>
+    <string name="lighting_hint_title">Studielys</string>
+    <string name="lighting_hint_usage">"Du kan bruge studielyseffekter
+i Portrættilstand"</string>
+    <string name="lighting_hint_needed">Placer dit objekt i spotlightet</string>
+    <string name="lighting_hint_too_far">Kom nærmere med kameraet</string>
+    <string name="lighting_hint_too_close">Kom længere væk med kameraet</string>
+    <string name="lighting_pattern_nature">Naturlig</string>
+    <string name="lighting_pattern_stage">Scene</string>
+    <string name="lighting_pattern_movie">Biograf</string>
+    <string name="lighting_pattern_rainbow">Regnbue</string>
+    <string name="lighting_pattern_leaf">Blade</string>
+    <string name="lighting_pattern_dot">Prikker</string>
+    <string name="lighting_pattern_shutter">Markiser</string>
 </resources>
