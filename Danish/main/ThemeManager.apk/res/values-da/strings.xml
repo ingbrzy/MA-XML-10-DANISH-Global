@@ -55,9 +55,7 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -75,7 +73,6 @@
     <string name="s5">Opret kalenderbegivenhed</string>
     <string name="s6">Vil du tillade, at annoncen opretter en kalenderbegivenhed?</string>
     <string name="search_menu_title">Søg</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_info">Min konto</string>
     <string name="account_name_not_login">Log ind</string>
     <string name="account_unactivated">Konto er ikke aktiveret</string>
@@ -181,7 +178,6 @@
     <string name="incompatible_dialog_ok">Forstået</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Indstiller baggrund…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbagekaldsringetone</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -375,7 +371,6 @@
     <string name="resource_pack_price_info">Oprindelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerede købt %1$d komponenter i dette tema. Det er billigere, hvis du køber de resterende komponenter enkeltvis.</string>
     <string name="resource_present">Gave</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi Credits</string>
     <string name="resource_purchase_common_error">Der er opstået en fejl. Prøv igen</string>
@@ -522,7 +517,6 @@
     <string name="theme_is_external_priority_storage">Gem på SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen genstartes øjeblikkeligt for at anvende denne indstilling.</string>
     <string name="theme_multiple_button_title_customize">Brugertilpas</string>
-    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_purchased_list_empty">Du har ikke købt nogen temaer.</string>
     <string name="theme_purchased_non_local">Online</string>
