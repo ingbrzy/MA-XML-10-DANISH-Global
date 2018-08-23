@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="add_alarm">Tilføj alarm</string>
-    <string name="add_clock">Add clock</string>
+    <string name="add_clock">Tilføj ur</string>
     <string name="add_timezone_title">Tilføj tidszone</string>
     <string name="alarm_alert_alert_silenced">Alarm stille efter %d minutter.</string>
     <string name="alarm_alert_snooze_set">Slumre i %d minutter.</string>
@@ -148,6 +148,7 @@
     <string name="shutdown_alarm_enable_summary">Alarm vil ringe efter slukning.</string>
     <string name="shutdown_alarm_title">Sluk for alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sluk én gang på %s</string>
     <string name="slider_text">Swipe op for at slukke</string>
     <string name="snooze_confirm_cancel">Afblæs alarm</string>
@@ -156,6 +157,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen overlap</string>
     <string name="stopwatch_title">Stopur</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Indstillinger</string>
     <string name="system_time_settings_category_title">Tidsindstillinger</string>
     <string name="temperature_unit">%1$s°</string>
@@ -174,6 +176,7 @@
     <string name="timer_alert_type_rain">Støvregn</string>
     <string name="timer_alert_type_stove_fire">Komfurbrand</string>
     <string name="timer_alert_type_summer_night">Sommeraften</string>
+    <string name="timer_can_continue_in_timer">Åbn Timer for at fortsætte</string>
     <string name="timer_cancel_hint">Stop</string>
     <string name="timer_cancel_timer">Annullér timer</string>
     <string name="timer_clock_alert_text">Sæt timer</string>
@@ -183,6 +186,7 @@
     <string name="timer_end_time_format">HH:mm dd MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">OK</string>
+    <string name="timer_is_paused">Timer er sat på pause</string>
     <string name="timer_item_duration_display">%1$d min. %2$d sek.</string>
     <string name="timer_item_label_hint">Timernavn</string>
     <string name="timer_item_picker_hour">T</string>

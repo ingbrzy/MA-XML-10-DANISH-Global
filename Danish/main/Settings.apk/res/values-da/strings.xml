@@ -898,8 +898,8 @@ prøvehastighed"</string>
     <string name="bootloader_locked_answer_2">"1. Vær sikker på, at du allerede har indsat et SIM-kort i din enhed.
 2. Tryk \"Tilføj konto\" nedenfor for at tilknytte din Mi Account til denne enhed.
 3. Download oplåsningsværktøjet fra vores website. Bemærk, at du bør oplåse enheder ved hjælp af en computer. Download her:"</string>
-    <string name="bootloader_locked_answer_2_no_sim">"1. Tap \"Add account\" below to associate your Mi Account with this device.
-2. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+    <string name="bootloader_locked_answer_2_no_sim">"1. Tryk \"Tilføj konto\" nedenfor for at tilknytte din Mi Account til denne enhed.
+2. Download oplåsningsværktøjet fra vores website. Bemærk, at du bør oplåse enheder ved hjælp af en computer. Download her:"</string>
     <string name="bootloader_locked_check_status">Tilføj konto og enhed</string>
     <string name="bootloader_locked_question_1">Hvorfor bør enheder være låst?</string>
     <string name="bootloader_locked_question_2">Jeg forstår risiciene, men vil stadig gerne låse min enhed op.</string>
@@ -916,6 +916,7 @@ prøvehastighed"</string>
     <string name="bootloader_status_unlocked">Låst op</string>
     <string name="bootloader_status_unlocked_info">Denne enhed er låst op</string>
     <string name="bootloader_summary">Flash din enhed via USB</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Lysfarve</string>
     <string name="breathing_light_color_summary">Lysfarve, når du modtager ny meddelelse</string>
     <string name="breathing_light_freq_summary">Impuls, når du modtager nye notifikationer</string>
@@ -1408,6 +1409,7 @@ Eftersom dataforbrug måles af din telefon, og dit mobilselskab muligvis beregne
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Slet dette fingeraftryk?</string>
     <string name="delete_rule">Fjern regler</string>
     <string name="delete_saved_network">Slet gemte netværker</string>
+    <string name="delete_sound_effect">\"Slet\" lyd</string>
     <string name="deleted_apps">Slettede apps</string>
     <string name="deletion_helper_automatic_title">Automatisk</string>
     <string name="deletion_helper_manual_title">Manuel</string>
@@ -1552,6 +1554,7 @@ Eftersom dataforbrug måles af din telefon, og dit mobilselskab muligvis beregne
     <string name="dndm_auto_button_title">Gentag forstyr ikke-tid</string>
     <string name="dndm_auto_setting_group">Planlagt</string>
     <string name="dndm_auto_time_setting">Indstil tid</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Til</string>
     <string name="dndm_auto_time_turn_off_title">Slå automatisk Forstyr ikke fra</string>
     <string name="dndm_auto_time_turn_on">Fra</string>
@@ -1710,6 +1713,7 @@ Dette er med til at beskytte data på enheder, du har mistet, eller som er bleve
     <string name="enter_password">Start Android ved at indtaste din adgangskode</string>
     <string name="enter_pattern">Start Android ved at tegne dit mønster</string>
     <string name="enter_pin">Start Android ved at indtaste din pinkode</string>
+    <string name="enterprise_mode">Enterprisetilstand</string>
     <string name="enterprise_privacy_always_on_vpn_device">\"Konstant VPN\" er aktiveret</string>
     <string name="enterprise_privacy_always_on_vpn_personal">\"Konstant VPN\" er aktiveret på din personlige profil</string>
     <string name="enterprise_privacy_always_on_vpn_work">\"Konstant VPN\" er aktiveret på din arbejdsprofil</string>
@@ -1953,12 +1957,12 @@ Der så ikke ud til at være heste eller dyr af nogen art; mændene kørte med t
     <string name="foreground_traffic">Forgrund %s</string>
     <string name="forget">Glem</string>
     <string name="forget_password_button_text"><u>Glemt adgangskode</u></string>
-    <string name="forget_password_dialog_button_text">Back</string>
-    <string name="forget_password_dialog_content_four"><Data>2. Select &lt;font color=#e6e6e6>[Wipe data]&lt;/font>, and wait until your device reboots.</Data></string>
-    <string name="forget_password_dialog_content_one"><Data>"If you forget your password, you won't be able to restore it. However, you can reset your password after you &lt;font color=#ec2700>erase all data on your device&lt;/font> (including photos, contacts, etc.). Back up all important data before this."</Data></string>
-    <string name="forget_password_dialog_content_three"><Data>"1. Turn off your device. Press the &lt;font color=#e6e6e6>[Power]&lt;/font> button and the &lt;font color=#e6e6e6>[Volume+]&lt;/font> button simultaneously, and hold them until you see the &lt;img src=''> icon."</Data></string>
-    <string name="forget_password_dialog_content_two">Follow these steps to erase data:</string>
-    <string name="forget_password_dialog_title">Reset your password</string>
+    <string name="forget_password_dialog_button_text">Tilbage</string>
+    <string name="forget_password_dialog_content_four"><Data>2. Vælg &lt;font color=#e6e6e6>[Slet data]&lt;/font> og vent, indtil din enhed genstarter.</Data></string>
+    <string name="forget_password_dialog_content_one"><Data>Hvis du glemmer din adgangskode, kan du ikke gendanne den. Men du kan nulstille din adgangskode, efter at du &lt;font color=#ec2700>sletter alle data på din enhed&lt;/font> (herunder fotos, kontakter etc.). Sikkerhedskopiér alle vigtige data før dette.</Data></string>
+    <string name="forget_password_dialog_content_three"><Data>"1. Sluk din enhed. Tryk på &lt;font color=#e6e6e6>[Power]&lt;/font>-knappen og &lt;font color=#e6e6e6>[Volume+]&lt;/font>-knappen samtidigt og hold dem nedtrykket, indtil du ser &lt;img src=''>-ikonen."</Data></string>
+    <string name="forget_password_dialog_content_two">Følg disse trin for at slette data:</string>
+    <string name="forget_password_dialog_title">Nulstil din adgangskode</string>
     <string name="forget_pattern"><u>Glemt mønster?</u></string>
     <string name="forget_privacy_password_setting">Tilføj Mi-konto</string>
     <string name="forget_privacy_password_summary">Brug Mi-konto til at nulstille din adgangskode</string>
@@ -2007,6 +2011,7 @@ Der så ikke ud til at være heste eller dyr af nogen art; mændene kørte med t
     <string name="gadget_picker_title">Vælg gadget</string>
     <string name="gadget_state_off">fra</string>
     <string name="gadget_state_on">til</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_turning_off">deaktiverer</string>
     <string name="gadget_state_turning_on">aktiverer</string>
     <string name="gadget_sync">Synkroniser</string>
@@ -2208,6 +2213,8 @@ Du kan ændre dette senere under Indstillinger > Apps og underretninger."</strin
     <string name="keyboard_shortcuts_helper">Hjælp til tastaturgenveje</string>
     <string name="keyboard_shortcuts_helper_summary">Vis tilgængelige genveje</string>
     <string name="keyguard_advance_setting_title">Avancerede indstillinger</string>
+    <string name="keyguard_security_setting_others">Andre</string>
+    <string name="keyguard_security_setting_privacy_policy">Privatlivspolitik</string>
     <string name="keywords_accounts">konto</string>
     <string name="keywords_airplane">Fly;flytilstand;flyvemaskine;flyvetilstand;flytur;flyturstilstand</string>
     <string name="keywords_all_apps">apps, download, applikationer, system</string>
@@ -2314,6 +2321,7 @@ Du kan ændre dette senere under Indstillinger > Apps og underretninger."</strin
     <string name="lift_to_wake_title">Løft enheden for at vække den</string>
     <string name="line_breaking_summary">Optimer afsnitslinjeskift</string>
     <string name="line_breaking_title">Optimer tekst</string>
+    <string name="link_speed">%1$d Mbps</string>
     <string name="list_bg_header_text">Hvis du begrænser baggrundsforbindelse, vil nye apps ikke kunne tilslutte til nettet i baggrunden, efter at du har installeret dem. De kan også være ude af stand til at modtage beskeder eller downloade indhold efter dette.</string>
     <string name="list_empty_text">Tom</string>
     <string name="loading_notification_apps">Indlæser apps...</string>
@@ -2669,6 +2677,7 @@ Der er andre brugere til stede på denne enhed.
     <string name="memory_title">Tilgængelig: %1$s\u0009\u0009Total: %2$s</string>
     <string name="memory_usage">Hukommelsesforbrug</string>
     <string name="memory_usage_apps">Hukommelse, der bruges af apps</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Der er i gennemsnit brugt %1$s hukommelse inden for de sidste tre timer</string>
     <string name="menu_cancel">Kassér</string>
     <string name="menu_check">Oplevelse</string>
@@ -2916,6 +2925,7 @@ vil %1$s vises som en USB-lagerenhed, når den tilsluttes til en computer."</str
     <string name="nfc_how_it_works_got_it">OK, det er forstået</string>
     <string name="nfc_how_it_works_title">Betaling på terminalen</string>
     <string name="nfc_more_title">Flere...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp til betaling</string>
     <string name="nfc_payment_default_not_set">Ikke angivet</string>
     <string name="nfc_payment_favor_default">Brug altid standard-app</string>
@@ -3059,7 +3069,7 @@ Dette gør det også muligt for appen at slå Forstyr ikke til eller fra og ænd
     <string name="notification_show_lights_title">Blinkende lys</string>
     <string name="notification_sound_default">Standardlyd for underretninger</string>
     <string name="notification_sound_dialog_title">Standardlyd for underretninger</string>
-    <string name="notification_sound_title">Default notification sound</string>
+    <string name="notification_sound_title">Standardlyd for notifikationer</string>
     <string name="notification_suggestion_summary">Vis eller skjul indhold i underretninger</string>
     <string name="notification_suggestion_title">Konfigurer underretninger for låseskærm</string>
     <string name="notification_summary_channel">%1$s • %2$s</string>
@@ -3127,6 +3137,7 @@ Dette gør det også muligt for appen at slå Forstyr ikke til eller fra og ænd
     <string name="overlay_display_devices_title">Simulér sekundære visninger</string>
     <string name="overlay_settings">Vis oven på andre apps</string>
     <string name="owner_info_settings_edit_text_hint">Eksempel: Jacobs Android</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskærmsunderskrift</string>
     <string name="owner_space">First space</string>
@@ -3439,6 +3450,8 @@ Dette gør det også muligt for appen at slå Forstyr ikke til eller fra og ænd
     <string name="private_sms_recording_intro_header">Tegn et oplåsningsmønster:</string>
     <string name="private_sms_reset_by_account">For at nulstille din adgangskode skal du logge ind på din Mi-konto</string>
     <string name="process_dex2oat_label">Appoptimering</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android-OS</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="process_provider_in_use_description">Udbyderen %1$s er i brug.</string>
     <string name="process_service_in_use_description">Tjenesten %1$s er i brug.</string>
@@ -3700,6 +3713,7 @@ Denne indstilling påvirker alle brugere på denne telefon."</string>
     <string name="saved_network">Gemt af %1$s</string>
     <string name="saved_wifi">Administrer gemte netværker</string>
     <string name="saved_wifi_delete">Slet</string>
+    <string name="sccret_code_error">The code you entered is incorrect.</string>
     <string name="screen">Skærm</string>
     <string name="screen_button">Skærmknapper</string>
     <string name="screen_button_tips">Stryg ned for at skjule skærmknapper</string>
@@ -4061,6 +4075,7 @@ Sådan bruger du skærmfastholdelse:
     <string name="security_encryption_attention_3">Du skal indstille en ny låseskærmsadgangskode.</string>
     <string name="security_encryption_attention_4">Sørg for, at du husker din låseskærmsadgangskode. Ellers skal du gennemføre en fuld nulstilling og slette alle data på enheden.</string>
     <string name="security_encryption_attention_info">Du kan kryptere konti, indstillinger, downloadede apps og deres data, medier og andre filer.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Vigtigt</string>
     <string name="security_encryption_close_dialog_info">Vælger du ikke at kryptere enheden med låseskærmsadgangskode, kan nogle Google-tjenester være utilgængelige.</string>
     <string name="security_encryption_close_dialog_title">Gå tilbage til normal adgangskodebeskyttelse</string>
@@ -4070,8 +4085,8 @@ Sådan bruger du skærmfastholdelse:
     <string name="security_encryption_progress_dialog_open">Krypterer…</string>
     <string name="security_encryption_rejected_via_home_manager">Denne funktion er ikke understøttet i demo-versionen.</string>
     <string name="security_encryption_title">Kryptér enhed med låseskærmsadgangskode</string>
-    <string name="security_input">Security input</string>
-    <string name="security_input_hint">Using security keyboard enter password</string>
+    <string name="security_input">Sikkerhedsinput</string>
+    <string name="security_input_hint">Indtast adgangskode ved hjælp af security-tastatur</string>
     <string name="security_keyguard_category_name">Låseskærm</string>
     <string name="security_password_category_name">Skærmlås</string>
     <string name="security_passwords_title">Privatliv</string>
@@ -4313,6 +4328,7 @@ Muligvis pga. en forkert pinkode."</string>
     <string name="sim_reenter_new">Indtast ny pinkode igen</string>
     <string name="sim_select_card">Vælg et SIM-kort</string>
     <string name="sim_selection_required_pref">Du har ikke valgt endnu</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -4326,6 +4342,7 @@ Muligvis pga. en forkert pinkode."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Spring over alligevel</string>
     <string name="skip_label">Spring over</string>
@@ -4403,6 +4420,7 @@ Pålidelige loginoplysninger, der er installeret på din enhed, gør dette mulig
     <string name="status_bar_settings_all_app_display_loading">Lige et øjeblik…</string>
     <string name="status_bar_settings_app_notification_preferences">App-indstillinger</string>
     <string name="status_bar_settings_basic_settings">Grundindstillinger</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Rediger navn på teleudbyder</string>
     <string name="status_bar_settings_custom_wifi_name">Rediger Wi-Fi-navn</string>
     <string name="status_bar_settings_enable_notification">Vis notifikationer</string>
@@ -4464,6 +4482,9 @@ Pålidelige loginoplysninger, der er installeret på din enhed, gør dette mulig
     <string name="status_wimax_mac_address">4G MAC-adresse</string>
     <string name="status_write_success">Gennemført!</string>
     <string name="statusbar_permission_desc">Følgende tilladelser er kun gyldige for vigtige notifikationer</string>
+    <string name="stop_upload_audio_log">Finish getting audio log</string>
+    <string name="stop_upload_gps_log">Finish getting GPS log</string>
+    <string name="stop_upload_modem_log">Finish getting modem log</string>
     <string name="storage_detail_apps">Apps</string>
     <string name="storage_detail_audio">Lyd</string>
     <string name="storage_detail_cached">Cachelagrede data</string>
@@ -4634,6 +4655,7 @@ Du kan også skifte til et hurtigere ^1 for at få en bedre ydeevne."</string>
     <string name="suggestions_title">Forslag</string>
     <string name="sum_carrier_select">Vælg en netværksudbyder</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s-%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="super_resolution_access_title">Tilgængelige apps</string>
     <string name="super_resolution_desc">Gør billeder skarpere med en Al-algoritme</string>
@@ -4968,8 +4990,11 @@ Dine gemte fingeraftryk fjernes også fra denne profil, så du kan ikke længere
     <string name="untitled_apn">Unavngivet</string>
     <string name="update_new_version">Opdatering er tilgængelig</string>
     <string name="update_progress_for_updates">Opdaterer (%s)</string>
+    <string name="upload_audio_log">Start getting audio log</string>
     <string name="upload_debug_log_summary">Forbrugsstatistikker, der hjælper os med at lokalisere og løse problemer, kan indeholde dine personlige oplysninger</string>
     <string name="upload_debug_log_title">Send diagnostisk data automatisk</string>
+    <string name="upload_gps_log">Start getting GPS log</string>
+    <string name="upload_modem_log">Start getting modem log</string>
     <string name="usage">Forbrug</string>
     <string name="usage_access">Adgang til forbrug</string>
     <string name="usage_access_description">Med adgang til forbrug kan en app aflæse, hvilke andre apps du anvender og hvor ofte, samt dit mobilselskab, dine sprogindstillinger og andre oplysninger.</string>
@@ -5624,9 +5649,11 @@ Vil du tillade dette for alle apps, der gerne vil søge?"</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

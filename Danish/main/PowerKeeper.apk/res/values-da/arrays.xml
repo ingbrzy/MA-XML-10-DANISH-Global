@@ -12,6 +12,10 @@
         <item>Aktive apps</item>
         <item>Apps i dvaletilstand</item>
     </string-array>
+    <string-array name="emode_app_groups">
+        <item>System-apps</item>
+        <item>Andre apps</item>
+    </string-array>
     <string-array name="thermal_entries">
         <item>Standard temperaturstyringstilstand</item>
         <item>Præstationstilstand</item>

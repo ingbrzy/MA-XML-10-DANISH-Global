@@ -4,7 +4,8 @@
     <string name="error_filename_too_long">Det filnavn, du har indtastet, er for langt.</string>
     <string name="power_config_select_apps_title">Apps</string>
     <string name="power_config_event_delete">Slet</string>
-    <string name="hide_mode_desc">Når en app køres i baggrunden, vil dens aktiviteter blive overvåget for at reducere batteriforbrug.</string>
+    <string name="hide_mode_desc"><font color="#000000">Når en app kører i baggrunden, vil dens aktiviteter blive overvåget for at spare på batteriet. Denne funktion vil hente og bruge brugerdata i henhold til %s</font></string>
+    <string name="privacy">Fortrolighedspolitik</string>
     <string name="power_hide_mode_title">Batteri og ydeevne</string>
     <string name="power_config_apps">Batteribesparer</string>
     <string name="app_list_title">Vælg apper</string>
@@ -12,6 +13,7 @@
     <string name="about_hide_mode">Om batteribesparer</string>
     <string name="show_system_app">Vis system-apps</string>
     <string name="hide_system_app">Skjul system-apps</string>
+    <string name="about_extreme_mode">Extreme-batterisparer</string>
     <string name="scenario_policies_title">Smarte scenarier</string>
     <string name="config_scenario_policies_title">Scenarier</string>
     <string name="scenario_policies_summary">Anvend forskellige strømbesparelsesstrategier til forskellige scenarier.</string>
@@ -89,4 +91,6 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="appconfig_active_app_dialog_title">Administrer aktive apps</string>
     <string name="config_classify">Sortér efter app-indstillinger</string>
     <string name="active_classify">Sortér efter aktivitetsstatus</string>
+    <string name="extreme_mode_max_item_alert">Kun 4 apps kan vælges til at køre i baggrunden i ekstrem batterisparetilstand</string>
+    <string name="message_i_know">Det ved jeg</string>
 </resources>

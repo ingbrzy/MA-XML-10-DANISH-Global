@@ -95,6 +95,7 @@
     <string name="error_sdcard_unmounted">Indsæt SD-kort nu</string>
     <string name="record_back_pressed_hint">Tryk på Tilbage igen for at stoppe optagelsen</string>
     <string name="record_mark_point">Marker %s</string>
+    <string name="record_format_preference_title">Optageformat</string>
     <string name="record_quliaty_preference_title">Optagelseskvalitet</string>
     <string name="cloud_record_tip">Synkroniser optagelser med Mi Cloud.</string>
     <string name="cloud_record_open">Synkroniser optagelser</string>
@@ -152,4 +153,5 @@
     <string name="head_set_tip_dialog_ok">Forstået</string>
     <string name="rename_fail_tip">Kunne ikke omdøbe. Elementet med dette navn findes allerede.</string>
     <string name="dialog_privacy_revoke_tips">Efter du tilbagekalder autorisationer, holder appen op med at indsamle data, og alle de relaterede data slettes fra serverne. Det kan gøre appen stort set ubrugelig. Tilbagekald tilladelsen alligevel? For at sikre din kontos sikkerhed skal du logge ind på i.mi.com før tilbagekaldelse af autorisationer til Mi Cloud-tjenester.</string>
+    <string name="privacy_policy_title">Fortrolighedspolitik</string>
 </resources>

@@ -61,4 +61,6 @@
     <string name="open_perm_title">Tilladelser påkrævet</string>
     <string name="cancel">Annuller</string>
     <string name="allow">Tillad</string>
+    <string name="preference_other">Andre</string>
+    <string name="preference_privacy_title">Privatlivspolitik</string>
 </resources>
