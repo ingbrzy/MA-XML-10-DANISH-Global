@@ -9,8 +9,8 @@
         <item quantity="one">%d element blokeret</item>
     </plurals>
     <plurals name="articles_updated_amount">
-        <item quantity="other">%1$d artikler opdateret til dig</item>
-        <item quantity="one">%1$d artikel opdateret til dig</item>
+        <item quantity="other">Læs %1$d nye artikler</item>
+        <item quantity="one">Læs %1$d ny artikel</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Slet %d opgaver?</item>
@@ -25,7 +25,7 @@
         <item quantity="one">Sidste %d dag</item>
     </plurals>
     <plurals name="mw_matches_found">
-        <item quantity="other">1 match</item>
+        <item quantity="other">%1$d af %2$d</item>
         <item quantity="one">1 match</item>
     </plurals>
     <plurals name="nav_screen_incognito_time">
@@ -81,8 +81,8 @@
         <item quantity="one">%d minutter tilbage</item>
     </plurals>
     <plurals name="videos_updated_amount">
-        <item quantity="other">%1$d videoer opdateret til dig</item>
-        <item quantity="one">%1$d video opdateret til dig</item>
+        <item quantity="other">Se %1$d nye videoer</item>
+        <item quantity="one">Se %1$d ny video</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Nulstil</item>

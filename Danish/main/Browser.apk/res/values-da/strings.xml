@@ -25,6 +25,7 @@
     <string name="s5">Opret kalenderbegivenhed</string>
     <string name="s6">Vil du tillade, at annoncen opretter en kalenderbegivenhed?</string>
     <string name="s7">Testannonce</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_action_bar_home_description">Gå til startsiden</string>
     <string name="abc_action_bar_up_description">Gå op</string>
     <string name="abc_action_menu_overflow_description">Mere</string>
@@ -86,7 +87,6 @@
     <string name="add_to_quicklink">Startside</string>
     <string name="added_to_bookmarks">Tilføjet til bogmærker</string>
     <string name="adjust_text_zoom_toast">Ændring af tekstzoom kan medføre, at nogle websites vises forkert</string>
-    <string name="adx_loading_str">Lige et øjeblik…</string>
     <string name="agree">Godkend</string>
     <string name="agree_permissions_request">Tillad</string>
     <string name="alert_tips">Denne hjemmeside kan udgøre en sikkerhedsrisiko</string>
@@ -102,7 +102,6 @@
     <string name="aqi_quality_index_moderate">Moderat</string>
     <string name="aqi_quality_index_pure">Fortræffelig</string>
     <string name="aqi_quality_index_unhealthy">Usund</string>
-    <string name="articles_updated">Opdaterede %1$d artikler</string>
     <string name="autoSwithcingSearchEngineTips">Skiftede til den mest ofte anvendte søgemaskine</string>
     <string name="autologin_bar_error">Kunne ikke logge på</string>
     <string name="autologin_bar_hide_text">Skjul</string>
@@ -347,6 +346,7 @@ Sider, du ser, vises ikke i historikken."</string>
     <string name="ignore_add_pwa_dialog_today">Vis ikke i dag</string>
     <string name="in_incognito">Du er inkognito! Hjemmesider, du ser på denne fane, vises ikke i din browserhistorik.</string>
     <string name="in_secureaccess">Browser skiftede til sikker tilstand</string>
+    <string name="into_info_flow_guide">Se flere artikler</string>
     <string name="isReplacePage">Filen findes allerede. Skal den erstattes?</string>
     <string name="is_first_history_item">Dette er den første side i browserhistorikken</string>
     <string name="is_first_tab">Dette er den første fane</string>
@@ -470,8 +470,8 @@ Sider, du ser, vises ikke i historikken."</string>
     <string name="mw_color_picker_value">Værdi</string>
     <string name="mw_config_webSettingsDefaultTextEncoding">UTF-8</string>
     <string name="mw_copy_to_clipboard_failure_message">Kunne ikke kopiere til udklipsholderen</string>
-    <string name="mw_data_traffic_prompt_change">Brug af din mobildataforbindelse til at se videoer vil forøge dit dataforbrug. Hvis du overskrider dit abonnements dataforbrugsgrænse, vil din udbyder muligvis opkræve ekstra gebyrer.</string>
-    <string name="mw_data_traffic_prompt_message">Brug af din mobildataforbindelse til at browse videoer vil forøge dit dataforbrug. Hvis du overskrider dit abonnements dataforbrugsgrænse, vil din udbyder muligvis opkræve ekstra gebyrer.</string>
+    <string name="mw_data_traffic_prompt_change">Brug af din mobildataforbindelse til at se videoer vil forøge dit dataforbrug. Hvis du overskrider dit abonnements dataforbrugsgrænse, vil din operatør muligvis opkræve ekstra gebyrer.</string>
+    <string name="mw_data_traffic_prompt_message">Brug af din mobildataforbindelse til at browse videoer vil forøge dit dataforbrug. Hvis du overskrider dit abonnements dataforbrugsgrænse, vil din operatør muligvis opkræve ekstra gebyrer.</string>
     <string name="mw_data_traffic_prompt_message_short">Brug af mobildata til at streame video kan medføre, at du overskrider dit abonnements dataforbrugsgrænse.</string>
     <string name="mw_data_traffic_prompt_title">Advarsel om dataforbrug</string>
     <string name="mw_date_picker_dialog_clear">Ryd</string>
@@ -486,7 +486,7 @@ Sider, du ser, vises ikke i historikken."</string>
     <string name="mw_http_post_warning_resend">Fortsæt</string>
     <string name="mw_js_dialog_before_unload">"%s
 
-Er du sikker på, at du vil navigere væk fra denne side?"</string>
+Forlad denne side?"</string>
     <string name="mw_js_dialog_before_unload_negative_button">Bliv på denne side</string>
     <string name="mw_js_dialog_before_unload_positive_button">Forlad denne side</string>
     <string name="mw_js_dialog_before_unload_title">Bekræft navigation</string>
@@ -500,8 +500,8 @@ Er du sikker på, at du vil navigere væk fra denne side?"</string>
     <string name="mw_login_dialog_username_field">Brugernavn</string>
     <string name="mw_low_memory_error">Kunne ikke fuldføre forrige operation på grund af lav hukommelse</string>
     <string name="mw_media_player_error_button">OK</string>
-    <string name="mw_media_player_error_text_invalid_progressive_playback">Beklager. Denne video er ugyldig til at blive streamet til denne enhed.</string>
-    <string name="mw_media_player_error_text_unknown">Beklager. Denne video kan ikke afspilles.</string>
+    <string name="mw_media_player_error_text_invalid_progressive_playback">Denne video er ugyldig til at blive streamet til denne enhed.</string>
+    <string name="mw_media_player_error_text_unknown">Denne video kan ikke afspilles.</string>
     <string name="mw_media_player_error_title">Kan ikke afspille video</string>
     <string name="mw_media_player_loading_video">Indlæser video</string>
     <string name="mw_miui_content_copy">Kopiér</string>
@@ -666,7 +666,7 @@ Er du sikker på, at du vil navigere væk fra denne side?"</string>
     <string name="mw_payments_edit_contact_details_label">Rediger kontaktoplysninger</string>
     <string name="mw_payments_email_invalid_validation_message">Indtast en gyldig e-mailadresse</string>
     <string name="mw_payments_email_required">E-mail påkrævet</string>
-    <string name="mw_payments_error_message">Der opstod en fejl ved behandlingen af din bestilling. Prøv venligst igen.</string>
+    <string name="mw_payments_error_message">Der opstod en fejl ved behandlingen af din bestilling. Prøv igen.</string>
     <string name="mw_payments_field_required_validation_message">Påkrævede felter</string>
     <string name="mw_payments_invalid_address">Indtast en gyldig adresse</string>
     <string name="mw_payments_loading_message">Loader</string>
@@ -700,7 +700,7 @@ Er du sikker på, at du vil navigere væk fra denne side?"</string>
     <string name="mw_payments_unsupported_shipping_address">Kan ikke sende til denne adresse. Vælg en anden adresse.</string>
     <string name="mw_payments_unsupported_shipping_option">Denne forsendelsesmåde er ikke tilgængelig. Prøv en anden måde.</string>
     <string name="mw_payments_updated_label">Opdateret</string>
-    <string name="mw_permission_alert_window">For at bruge funktionen skal du åbne systemmuligheden Vis popop-vindue.</string>
+    <string name="mw_permission_alert_window">For at bruge funktionen skal du åbne Vis popop-vindue.</string>
     <string name="mw_permission_unknown">Ukendt mulighed</string>
     <string name="mw_photo_picker_browse">Browse</string>
     <string name="mw_photo_picker_camera">Kamera</string>
@@ -724,13 +724,15 @@ Er du sikker på, at du vil navigere væk fra denne side?"</string>
     <string name="mw_sad_tab_send_feedback_label">Send Feedback</string>
     <string name="mw_sad_tab_title">Av, Fy!</string>
     <string name="mw_sad_tab_uma_optin">Send automatisk brugsstatistikker og fejlrapporter til Google</string>
-    <string name="mw_save_password_message">Ønsker du, at browseren skal huske denne adgangskode?</string>
+    <string name="mw_save_password_message">Husk denne adgangskode?</string>
     <string name="mw_save_password_never">Aldrig</string>
     <string name="mw_save_password_notnow">Ikke nu</string>
     <string name="mw_save_password_remember">Husk</string>
     <string name="mw_snippets_disabled_generic_prompt">Få personaliseret indhold</string>
     <string name="mw_snippets_disabled_signed_out_instructions">For at få personaliseret indhold foreslået af Google skal du logge ind på Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Fastsæt tid</string>
@@ -748,9 +750,8 @@ Er du sikker på, at du vil navigere væk fra denne side?"</string>
     <string name="nav_bottom_bar_new_tab">Ny fane</string>
     <string name="nav_screen_container_tab_incognito">Fanen Inkognito</string>
     <string name="nav_screen_container_tab_normal">Normal fane</string>
-    <string name="nav_screen_incognito_message">"Din browser- og søgehistorik vil ikke blive gemt i inkognitotilstand.
-Husk, at filerne, du downloadede, og bogmærkerne, du tilføjede, stadig vil blive gemt."</string>
-    <string name="nav_screen_incognito_title">Inkognitotilstand</string>
+    <string name="nav_screen_incognito_message">Din browser- og søgehistorik vil ikke blive gemt i inkognitotilstand. Husk, at filerne, du downloader, og bogmærkerne, du tilføjer, stadig vil blive gemt.</string>
+    <string name="nav_screen_incognito_title"> Inkognitotilstand</string>
     <string name="navigation_delete_all">Stryg fra venstre til højre for at lukke alle faneblade</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Annuller</string>
     <string name="navigationbar_rightbutton_actiontext_go">Gå</string>
@@ -803,11 +804,12 @@ Husk, at filerne, du downloadede, og bogmærkerne, du tilføjede, stadig vil bli
     <string name="pref_accessibility_url_shortcut_enter_summary">Almindelige bogstavkombinationer kan indtastes med et enkelt tryk på adresselinjen</string>
     <string name="pref_accessibility_url_shortcut_enter_title">Hurtig URL-indtastning</string>
     <string name="pref_adblock_title">Adblocker</string>
+    <string name="pref_auto_update">Opdater automatisk</string>
     <string name="pref_auto_update_under_wifi">Opdater vha. Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Skift til den ofte anvendte søgemaskine</string>
     <string name="pref_card_setting">Rækkefølge af topsites</string>
     <string name="pref_category_hint">Kategori</string>
-    <string name="pref_check_recommendation_app_quicklink">Foreslået til dig</string>
+    <string name="pref_check_recommendation_app_quicklink">Anbefalet til dig</string>
     <string name="pref_check_security_url_summary">"Send webadressen til Mi's servere for at kontrollere, om den er sikker"</string>
     <string name="pref_check_security_url_summary_international">"Tillad browseren at få adgang til URL'erne for de websites, du besøger, for at modtage mere relevante anbefalinger."</string>
     <string name="pref_check_security_url_title">Kontroller URL-sikkerhed</string>
@@ -912,7 +914,7 @@ Husk, at filerne, du downloadede, og bogmærkerne, du tilføjede, stadig vil bli
     <string name="privacy_accept">Acceptér &amp; fortsæt</string>
     <string name="privacy_agreement">Brugeraftale</string>
     <string name="privacy_message">Læs og acceptér vores %1$s og %2$s til at fortsætte.</string>
-    <string name="privacy_policy">Privatlivspolitik</string>
+    <string name="privacy_policy">Fortrolighedspolitik</string>
     <string name="privacy_title">Velkommen til Mi Browser</string>
     <string name="progress_dialog_setting_wallpaper">Indstiller baggrundsbillede…</string>
     <string name="pull_to_refresh">Træk ned for at opdatere</string>
@@ -952,6 +954,7 @@ Husk, at filerne, du downloadede, og bogmærkerne, du tilføjede, stadig vil bli
     <string name="readmodelist_bookmarks_to_show">Læseliste</string>
     <string name="refresh">Opdatér</string>
     <string name="refresh_fail">Kunne ikke loade info</string>
+    <string name="refresh_guide">Tilbage til top</string>
     <string name="refreshing">Opdaterer …</string>
     <string name="refuse_permissions_request">Begræns</string>
     <string name="release_to_refresh">Slip for at opdatere</string>
@@ -1114,6 +1117,7 @@ Husk, at filerne, du downloadede, og bogmærkerne, du tilføjede, stadig vil bli
     <string name="version_check_button_resume_download">Genoptag download</string>
     <string name="version_check_button_update">Opdater</string>
     <string name="version_check_failed">Kunne ikke søge efter opdateringer</string>
+    <string name="version_dialog_4G_checkbox">Du kan opdatere system-apps med mobildata. Dette kan medføre yderligere datagebyrer.</string>
     <string name="version_dialog_buttion_ok">OK</string>
     <string name="version_dialog_buttion_update">Opdater</string>
     <string name="version_update_file_download_toast">Downloader</string>
@@ -1216,6 +1220,7 @@ Husk, at filerne, du downloadede, og bogmærkerne, du tilføjede, stadig vil bli
     <string name="date_picker_dialog_set">Indstil</string>
     <string name="date_picker_dialog_title">Indstil dato</string>
     <string name="date_time_picker_dialog_title">Indstil dato og klokkeslæt</string>
+    <string name="external_app_restricted_access_error">Mi browseren har ikke adgang til den ønskede ressource.</string>
     <string name="find_next">Find næste</string>
     <string name="find_previous">Find forrige</string>
     <string name="js_dialog_before_unload">"%s

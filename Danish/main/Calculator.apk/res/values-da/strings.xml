@@ -256,6 +256,7 @@
     <string name="unit_data_display_currency_bhd">Bahrainsk dinar</string>
     <string name="unit_data_display_currency_bnd">Bruneisk dollar</string>
     <string name="unit_data_display_currency_brl">Brasiliansk real</string>
+    <string name="unit_data_display_currency_byn">Hviderussisk rubel</string>
     <string name="unit_data_display_currency_cad">Canadisk dollar</string>
     <string name="unit_data_display_currency_chf">Schweiziske franc</string>
     <string name="unit_data_display_currency_clp">Chilensk pesos</string>
@@ -532,5 +533,4 @@
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
     <string name="year" />
-    <string name="unit_data_display_currency_byr">Hviderussisk rubel</string>
 </resources>

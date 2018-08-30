@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="alarm_alert_snooze_set">
-        <item quantity="other">Udskyder i %d minutter.</item>
-        <item quantity="one">Snoozer i %d minutter.</item>
+        <item quantity="other">Slumre i %d minutter.</item>
+        <item quantity="one">Slumre i %d minutt.</item>
     </plurals>
     <plurals name="delete_alarm_confirm">
         <item quantity="other">Slet de valgte alarmer?</item>
@@ -17,19 +17,19 @@
         <item quantity="one">%d sekund</item>
     </plurals>
     <plurals name="snooze_message">
-        <item quantity="other">Udskyd i %d min</item>
-        <item quantity="one">Snooze i %d minutter</item>
+        <item quantity="other">Slumre i %d minutter</item>
+        <item quantity="one">Slumre i %d minutt</item>
     </plurals>
     <plurals name="timer_message_hour">
         <item quantity="other">"%1$d timer "</item>
-        <item quantity="one">%1$d timer</item>
+        <item quantity="one">"%1$d time "</item>
     </plurals>
     <plurals name="timer_message_minute">
         <item quantity="other">"%1$d minutter "</item>
-        <item quantity="one">%1$d minutter</item>
+        <item quantity="one">%1$d minut</item>
     </plurals>
     <plurals name="timer_message_second">
         <item quantity="other">%1$d sekunder</item>
-        <item quantity="one">%1$d sekunder</item>
+        <item quantity="one">%1$d sekund</item>
     </plurals>
 </resources>
