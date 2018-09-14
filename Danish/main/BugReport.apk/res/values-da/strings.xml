@@ -57,6 +57,7 @@
     <string name="save_pic_success">Gemt billede på %s</string>
     <string name="save_pic_fail">Kunne ikke gemme billede, kontroller dit SD-kort</string>
     <string name="pic_not_exist">Billedet findes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Vælg produkt</string>
     <string name="michat_skillset_business_type_title">Vælg service</string>
     <string name="michat_close_text">Chat afsluttet</string>
@@ -148,7 +149,7 @@
     <string name="network_unavailable_dialog_content">Din rapport vil blive sendt, når du har en dataforbindelse.</string>
     <string name="network_unavailable_dialog_button_ok">OK</string>
     <string name="packaging_dialog_content">Opretter rapport…</string>
-    <string name="loading_apps">Loader liste…</string>
+    <string name="loading_apps">Indlæser liste…</string>
     <string name="network_err">Kan ikke oprette forbindelse til netværket.</string>
     <string name="refresh">Opdater</string>
     <string name="announcement">Bemærk</string>
@@ -161,13 +162,16 @@
     <string name="cta_cancel">Annuller</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Send rapport</string>
-    <string name="submit_dialog_content">"Din feedback vil sammen med dine vedhæftede filer og logge blive sendt til MIUI's servere. Den kan indeholde personlige oplysninger og data om din placering."</string>
-    <string name="submit_dialog_content_global">"Din feedback sammen med de vedhæftede filer (om nogen) og logs (du kan afmarkere de tilsvarende bokse for de elementer, du ikke ønsker at uploade) vil blive sendt til MIUI's servere og en begrænset sektion af MIUI FORUM for udviklere. Oplysningerne om dine tråde og forumaktivitet vil også blive indsamlet til analyse og til videre korrespondance. Logs kan indeholde personlige oplysninger samt din placering."</string>
+    <string name="submit_dialog_content"><Data>Din feedback og vedhæftelser og logfiler vil blive sendt til MIUIs servere. De kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Din feedback og vedhæftelser (om nogen) og logfiler (du kan afmarkere de korresponderende bokse for de elementer, du ikke ønsker at uploade) vil blive sendt til MIUIs servere og en begrænset sektion af MIUI Forum for udviklere. Oplysningerne om dine tråde og forumaktivitet vil også blive indsamlet til analyse og yderligere kommunikation. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
     <string name="submit_dialog_cancel">Er ikke enig</string>
     <string name="submit_dialog_confirm">Godkend</string>
+    <string name="tab_title_preferences">Indstillinger</string>
+    <string name="privacy_policy_title">Privatlivspolitik</string>
+    <string name="privacy_category_title">Privatliv</string>
     <string name="mobile_data_note_dialog_title">Advarsel om dataforbrug</string>
-    <string name="mobile_data_note_dialog_content">Brug af mobildata til upload af logge kan medføre yderligere udgifter.</string>
-    <string name="mobile_data_note_dialog_content_with_file_size">Uploading af logge ved hjælp af mobildataforbindelse vil kræve %s MB data.</string>
+    <string name="mobile_data_note_dialog_content">Det ser ud til, at du tilsluttet til et betalingsnetværk. Uploading af logfiler kan medføre yderligere afgifter.</string>
+    <string name="mobile_data_note_dialog_content_with_file_size">Det ser ud til, at du tilsluttet til et betalingsnetværk. Uploading af logfiler kræver %s MB mobildata.</string>
     <string name="mobile_data_note_dialog_cancel">Vent på wi-fi</string>
     <string name="mobile_data_note_dialog_confirm">Upload</string>
     <string name="modem_tool_log_dumping_title">Henter modemlogge.</string>
@@ -177,7 +181,7 @@
     <string name="modem_tool_log_finish_title">Modemlog hentet.</string>
     <string name="modem_tool_log_finish_desc">Log er gemt som %s</string>
     <string name="bugreport_dialog_not_show_again">Vis ikke igen</string>
-    <string name="bugreport_dialog_submit_content">Du deler i øjeblikket softwarelogs på denne enhed. Logs kan indeholde visse personlige oplysninger samt din placering. Del ikke logs med nogen, hvis du ikke ønsker disse oplysninger at blive eksponeret.</string>
+    <string name="bugreport_dialog_submit_content"><Data>Du gemmer softwarelogfiler på denne enhed nu. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. Del ikke logfiler med nogen, hvis du ikke ønsker, at disse oplysninger skal videregives. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
     <string name="bugreport_dump_start_notification_title">Opretter fejlrapport…</string>
     <string name="bugreport_dump_start_notification_summary">Dette kan tage flere minutter.</string>
     <string name="bugreport_dump_complete_notification_title">Oprettet fejlrapport.</string>
@@ -242,6 +246,7 @@
     <string name="feedback_third_packagename_hint">Hvilken tredjeparts-app forårsager problemer?</string>
     <string name="toast_third_packagename_required">Indtast app-navn.</string>
     <string name="feedback_contact_info_hint">Telefonnummer/e-mail</string>
+    <string name="toast_loading_app_id">Henter oplysninger…</string>
     <string name="feedback_status_commit_succ_title">Afsendt</string>
     <string name="feedback_status_commit_uploading_title">Sender…</string>
     <string name="feedback_status_commit_failed_title">Kunne ikke sende rapport.</string>
@@ -256,10 +261,10 @@
     <string name="feedback_status_submit_attachment">Indsendt vedhæftede fil med succes.</string>
     <string name="feedback_status_collect_log_failed">Kunne ikke hente logge</string>
     <string name="feedback_status_submit_feedback_failed">Kunne ikke indsende feedback</string>
-    <string name="feedback_status_save_log_info_failed">Kunne ikke ændre URL for det vedhæftede</string>
-    <string name="feedback_status_submit_bbs_failed">Kunne ikke indsende feedback-indhold</string>
-    <string name="feedback_status_get_and_save_bbs_info_failed">Kunne ikke hente URL for det vedhæftede</string>
-    <string name="feedback_status_upload_log_failed">Kunne ikke uploade de vedhæftede</string>
+    <string name="feedback_status_save_log_info_failed">Kunne ikke ændre URL for vedhæftet fil</string>
+    <string name="feedback_status_submit_bbs_failed">Kunne ikke indsende feedbackindhold</string>
+    <string name="feedback_status_get_and_save_bbs_info_failed">Kunne ikke hente URL for vedhæftet fil</string>
+    <string name="feedback_status_upload_log_failed">Kunne ikke uploade vedhæftede filer</string>
     <string name="feedback_status_change_notification_title">Din rapports sagsforløb er blevet opdateret.</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s forslag \"%2$s\"</string>
@@ -285,6 +290,8 @@
     <string name="warning_field_invalid">Vælg en gyldig %1$s</string>
     <string name="min_error">Din %1$s skal være længere.</string>
     <string name="max_error">Din %1$s skal være kortere.</string>
+    <string name="reply_option_log_hint">可选</string>
+    <string name="reply_select_log_hint">选择日志文件</string>
     <string name="title_mi_family">Mi Homes i nærheden</string>
     <string name="hint_feedback_main">Beskriv problemet</string>
     <string name="goon_feedback_main">Fortsæt</string>
@@ -320,7 +327,6 @@
     <string name="toast_pic_not_exists">Cachet billede blev slettet.</string>
     <string name="toast_screenshot_too_large">Kan ikke uploade filer, der er større end 10 MB.</string>
     <string name="toast_log_too_large">Ken ikke uploade. Filen er for stor.</string>
-    <string name="title_bbs_feedback_main">Læs mere om Mi-telefoner</string>
     <string name="title_customer_service">Kundeservice</string>
     <string name="customer_service_apply">Anmod om kundeservice</string>
     <string name="customer_service_complain">Anmeld kundeservice</string>

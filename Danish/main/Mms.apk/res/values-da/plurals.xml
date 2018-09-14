@@ -28,6 +28,10 @@
         <item quantity="other">%d messages</item>
         <item quantity="one">%d beskeder</item>
     </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="other">Markeret som %2$s %1$d personer</item>
+        <item quantity="one">Markeret som %2$s %1$d person</item>
+    </plurals>
     <plurals name="message_count">
         <item quantity="other">%1$s messages</item>
         <item quantity="one">%1$s beskeder</item>

@@ -52,6 +52,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Skift af operatørnetværk.</string>
     <string name="accessibility_cast_name">Forbindelse oprettet til %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Skærmcasting stoppet.</string>
     <string name="accessibility_cell_data">Mobildata</string>
     <string name="accessibility_cell_data_off">Mobildata slået fra</string>
@@ -626,7 +627,7 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="face_unlock_offset_top">Løft din telefon lidt</string>
     <string name="face_unlock_open_eye">Åbn dine øjne lidt mere</string>
     <string name="face_unlock_passwork">Brug adgangskode</string>
-    <string name="face_unlock_passwork_and_fingerprint">Brug adgangskode eller ansigtsdata</string>
+    <string name="face_unlock_passwork_and_fingerprint">Brug adgangskode eller fingeraftryk</string>
     <string name="face_unlock_quality">Kunne ikke se dit ansigt klart</string>
     <string name="face_unlock_reenter_content">Ansigtslåsningsalgoritmen opdateres. Tryk for at optage ansigtsdata igen.</string>
     <string name="face_unlock_reenter_title">Optag dine ansigtsdata igen.</string>
@@ -635,6 +636,7 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="face_unlock_rise">Sænk dit hoved</string>
     <string name="face_unlock_rotated_left">Drej dit hoved til højre</string>
     <string name="face_unlock_rotated_right">Drej dit hoved til venstre</string>
+    <string name="face_unlock_sc_status">Tryk skærmen ned for at åbne kameraet</string>
     <string name="face_unlock_stay_away_screen">Hold dig 25 til 40 cm væk fra skærmen</string>
     <string name="failed_to_open_app_settings_toast">Kunne ikke åbne indstillinger for %1$s</string>
     <string name="fingerprint_add_text">Fingeraftryksgrænsefladen blev opdateret. Tilføj dit fingeraftryk igen.</string>
@@ -728,7 +730,7 @@ Når din telefon er kølet ned, vil den køre normalt."</string>
     <string name="incorrect_pukcode">Forkert PUK-kode</string>
     <string name="input_password_after_boot_msg">For at låse op for enheden skal du indtaste din adgangskode</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Kan ikke skifte mellem spaces under et opkald</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Kan ikke skifte mellem spaces, når FamilyGuard er tændt</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Kan ikke skifte mellem rum, når forældrekontrol er slået til</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Du skal gå til First space, efter at enheden genstartes</string>
     <string name="input_password_handle_sdcard_fs">Kan ikke gå til Second space fra låseskærm. Gå dertil fra First space.</string>
     <string name="input_password_hint_text">Indtast adgangskode</string>
@@ -808,9 +810,13 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyguard_accessibility_sim_puk_area">SIM-PUK-område</string>
     <string name="keyguard_carrier_default">Ingen service</string>
     <string name="keyguard_charged">Opladet</string>
-    <string name="keyguard_charging_back_to_lockscreen">Back to lock screen</string>
+    <string name="keyguard_charging_back_to_lockscreen">Tilbage til låseskærm</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
     <string name="keyguard_charging_info_click_to_detail">Se detaljer</string>
+    <string name="keyguard_charging_info_data_c">%s ℃</string>
+    <string name="keyguard_charging_info_data_ma">%s mA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%s V</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Drænet</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">I dag %s</string>
@@ -828,13 +834,14 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyguard_indication_trust_disabled">Enheden vil forblive låst, indtil du manuelt låser op</string>
     <string name="keyguard_instructions_when_pattern_disabled">Tryk på Menu for at låse op.</string>
     <string name="keyguard_left_mi_wallet">Mi Wallet</string>
-    <string name="keyguard_left_torch">Torch</string>
+    <string name="keyguard_left_torch">Lommelygte</string>
     <string name="keyguard_left_view_lock_wallpaper">Baggrundskarrusel</string>
     <string name="keyguard_low_battery">Tilslut din oplader.</string>
     <string name="keyguard_missing_sim_instructions">Indsæt et SIM-kort.</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke læses. Indsæt et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Intet SIM-kort i telefon.</string>
     <string name="keyguard_missing_sim_message_short">Intet SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Netværk er låst</string>
     <string name="keyguard_password_enter_password_code">Indtast adgangskode for at låse op</string>
     <string name="keyguard_password_enter_pin_code">Indtast PIN-kode</string>
@@ -870,7 +877,7 @@ Brug kun den medfølgende oplader."</string>
     <string name="kg_invalid_confirm_pin_hint">PIN-koder er ikke ens</string>
     <string name="kg_invalid_puk">Indtast den korrekte PUK-kode igen. Gentagne forsøg vil permanent deaktivere SIM-kortet.</string>
     <string name="kg_invalid_sim_pin_hint">Indtast en PIN-kode, som er mellem 4 og 8 tal.</string>
-    <string name="kg_invalid_sim_puk_hint">PUK-kode skal være på 8 tal eller flere.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK-kode skal være på 8 tal.</string>
     <string name="kg_login_too_many_attempts">For mange mønsterforsøg</string>
     <string name="kg_password_instructions">Indtast adgangskode</string>
     <string name="kg_password_pin_failed">Kunne ikke låse op med SIM-PIN-kode</string>
@@ -918,6 +925,7 @@ Prøv igen om %2$d sekunder."</string>
     <string name="left_keycode">Venstre nøglekode</string>
     <string name="left_nav_bar_button_type">Ekstra venstre knaptype</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Tryk for at ændre eller fjerne adgangkoden for fulde sikkerhedskopier af startskærmen</string>
     <string name="local_backup_password_summary_none">Fulde sikkerhedskopier af startskærmeen ern’t i øjeblikket ikke beskyttet</string>
     <string name="local_backup_password_title">Adgangskode til backup af startskærmen</string>
@@ -976,19 +984,21 @@ Prøv igen om %2$d sekunder."</string>
     <string name="menu_ime">Tastaturskifter</string>
     <string name="miui_guide_dialog_button_negative_text">Indstillinger</string>
     <string name="miui_guide_dialog_button_positive_text">Forstået</string>
-    <string name="miui_guide_dialog_message">Medialyde (musik, videoer etc.) vil stadig blive afspillet lydløs tilstand. Du kan skifte dette i Indstillingerne.</string>
+    <string name="miui_guide_dialog_message">Medielyde (musik, videoer osv.) afspilles stadig i lydløs tilstand. Du kan ændre dette i indstillingerne.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Låst op med Bluetooth-enhed</string>
-    <string name="miui_ringer_count_down">Tæl ned</string>
+    <string name="miui_ringer_count_down">Nedtælling</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Lydløs</string>
-    <string name="miui_ringer_standard_description">Sæt ringetoner på lydløs for indgående opkald og notifikationer</string>
+    <string name="miui_ringer_standard_description">Sluk for ringetoner ved indkommende opkald og notifikationer</string>
     <string name="miui_ringer_total">DND</string>
-    <string name="miui_ringer_total_description">Slå lyde og vibration fra for alle elementer undtagen vækkeur</string>
+    <string name="miui_ringer_total_description">Sluk for lyde og vibration for alle elementer undtagen alarmerne</string>
+    <string name="miui_screen_rotation_freeze_message">Autorotér deaktiveret.</string>
     <string name="miui_toast_zen_dnd_to_off">Lyde og vibration gendannet til normal</string>
     <string name="miui_toast_zen_standard_to_off">Ringetoner gendannet til normal</string>
-    <string name="miui_toast_zen_standard_to_off_when_shield_media">Ringetoner såvel som notifikations- og medialyde vil blive afspillet.</string>
+    <string name="miui_toast_zen_standard_to_off_when_shield_media">Ringetoner samt notifikations- og medielyde spilles.</string>
     <string name="miui_toast_zen_to_dnd">Lyde og vibration slået fra</string>
-    <string name="miui_toast_zen_to_standard">Ringetone og notifikationslyde sat på lydløs</string>
-    <string name="miui_toast_zen_to_standard_when_shield_media">Ringetoner såvel som notifikations- og medialyde vil blive sat på lydløs.</string>
+    <string name="miui_toast_zen_to_standard">Ringetoner for opkald og notifikationslyde sat på lydløs</string>
+    <string name="miui_toast_zen_to_standard_when_shield_media">Ringetoner samt notifikations- og medielyde sættes på lydløs.</string>
     <string name="mobile_data">Mobildata</string>
     <string name="mobile_data_always_on">Mobildata altid aktive</string>
     <string name="mobile_data_always_on_summary">Hold altid mobildata aktiv, selv når Wi‑Fi er aktiv (for hurtig skift mellem netværk).</string>
@@ -1005,12 +1015,14 @@ Du er også forbundet til %3$s, som kan overvåge din personlige netværksaktivi
 
 Kontakt din administrator for flere oplysninger."</string>
     <string name="monitoring_description_ca_cert_settings">Åbn pålidelige brugeroplysninger</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Der er installeret et nøglecenter på denne enhed. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_do_body">Din administrator kan overvåge og administrere indstillinger, firmaadgang, apps, data, der er forbundet med din enhed, samt din enheds placeringsoplysninger.</string>
     <string name="monitoring_description_do_body_vpn">Du har forbindelse til %1$s, som kan overvåge din netværksaktivitet, herunder e-mails, apps og websites.</string>
     <string name="monitoring_description_do_header_generic">Din enhed styres af %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruger %2$s til at styre din enhed.</string>
     <string name="monitoring_description_do_learn_more">Få mere at vide</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din virksomhed har installeret et nøglecenter i din arbejdsprofil. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbejdsprofil er forbundet til %1$s, som kan overvåge din netværksaktivitet, herunder e-mails, apps og websites.</string>
     <string name="monitoring_description_management">"Din enhed administreres af din virksomhed.
@@ -1042,6 +1054,7 @@ Kontakt din administrator for flere oplysninger.
 
 Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Åbn VPN-indstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikater</string>
     <string name="monitoring_subtitle_network_logging">Netværkslogning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1056,6 +1069,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="nav_guide_message">Brug bevægelser til at skjule/vise funktionsknapper.</string>
     <string name="nav_guide_ok">Indstil</string>
     <string name="nav_guide_title">Skjul funktionsknapper</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Intet</string>
     <string name="no_multi_window_app">Ingen apps understøtter splitskærm</string>
     <string name="no_notification_tips">Ingen notifikationer</string>
@@ -1193,6 +1207,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="power_remaining_charging_duration_only">%1$s igen til fuldt opladet</string>
     <string name="power_remaining_duration_only">Omtrent %1$s tilbage</string>
     <string name="power_remaining_duration_only_short">%1$s tilbage</string>
+    <string name="process_kernel_label">Android-OS</string>
     <string name="profile_owned_footer">Profilen kan være overvåget</string>
     <string name="prompt_danger">Fare</string>
     <string name="prompt_detecting">Detekterer</string>
@@ -1447,6 +1462,8 @@ være overvåget"</string>
     <string name="status_bar_clear_all_button">Ryd</string>
     <string name="status_bar_clock_date_format">EEEE, d. MMMM</string>
     <string name="status_bar_clock_date_format_12">EEEE, MMMM d</string>
+    <string name="status_bar_clock_date_time_format">H:mm d MMMM</string>
+    <string name="status_bar_clock_date_time_format_12">aah:mm d MMMM</string>
     <string name="status_bar_date_format">"EEEE
 d. MMMM"</string>
     <string name="status_bar_date_format_12">"EEEE
@@ -1554,7 +1571,7 @@ Stryg ned for at låse"</string>
     <string name="structure_face_unlock_really_person">Det ser ud til, at du har udskiftet dit ansigt med et objekt.</string>
     <string name="switch_bar_off">Slået fra</string>
     <string name="switch_bar_on">Slået til</string>
-    <string name="switch_system_user">Open First space</string>
+    <string name="switch_system_user">Åbn First space</string>
     <string name="system_ui_tuner">System UI Tuner</string>
     <string name="task_access_locked_app_msg">App-lås slået til</string>
     <string name="telephony_monitor_switch">Telefonmonitor</string>
@@ -1702,8 +1719,8 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="voice_assist_label">Åbn Voice assistant</string>
     <string name="voice_hint">Stryg fra ikonet for Voice assistant</string>
     <string name="volume_and_do_not_disturb">Forstyr ikke</string>
-    <string name="volume_dialog_accessibility_dismissed_message">Lydstyrkekontroller skjult</string>
-    <string name="volume_dialog_accessibility_shown_message">%s lydstyrkekontroller vist. Stryg op for at afvise.</string>
+    <string name="volume_dialog_accessibility_dismissed_message">Lydstyrkeknapperne er skjult</string>
+    <string name="volume_dialog_accessibility_shown_message">Lydstyrkeknapperne for %s er synlige. Stryg op for at lukke.</string>
     <string name="volume_dnd_silent">Genvej til lydstyrkeknapper</string>
     <string name="volume_stream_content_description_mute">%1$s. Tryk for at sætte på lydløs. Tilgængelighedstjenester kan være sat på lydløs.</string>
     <string name="volume_stream_content_description_mute_a11y">%1$s. Tryk for at slå lydløs til.</string>
@@ -1721,6 +1738,7 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="wait_for_debugger">Vent på fejlfinder</string>
     <string name="wait_for_debugger_summary">Fejlfundne applikationer venter på, at fejlfinderen skal tilslutte inden udførsel</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Slip for at se detaljer</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Opdateret %1$s</string>
     <string name="wifi_aggressive_handover">Aggressiv Wi‑Fi til mobil-overdragelse</string>
     <string name="wifi_aggressive_handover_summary">I aktiv tilstand vil forbindelsen skifte til mobildata mere aktivt, når Wi‑Fi-signalet er svagt.</string>
@@ -1745,9 +1763,11 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

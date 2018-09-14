@@ -221,8 +221,8 @@
         <item quantity="one">%1$d-kontakter vises i notifikations-skyggen</item>
     </plurals>
     <plurals name="show_audio_logcat_countdown">
-        <item quantity="other">%1$d steps left before you can get audio log</item>
-        <item quantity="one">%1$d step left before you can get audio log</item>
+        <item quantity="other">%1$d trin tilbage, før du kan få audiologfil</item>
+        <item quantity="one">%1$d trin tilbage, før du kan få audiologfil</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Du er %1$d trin fra at indtaste CIT.</item>
@@ -233,12 +233,12 @@
         <item quantity="one">Du er nu %1$d skridt fra at være udvikler.</item>
     </plurals>
     <plurals name="show_gps_logcat_countdown">
-        <item quantity="other">%1$d steps left before you can get GPS log</item>
-        <item quantity="one">%1$d step left before you can get GPS log</item>
+        <item quantity="other">%1$d trin tilbage, før du kan få GPS-logfil</item>
+        <item quantity="one">%1$d trin tilbage, før du kan få GPS-logfil</item>
     </plurals>
     <plurals name="show_modem_logcat_countdown">
-        <item quantity="other">%1$d steps left before you can get modem log</item>
-        <item quantity="one">%1$d step left before you can get modem log</item>
+        <item quantity="other">%1$d trin tilbage, før du kan få modemlogfil</item>
+        <item quantity="one">%1$d trin tilbage, før du kan få modemlogfil</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">Du er %1$d trin fra at indtaste telefoninfo.</item>

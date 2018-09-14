@@ -105,6 +105,7 @@
     <string name="card_settings_rule">Indstillinger for kortrækkefølge</string>
     <string name="card_title_funclaunch">Genveje</string>
     <string name="card_title_noteboard">En kort bemærkning</string>
+    <string name="card_title_utilities">Hjælpeprogrammer</string>
     <string name="check_network">Tjek netværksindstillinger</string>
     <string name="check_network_retry">Kontrollér netværksindstillinger og prøv igen</string>
     <string name="cleanup_garbage">Renser</string>
@@ -141,6 +142,7 @@
     <string name="google">Google</string>
     <string name="help_quick_start_wechat_video">Få adgang til specifikke app-funktioner via genveje</string>
     <string name="hold_down_adjustment_order">Hold nede på ikonet til højre, for at trække genstande</string>
+    <string name="holiday_empty_desc">Tryk her for at læse mere</string>
     <string name="home">Hovedmenu</string>
     <string name="home_and_company">Hjem &amp; arbejde</string>
     <string name="hour12_format_en">hh:mm</string>
@@ -202,6 +204,7 @@
     <string name="no_more_result">Det er alt i øjeblikket.</string>
     <string name="no_settings">Ikke indstillet</string>
     <string name="no_signal">Kunne ikke optage. Prøv igen senere</string>
+    <string name="no_utilities_apps">Ingen hjælpetjenester tilgængelige. Tjek dem ud senere.</string>
     <string name="not_install_c1">"App'en er ikke installeret på din telefon. Hent og installér?"</string>
     <string name="not_install_c3">Hent</string>
     <string name="not_install_c4">Nej tak</string>
@@ -344,6 +347,7 @@
     <string name="upgrade_log_title">Ny version</string>
     <string name="upgrade_now">Opdatér</string>
     <string name="user_id">Bruger-id: %s</string>
+    <string name="utilities_apps_bref">Udforske tredjepartstjenester her</string>
     <string name="walk">Gå</string>
     <string name="webull_title">Webull</string>
     <string name="which_transport">Hvordan kommer du normalt til din destination?</string>

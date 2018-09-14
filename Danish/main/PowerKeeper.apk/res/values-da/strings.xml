@@ -13,7 +13,7 @@
     <string name="about_hide_mode">Om batteribesparer</string>
     <string name="show_system_app">Vis system-apps</string>
     <string name="hide_system_app">Skjul system-apps</string>
-    <string name="about_extreme_mode">Extreme-batterisparer</string>
+    <string name="about_extreme_mode">Ekstrem-tilstand</string>
     <string name="scenario_policies_title">Smarte scenarier</string>
     <string name="config_scenario_policies_title">Scenarier</string>
     <string name="scenario_policies_summary">Anvend forskellige strømbesparelsesstrategier til forskellige scenarier.</string>
@@ -38,7 +38,7 @@
     <string name="vip_feedback_enable">Slå VIP-feedback til</string>
     <string name="extreme_power_config_mode_category">Ekstrem tilstand</string>
     <string name="extreme_power_config_mode_title">Ekstrem tilstand</string>
-    <string name="extreme_power_config_mode_desc">Skift til ekstrem tilstand for slå synkroning, Bluetooth, GPS, NFC, dobbelttryk, knaplys, vækning af låseskærm for notifikationer samt notifikationslys fra. MIUI vil fokusere på at spare batteri.</string>
+    <string name="extreme_power_config_mode_desc">Skift til Ekstrem-tilstand for slå synkronisering, Bluetooth, GPS, NFC, dobbelttryk, knaplys, vækning af låseskærm for notifikationer samt notifikationslys fra. MIUI vil fokusere på at spare batteri.</string>
     <string name="empty_title_apps_container_list">Ingen apps</string>
     <string name="hints_loading_text">Lige et øjeblik…</string>
     <string name="config_mode_title">Baggrundsindstillinger</string>
@@ -91,6 +91,6 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="appconfig_active_app_dialog_title">Administrer aktive apps</string>
     <string name="config_classify">Sortér efter app-indstillinger</string>
     <string name="active_classify">Sortér efter aktivitetsstatus</string>
-    <string name="extreme_mode_max_item_alert">Kun 4 apps kan vælges til at køre i baggrunden i ekstrem batterisparetilstand</string>
-    <string name="message_i_know">Det ved jeg</string>
+    <string name="extreme_mode_max_item_alert">Du kan vælge op til 4 apps, der skal køre i baggrund i Ekstrem-tilstand</string>
+    <string name="message_i_know">Forstået</string>
 </resources>

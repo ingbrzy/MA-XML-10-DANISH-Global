@@ -62,7 +62,7 @@
     <string name="edit_alarm">Indstil alarm</string>
     <string name="edit_systemtime">Rediger systemtiden</string>
     <string name="every_day">Hver dag</string>
-    <string name="expired_timers_dismissed">Timer dismissed</string>
+    <string name="expired_timers_dismissed">Timer fjernet</string>
     <string name="force_touch_add_alarm">Tilføj alarm</string>
     <string name="force_touch_enter_stopwatch">Stopur</string>
     <string name="force_touch_enter_timer">Timer</string>
@@ -73,7 +73,7 @@
     <string name="install_weather_app_error">Kunne ikke loade app.</string>
     <string name="install_weather_app_loading">Lige et øjeblik…</string>
     <string name="invalid_time">Ugyldig tid: %3$s %1$d: %2$d</string>
-    <string name="invalid_timer_length">Invalid timer length</string>
+    <string name="invalid_timer_length">Timerens varighed er ugyldig</string>
     <string name="keep_screen_on">Behold skærmen tændt.</string>
     <string name="label">Indstil mærkat</string>
     <string name="label_pref_summary">Mærkat</string>
@@ -152,6 +152,7 @@
     <string name="shutdown_alarm_enable_summary">Alarm vil ringe efter slukning.</string>
     <string name="shutdown_alarm_title">Sluk for alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sluk én gang på %s</string>
     <string name="slider_text">Swipe op for at slukke</string>
     <string name="snooze_confirm_cancel">Afblæs alarm</string>
@@ -160,6 +161,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen overlap</string>
     <string name="stopwatch_title">Stopur</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Indstillinger</string>
     <string name="system_time_settings_category_title">Tidsindstillinger</string>
     <string name="temperature_unit">%1$s°</string>
@@ -184,7 +186,7 @@
     <string name="timer_clock_alert_text">Sæt timer</string>
     <string name="timer_continue">Fortsæt</string>
     <string name="timer_continue_timer">Fortsæt timer</string>
-    <string name="timer_created">Timer created</string>
+    <string name="timer_created">Timer tilføjet</string>
     <string name="timer_end_time">Timer vil stoppe kl. %s</string>
     <string name="timer_end_time_format">HH:mm dd MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>

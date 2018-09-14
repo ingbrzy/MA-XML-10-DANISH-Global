@@ -300,6 +300,7 @@ For at aktivere din konto, følg det
     <string name="user_avatar_uploading">Lige et øjeblik…</string>
     <string name="user_avatar_update_title">Ændr profilfoto</string>
     <string name="photoPickerNotFoundText">Ingen fotos til rådighed</string>
+    <string name="account_invalid_user_avatar">Dette foto er ugyldigt. Prøv et andet.</string>
     <string name="account_none_binded_info">Ingen</string>
     <string name="account_bind_secure_phone_title">Tilføj telefonnummer</string>
     <string name="account_bind_secure_email_title">Tilføj e-mail</string>

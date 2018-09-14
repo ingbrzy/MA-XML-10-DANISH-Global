@@ -120,6 +120,14 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="other">Fandt %d batteriproblemer. Reparer dem.</item>
         <item quantity="one">Fandt %d batteriproblemer. Reparer dem</item>
     </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">elementer</item>
+        <item quantity="one">element</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">Tilføj %d minutter</item>
+        <item quantity="one">Tilføj %d minut</item>
+    </plurals>
     <plurals name="people">
         <item quantity="other">Downloadet af %1$d mennesker</item>
         <item quantity="one">Downloadet af %1$d mennesker</item>
@@ -281,8 +289,8 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="one">%d apps fundet</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
-        <item quantity="other">Fabriksnulstilling(%ds)</item>
-        <item quantity="one">Fabriksnulstilling(%ds)</item>
+        <item quantity="other">Fabriksnulstil (%ds)</item>
+        <item quantity="one">Fabriksnulstil (%ds)</item>
     </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">%d låste apps venter på at blive frigivet</item>
@@ -351,6 +359,10 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d apps er skjult</item>
         <item quantity="one">%d app er skjult</item>
+    </plurals>
+    <plurals name="first_aid_card_float_window_summary">
+        <item quantity="other">%d apps vises muligvis forkert. Begræns flydende notifikationer.</item>
+        <item quantity="one">%d app vises muligvis forkert. Begræns flydende notifikationer.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemer kræver optimering</item>

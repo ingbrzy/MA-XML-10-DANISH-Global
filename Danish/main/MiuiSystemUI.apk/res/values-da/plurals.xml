@@ -52,6 +52,18 @@
         <item quantity="other">%1$d t %2$d m</item>
         <item quantity="one">%1$d t %2$d m</item>
     </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="other">"%d  timer tilbage"</item>
+        <item quantity="one">"%d  time tilbage"</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="other">"%d  minutter tilbage"</item>
+        <item quantity="one">"%d  minut tilbage"</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="other">"%1$d t %2$d  m tilbage"</item>
+        <item quantity="one">"%1$d t %2$d  m tilbage"</item>
+    </plurals>
     <plurals name="kg_password_default_pin_message">
         <item quantity="other">Indtast SIM-PIN-kode. Du har %d forsøg tilbage.</item>
         <item quantity="one">Indtast SIM-PIN-kode. Du har %d forsøg tilbage, før du er nødt til at kontakte din operatør for at låse din enhed op.</item>

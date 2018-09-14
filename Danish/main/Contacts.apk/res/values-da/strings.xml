@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_calllog_detail">Oplysninger om opkaldshistorik</string>
     <string name="accessibility_contact_detail">Kontaktoplysninger</string>
     <string name="account_container_title">Importeret fra</string>
@@ -55,7 +56,6 @@
     <string name="btn_split_contact">Adskil</string>
     <string name="button_cancel_scan">Stop</string>
     <string name="button_join_service_number">Tilføj servicenummer</string>
-    <string name="button_my_center">Profil</string>
     <string name="button_scan">Scan på ny</string>
     <string name="caching_vcard_message">Cacher vCard for enheden…</string>
     <string name="caching_vcard_title">Cacher</string>
@@ -99,6 +99,7 @@
     <string name="call_sim_menu_title_suffix">(Primær)</string>
     <string name="call_telex">Opkald telex</string>
     <string name="call_tty_tdd">Opkald TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Opkald arbejde</string>
     <string name="call_work_mobile">Opkald arbejde mobil</string>
@@ -191,6 +192,7 @@
     <string name="composer_failed_to_get_database_infomation">Kunne ikke få databaseoplysninger.</string>
     <string name="composer_has_no_exportable_contact">Der er ingen eksporterbare kontakter. Hvis du har kontakter på din enhed, kan det være, at nogle dataleverandører ikke tillader, at kontakter bliver eksporteret fra enheden.</string>
     <string name="composer_not_initialized">vCard-komponisten startede ikke ordentligt.</string>
+    <string name="conference_call_disable_tip">"Can't make calls. Make sure your device is connected to a 4G network with VoLTE support."</string>
     <string name="confirm_delete_contact_all_call_logs">"Nulstil alle %s's historikker?"</string>
     <string name="confirm_delete_selected_all_call_logs">Nulstil opkaldshistorik?</string>
     <string name="confirm_delete_sim_entry_miui_title">Slet</string>
@@ -398,6 +400,7 @@ Kontaktkort er slået fra"</string>
     <string name="dialer_menu_description">Vis menuer</string>
     <string name="dialer_menu_title">Menu-muligheder</string>
     <string name="dialer_returnToInCallScreen">Returnering til opkald er i gang.</string>
+    <string name="dialer_title_divider">" ｜ "</string>
     <string name="dialer_useDtmfDialpad">Brug numerisk tastatur med tryktoner</string>
     <string name="dialog_import">Importér kontakter</string>
     <string name="dialog_import_export">Importér/eksportér kontakter</string>
@@ -485,8 +488,8 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="firewall_setting">Blokeringsliste</string>
     <string name="force_touch_miprofile">Kontaktkort</string>
     <string name="force_touch_new_contact">Ny kontakt</string>
-    <string name="foundTooManyContacts">Flere end %d fundet.</string>
     <string name="frequentList">Ofte</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Navn</string>
     <string name="gallery">Galleri</string>
     <string name="generic_no_account_prompt">Opbevar dine kontakter sikkert, selv hvis du mister din telefon: synkroniser med en onlineservice.</string>
@@ -654,7 +657,6 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="menu_splitAggregate">Adskil</string>
     <string name="menu_sync_remove">Fjern synkroniseringsgruppe</string>
     <string name="menu_viewContact">Se kontakter</string>
-    <string name="merge_contact_message">%1$d kontakter med delvis identiske oplysninger</string>
     <string name="messageShortcutActivityTitle">Vælg et nummer at sende en besked</string>
     <string name="miprofile_account_type">Kontaktkort</string>
     <string name="miprofile_alertdialog_edit">Indtast navn</string>
@@ -668,6 +670,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="miprofile_contact_header">Kontakter med kontaktkort</string>
     <string name="miprofile_contact_meaasge">Lokale kontakter</string>
     <string name="miprofile_contact_verifying">Bekræfter</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Rediger profil</string>
     <string name="miprofile_error_accept_self">Kan ikke udveksle dit eget kontaktkort</string>
     <string name="miprofile_error_no_miaccount">Log på din Mi-konto</string>
@@ -812,7 +815,10 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="path_wipe_data">System-apps/Kontakter/Organiser kontakter/Clear data</string>
     <string name="payphone">Mønttelefon</string>
     <string name="people">Kontakter</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Nummer er for langt.</string>
     <string name="phone_primary">Primær</string>
     <string name="photoPickerNotFoundText">Der er ingen tilgængelige billeder på enheden.</string>
@@ -1007,8 +1013,6 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="search_wipe_data">Organiser;Kontakter</string>
     <string name="searching_vcard_message">Søger efter vCard-data fra enhed…</string>
     <string name="select_all">Vælg alle</string>
-    <string name="select_all_exceed">Vælg ikke flere end %1$d. Kan ikke vælge alle.</string>
-    <string name="select_exceed">Vælg ikke flere end %1$d</string>
     <string name="select_groups">Vælg grupper</string>
     <string name="select_none">Ingen valgte elementer</string>
     <string name="select_show_contacts">Kontaktliste</string>
@@ -1061,6 +1065,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="sim_unloaded">SIM-kort er ikke installeret.</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ingen gruppemedlemmer</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Firmaer</string>
     <string name="smart_group_company_unavailable">Ingen firmaoplysninger</string>
     <string name="smart_group_frequency_1">Indenfor den sidste måned</string>
@@ -1195,6 +1200,7 @@ Vælg en af de følgende muligheder:"</string>
     <string name="voip_audio_description">VoIP-opkald</string>
     <string name="voip_video_description">VoIP-videoopkald</string>
     <string name="websiteLabelsGroup">Website</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Nulstil data</string>
     <string name="yellowPageNavigationIconLabel">De Gule Sider</string>
     <string name="yellowPageNavigationLabel">De Gule Sider</string>
@@ -1221,4 +1227,5 @@ Vælg en af de følgende muligheder:"</string>
     <string name="yellowpage_search_the_yellowpage">Søg på De Gule Sider</string>
     <string name="yellowpage_user_profile">Profil</string>
     <string name="zero_items_selected">Vælg emner</string>
+    <string name="button_my_center">Profil</string>
 </resources>

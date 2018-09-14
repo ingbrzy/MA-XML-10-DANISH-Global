@@ -114,6 +114,7 @@
     <string name="menu_title_select_folder">Vælg mappe</string>
     <string name="menu_unhide">Synliggør</string>
     <string name="menu_unstick">Tag ned</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Ikke nu</string>
     <string name="note_description_content">Appen Noter er et godt værktøj til skrive dine ideer ned. Den har indbyggede påmindelser og synkroniserer dine elementer med Mi Cloud, så du kan få adgang til dem overalt, når som helst. Sørg for, at du kan undvære disse funktioner, inden du sletter appen.</string>
     <string name="note_description_title">Om Noter</string>
@@ -125,6 +126,7 @@
     <string name="note_sort_way">Vælg, hvordan du vil sortere dine noter</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Notepåmindelse</string>
     <string name="permdesc_accessNote">Ondsindede apps kan bruge dette til at gå ind på dine personlige data.</string>
     <string name="permlab_accessNote">Gå ind på noter</string>
@@ -200,8 +202,8 @@
     <string name="toast_message_add_image_fail">Kunne ikke tilføje billede</string>
     <string name="toast_notes_delete_success">Korrekt slettet</string>
     <string name="toast_notes_hidden_count">Skjult %1$s med succes</string>
-    <string name="toast_notes_hidden_edit">This note was hidden successfully. Pull down to see hidden notes.</string>
-    <string name="toast_notes_hidden_home">This note was hidden successfully. Pull down to see hidden notes.</string>
+    <string name="toast_notes_hidden_edit">Denne note blev skjult med succes. Træk ned for at se skjulte noter.</string>
+    <string name="toast_notes_hidden_home">Denne note blev skjult med succes. Træk ned for at se skjulte noter.</string>
     <string name="toast_notes_unhidden">Er nu synliggjort</string>
     <string name="toast_notes_unhidden_count">Synliggjort %1$s med succes</string>
     <string name="toast_reach_text_limit_attachment">Kan ikke tilføje nye vedhæftelser, fordi notat er for langt</string>

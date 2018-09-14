@@ -21,6 +21,7 @@
     <string name="add_to_secret_successful">Føjet til skjult album</string>
     <string name="add_to_share_album_not_delete">Kan ikke slette foto fra delt album</string>
     <string name="added_to_favorites">Tilføjet til favoritter</string>
+    <string name="added_to_favorites_desc">Tilføjet til favoritter</string>
     <string name="added_to_favorites_tip">Tilføjet albummet \"Favoritter\"</string>
     <string name="adding">Tilføjer…</string>
     <string name="adding_recipients">Tilføjer modtagere…</string>
@@ -98,7 +99,6 @@
     <string name="app_name_view_picture">Se fotos</string>
     <string name="app_name_view_video">Se videoer</string>
     <string name="apply">Anvend</string>
-    <string name="assistant_page_label">Assistent</string>
     <string name="associate_face_album">Vælg et album</string>
     <string name="auto_backup_introduce">Sikkerhedskopier fotos og videoer automatisk (Mi-konto er påkrævet)</string>
     <string name="auto_download_media_title">Download fotos fra Mi Cloud automatisk</string>
@@ -226,7 +226,7 @@
     <string name="cleaner_screen_shot_action">Ryd</string>
     <string name="cleaner_screen_shot_description">Slet de skærmbilleder, du ikke længere har brug for.</string>
     <string name="cleaner_screen_shot_title">Slet skærmbilleder</string>
-    <string name="cleaner_slim_action">Starter optimering…</string>
+    <string name="cleaner_slim_action">Start optimization</string>
     <string name="cleaner_slim_description">Opbevar optimerede fotos på din enhed. Originale filer gemmes i Mi Cloud.</string>
     <string name="cleaner_slim_start">Optimer</string>
     <string name="cleaner_slim_title">Optimer fotos</string>
@@ -261,6 +261,9 @@
     <string name="cloudfolder_name_reserved">Albumnavn er reserveret</string>
     <string name="collage__talkback_effect">%d effekt</string>
     <string name="collage_choose">Vælg</string>
+    <string name="collage_drawable_normal_date_format">dd/MM/yyyy</string>
+    <string name="collage_drawable_rect_date_month_day">dd MMM</string>
+    <string name="collage_drawable_rect_date_year">yyyy</string>
     <string name="collage_margin_text">Margener</string>
     <string name="collage_mirror">Spejl</string>
     <string name="collage_poster_global_cat_text">POTER</string>
@@ -463,6 +466,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="face_name_edit">Redigér</string>
     <string name="face_name_input">Indtast navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fuldføre handlingen</string>
     <string name="fail_to_pick_email">Ugyldig e-mailadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Tjek din dataforbindelse og prøv igen.</string>
@@ -473,6 +477,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="feature_guidance_photo_effects">"Nye fotoeffekter
 er tilgængelige"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgængelige</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Hukommelse</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Pink</string>
@@ -541,6 +546,7 @@ er tilgængelige"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Indstil</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri skal have adgang til 
 %s
  for at fungere normalt, tryk på \"Indstil\" for at gå til Tilladelser."</string>
@@ -649,6 +655,7 @@ til at gøre Galleri personligt"</string>
     <string name="merge_album_title">Sammenlæg med en person</string>
     <string name="messagelist_sender_self">Mig</string>
     <string name="micloud_introduce">Sikkerhedskopier fotos og videoer automatisk (Mi-konto er påkrævet)</string>
+    <string name="more">Mere</string>
     <string name="more_album_hint">, etc.</string>
     <string name="more_face">Flere folk, der ligner hinanden.</string>
     <string name="more_face_album_name">Flere folk</string>
@@ -699,6 +706,7 @@ til at gøre Galleri personligt"</string>
     <string name="operation_edit_video">Redigér</string>
     <string name="operation_enable_auto_upload">Tænd synkronisering med Mi Cloud</string>
     <string name="operation_failed">Kunne ikke fuldføre handlingen</string>
+    <string name="operation_favorites">Favoritter</string>
     <string name="operation_force_top">Hæng op</string>
     <string name="operation_hide">Gør usynlig</string>
     <string name="operation_in_process">Behandler…</string>
@@ -736,6 +744,7 @@ til at gøre Galleri personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Vælg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Unavngivet</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Fotos med kæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Fotos</string>
@@ -867,6 +876,10 @@ til at gøre Galleri personligt"</string>
     <string name="play_gif_desc">Afspil GIF</string>
     <string name="play_video_desc">Afspil video</string>
     <string name="preparing_data">Lige et øjeblik…</string>
+    <string name="privacy_permission_request_message">Galleri skal have adgang til %3$s. De oplysninger, vi indsamler, bliver brugt i overensstemmelse med vores %1$s og %2$s. Tillad?</string>
+    <string name="privacy_permission_request_negative">Begræns</string>
+    <string name="privacy_permission_request_positive">Tillad</string>
+    <string name="privacy_permission_request_title">Tilladelser påkrævet</string>
     <string name="projection_cancel">Annuller</string>
     <string name="projection_checkbox_text">Husk dette skærmbillede</string>
     <string name="projection_device_connection_failed">Kunne ikke tilslutte projektor.</string>
@@ -912,6 +925,7 @@ til at gøre Galleri personligt"</string>
     <string name="remove_from_secret_successful">Fjernet fra skjult album</string>
     <string name="remove_to_album_title">Sammenlæg med</string>
     <string name="remove_to_other_album">Sammenlæg med en anden person</string>
+    <string name="removed_from_favorites_desc">Fjernet fra favoritter</string>
     <string name="remover_edit_type_free">Objekter</string>
     <string name="remover_edit_type_line">Linjer</string>
     <string name="remover_erase_aera_too_big">Området til sletning for stort</string>
@@ -988,6 +1002,9 @@ til at gøre Galleri personligt"</string>
     <string name="search_title_recommend">Anbefalet</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leder efter projektor…</string>
     <string name="secret_album_card_description">Det bedste sted for alle dine små hemmeligheder</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1170,10 +1187,15 @@ til at gøre Galleri personligt"</string>
     <string name="video_editor_auto_trim">Auto-trim</string>
     <string name="video_editor_auto_trim_tip">Auto-trimmer…</string>
     <string name="video_editor_cancel">Annuller</string>
+    <string name="video_editor_cancel_download">Annuller</string>
     <string name="video_editor_done">Udført</string>
     <string name="video_editor_down_load_later">Senere</string>
     <string name="video_editor_down_load_no_wifi_tips">Forbind til WiFi for at downloade</string>
     <string name="video_editor_down_load_now">Download</string>
+    <string name="video_editor_download">Download</string>
+    <string name="video_editor_download_failed_for_notwork">Kunne ikke downloade. Opret forbindelse til netværket og prøv igen.</string>
+    <string name="video_editor_download_without_wifi_msg">At bruge din mobildataforbindelse til download af filer øger dit dataforbrug. Hvis du overskrider dit abonnements datagrænse, kan dit teleselskab opkræve yderligere afgifter.</string>
+    <string name="video_editor_download_without_wifi_title">Advarsel om dataforbrug</string>
     <string name="video_editor_encode_video">Koder video…</string>
     <string name="video_editor_encode_video_error">Kunne ikke kode video</string>
     <string name="video_editor_fatal_error">Ukendt fejl</string>
@@ -1212,6 +1234,8 @@ til at gøre Galleri personligt"</string>
     <string name="video_editor_res_download_mobil_network_confirm_msg">Download soundtracks med mobildata?</string>
     <string name="video_editor_res_download_mobil_network_confirm_title">Anvender mobildata</string>
     <string name="video_editor_res_not_load_dialog_msg">Download soundtracks for at anvende denne funktion (mere end 20MB)</string>
+    <string name="video_editor_return">Tilbage</string>
+    <string name="video_editor_save">Gem</string>
     <string name="video_editor_smart_effect_beat">Slag</string>
     <string name="video_editor_smart_effect_big_film">Episk</string>
     <string name="video_editor_smart_effect_cadence">Rytme</string>
@@ -1257,6 +1281,7 @@ til at gøre Galleri personligt"</string>
     <string name="view_face_album">Se album</string>
     <string name="view_more_face_desc">Se flere folk</string>
     <string name="voice_assistant">Stemmeinput</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Velkommen til Mi Cloud</string>
     <string name="where_is_barcode">Hvor er QR-koden?</string>
     <string name="who_is_this">Hvem er det?</string>

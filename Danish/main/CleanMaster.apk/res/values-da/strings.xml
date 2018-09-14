@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Hukommelse</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerede apps: %d</string>
     <string name="toast_resolve_apk_error">Ret APK-fejl</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Downloader</string>
     <string name="installing">Installerer</string>
     <string name="start_install">Installer nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åbn i browser</string>
     <string name="title_share_link">Del URL</string>
     <string name="connecting">Opretter forbindelse…</string>
@@ -555,14 +557,16 @@
     <string name="whatsapp_title">WhatsApp-renser</string>
     <string name="whatsapp_function_title">WhatsApp-renser</string>
     <string name="whatsapp_function_summery">Ryd WhatsApp-vedhæftelser</string>
-    <string name="clean_summary">Renset %1$s filer</string>
+    <string name="clean_summary">Ryddede %1$s</string>
     <string name="onekeyclean_boosting_title">Booster hastighed</string>
     <string name="onekeyclean_boosted_title">Ryddet med succes</string>
-    <string name="onekeyclean_boost_cleaned">%s Ryddet</string>
+    <string name="onekeyclean_boost_cleaned">Ryddet %s</string>
     <string name="onekeyclean_boost_available">%s tilgængelig</string>
     <string name="onekeyclean_card_summery">Ryd papirkurv for at frigøre plads</string>
     <string name="onekeyclean_card_btn">Rens nu</string>
     <string name="memory_clean_icon_text">Ryd hukommelse</string>
     <string name="pref_title_create_onekeyclean_shortcut">Vis genvej til hjemmeskærm</string>
     <string name="memory_clean_no_trash_tip">Alt ser fint ud</string>
+    <string name="toast_updater_open_4g_text">Apper opdateres vha. mobildata (4G)</string>
+    <string name="toast_updater_close_4g_text">Apper opdateres ikke vha. mobildata (4G)</string>
 </resources>
