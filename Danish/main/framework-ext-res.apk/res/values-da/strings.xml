@@ -131,6 +131,7 @@
     <string name="security_permission_xiaomi_account_missed_text">Indtast dit Mi-konto-id</string>
     <string name="security_permission_validate_warning">Tak for at hjælpe med at gøre MIUI bedre!</string>
     <string name="security_permission_wifi_and_data_opened_text">Wi-Fi og mobildata slået til</string>
+    <string name="security_permission_network_failed_text">Kunne ikke oprette forbindelse til netværket. Kontrollér dine netværksindstillinger og prøv igen.</string>
     <string name="xspace_resolver_activity_title">Vælg app</string>
     <string name="user_switching_dialog_text">Skifter…</string>
     <string name="activity_package_delete_confirm_title">Bemærk</string>
@@ -180,4 +181,6 @@
     <string name="miui_warning_button_ok">OK</string>
     <string name="miui_warning_button_cancel">Annuller</string>
     <string name="miui_warning_tip_info">Der opstod en fejl i %1$s. Luk denne app nu?</string>
+    <string name="talk_back_water_mark_string1">TalkBack er slået til</string>
+    <string name="talk_back_water_mark_string2">Hold \"Volume+\" og \"Volume-\" nede i 3 sekunder for at slå fra</string>
 </resources>

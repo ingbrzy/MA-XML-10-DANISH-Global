@@ -8,7 +8,6 @@
     <string name="close_panel">Slå Kvikbold fra</string>
     <string name="customize_entries">Vælg genveje</string>
     <string name="enable_touch_assistant">Slå Kvikbold til</string>
-    <string name="enabled_for_pad_hint">Arbejd når \"Bloker navigationsknapper i liggende tilstand\" er slået til</string>
     <string name="function_settings">Indstillinger genveje</string>
     <string name="handy_mode_default_to_close_whether_open">Enhåndstilstand er slukket som standard. Slå enhåndstilstand til?</string>
     <string name="hide_touch_assistant">Skjul automatisk</string>

@@ -241,12 +241,12 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="one">%d dag siden sidste kontrol</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
-        <item quantity="other">%d risici,</item>
-        <item quantity="one">%d risiko,</item>
+        <item quantity="other">%d risks,</item>
+        <item quantity="one">%d risk,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d trojan,</item>
-        <item quantity="one">%d trojan,</item>
+        <item quantity="other">%d trojans</item>
+        <item quantity="one">%d trojan</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Farlige apps: %d</item>

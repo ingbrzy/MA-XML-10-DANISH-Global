@@ -93,4 +93,6 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="active_classify">Sortér efter aktivitetsstatus</string>
     <string name="extreme_mode_max_item_alert">Du kan vælge op til 4 apps, der skal køre i baggrund i Ekstrem-tilstand</string>
     <string name="message_i_know">Forstået</string>
+    <string name="high_temp_state">Høj temperatur</string>
+    <string name="high_temp_state_message">Beskyttelse mod høj temperatur,data,wifiap,gps,kamera osv. vil være begrænset</string>
 </resources>

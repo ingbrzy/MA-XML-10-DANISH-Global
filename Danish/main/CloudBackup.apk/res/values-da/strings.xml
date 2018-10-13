@@ -30,12 +30,12 @@
     <string name="cloud_back_up_share_activity_title">Opgrader Mi-konto</string>
     <string name="cloud_back_up_share_activity_discription">Få mere lagerplads, daglige sikkerhedskopieringer og mere.</string>
     <string name="cloud_back_up_share_activity_confirm">Opgrader</string>
-    <string name="cloud_back_up_detail_discription">"Disse elementer vil blive sikkerhedskopieret til Mi Cloud, når enheden forbindes til Wi-Fi: 
-*\u0009\u0009\u0009\u0009Apps, startskærmslayout og baggrunde 
-*\u0009\u0009\u0009\u0009Alarm, ur og tidsindstillinger 
-*\u0009\u0009\u0009\u0009Notifikationsindstillinger 
-*\u0009\u0009\u0009\u0009MIUI- og systemindstillinger 
-\"Bemærk: Data til apps, du har installeret, vil ikke blive sikkerhedskopieret til Mi Cloud.\""</string>
+    <string name="cloud_back_up_detail_discription">"Disse elementer vil blive sikkerhedskopieret til Mi Cloud, når din enhed er tilsluttet til Wi-Fi: 
+*  Apps, startskærmslayout og baggrunde 
+*  Alarm-, ur- og tidsindstillinger 
+*  Notifikationsindstillinger 
+*  MIUI- og systemindstillinger 
+\"Bemærk: Data for apps, du har installeret, vil ikke blive sikkerhedskopieret til Mi Cloud.\""</string>
     <string name="cloud_app_no_data">Ingen sikkerhedskopier</string>
     <string name="cloud_app_restore_error">Kunne ikke gendanne</string>
     <string name="cloud_app_restore_success">Apps gendannet</string>
@@ -45,10 +45,13 @@
     <string name="button_delete">Slet</string>
     <string name="customization"><u>Brugertilpas</u></string>
     <string name="home_hint_global_launcher">Poco-startskærm</string>
-    <string name="self_phone">Denne telefon</string>
-    <string name="self_phone_home">Denne telefon: %s</string>
+    <string name="home_hint_other_launcher">Anden startskærm</string>
+    <string name="self_device">"Denne telefon "</string>
+    <string name="main_space">Hoved-space</string>
+    <string name="second_space">Second space</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s%3$s: %4$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s%3$s)</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
-    <string name="device_xiaomi">Mi Phone</string>
     <string name="size_unknown">Ukendt størrelse</string>
     <string name="recovering">Gendanner %s</string>
     <string name="start_recover">Gendan %s</string>
@@ -76,7 +79,6 @@
     <string name="open_wifi">Slå Wi-Fi til nu</string>
     <string name="open_wifi_description">Opret forbindelse til et Wi-Fi-netværk for at gendanne app</string>
     <string name="open_wifi_setting">Wi-Fi-indstillinger</string>
-    <string name="name_model">"%1$s's %2$s"</string>
     <string name="download_settings">Downloader indstillinger for startskærm %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm dd/MM/yyyy</string>
     <string name="recover_home_settings">Gendan indstillinger for startskærm</string>
@@ -129,12 +131,18 @@
     <string name="restore_data_title">Gendan data</string>
     <string name="provision_error_connect_msg">Test netværket og prøv igen. Sikkerhedskopier er ikke tilgængelige, når din enhed er offline.</string>
     <string name="provision_error_connect_title">Kan ikke oprette forbindelse</string>
+    <string name="loading_user_backup">Indlæser brugersikkerhedskopier…</string>
+    <string name="loading_progress_num">(%s%%)</string>
+    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Kunne ikke bekræfte konto.</string>
     <string name="no_account">Ikke logget på Mi-konto.</string>
     <string name="no_backup">Ingen sikkerhedskopier i Mi Cloud.</string>
     <string name="download_meta_failed">Kunne ikke indlæse data.</string>
     <string name="home_restore_error">Kunne ikke gendanne startskærm</string>
     <string name="get_device_id_error">Kunne ikke få enheds-ID</string>
+    <string name="unsupported_home">Opdater til nyeste OS.</string>
+    <string name="error_retry_later">Mislykkedes. Prøv igen senere.</string>
+    <string name="try_continue">Tryk for at fortsætte</string>
     <string name="download_home_data">Downloader layout for startskærm…</string>
     <string name="restore_home_failed">Kunne ikke gendanne startskærmen.</string>
     <string name="arrange_restore_order">Omarrangerer apps…</string>
@@ -145,6 +153,7 @@
     <string name="download_meta_again">Kunne ikke indlæse sikkerhedskopi. Prøv igen.</string>
     <string name="cancel_restore_home">Annullerer…</string>
     <string name="cancel_backup">Afbryder sikkerhedskopiering…</string>
+    <string name="load_backup_failed">Indlæsning af sikkerhedskopier mislykkedes</string>
     <string name="dialog_title_require_wlan">Tilslut til Wi-Fi</string>
     <string name="dialog_msg_restore_require_wlan">Gendannelse af sikkerhedskopier kræver tilslutning til Wi-Fi.</string>
     <string name="dialog_btn_next">Næste</string>

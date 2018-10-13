@@ -36,7 +36,7 @@
     <string name="no_file">Tom</string>
     <string name="alert_message_delete_record_title">Slet optagelse?</string>
     <string name="alert_message_delete_record">Når optagelsen slettes fra din enhed, slettes denne optagelse også fra Mi Cloud. Slet nu?</string>
-    <string name="alert_message_delete_local_record">Slet denne post?</string>
+    <string name="alert_message_delete_local_record">Delete this recording?</string>
     <string name="share">Del</string>
     <string name="rename">Omdøb</string>
     <string name="delete">Slet</string>
@@ -101,7 +101,7 @@
     <string name="cloud_record_tip">Synkroniser optagelser med Mi Cloud.</string>
     <string name="cloud_record_open">Synkroniser optagelser</string>
     <string name="cloud_service_state_open_reminder">Slå synkronisering med Mi Cloud til for at synkronisere optagelser.</string>
-    <string name="cloud_status_full_dialog_title">Mi Cloud lagerplads er fuld</string>
+    <string name="cloud_status_full_dialog_title">Mi Cloud-lagerplads er fuld</string>
     <string name="cloud_status_full_dialog_msg">Dit cloudlager er fyldt, så optagelserne kan ikke synkroniseres. Opgrader din konto for at få flere lagerplads.</string>
     <string name="cloud_status_full_dialog_cancel">Ikke nu</string>
     <string name="cloud_status_full_dialog_ok">Opgrader</string>
@@ -146,13 +146,13 @@
     <string name="alert_message_clear_records">Slet valgte optagelser?</string>
     <string name="clear_records">Slet synkroniserede optagelser</string>
     <string name="network_tip_dialog_title">Der kræves internetforbindelse</string>
-    <string name="network_tip_dialog_content">Optageren skal have forbindelse til internettet samt læse dine kontakter for at fungere korrekt. Accepter?</string>
+    <string name="network_tip_dialog_content">Optager skal have forbindelse til internettet for at fungere normalt. Enig?</string>
     <string name="network_tip_dialog_ok">Godkend</string>
-    <string name="network_tip_dialog_cancel">Annuller</string>
+    <string name="network_tip_dialog_cancel">Ikke enig</string>
     <string name="head_set_tip_dialog_title">Brug intern mikrofon</string>
     <string name="head_set_tip_dialog_msg">Frakobl dine øretelefoner for at kunne optage lyd med bestemte forudindstillinger (f.eks. musik, stemme).</string>
     <string name="head_set_tip_dialog_ok">Forstået</string>
-    <string name="rename_fail_tip">Kunne ikke omdøbe. Elementet med dette navn findes allerede.</string>
+    <string name="rename_fail_tip">"Couldn't rename. Item with this name already exists."</string>
     <string name="dialog_privacy_revoke_tips">Efter du tilbagekalder autorisationer, holder appen op med at indsamle data, og alle de relaterede data slettes fra serverne. Det kan gøre appen stort set ubrugelig. Tilbagekald tilladelsen alligevel? For at sikre din kontos sikkerhed skal du logge ind på i.mi.com før tilbagekaldelse af autorisationer til Mi Cloud-tjenester.</string>
     <string name="privacy_policy_title">Fortrolighedspolitik</string>
 </resources>

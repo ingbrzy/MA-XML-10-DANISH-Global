@@ -15,6 +15,7 @@
     <string-array name="emode_app_groups">
         <item>System-apps</item>
         <item>Andre apps</item>
+        <item>Valgte apps</item>
     </string-array>
     <string-array name="thermal_entries">
         <item>Standard temperaturstyringstilstand</item>

@@ -113,6 +113,10 @@
     <string name="cleanup_power">Dyb rensning</string>
     <string name="company">Arbejde</string>
     <string name="company_or_school">Arbejde eller skole</string>
+    <string name="cricket_content_provider">Udbyder af indhold</string>
+    <string name="cricket_fixtures_label">Sportskampe</string>
+    <string name="cricket_news_label">Nyheder</string>
+    <string name="cricket_select_series">Vælg dine favoritserier</string>
     <string name="cta_desc">Saml vigtige genveje og info lige her.</string>
     <string name="cta_dialog_negative">Afslut</string>
     <string name="cta_dialog_positive">Godkend</string>
@@ -234,6 +238,7 @@
     <string name="scan_code">QR-kode</string>
     <string name="scan_doc">Dokument</string>
     <string name="scan_parent">Scanner</string>
+    <string name="search_card_view_date">EE y.M.d</string>
     <string name="search_tip">Søger…</string>
     <string name="security">Sikkerhed</string>
     <string name="service_unavailiable">Tilslut til netværket og prøv igen.</string>

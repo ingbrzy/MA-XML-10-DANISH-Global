@@ -112,6 +112,7 @@
     <string name="description_image_button_dialpad">Opkaldstastatur</string>
     <string name="description_image_button_tools">Muligheder</string>
     <string name="description_target_answer">Svar</string>
+    <string name="description_message_list_title">Liste over hurtige svar</string>
     <string name="ok">OK</string>
     <string name="cancel">Annuller</string>
     <string name="wait_prompt_str">"Send de følgende toner?
@@ -199,4 +200,5 @@
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
     <string name="prompt_no_volte_when_failed">Kan ikke foretage opkald. Sørg for, at din enhed har forbindelse til et 4G-netværk med VoLTE-understøttelse.​</string>
+    <string name="volume_boost_text">Volumen er nu boostet</string>
 </resources>

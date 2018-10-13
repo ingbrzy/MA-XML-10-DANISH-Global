@@ -25,6 +25,7 @@
     <string name="s5">Opret kalenderbegivenhed</string>
     <string name="s6">Vil du tillade, at annoncen opretter en kalenderbegivenhed?</string>
     <string name="s7">Testannonce</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_action_bar_home_description">Gå til startsiden</string>
     <string name="abc_action_bar_up_description">Gå op</string>
     <string name="abc_action_menu_overflow_description">Mere</string>
@@ -296,6 +297,7 @@ Sider, du ser, vises ikke i historikken."</string>
     <string name="exit">Afslut</string>
     <string name="exit_browser_warning">Afslut Browser nu?</string>
     <string name="exit_fullscreen">Afslut fuld skærm</string>
+    <string name="external_app_restricted_access_error">Mi-browseren har ikke adgang til dette element.</string>
     <string name="fast_search_title">Hurtig søgning</string>
     <string name="file_dir">Skift mappe</string>
     <string name="file_name">"Navn: "</string>
@@ -485,7 +487,7 @@ Sider, du ser, vises ikke i historikken."</string>
     <string name="mw_http_post_warning_resend">Fortsæt</string>
     <string name="mw_js_dialog_before_unload">"%s
 
-Forlad denne side?"</string>
+Forlad denne side nu?"</string>
     <string name="mw_js_dialog_before_unload_negative_button">Bliv på denne side</string>
     <string name="mw_js_dialog_before_unload_positive_button">Forlad denne side</string>
     <string name="mw_js_dialog_before_unload_title">Bekræft navigation</string>
@@ -730,6 +732,8 @@ Forlad denne side?"</string>
     <string name="mw_snippets_disabled_generic_prompt">Få personaliseret indhold</string>
     <string name="mw_snippets_disabled_signed_out_instructions">For at få personaliseret indhold foreslået af Google skal du logge ind på Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Fastsæt tid</string>
@@ -1174,6 +1178,8 @@ Forlad denne side?"</string>
     <string name="voice_title_listening">Lytter…</string>
     <string name="voice_title_please">Begynd at tale…</string>
     <string name="voice_title_speech_again">Kunne ikke forstå dig</string>
+    <string name="vote_already">Du har allerede stemt</string>
+    <string name="vote_fail">Ikke kunne stemme, prøv igen senere</string>
     <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_location_confirm_message">Deaktivering af denne funktion kan påvirke forbruget.</string>
     <string name="weather_publish_time">Opdateret %1$s</string>
@@ -1217,7 +1223,6 @@ Forlad denne side?"</string>
     <string name="date_picker_dialog_set">Indstil</string>
     <string name="date_picker_dialog_title">Indstil dato</string>
     <string name="date_time_picker_dialog_title">Indstil dato og klokkeslæt</string>
-    <string name="external_app_restricted_access_error">Mi browseren har ikke adgang til den ønskede ressource.</string>
     <string name="find_next">Find næste</string>
     <string name="find_previous">Find forrige</string>
     <string name="js_dialog_before_unload">"%s

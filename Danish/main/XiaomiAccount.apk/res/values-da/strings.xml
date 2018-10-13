@@ -9,7 +9,7 @@
     <string name="passport_login">Log ind</string>
     <string name="passport_relogin">Log ind igen</string>
     <string name="passport_skip_login">Spring over</string>
-    <string name="passport_skip_setup_account_title">Spring opsætning over</string>
+    <string name="passport_skip_setup_account_title">Brug ikke Mi Cloud?</string>
     <string name="passport_skip_setup_account_msg">Du kan opsætte en Mi-konto senere i Indstillinger.</string>
     <string name="passport_confirm_login">Fortsæt</string>
     <string name="passport_find_password_on_web_msg">Besøg account.mi.com for at nulstille din adgangskode.</string>
