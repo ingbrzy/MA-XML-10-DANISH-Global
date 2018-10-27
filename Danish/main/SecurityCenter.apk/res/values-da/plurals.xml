@@ -120,6 +120,10 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="other">Fandt %d batteriproblemer. Reparer dem.</item>
         <item quantity="one">Fandt %d batteriproblemer. Reparer dem</item>
     </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">Drænede %2$d%% af batteriet i løbet af de sidste %1$d minutter</item>
+        <item quantity="one">Drænede %2$d%% af batteriet i løbet af det sidste %1$d minut</item>
+    </plurals>
     <plurals name="power_center_menu_text">
         <item quantity="other">elementer</item>
         <item quantity="one">element</item>
@@ -241,12 +245,12 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="one">%d dag siden sidste kontrol</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
-        <item quantity="other">%d risks,</item>
-        <item quantity="one">%d risk,</item>
+        <item quantity="other">%d risici,</item>
+        <item quantity="one">%d risiko,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d trojans</item>
-        <item quantity="one">%d trojan</item>
+        <item quantity="other">%d trojanske heste</item>
+        <item quantity="one">%d trojansk hest</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Farlige apps: %d</item>
@@ -367,5 +371,13 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemer kræver optimering</item>
         <item quantity="one">%1$d problem kræver optimering</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
     </plurals>
 </resources>

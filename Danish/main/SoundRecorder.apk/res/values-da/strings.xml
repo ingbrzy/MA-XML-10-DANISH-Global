@@ -36,7 +36,7 @@
     <string name="no_file">Tom</string>
     <string name="alert_message_delete_record_title">Slet optagelse?</string>
     <string name="alert_message_delete_record">Når optagelsen slettes fra din enhed, slettes denne optagelse også fra Mi Cloud. Slet nu?</string>
-    <string name="alert_message_delete_local_record">Delete this recording?</string>
+    <string name="alert_message_delete_local_record">Slet denne optagelse?</string>
     <string name="share">Del</string>
     <string name="rename">Omdøb</string>
     <string name="delete">Slet</string>
@@ -152,7 +152,7 @@
     <string name="head_set_tip_dialog_title">Brug intern mikrofon</string>
     <string name="head_set_tip_dialog_msg">Frakobl dine øretelefoner for at kunne optage lyd med bestemte forudindstillinger (f.eks. musik, stemme).</string>
     <string name="head_set_tip_dialog_ok">Forstået</string>
-    <string name="rename_fail_tip">"Couldn't rename. Item with this name already exists."</string>
+    <string name="rename_fail_tip">Kunne ikke omdøbe. Element med dette navn findes allerede.</string>
     <string name="dialog_privacy_revoke_tips">Efter du tilbagekalder autorisationer, holder appen op med at indsamle data, og alle de relaterede data slettes fra serverne. Det kan gøre appen stort set ubrugelig. Tilbagekald tilladelsen alligevel? For at sikre din kontos sikkerhed skal du logge ind på i.mi.com før tilbagekaldelse af autorisationer til Mi Cloud-tjenester.</string>
     <string name="privacy_policy_title">Fortrolighedspolitik</string>
 </resources>

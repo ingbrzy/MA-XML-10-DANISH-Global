@@ -108,6 +108,8 @@
     <string name="card_title_utilities">Hjælpeprogrammer</string>
     <string name="check_network">Tjek netværksindstillinger</string>
     <string name="check_network_retry">Kontrollér netværksindstillinger og prøv igen</string>
+    <string name="clean_grabage">Renser</string>
+    <string name="clean_now">Tjek</string>
     <string name="cleanup_garbage">Renser</string>
     <string name="cleanup_memory">Ryd cache</string>
     <string name="cleanup_power">Dyb rensning</string>
@@ -129,6 +131,7 @@
     <string name="cta_negative">Luk</string>
     <string name="cta_positive">Informationer</string>
     <string name="cta_title">Lad App-boksen hjælpe dig</string>
+    <string name="current_optimization_value">Risici mindsker din enheds sikkerhedsscore</string>
     <string name="data_error">Der opstod en fejl; vent et eller to minutter og prøv igen.</string>
     <string name="data_error_show">Bestillingen er gennemført, kan ikke se oplysninger.</string>
     <string name="donnot_ask">Spørg ikke igen</string>
@@ -225,7 +228,11 @@
     <string name="ola_trip">Ring efter en taxi</string>
     <string name="ola_trip_content">Anslå prisen og ring efter en Ola</string>
     <string name="ola_trip_content_detail">Anslå cirkaprisen og ring efter en Ola.</string>
+    <string name="optimizate_now">Optimér</string>
+    <string name="optimization">Sikkerhedsscore</string>
     <string name="phone_check">Optimering</string>
+    <string name="phone_has_garbage">Skrammelfiler kan gøre din enhed langsom</string>
+    <string name="phone_has_virus">Malware og virusser udgør sikkerhedsrisici</string>
     <string name="place_label">Hyppige steder</string>
     <string name="record_name">Optag</string>
     <string name="record_parent">Optager</string>
@@ -241,6 +248,7 @@
     <string name="search_card_view_date">EE y.M.d</string>
     <string name="search_tip">Søger…</string>
     <string name="security">Sikkerhed</string>
+    <string name="security_brief">Beskyt din enhed og ryd op i lageret</string>
     <string name="service_unavailiable">Tilslut til netværket og prøv igen.</string>
     <string name="set_home_failed">Kunne ikke tilføje adresse, prøv igen.</string>
     <string name="set_office_failed">Kunne ikke tilføje adresse, prøv igen.</string>
@@ -353,6 +361,7 @@
     <string name="upgrade_now">Opdatér</string>
     <string name="user_id">Bruger-id: %s</string>
     <string name="utilities_apps_bref">Udforske tredjepartstjenester her</string>
+    <string name="virus_scan">Virusscanning</string>
     <string name="walk">Gå</string>
     <string name="webull_title">Webull</string>
     <string name="which_transport">Hvordan kommer du normalt til din destination?</string>

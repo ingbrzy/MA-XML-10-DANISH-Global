@@ -435,6 +435,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portræt slører baggrunden
 og fremhæver folk tæt på."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrættilstand.
 Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
@@ -451,6 +452,7 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Tilstande</string>
     <string name="button_front_camera_title">Tag en selfie</string>
     <string name="button_normal_video_title">Optag video</string>
@@ -566,4 +568,8 @@ i Portrættilstand"</string>
     <string name="lighting_pattern_shutter">Markiser</string>
     <string name="view_privacy_policy">Vis Privatlivspolitik</string>
     <string name="fps960_toast">Slowmotionoptagelse vil starte, når timeren når den hvide prik</string>
+    <string name="portrait_bokeh_text">Portrættilstand</string>
+    <string name="portrait_bokeh_first_tips">"Brug portrættilstand til at sløre
+baggrunden på dine fotos"</string>
+    <string name="portrait_bokeh_tips">Anbring objekt inden for 1,5 meter</string>
 </resources>

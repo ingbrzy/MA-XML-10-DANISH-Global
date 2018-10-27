@@ -219,6 +219,7 @@ Din administrator kan overvåge og administrere indstillinger, adgang, apps og d
     <string name="allow_bind_app_widget_activity_allow_bind_title">Vil du oprette en widget og tillade adgang?</string>
     <string name="allow_bind_app_widget_activity_always_allow_bind">Tillad altid, at %1$s opretter widgets og får adgang til deres data</string>
     <string name="allow_data_usage_title">Tillad dataforbrug ved roaming</string>
+    <string name="allow_device_id_access">Apps with device identification</string>
     <string name="allow_mock_location">Tillad forfalsk placeringer</string>
     <string name="allow_mock_location_summary">Tillad forfalsk placeringer</string>
     <string name="allow_overlay_description">Tillad, at denne app vises oven på andre apps, du bruger. Dette kan forstyrre din brug af disse apps eller ændre deres udseende eller adfærd.</string>
@@ -924,6 +925,7 @@ prøvehastighed"</string>
     <string name="bootloader_status_unlocked">Låst op</string>
     <string name="bootloader_status_unlocked_info">Denne enhed er låst op</string>
     <string name="bootloader_summary">Flash din enhed via USB</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Lysfarve</string>
     <string name="breathing_light_color_summary">Lysfarve, når du modtager ny meddelelse</string>
     <string name="breathing_light_freq_summary">Impuls, når du modtager nye notifikationer</string>
@@ -985,6 +987,7 @@ Denne funktion kan slås fra i [Indstillinger]"</string>
     <string name="calls_title">Opkald</string>
     <string name="camera_double_tap_power_gesture_desc">Åbn hurtigt kameraet uden at låse skærmen op</string>
     <string name="camera_double_tap_power_gesture_title">Tryk to gange på afbryderknappen for at åbne kameraet</string>
+    <string name="camera_front">Forside %s</string>
     <string name="camera_gesture_desc">Åbn kameraappen ved at dreje håndleddet to gange</string>
     <string name="camera_gesture_title">Drej to gange for at åbne kameraet</string>
     <string name="camera_key_action_app_title">Åbn app</string>
@@ -999,6 +1002,7 @@ Denne funktion kan slås fra i [Indstillinger]"</string>
     <string name="camera_key_action_shortcut_wake">Lås enhed</string>
     <string name="camera_key_action_title">Mi-knap</string>
     <string name="camera_key_action_toggle_title">Udløserknap</string>
+    <string name="camera_rear">Bagside %s</string>
     <string name="cancel">Annuller</string>
     <string name="cancel_action">Annuller</string>
     <string name="cancel_alert">Afvis dine ændringer?</string>
@@ -1262,6 +1266,7 @@ Hvis du vil genoptage brugen af telefonen, skal du udføre en gendannelse af fab
     <string name="dangerous_option">Indstillinger for højrisiko-udbyder</string>
     <string name="dangerous_option_hint">%1$s er aktiveret. Tryk for at ændre indstillingerne.</string>
     <string name="dangerous_option_hint_title">Højrisiko-funktion aktiveret</string>
+    <string name="dangerous_option_switch_title">Underret om højrisikofunktioner</string>
     <string name="dashboard_title">Indstillinger</string>
     <string name="data_limit">Datagrænse</string>
     <string name="data_saver_off">Fra</string>
@@ -1455,6 +1460,7 @@ Eftersom dataforbrug måles af din telefon, og dit mobilselskab muligvis beregne
     <string name="device_available_memory">Tilgængeligt lager</string>
     <string name="device_battery">Batteri</string>
     <string name="device_build_id">Versionsnummer</string>
+    <string name="device_camera">Kamera</string>
     <string name="device_cellular_network">Scanning af mobilnetværk</string>
     <string name="device_complete_parameters">Alle specifikationer</string>
     <string name="device_cpu">CPU</string>
@@ -1466,6 +1472,7 @@ Eftersom dataforbrug måles af din telefon, og dit mobilselskab muligvis beregne
     <string name="device_display_layout_title">Mi 5-funktioner</string>
     <string name="device_edit_title">Omdøb telefon</string>
     <string name="device_feedback">Send feedback om denne enhed</string>
+    <string name="device_id">Device identification</string>
     <string name="device_info_default">Ukendt</string>
     <string name="device_info_label">Enhedsoplysninger</string>
     <string name="device_info_not_available">Ikke tilgængelig</string>
@@ -1510,6 +1517,7 @@ Eftersom dataforbrug måles af din telefon, og dit mobilselskab muligvis beregne
     <string name="dialog_title_hdmi_color_calibration">Forindstilling for farvekorrigering</string>
     <string name="dialog_title_login">Log ind på din Mi-konto.</string>
     <string name="dialog_yes">Ja</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Bemærk: Du vil kunne bruge dette tastatur efter en genstart, kun hvis du låser din enhed op.</string>
     <string name="disable_overlays">Deaktiver HW-overlay</string>
     <string name="disable_overlays_summary">Brug altid GPU til gengivelse på skærm</string>
@@ -1570,6 +1578,7 @@ Eftersom dataforbrug måles af din telefon, og dit mobilselskab muligvis beregne
     <string name="dndm_auto_button_title">Gentag forstyr ikke-tid</string>
     <string name="dndm_auto_setting_group">Planlagt</string>
     <string name="dndm_auto_time_setting">Indstil tid</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Til</string>
     <string name="dndm_auto_time_turn_off_title">Slå automatisk Forstyr ikke fra</string>
     <string name="dndm_auto_time_turn_on">Fra</string>
@@ -1673,6 +1682,8 @@ Eftersom dataforbrug måles af din telefon, og dit mobilselskab muligvis beregne
     <string name="empty_list_msg">Du har ikke installeret nogen apps fra tredjepart.</string>
     <string name="enable_adb">USB-fejlfinding</string>
     <string name="enable_adb_summary">Fejlfindingstilstand, når USB er tilsluttet</string>
+    <string name="enable_atrace">Tænd for ATrace</string>
+    <string name="enable_atrace_summary">Fang kerne-events med ATrace</string>
     <string name="enable_compatibility">Skaler app</string>
     <string name="enable_freeform_support">Aktivér friformsvinduer</string>
     <string name="enable_freeform_support_summary">Aktivér support af eksperimentelle friformsvinduer.</string>
@@ -2031,6 +2042,7 @@ Der så ikke ud til at være heste eller dyr af nogen art; mændene kørte med t
     <string name="gadget_picker_title">Vælg gadget</string>
     <string name="gadget_state_off">fra</string>
     <string name="gadget_state_on">til</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_turning_off">deaktiverer</string>
     <string name="gadget_state_turning_on">aktiverer</string>
     <string name="gadget_sync">Synkroniser</string>
@@ -2350,6 +2362,7 @@ Du kan ændre dette senere under Indstillinger > Apps og underretninger."</strin
     <string name="lift_to_wake_title">Løft enheden for at vække den</string>
     <string name="line_breaking_summary">Optimer afsnitslinjeskift</string>
     <string name="line_breaking_title">Optimer tekst</string>
+    <string name="link_speed">%1$d Mbps</string>
     <string name="list_bg_header_text">Hvis du begrænser baggrundsforbindelse, vil nye apps ikke kunne tilslutte til nettet i baggrunden, efter at du har installeret dem. De kan også være ude af stand til at modtage beskeder eller downloade indhold efter dette.</string>
     <string name="list_empty_text">Tom</string>
     <string name="loading_notification_apps">Indlæser apps...</string>
@@ -2705,6 +2718,7 @@ Der er andre brugere til stede på denne enhed.
     <string name="memory_title">Tilgængelig: %1$s\u0009\u0009Total: %2$s</string>
     <string name="memory_usage">Hukommelsesforbrug</string>
     <string name="memory_usage_apps">Hukommelse, der bruges af apps</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Der er i gennemsnit brugt %1$s hukommelse inden for de sidste tre timer</string>
     <string name="menu_cancel">Kassér</string>
     <string name="menu_check">Oplevelse</string>
@@ -2897,8 +2911,8 @@ vil %1$s vises som en USB-lagerenhed, når den tilsluttes til en computer."</str
     <string name="music_dirac_mode_in_ear2">Mi In-Ear 2</string>
     <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
-    <string name="music_dirac_mode_india_earphones">Mi Earphones</string>
-    <string name="music_dirac_mode_india_earphones_basic">Mi Earphones Basic</string>
+    <string name="music_dirac_mode_india_earphones">Mi-hovedtelefoner</string>
+    <string name="music_dirac_mode_india_earphones_basic">Mi-hovedtelefoner grundlæggende</string>
     <string name="music_dirac_mode_off">Dirac slået fra</string>
     <string name="music_dirac_mode_piston_1">Mi Piston-1</string>
     <string name="music_dirac_mode_piston_100">Mi Piston</string>
@@ -3010,6 +3024,7 @@ vil %1$s vises som en USB-lagerenhed, når den tilsluttes til en computer."</str
     <string name="nfc_how_it_works_got_it">OK, det er forstået</string>
     <string name="nfc_how_it_works_title">Betaling på terminalen</string>
     <string name="nfc_more_title">Flere...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp til betaling</string>
     <string name="nfc_payment_default_not_set">Ikke angivet</string>
     <string name="nfc_payment_favor_default">Brug altid standard-app</string>
@@ -3221,6 +3236,7 @@ Dette gør det også muligt for appen at slå Forstyr ikke til eller fra og ænd
     <string name="overlay_display_devices_title">Simulér sekundære visninger</string>
     <string name="overlay_settings">Vis oven på andre apps</string>
     <string name="owner_info_settings_edit_text_hint">Eksempel: Jacobs Android</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskærmsunderskrift</string>
     <string name="owner_space">First space</string>
@@ -3390,6 +3406,7 @@ Dette gør det også muligt for appen at slå Forstyr ikke til eller fra og ænd
     <string name="pref_manage_bg_network">"Administrer apps's baggrundsnetværksforbindelse"</string>
     <string name="pref_new_installed_preconfig_title">"Nye apps' standardindstillinger"</string>
     <string name="pref_operational_key">Navigationsknapper</string>
+    <string name="pref_show_lunar_calendar_title">Show traditional Chinese calendar on Lock screen</string>
     <string name="pref_title_lang_selection">Sprogpræferencer</string>
     <string name="pref_title_update_notification">Notifikationer om dataforbrug</string>
     <string name="pref_volume_launch_camera_summary">Tryk på lydstyrke ned to gange for at åbne kamera</string>
@@ -3533,6 +3550,8 @@ Dette gør det også muligt for appen at slå Forstyr ikke til eller fra og ænd
     <string name="private_sms_recording_intro_header">Tegn et oplåsningsmønster:</string>
     <string name="private_sms_reset_by_account">For at nulstille din adgangskode skal du logge ind på din Mi-konto</string>
     <string name="process_dex2oat_label">Appoptimering</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android-OS</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="process_provider_in_use_description">Udbyderen %1$s er i brug.</string>
     <string name="process_service_in_use_description">Tjenesten %1$s er i brug.</string>
@@ -3724,6 +3743,11 @@ UT-grænseflade: %5$s"</string>
     <string name="resolver_settings_label">Sortér</string>
     <string name="restore_default_apn">Gendannelse af standardindstillingerne for adgangspunktet.</string>
     <string name="restore_default_apn_completed">Standardindstillingerne for adgangspunktet er nulstillet.</string>
+    <string name="restore_device_id_content">Reset personalized recommendation</string>
+    <string name="restore_device_id_title">Restore device identification</string>
+    <string name="restore_dialog_content">Restoring device identification will reset your personalized recommendation.</string>
+    <string name="restore_dialog_positive">Restore</string>
+    <string name="restore_dialog_title">Reminder</string>
     <string name="restr_pin_enter_admin_pin">Indtast administratorpinkoden</string>
     <string name="restrict_background_blacklisted">Baggrundsdata er slået fra</string>
     <string name="restrict_bg_app">Begræns</string>
@@ -4156,6 +4180,7 @@ Sådan bruger du skærmfastholdelse:
     <string name="security_encryption_attention_3">Du skal indstille en ny låseskærmsadgangskode.</string>
     <string name="security_encryption_attention_4">Sørg for, at du husker din låseskærmsadgangskode. Ellers skal du gennemføre en fuld nulstilling og slette alle data på enheden.</string>
     <string name="security_encryption_attention_info">Du kan kryptere konti, indstillinger, downloadede apps og deres data, medier og andre filer.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Vigtigt</string>
     <string name="security_encryption_close_dialog_info">Vælger du ikke at kryptere enheden med låseskærmsadgangskode, kan nogle Google-tjenester være utilgængelige.</string>
     <string name="security_encryption_close_dialog_title">Gå tilbage til normal adgangskodebeskyttelse</string>
@@ -4408,6 +4433,7 @@ Muligvis pga. en forkert pinkode."</string>
     <string name="sim_reenter_new">Indtast ny pinkode igen</string>
     <string name="sim_select_card">Vælg et SIM-kort</string>
     <string name="sim_selection_required_pref">Du har ikke valgt endnu</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -4421,6 +4447,7 @@ Muligvis pga. en forkert pinkode."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Spring over alligevel</string>
     <string name="skip_label">Spring over</string>
@@ -4505,10 +4532,12 @@ Pålidelige loginoplysninger, der er installeret på din enhed, gør dette mulig
     <string name="status_bar_settings_all_app_display_loading">Lige et øjeblik…</string>
     <string name="status_bar_settings_app_notification_preferences">App-indstillinger</string>
     <string name="status_bar_settings_basic_settings">Grundindstillinger</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Rediger navn på teleudbyder</string>
     <string name="status_bar_settings_custom_wifi_name">Rediger Wi-Fi-navn</string>
     <string name="status_bar_settings_customer_feedback">feedback</string>
     <string name="status_bar_settings_enable_notification">Vis notifikationer</string>
+    <string name="status_bar_settings_expandable_under_keyguard">Show on lock screen</string>
     <string name="status_bar_settings_function_description">Om denne funktion</string>
     <string name="status_bar_settings_long_click_sort">Tryk &amp; hold for at skifte</string>
     <string name="status_bar_settings_manage_notification">App-notifikationer</string>
@@ -4519,7 +4548,9 @@ Pålidelige loginoplysninger, der er installeret på din enhed, gør dette mulig
     <string name="status_bar_settings_notification_priority_summary">Vis notifikationer i toppen af listen</string>
     <string name="status_bar_settings_notification_shade_shortcut">Genvej til notifikationsskygge</string>
     <string name="status_bar_settings_notification_sound">Lyd</string>
+    <string name="status_bar_settings_notification_style">Notifikationsstil</string>
     <string name="status_bar_settings_notification_vibrate">Vibration</string>
+    <string name="status_bar_settings_peek_notification_icon">Vis ikoner for indkommende notifikationer</string>
     <string name="status_bar_settings_show_carrier">Vis navn på teleudbyder</string>
     <string name="status_bar_settings_show_carrier_summary">Teleudbyders navn vises stadig på låseskærmen og i notifikationsskyggen, når denne funktion er slået fra</string>
     <string name="status_bar_settings_show_carrier_under_keyguard">Vis operatøren, når enheden er låst</string>
@@ -4746,6 +4777,7 @@ Du kan også skifte til et hurtigere ^1 for at få en bedre ydeevne."</string>
     <string name="suggestions_title">Forslag</string>
     <string name="sum_carrier_select">Vælg en netværksudbyder</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s-%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="super_resolution_access_title">Tilgængelige apps</string>
     <string name="super_resolution_desc">Gør billeder skarpere med en Al-algoritme</string>
@@ -5743,9 +5775,11 @@ Vil du tillade dette for alle apps, der gerne vil søge?"</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

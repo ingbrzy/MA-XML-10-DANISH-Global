@@ -45,4 +45,8 @@
         <item>Stemmenoter</item>
         <item>Opret noter ved hjælp af vores indbyggede tale-til-tekst-generator. Så kan du vedhæfte de originale optagelser af din stemme til noterne.</item>
     </string-array>
+    <string-array name="second_guide_contents_pad_or_inter">
+        <item>Stemmenoter</item>
+        <item>Nu kan du oprette stemmenoter. Bare tryk på ikonet, optag din stemme og gem lydfilen i noten.</item>
+    </string-array>
 </resources>

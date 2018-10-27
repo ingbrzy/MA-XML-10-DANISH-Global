@@ -25,6 +25,7 @@
     <string name="common_google_play_services_install_button">Installer</string>
     <string name="common_google_play_services_install_text">Du skal installere Google Play-tjenester, før %1$s kan køre på din enhed.</string>
     <string name="common_google_play_services_install_title">Hent Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play-tjenesters tilgængelighed</string>
     <string name="common_google_play_services_notification_ticker">Fejl i Google Play-tjenester</string>
     <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv igen.</string>
     <string name="common_google_play_services_unsupported_text">%1$s fungerer ikke uden Google Play-tjenester, som ikke understøttes på din enhed.</string>
@@ -55,7 +56,9 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -72,7 +75,9 @@
     <string name="s4">Afvis</string>
     <string name="s5">Opret kalenderbegivenhed</string>
     <string name="s6">Vil du tillade, at annoncen opretter en kalenderbegivenhed?</string>
+    <string name="s7">Testannonce</string>
     <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibiliy_description_content_account">Profil</string>
     <string name="accessibiliy_description_content_ad">Reklame</string>
     <string name="accessibiliy_description_content_add_resource">Tilføj elementer</string>
@@ -120,6 +125,7 @@
     <string name="component_category_finest_title">GENERELT</string>
     <string name="component_category_more_title">AVANCERET</string>
     <string name="component_title_ringtone">Ringetoner</string>
+    <string name="component_title_settings_video_wallpaper">Baggrunde med specielle effekter</string>
     <string name="component_title_video_wallpaper">Baggrundstapet-videoer</string>
     <string name="component_title_wallpaper">Baggrunde</string>
     <string name="current_using_desktop_wallpaper_text">Startskærm</string>
@@ -194,6 +200,7 @@
     <string name="incompatible_dialog_ok">Forstået</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Indstiller baggrund…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbagekaldsringetone</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -415,6 +422,7 @@
     <string name="resource_pack_price_info">Oprindelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerede købt %1$d komponenter i dette tema. Det er billigere, hvis du køber de resterende komponenter enkeltvis.</string>
     <string name="resource_present">Gave</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi Credits</string>
     <string name="resource_purchase_common_error">Der er opstået en fejl. Prøv igen</string>
@@ -426,6 +434,10 @@
     <string name="resource_ranking">Populær</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Betalt</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Ringetoner</string>
     <string name="resource_ringtone_playing_error">Fejl</string>
     <string name="resource_ringtone_volume_mute">Ringetone sat på lydløs</string>
@@ -543,6 +555,9 @@
     <string name="theme_current_using_has_update">Temaopdatering tilgængelig</string>
     <string name="theme_description_title_customized">Brugertilpasset</string>
     <string name="theme_description_title_default">Standard</string>
+    <string name="theme_detail_tab_comment">Kommentarer</string>
+    <string name="theme_detail_tab_recommend">Anbefalet</string>
+    <string name="theme_detail_tab_theme">Temaer</string>
     <string name="theme_empty_redirect">Tilbage til temaer</string>
     <string name="theme_favorite_add_fail">Kunne ikke føjes til favoritter</string>
     <string name="theme_favorite_add_success">Tilføjet til favoritter</string>
@@ -557,6 +572,7 @@
     <string name="theme_is_external_priority_storage">Gem på SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen genstartes øjeblikkeligt for at anvende denne indstilling.</string>
     <string name="theme_multiple_button_title_customize">Brugertilpas</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_purchased_list_empty">Du har ikke købt nogen temaer.</string>
     <string name="theme_purchased_non_local">Online</string>
@@ -579,7 +595,7 @@
     <string name="title_component">Brugertilpas tema</string>
     <string name="title_my_audio_resource">Mine ringetoner</string>
     <string name="title_my_miwallpaper_resource">Mine online baggrunde</string>
-    <string name="title_my_miwallpaper_video_file_resource">Mine video-baggrunde</string>
+    <string name="title_my_miwallpaper_video_file_resource">Baggrundsvideoer</string>
     <string name="title_my_wallpaper_resource">Mine baggrunde</string>
     <string name="title_system_audio_notification_resource">Systemnotifikationer</string>
     <string name="title_system_audio_resource">Systemringetoner</string>

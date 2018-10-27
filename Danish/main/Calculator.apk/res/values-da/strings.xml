@@ -62,6 +62,21 @@
     <string name="fund" />
     <string name="fund_loan">Finansier lån</string>
     <string name="global_network_confirm_content">Valutaomregner skal være forbundet med internettet, for at kunne virke normalt.</string>
+    <string name="global_search_key_area_convertion">Areal;Arealomregner;Arealomregning</string>
+    <string name="global_search_key_calculation">Beregn;Lommeregner;Enhedsomregning;Omregner;Enhedsomregner</string>
+    <string name="global_search_key_date_convertion">Tidsomregner;Tidsenheder;Tidsomregning;Tid</string>
+    <string name="global_search_key_exchange_rate">Valutakurs;Valutakursomregner;Valutaomregner;Valuta;Valutakurser</string>
+    <string name="global_search_key_length_convertion">Længde;Længdeomregner;Længdeomregning</string>
+    <string name="global_search_key_mortgage">Realkreditlånberegning;Realkreditlånregnemaskine;Realkreditlån</string>
+    <string name="global_search_key_personal_tax">Individuel indkomstskat;Indkomst efter skat;Skattelommeregner;Beregning af personlig indkomst;Indkomstsberegning;Beregning af indkomst efter skat;personlig indkomstskat:skat;skatter</string>
+    <string name="global_search_key_scientific_convertion">Videnskabelig lommeregner;Funktionsberegning;Matematik;Algebra</string>
+    <string name="global_search_key_speed_convertion">Hastighedsenhedsomregning;Hastighedsomregning;Fart omregning;Hastighedsomregner;Fart;Hastighed</string>
+    <string name="global_search_key_temperature_convertion">Temperaturenhedsomregning;Temperaturomregning;Temperaturomregner;Fahrenheit;Celsius</string>
+    <string name="global_search_key_volume_convertion">Rumfangsenhedsomregning;Rumfangsomregning;Rumfangsomregner</string>
+    <string name="global_search_key_weight_convertion">Vægtenhedsomregning;Vægtomregning;Vægtomregner;Kilo;kg;kilogram;Pund;lbs</string>
+    <string name="global_search_key_word_figure">Finansielle tegn</string>
+    <string name="golbal_search_calculator_setting">Lommeregner;Lommeregnerindstillinger;Indstillinger</string>
+    <string name="golbal_search_path_calculator_setting">System-apps/Lommeregner/Indstillinger</string>
     <string name="home_title_calculator">Lommeregner</string>
     <string name="income_type" />
     <string name="install">Installer</string>
@@ -141,6 +156,7 @@
     <string name="negDesc">Skift mellem temperaturer under og over nul</string>
     <string name="network_confirm_content">Valutaomregner, skatte- og panteberegnere skal være forbundet til internettet og have adgang til placeringsservice, for at kunne virke normalt.</string>
     <string name="network_confirm_title">Kræver tilladelser</string>
+    <string name="not_supported_due_to_language">Denne funktion er kun tilgængelig for det kinesiske sprog</string>
     <string name="percent" />
     <string name="percentDesc">procent</string>
     <string name="piDesc">pi</string>
@@ -225,8 +241,8 @@
     <string name="tax_social_insurance">Understøttelse</string>
     <string name="tax_thershold_foreign">%s (fra udlandet)</string>
     <string name="tax_thershold_native">%s (Kina)</string>
-    <string name="tax_thershold_native_new">%s (new)</string>
-    <string name="tax_thershold_native_new_description">Taxes will be calculated according to the new tax law starting from October 1, 2018</string>
+    <string name="tax_thershold_native_new">%s (ny)</string>
+    <string name="tax_thershold_native_new_description">Skatter vil blive beregnet efter de nye skattelove med begyndelse fra den 1. oktober 2018</string>
     <string name="tax_threshold">Skattefri grænse</string>
     <string name="tax_title_primary" />
     <string name="tax_title_secondary" />
@@ -536,5 +552,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
+    <string name="xiaomi_connect_download_manager_fail">Tilslutnings af Download Manager mislykkedes. Kontrollér Download Managers tilstand i Application Management.</string>
+    <string name="xiaomi_external_storage_unavailable">Lager utilgængeligt. Kontrollér SD-kortet.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
+    <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
+Størrelse: %2$s"</string>
+    <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
+Delta opdateringsstørrelse: %2$s"</string>
+    <string name="xiaomi_update_dialog_title">%1$s opdatering!</string>
     <string name="year" />
 </resources>

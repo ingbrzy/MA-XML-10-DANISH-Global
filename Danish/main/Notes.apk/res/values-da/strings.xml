@@ -30,7 +30,11 @@
     <string name="cancel_alarm_description">Annuller alarm</string>
     <string name="cloud_service_state_open_reminder">Slå synkronisering med Mi Cloud til for at synkronisere noter.</string>
     <string name="cloud_trash_bin_title">Slet noter i Mi Cloud</string>
-    <string name="cta_reminder">Denne app skal have forbindelse til internettet for at sikkerhedskopiere til Mi Cloud samt for at kunne læse dine kontakter for at navngive de noter, du laver under opkald.</string>
+    <string name="cta_confirm_cancel">Tillad ikke</string>
+    <string name="cta_confirm_ok">Tillad</string>
+    <string name="cta_dialog_message">Noter skal have tilladelser til at tilslutte til internettet, optage lyde og få adgang til dine kontakter for at fungere normalt. Tillad?</string>
+    <string name="cta_dialog_title">Tilladelser påkrævet</string>
+    <string name="cta_reminder">Noter skal have tilladelser til at få forbindelse til internettet, optage lyde og få adgang til dine kontakter for at fungere normalt. Tillad?</string>
     <string name="date_time_picker_alarm_reminder">Alarm</string>
     <string name="date_time_picker_dialog_title">Fastsæt dato og tid</string>
     <string name="date_time_picker_has_not_set_alarm">Alarm er ikke fastsat</string>
@@ -114,6 +118,7 @@
     <string name="menu_title_select_folder">Vælg mappe</string>
     <string name="menu_unhide">Synliggør</string>
     <string name="menu_unstick">Tag ned</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Ikke nu</string>
     <string name="note_description_content">Appen Noter er et godt værktøj til skrive dine ideer ned. Den har indbyggede påmindelser og synkroniserer dine elementer med Mi Cloud, så du kan få adgang til dem overalt, når som helst. Sørg for, at du kan undvære disse funktioner, inden du sletter appen.</string>
     <string name="note_description_title">Om Noter</string>
@@ -125,6 +130,7 @@
     <string name="note_sort_way">Vælg, hvordan du vil sortere dine noter</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Notepåmindelse</string>
     <string name="permdesc_accessNote">Ondsindede apps kan bruge dette til at gå ind på dine personlige data.</string>
     <string name="permlab_accessNote">Gå ind på noter</string>
