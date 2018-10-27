@@ -36,7 +36,6 @@
     <string name="s5">Opret kalenderbegivenhed</string>
     <string name="s6">Vil du tillade, at annoncen opretter en kalenderbegivenhed?</string>
     <string name="s7">Testannonce</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_action_bar_home_description">Gå til start</string>
     <string name="abc_action_bar_up_description">Gå op</string>
     <string name="abc_action_menu_overflow_description">Mere</string>
@@ -746,8 +745,6 @@ Forlad denne side nu?"</string>
     <string name="mw_snippets_disabled_generic_prompt">Få personaliseret indhold</string>
     <string name="mw_snippets_disabled_signed_out_instructions">For at få personaliseret indhold foreslået af Google skal du logge ind på Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
-    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
-    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Fastsæt tid</string>
