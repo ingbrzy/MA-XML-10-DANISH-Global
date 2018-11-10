@@ -98,7 +98,6 @@
     <string name="app_name">Galleri</string>
     <string name="app_name_view_picture">Se fotos</string>
     <string name="app_name_view_video">Se videoer</string>
-    <string name="apply">Anvend</string>
     <string name="associate_face_album">Vælg et album</string>
     <string name="auto_backup_introduce">Sikkerhedskopier fotos og videoer automatisk (Mi-konto er påkrævet)</string>
     <string name="auto_download_media_title">Download fotos fra Mi Cloud automatisk</string>
@@ -123,10 +122,6 @@
     <string name="baby_album_sharers_page_title">Del med familie</string>
     <string name="baby_birthday">Fødselsdag</string>
     <string name="baby_face_desc">Babyalbum</string>
-    <string name="baby_lock_wallpaper">Baggrundsbillede for låseskærm</string>
-    <string name="baby_lock_wallpaper_cancelled">Skiftet til standardbaggrundsbillede for låseskærm.</string>
-    <string name="baby_lock_wallpaper_save_settings_msg">Anvend nuværende indstillinger?</string>
-    <string name="baby_lock_wallpaper_title">Brug babyfotos som låseskærmens baggrundsbillede</string>
     <string name="baby_name_cannot_empty">Indtast navn</string>
     <string name="baby_name_cannot_start_with">"Navn kan ikke begynde med '%s'."</string>
     <string name="baby_name_contain_invalidate_char">"Navn kan ikke indeholde '%s'."</string>
@@ -196,7 +191,6 @@
     <string name="byteShort">B</string>
     <string name="camera_needs_auto_backup_tip">Kameraalbum skal sikkerhedskopieres</string>
     <string name="cancel">Annuller</string>
-    <string name="cancel_baby_lock_wallpaper_confirm_msg">Skift til standardbaggrundsbillede for låseskærm</string>
     <string name="cancel_download_btn_text">Stop</string>
     <string name="cancel_hint">Handling annulleret</string>
     <string name="cannot_remove_creator">Kan ikke fjerne skaber</string>
@@ -293,7 +287,7 @@
     <string name="confirm_merge_face_albums">" "<Data> Sammenlæg dette album med %s? </Data>" "</string>
     <string name="confirm_merge_many_face_albums">" "<Data> Sammenlæg disse albummer med %s? </Data>" "</string>
     <string name="confirm_not_face">Ingen match</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sikker på, at dette er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Denne person vil blive flyttet til \"%2$s\" album. </Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Sikker på, at dette er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Denne person vil blive flyttet til \"%2$s\" album . </Data>" "</string>
     <string name="confirm_recommandation_face_not">" "<Data> Sikker på, at dette ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sikker på, at disse er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Disse folk vil blive flyttet til \"%2$s\" album. </Data>" "</string>
     <string name="confirm_recommandation_multiple_faces_not">" "<Data> Sikker på, at disse ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
@@ -347,6 +341,11 @@
     <string name="disable_auto_upload_tip">Sluk for synkronisering med Mi Cloud for dette album?</string>
     <string name="disable_auto_upload_title">Sluk synkronisering med Mi Cloud</string>
     <string name="do_not_remind_me">Vis ikke igen</string>
+    <string name="document_provider_guide_step_1">1. Tryk på \"Mere\"-knappen.</string>
+    <string name="document_provider_guide_step_2">2. Tryk på \"Vis internt lager\".</string>
+    <string name="document_provider_guide_step_3">3. Tap på sidemenuknappen.</string>
+    <string name="document_provider_guide_step_4">4. Vælg \"SD-kort\".</string>
+    <string name="document_provider_guide_step_5">5. Tryk på \"Vælg\".</string>
     <string name="double_tap_to_higher_definition">Dobbelttryk igen for HD-forhåndsvisningen</string>
     <string name="download_canceled">Download annulleret.</string>
     <string name="download_error_format">Kunne ikke downloade %s.</string>
@@ -450,6 +449,18 @@
     <string name="exit_video_play">Afslut</string>
     <string name="expand_desc">Mere</string>
     <string name="expand_people">Vis flere folk</string>
+    <string name="ext_sdcard_first_entrance_request_failed_text">Galleri vil gemme elementer til internt lager i stedet. Du kan ændre dette i indstillinger > lager > lagerindstillinger.</string>
+    <string name="ext_sdcard_first_entrance_request_failed_title">Kunne ikke give tilladelser.</string>
+    <string name="ext_sdcard_guide_first_page_button_text">Næste</string>
+    <string name="ext_sdcard_guide_last_page_button_text">Giv tilladelser</string>
+    <string name="ext_sdcard_guide_text">Galleri har brug for din tilladelse til at få adgang til SD-kort. Her er, hvad du kan gøre:</string>
+    <string name="ext_sdcard_operation_failed_text">Galleri har brug for tilladelser til at få adgang til SD-kort.</string>
+    <string name="ext_sdcard_operation_failed_title">Kunne ikke fuldføre denne handling</string>
+    <string name="ext_sdcard_permission_request_button_text">Forstået</string>
+    <string name="ext_sdcard_permission_request_reason">Galleriet har brug for din tilladelse til at få adgang til SD-kort. Derved kan du slette og redigere fotos og videoer, der er gemt på dit SD-kort.</string>
+    <string name="ext_sdcard_permission_request_title">Tillad Galleri af få adgang til SD-kort</string>
+    <string name="ext_sdcard_request_failed_button_text">OK</string>
+    <string name="ext_sdcard_request_succeed_toast_text">Du er klar til at rocke!</string>
     <string name="face_album_empty">"Ikke nok fotos til at genkende folk.
 Tag flere fotos af dine venner!"</string>
     <string name="face_album_empty_syncing">Synkroniserer data. Kom tilbage om et stykke tid</string>
@@ -467,6 +478,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="face_name_edit">Redigér</string>
     <string name="face_name_input">Indtast navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fuldføre handlingen</string>
     <string name="fail_to_pick_email">Ugyldig e-mailadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Tjek din dataforbindelse og prøv igen.</string>
@@ -477,6 +489,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="feature_guidance_photo_effects">"Nye fotoeffekter
 er tilgængelige"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgængelige</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Hukommelse</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Pink</string>
@@ -546,6 +559,7 @@ er tilgængelige"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Indstil</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri skal have adgang til 
 %s
  for at fungere normalt, tryk på \"Indstil\" for at gå til Tilladelser."</string>
@@ -721,6 +735,7 @@ til at gøre Galleri personligt"</string>
     <string name="operation_save">Gem</string>
     <string name="operation_send">Send</string>
     <string name="operation_set_contact_photo">Fastsæt som kontaktfoto</string>
+    <string name="operation_set_slide_wallpaper">Fastsæt baggrund som lysbilledshow</string>
     <string name="operation_set_wallpaper">Fastsæt som baggrundsbillede</string>
     <string name="operation_share">Del</string>
     <string name="operation_show_in_photos_tab">Vis i Billeder</string>
@@ -744,6 +759,7 @@ til at gøre Galleri personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Vælg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Unavngivet</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Fotos med kæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Fotos</string>
@@ -867,6 +883,7 @@ til at gøre Galleri personligt"</string>
     <string name="picker_image_will_download">%d af de valgte fotos findes ikke på enhed. De vil blive downloadet.</string>
     <string name="picker_no_network_message">Tilslut til netværket for at downloade</string>
     <string name="picker_origin_need_download">%1$d af de valgte fotos (%2$d MB) findes ikke på enhed. Download ved hjælp af mobildata?</string>
+    <string name="picker_origin_request_progress_fail">Kunne ikke downloade det originale billede på grund af en netværksfejl.</string>
     <string name="picker_origin_request_progress_message">Forbereder originale filer (%1$d/%2$d)…</string>
     <string name="picker_title_format">Vælg %1$d til %2$d fotos</string>
     <string name="picker_title_selection_format">Valgte fotos: %d</string>
@@ -1004,6 +1021,9 @@ til at gøre Galleri personligt"</string>
     <string name="search_title_recommend">Anbefalet</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leder efter projektor…</string>
     <string name="secret_album_card_description">Det bedste sted for alle dine små hemmeligheder</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1032,7 +1052,8 @@ til at gøre Galleri personligt"</string>
     <string name="send_secret_file_failed">Kunne ikke dele</string>
     <string name="send_secret_file_space_low">Ikke nok lagerplads</string>
     <string name="send_too_many_files_error">Kan sende op til %d elementer ad gangen</string>
-    <string name="set_as_baby_lock_wallpaper">Fastsæt som baggrundsbillede for låseskærm</string>
+    <string name="set_as_slide_wallpaper_description">Dette billede er en thumbnail. Download originalen?</string>
+    <string name="set_as_slide_wallpaper_title">Fastsæt baggrund som lysbilledshow</string>
     <string name="set_as_wallpaper_description">Dette billede er en thumbnail. Download originalen?</string>
     <string name="set_as_wallpaper_title">Fastsæt som baggrundsbillede</string>
     <string name="set_face_group_toast_msg_new_user">Hold en person for at sammenlægge eller ignorere dem.</string>
@@ -1282,6 +1303,7 @@ til at gøre Galleri personligt"</string>
     <string name="view_face_album">Se album</string>
     <string name="view_more_face_desc">Se flere folk</string>
     <string name="voice_assistant">Stemmeinput</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Velkommen til Mi Cloud</string>
     <string name="where_is_barcode">Hvor er QR-koden?</string>
     <string name="who_is_this">Hvem er det?</string>
@@ -1289,7 +1311,7 @@ til at gøre Galleri personligt"</string>
     <string name="yes">Ja</string>
     <string name="yesterday">I går</string>
     <string name="you_are">Du er babyens</string>
-    <string name="operation_set_slide_wallpaper">Fastsæt baggrund som lysbilledshow</string>
+    <string name="photo_editor_talkback_crop_screen">Fuld skærm højde-breddeforhold</string>
     <string name="refocus_discard_confirm_message">Save changes?</string>
     <string name="refocus_discard_negative_btn">Discard</string>
     <string name="refocus_discard_positive_btn">Save</string>
@@ -1302,6 +1324,4 @@ til at gøre Galleri personligt"</string>
     <string name="refocus_title">Blur</string>
     <string name="refocus_type_static">Blur level</string>
     <string name="refocus_type_video">Light trails</string>
-    <string name="set_as_slide_wallpaper_description">Dette billede er en thumbnail. Download originalen?</string>
-    <string name="set_as_slide_wallpaper_title">Fastsæt baggrund som lysbilledshow</string>
 </resources>

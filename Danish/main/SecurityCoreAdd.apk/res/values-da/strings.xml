@@ -67,10 +67,11 @@
     <string name="xspace_label">Dobbelte apps</string>
     <string name="xspace_setting_label">Indstillinger for dobbelt app</string>
     <string name="xspace_account">Dobbelt app-konti</string>
+    <string name="xspace_remove">Slet konti for dobbelt-apps</string>
     <string name="declare_dialog_title">Om dobbelte apps</string>
     <string name="menu_item_about_privacy_title">Privatlivspolitik</string>
     <string name="stop_xspace_alert_title">Sletter konti for dobbelt-app</string>
-    <string name="stop_xspace_alert_content">Du slettede alle dobbelte apps. Slet også konti for dobbelte apps? Efter dette er du nødt til at oprette dobbelte apps efter behov.</string>
+    <string name="stop_xspace_alert_content">Alle dobbelt-apps og deres data vil blive slettet permanent. Du er nødt til at genstarte din enhed, for at denne ændring skal træde i kraft. Slet konti nu?</string>
     <string name="xspace_loading_msg">Indlæser apps…</string>
     <string name="xspace_header">Dobbelte apps</string>
     <string name="xspace_introduce">Anbefalet</string>

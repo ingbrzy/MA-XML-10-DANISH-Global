@@ -57,6 +57,7 @@
     <string name="save_pic_success">Gemt billede på %s</string>
     <string name="save_pic_fail">Kunne ikke gemme billede, kontroller dit SD-kort</string>
     <string name="pic_not_exist">Billedet findes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Vælg produkt</string>
     <string name="michat_skillset_business_type_title">Vælg service</string>
     <string name="michat_close_text">Chat afsluttet</string>
@@ -161,8 +162,8 @@
     <string name="cta_cancel">Annuller</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Send rapport</string>
-    <string name="submit_dialog_content"><Data>Din feedback og vedhæftelser og logfiler vil blive sendt til MIUIs servere. De kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
-    <string name="submit_dialog_content_global"><Data>Din feedback og vedhæftelser (om nogen) og logfiler (du kan afmarkere de korresponderende bokse for de elementer, du ikke ønsker at uploade) vil blive sendt til MIUIs servere og en begrænset sektion af MIUI Forum for udviklere. Oplysningerne om dine tråde og forumaktivitet vil også blive indsamlet til analyse og yderligere kommunikation. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
+    <string name="submit_dialog_content">" "<Data> Din feedback og vedhæftelser og logfiler vil blive sendt til MIUIs servere. De kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>. </Data>" "</string>
+    <string name="submit_dialog_content_global">" "<Data> Din feedback og vedhæftelser (om nogen) og logfiler (du kan afmarkere de korresponderende bokse for de elementer, du ikke ønsker at uploade) vil blive sendt til MIUIs servere og en begrænset sektion af MIUI Forum for udviklere. Oplysningerne om dine tråde og forumaktivitet vil også blive indsamlet til analyse og yderligere kommunikation. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>. </Data>" "</string>
     <string name="submit_dialog_cancel">Er ikke enig</string>
     <string name="submit_dialog_confirm">Godkend</string>
     <string name="tab_title_preferences">Indstillinger</string>
@@ -180,7 +181,7 @@
     <string name="modem_tool_log_finish_title">Modemlog hentet.</string>
     <string name="modem_tool_log_finish_desc">Log er gemt som %s</string>
     <string name="bugreport_dialog_not_show_again">Vis ikke igen</string>
-    <string name="bugreport_dialog_submit_content"><Data>Du gemmer softwarelogfiler på denne enhed nu. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. Del ikke logfiler med nogen, hvis du ikke ønsker, at disse oplysninger skal videregives. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
+    <string name="bugreport_dialog_submit_content">" "<Data> Du gemmer softwarelogfiler på denne enhed nu. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. Del ikke logfiler med nogen, hvis du ikke ønsker, at disse oplysninger skal videregives. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>. </Data>" "</string>
     <string name="bugreport_dump_start_notification_title">Opretter fejlrapport…</string>
     <string name="bugreport_dump_start_notification_summary">Dette kan tage flere minutter.</string>
     <string name="bugreport_dump_complete_notification_title">Oprettet fejlrapport.</string>
@@ -289,8 +290,8 @@
     <string name="warning_field_invalid">Vælg en gyldig %1$s</string>
     <string name="min_error">Din %1$s skal være længere.</string>
     <string name="max_error">Din %1$s skal være kortere.</string>
-    <string name="reply_option_log_hint">Optional</string>
-    <string name="reply_select_log_hint">Select log</string>
+    <string name="reply_option_log_hint">Valgfrit</string>
+    <string name="reply_select_log_hint">Vælg log</string>
     <string name="title_mi_family">Mi Homes i nærheden</string>
     <string name="hint_feedback_main">Beskriv problemet</string>
     <string name="goon_feedback_main">Fortsæt</string>

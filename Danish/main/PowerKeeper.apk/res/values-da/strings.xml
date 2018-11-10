@@ -95,4 +95,7 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="message_i_know">Forstået</string>
     <string name="high_temp_state">Høj temperatur</string>
     <string name="high_temp_state_message">Beskyttelse mod høj temperatur,data,wifiap,gps,kamera osv. vil være begrænset</string>
+    <string name="atrace_start">Optager atrace-logfil…</string>
+    <string name="atrace_saving">Gemmer atrace-logfil…</string>
+    <string name="atrace_saved">Gemt korrekt</string>
 </resources>

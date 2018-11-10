@@ -28,6 +28,14 @@
         <item quantity="other">Forkert PUK-kode, %d forsøg tilbage</item>
         <item quantity="one">Forkert PUK-kode, %d forsøg tilbage</item>
     </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="other">Indtastning af adgangskoden er påkrævet efter %d timers inaktivitet</item>
+        <item quantity="one">Indtastning af adgangskoden er påkrævet efter %d times inaktivitet</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="other">Tegning af mønsteret er påkrævet efter %d timers inaktivitet</item>
+        <item quantity="one">Tegning af mønsteret er påkrævet efter %d times inaktivitet</item>
+    </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">Omkring %d timer tilbage</item>
         <item quantity="one">Omkring %d time tilbage</item>

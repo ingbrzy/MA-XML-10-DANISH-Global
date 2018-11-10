@@ -12,6 +12,10 @@
         <item quantity="other">%d dage siden</item>
         <item quantity="one">%d dag siden</item>
     </plurals>
+    <plurals name="aqi_all_city_cur_num">
+        <item quantity="other">Gennemsnit af %1$s stationer</item>
+        <item quantity="one">Gennemsnit af %1$s station</item>
+    </plurals>
     <plurals name="daily_forcast_drawer_on_top">
         <item quantity="other">%1$s-dages prognose</item>
         <item quantity="one">%1$s-dages prognose</item>

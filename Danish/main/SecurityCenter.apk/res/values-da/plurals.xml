@@ -76,9 +76,9 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="other">"Netværksadgang begrænset for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
         <item quantity="one">"Netværksadgang begrænset for &lt;font color='#ff0000'>%d:&lt;/font> app"</item>
     </plurals>
-    <plurals name="om_ill_proc_multi_app_title">
-        <item quantity="other">%d apps fungerer ikke ordentligt og dræner batteriet</item>
-        <item quantity="one">%d app fungerer ikke ordentligt og dræner batteriet</item>
+    <plurals name="om_locked_apps_title">
+        <item quantity="other">%d låste apps</item>
+        <item quantity="one">%d låst app</item>
     </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d dage "</item>
