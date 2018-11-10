@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="activity_not_found">Ingen app blev fundet til at håndtere denne handling</string>
     <string name="allow_network_hint">Tænd for \"Opdater info automatisk\" eller kontroller din netværksforbindelse</string>
     <string name="already_updated">Opdateret</string>
