@@ -57,6 +57,7 @@
     <string name="save_pic_success">Gemt billede på %s</string>
     <string name="save_pic_fail">Kunne ikke gemme billede, kontroller dit SD-kort</string>
     <string name="pic_not_exist">Billedet findes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Vælg produkt</string>
     <string name="michat_skillset_business_type_title">Vælg service</string>
     <string name="michat_close_text">Chat afsluttet</string>
@@ -161,8 +162,8 @@
     <string name="cta_cancel">Annuller</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Send rapport</string>
-    <string name="submit_dialog_content">" "<Data> Din feedback og vedhæftelser og logfiler vil blive sendt til MIUIs servere. De kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>. </Data>" "</string>
-    <string name="submit_dialog_content_global">" "<Data> Din feedback og vedhæftelser (om nogen) og logfiler (du kan afmarkere de korresponderende bokse for de elementer, du ikke ønsker at uploade) vil blive sendt til MIUIs servere og en begrænset sektion af MIUI Forum for udviklere. Oplysningerne om dine tråde og forumaktivitet vil også blive indsamlet til analyse og yderligere kommunikation. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>. </Data>" "</string>
+    <string name="submit_dialog_content"><Data>Din feedback og vedhæftelser og logfiler vil blive sendt til MIUIs servere. De kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Din feedback og vedhæftelser (om nogen) og logfiler (du kan afmarkere de korresponderende bokse for de elementer, du ikke ønsker at uploade) vil blive sendt til MIUIs servere og en begrænset sektion af MIUI Forum for udviklere. Oplysningerne om dine tråde og forumaktivitet vil også blive indsamlet til analyse og yderligere kommunikation. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
     <string name="submit_dialog_cancel">Er ikke enig</string>
     <string name="submit_dialog_confirm">Godkend</string>
     <string name="tab_title_preferences">Indstillinger</string>
@@ -180,7 +181,7 @@
     <string name="modem_tool_log_finish_title">Modemlog hentet.</string>
     <string name="modem_tool_log_finish_desc">Log er gemt som %s</string>
     <string name="bugreport_dialog_not_show_again">Vis ikke igen</string>
-    <string name="bugreport_dialog_submit_content">" "<Data> Du gemmer softwarelogfiler på denne enhed nu. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. Del ikke logfiler med nogen, hvis du ikke ønsker, at disse oplysninger skal videregives. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>. </Data>" "</string>
+    <string name="bugreport_dialog_submit_content"><Data>Du gemmer softwarelogfiler på denne enhed nu. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. Del ikke logfiler med nogen, hvis du ikke ønsker, at disse oplysninger skal videregives. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
     <string name="bugreport_dump_start_notification_title">Opretter fejlrapport…</string>
     <string name="bugreport_dump_start_notification_summary">Dette kan tage flere minutter.</string>
     <string name="bugreport_dump_complete_notification_title">Oprettet fejlrapport.</string>
@@ -210,7 +211,7 @@
     <string name="feedback_submit_succ_button">Udført</string>
     <string name="feedback_title">Titel</string>
     <string name="feedback_description">Beskrivelse</string>
-    <string name="feedback_select_images">Tilføj billeder</string>
+    <string name="feedback_select_images">Tilføj et billede eller kort video</string>
     <string name="feedback_delete_images">Slet billeder</string>
     <string name="feedback_select_upload_log">Tilføj logge</string>
     <string name="feedback_select_modem_log">Tilføj modemlogge</string>
@@ -324,9 +325,10 @@
     <string name="toast_post_deleted">Dette emne findes ikke, blev slettet eller redigeret.</string>
     <string name="toast_log_not_exists">Den krævede log blev slettet, eller også findes den ikke.</string>
     <string name="toast_pic_not_exists">Cachet billede blev slettet.</string>
-    <string name="toast_screenshot_too_large">Kan ikke uploade filer, der er større end 10 MB.</string>
-    <string name="toast_log_too_large">Ken ikke uploade. Filen er for stor.</string>
+    <string name="toast_screenshot_too_large">Kan ikke uploade billeder eller videoer, der er større end 10 MB.</string>
+    <string name="toast_log_too_large">Kan ikke uploade. Logfilen er for stor.</string>
     <string name="title_customer_service">Kundeservice</string>
+    <string name="title_first_aid">Førstehjælp</string>
     <string name="customer_service_apply">Anmod om kundeservice</string>
     <string name="customer_service_complain">Anmeld kundeservice</string>
     <string name="customer_service_station">Serviceplaceringer</string>
@@ -355,7 +357,7 @@
     <string name="catch_full_log_notification_content">Tryk for at gå tilbage til logfiler</string>
     <string name="catch_full_log_start_dump_hprof">Generer langsomme logfiler</string>
     <string name="catch_full_log_dump_hprof_failed">Kunne ikke generere langsomme logfiler</string>
-    <string name="catch_full_log_add_original_photo">Tilføj foto</string>
+    <string name="catch_full_log_add_original_photo">Tilføj oprindeligt billede eller kort video</string>
     <string name="catch_full_log_add_photo_dialog_content">Hvis det problem, som du rapporterer, er relateret til kameraets billedkvalitet, tilføj et originalt prøvefoto (ubeskåret) for at hjælpe os med at lokalisere problemet. Tilføj et foto nu?</string>
     <string name="catch_full_log_submit_directly">Indsend</string>
     <string name="catch_full_log_add_photo">Tilføj foto</string>

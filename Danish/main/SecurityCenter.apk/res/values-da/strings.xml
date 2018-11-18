@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -345,7 +347,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="cta_dialog_title">Tillad internetforbindelse</string>
     <string name="cta_dialog_msg">Sikkerheden kræver internetforbindelse for at hente opdateringer, samt adgang til placering for at kunne arbejde normalt.</string>
     <string name="cta_settings">Tillad internetforbindelse</string>
-    <string name="gdpr_msg">" "<Data> For at bruge de basale sikkerhedsfunktioner, skal du acceptere, at Xiaomi indsamler, bearbejder og bruger dine personlige data og her iblandt den måde, hvorpå de bruger sikkerhedsfunktioner på (f.eks. brugerstatus af mobildata, info om malware, samt basisoplysninger om din enhed) og andre slags oplysninger, specificeret i vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Fortrolighedspolitik&lt;/a>. </Data>" "</string>
+    <string name="gdpr_msg"><Data>For at bruge de basale sikkerhedsfunktioner, skal du acceptere, at Xiaomi indsamler, bearbejder og bruger dine personlige data og her iblandt den måde, hvorpå de bruger sikkerhedsfunktioner på (f.eks. brugerstatus af mobildata, info om malware, samt basisoplysninger om din enhed) og andre slags oplysninger, specificeret i vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Fortrolighedspolitik&lt;/a>.</Data></string>
     <string name="app_name_na">Databrug</string>
     <string name="list_empty_text">Tom</string>
     <string name="dialog_title_attention">Giv agt</string>
@@ -357,6 +359,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="byteShort">B</string>
     <string name="yuan">CNY</string>
     <string name="percent_text_formatted">%s%%</string>
+    <string name="main_traffic_detail">Dataforbrug</string>
     <string name="main_toolbar_firewall">Begræns dataforbrug</string>
     <string name="main_toolbar_statistic">Statistik dataforbrug</string>
     <string name="main_toolbar_purchase">Fyld på</string>
@@ -406,6 +409,9 @@ svarer"</string>
     <string name="tc_parse_error">Kunne ikke analysere SMS</string>
     <string name="tc_get_cmd_error">Kunne ikke få skabelon</string>
     <string name="tc_web_correct_error">Kunne ikke kalibrere</string>
+    <string name="main_daily_card_guide_dialog_title">Fastsæt dataplantype</string>
+    <string name="main_daily_card_guide_dialog_summary">Du kan vælge mellem daglige, månedlige og ubegrænsede planer. Fastsæt dataplantype nu?</string>
+    <string name="main_daily_card_guide_dialog_ok">Fastsæt</string>
     <string name="firewall_activity_lable">Begræns dataforbrug efter app</string>
     <string name="firewall_applist">Apps</string>
     <string name="firewall_mobile">Mobildata</string>
@@ -453,8 +459,10 @@ svarer"</string>
     <string name="background_traffic">Baggrunds %s</string>
     <string name="detail_app_button">App-oplysninger</string>
     <string name="managed_user_title">Alle arbejds-apps</string>
+    <string name="not_limited_brand">Ubegrænset</string>
     <string name="pref_about_traffic_title">Indstillinger for dataforbrug</string>
     <string name="pref_traffic_manage_title">Databrug</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Sæt dataforbrug</string>
     <string name="pref_category_title_other">Yderligere indstillinger</string>
@@ -490,12 +498,19 @@ svarer"</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Opdateret for over en måned siden</string>
     <string name="left_precent">60%</string>
     <string name="right_precent">100%</string>
+    <string name="pref_category_package_type_title">Dataplantype</string>
+    <string name="pref_title_traffic_package_type">Dataplantype</string>
+    <string name="pref_traffic_package_type_summary">Månedlig/daglig/ubegrænset</string>
+    <string name="pref_traffic_daily_package">Daglig dataplan</string>
+    <string name="pref_traffic_monthly_package">Månedlig dataplan</string>
+    <string name="pref_traffic_unlimited_package">Ubegrænset dataplan</string>
+    <string name="pref_traffic_daily_package_brand">Udbyder af daglig dataplan</string>
     <string name="pref_avaible_traffic">Dataplan</string>
     <string name="pref_daily_traffic">Grænse maks. data</string>
     <string name="pref_special_package_setting">Tilpasset dataplan</string>
     <string name="pref_data_usage_not_set">Ukendt dataplan</string>
     <string name="pref_operator_not_set">Teleudbyder ikke indstillet</string>
-    <string name="pref_special_package_setting_summary">Administrer off-peak data, top-op pakker, daglige dataplaner og benævnt data</string>
+    <string name="pref_special_package_setting_summary">Administrer off-peak data, top-op-pakker og designerede data</string>
     <string name="pref_warning_values">Dataforbrug advarselsniveau</string>
     <string name="pref_pkg_begin_date">Data for nulstilling af forbrug</string>
     <string name="pref_more_settings">Yderligere indstillinger</string>
@@ -508,6 +523,8 @@ svarer"</string>
     <string name="daily_pkg_traffic">Grænse maks. data</string>
     <string name="input_aviable_traffic">Sæt grænse dataforbrug</string>
     <string name="pkg_traffic">Sæt grænse dataforbrug</string>
+    <string name="dialog_change_package_type_title">Skift dataplantype</string>
+    <string name="dialog_change_package_type_summary">Skift af datatypeplan vil rydde alle indstillinger for dataforbrug (f.eks. datagrænser) til deres standardværdier. Skift dataplantype nu?</string>
     <string name="free_traffic_settings">Indstillinger off-peak dataforbrug</string>
     <string name="free_time_traffic">Off-peak datagrænse</string>
     <string name="power_save_on_time_start_time_summary_na">Fra</string>
@@ -549,6 +566,21 @@ svarer"</string>
     <string name="traffic_setting_fragment_send_num_tips">Indtast telefonnummer</string>
     <string name="traffic_setting_fragment_sms_content_tips">Skriv din besked her</string>
     <string name="traffic_setting_fragment_loacation_alert_nomore">Vis ikke igen</string>
+    <string name="traffic_setting_fragment_packege_type">Indstillinger for dataplan</string>
+    <string name="traffic_setting_fragment_month_title">Månedlig dataplan</string>
+    <string name="traffic_setting_fragment_month_summary">Mobildata og taletid opdateres månedligt</string>
+    <string name="traffic_setting_fragment_daily_title">Daglig dataplan</string>
+    <string name="traffic_setting_fragment_daily_summary">Mobildata opdateres dagligt</string>
+    <string name="traffic_setting_fragment_not_limited_title">Ubegrænset dataplan</string>
+    <string name="traffic_setting_fragment_not_limited_summary">Ubegrænsede mobildatamuligheder</string>
+    <string name="traffic_setting_fragment_next">Næste</string>
+    <string name="daily_card_setting_fragment_daily_card_setting">Indstillinger for daglig dataplan</string>
+    <string name="daily_card_setting_fragment_daily_card_brand">Operatør</string>
+    <string name="daily_card_setting_fragment_daily_card_brand_value">Vælg operatør</string>
+    <string name="daily_card_setting_fragment_daily_card_summary">MIUI vil fastsætte datagrænser og apps med ubegrænset data i overensstemmelse med den operatør, du vælger. Hvis din operatør ikke er på listen, så vælg \"Anden\" og opsæt din daglige dataplan manuelt.</string>
+    <string name="daily_card_setting_fragment_daily_package">Daglig datagrænse</string>
+    <string name="daily_card_setting_fragment_month_package">Månedlig datapakke</string>
+    <string name="daily_card_setting_fragment_package_summary">Hvis din daglige dataplan indeholder en månedlig datapakke, vil den blive brugt inden den daglige pakke.</string>
     <string name="data_usage_warning_body">Tryk for at se oplysninger dataforbrug.</string>
     <string name="data_usage_mobile_limit_title">Grænse for mobildata nået</string>
     <string name="data_usage_limit_body">Tryk for at slå mobildata til.</string>
@@ -895,20 +927,10 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="status_bar_network_flow_purchase">"   Køb >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Opsæt dataplan >"</string>
     <string name="status_bar_network_flow_phone_balance">"   Telefonsaldo:%1$s "</string>
-    <string name="status_bar_network_flow_exceed_content">"I dag: %1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;Overskridelse: &lt;font color=%2$s>%3$s&lt;/font>
-        "</string>
-    <string name="status_bar_network_flow_content">"I dag: %1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        Tilbage: %2$s"</string>
-    <string name="status_bar_network_flow_content_not_setting">"I dag: %1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        Denne måned: %2$s"</string>
-    <string name="status_bar_network_flow_content_virtual_card">"%1$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        %2$s
-        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-        "</string>
+    <string name="status_bar_network_flow_exceed_content">I dag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Overskridelse: &lt;font color=%2$s>%3$s&lt;/font></string>
+    <string name="status_bar_network_flow_content">I dag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Tilbage: %2$s</string>
+    <string name="status_bar_network_flow_content_not_setting">I dag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Denne måned: %2$s</string>
+    <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
     <string name="pref_key_tethering_setting">Engangs-datagrænse</string>
     <string name="pref_key_tethering_title">Engangs-datagrænse</string>
     <string name="tether_limit_value_custom">Brugertilpasset</string>
@@ -942,6 +964,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="om_settings_memory_occupy_notify_never">Aldrig</string>
     <string name="om_lock_app_locked_app">Låst</string>
     <string name="om_lock_app_unlocked_app">Låst op</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Hastighedsboost er påkrævet</string>
     <string name="om_running_locked_apps">Låst kørende apps</string>
     <string name="om_running_system_apps">Kørende system-apps</string>
@@ -991,6 +1014,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uden et signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="power_screen">Skærm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1207,12 +1231,17 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_center_list_item_auto_brightness">Indstil automatisk skærmens lysstyrke</string>
     <string name="power_center_list_item_deep_save_title">Avancerede indstillinger</string>
     <string name="power_center_list_item_battery_status_time">t</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Stop scanning</string>
     <string name="hide_mode_result_summary_text">Tilpas batterisparer-indstillinger for individuelle apps</string>
     <string name="auto_task_result_summary_text">Indstil automatiske opgaver for batterisparer</string>
     <string name="pc_settings_title">Indstillinger for batteriforbrug</string>
     <string name="pc_main_activity_back">Tilbage</string>
     <string name="extreme_power_save_mode_card_summary">Slå Extreme-tilstand til for at spare på strømmen, når batteriet er ved at være fladt.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Kontrollér besked-app</string>
     <string name="apps_list_header_title_sms_access">Begræns adgang for verifikationskoder</string>
@@ -1366,11 +1395,13 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="menu_text_optimize_manage">Boost hastigheden</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_summary_networkassistants">Administrer din dataplan</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Overskred grænsen</string>
     <string name="menu_summary_networkassistants_3">Nok data tilbage</string>
     <string name="menu_summary_networkassistants_4">Løber tør for data</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">kB</string>
@@ -1383,12 +1414,14 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="menu_summary_garbage_cleanup">Ingen uønskede filer fundet</string>
     <string name="menu_summary_garbage_cleanup_2">Størrelse af uønskede filer</string>
     <string name="menu_summary_garbage_cleanup_3">Ryd uønskede filer nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batteriforbrug</string>
     <string name="menu_summary_power_manager">Batteribesparer giver dig mere tid mellem opladninger</string>
     <string name="menu_summary_power_manager_1">Batteri er fuldt opladt</string>
     <string name="menu_summary_power_manager_2">%s tilbage</string>
     <string name="menu_summary_power_manager_3">Tilslut oplader</string>
     <string name="menu_summary_power_manager_4">%s indtil fuld</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Forrige scanning blev annulleret</string>
     <string name="examination_score_100">Alt ser fint ud!</string>
     <string name="examination_score_80_100">Nogle få elementer kan optimeres</string>
@@ -1764,6 +1797,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="card_main_deepclean_wechat_action">Ryd</string>
     <string name="card_main_sectool_title">Værktøjer</string>
     <string name="card_main_monthreport_action">Se</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test netværk</string>
     <string name="card_main_netcheck_summary">Testforbindelse for netværksfejl</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2080,14 +2114,14 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="app_manager_clear_cache">Ryd cache</string>
     <string name="app_manager_reset_app_preferences">Nulstil appindstillinger</string>
     <string name="app_manager_reset_app_preferences_title">Nulstil appindstillinger?</string>
-    <string name="app_manager_reset_app_preferences_desc">"Dette vil nulstille alle præferencer for:
+    <string name="app_manager_reset_app_preferences_desc">"Dette vil rydde alle præferencer for:
 
- "<li>Deaktiverede apps</li>"
- "<li>Deaktiverede app-notifikationer</li>"
- "<li>Standardapps</li>"
- "<li>Baggrundsdatabegrænsninger for apps</li>"
+"<li>Deaktiverede apps</li>"
+"<li>Notifikationer om deaktiverede apps</li>"
+"<li>Standardapps</li>"
+"<li>Baggrundsdatabegrænsninger for aps</li>"
 
- Du mister ingen appdata."</string>
+Du vil ikke miste nogen appdata."</string>
     <string name="app_manager_reset_app_preferences_button">Nulstil apps</string>
     <string name="app_manager_disable_text">Deaktiver</string>
     <string name="app_manager_enable_text">Aktiver</string>
@@ -2317,6 +2351,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="gb_create_icon_summary">Opret genvej til startskærm</string>
     <string name="title_reply">Kommentar</string>
     <string name="title_like">Synes godt om</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Tag en kort pause.</string>
     <string name="video_repeat">Afspil igen</string>
