@@ -435,4 +435,26 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="install_error">Kunne ikke installere. Prøv igen.</string>
     <string name="ent_install_dialog_content">Installer apps og genstart din enhed nu?</string>
     <string name="ent_disallow_running">Denne app har forbud mod at køre</string>
+    <string name="greenguard_child_des_title">Jeg har brug for hjælp fra mine venner og familie</string>
+    <string name="greenguard_child_des">Brug vores app til at forblive tilsluttet</string>
+    <string name="greenguard_parent_des_title">Jeg må hjælpe mine venner og familie</string>
+    <string name="greenguard_parent_des">Download vores app og tilføj andre personers enheder</string>
+    <string name="cta_declaration_title">Vilkår og betingelser</string>
+    <string name="cta_declaration_message_format" formatted="false">Du skal læse og acceptere vores &lt;font color=%s>&lt;a href=%s> %s &lt;/a>&lt;/font>, inden du bruger Enterprisetilstand. Din enhed skal have forbindelse til internettet for at kunne aktivere Enterprisetilstand. Accepter?</string>
+    <string name="cta_declaration_agree_and_continue">Accepter</string>
+    <string name="undo_activated_dialog_message">Tilbagekaldelse af tilladelse vil medføre deaktivering Entreprisetilstand og udførelse af fabriksnulstilling på din enhed. Alle tilknyttede funktion vil ikke længere være tilgængelige. Derudover vil Xiaomi stoppe med at indsamlede oplysningerne, der er nødvendige for Entreprisetilstand (IMEI, enheds-id, systemversion, område osv.). Vi vil gerne minde dig om, at Xiaomi ikke administrerer de data, de indsamler til Entreprisetilstand. Vi vil gøre vores bedste for at informere alle relevante parter, men anbefaler, at du kontakter din virksomheds supervisorer med henblik på at godkende denne tilbagekaldelse. Tilbagekald og udfør fabriksnulstilling?</string>
+    <string name="undo_activated_dialog_ok">Tilbagekald</string>
+    <string name="undo_grant_dialog_message">Xiaomi vil stoppe med at indsamle oplysninger, der er nødvendige for denne funktion (IMEI, enheds-id, systemversion, område osv.), når du tilbagekalder tilladelse. Tilbagekald nu?</string>
+    <string name="undo_privacy_menu">Tilbagekald tilladelse</string>
+    <string name="more_settings">Mere</string>
+    <string name="undo_success">Tilbagekaldt</string>
+    <string name="master_clear_apply_title">Bemærk</string>
+    <string name="master_clear_apply_step_1">Tilbagekaldelse af tilladelse kræver, at der udføres en fabriksnulstilling på din enhed. Den vil permanent fjerne alle filer og data, herunder konti, kontaktpersoner, fotos og apps. Sikkerhedskopier alle vigtige elementer til din computer, inden du tilbagekalder tilladelse.</string>
+    <string name="master_clear_apply_step_2">Sørg for, at du har sikkerhedskopieret alle vigtige elementer til din computer. Når du trykker på \"OK\", udføres en fabriksnulstilling på din enhed, som permanent fjerner alle filer og data, herunder konti, kontaktpersoner, fotos og apps.</string>
+    <string name="button_text_next_step">Næste</string>
+    <string name="button_text_next_step_timer">Næste trin (%d)</string>
+    <string name="dialog_tip_need_network">Din enhed skal have forbindelse til internettet for at tilbagekalde tilladelse.</string>
+    <string name="dialog_undo_negative">Tilbagekald ikke</string>
+    <string name="dialog_title_service_error">Serverfejl</string>
+    <string name="dialog_message_service_error">Kunne ikke tilbagekalde tilladelse og udføre en fabriksnulstilling. Prøv igen.​</string>
 </resources>

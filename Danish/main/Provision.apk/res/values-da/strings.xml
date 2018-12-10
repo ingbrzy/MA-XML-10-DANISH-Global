@@ -30,6 +30,9 @@ Se det valgte tastaturs Fortrolighedspolitik."</string>
     <string name="other_settings_auto_update_summary">MUI vil vælge det bedste tidspunkt at installere opdateringer</string>
     <string name="other_settings_ad_enable">Anbefalinger til personlige reklamer</string>
     <string name="other_settings_ad_enable_summary">Modtag personlige reklamer baseret på dit adfærdsmønster</string>
+    <string name="other_settings_enhanced_lockscreen">Baggrundskarrusel</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Få organiserede billeder og historier leveret dagligt til din låseskærm. Vilkår og betingelser gælder.</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Vilkår og betingelser</string>
     <string name="back">Tilbage</string>
     <string name="next">Næste</string>
     <string name="skip_underline">Spring dette trin over</string>
@@ -113,4 +116,5 @@ Du skal bekræfte Kikas privatlivspolitik, før du kan bruge denne funktion."</s
     <string name="ai_button_single_press_desc">Udløs Mi Al</string>
     <string name="ai_button_double_press">Dobbelttryk</string>
     <string name="ai_button_double_press_desc">Opsæt Mi Al-funktioner</string>
+    <string name="zone_picker_title">Vælg tidszone</string>
 </resources>

@@ -10,7 +10,7 @@
     </plurals>
     <plurals name="delete_timezone_confirm">
         <item quantity="other">Slet de valgte tidszoner?</item>
-        <item quantity="one">Slet den valgte tidszone?</item>
+        <item quantity="one">Slet denne tidszone?</item>
     </plurals>
     <plurals name="second">
         <item quantity="other">%d sekunder</item>

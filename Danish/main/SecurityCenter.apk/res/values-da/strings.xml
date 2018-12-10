@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -460,6 +462,7 @@ svarer"</string>
     <string name="not_limited_brand">Ubegrænset</string>
     <string name="pref_about_traffic_title">Indstillinger for dataforbrug</string>
     <string name="pref_traffic_manage_title">Databrug</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Sæt dataforbrug</string>
     <string name="pref_category_title_other">Yderligere indstillinger</string>
@@ -478,11 +481,8 @@ svarer"</string>
     <string name="pref_automatic_adjust">Synkroniser teleudbyder dataforbrug</string>
     <string name="pref_open_adjust_traffic">Opdater dataforbrug hver dag med statistik fra din teleudbyder</string>
     <string name="pref_auto_adjust_traffic">Juster statistik for dataforbrug automatisk</string>
-    <string name="pref_auto_adjust_settings">Juster indstillinger for dataforbrug automatisk</string>
     <string name="pref_adjust_data_usage">Beskedskabelon teleudbyder</string>
     <string name="pref_adjust_data_usage_summary">Efter at du ændrer kalibrerings-skabelon, anvender MIUI den til at få statistik over dataforbrug fra din teleudbyder</string>
-    <string name="pref_adjust_data_usage_value">Ændret</string>
-    <string name="pref_confirm_operator_setting">Vær sikker på at indtastede oplysninger er korrekte</string>
     <string name="pref_correction_setting">Indstillinger kalibrerings-skabelon</string>
     <string name="pref_correction_setting_switch">Anvend tilpasset kalibrerings-skabelon</string>
     <string name="pref_correction_sms_number">Send kalibrerings-SMS til</string>
@@ -961,6 +961,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="om_settings_memory_occupy_notify_never">Aldrig</string>
     <string name="om_lock_app_locked_app">Låst</string>
     <string name="om_lock_app_unlocked_app">Låst op</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Hastighedsboost er påkrævet</string>
     <string name="om_running_locked_apps">Låst kørende apps</string>
     <string name="om_running_system_apps">Kørende system-apps</string>
@@ -1010,6 +1011,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uden et signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="power_screen">Skærm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1105,6 +1107,12 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="btn_text_quick_save_power">Køl ned</string>
     <string name="notification_battery_consume_abnormal_title">Batteriet bliver drænet for hurtigt</string>
     <string name="app_check_no_issue">Det lader til, at der ikke er problemer med batteriet. Fantastisk!</string>
+    <string name="deep_power_save_item_title_auto_brightness">Slå automatisk lysstyrke til</string>
+    <string name="deep_power_save_item_summary_auto_brightness">Juster skærmens lysstyrke automatisk for at spare batteri</string>
+    <string name="deep_power_save_item_title_bluetooth">Slå Bluetooth fra</string>
+    <string name="deep_power_save_item_summary_bluetooth">Slå Bluetooth fra for at spare batteri</string>
+    <string name="deep_power_save_item_title_lock_screen_time">Sæt skærmen i dvaletilstand</string>
+    <string name="deep_power_save_item_summary_lock_screen_time">Sæt skærmen i dvale efter 30 sekunders inaktivitet for at spare batteri</string>
     <string name="power_save_mode_enable">Batteribesparer</string>
     <string name="power_save_mode_summary">Overvåg baggrundsprocesser og slå synkronisering fra.</string>
     <string name="power_optimize_save_mode_not_opened">Batteribesparer slået fra</string>
@@ -1226,12 +1234,17 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_center_list_item_auto_brightness">Indstil automatisk skærmens lysstyrke</string>
     <string name="power_center_list_item_deep_save_title">Avancerede indstillinger</string>
     <string name="power_center_list_item_battery_status_time">t</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Stop scanning</string>
     <string name="hide_mode_result_summary_text">Tilpas batterisparer-indstillinger for individuelle apps</string>
     <string name="auto_task_result_summary_text">Indstil automatiske opgaver for batterisparer</string>
     <string name="pc_settings_title">Indstillinger for batteriforbrug</string>
     <string name="pc_main_activity_back">Tilbage</string>
     <string name="extreme_power_save_mode_card_summary">Slå Extreme-tilstand til for at spare på strømmen, når batteriet er ved at være fladt.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Kontrollér besked-app</string>
     <string name="apps_list_header_title_sms_access">Begræns adgang for verifikationskoder</string>
@@ -1385,11 +1398,13 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="menu_text_optimize_manage">Boost hastigheden</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_summary_networkassistants">Administrer din dataplan</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Overskred grænsen</string>
     <string name="menu_summary_networkassistants_3">Nok data tilbage</string>
     <string name="menu_summary_networkassistants_4">Løber tør for data</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">kB</string>
@@ -1402,12 +1417,14 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="menu_summary_garbage_cleanup">Ingen uønskede filer fundet</string>
     <string name="menu_summary_garbage_cleanup_2">Størrelse af uønskede filer</string>
     <string name="menu_summary_garbage_cleanup_3">Ryd uønskede filer nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batteriforbrug</string>
     <string name="menu_summary_power_manager">Batteribesparer giver dig mere tid mellem opladninger</string>
     <string name="menu_summary_power_manager_1">Batteri er fuldt opladt</string>
     <string name="menu_summary_power_manager_2">%s tilbage</string>
     <string name="menu_summary_power_manager_3">Tilslut oplader</string>
     <string name="menu_summary_power_manager_4">%s indtil fuld</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Forrige scanning blev annulleret</string>
     <string name="examination_score_100">Alt ser fint ud!</string>
     <string name="examination_score_80_100">Nogle få elementer kan optimeres</string>
@@ -1783,6 +1800,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="card_main_deepclean_wechat_action">Ryd</string>
     <string name="card_main_sectool_title">Værktøjer</string>
     <string name="card_main_monthreport_action">Se</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test netværk</string>
     <string name="card_main_netcheck_summary">Testforbindelse for netværksfejl</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1850,8 +1868,8 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="mixed_retry_button_text">Annuller</string>
     <string name="lockpattern_continue_button_text">Næste</string>
     <string name="lockpattern_confirm_button_text">OK</string>
-    <string name="modifypassword">Skift adgangskode</string>
-    <string name="back_modifypassword">Gå tilbage til skift af adgangskode</string>
+    <string name="modifypassword">Skift adgangskodetype</string>
+    <string name="back_modifypassword">Gå tilbage til skift af adgangskodetype</string>
     <string name="showpattern">Vis mønster</string>
     <string name="notification_mask_title">Skjul indhold</string>
     <string name="notification_mask_summary">Skjul notifikationsindhold på låseskærmen og i notifikationsskyggen</string>
@@ -1878,9 +1896,6 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="lockpattern_settings_help_how_to_record">Tegn et mønster</string>
     <string name="numeric_settings_help_how_to_record">Sådan fastsætter du PIN</string>
     <string name="mixed_settings_help_how_to_record">Sådan fastsætter du adgangskode</string>
-    <string name="lockpattern_recording_incorrect_too_short">Forbind mindst %d prikker</string>
-    <string name="numeric_recording_incorrect_too_short">Indtast mindst %d cifre.</string>
-    <string name="mixed_recording_incorrect_too_short">Indtast mindst %d tegn.</string>
     <string name="lockpattern_recording_intro_header">Forbind mindst 4 prikker for at danne et mønster</string>
     <string name="numeric_recording_intro_header">Indtast adgangskode</string>
     <string name="mixed_recording_intro_header">Indtast mindst 4 tegn</string>
@@ -1954,7 +1969,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="reset_data_title">Kan ikke gendanne adgangskode</string>
     <string name="reset_data_dialog_message">Denne enhed er ikke tilknyttet din Mi-konto. Adgangskoden kan ikke gendannes eller nulstilles. Sikkerhedskopier alle vigtige elementer og foretag en fabriksnulstilling. Alle data vil blive slettet permanent, og dit SD-kort vil blive formateret under fabriksnulstillingen.</string>
     <string name="reset_data_dialog_ok">Fabriksnulstilling</string>
-    <string name="ad_split_screen_title">Skift til fuld skærm-tilstand for at låse op</string>
+    <string name="ad_split_screen_title">Afslut delt skærm for at låse op</string>
     <string name="wakepath_confirm_start_activity">Tillad %1$s at åbne %2$s?</string>
     <string name="unlike">Nej tak</string>
     <string name="toast_network_eror">Kan ikke oprette forbindelse til netværket</string>
@@ -2104,7 +2119,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
 "<li>Deaktiverede apps</li>"
 "<li>Notifikationer om deaktiverede apps</li>"
 "<li>Standardapps</li>"
-"<li>Baggrundsdatabegrænsninger for aps</li>"
+"<li>Baggrundsdatabegrænsninger for apps</li>"
 
 Du vil ikke miste nogen appdata."</string>
     <string name="app_manager_reset_app_preferences_button">Nulstil apps</string>
@@ -2336,6 +2351,7 @@ Du vil ikke miste nogen appdata."</string>
     <string name="gb_create_icon_summary">Opret genvej til startskærm</string>
     <string name="title_reply">Kommentar</string>
     <string name="title_like">Synes godt om</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Tag en kort pause.</string>
     <string name="video_repeat">Afspil igen</string>

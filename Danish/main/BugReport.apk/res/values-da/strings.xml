@@ -46,7 +46,6 @@
     <string name="michat_cant_join_artificial">Kunne ikke forbinde pga. netværksfejl</string>
     <string name="michat_lose_artificial">Der opstod en netværksfejl, du forlod chatten</string>
     <string name="michat_transfer_message">Leder efter en person, der kan hjælpe dig...</string>
-    <string name="michat_queue_pos_update">Der er %1$d foran dig i køen, vent et øjeblik…</string>
     <string name="michat_in_artificial_customer_state">Kan ikke udføre dette, mens du bliver hjulpet af en person</string>
     <string name="michat_pull_to_refresh_pull_label">Træk ned for at se historik</string>
     <string name="michat_pull_to_refresh_release_label">Slip for at se historik</string>
@@ -57,6 +56,7 @@
     <string name="save_pic_success">Gemt billede på %s</string>
     <string name="save_pic_fail">Kunne ikke gemme billede, kontroller dit SD-kort</string>
     <string name="pic_not_exist">Billedet findes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Vælg produkt</string>
     <string name="michat_skillset_business_type_title">Vælg service</string>
     <string name="michat_close_text">Chat afsluttet</string>
@@ -132,7 +132,6 @@
     <string name="toast_report_sent_failed">Kan ikke sende rapport.</string>
     <string name="toast_report_copied_to_clipboard">Rapport kopieret til udklipsholder.</string>
     <string name="toast_description_required">Du er nødt til at lave en beskrivelse.</string>
-    <string name="toast_feedbackservice_in_submit">Behandler tidligere feedback…</string>
     <string name="toast_pending_log_collection">Modtager stadig logge…</string>
     <string name="toast_feedback_submitted">Rapport er sendt.</string>
     <string name="toast_feedback_submitting">Sender…</string>
@@ -161,7 +160,7 @@
     <string name="cta_cancel">Annuller</string>
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Send rapport</string>
-    <string name="submit_dialog_content"><Data>Din feedback og vedhæftelser og logfiler vil blive sendt til MIUIs servere. De kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
+    <string name="submit_dialog_content"><Data>"Du skal acceptere vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Brugeraftale&lt;/a> for at kunne bruge Feedback. Problemerne, du anmelder sammen med de emner, du vedhæfter (kan indeholde personoplysninger såvel som oplysningerne om din enhed og netværk) vil blive uploadet til MIUI's servere. Det vil hjælpe os med at lokalisere og løse de problemer, du anmeldte."</Data></string>
     <string name="submit_dialog_content_global"><Data>Din feedback og vedhæftelser (om nogen) og logfiler (du kan afmarkere de korresponderende bokse for de elementer, du ikke ønsker at uploade) vil blive sendt til MIUIs servere og en begrænset sektion af MIUI Forum for udviklere. Oplysningerne om dine tråde og forumaktivitet vil også blive indsamlet til analyse og yderligere kommunikation. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">privatlivspolitik&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.</Data></string>
     <string name="submit_dialog_cancel">Er ikke enig</string>
     <string name="submit_dialog_confirm">Godkend</string>
@@ -247,6 +246,7 @@
     <string name="feedback_contact_info_hint">Telefonnummer/e-mail</string>
     <string name="toast_loading_app_id">Henter oplysninger…</string>
     <string name="feedback_status_commit_succ_title">Afsendt</string>
+    <string name="feedback_status_commit_in_queue_title">Venter…</string>
     <string name="feedback_status_commit_uploading_title">Sender…</string>
     <string name="feedback_status_commit_failed_title">Kunne ikke sende rapport.</string>
     <string name="feedback_status_processing">Behandler…</string>
@@ -333,6 +333,7 @@
     <string name="customer_service_station">Serviceplaceringer</string>
     <string name="title_catch_full_log">Logfiler</string>
     <string name="toast_catch_full_log_catching">Du kan kun generere en logfil ad gangen.</string>
+    <string name="toast_catch_full_log_open_failed">Kunne ikke påbegynde optagelseslogfil.</string>
     <string name="catch_full_log_item_title_signal">Telefon-, signal- og mobilnetværk</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi og Mi Drop</string>
     <string name="catch_full_log_item_title_gps">Placeringsservicer</string>
@@ -350,7 +351,7 @@
     <string name="catch_full_log_action_start">Generer logfil</string>
     <string name="catch_full_log_action_complete">Afslut og upload</string>
     <string name="catch_full_log_action_cancel">Annuller</string>
-    <string name="catch_full_log_dialog_content">MIUI genererer en logfil. Dette påvirker muligvis din enheds overordnede produktivitet. Hvis du ikke kan gendanne fejlen, som du ønsker at rapportere, gå tilbage til logfiler og tryk på \"Annuller\".</string>
+    <string name="catch_full_log_dialog_content">MIUI genererer en logfil. Dette påvirker muligvis din enheds overordnede ydelse. Hvis du ikke kan gendanne fejlen, som du ønsker at rapportere, gå tilbage til logfiler og tryk på \"Annuller\".</string>
     <string name="catch_full_log_dialog_confirm_text">Gå til startskærm</string>
     <string name="catch_full_log_notification_title">Genererer logfil…</string>
     <string name="catch_full_log_notification_content">Tryk for at gå tilbage til logfiler</string>

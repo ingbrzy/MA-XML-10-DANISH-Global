@@ -185,4 +185,5 @@
     <string name="miui_warning_tip_info">Der opstod en fejl i %1$s. Luk denne app nu?</string>
     <string name="talk_back_water_mark_string1">TalkBack er slået til</string>
     <string name="talk_back_water_mark_string2">Hold \"Volume+\" og \"Volume-\" nede i 3 sekunder for at slå fra</string>
+    <string name="start_dump_log">Begynd at hente problemrelaterede logfiler</string>
 </resources>

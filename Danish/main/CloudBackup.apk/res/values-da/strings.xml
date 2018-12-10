@@ -46,9 +46,12 @@
     <string name="customization"><u>Brugertilpas</u></string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Anden launcher</string>
-    <string name="self_device">"Denne telefon "</string>
-    <string name="main_space">First space</string>
-    <string name="second_space">Second space</string>
+    <string name="self_device_main_space">Denne telefons First space</string>
+    <string name="self_device_second_space">Denne telefons Second space</string>
+    <string name="other_device_main_space">First space</string>
+    <string name="other_device_second_space">Second space</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
     <string name="size_unknown">Ukendt størrelse</string>
     <string name="recovering">Gendanner %s</string>
@@ -130,6 +133,8 @@
     <string name="provision_error_connect_msg">Test netværket og prøv igen. Sikkerhedskopier er ikke tilgængelige, når din enhed er offline.</string>
     <string name="provision_error_connect_title">Kan ikke oprette forbindelse</string>
     <string name="loading_user_backup">Indlæser brugersikkerhedskopier…</string>
+    <string name="loading_progress_num">(%s%%)</string>
+    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Kunne ikke bekræfte konto.</string>
     <string name="no_account">Ikke logget på Mi-konto.</string>
     <string name="no_backup">Ingen sikkerhedskopier i Mi Cloud.</string>
@@ -137,7 +142,7 @@
     <string name="home_restore_error">Kunne ikke gendanne startskærm</string>
     <string name="get_device_id_error">Kunne ikke få enheds-ID</string>
     <string name="unsupported_home">Opdatér MIUI til den seneste version.</string>
-    <string name="error_retry_later">Kunne ikke fuldføre handling. Vent et minut eller to og prøv så igen..</string>
+    <string name="error_retry_later">Kunne ikke fuldføre handling. Vent et minut eller to og prøv så igen…</string>
     <string name="try_continue">Tryk for at fortsætte</string>
     <string name="download_home_data">Downloader layout for startskærm…</string>
     <string name="restore_home_failed">Kunne ikke gendanne startskærmen.</string>
@@ -154,6 +159,9 @@
     <string name="dialog_msg_restore_require_wlan">Gendannelse af sikkerhedskopier kræver tilslutning til Wi-Fi.</string>
     <string name="dialog_btn_next">Næste</string>
     <string name="dialog_btn_restore_skip">Gendan senere</string>
+    <string name="dialog_btn_cancel_backup">Annuller</string>
+    <string name="dialog_btn_overwrite_backup">Overskriv</string>
+    <string name="dialog_msg_overwrite_backup">Lokal sikkerhedskopi er forskellig fra den i Mi Cloud. Hvis du fortsætter, vil den nuværende sikkerhedskopi overskrive den forrige.</string>
     <string name="cloud_backup">Mi Cloud sikkerhedskopieringer</string>
     <string name="open_backup_switch">Tryk på sikkerhedskopieringsknappen</string>
     <string name="restore_cloud_backup_to_phone">Gendan elementer fra Mi Cloud</string>
@@ -176,4 +184,6 @@
     <string name="msg_alert_restore_error">Kunne ikke gendanne elementer fra Mi Cloud. Prøv igen.</string>
     <string name="btn_restore_retry">Prøv igen</string>
     <string name="btn_restore_abort">Annuller</string>
+    <string name="backup_stopped_title">Sikkerhedskopiering sat på pause</string>
+    <string name="backup_stopped_msg">Nuværende sikkerhedskopi vil overskrive den forrige. Tryk for at se.</string>
 </resources>

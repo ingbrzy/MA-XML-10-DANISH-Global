@@ -203,7 +203,7 @@
     <string name="tap_to_exposure">Tryk for at justere eksponering manuelt</string>
     <string name="accessibility_shutter_button">Lukkerknap</string>
     <string name="accessibility_intent_done_apply">Færdig</string>
-    <string name="accessibility_intent_done_retry">Tag igen</string>
+    <string name="accessibility_intent_done_retry">Prøv igen</string>
     <string name="accessibility_review_thumbnail">Nyeste foto</string>
     <string name="accessibility_camera_picker">Front- og bagsidekontakt på kamera</string>
     <string name="accessibility_stereo_button">Justering af fokus</string>
@@ -261,13 +261,12 @@
     <string name="pref_camera_referenceline_title">Vis gitterlinjer</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volumen</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Lukker</string>
+    <string name="pref_camera_volumekey_function_entry_timer">Lukkernedtælling</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Zoom</string>
-    <string name="pref_camera_volumekey_function_entry_exposure">Eksponering</string>
     <string name="pref_camera_volumekey_function_title">Volumenknapfunktioner</string>
     <string name="error_fail_to_start_audio_capture">Kunne ikke starte lydudløser.</string>
     <string name="toast_start_audio_capture">Lav en lyd for at tage et billede</string>
     <string name="record_back_pressed_hint">Berør igen for at stoppe optagelse</string>
-    <string name="toast_burst_snap_finished_summary">Burst shot færdig. Der blev taget %1$s fotos.</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">Kan ikke burst shoote, mens lydudløser er tændt.</string>
     <string name="time_lapse_error">Kan ikke bruge denne videostørrelse til tidsforsinket optagelse.</string>
     <string name="pref_camera_movie_solid_title">Billedstabilisering</string>
@@ -430,11 +429,12 @@
     <string name="pref_camera_portrait_mode_entry_off">Portrættilstand er slukket.</string>
     <string name="pref_camera_portrait_mode_entry_on">Portrættilstand er tændt.</string>
     <string name="portrait_mode_lowlight_hint">Det er for mørkt nu.</string>
-    <string name="portrait_mode_too_close_hint">Gå længere væk fra objektet.</string>
+    <string name="portrait_mode_too_close_hint">Gå længere væk fra objektet</string>
     <string name="portrait_mode_too_far_hint">Placer objektet inden for 2 meters afstand</string>
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portræt slører baggrunden
 og fremhæver folk tæt på."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrættilstand.
 Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
@@ -451,6 +451,7 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Tilstande</string>
     <string name="button_front_camera_title">Tag en selfie</string>
     <string name="button_normal_video_title">Optag video</string>
@@ -569,5 +570,5 @@ i Portrættilstand"</string>
     <string name="portrait_bokeh_text">Portrættilstand</string>
     <string name="portrait_bokeh_first_tips">"Brug portrættilstand til at sløre
 baggrunden på dine fotos"</string>
-    <string name="portrait_bokeh_tips">Anbring objekt inden for 1,5 meter</string>
+    <string name="portrait_bokeh_tips">Placer objektet inden for 1,5 meters afstand</string>
 </resources>
