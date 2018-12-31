@@ -56,6 +56,10 @@
         <item quantity="other">Genoptag sikkerhedskopiering om %d timer</item>
         <item quantity="one">Genoptag sikkerhedskopiering om %d time</item>
     </plurals>
+    <plurals name="backup_file_over_size_title">
+        <item quantity="other">%d elementer er for store til at sikkerhedskopiere</item>
+        <item quantity="one">%d element er for stort til at sikkerhedskopiere</item>
+    </plurals>
     <plurals name="backup_pause_desc">
         <item quantity="other">%d fotos og videoer | Sat på pause</item>
         <item quantity="one">%d foto og video | Sat på pause</item>
@@ -260,16 +264,12 @@
         <item quantity="other">Har ikke sikkerhedskopieret %d fotos og videoer</item>
         <item quantity="one">Har ikke sikkerhedskopieret %d foto og video</item>
     </plurals>
-    <plurals name="sync_total_count">
-        <item quantity="other">%d elementer</item>
-        <item quantity="one">%d element</item>
-    </plurals>
-    <plurals name="backup_file_over_size_title">
-        <item quantity="other">%d elementer er for store til at sikkerhedskopiere</item>
-        <item quantity="one">%d element er for stort til at sikkerhedskopiere</item>
-    </plurals>
     <plurals name="sync_oversized_count">
         <item quantity="other">%d elementer er for store til at sikkerhedskopiere</item>
         <item quantity="one">%d element er for stort til at sikkerhedskopiere</item>
+    </plurals>
+    <plurals name="sync_total_count">
+        <item quantity="other">%d elementer</item>
+        <item quantity="one">%d element</item>
     </plurals>
 </resources>

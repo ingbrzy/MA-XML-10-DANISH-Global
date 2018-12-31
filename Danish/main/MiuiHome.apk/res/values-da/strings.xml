@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Tilføj til arbejdsområde</string>
     <string name="activity_not_found">Appen er ikke installeret på din enhed</string>
     <string name="add_screen">Tilføj skærm</string>
@@ -152,6 +153,7 @@
     <string name="gadget_clock_24_label">Ur 4x2</string>
     <string name="gadget_clock_34_label">Ur 4x3</string>
     <string name="gadget_clock_label">Ur</string>
+    <string name="gadget_dual_clock_label">Dobbelt ur</string>
     <string name="gadget_error_text">Kan ikke indlæse widget</string>
     <string name="gadget_google_search_label">Google søgning</string>
     <string name="gadget_load_error">Indlæser…</string>
@@ -277,11 +279,14 @@
     <string name="recommend_apk_size_and_desc">%1$d MB | %2$s</string>
     <string name="recommend_apps_default_title">Tom</string>
     <string name="recommend_apps_no_data">Ingen data</string>
+    <string name="recommend_apps_no_data_toast">Ingen anbefalinger lige nu.</string>
     <string name="recommend_apps_notice">Reklamerede apps</string>
     <string name="recommend_apps_notice_nodata">Reklamerede apps (ingen data)</string>
     <string name="recommend_apps_switch_title">Reklamerede apps</string>
     <string name="recommend_apps_tips">Denne funktion kræver tilslutning til nettet for at fungere normalt. For at slukke denne funktion, skal du trykke på denne mappes navn.</string>
     <string name="recommend_loading">Indlæser</string>
+    <string name="recommend_refresh">Opdater</string>
+    <string name="recommend_xout">Vis ikke</string>
     <string name="reset_description_first_time">Du kan gendanne layoutet fra %1$s indenfor to timer</string>
     <string name="reset_description_others">Du kan gendanne layoutet fra %1$s</string>
     <string name="reset_fail">Kunne ikke gendanne</string>
@@ -347,7 +352,4 @@
     <string name="widget_gadget_player">Musik</string>
     <string name="widget_global_search">Søg</string>
     <string name="widget_quick_function">Hurtigfunktioner</string>
-    <string name="recommend_apps_no_data_toast">Ingen anbefalinger lige nu.</string>
-    <string name="recommend_refresh">Opdater</string>
-    <string name="recommend_xout">Vis ikke</string>
 </resources>

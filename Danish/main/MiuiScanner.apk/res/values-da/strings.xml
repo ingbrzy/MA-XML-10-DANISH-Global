@@ -69,7 +69,7 @@
     <string name="got_it">Forstået</string>
     <string name="gps">Naviger</string>
     <string name="import_contact">Importér kontaktperson</string>
-    <string name="impunity_declaration_content">Scanneren kræver tilladelser til at få adgang til dit kamera og tage billeder. Scanneren skal også oprette forbindelse til internettet for at fungere normalt. Du forventes at have læst og accepteret vores %1$sFortrolighedspolitik%2$s, når du trykker på \"Jeg accepterer\" nedenfor.</string>
+    <string name="impunity_declaration_content">Scanneren kræver tilladelser til at få adgang til dit kamera og tage billeder. Scanneren skal også oprette forbindelse til internettet for at fungere normalt. Du forventes at have læst og accepteret vores %1$sFortrolighedspolitik%2$s, når du trykker på \"Jeg accepterer\" herunder.</string>
     <string name="impunity_declaration_negative_text">Afslut</string>
     <string name="impunity_declaration_title">Fortrolighedspolitik</string>
     <string name="label_choose_picture">Vælg billede</string>
@@ -92,6 +92,7 @@
     <string name="module_title_business_card">Visitkort</string>
     <string name="module_title_code">QR-kode</string>
     <string name="module_title_document">Dokument</string>
+    <string name="module_title_plant">Plante</string>
     <string name="module_title_shopping">Shopping</string>
     <string name="module_title_translation">Oversæt</string>
     <string name="name">Navn:</string>
@@ -106,6 +107,11 @@
     <string name="payment_text">Åbn med %s</string>
     <string name="phone">Telefon:</string>
     <string name="place_barcode_into_rectangle">Anbring koden indeni rammen</string>
+    <string name="plant_fail">Kunne ikke genkende</string>
+    <string name="plant_loading">Identificerer…</string>
+    <string name="plant_reg_fail_2">Kunne ikke genkende dette objekt. Scanner kan kun identificere planter.</string>
+    <string name="plant_support">" (teknisk support)"</string>
+    <string name="plant_title">Vælg den plante, du vil identificere</string>
     <string name="preparing_sd">Forbereder intern hukommelse…</string>
     <string name="previous">Tilbage</string>
     <string name="qr_code_details">QR-kode oplysninger</string>

@@ -13,8 +13,8 @@
         <item quantity="one">%d beskeder er ikke blevet synkroniseret</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Slet %1$d valgte samtaler?</item>
-        <item quantity="one">Slet %1$d valgt samtale?</item>
+        <item quantity="other">Slet &lt;g example="15" id="number">%1$s&lt;/g> valgte samtaler?</item>
+        <item quantity="one">Slet denne samtale?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d valgt</item>

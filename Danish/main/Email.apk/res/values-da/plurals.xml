@@ -17,8 +17,8 @@
         <item quantity="one">Slet denne samtale?</item>
     </plurals>
     <plurals name="confirm_delete_conversation_with_sub">
-        <item quantity="other">Disse samtaler indeholder sammenflettede genstande. Slet alligevel?</item>
-        <item quantity="one">Denne samtale indeholder sammenflettede genstande. Slet alligevel?</item>
+        <item quantity="other">Disse samtaler indeholder flettede emner. Slet alligevel?</item>
+        <item quantity="one">Denne samtale indeholder flettede emner. Slet alligevel?</item>
     </plurals>
     <plurals name="confirm_delete_draft">
         <item quantity="other">Slet %1$d udkast?</item>
@@ -45,7 +45,7 @@
         <item quantity="one">+%1$d anden person</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">&lt;b>%1$d&lt;/b> gjort tavs</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> gjort tavse</item>
         <item quantity="one">&lt;b>%1$d&lt;/b> gjort tavs.</item>
     </plurals>
     <plurals name="conversation_not_important">

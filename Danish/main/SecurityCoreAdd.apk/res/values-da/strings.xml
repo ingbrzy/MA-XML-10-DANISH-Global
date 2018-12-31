@@ -341,7 +341,7 @@ for at åbne Andet rum fra låseskærm"</string>
     <string name="gpg_message">Oprettelse af dobbelte apps til spil kræver, at der arbejdes med Google Play Games. Opret en dobbelt app til Google Play Games?</string>
     <string name="gpg_title">Dobbelt app til Google Play-spil</string>
     <string name="gms_message">Oprettelse af dobbelte apps til spil kræver, at der arbejdes med Google-tjenester. Opret en dobbelt app til Google-tjenester?</string>
-    <string name="gms_title">Slå Google-tjenester til</string>
+    <string name="gms_title">Dobbelt app til Google-tjenester</string>
     <string name="gms_open_button">Slå til</string>
     <string name="create_second_space">Er nu oprettet</string>
     <string name="set_space_password">Indstil kodeord</string>
@@ -457,4 +457,8 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="dialog_undo_negative">Tilbagekald ikke</string>
     <string name="dialog_title_service_error">Serverfejl</string>
     <string name="dialog_message_service_error">Kunne ikke tilbagekalde tilladelse og udføre en fabriksnulstilling. Prøv igen.​</string>
+    <string name="dialog_verify">Verificer dit fingeraftryk</string>
+    <string name="dialog_verify_fingerprint_retry">Kunne ikke verificere fingeraftryk. Prøv igen.</string>
+    <string name="button_touch">Placer din finger på sensoren</string>
+    <string name="button_input_password">Indtast adgangskode</string>
 </resources>

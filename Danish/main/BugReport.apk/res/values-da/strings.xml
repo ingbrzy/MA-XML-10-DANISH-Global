@@ -56,6 +56,7 @@
     <string name="save_pic_success">Gemt billede på %s</string>
     <string name="save_pic_fail">Kunne ikke gemme billede, kontroller dit SD-kort</string>
     <string name="pic_not_exist">Billedet findes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Vælg produkt</string>
     <string name="michat_skillset_business_type_title">Vælg service</string>
     <string name="michat_close_text">Chat afsluttet</string>
@@ -215,8 +216,10 @@
     <string name="feedback_select_suggestion">Forslag</string>
     <string name="feedback_select_problem">Problemer</string>
     <string name="feedback_choose_module">Vælg element</string>
+    <string name="feedback_choose_app_tag">Vælg et problem</string>
     <string name="feedback_choose_third_app_name">Vælg app-navn</string>
     <string name="toast_module_required">Vælg element</string>
+    <string name="toast_app_tag_required">Vælg et problem</string>
     <string name="feedback_choose_module_hint">Påkrævet</string>
     <string name="feedback_choose_reproductivity">Reproduktivitet</string>
     <string name="feedback_title_reproductivity">Vælg reproduktivitet</string>
@@ -327,6 +330,7 @@
     <string name="toast_log_too_large">Kan ikke uploade. Logfilen er for stor.</string>
     <string name="title_customer_service">Kundeservice</string>
     <string name="title_first_aid">Førstehjælp</string>
+    <string name="title_user_guide">Brugervejledning</string>
     <string name="customer_service_apply">Anmod om kundeservice</string>
     <string name="customer_service_complain">Anmeld kundeservice</string>
     <string name="customer_service_station">Serviceplaceringer</string>
@@ -340,12 +344,11 @@
     <string name="catch_full_log_item_title_sensor">Sensorer</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Langsom</string>
-    <string name="catch_full_log_item_content_need_open">"Steps:
-1. Tryk på \"Generer logfil\".
-2. Gå tilbage til den funktion du ønsker at rapportere og gendan den.
+    <string name="catch_full_log_item_content_title">Trin:</string>
+    <string name="catch_full_log_item_content_need_open">"1. Tryk på \"Generer logfil\".
+2. Gå tilbage til den funktion, du ønsker at rapportere, og gendan den.
 3. Kom tilbage til denne side og tryk på \"Afslut og upload\"."</string>
-    <string name="catch_full_log_item_content_catch_direct">"Steps:
-1. Gå tilbage til den funktion du ønsker at rapportere og gendan den.
+    <string name="catch_full_log_item_content_catch_direct">"1. Gå tilbage til den funktion, du ønsker at rapportere, og gendan den.
 2. Kom tilbage til denne side og tryk på \"Afslut og upload\"."</string>
     <string name="catch_full_log_action_start">Generer logfil</string>
     <string name="catch_full_log_action_complete">Afslut og upload</string>

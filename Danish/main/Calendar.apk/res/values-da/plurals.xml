@@ -9,8 +9,8 @@
         <item quantity="one">Om %1$d dage kl. %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d days before at %2$s</item>
-        <item quantity="one">Om %1$d dage kl. %2$s</item>
+        <item quantity="other">%1$d dage forinden kl. %2$s</item>
+        <item quantity="one">%1$d dag forinden kl. %2$s</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="other">%d timer før</item>

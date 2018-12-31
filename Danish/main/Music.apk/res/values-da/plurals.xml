@@ -82,6 +82,14 @@ Bemærk: Filen vil blive slettet også fra denne enhed."</item>
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
     </plurals>
+    <plurals name="notif_title_multiple_downloading">
+        <item quantity="other">Downloader %1$d filer</item>
+        <item quantity="one">Downloader %1$d fil</item>
+    </plurals>
+    <plurals name="notification_download_failed_more">
+        <item quantity="other">Kunne ikke downloade %1$d filer</item>
+        <item quantity="one">Kunne ikke downloade %1$d fil</item>
+    </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d følgere</item>
         <item quantity="one">%d følger</item>

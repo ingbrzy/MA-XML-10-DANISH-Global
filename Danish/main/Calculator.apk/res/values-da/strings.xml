@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Acceptér</string>
     <string name="app_name">Lommeregner</string>
     <string name="app_name_danfa">Mi-lommeregner</string>
     <string name="base_rate">Basisrente</string>
@@ -41,6 +42,12 @@
     <string name="description_content">Udover grundfunktioner fungerer Lommeregner også som en omregner med flere funktioner samt skatteberegner. Vær sikker på at du ikke har brug for disse, inden du afinstallerer appen.</string>
     <string name="description_title">Om lommeregner</string>
     <string name="devided_by_zero_reminder_message">Kan ikke dividere med nul</string>
+    <string name="dialog_privacy_content">Udover en regnemaskines grundlæggende funktioner indeholder vores app også en videnskabelig regnemaskine og en omregner til forskellige formål. Nogle funktioner kræver forbindelse til internettet for at virke normalt. Du skal læse og acceptere vores %1$s og %2$s før du bruger Calculator.</string>
+    <string name="dialog_privacy_title">Vilkår og betingelser</string>
+    <string name="dialog_rating_desc_ask">How do you feel about Calculator?</string>
+    <string name="dialog_rating_desc_less">Could you give us your feedback as well?</string>
+    <string name="dialog_rating_desc_perfect">Nice! Rate Calculator in App Store as well?</string>
+    <string name="dialog_rating_title">Rate our app</string>
     <string name="digit0">0</string>
     <string name="digit1">1</string>
     <string name="digit2">2</string>
@@ -58,6 +65,7 @@
     <string name="equalDesc">er lig med</string>
     <string name="error">Fejl</string>
     <string name="error_fomrat">Formatfejl</string>
+    <string name="exit">Luk</string>
     <string name="factorialDesc">faktoriel</string>
     <string name="fund" />
     <string name="fund_loan">Finansier lån</string>
@@ -103,6 +111,11 @@
     <string name="lgDesc">logaritme</string>
     <string name="ln">ln</string>
     <string name="lnDesc">naturlig logaritme</string>
+    <string name="loading_fail_message_no_network">Kunne ikke tilslutte til netværket. Tryk her for at prøve igen.</string>
+    <string name="loading_fail_refresh">Opdatér</string>
+    <string name="loading_message">Loader app…</string>
+    <string name="loading_slogan">Brug apps uden at installere dem</string>
+    <string name="loading_tips">Downloadet indstillinger med succes. Start lommeregner igen for at anvende.</string>
     <string name="loan_edittext_hint_commercial">Indtast beløb</string>
     <string name="loan_edittext_hint_commercial_combined">Kommerciel (×10K)</string>
     <string name="loan_edittext_hint_fund">Indtast beløb</string>
@@ -157,6 +170,7 @@
     <string name="network_confirm_content">Valutaomregner, skatte- og panteberegnere skal være forbundet til internettet og have adgang til placeringsservice, for at kunne virke normalt.</string>
     <string name="network_confirm_title">Kræver tilladelser</string>
     <string name="not_supported_due_to_language">Denne funktion er kun tilgængelig for det kinesiske sprog</string>
+    <string name="ok">OK</string>
     <string name="percent" />
     <string name="percentDesc">procent</string>
     <string name="piDesc">pi</string>
@@ -175,11 +189,14 @@
     <string name="preference_follow_web_title">Officielt websted</string>
     <string name="preference_follow_wechat_title">WeChat</string>
     <string name="preference_follow_weibo_title">Sina Weibo</string>
+    <string name="preference_help">Help &amp; feedback</string>
     <string name="preference_other">Andet</string>
     <string name="preference_privacy_title">Fortrolighedspolitik</string>
+    <string name="preference_rating_title">Rate our app</string>
     <string name="preference_settings">Indstillinger</string>
     <string name="preference_use_degress_summary">Erstat radianer med vinkler i trigonometriske funktioner</string>
     <string name="preference_use_degress_title">Anvend vinkler</string>
+    <string name="privacy_policy">Fortrolighedspolitik</string>
     <string name="radDesc">Radian</string>
     <string name="rate_data_provider">Rentesatser leveret af hexun.com</string>
     <string name="reciprocalDesc">Reciprok</string>
@@ -237,6 +254,7 @@
     <string name="tax_location">Placering</string>
     <string name="tax_medical">Medicinsk</string>
     <string name="tax_param_error">Indtast korrekte forsikringssatser</string>
+    <string name="tax_rate_provider">Data leveret af hexun.com og East Money</string>
     <string name="tax_result_real_get">Efter skat</string>
     <string name="tax_social_insurance">Understøttelse</string>
     <string name="tax_thershold_foreign">%s (fra udlandet)</string>
@@ -250,6 +268,7 @@
     <string name="tax_unemployment">Arbejdsløshed</string>
     <string name="tax_update_time_format">Data leveret af HeXun (%s)</string>
     <string name="times" />
+    <string name="unKnow_error">Ukendt fejl</string>
     <string name="unit_data_display_area_acre">Hektar</string>
     <string name="unit_data_display_area_are">Ar</string>
     <string name="unit_data_display_area_ha">Hektar</string>
@@ -529,6 +548,7 @@
     <string name="unit_year">Å</string>
     <string name="unit_year_format">År %s</string>
     <string name="unit_yuan">CNY</string>
+    <string name="user_agreement">Brugeraftale</string>
     <string name="voiceDesc">Stemmestyring</string>
     <string name="wf_word_figure">Finansielle tegn</string>
     <string name="word_figure_big_unit_fen">分</string>
@@ -552,8 +572,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
-    <string name="xiaomi_connect_download_manager_fail">Tilslutnings af Download Manager mislykkedes. Kontrollér Download Managers tilstand i Application Management.</string>
-    <string name="xiaomi_external_storage_unavailable">Lager utilgængeligt. Kontrollér SD-kortet.</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
+    <string name="xiaomi_connect_download_manager_fail">Kunne ikke forbinde til Downloads. Kontrollér, om denne app har alle de nødvendige tilladelser i indstillingerne > installeret apps.</string>
+    <string name="xiaomi_external_storage_unavailable">Lager er ikke tilgængeligt. Kontrollér dit SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
