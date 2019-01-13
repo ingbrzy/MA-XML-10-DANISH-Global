@@ -85,7 +85,7 @@
     <string name="can_not_modify_allday_event">Kan ikke ændre heldagsevent.</string>
     <string name="can_not_modify_event">Kan ikke ændre eventen.</string>
     <string name="can_not_modify_repeating_acrossing_days_event">Kan ikke ændre flerdagsevent.</string>
-    <string name="cancel_reminder">Cancel Reminder</string>
+    <string name="cancel_reminder">Annuller påmindelse</string>
     <string name="card_detail_dialog_message">%1$s vil opdatere hver dag. Abonner for at modtage daglige opdateringer.</string>
     <string name="card_detail_dialog_negative">Abonner senere</string>
     <string name="card_detail_dialog_positive">Abonner nu</string>
@@ -205,7 +205,7 @@
     <string name="fb_calendar_owner_account">Mi-kalender</string>
     <string name="festival_detail_title">Festival</string>
     <string name="file_exception">Der opstod en fejl</string>
-    <string name="fixtures">Fixtures</string>
+    <string name="fixtures">Sportskampe</string>
     <string name="force_touch_title_add_new_event">Tilføj begivenhed</string>
     <string name="from_google_group_calendar">Google-kalender</string>
     <string name="gadget_no_events">Ingen forestående kalenderevents</string>
@@ -215,7 +215,7 @@
     <string name="global_football_final">FINALE</string>
     <string name="global_football_no_match">Der er ikke planlagt nogen fodboldkampe for i dag.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
-    <string name="guide_card_close">Close</string>
+    <string name="guide_card_close">Luk</string>
     <string name="guide_card_import">Importér</string>
     <string name="guide_card_primary_fb_text">Facebook-venners fødselsdage</string>
     <string name="guide_card_primary_text">Importér dine venners fødselsdage</string>
@@ -278,7 +278,7 @@
     <string name="new_event_description">Ny</string>
     <string name="new_event_dialog_label">Nyt event</string>
     <string name="new_event_dialog_option">Nyt event</string>
-    <string name="news">News</string>
+    <string name="news">Nyheder</string>
     <string name="no_contact_birthday_hint">Ingen fødselsdag at importere.</string>
     <string name="no_events_hint">Ingen events</string>
     <string name="no_internet">Kunne ikke oprette forbindelse til internettet</string>
@@ -373,7 +373,7 @@
     <string name="search_calendar_settings">Kalender;Agenda;Påmindelse</string>
     <string name="select_date">Hop til dato</string>
     <string name="select_synced_calendars_title">Kalendere at synkronisere</string>
-    <string name="set_reminder">Set Reminder</string>
+    <string name="set_reminder">Indstil påmindelse</string>
     <string name="setting_about_calendar_version">Kalendar-version:</string>
     <string name="setting_about_imei">IMEI:</string>
     <string name="setting_about_miui_version">MIUI-version:</string>
@@ -413,7 +413,7 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="tab_title_month">Måned</string>
     <string name="tab_title_week">Uge</string>
     <string name="talk_back_read_date">%1$s (%2$s efter månekalenderen).</string>
-    <string name="talk_back_setting">Settings</string>
+    <string name="talk_back_setting">Indstillinger</string>
     <string name="template_announce_item_index">Event %1$s af %2$s.</string>
     <string name="template_week_num">Uge %1$s</string>
     <string name="time_zone">Tidszone</string>
@@ -455,7 +455,7 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="user_notice_button_ok">OK</string>
     <string name="user_notice_message">Ved at bruge dette produkt accepterer du Xiaomis %1$s og %2$s. Nogle funktioner kræver internetadgang, adgang til placering, kontakter og SMS for at fungere normalt.</string>
     <string name="user_notice_title">Bemærk</string>
-    <string name="view_details">View Details</string>
+    <string name="view_details">Se oplysninger</string>
     <string name="view_event_calendar_label">Kalender:</string>
     <string name="view_event_organizer_label">Arrangør:</string>
     <string name="view_event_response_label">Deltager?</string>

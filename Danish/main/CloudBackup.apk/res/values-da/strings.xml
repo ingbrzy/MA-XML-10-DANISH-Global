@@ -27,9 +27,9 @@
     <string name="cloud_back_up_frequence_choice_title">Tidsplan for sikkerhedskopiering</string>
     <string name="cloud_back_up_frequence_long">Hver 7. dag</string>
     <string name="cloud_back_up_frequence_short">Hver dag</string>
-    <string name="cloud_back_up_share_activity_title">Opgrader Mi-konto</string>
-    <string name="cloud_back_up_share_activity_discription">Få mere lagerplads, daglige sikkerhedskopieringer og mere.</string>
-    <string name="cloud_back_up_share_activity_confirm">Opgrader</string>
+    <string name="cloud_back_up_subscribe_vip_title">Upgrade Mi Account</string>
+    <string name="cloud_back_up_subscribe_vip_discription">Get more storage space, daily backups, and more.</string>
+    <string name="cloud_back_up_subscribe_vip_confirm">Upgrade</string>
     <string name="cloud_back_up_detail_discription">"Disse elementer vil blive sikkerhedskopieret til Mi Cloud, når din enhed er tilsluttet til Wi-Fi: 
 *  Apps, startskærmslayout og baggrunde 
 *  Alarm-, ur- og tidsindstillinger 
@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Denne telefons Second space</string>
     <string name="other_device_main_space">First space</string>
     <string name="other_device_second_space">Second space</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
     <string name="size_unknown">Ukendt størrelse</string>
     <string name="recovering">Gendanner %s</string>
@@ -59,6 +61,7 @@
     <string name="backing_up_to_micloud">Sikkerhedskopierer…</string>
     <string name="restore_from_cloud">Gendan fra Mi Cloud-sikkerhedskopi</string>
     <string name="backup_to_cloud">Sikkerhedskopier app</string>
+    <string name="restoring_file_title_no_progress">Gendanner filer…</string>
     <string name="menu_item_sort">Sorter efter</string>
     <string name="menu_item_sort_name">Navn</string>
     <string name="menu_item_sort_size">Størrelse</string>
@@ -86,6 +89,8 @@
     <string name="recover_miui_settings">Gendan systemindstillinger</string>
     <string name="wait_icon_download">Downloader appikoner</string>
     <string name="download_settings_fail">Kunne ikke downloade indstillinger for startskærm</string>
+    <string name="restore_init_description">Begynd gendannelse</string>
+    <string name="restore_finish_description">Gendannelse fuldført</string>
     <string name="backup_fail_wifi_needed">Kunne ikke sikkerhedskopiere, da der kræves Wi-Fi.</string>
     <string name="backup_success">Sikkerhedskopiering fuldført</string>
     <string name="cloud_task_in_process">Stop %s og slet denne sikkerhedskopi? Du kan ikke fortryde denne handling.</string>
@@ -131,6 +136,7 @@
     <string name="provision_error_connect_msg">Test netværket og prøv igen. Sikkerhedskopier er ikke tilgængelige, når din enhed er offline.</string>
     <string name="provision_error_connect_title">Kan ikke oprette forbindelse</string>
     <string name="loading_user_backup">Indlæser brugersikkerhedskopier…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Kunne ikke bekræfte konto.</string>
     <string name="no_account">Ikke logget på Mi-konto.</string>
@@ -173,6 +179,7 @@
     <string name="notification_channel_remind">Påmindelse</string>
     <string name="done_remove">Fjernet korrekt</string>
     <string name="doing_restore_home">Gendanner startskærm og indstillinger…</string>
+    <string name="restoring_settings">Gendanner indstillinger…</string>
     <string name="title_alert_cancel_restore">Stop gendannelse</string>
     <string name="msg_alert_cancel_restore">Gendanner elementer. Stop nu?</string>
     <string name="btn_restore_cancel">Annuller</string>
