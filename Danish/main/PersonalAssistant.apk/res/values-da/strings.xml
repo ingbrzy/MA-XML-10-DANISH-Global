@@ -296,7 +296,6 @@
     <string name="sms_happened">Færdig</string>
     <string name="stock_card_add">Tilføj virksomheder</string>
     <string name="stock_card_title">Aktier</string>
-    <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Farvetema</string>
     <string name="stock_list_empty_text">Du følger ikke nogen virksomheder.</string>
     <string name="stock_provider">Børsnyheder er leveret af Webull</string>
