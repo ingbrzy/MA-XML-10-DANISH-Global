@@ -51,6 +51,7 @@
     <string name="onscreen_note_calls_text">Note</string>
     <string name="call_record_wait_label">Venter</string>
     <string name="contacts_icon_label">Kontaktpersoner</string>
+    <string name="call_not_support_high_frequency_click">Tryk ikke på denne knap så ofte</string>
     <string name="conference_call_description" formatted="false">%s,%s osv. total %s</string>
     <string name="conference_call_single_description" formatted="false">%s osv. total %s</string>
     <string name="separate_from_conference">Adskil opkald</string>

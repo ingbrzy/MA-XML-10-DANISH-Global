@@ -4,6 +4,11 @@
         <item>Dreng</item>
         <item>Pige</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Flyt</item>
+        <item>Kopiér</item>
+        <item>@string/cancel</item>
+    </string-array>
     <string-array name="month">
         <item>Januar</item>
         <item>Februar</item>

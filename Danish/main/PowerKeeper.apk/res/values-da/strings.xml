@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">Når MIUI registrerer, at du sover, vil den lukke baggrunds-apps, begrænse Bluetooth, GPS, mobildata og Wi-Fi-forbrug og vil ikke lyse op med notifikationer på skærmen.</string>
     <string name="nonui_mode_config_title">Ikke-interaktiv tilstand</string>
     <string name="nonui_mode_config_description">Lys ikke skærmen op med notifikationer, slå LED-lys, fingeraftrykssensor og berøringskontroller fra for at spare batteri, når MIUI registrerer, at du ikke bruger enheden.</string>
-    <string name="power_center">Batteriforbrug</string>
+    <string name="power_center">Batterisparer</string>
     <string name="power_usage">Strømforbrug</string>
     <string name="power_mode">Strømindstillinger</string>
     <string name="performance_category">Præstation</string>
@@ -110,4 +110,8 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="extreme_add_white_list_summary">Tilføj op til 4 apps</string>
     <string name="adaptive_battery_title">Brug adaptivt batteri</string>
     <string name="adaptive_battery_summary">Begræns batteri for apps, som du ikke bruger ofte</string>
+    <string name="dark_mode">Mørk tilstand</string>
+    <string name="dark_mode_summary">Skift til paletten med mørke farver for at spare på batteriet</string>
+    <string name="open_dark_mode">Skift til mørk tilstand</string>
+    <string name="open_dark_mode_tip">I mørk tilstand vil nogle funktioner blive vist i dårlig kvalitet, men kvaliteten bliver gendannet, når du forlader mørk tilstand. Skift til mørk tilstand nu?</string>
 </resources>
