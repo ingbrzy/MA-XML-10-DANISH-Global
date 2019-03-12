@@ -249,6 +249,11 @@
     <string name="tax_credit_mortgage">Realkreditlån</string>
     <string name="tax_credit_personal_income_tax">Personlig indkomstskat</string>
     <string name="tax_credit_pretax_income">Indkomst før skat (CNY)</string>
+    <string name="tax_detail">Skatteoplysninger</string>
+    <string name="tax_detail_amount">Momsbeløb</string>
+    <string name="tax_detail_rate">Momsprocent</string>
+    <string name="tax_detail_take_off">Fradrag</string>
+    <string name="tax_detail_tax_payed">Betalt beløb</string>
     <string name="tax_edittext_hint" />
     <string name="tax_endowment">Pensionsfond</string>
     <string name="tax_fixed_salary_hint">Indtast din indkomst før skat</string>
@@ -263,11 +268,13 @@
     <string name="tax_individual_income_tax_result">Resultater</string>
     <string name="tax_injury">Skade</string>
     <string name="tax_insurance_and_fund">Forsikring</string>
+    <string name="tax_insurance_and_fund_detail">Forsikringsoplysninger</string>
     <string name="tax_last_salary_hint">Indtast din indkomst</string>
     <string name="tax_last_salary_number">Indtægt</string>
     <string name="tax_location">Placering</string>
     <string name="tax_medical">Medicinsk</string>
     <string name="tax_param_error">Indtast korrekte forsikringssatser</string>
+    <string name="tax_payment_period">Antal betalinger</string>
     <string name="tax_rate_provider">Beregnet efter de nye skatteregler. Data er leveret af hexun.com og East Money.</string>
     <string name="tax_result_real_get">Efter skat</string>
     <string name="tax_social_insurance">Understøttelse</string>
@@ -587,8 +594,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke forbinde til Downloads. Kontrollér, om denne app har alle de nødvendige tilladelser i indstillingerne > installeret apps.</string>
     <string name="xiaomi_external_storage_unavailable">Lager er ikke tilgængeligt. Kontrollér dit SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s

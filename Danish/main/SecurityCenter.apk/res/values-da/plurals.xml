@@ -244,6 +244,10 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="other">%d dage siden sidste kontrol</item>
         <item quantity="one">%d dag siden sidste kontrol</item>
     </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">%d risici fundet. Reparer nu</item>
+        <item quantity="one">%d risiko fundet. Reparer nu</item>
+    </plurals>
     <plurals name="hints_handle_item_text_risk_number">
         <item quantity="other">%d risici,</item>
         <item quantity="one">%d risiko,</item>
@@ -375,10 +379,6 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d apps er skjult</item>
         <item quantity="one">%d app er skjult</item>
-    </plurals>
-    <plurals name="first_aid_card_float_window_summary">
-        <item quantity="other">%d apps vises muligvis forkert. Begræns flydende notifikationer.</item>
-        <item quantity="one">%d app vises muligvis forkert. Begræns flydende notifikationer.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemer kræver optimering</item>

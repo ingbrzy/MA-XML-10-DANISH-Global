@@ -56,6 +56,8 @@
     <string name="no_sound">Sluk lyd</string>
     <string name="operation_delete">Slet</string>
     <string name="operation_send">Send</string>
+    <string name="permission_intro_microphone">For at optage lyd, når lydkilden er indstillet til mikrofon</string>
+    <string name="permission_intro_storage">For at gemme skærmoptagelser</string>
     <string name="quit_recording">Afslut Screen Recorder</string>
     <string name="recording_failure">Kunne ikke optage. Start forfra</string>
     <string name="recording_max_size">Optagelsen blev stoppet og gemt, fordi videofilen nåede sin størrelsesgrænse. Start optagelsen fra hvor du slap af, hvis du ikke er færdig endnu.</string>
@@ -72,6 +74,10 @@
     <string name="show_hard_key_summary">Vis systembeskeder, når du trykker på knapperne Home, Menu og Tilbage</string>
     <string name="show_screen_touch">Vis berøringsbevægelser</string>
     <string name="show_screen_touch_summary">Visualiser håndbevægelser ved hjælp af en hvid prik</string>
+    <string name="size_byte">B</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="size_kilobyte">KB</string>
+    <string name="size_megabyte">MB</string>
     <string name="sound_source">Lydkilde</string>
     <string name="sound_source_summary">Systemlyde eller mikrofon</string>
     <string name="sound_source_summary_without_system_sounds">Brug mikrofonen eller sluk for lyden</string>

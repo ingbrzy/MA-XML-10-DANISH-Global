@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="korea_permission_groups_descriptions">
+        <item>Til at identificere synkroniserede elementer</item>
+        <item>Til at synkronisere SMS-beskeder</item>
+        <item>Til at synkronisere kontakter</item>
+        <item>Til at synkronisere kalenderbegivenheder</item>
+        <item>Til at synkronisere elementer med tjenester, der bruger lager</item>
+    </string-array>
+    <string-array name="korea_permission_groups_names">
+        <item>Telefon</item>
+        <item>SMS</item>
+        <item>Kontakter</item>
+        <item>Kalender</item>
+        <item>Lager</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkroniser app-data</item>
         <item>Tag backup af startskærmslayout</item>

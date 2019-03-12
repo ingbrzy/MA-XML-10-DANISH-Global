@@ -56,12 +56,16 @@
         <item quantity="other">%d skjulte fotos er ikke synkroniseret. Log ud, efter at alle elementer er synkroniseret, for at beholde dem. Ellers vil elementerne blive slettet.</item>
         <item quantity="one">%d skjulte fotos er ikke synkroniseret. Log ud, efter at alle elementer er synkroniseret, for at beholde dem. Ellers vil elementerne blive slettet.</item>
     </plurals>
-    <plurals name="micloud_main_resume_sync_hour">
-        <item quantity="other">Genoptag synkronisering efter %d timer</item>
-        <item quantity="one">Genoptag synkronisering efter %d time</item>
+    <plurals name="micloud_manual_pause_and_resume">
+        <item quantity="other">Synkronisering er sat på pause. Genoptages om %d minutter…</item>
+        <item quantity="one">Synkronisering er sat på pause. Genoptages om %d minut…</item>
     </plurals>
-    <plurals name="micloud_main_resume_sync_min">
-        <item quantity="other">Genoptag synkronisering efter %d minutter</item>
-        <item quantity="one">Genoptag synkronisering efter %d minut</item>
+    <plurals name="last_sync_time_mins_ago">
+        <item quantity="other">%s min. siden</item>
+        <item quantity="one">%s min. siden</item>
+    </plurals>
+    <plurals name="last_sync_time_hours_ago">
+        <item quantity="other">%s timer siden</item>
+        <item quantity="one">%s time siden</item>
     </plurals>
 </resources>

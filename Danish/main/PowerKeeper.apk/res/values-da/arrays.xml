@@ -6,7 +6,7 @@
     </string-array>
     <string-array name="hmode_app_classify1">
         <item>Brugertilpasset</item>
-        <item>Batterisparer</item>
+        <item>MIUI-batterisparer</item>
     </string-array>
     <string-array name="hmode_app_classify2">
         <item>Aktive apps</item>
@@ -24,7 +24,7 @@
     <string-array name="thermal_summaries">
         <item>Prioriter temperaturkontrol</item>
         <item>Prioriter ydeevne</item>
-        <item>Virker ikke i Ekstrem-tilstand</item>
+        <item>Ikke understøttet af Extreme-batterisparer</item>
     </string-array>
     <string-array name="power_mode_entries">
         <item>Præstation</item>

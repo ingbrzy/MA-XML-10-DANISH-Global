@@ -175,6 +175,12 @@
     <string name="wifi_assistant_wifi_no_internet">Dette Wi-Fi-netværk har ikke adgang til internettet.</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Tryk for at se oplysninger</string>
     <string name="resolver_app_recommend_flag">Anbefalet</string>
+    <string name="resolver_checkbox_once">Én gang</string>
+    <string name="resolver_checkbox_always">Altid</string>
+    <string name="resolver_mi_browser">MI-browser</string>
+    <string name="resolver_recommend_options_tag">Anbefalede valgmuligheder</string>
+    <string name="resolver_offical_recommend">Officiel</string>
+    <string name="resolver_other_method">Andre valgmuligheder</string>
     <string name="voice_button_action_up">Tryk for at tale</string>
     <string name="voice_button_action_down">Slip for at søge</string>
     <string name="voice_begin">Hvad søger du?</string>

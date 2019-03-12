@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_up_description">Naviger op</string>
+    <string name="abc_action_menu_overflow_description">Flere muligheder</string>
+    <string name="abc_action_mode_done">Luk</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellemrum</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgslen</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgslen</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Tilføj alarm</string>
     <string name="add_clock">Tilføj ur</string>
     <string name="add_timezone_title">Tilføj tidszone</string>
-    <string name="alarm_alert_alert_silenced">Alarm silenced after %1$s.</string>
+    <string name="alarm_alert_alert_silenced">Alarm slukket efter %1$s.</string>
     <string name="alarm_ascending_mode_summary">Alarmlydstyrken stiger gradvis.</string>
     <string name="alarm_ascending_mode_title">Stigende lydstyrke</string>
     <string name="alarm_clock_more_setting">Yderligere indstillinger</string>
@@ -34,7 +63,7 @@
     <string name="channel_name_alarm">Alarm</string>
     <string name="channel_name_timer">Timer</string>
     <string name="check_theme_app_install">Sørg for, at Themes-appen er installeret på din enhed.</string>
-    <string name="check_voice_assist_app_version">Update Mi AI to its latest version.</string>
+    <string name="check_voice_assist_app_version">Opdater Mi Al til den seneste version.</string>
     <string name="close_alarm">Slå fra</string>
     <string name="common_settings">Indstillinger</string>
     <string name="confirm_abort">Afvis</string>
@@ -71,6 +100,12 @@
     <string name="invalid_time">Ugyldig tid: %3$s %1$d: %2$d</string>
     <string name="invalid_timer_length">Timerens varighed er ugyldig</string>
     <string name="keep_screen_on">Behold skærmen tændt.</string>
+    <string name="korea_permission_calendar">Kalender</string>
+    <string name="korea_permission_calendar_desc">For adgang til begivenhedsoplysninger og afsendelse af påmindelser</string>
+    <string name="korea_permission_phone">Telefon</string>
+    <string name="korea_permission_phone_desc">For adgang til enhedsstatus og slukke lyden for påmindelser under opkald</string>
+    <string name="korea_permission_storage">Lagring</string>
+    <string name="korea_permission_storage_desc">For at gemme alarmer</string>
     <string name="label">Indstil mærkat</string>
     <string name="label_pref_summary">Mærkat</string>
     <string name="lap">Overlap</string>
@@ -105,11 +140,13 @@
     <string name="menu_item_sort_by_gmt_offset">Sorter efter tid</string>
     <string name="menu_item_sort_by_name">Sortér efter navn</string>
     <string name="module_download_cancel">Nej tak</string>
-    <string name="module_download_data_msg">Clock needs to connect to the internet to download audio files for MIUI 10 weather alarms and ambient noise timers. 20MB of your mobile data will be required for this download. Agree?</string>
-    <string name="module_download_data_msg_golbal">Clock needs to download audio files for MIUI 10 weather alarms and ambient noise timers. 20MB of your mobile data will be required for this download. Agree?</string>
+    <string name="module_download_data_msg">Uret skal oprette forbindelse til internettet for at hente lydfiler for MIUI 10 vejralarmer og omgivende larm-timere. Til denne indlæsning skal der bruges 20MB af dine mobildata. Enig?</string>
+    <string name="module_download_data_msg_golbal">Uret skal hente lydfiler for MIUI 10 vejralarmer og omgivende larm-timere. Til denne indlæsning skal der bruges 20MB af dine mobildata. Enig?</string>
+    <string name="module_download_data_msg_replace">Der er opdateret lyd til smart-alarmer (≈20 MB). Opret forbindelse til netværket og download ved brug af mobildata?</string>
     <string name="module_download_fail">Kunne ikke downloade yderligere audio</string>
-    <string name="module_download_msg">Clock needs to connect to the internet to download audio files for MIUI 10 weather alarms and ambient noise timers. Agree?</string>
-    <string name="module_download_msg_golbal">Clock needs to download audio files for MIUI 10 weather alarms and ambient noise timers. Agree?</string>
+    <string name="module_download_msg">Uret skal oprette forbindelse til internettet for at hente lydfiler for MIUI 10 vejralarmer og omgivende larm-timere. Enig?</string>
+    <string name="module_download_msg_golbal">Uret skal downloade lydfiler for MIUI 10 vejralarmer og omgivende larm-timere. Enig?</string>
+    <string name="module_download_msg_replace">Der er opdateret lyd til smart-alarmer. Opret forbindelse til netværket og download nu?</string>
     <string name="module_download_no_network">Kunne ikke tilslutte til netværket. Kontrollér dine netværksindstillinger og prøv igen.</string>
     <string name="module_download_ok">Tillad</string>
     <string name="module_download_success">Downloadet yderligere audio</string>
@@ -148,6 +185,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmen vil aktivere, hvis den er sat til mindst 5 minutter, efter du slukker for din enhed</string>
     <string name="shutdown_alarm_title">Sluk for alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sluk én gang på %s</string>
     <string name="slider_text">Swipe op for at slukke</string>
     <string name="snooze_confirm_cancel">Afblæs alarm</string>
@@ -161,10 +199,12 @@
     <string name="snooze_duration_value_thirty">30</string>
     <string name="snooze_duration_value_twenty">20</string>
     <string name="snooze_duration_value_twenty_five">25</string>
+    <string name="star_wy_alarm_speech">Mød Roy Wang</string>
     <string name="start">Start</string>
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen overlap</string>
     <string name="stopwatch_title">Stopur</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Indstillinger</string>
     <string name="system_time_settings_category_title">Tidsindstillinger</string>
     <string name="temperature_unit">℃</string>
@@ -176,7 +216,7 @@
     <string name="timer_alarm_alert_pad">%s</string>
     <string name="timer_alarm_cancel_pad">Tryk på skærmen for at stoppe ringning</string>
     <string name="timer_alarm_dot_matrix_label">TIMER</string>
-    <string name="timer_alert_alert_silenced">Timer silenced after %1$s.</string>
+    <string name="timer_alert_alert_silenced">Timer slukket efter %1$s.</string>
     <string name="timer_alert_mute_off">Alarmen vil lyde, når timeren stopper</string>
     <string name="timer_alert_mute_on">Alarmen vil ikke lyde, når timeren stopper</string>
     <string name="timer_alert_mute_remind">Tryk for at slå alarmlyden fra</string>
@@ -230,6 +270,6 @@
     <string name="worldclock_world_time">Tidszoner</string>
     <string name="worldcolock_timezone_current">Nuværende: %1$s</string>
     <string name="worldcolock_timezone_date">dd MMM</string>
-    <string name="worldcolock_timezone_gap">%s H</string>
+    <string name="worldcolock_timezone_gap">%sB</string>
     <string name="worldcolock_timezone_local">Samme som lokal tid</string>
 </resources>

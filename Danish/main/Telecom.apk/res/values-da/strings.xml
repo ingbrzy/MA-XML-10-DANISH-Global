@@ -105,6 +105,7 @@
     <string name="accessibility_wifi_signal_full">Wi-Fi har fuldt signal.</string>
     <string name="accessibility_wifi_security_type_none">Åbent netværk</string>
     <string name="accessibility_wifi_security_type_secured">Sikkert netværk</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="data_usage_uninstalled_apps">Fjernede apps</string>
     <string name="data_usage_uninstalled_apps_users">Fjernede apps og brugere</string>
     <string name="tether_settings_title_usb">Netdeling via USB</string>
@@ -451,5 +452,5 @@ Advarsel! Alle dine data vil blive slettet.
     <string name="close">Slå fra</string>
     <string name="callFailed_simError">SIM-kortfejl</string>
     <string name="incall_error_supp_service_unknown">Denne tjeneste understøttes ikke.</string>
-    <string name="incall_error_power_off">Slå flytilstand fra for at foretage et opkald.</string>
+    <string name="incall_error_power_off">Slå flytilstand fra for at lave et opkald.</string>
 </resources>

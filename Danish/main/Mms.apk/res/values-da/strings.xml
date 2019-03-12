@@ -45,6 +45,10 @@
     <string name="audio_message_mx_offline">Kunne ikke downloade audio. Mi Message er offline eller utilgængelig.</string>
     <string name="audio_playing_seconds">%d\"</string>
     <string name="audio_sim_card_mismatching">Ingen netværksforbindelse eller forkert SIM-kort installeret. Installér SIM-kortet, hvorfra beskeden blev sendt, og tilslut til netværket.</string>
+    <string name="auto_identify_btn_text_only_smart_messaging">Slå Smart Messaging til</string>
+    <string name="auto_identify_btn_text_when_all_disabled">Identificer afsender automatisk</string>
+    <string name="auto_identify_btn_title">Denne meddelelse er sendt fra et ukendt nummer.</string>
+    <string name="auto_identify_confirmation">Det kan tage flere minutter at aktivere denne funktion.</string>
     <string name="back_to_message_list">Tilbage til beskedliste</string>
     <string name="batch_adding_progress_message">Tilføjer…</string>
     <string name="batch_deleting_message_progress_message">Sletter…</string>
@@ -153,7 +157,7 @@
     <string name="delete">Slet</string>
     <string name="delete_bookmark">Fjern fra favoritter</string>
     <string name="delete_message">Slet</string>
-    <string name="delete_phrase">Slet var</string>
+    <string name="delete_phrase">Slet svar</string>
     <string name="delete_unlocked">Slet låste beskeder</string>
     <string name="delete_wild_sims">Slet numre</string>
     <string name="delete_wild_sims_confirm">Alle beskederne, som tilhører valgte numre, vil blive slettet i denne telefon. Du kan gendanne dem i i.mi.com.</string>
@@ -186,7 +190,7 @@
     <string name="duration_zero">Varighed skal være større end 0 sekunder</string>
     <string name="earlier">Tidligere</string>
     <string name="edit">Redigér</string>
-    <string name="edit_phrase">Redigér kviksvar</string>
+    <string name="edit_phrase">Rediger hurtige svar</string>
     <string name="edit_slide_activity">Redigér dias</string>
     <string name="edit_slideshow_activity">Redigér diasshow</string>
     <string name="enabled">Tændt</string>
@@ -220,6 +224,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny besked</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_message_select_title">Viderend besked</string>
@@ -290,6 +295,7 @@
     <string name="menu_pick_from_contact">Vælg fra kontaktpersoner</string>
     <string name="menu_preferences">Indstillinger</string>
     <string name="menu_send_as_common">Send som SMS</string>
+    <string name="menu_traffic_destination">Destination</string>
     <string name="menu_unlock">Fjern fra favoritter</string>
     <string name="menu_view_contact">Se kontakt</string>
     <string name="message_class_label">"Beskedklasse: "</string>
@@ -388,6 +394,7 @@
     <string name="mx_stranger_recommend_msg">Tryk for at blokere Mi Messages fra ukendte numre</string>
     <string name="mx_type_guide">Send beskeder til andre MIUI-enheder uden omkostninger</string>
     <string name="need_download">Synkroniserer…</string>
+    <string name="net_sms_subscribed">Abonnement er tegnet</string>
     <string name="net_sms_unsubscribe">Opsagt abonnement med succes</string>
     <string name="network_error_description">Der opstod en netværksfejl. Vent et minut eller to og prøv igen.</string>
     <string name="networking_allow_continue">Tillad</string>
@@ -422,6 +429,7 @@
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">Nye beskeder</string>
     <string name="number_add_hint">Indtast telefonnummer</string>
+    <string name="number_recognition_partner">Udbydere af tjenester til afsender-ID-genkendelse</string>
     <string name="open_audio_record_panel">Åbn panelet for at optage audio</string>
     <string name="open_edit_sms_panel">Åbn panelet for at redigere beskeder</string>
     <string name="open_url_with_web">Åbn dette URL i browser?</string>
@@ -431,7 +439,7 @@
     <string name="phrase_confirm_delete_message">Dette svar vil blive slettet.</string>
     <string name="phrase_empty">Ingen svar</string>
     <string name="phrase_from">Fra %1s</string>
-    <string name="phrase_list_title">Kviksvar</string>
+    <string name="phrase_list_title">Hurtige svar</string>
     <string name="pick_too_many_recipients">For mange modtagere</string>
     <string name="play">Afspil</string>
     <string name="playing_failed">Kan ikke afspille</string>
@@ -661,6 +669,7 @@
     <string name="send_signature_confirm_dialog_title">Send besked</string>
     <string name="send_sms">Send besked</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt den: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Besked udløbet eller utilgængelig</string>
@@ -732,7 +741,7 @@
     <string name="storage_unavailable">Ingen plads tilgængelig</string>
     <string name="subject_hint">Emne</string>
     <string name="subject_label">"Emne: "</string>
-    <string name="subscribe">Subscribe</string>
+    <string name="subscribe">Abonner</string>
     <string name="summary_pref_cm_smart_sms">Kortskabeloner, SMS-servicenumre og meget mere.</string>
     <string name="switch_to_editor">Redigeringstilstand</string>
     <string name="switch_to_menu">Menutilstand</string>
@@ -759,6 +768,7 @@
     <string name="too_many_attachments">Kan ikke overstige %1$s vedhæftelser. Kun første %2$s vil blive tilføjet.</string>
     <string name="too_many_recipients">Beskeden har for mange modtagere (%1$s). Du kan ikke have mere end %2$s modtagere.</string>
     <string name="too_many_unsent_mms">Kan ikke sende besked lige nu. For mange usendte multimediebeskeder.</string>
+    <string name="train_edit_destination">Tilføj</string>
     <string name="try_to_send">Prøv at sende</string>
     <string name="type_attachment">vedhæftelse</string>
     <string name="type_audio">lyd</string>

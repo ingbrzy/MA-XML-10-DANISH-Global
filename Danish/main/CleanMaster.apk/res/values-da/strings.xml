@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Hukommelse</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerede apps: %d</string>
     <string name="toast_resolve_apk_error">Ret APK-fejl</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Downloader</string>
     <string name="installing">Installerer</string>
     <string name="start_install">Installer nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åbn i browser</string>
     <string name="title_share_link">Del URL</string>
     <string name="connecting">Opretter forbindelse…</string>
@@ -467,9 +469,9 @@
     <string name="file_not_found">Fil ikke fundet</string>
     <string name="app_usage_never">Ikke brugt for nylig</string>
     <string name="app_usage_recently">Brugt for nylig</string>
-    <string name="resutl_function_deep_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> filer mere kan fjernes. Frigør mere plads.</Data>" "</string>
-    <string name="resutl_function_wechat_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> af WeChat-cache. Frigør mere plads.</Data>" "</string>
-    <string name="resutl_function_qq_clean_summary">" "<Data>Du kan fjerne &lt;font color=#ff0000 >%1$s&lt;/font> af cache, der er genereret af QQ</Data>" "</string>
+    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> filer mere kan fjernes. Frigør mere plads.&lt;/Data></string>
+    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> af WeChat-cache. Frigør mere plads.&lt;/Data></string>
+    <string name="resutl_function_qq_clean_summary">&lt;Data>Du kan fjerne &lt;font color=#ff0000 >%1$s&lt;/font> af cache, der er genereret af QQ&lt;/Data></string>
     <string name="engine_tm">Tencent</string>
     <string name="engine_cm">Rens Master</string>
     <string name="app_description_title">Om Renser</string>
@@ -545,7 +547,6 @@
     <string name="onekeyclean_boost_available">%s tilgængelig</string>
     <string name="onekeyclean_card_summery">Ryd papirkurv for at frigøre plads</string>
     <string name="onekeyclean_card_btn">Rens nu</string>
-    <string name="memory_clean_icon_text">Ryd hukommelse</string>
     <string name="pref_title_create_onekeyclean_shortcut">Vis genvej til hjemmeskærm</string>
     <string name="memory_clean_no_trash_tip">Alt ser fint ud</string>
     <string name="toast_updater_open_4g_text">Apper opdateres vha. mobildata (4G)</string>
@@ -563,6 +564,6 @@
     <string name="facebook_clean_exit_confirm_msg">Er ikke færdig med at scanne Facebook endnu. Stop scanning nu?</string>
     <string name="facebook_clean_exit_confirm_cancel">Fortsæt scanning</string>
     <string name="facebook_clean_exit_confirm_ok">Stop</string>
-    <string name="one_tap_clean_M">%dM</string>
-    <string name="one_tap_clean_GB">%sG</string>
+    <string name="one_tap_clean_M">%d Mb</string>
+    <string name="one_tap_clean_GB">%s Gb</string>
 </resources>

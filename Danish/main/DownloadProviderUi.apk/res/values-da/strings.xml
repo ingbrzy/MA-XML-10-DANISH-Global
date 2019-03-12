@@ -151,6 +151,14 @@
     <string name="install">Installer</string>
     <string name="installing">Installerer…</string>
     <string name="insufficient_space">Ikke nok lagerplads</string>
+    <string name="korean_all_choose_item_title">Jeg accepterer alle vilkår og betingelser nedenfor.</string>
+    <string name="korean_permission_group_phone_describe">Gå til enhedens IMEI- og netværksstatus, indsaml oplysningerne om mislykkede downloads for at forbedre tjenesten</string>
+    <string name="korean_permission_group_phone_title">Telefon</string>
+    <string name="korean_privacy_btn_accept">Acceptér</string>
+    <string name="korean_privacy_btn_exit">Luk</string>
+    <string name="korean_privacy_item_title">Privacy Policy (mandatory)</string>
+    <string name="korean_privacy_tv_summary">Læs nøje alle de følgende elementer og vælg, om du vil acceptere dem.</string>
+    <string name="korean_user_agreement_item_title">User Agreement (mandatory)</string>
     <string name="load_finish_hint">Det er alt for nu.</string>
     <string name="loading">Et øjeblik…</string>
     <string name="media_filter">Medier</string>
@@ -162,6 +170,7 @@
     <string name="menu_title_resume_all">Start alt</string>
     <string name="menu_title_settings">Indstillinger</string>
     <string name="net_error">Tilslut til netværket og prøv igen</string>
+    <string name="new_file_notification_title_image">Billede</string>
     <string name="no_file_hint">Download-opgave for denne fil findes allerede</string>
     <string name="no_result_for_keyword">Kunne ikke finde \"%1$s\"</string>
     <string name="no_share_file">Kunne ikke dele denne fil</string>

@@ -15,6 +15,7 @@
     <string name="activity_find_city_dialog_cancel">Annuller</string>
     <string name="activity_find_city_dialog_message">Giv vejret adgang til din placering for at få nøjagtige oplysninger for stedet.</string>
     <string name="activity_find_city_dialog_message_global">Slå Placeringstjenester til og lad din enhed bestemme placeringen ved hjælp af trådløse netværk.</string>
+    <string name="activity_find_city_dialog_message_location_service">Giv Vejr adgang til din placering for at få relevante vejroplysninger.</string>
     <string name="activity_find_city_dialog_set">Indstillinger</string>
     <string name="activity_find_city_dialog_title">Placeringsadgang</string>
     <string name="activity_main_clickable">></string>
@@ -90,10 +91,12 @@
     <string name="daily_forecast_add_city_message">Følg vejret i %1$s for en mere detaljeret vejrudsigt.</string>
     <string name="daily_forecast_add_city_title">Følg vejret i %1$s</string>
     <string name="daily_forecast_detail_date">M/d</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunne ikke hente vejroplysninger
 Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="data_provided_by">Data delvist leveret af</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Opdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke oprette forbindelse til netværket</string>
     <string name="empty_view_refresh">Prøv igen</string>
@@ -112,6 +115,8 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="first_start_network_title">Adgangs til internetforbindelse og placering</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-timers prognose</string>
     <string name="hourly_forecast_title_hourly_desc">Prognose hver time</string>
@@ -127,9 +132,11 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="indices_title_feel">Ægte fornemmelse</string>
     <string name="indices_title_pressure">Tryk</string>
     <string name="install">Installer</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">TRYK</string>
     <string name="international_details_title">Oplysninger</string>
     <string name="international_details_uv_index_title">UV-INDEKS</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer til at regne</string>
     <string name="locate_fail_detail_err">"Kan ikke finde enheden
@@ -150,6 +157,7 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Træk ned for at opdatere</string>
     <string name="minute_rain_refreshing_now">Opdaterer…</string>
+    <string name="missing_required_permission">Du har deaktiveret en påkrævet tilladelse.</string>
     <string name="more_details">Flere oplysninger</string>
     <string name="network_not_available">Kan ikke oprette forbindelse til netværket</string>
     <string name="network_unavailable">Kan ikke oprette forbindelse til netværket.</string>
@@ -165,6 +173,14 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="particulate_matter_exceeded">Høj</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">For høj</string>
+    <string name="permission_device_info">Enhedsoplysninger</string>
+    <string name="permission_device_introduce">Til anerkendelse af enheds-ID baseret på enhedens model og IMEI, og til udbydelse af lokaliserede tjenester baseret på Indstillinger for sprog</string>
+    <string name="permission_exit">Luk</string>
+    <string name="permission_privacy">Fortrolighedspolitik (obligatorisk)</string>
+    <string name="permission_select_all">Vælg alt</string>
+    <string name="permission_storage">Lagring</string>
+    <string name="permission_storage_introduce">For at få adgang til elementer på enheden og lagring af filer</string>
+    <string name="permission_user_protocol">Brugeraftale (obligatorisk)</string>
     <string name="policy_settings">Vilkår og betingelser</string>
     <string name="precipitation_degree_five">Tung</string>
     <string name="precipitation_degree_four">Stærk</string>
@@ -204,6 +220,7 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI Vejr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke tage skærmbillede</string>
     <string name="some_where_on_earth">Et sted på jorden</string>
@@ -250,6 +267,8 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="view_indexes_item_today">I dag</string>
     <string name="view_indexes_item_tommorrow">I morgen</string>
     <string name="weather_alert_channel_name">Advarsler</string>
+    <string name="weather_introduce">Altid med dig i regn og solskin.</string>
+    <string name="weather_permission_agree">Accepter</string>
     <string name="weather_service_channel_name">Baggrundstjenester</string>
     <string name="wind_direction_no_data">Vind</string>
     <string name="wind_unit">%1$skm/t</string>

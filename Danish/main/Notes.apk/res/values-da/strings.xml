@@ -118,6 +118,7 @@
     <string name="menu_title_select_folder">Vælg mappe</string>
     <string name="menu_unhide">Synliggør</string>
     <string name="menu_unstick">Tag ned</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Ikke nu</string>
     <string name="note_description_content">Appen Noter er et godt værktøj til skrive dine ideer ned. Den har indbyggede påmindelser og synkroniserer dine elementer med Mi Cloud, så du kan få adgang til dem overalt, når som helst. Sørg for, at du kan undvære disse funktioner, inden du sletter appen.</string>
     <string name="note_description_title">Om Noter</string>
@@ -129,8 +130,13 @@
     <string name="note_sort_way">Vælg, hvordan du vil sortere dine noter</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Notepåmindelse</string>
     <string name="permdesc_accessNote">Ondsindede apps kan bruge dette til at gå ind på dine personlige data.</string>
+    <string name="permission_intro_contact">Til at markere noter taget under opkald</string>
+    <string name="permission_intro_microphone">Til optagelse af stemmenotater</string>
+    <string name="permission_intro_phone">Til at markere noter taget under opkald</string>
+    <string name="permission_intro_storage">Til at gemme noter og vedhæftede filer</string>
     <string name="permlab_accessNote">Gå ind på noter</string>
     <string name="pref_desc_skip_confirm_for_quick_delete">Bed ikke om bekræftelse, når en note slettes med en håndbevægelse</string>
     <string name="pref_title_cloud_trash_bin">Slettede noter i Mi Cloud</string>
@@ -213,6 +219,14 @@
     <string name="toast_reach_text_limit_truncate">Dette notat er for langt. Noget af teksten er blevet skåret af til sidst.</string>
     <string name="toast_refuse_to_record_when_in_call">Kan ikke bruge denne funktion under opkald</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Kan ikke bruge denne funktion med delt skærm</string>
+    <string name="toast_refuse_to_use_contact">"Kontakttilladelser er begrænsede.
+Tillad at Notes læser dine kontakter og finder konti på enheden."</string>
+    <string name="toast_refuse_to_use_external_storage">"Opbevaringstilladelser er begrænsede.
+Tillad at Notes læser indholdet af dit SD-kort."</string>
+    <string name="toast_refuse_to_use_phone_state">"Telefontilladelser er begrænsede.
+Tillad at Notes læser telefonstatus og -identitet."</string>
+    <string name="toast_refuse_to_use_record_audio">"Mikrofontilladelser er begrænsede.
+Tillad at Notes optager lyd."</string>
     <string name="toolbar_check_description">Tilføj afkrydsningsfelt</string>
     <string name="toolbar_delete_description">Slet dette notat</string>
     <string name="toolbar_gallery_description">Tilføj billede</string>

@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="activities_title">
+        <item>Mærkedag</item>
+        <item>Mindeværdig dag</item>
+        <item>Levende øjeblikke</item>
+    </string-array>
     <string-array name="baby_sexy">
         <item>Dreng</item>
         <item>Pige</item>
+    </string-array>
+    <string-array name="last_weekend_title">
+        <item>Mine weekender</item>
+        <item>Små stykker af livet</item>
+        <item>Weekendminder</item>
+    </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Flyt</item>
+        <item>Kopiér</item>
+        <item>@string/cancel</item>
     </string-array>
     <string-array name="month">
         <item>Januar</item>
@@ -26,6 +41,11 @@
         <item>Morfar</item>
         <item>Mormor</item>
     </string-array>
+    <string-array name="parties_title">
+        <item>Sammen</item>
+        <item>Gode tider</item>
+        <item>I harmoni</item>
+    </string-array>
     <string-array name="relation_with_me">
         <item>Mig</item>
         <item>Barn</item>
@@ -48,5 +68,9 @@
         <item>Farmor</item>
         <item>Morfar</item>
         <item>Mormor</item>
+    </string-array>
+    <string-array name="sports_title">
+        <item>Bevæge sig fremad</item>
+        <item>Fuld af energi</item>
     </string-array>
 </resources>

@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Naviger op</string>
+    <string name="abc_action_menu_overflow_description">Flere muligheder</string>
+    <string name="abc_action_mode_done">Luk</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgslen</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgslen</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_title">Om</string>
     <string name="access_sd_fail">Kunne ikke få adgang til SD-kort</string>
     <string name="accessibility_shutter_button">Lukker</string>
-    <string name="action_search">Search</string>
+    <string name="action_search">Søg</string>
     <string name="address">Adresse:</string>
     <string name="agree_btn">Bekræft</string>
     <string name="amazon_assistant_shopping_title">Søg på Amazon</string>
@@ -28,7 +49,7 @@
     <string name="choose_pay_title">Vælg betalingsmetode</string>
     <string name="choose_picture">Vælg QR-kodebillede</string>
     <string name="common_retake_picture">Tag igen</string>
-    <string name="common_retry">Try again</string>
+    <string name="common_retry">Prøv igen</string>
     <string name="common_save">Gem</string>
     <string name="company">Firma:</string>
     <string name="confirm">Ok</string>
@@ -40,7 +61,7 @@
     <string name="copy_text_success">Tekst kopieret</string>
     <string name="crop_cancel_description">Annuller</string>
     <string name="crop_done_description">Udført</string>
-    <string name="crop_title_study">Crop the photo</string>
+    <string name="crop_title_study">Beskær billedet</string>
     <string name="crop_title_translation">Vælg tekst at oversætte</string>
     <string name="document_color_picture">Farve</string>
     <string name="document_color_picture_tip">Konverterer til farve…</string>
@@ -65,11 +86,11 @@
     <string name="email">E-mail:</string>
     <string name="error_camera_disabled">Kameraadgang nægtet af sikkerhedsårdager</string>
     <string name="error_cannot_connect_camera">Kan ikke oprette forbindelse til kameraet</string>
-    <string name="error_empty_result">"Couldn't find results"</string>
+    <string name="error_empty_result">Kunne ikke finde resultater</string>
     <string name="error_get_image">Kunne ikke hente billede</string>
     <string name="error_media_storage_failure">Kunne ikke gemme foto</string>
     <string name="error_permissions">Scanner har ikke nødvendige tilladelser til at fungere normalt. Gå til indstillinger og kontroller tilladeler for at fortsætte.</string>
-    <string name="error_server_error">Server error</string>
+    <string name="error_server_error">Der opstod en serverfejl.</string>
     <string name="fax">Fax</string>
     <string name="feed_search_fail">Ingen resultater. Prøv igen</string>
     <string name="feedback_description_camera_access">Scanner kan ikke forbinde til kamera</string>
@@ -77,7 +98,7 @@
     <string name="got_it">Forstået</string>
     <string name="gps">Naviger</string>
     <string name="import_contact">Importér kontaktperson</string>
-    <string name="impunity_declaration_content">Scanneren kræver tilladelser til at få adgang til dit kamera og tage billeder. Scanneren skal også oprette forbindelse til internettet for at fungere normalt. Du forventes at have læst og accepteret vores %1$sFortrolighedspolitik%2$s, når du trykker på \"Jeg accepterer\" herunder.</string>
+    <string name="impunity_declaration_content">Scanneren skal bruge dit kamera og behandle de billeder, du tager, mens du bruger appen. Brug ikke scanneren til at tage billeder af de genstande, der indeholder dine personlige oplysninger. Ved at trykke på \"Acceptér\" accepterer du vores &lt;font color=\"#ff32b4ff\">&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\" style=\"color:#ff32b4ff;\">Privatlivspolitik&lt;/a>&lt;/font> og giver scanneren tilladelse til at tilslutte til internettet.</string>
     <string name="impunity_declaration_negative_text">Afslut</string>
     <string name="impunity_declaration_title">Fortrolighedspolitik</string>
     <string name="label_choose_picture">Vælg billede</string>
@@ -102,7 +123,7 @@
     <string name="module_title_document">Dokument</string>
     <string name="module_title_plant">Plante</string>
     <string name="module_title_shopping">Shopping</string>
-    <string name="module_title_study">Study</string>
+    <string name="module_title_study">Hjemmearbejde</string>
     <string name="module_title_translation">Oversæt</string>
     <string name="name">Navn:</string>
     <string name="new_schedule">Opret event</string>
@@ -114,6 +135,8 @@
     <string name="not_recommend_access_web_url">Åbn alligevel</string>
     <string name="note">Bemærk:</string>
     <string name="open_url">Åbn URL</string>
+    <string name="pay_no_tip">Vis ikke igen</string>
+    <string name="pay_save_this_choose">Husk mit valg</string>
     <string name="payment_text">Åbn med %s</string>
     <string name="phone">Telefon:</string>
     <string name="place_barcode_into_rectangle">Anbring koden indeni rammen</string>
@@ -145,11 +168,11 @@
     <string name="shopping_title">Tag et billede af produktet</string>
     <string name="shopping_vendor_info">Drevet af Zapper</string>
     <string name="spaceIsLow_content">Ikke nok plads i intern hukommelse. Frigør noget hukommelse.</string>
-    <string name="study_rotate_picture">Processing the photo</string>
-    <string name="study_scan_result">Result</string>
-    <string name="study_searching">Searching for result</string>
-    <string name="study_title">Take a photo of the problem</string>
-    <string name="study_vendor_info">Powered by 作业帮</string>
+    <string name="study_rotate_picture">Behandler billede…</string>
+    <string name="study_scan_result">Resultat</string>
+    <string name="study_searching">Søger efter resultater…</string>
+    <string name="study_title">Scan det problem, du ønsker at løse</string>
+    <string name="study_vendor_info">Drevet af Zuoyebang</string>
     <string name="switch_open">Tænd</string>
     <string name="tel">Telefon</string>
     <string name="title">Titel:</string>
@@ -160,6 +183,7 @@
     <string name="translate_dest_lang">Målsprog</string>
     <string name="translate_fail">Kunne ikke oversætte</string>
     <string name="translate_loading">Oversætter…</string>
+    <string name="translate_parallel_2_lines">Sørg for, at teksten er parallel med linjerne på skærmen</string>
     <string name="translate_save_fail">Kunne ikke gemme note</string>
     <string name="translate_src_lang">Kildesprog</string>
     <string name="translate_text_compare">Sammenligning</string>

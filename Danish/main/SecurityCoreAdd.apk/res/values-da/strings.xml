@@ -418,7 +418,7 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="ent_licence_code_hint">Indtast licenskode</string>
     <string name="ent_next_step">Næste</string>
     <string name="ent_get_code_hint">Du kan få virksomheds- og licenskoder fra din supervisor</string>
-    <string name="ent_agree_privacy_policy">Jeg har læst og accepterer privatlivspolitikken</string>
+    <string name="ent_agree_privacy_policy">Jeg har læst og bekræftet privatlivspolitikken</string>
     <string name="ent_activation">Aktivér</string>
     <string name="ent_activating">Aktiverer…</string>
     <string name="ent_installing">Installerer…</string>
@@ -461,4 +461,5 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="dialog_verify_fingerprint_retry">Kunne ikke verificere fingeraftryk. Prøv igen.</string>
     <string name="button_touch">Placer din finger på sensoren</string>
     <string name="button_input_password">Indtast adgangskode</string>
+    <string name="master_clear_not_available">Fabriksnulstilling er begrænset af din virksomhed.</string>
 </resources>

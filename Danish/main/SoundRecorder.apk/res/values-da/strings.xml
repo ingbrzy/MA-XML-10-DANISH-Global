@@ -64,6 +64,12 @@
     <string name="keywords_search_call_record">Optag opkald;Optag opkald;Opkaldsoptagelse;Opkaldsoptagelser</string>
     <string name="keywords_search_record">Ny optagelse;Tilføj optagelse;Optagelse;Optagelser;Afskrift;Transkribere;Optager;Stemmeoptager;Lydoptager;Optager-app;Optagelses-app;Hvordan optager jeg;Hvordan optager jeg lyd;Hvor er optageren;MIUI-optager</string>
     <string name="keywords_search_record_list">Optager;Afskrift;Afskrifter;Optag;Del optagelse;Del optagelser;Optagelse;Optagelser</string>
+    <string name="korea_permission_phone">Telefon</string>
+    <string name="korea_permission_phone_resc">For at få adgang til enhedens status og håndtere optagelser under opkald</string>
+    <string name="korea_permission_record">Mikrofon</string>
+    <string name="korea_permission_record_resc">Til optagelse af lyd</string>
+    <string name="korea_permission_storage">Hukommelse</string>
+    <string name="korea_permission_storage_desc">Til at gemme optagelser</string>
     <string name="loading_order_list">Lige et øjeblik…</string>
     <string name="loading_order_list_empty">Ingen ordrer her.</string>
     <string name="low_battery_error">Der er mindre end 5 % batteri tilbage. Stop og gem din optagelse for at sikre, at den ikke går tabt.</string>

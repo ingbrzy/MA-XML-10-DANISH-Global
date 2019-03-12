@@ -30,6 +30,9 @@ Se det valgte tastaturs Fortrolighedspolitik."</string>
     <string name="other_settings_auto_update_summary">MUI vil vælge det bedste tidspunkt at installere opdateringer</string>
     <string name="other_settings_ad_enable">Anbefalinger til personlige reklamer</string>
     <string name="other_settings_ad_enable_summary">Modtag personlige reklamer baseret på dit adfærdsmønster</string>
+    <string name="other_settings_enhanced_lockscreen">Baggrundskarrusel</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Få organiserede billeder og historier leveret dagligt til din låseskærm. Vilkår og betingelser gælder.</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Vilkår og betingelser</string>
     <string name="back">Tilbage</string>
     <string name="next">Næste</string>
     <string name="skip_underline">Spring dette trin over</string>
@@ -52,6 +55,7 @@ Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvend
     <string name="terms_of_use_lable_gms">, Google Play-servicer</string>
     <string name="terms_of_use_label_systemhelper">, selvregistreringsservice</string>
     <string name="terms_of_use_lable_smart_cards">, smartkort</string>
+    <string name="terms_of_use_lable_vsimcore">, MConnService</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Du skal bekræfte Facemojis privatlivspolitik, før du kan bruge denne funktion."</string>
@@ -105,13 +109,14 @@ Du skal bekræfte Kikas privatlivspolitik, før du kan bruge denne funktion."</s
 1. Når skærmen er tændt.
 2. Når du lytter til musik med din skærm slukket."</string>
     <string name="voice_assist_advice">Mi AI tillader, at du bruger stemmekontrol, men den bruger mere strøm (+1% i timen).</string>
-    <string name="ai_button_title">Om AI-knappen</string>
-    <string name="ai_button_desc">Brug denne knap til at udløse Mi Al og gennemføre opgaver på din telefon med kun din stemme</string>
+    <string name="ai_button_title">AI-knap</string>
+    <string name="ai_button_desc">Få øjeblikkelig adgang til din smart voice-assistent</string>
     <string name="ai_button_long_press">Tryk og hold</string>
-    <string name="ai_button_long_press_desc">Sig din kommando og slip knappen</string>
+    <string name="ai_button_long_press_desc">Hold AI-knappen nedtrykket for at tale til Mi AI</string>
     <string name="ai_button_single_press">Tryk</string>
-    <string name="ai_button_single_press_desc">Udløs Mi Al</string>
+    <string name="ai_button_single_press_desc">Tryk på AI-knappen for at se Mi AI-genveje</string>
     <string name="ai_button_double_press">Dobbelttryk</string>
-    <string name="ai_button_double_press_desc">Opsæt Mi Al-funktioner</string>
-    <string name="zone_picker_title">Choose time zone</string>
+    <string name="ai_button_double_press_desc">Tryk to gange på AI-knappen for at fuldføre brugeropgaver</string>
+    <string name="zone_picker_title">Vælg tidszone</string>
+    <string name="locale_picker_other_locale_title">Flere regioner</string>
 </resources>
