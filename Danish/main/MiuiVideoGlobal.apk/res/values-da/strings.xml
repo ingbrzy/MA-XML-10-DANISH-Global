@@ -58,7 +58,6 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol ti sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Slå lyden fra</string>
     <string name="cast_notification_connected_message">Forbundet til %1$s</string>
     <string name="cast_notification_connecting_message">Der oprettes forbindelse til %1$s</string>
@@ -487,7 +486,6 @@ Tag et kik på andre videoer!"</string>
     <string name="slid_fail_message">Kunne ikke gemme</string>
     <string name="slide_save_message">Genererer video…</string>
     <string name="sns_sign_in">Anden måde at logge ind på</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sure_to_logout">Log af nu?</string>
     <string name="switch_ratio_pause">Afspilningshastighed er ustabil. Skift tilbage til standardhastigheden…</string>
     <string name="symbol_rmb">¥</string>
