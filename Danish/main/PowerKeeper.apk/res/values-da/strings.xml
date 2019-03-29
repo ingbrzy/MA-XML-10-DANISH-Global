@@ -38,10 +38,17 @@
     <string name="vip_feedback_enable">Slå VIP-feedback til</string>
     <string name="extreme_power_config_mode_category">Extreme-batterisparer</string>
     <string name="extreme_power_config_mode_title">Extreme-batterisparer</string>
+    <string name="notification_open_extreme_mode_text">Slog Extreme-batterisparer til</string>
+    <string name="extreme_power_settings_title">indstillinger</string>
+    <string name="notification_exit_extreme_mode_title">Slog Extreme-batterisparer fra</string>
+    <string name="notification_exit_extreme_mode_text">Batteri er mere end %s opladet</string>
+    <string name="extreme_power_config_mode_summary">Extreme-batterisparer begrænser baggrundsaktiviteter og stopper synkroniseringer.</string>
     <string name="extreme_power_config_mode_desc"><li>Extreme-batterisparer stopper alle baggrundsaktiviteter for en app, når du forlader den og går tilbage til startskærmen. Denne app vil ikke sende dig notifikationer eller modtage opdateringer.</li>"
 "<li>Hvis du ønsker, at en app skal køre i baggrunden, så lås den i Nylige eller tilføj den til baggrundsundtagelser nedenfor. Op til 4 apps kan køre i baggrunden, når Extreme-batterisparer er slået til.</li>"
 "<li>Som standard slår Extreme-batterisparer NFC fra. Du kan ændre dette i Indstillinger.</li>"
 "<li>For at sikre, at du normalt kan bruge alle funktioner på din enhed, vil Extreme-batterisparer automatisk blive slået fra, når dit batteri er 30 % opladet.</li></string>
+    <string name="extreme_add_white_list_title">Baggrundsundtagelser</string>
+    <string name="extreme_add_white_list_summary">Tilføj op til 4 apps</string>
     <string name="empty_title_apps_container_list">Ingen apps</string>
     <string name="hints_loading_text">Lige et øjeblik…</string>
     <string name="config_mode_title">Baggrundsindstillinger</string>
@@ -101,13 +108,6 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="atrace_start">Optager atrace-logfil…</string>
     <string name="atrace_saving">Gemmer atrace-logfil…</string>
     <string name="atrace_saved">Gemt korrekt</string>
-    <string name="notification_open_extreme_mode_text">Slog Extreme-batterisparer til</string>
-    <string name="extreme_power_settings_title">indstillinger</string>
-    <string name="notification_exit_extreme_mode_title">Slog Extreme-batterisparer fra</string>
-    <string name="notification_exit_extreme_mode_text">Batteri er mere end %s opladet</string>
-    <string name="extreme_power_config_mode_summary">Extreme-batterisparer begrænser baggrundsaktiviteter og stopper synkroniseringer.</string>
-    <string name="extreme_add_white_list_title">Baggrundsundtagelser</string>
-    <string name="extreme_add_white_list_summary">Tilføj op til 4 apps</string>
     <string name="adaptive_battery_title">Brug adaptivt batteri</string>
     <string name="adaptive_battery_summary">Begræns batteri for apps, som du ikke bruger ofte</string>
 </resources>

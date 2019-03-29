@@ -56,7 +56,7 @@
         <item>Hvis du vil foretage opkald og sende beskeder via Wi-Fi, skal du først anmode dit mobilselskab om at konfigurere denne tjeneste. Derefter skal du aktivere Wi-Fi-opkald igen fra Indstillinger. (Fejlkode: %1$s)</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
-        <item>Registrer dig hos dit mobilselskab (fejlkode: %1$s)</item>
+        <item>Der opstod et problem under registrering af Wi-Fi-opkald hos dit mobilselskab: %1$s</item>
     </string-array>
     <string-array name="wfcSpnFormats">
         <item>%s</item>

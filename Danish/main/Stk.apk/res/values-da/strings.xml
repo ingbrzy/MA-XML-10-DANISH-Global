@@ -27,8 +27,8 @@
     <string name="stk_dialog_reject">NEJ</string>
     <string name="no_sim_card_inserted">Indsæt SIM for at starte SIM-værktøjssæt.</string>
     <string name="stk_channel_name">Servicebeskeder på mobilen</string>
-    <string name="stk_intent_permission">Kræver tilladelser</string>
     <string name="sim_type_sim_name">SIM-værktøjssæt</string>
     <string name="sim_type_usim_name">USIM-værktøjssæt</string>
     <string name="sim_type_uim_name">UIM-værktøjssæt</string>
+    <string name="stk_intent_permission">Kræver tilladelser</string>
 </resources>

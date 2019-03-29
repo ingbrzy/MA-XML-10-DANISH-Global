@@ -78,6 +78,7 @@
     <string name="respond_via_sms_custom_message">Brugerdefineret SMS</string>
     <string name="manageConferenceLabel">Administrer konferenceopkald</string>
     <string name="emergency_call_dialog_number_for_display">Nødnummer</string>
+    <string name="volte_call">VoLTE-opkald</string>
     <string name="notification_dialing">Ringer op</string>
     <string name="notification_ongoing_call">Opkald i gang</string>
     <string name="notification_on_hold">På pause</string>

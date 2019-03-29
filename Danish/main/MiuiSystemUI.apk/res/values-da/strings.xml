@@ -12,6 +12,16 @@
     <string name="abc_activitychooserview_choose_application">Vælg en app</string>
     <string name="abc_capital_off">FRA</string>
     <string name="abc_capital_on">TIL</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellemrum</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Søg…</string>
     <string name="abc_searchview_description_clear">Ryd forespørgslen</string>
     <string name="abc_searchview_description_query">Søgeforespørgsel</string>
@@ -53,6 +63,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Skift af operatørnetværk.</string>
     <string name="accessibility_cast_name">Forbindelse oprettet til %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Skærmcasting stoppet.</string>
     <string name="accessibility_cell_data">Mobildata</string>
     <string name="accessibility_cell_data_off">Mobildata slået fra</string>
@@ -111,6 +122,8 @@
     <string name="accessibility_left_lock_screen_magazine_button">Baggrundskarrusel</string>
     <string name="accessibility_location_active">Placeringsanmodninger aktiv</string>
     <string name="accessibility_managed_profile">Arbejdsprofil</string>
+    <string name="accessibility_manual_zen_less_time">Mindre tid.</string>
+    <string name="accessibility_manual_zen_more_time">Mere tid.</string>
     <string name="accessibility_menu">Menu</string>
     <string name="accessibility_menu_item_split_disable">Denne app understøtter ikke splitskærm.</string>
     <string name="accessibility_menu_item_split_enable">App understøtter splitskærm</string>
@@ -250,6 +263,8 @@
     <string name="accessibility_wifi_name">Forbindelse oprettet til %s.</string>
     <string name="accessibility_wifi_off">Wi-Fi er slået fra.</string>
     <string name="accessibility_wifi_one_bar">Wi-Fi en søjle.</string>
+    <string name="accessibility_wifi_security_type_none">Åbent netværk</string>
+    <string name="accessibility_wifi_security_type_secured">Sikkert netværk</string>
     <string name="accessibility_wifi_signal_full">Wi-Fi-signal fuldt.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi tre søjler.</string>
     <string name="accessibility_wifi_two_bars">Wi-Fi to søjler.</string>
@@ -278,6 +293,8 @@
     <string name="always_use_accessory">Brug som standard til dette USB-tilbehør</string>
     <string name="always_use_device">Brug som standard til denne USB-enhed</string>
     <string name="animator_duration_scale_title">Skala for Animator-varighed</string>
+    <string name="aod_lock_screen_date">EE, d MMMM</string>
+    <string name="aod_lock_screen_date_12">EE, d MMMM</string>
     <string name="apn_settings_not_available">Indstillinger for Access Point Name er ikke tilgængelige for denne bruger</string>
     <string name="app_info">App-oplysninger</string>
     <string name="app_label">System-UI</string>
@@ -294,6 +311,7 @@
     <string name="audio_effect_settings">Vælg type hovedtelefoner</string>
     <string name="auto_disable_screenbuttons_disable_toast_text">Navigationsknapper er deaktiveret. Dobbeltklik på en vilkår knap for at slå dem til igen.</string>
     <string name="auto_disable_screenbuttons_enable_toast_text">Navigeringsknapper aktiveret</string>
+    <string name="available_via_carrier">Tilgængelig via %1$s</string>
     <string name="available_via_passpoint">Tilgængelig via %1$s</string>
     <string name="back">Tilbage</string>
     <string name="battery">Batteri</string>
@@ -328,11 +346,18 @@
     <string name="block_record_notification_title">Notifikationer skjult</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Tilsluttet til media-audio</string>
     <string name="bluetooth_a2dp_profile_summary_use_for">Brug til media-audio</string>
-    <string name="bluetooth_connected">Tilsluttet</string>
-    <string name="bluetooth_connected_no_a2dp">Tilsluttet(ingen media)</string>
-    <string name="bluetooth_connected_no_headset">Tilsluttet (ingen telefon)</string>
-    <string name="bluetooth_connected_no_headset_no_a2dp">Tilsluttet (ingen telefon eller media)</string>
-    <string name="bluetooth_connected_no_map">Tilsluttet (ingen beskedadgang)</string>
+    <string name="bluetooth_active_battery_level">Aktivt, %1$s batteri</string>
+    <string name="bluetooth_active_no_battery_level">Aktiv</string>
+    <string name="bluetooth_battery_level">%1$s batteri</string>
+    <string name="bluetooth_connected">Tilsluttet%1$s</string>
+    <string name="bluetooth_connected_battery_level">Tilsluttet | Batteri %1$s%2$s</string>
+    <string name="bluetooth_connected_no_a2dp">Tilsluttet (ingen media) %1$s</string>
+    <string name="bluetooth_connected_no_a2dp_battery_level">Tilsluttet (intet medie) | Batteri %1$s%2$s</string>
+    <string name="bluetooth_connected_no_headset">Tilsluttet (ingen telefon) %1$s</string>
+    <string name="bluetooth_connected_no_headset_battery_level">Tilsluttet (ingen telefon) | Batteri %1$s%2$s</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Tilsluttet (ingen telefon eller media) %1$s</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Tilsluttet (ingen telefon eller medie) | Batteri %1$s%2$s</string>
+    <string name="bluetooth_connected_no_map">Tilsluttet (ingen SMS-beskedadgang) %1$s</string>
     <string name="bluetooth_connecting">Opretter forbindelse…</string>
     <string name="bluetooth_disable_absolute_volume">Deaktiver absolut volumen</string>
     <string name="bluetooth_disable_absolute_volume_summary">Deaktiver absolut volumen for Bluetooth, hvis der opstår problemer med fjernenheder såsom uacceptabel lav volumen, eller hvis du ikke kan kontrollere den.</string>
@@ -340,10 +365,14 @@
     <string name="bluetooth_disconnecting">Afbryder…</string>
     <string name="bluetooth_dun_profile_summary_connected">Tilsluttet til DUN-server</string>
     <string name="bluetooth_dun_profile_summary_use_for">Brug til adgang til opkaldsnetværk</string>
-    <string name="bluetooth_enable_inband_ringing">Muliggør udgående opkald</string>
-    <string name="bluetooth_enable_inband_ringing_summary">Tillad, at ringetoner på telefonen afspilles på Bluetooth-headsets</string>
     <string name="bluetooth_headset_profile_summary_connected">Tilsluttet til telefonaudio</string>
     <string name="bluetooth_headset_profile_summary_use_for">Brug til telefonaudio</string>
+    <string name="bluetooth_hearing_aid_profile_summary_connected">Forbundet til hørehjælp</string>
+    <string name="bluetooth_hearing_aid_profile_summary_use_for">Brug for hørehjælp</string>
+    <string name="bluetooth_hearingaid_left_battery_level">Venstre, %1$s batteri</string>
+    <string name="bluetooth_hearingaid_left_pairing_message">Parrer venstre hørehjælp…</string>
+    <string name="bluetooth_hearingaid_right_battery_level">Højre, %1$s batteri</string>
+    <string name="bluetooth_hearingaid_right_pairing_message">Parrer højre hørehjælp…</string>
     <string name="bluetooth_hid_profile_summary_connected">Tilsluttet til inputenhed</string>
     <string name="bluetooth_hid_profile_summary_use_for">Brug til input</string>
     <string name="bluetooth_map_profile_summary_connected">Tilsluttet til MAP</string>
@@ -366,16 +395,17 @@
     <string name="bluetooth_profile_a2dp">Media-audio</string>
     <string name="bluetooth_profile_a2dp_high_quality">Brug lyd af høj kvalitet: %1$s</string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Brug lyd af høj kvalitet</string>
-    <string name="bluetooth_profile_dun">Bruges til at få adgang til netværk via opkald</string>
+    <string name="bluetooth_profile_dun">Adgang til opkaldsnetværk</string>
     <string name="bluetooth_profile_headset">Telefonaudio</string>
+    <string name="bluetooth_profile_hearing_aid">Hørehjælp</string>
     <string name="bluetooth_profile_hid">Inputenhed</string>
-    <string name="bluetooth_profile_map">Bruges til at få adgang til beskeder</string>
+    <string name="bluetooth_profile_map">Tekstbeskeder</string>
     <string name="bluetooth_profile_opp">Filoverførsel</string>
     <string name="bluetooth_profile_pan">Internetadgang</string>
     <string name="bluetooth_profile_pan_nap">Deling af internetforbindelse</string>
     <string name="bluetooth_profile_pbap">Kontaktdeling</string>
     <string name="bluetooth_profile_pbap_summary">Brug til kontaktdeling</string>
-    <string name="bluetooth_profile_sap">Bruges til at få adgang til SIM</string>
+    <string name="bluetooth_profile_sap">SIM-adgang</string>
     <string name="bluetooth_sap_profile_summary_connected">Tilsluttet til SAP</string>
     <string name="bluetooth_sap_profile_summary_use_for">Brug til SIM-adgang</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth audio bits pr. prøve</string>
@@ -395,6 +425,15 @@ prøvehastighed"</string>
     <string name="bluetooth_select_a2dp_codec_type_dialog_title">Vælg Bluetooth audio-kodeks</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">Vælg Bluetooth AVRCP-version</string>
     <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP-version</string>
+    <string name="bluetooth_show_devices_without_names">Vis Bluetooth-enheder uden navne</string>
+    <string name="bluetooth_show_devices_without_names_summary">Bluetooth-enheder uden navn (kun MAC-adresse) vil blive vist</string>
+    <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
+    <string name="bluetooth_talkback_computer">Computer</string>
+    <string name="bluetooth_talkback_headphone">Hovedtelefoner</string>
+    <string name="bluetooth_talkback_headset">Headset</string>
+    <string name="bluetooth_talkback_imaging">Billedvisning</string>
+    <string name="bluetooth_talkback_input_peripheral">Inputenhed</string>
+    <string name="bluetooth_talkback_phone">Telefon</string>
     <string name="bluetooth_tethered">Bluetooth-tilkoblet</string>
     <string name="branded_monitoring_description_app_personal">Du har forbindelse til %1$s, som kan overvåge din netværksaktivitet, herunder e-mails, apps og websites.</string>
     <string name="branded_vpn_footer">Netværket kan være overvåget</string>
@@ -446,6 +485,7 @@ prøvehastighed"</string>
     <string name="confirm_enable_oem_unlock_text">ADVARSEL: Funktioner til beskyttelse af enheden vil ikke fungere på denne enhed, mens denne indstilling er tændt.</string>
     <string name="confirm_enable_oem_unlock_title">Tillad oplåsning af OEM?</string>
     <string name="confirm_pin_msg">Indtast PIN-kode igen</string>
+    <string name="connected_via_carrier">Tilsluttet via %1$s</string>
     <string name="connected_via_network_scorer">Automatisk tilsluttet via %1$s</string>
     <string name="connected_via_network_scorer_default">Automatisk tilsluttet via udbyder af netværksanmeldelser</string>
     <string name="connected_via_passpoint">Tilsluttet via %1$s</string>
@@ -486,7 +526,6 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="debug_drawing_category">Tegning</string>
     <string name="debug_hw_drawing_category">Hardwareaccelereret gengivelse</string>
     <string name="debug_hw_overdraw">Fejlfing GPU-overtegning</string>
-    <string name="debug_hw_renderer">Indstil GPU-gengiver</string>
     <string name="debug_input_category">Input</string>
     <string name="debug_layout">Vis layoutgrænser</string>
     <string name="debug_layout_summary">Vis klipgrænser, marginer etc.</string>
@@ -557,8 +596,6 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="empty_shade_text">Ingen notifikationer</string>
     <string name="enable_adb">USB-fejlfinding</string>
     <string name="enable_adb_summary">Fejlfindingstilstand, når USB er tilsluttet</string>
-    <string name="enable_atrace">Tænd for ATrace</string>
-    <string name="enable_atrace_summary">Fang kerne-events med ATrace</string>
     <string name="enable_bluetooth_confirmation_ok">Slå til</string>
     <string name="enable_bluetooth_message">Slå Bluetooth til først for at forbinde tastaturet til din tablet.</string>
     <string name="enable_bluetooth_title">Slå Bluetooth til?</string>
@@ -566,12 +603,15 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="enable_extreme_power_save_mode">Extreme-batterisparer</string>
     <string name="enable_freeform_support">Aktivér friformsvinduer</string>
     <string name="enable_freeform_support_summary">Aktivér support af eksperimentelle friformsvinduer.</string>
+    <string name="enable_gpu_debug_layers">Aktivér GPU-fejlfindingslag</string>
+    <string name="enable_gpu_debug_layers_summary">Tillad loading af GPU-fejlfindingslag til fejlfindingsapps</string>
     <string name="enable_opengl_traces_title">Aktivér OpenGL-sporing</string>
     <string name="enable_power_save_mode">Sluk batterisparer</string>
     <string name="enable_terminal_summary">Aktivér terminal app, der giver adgang til lokal shell</string>
     <string name="enable_terminal_title">Lokal terminal</string>
     <string name="enabled_by_admin">Aktiveret af administrator</string>
     <string name="ethernet_label">Ethernet</string>
+    <string name="expand_button_title">Avanceret</string>
     <string name="expanded_confirm_disable_notification">Skjul</string>
     <string name="expanded_header_battery_charged">Opladet</string>
     <string name="expanded_header_battery_charging">Oplader</string>
@@ -651,6 +691,7 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="face_unlock_rotated_right">Drej dit hoved til venstre</string>
     <string name="face_unlock_sc_status">Tryk skærmen ned for at åbne kameraet</string>
     <string name="face_unlock_stay_away_screen">Hold dig 25 til 40 cm væk fra skærmen</string>
+    <string name="face_unlock_success">Verificering af ansigtsdata lykkedes</string>
     <string name="face_unlock_success_stay_screen_msg">Bliv på låseskærmen, efter dit ansigt er blevet verificeret. Stryg opad for at åbne Hjemmeskærmen.</string>
     <string name="face_unlock_success_stay_screen_title">Bliv på låseskærm efter oplåsning</string>
     <string name="failed_to_open_app_settings_toast">Kunne ikke åbne indstillinger for %1$s</string>
@@ -739,6 +780,9 @@ Når din telefon er kølet ned, vil den køre normalt."</string>
     <string name="immediately_destroy_activities">Behold ikke aktiviteter</string>
     <string name="immediately_destroy_activities_summary">Afslut alle aktiviteter, så snart brugeren forlader det</string>
     <string name="important_desc">Alle vigtige notifikationer vises direkte i notifikationsskyggen.</string>
+    <string name="ims_reg_status_not_registered">Ikke registreret</string>
+    <string name="ims_reg_status_registered">Registreret</string>
+    <string name="ims_reg_title">IMS-registreringstilstand</string>
     <string name="inactive_app_active_summary">Aktive. Tryk for at skifte.</string>
     <string name="inactive_app_inactive_summary">Inaktive. Tryk for at skifte.</string>
     <string name="inactive_apps_title">Inaktive apps</string>
@@ -828,6 +872,10 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyguard_charging_back_to_lockscreen">Tilbage til låseskærm</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
     <string name="keyguard_charging_info_click_to_detail">Se detaljer</string>
+    <string name="keyguard_charging_info_data_c">%s ℃</string>
+    <string name="keyguard_charging_info_data_ma">%s mA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%s V</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Drænet</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">I dag %s</string>
@@ -852,6 +900,7 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke læses. Indsæt et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Intet SIM-kort i telefon.</string>
     <string name="keyguard_missing_sim_message_short">Intet SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Netværk er låst</string>
     <string name="keyguard_password_enter_password_code">Indtast adgangskode for at låse op</string>
     <string name="keyguard_password_enter_pin_code">Indtast PIN-kode</string>
@@ -935,6 +984,7 @@ Prøv igen om %2$d sekunder."</string>
     <string name="left_keycode">Venstre nøglekode</string>
     <string name="left_nav_bar_button_type">Ekstra venstre knaptype</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Tryk for at ændre eller fjerne adgangkoden for fulde sikkerhedskopier af startskærmen</string>
     <string name="local_backup_password_summary_none">Fulde sikkerhedskopier af startskærmeen ern’t i øjeblikket ikke beskyttet</string>
     <string name="local_backup_password_title">Adgangskode til backup af startskærmen</string>
@@ -1000,6 +1050,7 @@ Prøv igen om %2$d sekunder."</string>
     <string name="miui_guide_dialog_message">Medielyde (musik, videoer osv.) afspilles stadig i lydløs tilstand. Du kan ændre dette i indstillingerne.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Låst op med Bluetooth-enhed</string>
     <string name="miui_ringer_count_down">Nedtælling</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Lydløs</string>
     <string name="miui_ringer_standard_description">Sluk for ringetoner ved indkommende opkald og notifikationer</string>
     <string name="miui_ringer_total">DND</string>
@@ -1027,12 +1078,14 @@ Du er også forbundet til %3$s, som kan overvåge din personlige netværksaktivi
 
 Kontakt din administrator for flere oplysninger."</string>
     <string name="monitoring_description_ca_cert_settings">Åbn pålidelige brugeroplysninger</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Der er installeret et nøglecenter på denne enhed. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_do_body">Din administrator kan overvåge og administrere indstillinger, firmaadgang, apps, data, der er forbundet med din enhed, samt din enheds placeringsoplysninger.</string>
     <string name="monitoring_description_do_body_vpn">Du har forbindelse til %1$s, som kan overvåge din netværksaktivitet, herunder e-mails, apps og websites.</string>
     <string name="monitoring_description_do_header_generic">Din enhed styres af %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruger %2$s til at styre din enhed.</string>
     <string name="monitoring_description_do_learn_more">Få mere at vide</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din virksomhed har installeret et nøglecenter i din arbejdsprofil. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbejdsprofil er forbundet til %1$s, som kan overvåge din netværksaktivitet, herunder e-mails, apps og websites.</string>
     <string name="monitoring_description_management">"Din enhed administreres af din virksomhed.
@@ -1064,6 +1117,7 @@ Kontakt din administrator for flere oplysninger.
 
 Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Åbn VPN-indstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikater</string>
     <string name="monitoring_subtitle_network_logging">Netværkslogning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1078,6 +1132,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="nav_guide_message">Brug bevægelser til at skjule/vise funktionsknapper.</string>
     <string name="nav_guide_ok">Indstil</string>
     <string name="nav_guide_title">Skjul funktionsknapper</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Intet</string>
     <string name="no_multi_window_app">Ingen apps understøtter splitskærm</string>
     <string name="no_notification_tips">Ingen notifikationer</string>
@@ -1145,6 +1200,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="notification_template_text">" har en notifikation. Tryk for at se."</string>
     <string name="oem_unlock_enable">Oplåsning af OEM</string>
     <string name="oem_unlock_enable_summary">Tillad bootloaderen at blive låst op</string>
+    <string name="okay">OK</string>
     <string name="oldman_airplane_mode_text">Flytilstand</string>
     <string name="oldman_incall_text">Tilbage til opkald</string>
     <string name="open_camera_hint_text">Swipe til venstre for at åbne kameraet</string>
@@ -1185,6 +1241,10 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="please_slide_agian">Glid igen</string>
     <string name="pointer_location">Pointer-placering</string>
     <string name="pointer_location_summary">Skærmoverlap viser nuværende berøringsdata</string>
+    <string name="power_discharge_by">Skulle holde indtil omtrent %1$s (%2$s)</string>
+    <string name="power_discharge_by_enhanced">Skulle holde indtil omtrent %1$s, afhængig af dit forbrug (%2$s)</string>
+    <string name="power_discharge_by_only">Skulle holde indtil omtrent %1$s</string>
+    <string name="power_discharge_by_only_enhanced">Skulle holde indtil omtrent %1$s, afhængig af dit forbrug</string>
     <string name="power_notification_controls_description">"Med strømnotifikationskontroller kan du indstille et vigtighedsniveau fra 0 til 5 for en apps notifikationer. 
 
 "<b>Niveau 5</b>" 
@@ -1213,10 +1273,25 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
 - Vis nederst på notifikationslisten 
 
 "<b>Niveau 0</b>" 
-- Bloker alle notifikationer fra appen"</string>
+- Bloker alle notifikationer fra appen "</string>
     <string name="power_remaining_charging_duration_only">%1$s igen til fuldt opladet</string>
     <string name="power_remaining_duration_only">Omtrent %1$s tilbage</string>
+    <string name="power_remaining_duration_only_enhanced">Omtrent %1$s tilbage, afhængig af dit forbrug</string>
     <string name="power_remaining_duration_only_short">%1$s tilbage</string>
+    <string name="power_remaining_duration_only_shutdown_imminent">Telefonen slukker nok snart</string>
+    <string name="power_remaining_duration_shutdown_imminent">Telefonen slukker nok snart (%1$s)</string>
+    <string name="power_remaining_less_than_duration">Mindre end %1$s tilbage(%2$s)</string>
+    <string name="power_remaining_less_than_duration_only">Mindre end %1$s tilbage</string>
+    <string name="power_remaining_more_than_subtext">Mere end %1$s tilbage(%2$s)</string>
+    <string name="power_remaining_only_more_than_subtext">Mere end %1$s tilbage</string>
+    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
+    <string name="preference_summary_default_combination">%1$s / %2$s</string>
+    <string name="private_dns_mode_off">Slukket</string>
+    <string name="private_dns_mode_opportunistic">Automatisk</string>
+    <string name="private_dns_mode_provider">Hostnavn på privat DNS-udbyder</string>
+    <string name="private_dns_mode_provider_failure">Kunne ikke tilslutte</string>
+    <string name="private_dns_mode_provider_hostname_hint">Indtast hostnavn på DNS-udbyder</string>
+    <string name="process_kernel_label">Android-OS</string>
     <string name="profile_owned_footer">Profilen kan være overvåget</string>
     <string name="prompt_danger">Fare</string>
     <string name="prompt_detecting">Detekterer</string>
@@ -1426,11 +1501,12 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="search_hint">Søg efter websites, apps, kontakter og videoer…</string>
     <string name="search_menu_title">Søg</string>
     <string name="select_application">Vælg applikation</string>
-    <string name="select_logd_level">Vælg logniveau</string>
     <string name="select_logd_size_dialog_title">Vælg størrelse for logbuffer</string>
     <string name="select_logd_size_title">Log bufferstørrelser</string>
     <string name="select_logpersist_dialog_title">Vælg log-buffere til vedvarende opbevaring på enheden</string>
     <string name="select_logpersist_title">Gem logger-data vedvarende på din enhed</string>
+    <string name="select_private_dns_configuration_dialog_title">Vælg privat DNS-tilstand</string>
+    <string name="select_private_dns_configuration_title">Privat DNS</string>
     <string name="select_usb_configuration_dialog_title">Vælg USB-konfiguration</string>
     <string name="select_usb_configuration_title">Vælg USB-konfiguration</string>
     <string name="select_webview_provider_dialog_title">Sæt WebView-implementering</string>
@@ -1469,8 +1545,15 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="sos_status_bar_summary">Tryk for at afslutte</string>
     <string name="sos_status_bar_title">SOS</string>
     <string name="speed_bump_explanation">Mindre hastende notifikationer nedenunder</string>
+    <string name="speed_label_fast">Hurtig</string>
+    <string name="speed_label_medium">Medium</string>
+    <string name="speed_label_okay">OK</string>
+    <string name="speed_label_slow">Langsom</string>
+    <string name="speed_label_very_fast">Meget hurtig</string>
+    <string name="speed_label_very_slow">Meget langsom</string>
     <string name="ssl_ca_cert_warning">"Netværket kan
 være overvåget"</string>
+    <string name="standby_bucket_summary">App standby tilstand: %s</string>
     <string name="start_dreams">Pauseskærm</string>
     <string name="status_bar">Statuslinje</string>
     <string name="status_bar_accessibility_dismiss_recents">Afvis seneste apps</string>
@@ -1496,6 +1579,7 @@ d MMM"</string>
     <string name="status_bar_no_notifications_title">Ingen notifikationer</string>
     <string name="status_bar_no_recent_apps">Dine nylige skærme vises her</string>
     <string name="status_bar_notification_app_settings_title">%s-indstillinger</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_notification_inspect_item_title">Notifikationsindstillinger</string>
     <string name="status_bar_ongoing_events_title">Igangværende</string>
     <string name="status_bar_recent_guide_all">"Stryg op for at lukke
@@ -1524,6 +1608,7 @@ Stryg ned for at låse"</string>
     <string name="status_bar_style_settings">Notifikationer</string>
     <string name="status_bar_use_physical_keyboard">Fysisk tastatur</string>
     <string name="status_bar_work">Arbejdsprofil</string>
+    <string name="status_unavailable">Ikke tilgængelig</string>
     <string name="stream_accessibility">Tilgængelighed</string>
     <string name="stream_alarm">Alarm</string>
     <string name="stream_bluetooth_sco">Bluetooth</string>
@@ -1588,18 +1673,19 @@ Stryg ned for at låse"</string>
     <string name="structure_face_unlock_not_same_person">Du har fuldført alle trin på egen hånd. Byt ikke plads med nogen.</string>
     <string name="structure_face_unlock_really_person">Det ser ud til, at du har udskiftet dit ansigt med et objekt.</string>
     <string name="structure_face_unlock_tof_covered">Ansigtsdata kunne ikke tilføjes. Flyt dig længere væk fra skærmen.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_bar_off">Slået fra</string>
     <string name="switch_bar_on">Slået til</string>
     <string name="switch_system_user">Tilbage til første rum</string>
     <string name="system_ui_tuner">System UI Tuner</string>
     <string name="task_access_locked_app_msg">App-lås slået til</string>
-    <string name="telephony_monitor_switch">Telefonmonitor</string>
-    <string name="telephony_monitor_switch_summary">Telefonmonitoren samler logfiler, når den opdager et problem med telefoni/modemfuntionalitet og opfordrer brugeren til at rapportere en fejl.</string>
     <string name="tether_settings_title_all">Binding &amp; portabelt hotspot</string>
     <string name="tether_settings_title_bluetooth">Bluetooth-binding</string>
     <string name="tether_settings_title_usb">USB-binding</string>
     <string name="tether_settings_title_usb_bluetooth">Binding</string>
     <string name="tether_settings_title_wifi">Portabelt hotspot</string>
+    <string name="tethering_hardware_offload">Sammenbinder hardwareacceleration</string>
+    <string name="tethering_hardware_offload_summary">Brug sammenbundet hardwareacceleration, hvis tilgængelig</string>
     <string name="tethering_settings_not_available">Bindingsindstillinger er ikke tilgængelige for denne bruger</string>
     <string name="thermal_shutdown_dialog_message">"Din telefon var for varm, så den slukkede for at køle ned. Din telefon kører nu normalt.
 
@@ -1609,7 +1695,7 @@ Din telefon kan blive for varm, hvis du:
 \u0009• Bruger din telefon i høje temperaturer"</string>
     <string name="thermal_shutdown_message">Din telefon kører nu normalt</string>
     <string name="thermal_shutdown_title">Telefonen slukkede pga. varme</string>
-    <string name="time_zone_gmt">GMT</string>
+    <string name="time_unit_just_now">Lige nu</string>
     <string name="title_convert_fbe">Konverterer til filbaseret kryptering</string>
     <string name="title_usb_accessory">USB-tilbehør</string>
     <string name="torch_activity_hint">Hold [icon] for at tænde lommelygte fra låseskærm</string>
@@ -1733,6 +1819,8 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="user_remove_user_message">Alle apps og data for denne bruger vil blive slettet.</string>
     <string name="user_remove_user_remove">Fjern</string>
     <string name="user_remove_user_title">Fjern bruger?</string>
+    <string name="v7_preference_off">FRA</string>
+    <string name="v7_preference_on">TIL</string>
     <string name="verify_apps_over_usb_summary">Kontrollér apps, der er installeret via ADB/ADT, for skadelig adfærd.</string>
     <string name="verify_apps_over_usb_title">Verificer apps over USB</string>
     <string name="voice_assist_label">Åbn Voice assistant</string>
@@ -1757,12 +1845,44 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="wait_for_debugger">Vent på fejlfinder</string>
     <string name="wait_for_debugger_summary">Fejlfundne applikationer venter på, at fejlfinderen skal tilslutte inden udførsel</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Slip for at se detaljer</string>
+    <string name="wapi_all_sel_mode">Vælg</string>
+    <string name="wapi_auto_sel_cert">Vælg automatisk</string>
+    <string name="wapi_auto_sel_cert_fail">Kan ikke automatisk vælge certifikater. Vælg et certifikat fra listen og prøv så at tilslutte.</string>
+    <string name="wapi_cert_is_not_exist">Ingen tilgængelige certifikater. Tilføj et først.</string>
+    <string name="wapi_cert_is_not_selected">Vælg certifikatet først</string>
+    <string name="wapi_cert_manage_error">Kunne ikke indstille WAPI-certifikat.</string>
+    <string name="wapi_cert_manage_summary">Tilføj eller slet WAPI-certifikatet</string>
+    <string name="wapi_cert_manage_title">Administration af WAPI-certifikater</string>
+    <string name="wapi_cert_roaming">Tilslutter…</string>
+    <string name="wapi_cert_select">WAPI-certifikat</string>
+    <string name="wapi_no">Nej</string>
+    <string name="wapi_no_vaild_cert">Det ser ud til, at påkrævede certifikater ikke er installeret. Installer nu?</string>
+    <string name="wapi_password_empty">Indtast adgangskode</string>
+    <string name="wapi_password_hex_format_add">Du skal bruge et lige antal hexadecimaltegn</string>
+    <string name="wapi_password_hex_format_invalid">Ugyldigt adgangskodeformat</string>
+    <string name="wapi_password_hex_length_invalid">Antallet af hexadecimale tegn skal være et lige antal</string>
+    <string name="wapi_password_is_empty">Adgangskoden må ikke være tom</string>
+    <string name="wapi_password_is_not_hex_format">Ugyldige heksadecimale tegn</string>
+    <string name="wapi_password_length_invalid">Adgangskoden skal være på 8 til 64 tegn</string>
+    <string name="wapi_password_length_is_max">Adgangskoden kan være på op til 64 tegn</string>
+    <string name="wapi_password_length_is_min">Adgangskoden skal være på mindst 8 tegn</string>
+    <string name="wapi_password_length_is_min_to_max">Adgangskoden skal være på 8-64 tegn</string>
+    <string name="wapi_psk_type">Adgangskodetype</string>
+    <string name="wapi_psk_type_ascii">ASCII</string>
+    <string name="wapi_psk_type_hex">Heksadecimal</string>
+    <string name="wapi_yes">Ja</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Opdateret %1$s</string>
-    <string name="wifi_aggressive_handover">Aggressiv Wi‑Fi til mobil-overdragelse</string>
-    <string name="wifi_aggressive_handover_summary">I aktiv tilstand vil forbindelsen skifte til mobildata mere aktivt, når Wi‑Fi-signalet er svagt.</string>
-    <string name="wifi_allow_scan_with_traffic">Tillad altid Wi‑Fi-roamscanninger</string>
-    <string name="wifi_allow_scan_with_traffic_summary">Tillad eller begræns Wi‑Fi-roamscanninger baseret på mængden af tilstedeværende datatrafik i interfacet.</string>
+    <string name="wifi_ap_unable_to_handle_new_sta">Tilgangspunkt midlertidig fuldt</string>
+    <string name="wifi_auto_sel_wapi_cert">Vælg automatisk</string>
+    <string name="wifi_cant_connect">Kan ikke tilslutte</string>
+    <string name="wifi_cant_connect_to_ap">"Kan ikke tilslutte til '%1$s'"</string>
+    <string name="wifi_check_password_try_again">Kontrollér adgangskode og prøv igen</string>
+    <string name="wifi_connected_mac_randomization">Forbundet MAC-randomisering</string>
+    <string name="wifi_connected_mac_randomization_summary">Randomisér MAC-adresse ved tilslutning til Wi-Fi-netværker</string>
     <string name="wifi_connected_no_internet">Tilsuttet. Intet internet</string>
+    <string name="wifi_coverage_extend">Slå Wi‑Fi-dækningsudvidelse til</string>
+    <string name="wifi_coverage_extend_summary">Udvid Wi‑Fi-dækning ved brug af hotspot</string>
     <string name="wifi_disabled_by_recommendation_provider">Ikke tilsluttet på grund af netværk af dårlig kvalitet</string>
     <string name="wifi_disabled_generic">Deaktiveret</string>
     <string name="wifi_disabled_network_failure">Kunne ikke konfigurere IP</string>
@@ -1771,29 +1891,58 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="wifi_display_certification">Certificering til trådløs visning</string>
     <string name="wifi_display_certification_summary">Vis muligheder for certificering til trådløs visning</string>
     <string name="wifi_fail_to_scan">Kan ikke scanne for netværk</string>
+    <string name="wifi_hand_sel_wapi_cert">WAPI-certifikater</string>
     <string name="wifi_is_off">Wi-Fi er slået fra</string>
-    <string name="wifi_no_internet">Kan ikke tilslutte til nettet</string>
-    <string name="wifi_no_internet_no_reconnect">Kan ikke oprette forbindelse til internettet</string>
+    <string name="wifi_metered_label">Målt</string>
+    <string name="wifi_no_internet">Kan ikke tilslutte til internettet</string>
+    <string name="wifi_no_internet_no_reconnect">Kan ikke tilslutte til internettet</string>
     <string name="wifi_not_in_range">Ikke inden for rækkevidde</string>
     <string name="wifi_remembered">Gemt</string>
     <string name="wifi_security_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_WAPI_PSK">WAPI PSK</string>
+    <string name="wifi_security_dpp">DPP</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ingen</string>
+    <string name="wifi_security_owe">OWE</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <string name="wifi_security_sae">SAE</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
+    <string name="wifi_security_short_dpp">DPP</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_owe">OWE</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <string name="wifi_security_short_sae">SAE</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_wapi_cert">WAPI-Cert</string>
+    <string name="wifi_security_wapi_psk">WAPI-PSK</string>
+    <string name="wifi_security_wapi_psk_ascii">ASCII</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">Hexadecimal</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-    <string name="wifi_verbose_logging">Aktivér Wi‑Fi-verbose-logning</string>
+    <string name="wifi_ssid_is_empty">SSID må ikke være tomt</string>
+    <string name="wifi_ssid_length_is_max">SSID kan være på op til 32 tegn</string>
+    <string name="wifi_status_mac_randomized">MAC er randomiseret</string>
+    <string name="wifi_status_no_internet">Intet internet</string>
+    <string name="wifi_status_sign_in_required">Log ind påkrævet</string>
+    <string name="wifi_unmetered_label">Ikke målt</string>
+    <string name="wifi_verbose_logging">Slå detaljeret logføring for Wi‑Fi til</string>
     <string name="wifi_verbose_logging_summary">Forøg Wi‑Fi-logningsniveau, vis RSSI for hver SSID på listen over Wi‑Fi-netværk.</string>
+    <string name="wifi_wapi_as_certificate">AS-certifikat</string>
+    <string name="wifi_wapi_cert_mode_hand_text">Vælg manuelt</string>
+    <string name="wifi_wapi_certification_dont_exist">Den indtastede netværksadgangskode er forkert.</string>
+    <string name="wifi_wapi_fail_to_auth">"Kunne ikke fuldføre WAPI-godkendelse.
+Sørg for, at dine certifikater er gyldige."</string>
+    <string name="wifi_wapi_fail_to_init">"Kan ikke åbne WAPI-certifikater.
+Lager med brugeroplysninger er muligvis ikke aktiveret."</string>
+    <string name="wifi_wapi_psk_type">Adgangskodetype</string>
+    <string name="wifi_wapi_user_certificate">Brugercertifikat</string>
     <string name="window_animation_scale_title">Skala for vinduesanimation</string>
     <string name="wireless_change_to_ac_charging">Skiftede til ikke-trådløs opladning</string>
     <string name="wireless_charge_current">Oplader</string>
@@ -1806,10 +1955,15 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="zen_alarm_warning">Du vil ikke høre din næste alarm %1$s</string>
     <string name="zen_alarm_warning_indef">Du vil ikke høre din næste alarm %1$s, medmindre du slår dette fra inden da</string>
     <string name="zen_alarms_introduction">Du vil ikke blive forstyrret af lyde og vibrationer, undtagen fra alarmer. Du vil stadig høre alt, hvad du vælger at spille, herunder musik, videoer og spil.</string>
+    <string name="zen_interruption_level_priority">Kun med fortrinsret</string>
     <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="zen_mode_duration_always_prompt_title">Spørg hver gang</string>
+    <string name="zen_mode_duration_settings_title">Varighed</string>
+    <string name="zen_mode_enable_dialog_turn_on">Tænd</string>
+    <string name="zen_mode_settings_summary_off">Aldrig</string>
+    <string name="zen_mode_settings_turn_on_dialog_title">Tænd for \"Vil ikke forstyrres\"</string>
     <string name="zen_priority_customize_button">Brugertilpas</string>
     <string name="zen_priority_introduction">Du vil ikke blive forstyrret af lyde og vibrationer, undtagen fra alarmer, påmindelser, begivenheder og opkald, du angiver. Du vil stadig høre alt, hvad du vælger at spille, herunder musik, videoer og spil.</string>
     <string name="zen_silence_introduction">Dette blokerer ALLE lyde og vibrationer, herunder fra alarmer, musik, videoer og spil.</string>
     <string name="zen_silence_introduction_voice">Dette blokerer ALLE lyde og vibrationer, herunder fra alarmer, musik, videoer og spil. Du kan stadig foretage telefonopkald.</string>
-    <string name="notification_num_channels">%d underretningskategorier</string>
 </resources>

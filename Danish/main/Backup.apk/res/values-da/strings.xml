@@ -6,6 +6,9 @@ Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
 Størrelse delta-opdatering: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Ingen ledig hukommelse, kontroller dit SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke påbegynde download. Kontroller at Download Manager fungerer normalt.</string>
     <string name="app_name">Sikkerhedskopiering</string>
     <string name="local_app_name">Sikkerhedskopiering</string>
@@ -225,6 +228,7 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="restore_backup">Gendan</string>
     <string name="enable_encrypt_description">Kryptér</string>
     <string name="disable_encrypt_description">Kryptér ikke</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Lige et øjeblik…</string>
     <string name="state_mounting">Får adgang til routerlager…</string>
     <string name="abort_backup_confirm">Backup er ikke færdig. Stop alligevel?</string>
@@ -307,7 +311,9 @@ Sluk ikke for wi-fi-hotspot.old enheder tæt på hinanden."</string>
     <string name="trans_detail_app_data_useless_tip">Du kan gendanne disse fra appen. Det er ikke nødvendigt at overføre dem.</string>
     <string name="trans_detail_item_app_data_too_large_tip">Det ser ud til, at elementet er for stort til at overføre.</string>
     <string name="trans_detail_item_app_data_selected_tip">Valgte også korresponderende apps.</string>
-    <string name="trans_detail_list_footer">Bemærk: Du kan vælge at overføre apps separat. Men hvis du vælger app-data, vil den korresponderende app også blive overført.</string>
+    <string name="trans_detail_list_footer">"1. Du kan vælge individuelle apps, du vil overføre.
+2. Hvis du vælger appdata, vil korresponderende apps også blive valgt.
+3. WeChat- og QQ-appdata vil muligvis ikke blive overført pga. kompatibilitetsproblemer. Du kan forsøge med overførselsfunktioner i selve appen."</string>
     <string name="trans_detail_page_tip">Jo flere elementer du vælger, des længere tid vil overførslen vare.</string>
     <string name="trans_detail_sys_data_list_title">System-apps</string>
     <string name="trans_detail_app_data_list_title">App-data</string>
@@ -368,7 +374,8 @@ Tryk så \"Tilslut igen\" for at scanne QR-koden."</string>
 Venter på overførslen…"</string>
     <string name="trans_select_data">Vælg elementer, der skal sendes.</string>
     <string name="trans_select_data_tips">"Vælg elementer til overførsel.
-Identiske filer på den nye enhed vil blive overskrevet."</string>
+Lignende elementer på den nye enhed vil blive overskrevet.
+(Størrelsen af de overførte elementer, du ser nu, er et løst skøn.)"</string>
     <string name="trans_select_data_no_space">"Der er ikke nok lagerplads i den nye enhed (%s til rådighed).
 Frigør lagerplads eller overfør kun vigtige elementer."</string>
     <string name="trans_select_data_too_large">"Du valgte for mange elementer til overførsel.
@@ -384,6 +391,22 @@ Frigør lagerplads eller overfør kun vigtige elementer."</string>
     <string name="trans_old_phone_low_space_msg">Mi Mover har brug for lagerplads til at pakke de overførte data, men det ser ud, som om der ikke er nok plads til rådighed i den gamle enhed. Frigør plads under \"Sikkerhed\" eller overfør kun vigtige elementer.</string>
     <string name="button_clean_garbage">Frigør plads</string>
     <string name="button_quit">Afslut</string>
+    <string name="soft_ap_creating">Opretter hotspot…</string>
+    <string name="wait_link">"Forbind din gamle enhed til dette hotspot
+Forlad ikke denne side, førend forbindelsen er etableret."</string>
+    <string name="old_way">Du kan også forbinde ved hjælp af en QR-kode. Tryk for at generere koden.</string>
+    <string name="soft_ap_create_failed">Kunne ikke oprette hotspot</string>
+    <string name="scan_soft_ap_label">Forbind til den gamle enhed</string>
+    <string name="scan_soft_ap">Søger efter den nye enhed…</string>
+    <string name="click_soft_ap_to_link">Søger efter et hotspot at forbinde</string>
+    <string name="waiting">Lige et øjeblik…</string>
+    <string name="old_soft_name">Forbinde via QR-kode</string>
+    <string name="confirm_exit_link_title">Afbryder overførslen</string>
+    <string name="confirm_exit_link_msg">Hvis du forlader appen nu, vil den igangværende overførsel blive afbrudt. Du vil være nødt til at retablere forbindelsen mellem de to enheder. Forlad appen alligevel?</string>
+    <string name="confirm_exit_link">Forlad</string>
+    <string name="confirm_exit_link_cancel">Forlad ikke</string>
+    <string name="connect_soft_ap_label">Forbinder til ny enhed…</string>
+    <string name="recreate_soft_ap_tips">Tryk på knappen nedenfor for at prøve igen.</string>
     <string name="trans_install_guide_page_title">Installér Mi Mover på din gamle telefon</string>
     <string name="trans_install_guide_scan_install_tip">"Scan denne QR-kode med din gamle telefon
 for at downloade og installere Mi Mover."</string>
@@ -416,6 +439,8 @@ for at downloade og installere Mi Mover."</string>
     <string name="trans_intro_title_old">På en gammel telefon:</string>
     <string name="trans_intro_desc_old">Tryk \"Jeg er en sender\". Scan QR-koden på den nye telefon og vent, indtil Mi Mover finder ud af, hvilke filer der skal sendes, og tryk \"Send\".</string>
     <string name="trans_intro_desc_old_market">Tryk \"Start\". Scan QR-koden på den nye telefon og vent, indtil Mi Mover finder ud af, hvilke filer der skal sendes, og tryk \"Send\".</string>
+    <string name="trans_intro_question_10">%d. Kan ikke finde hotspottet på den gamle enhed?</string>
+    <string name="trans_intro_desc_10">Tryk på \"Forbind via QR-kode\" på den nye enhed og scan QR-koden for at oprette forbindelse.</string>
     <string name="trans_intro_question_3">%d. Hvad skal jeg gøre, hvis Mi Mover går i stå på et givent trin?</string>
     <string name="trans_intro_desc_3">Annuller overførslen, afslut Mi Mover og begynd forfra. Dubletfiler vil blive overskrevet under den nye overførsel.</string>
     <string name="trans_intro_question_4">%d. Hvorfor kan jeg ikke bruge wi-fi under overførsler?</string>
@@ -438,6 +463,8 @@ for at downloade og installere Mi Mover."</string>
     <string name="trans_intro_desc_multiuser">Mi Mover kan ikke få adgang til elementer i Second space. Flyt elementer til First space og start Mi Mover der.</string>
     <string name="trans_intro_title_multiapp">Dual apps-data:</string>
     <string name="trans_intro_desc_multiapp">Mi Mover overfører ikke dual app-data for at undgå konflikter mellem filer.</string>
+    <string name="trans_intro_title_gms">Data genereret af Google apps:</string>
+    <string name="trans_intro_desc_gms">På grund af høj risiko for mislykket overførsel pga. kompatibilitetsproblemer understøtter Mi Mover ikke overførsel af data, der er genereret af Google apps.</string>
     <string name="trans_intro_question_9_market">%d. Feedback.</string>
     <string name="trans_intro_desc_9_method_1_title">1. Del din feedback ved hjælp af \"Feedback\"-appen.</string>
     <string name="trans_intro_desc_9_method_1_dec">Gå til Startskærm > Værktøjer > Feedback.</string>
@@ -469,7 +496,6 @@ Kunne du lide Mi Mover?"</string>
     <string name="trans_success_dialog_button_survey">Undersøgelse</string>
     <string name="trans_success_dialog_survey_title">Vi sætter pris på din feedback</string>
     <string name="trans_success_survey_hint">Udfyld alle felter først.</string>
-    <string name="trans_cancel_dialog_survey_title">Hvorfor afbrød du overførslen?</string>
     <string name="trans_dialog_survey_finish">Send</string>
     <string name="trans_failed_details_page_title">Overførsler der mislykkedes</string>
     <string name="close_twice_auth_tutor">"Sluk Apple ID's tofaktor-autentifikation"</string>
@@ -539,6 +565,7 @@ https://appleid.apple.com/#!&amp;page=signin at lukke"</string>
 bør du først oprette en iCloud-backup."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund af kompatibilitetsproblemer kan du kun overføre en del af dataene fra iOS-enheder. Vær sikker på, at du har oprettet en iCloud-backup, inden du begynder overførslen.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importér</string>
     <string name="select_empty">Vælg elementer til import</string>
     <string name="select_item_summary_wait">Venter…</string>

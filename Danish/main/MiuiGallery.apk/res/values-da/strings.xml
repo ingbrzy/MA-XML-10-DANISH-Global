@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="confirm_recommandation_face_is">&lt;Data> Sikker på, at dette er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Denne person vil blive flyttet til \"%2$s\" album. &lt;/Data></string>
-    <string name="confirm_recommandation_face_not">&lt;Data> Sikker på, at dette ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
-    <string name="confirm_recommandation_multiple_faces_are">&lt;Data> Sikker på, at disse er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Disse folk vil blive flyttet til \"%2$s\" album. &lt;/Data></string>
-    <string name="confirm_recommandation_multiple_faces_not">&lt;Data> Sikker på, at disse ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
     <string name="accept">Accepter</string>
     <string name="accept_or_deny">%1$s har delt albummet %2$s med dig.</string>
     <string name="actionbar_overflow_item_desc">Flere muligheder</string>
@@ -237,6 +232,9 @@
     <string name="cleaner_screen_shot_action">Ryd</string>
     <string name="cleaner_screen_shot_description">Slet de skærmbilleder, du ikke længere har brug for.</string>
     <string name="cleaner_screen_shot_title">Slet skærmbilleder</string>
+    <string name="cleaner_similar_action">Slet nu</string>
+    <string name="cleaner_similar_description">Slet duplikatfotos</string>
+    <string name="cleaner_similar_title">Duplikatfotos</string>
     <string name="cleaner_slim_action">Start optimering</string>
     <string name="cleaner_slim_description">Opbevar optimerede fotos på din enhed. Originale filer gemmes i Mi Cloud.</string>
     <string name="cleaner_slim_start">Optimer</string>
@@ -244,6 +242,10 @@
     <string name="cleaner_space_description">kan frigøres</string>
     <string name="cleaner_space_detail_description">Ryd fotos i dit Galleri for at frigøre lagerplads</string>
     <string name="cleaner_stop_scan">Stop scanning</string>
+    <string name="cleaner_video_action">Slet nu</string>
+    <string name="cleaner_video_description">Slet videoer, der optager lagerplads</string>
+    <string name="cleaner_video_pick_delete_selected">Slet valgte videoer</string>
+    <string name="cleaner_video_title">Slet videoer</string>
     <string name="click_download_gif">Tryk for at downloade GIF</string>
     <string name="click_top_right">Tryk på dette ikon</string>
     <string name="close">Luk</string>
@@ -306,6 +308,10 @@
     <string name="confirm_merge_face_albums">&lt;Data> Sammenlæg dette album med %s? &lt;/Data></string>
     <string name="confirm_merge_many_face_albums">&lt;Data> Sammenlæg disse albummer med %s? &lt;/Data></string>
     <string name="confirm_not_face">Ingen match</string>
+    <string name="confirm_recommandation_face_is">&lt;Data> Sikker på, at dette er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Denne person vil blive flyttet til \"%2$s\" album. &lt;/Data></string>
+    <string name="confirm_recommandation_face_not">&lt;Data> Sikker på, at dette ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
+    <string name="confirm_recommandation_multiple_faces_are">&lt;Data> Sikker på, at disse er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Disse folk vil blive flyttet til \"%2$s\" album. &lt;/Data></string>
+    <string name="confirm_recommandation_multiple_faces_not">&lt;Data> Sikker på, at disse ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data></string>
     <string name="contact_tip">Kontakt</string>
     <string name="context_menu_add_contact">Føj til kontakter</string>
     <string name="context_menu_copy">Kopiér</string>
@@ -476,7 +482,7 @@
     <string name="ext_sdcard_permission_request_title">Tillad Galleri af få adgang til SD-kort</string>
     <string name="ext_sdcard_request_failed_button_text">OK</string>
     <string name="ext_sdcard_request_succeed_toast_text">Du er klar til at rocke!</string>
-    <string name="face_album_empty">"Ikke nok fotos til at genkende folk.
+    <string name="face_album_empty">"Ikke nok fotos til at genkende folk.r
 Tag flere fotos af dine venner!"</string>
     <string name="face_album_empty_syncing">Synkroniserer data. Kom tilbage om et stykke tid</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Tilslut til netværk for at synkronisere oplysninger</string>
@@ -493,6 +499,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="face_name_edit">Redigér</string>
     <string name="face_name_input">Indtast navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fuldføre handlingen</string>
     <string name="fail_to_pick_email">Ugyldig e-mailadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Tjek din dataforbindelse og prøv igen.</string>
@@ -503,6 +510,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="feature_guidance_photo_effects">"Nye fotoeffekter
 er tilgængelige"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgængelige</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">B&amp;W</string>
     <string name="filter_bi_dusk">Skumring</string>
     <string name="filter_bi_lilt">Munter melodi</string>
@@ -576,6 +584,7 @@ er tilgængelige"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Indstil</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri skal have adgang til 
 %s
  for at fungere normalt, tryk på \"Indstil\" for at gå til Tilladelser."</string>
@@ -655,7 +664,7 @@ er tilgængelige"</string>
     <string name="loading_gif_thumbnail">Downloader GIF-thumbnail…</string>
     <string name="loading_image">Downloader billede…</string>
     <string name="loading_image_thumbnail">Downloader thumbnail…</string>
-    <string name="loading_members">Indlæser medlemmer026</string>
+    <string name="loading_members">Indlæser medlemmer2026</string>
     <string name="loading_processing_tip">Behandler foto…</string>
     <string name="loading_suspend">Download sat på pause. Vil fortsætte, når wi-fi er tilgængelig.</string>
     <string name="loading_video">Downloader video…</string>
@@ -829,6 +838,7 @@ til at gøre Galleri personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Vælg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Unavngivet</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">Til navngivning af personer på fotos</string>
     <string name="permission_contract_name">Kontakter</string>
     <string name="permission_optional_category">Valgfrie tilladelser</string>
@@ -1021,6 +1031,16 @@ til at gøre Galleri personligt"</string>
     <string name="scan_barcode_guide">Tryk på ikonet Del for at få albummets QR-kode.</string>
     <string name="scan_barcode_to_join">Scan QR-kode for at tilføje album</string>
     <string name="scan_qr_code_buttom_text">Scan QR-kode for at se dette album</string>
+    <string name="screen_doodle_talkback_size">Figurlinjebredde</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
+    <string name="screen_editor_finish">Udført</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
+    <string name="screen_save_dialog_btn_cancel">Annuller</string>
+    <string name="screen_save_dialog_btn_delete">Slet skærmbillede</string>
+    <string name="screen_save_dialog_btn_save">Gem i Galleri</string>
     <string name="search_backup_full_screen">Tænd for synkronisering med Mi Cloud for at finde flere objekter og personer</string>
     <string name="search_backup_now">Slå til</string>
     <string name="search_backup_sub_title">Tænd for at finde flere billeder</string>
@@ -1075,6 +1095,9 @@ til at gøre Galleri personligt"</string>
     <string name="search_title_recommend">Anbefalet</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leder efter projektor…</string>
     <string name="secret_album_card_description">Det bedste sted for alle dine små hemmeligheder</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1131,6 +1154,7 @@ til at gøre Galleri personligt"</string>
     <string name="show_hidden_album_title">Vis usynlige albummer</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">Flyttet med succes. Gå til Andre albummer for at se.</string>
     <string name="show_in_other_albums_enable_toast_long_press_menu">Flyttet med succes. Gå til Albummer for at se.</string>
+    <string name="similar_keep_clear">Gem bedste billeder</string>
     <string name="slideshow_interval_dialog_title">Indtast interval</string>
     <string name="slideshow_interval_invalid">Intervallet skal være mellem 3 og 3600 sekunder</string>
     <string name="slideshow_interval_title">Vis hvert dias i</string>
@@ -1151,6 +1175,7 @@ til at gøre Galleri personligt"</string>
     <string name="slim_stop">Stop optimering</string>
     <string name="start_debug">Fejlfinding af Galleri</string>
     <string name="start_to_use_face_albumset">Sorter efter personer</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sticker_ad">Foldere</string>
     <string name="sticker_baibai">Planter</string>
     <string name="sticker_beard">Barber</string>
@@ -1167,6 +1192,10 @@ til at gøre Galleri personligt"</string>
     <string name="sticker_spring">Forår</string>
     <string name="sticker_summer">Sommer</string>
     <string name="sticker_words">Ord</string>
+    <string name="storage_description_primary">Internt lager</string>
+    <string name="storage_description_sdcard">SD-kort</string>
+    <string name="storage_description_usb">USB-lager</string>
+    <string name="storage_description_xspace">Dual apps-data</string>
     <string name="storage_no_space">Ikke nok plads</string>
     <string name="story_back_stop_download">Tryk igen for at stoppe download</string>
     <string name="story_cancel_download">Annuller</string>
@@ -1229,6 +1258,7 @@ til at gøre Galleri personligt"</string>
     <string name="to_enable_sync_dialog_message">Tænd synkronisering først</string>
     <string name="to_enable_sync_dialog_positive_button_text">Gå til Indstillinger</string>
     <string name="to_enable_sync_dialog_title">Synkroniser</string>
+    <string name="today">I dag</string>
     <string name="too_many_recipients">Kan ikke tilføje mere end %2$s modtagere (Du har i øjeblikket tilføjet %1$s).</string>
     <string name="trash_bin">Papirkurv</string>
     <string name="trash_bin_summary">Gennemse sikkerhedskopierede fotos, der blev slettet for nylig</string>
@@ -1365,64 +1395,6 @@ til at gøre Galleri personligt"</string>
     <string name="who_is_this">Hvem er det?</string>
     <string name="xiaomi_account_not_exists_toast">Mi Account findes ikke.</string>
     <string name="yes">Ja</string>
+    <string name="yesterday">I går</string>
     <string name="you_are">Du er babyens</string>
-    <string name="cleaner_similar_action">Slet nu</string>
-    <string name="cleaner_similar_description">Slet duplikatfotos</string>
-    <string name="cleaner_similar_title">Duplikatfotos</string>
-    <string name="cleaner_video_action">Slet nu</string>
-    <string name="cleaner_video_description">Slet videoer, der optager lagerplads</string>
-    <string name="cleaner_video_pick_delete_selected">Slet valgte videoer</string>
-    <string name="cleaner_video_title">Slet videoer</string>
-    <string name="photomovie_audio_custom">Lokal</string>
-    <string name="photomovie_audio_default">Hukommelse</string>
-    <string name="photomovie_audio_kawaii">Romantisk</string>
-    <string name="photomovie_audio_light">Ballade</string>
-    <string name="photomovie_audio_linear">Rock</string>
-    <string name="photomovie_audio_none">Ingen</string>
-    <string name="photomovie_audio_soft">Ukulele</string>
-    <string name="photomovie_audio_sport">Techno</string>
-    <string name="photomovie_cancel_download">Annuller</string>
-    <string name="photomovie_delete_disable">Du skal bruge mindst 3 billeder for at oprette et klip.</string>
-    <string name="photomovie_download">Download</string>
-    <string name="photomovie_download_failed">Kunne ikke downloade</string>
-    <string name="photomovie_download_failed_for_notwork">Kunne ikke downloade. Opret forbindelse til netværket og prøv igen.</string>
-    <string name="photomovie_download_without_wifi_msg">Brug af mobildataforbindelse til at downloade filer vil forøge dit dataforbrug. Hvis du overskrider dit abonnements datagrænse, kan dit teleselskab opkræve yderligere afgifter.</string>
-    <string name="photomovie_download_without_wifi_title">Advarsel om brug af data</string>
-    <string name="photomovie_exit_cancel">Annuller</string>
-    <string name="photomovie_exit_confirm">Afslut</string>
-    <string name="photomovie_exit_content">Alle ændringer vil gå tabt. Afslut alligevel?</string>
-    <string name="photomovie_exit_title">Afslut</string>
-    <string name="photomovie_item_name">Klip</string>
-    <string name="photomovie_return">Tilbage</string>
-    <string name="photomovie_save">Gem</string>
-    <string name="photomovie_save_failed">Kunne ikke gemme</string>
-    <string name="photomovie_save_successfully">Korrekt gemt</string>
-    <string name="photomovie_saving">Opretter klip…</string>
-    <string name="photomovie_tab_edit">Redigér</string>
-    <string name="photomovie_tab_music">Musik</string>
-    <string name="photomovie_tab_template">Skabelon</string>
-    <string name="photomovie_template_default">Langsom</string>
-    <string name="photomovie_template_kawaii">Charms</string>
-    <string name="photomovie_template_light">Brise</string>
-    <string name="photomovie_template_linear">Køretur</string>
-    <string name="photomovie_template_soft">Ungdom</string>
-    <string name="photomovie_template_sport">Vigor</string>
-    <string name="refocus_discard_confirm_message">Save changes?</string>
-    <string name="refocus_discard_negative_btn">Discard</string>
-    <string name="refocus_discard_positive_btn">Save</string>
-    <string name="refocus_photo_not_support">"Can't apply blur to this photo"</string>
-    <string name="refocus_save_cancel">Cancel</string>
-    <string name="refocus_save_title">Select format</string>
-    <string name="refocus_save_to_photo">Save as image</string>
-    <string name="refocus_save_to_video">Save as video</string>
-    <string name="refocus_saving">Saving…</string>
-    <string name="refocus_title">Blur</string>
-    <string name="refocus_type_static">Blur level</string>
-    <string name="refocus_type_video">Light trails</string>
-    <string name="screen_doodle_talkback_size">Figurlinjebredde</string>
-    <string name="screen_editor_finish">Udført</string>
-    <string name="screen_save_dialog_btn_cancel">Annuller</string>
-    <string name="screen_save_dialog_btn_delete">Slet skærmbillede</string>
-    <string name="screen_save_dialog_btn_save">Gem i Galleri</string>
-    <string name="similar_keep_clear">Gem bedste billeder</string>
 </resources>

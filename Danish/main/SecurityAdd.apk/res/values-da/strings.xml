@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sikkerheds-service plug-in</string>
+    <string name="app_name">Systemservice-plugin</string>
     <string name="ok_button">OK</string>
     <string name="cancel_button">Annuller</string>
     <string name="privacy_declare_dialog_title">Servicevilkår</string>
@@ -13,6 +13,7 @@
     <string name="no_network_btn">Prøv igen</string>
     <string name="main_toolbar_purchase">Fyld på</string>
     <string name="usage_sorted_loading_text">Lige et øjeblik…</string>
+    <string name="empty">" "</string>
     <string name="share">Del</string>
     <string name="open_browser">Åbn i browser</string>
     <string name="title_share_link">Del URL</string>
@@ -34,4 +35,5 @@
     <string name="gb_alipays_can_not_complete">Kan ikke gennemføre betaling. Installer for at fortsætte.</string>
     <string name="xunyou_pay_webview">Xunyou-tjenester</string>
     <string name="gamebox_no_network_btn">Load igen</string>
+    <string name="ad_downloading">Download…</string>
 </resources>
