@@ -25,7 +25,7 @@
     <string name="activity_main_update_time">Opdateret %1$s</string>
     <string name="activity_main_update_time_expire">Data udløbet</string>
     <string name="activity_main_update_time_right_now">lige nu</string>
-    <string name="activity_minute_rain_location_fail_msg">Kunne ikke finde placering. Viser Beijing som standard.</string>
+    <string name="activity_minute_rain_location_fail_msg">Kunne ikke hente nøjagtige placeringsoplysninger. Skiftede til den aktuelle by.</string>
     <string name="add_city">Tilføj</string>
     <string name="alert_detail_title">Advarselsoplysninger</string>
     <string name="alert_warning">Vejrmeldinger</string>
@@ -55,6 +55,8 @@
     <string name="aqi_quality_pm10_desc">Inhalerbare grove partikler</string>
     <string name="aqi_quality_pm25_desc">Finpartikler</string>
     <string name="aqi_quality_so2_desc">Svovldioxid</string>
+    <string name="aqi_settings_summary">AQI-alarmer</string>
+    <string name="aqi_settings_title">AQI</string>
     <string name="aqi_station_best_quality_station">Bedste i nærheden</string>
     <string name="aqi_station_min_distance_station">Nærmeste station</string>
     <string name="aqi_top_pollution">Større forureninger</string>
@@ -91,10 +93,12 @@
     <string name="daily_forecast_add_city_message">Følg vejret i %1$s for en mere detaljeret vejrudsigt.</string>
     <string name="daily_forecast_add_city_title">Følg vejret i %1$s</string>
     <string name="daily_forecast_detail_date">M/d</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunne ikke hente vejroplysninger
 Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="data_provided_by">Data delvist leveret af</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Opdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke oprette forbindelse til netværket</string>
     <string name="empty_view_refresh">Prøv igen</string>
@@ -113,6 +117,8 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="first_start_network_title">Adgangs til internetforbindelse og placering</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-timers prognose</string>
     <string name="hourly_forecast_title_hourly_desc">Prognose hver time</string>
@@ -128,9 +134,11 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="indices_title_feel">Ægte fornemmelse</string>
     <string name="indices_title_pressure">Tryk</string>
     <string name="install">Installer</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">TRYK</string>
     <string name="international_details_title">Oplysninger</string>
     <string name="international_details_uv_index_title">UV-INDEKS</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer til at regne</string>
     <string name="locate_fail_detail_err">"Kan ikke finde enheden
@@ -198,7 +206,7 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="real_time_sunrise">Solopgang %1$s</string>
     <string name="real_time_sunset">Solnedgang %1$s</string>
     <string name="realtime_aqi_title">Luftkvalitetsindeks</string>
-    <string name="realtime_humidity_title">Relativ luftfugtighed</string>
+    <string name="realtime_humidity_title">Luftfugtighed</string>
     <string name="realtime_temperature_no_data">Kan ikke købes</string>
     <string name="realtime_wind_default_title">Vind</string>
     <string name="refresh_fail">Kunne ikke få forbindelse til netværk</string>
@@ -214,6 +222,7 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI Vejr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke tage skærmbillede</string>
     <string name="some_where_on_earth">Et sted på jorden</string>

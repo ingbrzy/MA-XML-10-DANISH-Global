@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Tilføj til arbejdsområde</string>
     <string name="activity_not_found">Appen er ikke installeret på din enhed</string>
     <string name="add_screen">Tilføj skærm</string>
@@ -195,6 +196,7 @@
     <string name="is_system_wallpaper_message">Kan ikke slette systemressourcer</string>
     <string name="launcher_auto_fill_empty_title">Udfyld tomme celler</string>
     <string name="launcher_not_exist">Der opstod en fejl. Gå tilbage til startskærmen og prøv igen.</string>
+    <string name="launcher_sliding_up_gesture">Stryg op på startskærmen for at åbne søgning</string>
     <string name="launcher_title">Startskærm og seneste</string>
     <string name="like">Føj til favoritter</string>
     <string name="liked">Føjet til favoritter</string>
@@ -355,6 +357,9 @@
     <string name="widget_global_search">Søg</string>
     <string name="widget_quick_function">Hurtigfunktioner</string>
     <string name="widgets_preview_title">Tilføj widget</string>
+    <string name="edit_mode_dual_app">Opret dual app</string>
+    <string name="edit_mode_group_error_cant_delete_system_apps">Kan ikke afinstallere system-apps</string>
+    <string name="edit_mode_group_error_nothing_be_selected">Vælg en app først</string>
     <string name="home_gesture_content_center">Indholdscenter</string>
     <string name="home_gesture_global_search">Søg</string>
     <string name="home_gesture_no_action">Ingen</string>
@@ -363,6 +368,5 @@
     <string name="home_slide_up_action">Stryg opad på startskærmen</string>
     <string name="launcher_pull_down_title">Stryg nedad på startskærmen</string>
     <string name="launcher_slide_up_title">Stryg opad på startskærmen</string>
-    <string name="launcher_sliding_up_gesture">Stryg op på startskærmen for at åbne søgning</string>
     <string name="minus_one_screen">App-boks</string>
 </resources>

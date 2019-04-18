@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Denne telefons Second space</string>
     <string name="other_device_main_space">First space</string>
     <string name="other_device_second_space">Second space</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
     <string name="size_unknown">Ukendt størrelse</string>
     <string name="recovering">Gendanner %s</string>
@@ -72,7 +74,7 @@
     <string name="desktop_waiting">Venter</string>
     <string name="desktop_downloading">Downloader</string>
     <string name="desktop_installing">Installerer</string>
-    <string name="desktop_wait_wifi">Venter</string>
+    <string name="desktop_wait_network">Venter…</string>
     <string name="desktop_failed">Fejl</string>
     <string name="recover_from_micloud">Gendan fra Mi Cloud-sikkerhedskopi</string>
     <string name="click_try_to_restore_again">Tryk for at prøve igen</string>
@@ -114,7 +116,7 @@
     <string name="confirm_cancel_restore_positive">Fortsæt</string>
     <string name="confirm_cancel_restore_negative">Annuller</string>
     <string name="confirm_restore_title">Gendan</string>
-    <string name="confirm_restore_summary">Startskærmen genstartes og apps downloades automatisk, når der er forbindelse til Wi-Fi</string>
+    <string name="confirm_restore_summary">Din startskærm genstartes. Sikkerhedskopierede apper downloades automatisk.</string>
     <string name="confirm_restore">Gendan</string>
     <string name="cloud_backup_have_data">Fandt sikkerhedskopi i Mi Cloud</string>
     <string name="cloud_backup_select_recover">Vælg sikkerhedskopi fra Mi Cloud</string>
@@ -134,7 +136,9 @@
     <string name="provision_error_connect_msg">Test netværket og prøv igen. Sikkerhedskopier er ikke tilgængelige, når din enhed er offline.</string>
     <string name="provision_error_connect_title">Kan ikke oprette forbindelse</string>
     <string name="loading_user_backup">Indlæser brugersikkerhedskopier…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
+    <string name="doing_calc_backup_data_size">Beregner størrelse…</string>
     <string name="authentication_failed">Kunne ikke bekræfte konto.</string>
     <string name="no_account">Ikke logget på Mi-konto.</string>
     <string name="no_backup">Ingen sikkerhedskopier i Mi Cloud.</string>
@@ -181,10 +185,34 @@
     <string name="msg_alert_cancel_restore">Gendanner elementer. Stop nu?</string>
     <string name="btn_restore_cancel">Annuller</string>
     <string name="btn_restore_resume">Fortsæt</string>
+    <string name="btn_restore_wait">Vent på Wi-Fi</string>
+    <string name="btn_restore_continue">Genskab alligevel</string>
+    <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> af filer downlodes."</string>
+    <string name="msg_restore_with_metered_network_hint">Hvis du fortsætter med at genskabe disse elementer, bruges mobildata til at downloade.</string>
+    <string name="msg_restore_start_with_metered_network">"Din startskærm genstartes. Sikkerhedskopierede apper downloades automatisk. &lt;br />&lt;b>&lt;font color='red'>%s af filer downloades.&lt;/font>&lt;/b>"</string>
+    <string name="title_restore_with_current_network">Bruger aktuel forbindelse til at downloade filer</string>
     <string name="title_alert_restore_error">Kunne ikke gendanne</string>
     <string name="msg_alert_restore_error">Kunne ikke gendanne elementer fra Mi Cloud. Prøv igen.</string>
     <string name="btn_restore_retry">Prøv igen</string>
     <string name="btn_restore_abort">Annuller</string>
     <string name="backup_stopped_title">Sikkerhedskopiering sat på pause</string>
     <string name="backup_stopped_msg">Nuværende sikkerhedskopi vil overskrive den forrige. Tryk for at se.</string>
+    <string name="restore_network_unconnect">%s (Venter på forbindelse)</string>
+    <string name="restore_network_pause">%s (Tryk for at fortsætte)</string>
+    <string name="restore_detail_title">Vælg elementer at gendanne</string>
+    <string name="restore_detail_category_settings">Indstillinger</string>
+    <string name="restore_detail_category_apps">Startskærmlayout &amp; apper</string>
+    <string name="restore_detail_more">Mere</string>
+    <string name="restore_app_order_title">Prioriter gendannede elementer</string>
+    <string name="restore_app_order_search_hint">Søg efter elementer til at indstille prioritet</string>
+    <string name="restore_app_order_search_prior">Højt prioriterede apper</string>
+    <string name="restore_app_order_search_normal">Almindeligt prioriterede apper</string>
+    <string name="restore_app_order_search_installed">Apper på denne enhed</string>
+    <string name="restore_app_order_retry">Prøv igen</string>
+    <string name="restore_app_order_retry_desc">"Kunne ikke oprette forbindelse til netværket.
+Kontrollér dine netværksindstillinger og prøv igen."</string>
+    <string name="restore_app_order_loading">Lige et øjeblik…</string>
+    <string name="restore_app_order_finish">Færdig</string>
+    <string name="provision_restore_data">Gendanner elementer</string>
+    <string name="provision_background_restore_more_data">Gendan flere elementer i baggrunden</string>
 </resources>

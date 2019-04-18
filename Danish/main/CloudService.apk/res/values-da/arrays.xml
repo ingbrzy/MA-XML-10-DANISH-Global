@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="user_detail_fixed_items">
+        <item>Se synkroniserede elementer</item>
+        <item>Lageroplysninger</item>
+    </string-array>
     <string-array name="korea_permission_groups_descriptions">
         <item>Til at identificere synkroniserede elementer</item>
         <item>Til at synkronisere SMS-beskeder</item>

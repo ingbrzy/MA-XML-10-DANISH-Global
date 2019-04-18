@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Tilføj alarm</string>
     <string name="add_clock">Tilføj ur</string>
     <string name="add_timezone_title">Tilføj tidszone</string>
@@ -63,6 +64,9 @@
     <string name="channel_name_timer">Timer</string>
     <string name="check_theme_app_install">Sørg for, at Themes-appen er installeret på din enhed.</string>
     <string name="check_voice_assist_app_version">Opdater Mi Al til den seneste version.</string>
+    <string name="clock_bg_button_setting_summary_common">Vælg baggrundsfarve for appen Ur</string>
+    <string name="clock_bg_button_setting_summary_follow_sys">Sort vil blive brugt som baggrundsfarve, hver gang du skifter til tilstanden Mørk</string>
+    <string name="clock_bg_button_setting_title">Baggrundsfarve</string>
     <string name="close_alarm">Slå fra</string>
     <string name="common_settings">Indstillinger</string>
     <string name="confirm_abort">Afvis</string>
@@ -83,6 +87,11 @@
     <string name="dialog_message_for_contact_permission">For at gøre fødselsdagsalarmer tilgængelige skal uret have adgang til dine kontakter. Enig?</string>
     <string name="dialog_message_negative">Ikke enig</string>
     <string name="dialog_message_not_remind">Vis ikke igen</string>
+    <string name="dialog_privacy_content">For at kunne hente og synkronisere oplysninger om lokale helligdage og tilbyde personlige tjenester, skal uret have forbindelse til internettet. Inden uret kan bruges, skal du også læse og acceptere vores %1$s og %2$s. Accepter?</string>
+    <string name="dialog_privacy_content_global">For at kunne tilbyde personlige tjenester skal uret have forbindelse til internettet. Inden du bruger uret, skal du også læse og acceptere vores %1$s og %2$s. Accepter?</string>
+    <string name="dialog_privacy_content_news">For at kunne tilbyde personlige tjenester og inkludere morgennyheder i alarmer, skal uret have forbindelse til internettet. Inden du bruger uret, skal du også læse og acceptere vores %1$s og %2$s. Accepter?</string>
+    <string name="dialog_privacy_content_timer">For at kunne downloade lydfiler til omgivende støjtimere og tilbyde personlige tjenester, skal uret have forbindelse til internettet. Inden du kan bruge uret, skal du også læse og acceptere vores %1$s og %2$s. Accepter?</string>
+    <string name="dialog_privacy_content_timer_data">For at kunne downloade lydfiler til omgivende støjtimere (≈20 MB) og tilbyde personlige tjenester skal uret have forbindelse til internettet. Inden du kan bruge uret, skal du også læse og acceptere vores %1$s og %2$s. Du bruger mobildata nu. Accepter?</string>
     <string name="done">Udført</string>
     <string name="dynamic_alarm_speech">Smart alarm</string>
     <string name="edit_alarm">Indstil alarm</string>
@@ -93,6 +102,10 @@
     <string name="force_touch_enter_stopwatch">Stopur</string>
     <string name="force_touch_enter_timer">Timer</string>
     <string name="go_back">Tilbage</string>
+    <string name="holiday_update">Der er en opdatering til offentlige helligdage tilgængelig</string>
+    <string name="holiday_update_fail">Kunne ikke opdatere</string>
+    <string name="holiday_update_loading">Opdaterer…</string>
+    <string name="holiday_update_success">Alle elementer er opdateret</string>
     <string name="hour_unit">Timer +</string>
     <string name="install_weather_app_error">Kunne ikke loade app.</string>
     <string name="install_weather_app_loading">Lige et øjeblik…</string>
@@ -118,6 +131,7 @@
     <string name="life_post_setting">Morgenrapport</string>
     <string name="life_post_setting_FBE_remind">På grund af systembegrænsninger vil vejrudsigter i morgenrapporter måske ikke blive vist korrekt efter genstart af enheden.</string>
     <string name="life_post_setting_close_title">Sluk for morgenrapporter</string>
+    <string name="life_post_setting_open_desc">Sluk gentage alarmer mellem 04:00 og 10:00 AM for at lytte til den aktuelle vejrudsigt</string>
     <string name="life_post_setting_open_subtitle">Modtag vejrudsigter, når du slukker for alarmer mellem kl. 4:00 and 9:30.</string>
     <string name="life_post_setting_open_title">Modtag morgenrapporter</string>
     <string name="life_post_setting_wake_up_list_title">Opvågningshistorik</string>
@@ -139,13 +153,15 @@
     <string name="menu_item_sort_by_gmt_offset">Sorter efter tid</string>
     <string name="menu_item_sort_by_name">Sortér efter navn</string>
     <string name="module_download_cancel">Nej tak</string>
-    <string name="module_download_data_msg">Uret skal oprette forbindelse til internettet for at hente lydfiler for MIUI 10 vejralarmer og omgivende larm-timere. Til denne indlæsning skal der bruges 20MB af dine mobildata. Enig?</string>
-    <string name="module_download_data_msg_golbal">Uret skal hente lydfiler for MIUI 10 vejralarmer og omgivende larm-timere. Til denne indlæsning skal der bruges 20MB af dine mobildata. Enig?</string>
-    <string name="module_download_data_msg_replace">Der er opdateret lyd til smart-alarmer (≈20 MB). Opret forbindelse til netværket og download ved brug af mobildata?</string>
+    <string name="module_download_data_msg">Ur skal downloade lydfiler til MIUI smarte alarmer. Smarte alarmer indeholder lydfunktioner, som gør det muligt at inkludere aktuelle vejroplysninger i alarmerne. Der kræves ≈20 MB af dine mobildata til denne download. Download nu?</string>
+    <string name="module_download_data_msg_golbal">Ur skal downloade lydfiler MIUI smarte alarmer. Der kræves ≈20 MB af dine mobildata til denne download. Download nu?</string>
+    <string name="module_download_data_msg_replace">Ur skal downloade lydfiler MIUI smarte alarmer. Der kræves ≈20 MB af dine mobildata til denne download. Download nu?</string>
+    <string name="module_download_data_msg_timer">Ur skal downloade lydfiler omgivende støjtimere. Der kræves ≈20 Mb af dine mobildata til denne download. Download nu?</string>
     <string name="module_download_fail">Kunne ikke downloade yderligere audio</string>
-    <string name="module_download_msg">Uret skal oprette forbindelse til internettet for at hente lydfiler for MIUI 10 vejralarmer og omgivende larm-timere. Enig?</string>
-    <string name="module_download_msg_golbal">Uret skal downloade lydfiler for MIUI 10 vejralarmer og omgivende larm-timere. Enig?</string>
-    <string name="module_download_msg_replace">Der er opdateret lyd til smart-alarmer. Opret forbindelse til netværket og download nu?</string>
+    <string name="module_download_msg">Ur skal downloade lydfiler til MIUI smarte alarmer. Smarte alarmer indeholder lydfunktioner, som gør det muligt at inkludere aktuelle vejroplysninger i alarmerne. Download nu?</string>
+    <string name="module_download_msg_golbal">Ur skal downloade lydfiler til MIUI smarte alarmer. Download nu?</string>
+    <string name="module_download_msg_replace">Opdateret lyd til MIUI smarte alarmer er tilgængelig. Download nu?</string>
+    <string name="module_download_msg_timer">Ur skal downloade lydfiler til omgivende støjtimere. Download nu?</string>
     <string name="module_download_no_network">Kunne ikke tilslutte til netværket. Kontrollér dine netværksindstillinger og prøv igen.</string>
     <string name="module_download_ok">Tillad</string>
     <string name="module_download_success">Downloadet yderligere audio</string>
@@ -160,6 +176,7 @@
     <string name="other_category_title">Andet</string>
     <string name="pause">Pause</string>
     <string name="percentage_sign">%</string>
+    <string name="personal_recommend">Anbefalinger til personaliseret indhold</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
     <string name="remind_ringtone">Ringetone</string>
     <string name="repeat_count">Gange</string>
@@ -184,6 +201,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmen vil aktivere, hvis den er sat til mindst 5 minutter, efter du slukker for din enhed</string>
     <string name="shutdown_alarm_title">Sluk for alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sluk én gang på %s</string>
     <string name="slider_text">Swipe op for at slukke</string>
     <string name="snooze_confirm_cancel">Afblæs alarm</string>
@@ -202,6 +220,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen overlap</string>
     <string name="stopwatch_title">Stopur</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Indstillinger</string>
     <string name="system_time_settings_category_title">Tidsindstillinger</string>
     <string name="temperature_unit">℃</string>
@@ -255,6 +274,7 @@
     <string name="turn_off_this_repeat_alarm">Sluk denne repeterende alarm</string>
     <string name="upcoming_alarm">%s  Kommende alarmer</string>
     <string name="upcoming_alarm_hint">Du kan lukke alarm på forhånd.</string>
+    <string name="user_agreement">Brugeraftale</string>
     <string name="vibrate_pref_summary">Vibrer, når alarm lyder.</string>
     <string name="vibrate_when_ringing">Vibrer ved ringning</string>
     <string name="volume_button_setting_summary">Indstil lydstyrke-knappers funktion under alarm</string>

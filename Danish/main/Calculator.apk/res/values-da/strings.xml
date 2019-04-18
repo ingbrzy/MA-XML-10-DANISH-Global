@@ -104,7 +104,7 @@
     <string name="item_title_currency">Valuta</string>
     <string name="item_title_dress_size">Tøjstørrelse</string>
     <string name="item_title_length_conversion">Længde</string>
-    <string name="item_title_mortgage">Pant</string>
+    <string name="item_title_mortgage">Huslån</string>
     <string name="item_title_scientific_calculator">Videnskabelig</string>
     <string name="item_title_tax">Skatter</string>
     <string name="item_title_temprature_conversion">Temperatur</string>
@@ -136,9 +136,7 @@
     <string name="loan_interest_rate">Renter</string>
     <string name="loan_pay_years">Låneperiode</string>
     <string name="loan_payback_way">Tilbagebetaling</string>
-    <string name="loan_repayment_detail">Detaljeret tilbagebetaling</string>
     <string name="loan_repayment_detail_loading">Loader detaljeret tilbagebetaling…</string>
-    <string name="loan_repayment_detail_unit">Detaljeret tilbagebetaling (CNY)</string>
     <string name="loan_unit">(×10K)</string>
     <string name="medical_treatment">Medicinsk behandling</string>
     <string name="menuDesc">menu</string>
@@ -166,7 +164,7 @@
     <string name="mortgage_interest_rate">Kommerciel rente</string>
     <string name="mortgage_item_repayment">Tilbagebetalingsmetode</string>
     <string name="mortgage_item_start_time">Startdato</string>
-    <string name="mortgage_item_years">Panteperiode</string>
+    <string name="mortgage_item_years">Låneperiode</string>
     <string name="mortgage_loans_amount">Pantebeløb</string>
     <string name="mortgage_provident_found_interest_rate">Lånets rentesats</string>
     <string name="mortgage_repayment_amount">Tilbagebetalingsbeløb</string>
@@ -594,12 +592,23 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke forbinde til Downloads. Kontrollér, om denne app har alle de nødvendige tilladelser i indstillingerne > installeret apps.</string>
     <string name="xiaomi_external_storage_unavailable">Lager er ikke tilgængeligt. Kontrollér dit SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
 Delta opdateringsstørrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_title">%1$s opdatering!</string>
     <string name="year" />
+    <string name="app_notification_info">Lommeregner arbejder i baggrunden</string>
+    <string name="btn_float_window_alpha">Juster opacitet</string>
+    <string name="btn_float_window_back_to_app">Maksimer lommeregner</string>
+    <string name="btn_float_window_close">Luk minimeret lommeregner</string>
+    <string name="btn_float_window_resize">Ændr størrelsen på minimeret lommeregner</string>
+    <string name="float_window_guide_text">Tryk her for at minimere lommeregner</string>
+    <string name="hint_floatwindow_alpha_guide_text">Tryk for at justere opacitet</string>
+    <string name="view_float_window_move">Flyt minimeret lommeregner</string>
 </resources>

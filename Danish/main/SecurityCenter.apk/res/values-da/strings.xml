@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -124,7 +126,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="st_settings_name">Indstillinger for blokeringsliste</string>
     <string name="st_filter_keywords_setting_summary1">Beskeder fra ukendte numre, der indeholder ordene i denne liste, vil blive blokeret.</string>
     <string name="st_filter_keywords_setting_summary3">Beskeder fra ukendte numre, der indeholder ordene i denne liste, vil blive tilladt.</string>
-    <string name="st_filter_keywords_setting_summary2">(Use a comma to separate multiple keywords)</string>
+    <string name="st_filter_keywords_setting_summary2">(Brug et komma til at adskille flere nøgleord)</string>
     <string name="label_callwait">Banke på-notifikation</string>
     <string name="open_callwait">Slået til</string>
     <string name="close_callwait">Slået fra</string>
@@ -461,6 +463,7 @@ svarer"</string>
     <string name="not_limited_brand">Ubegrænset</string>
     <string name="pref_about_traffic_title">Indstillinger for dataforbrug</string>
     <string name="pref_traffic_manage_title">Databrug</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Sæt dataforbrug</string>
     <string name="pref_category_title_other">Yderligere indstillinger</string>
@@ -949,7 +952,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="memory_clean_memory_size_tip">Cache</string>
     <string name="memory_clean_no_need_clean">Alt ser fint ud</string>
     <string name="optimize_result_available_memory_info">Tilgængelig hukommelse</string>
-    <string name="optimize_result_title_uninstall_apps">Apps</string>
+    <string name="optimize_result_title_uninstall_apps">Afinstaller apper</string>
     <string name="om_settings_title">Indstillinger</string>
     <string name="om_settings_lock_app_manage">Lås apps</string>
     <string name="om_settings_lock_app">Lås apps</string>
@@ -1012,6 +1015,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uden et signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="power_screen">Skærm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1234,12 +1238,17 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_center_list_item_auto_brightness">Indstil automatisk skærmens lysstyrke</string>
     <string name="power_center_list_item_deep_save_title">Avancerede indstillinger</string>
     <string name="power_center_list_item_battery_status_time">t</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Stop scanning</string>
     <string name="hide_mode_result_summary_text">Tilpas batterisparer-indstillinger for individuelle apps</string>
     <string name="auto_task_result_summary_text">Indstil automatiske opgaver for batterisparer</string>
     <string name="pc_settings_title">Indstillinger for batterioptimering</string>
     <string name="pc_main_activity_back">Tilbage</string>
     <string name="extreme_power_save_mode_card_summary">Slå Extreme-batterisparer til for at spare på strømmen, når batteriet er ved at være fladt.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">System</string>
     <string name="apps_list_header_title_sms">Kontrollér besked-app</string>
     <string name="apps_list_header_title_sms_access">Begræns adgang for verifikationskoder</string>
@@ -1348,11 +1357,13 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="menu_text_optimize_manage">Boost hastigheden</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_summary_networkassistants">Administrer din dataplan</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Overskred grænsen</string>
     <string name="menu_summary_networkassistants_3">Nok data tilbage</string>
     <string name="menu_summary_networkassistants_4">Løber tør for data</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">kB</string>
@@ -1365,12 +1376,14 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="menu_summary_garbage_cleanup">Ingen uønskede filer fundet</string>
     <string name="menu_summary_garbage_cleanup_2">Størrelse af uønskede filer</string>
     <string name="menu_summary_garbage_cleanup_3">Ryd uønskede filer nu</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Batterioptimering</string>
     <string name="menu_summary_power_manager">Batteribesparer giver dig mere tid mellem opladninger</string>
     <string name="menu_summary_power_manager_1">Batteri er fuldt opladt</string>
     <string name="menu_summary_power_manager_2">%s tilbage</string>
     <string name="menu_summary_power_manager_3">Tilslut oplader</string>
     <string name="menu_summary_power_manager_4">%s indtil fuld</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Forrige scanning blev annulleret</string>
     <string name="examination_score_100">Alt ser fint ud!</string>
     <string name="examination_score_80_100">Nogle få elementer kan optimeres</string>
@@ -1748,6 +1761,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="card_main_deepclean_wechat_action">Ryd</string>
     <string name="card_main_sectool_title">Værktøjer</string>
     <string name="card_main_monthreport_action">Se</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test netværk</string>
     <string name="card_main_netcheck_summary">Testforbindelse for netværksfejl</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2010,6 +2024,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="confirmSecondSpacePassword">Bekræft adgangskode til det andet rum</string>
     <string name="sponsored_sec_fb">Sponsoreret</string>
     <string name="add_game_notification_summary">Tryk for at starte og booste hastighed</string>
+    <string name="gb_shortcut_pref_title">Genvej til startskærm</string>
     <string name="app_manager_title">Administrer apps</string>
     <string name="app_manager_uninstall">Afinstaller</string>
     <string name="app_manager_bipartition">Dobbelte apps</string>
@@ -2125,6 +2140,7 @@ Du vil ikke miste nogen appdata."</string>
     <string name="manage_hybrid_permissions">Administrer apps tilladelser</string>
     <string name="app_manager_full_screen_title">Fuldskærmstilstand</string>
     <string name="app_manager_full_screen_summary">Giv udvalgte apps lov til at virke i fuldskærmstilstand</string>
+    <string name="app_manager_find_apps">Find apps</string>
     <string name="ad_btn_default_text">Få mere at vide</string>
     <string name="open_activity_err">Programmet blev ikke fundet</string>
     <string name="low_memory_warning_dialog_title">Ikke nok ledig plads</string>
@@ -2354,6 +2370,7 @@ Du vil ikke miste nogen appdata."</string>
     <string name="gb_advance_settings_reset_dialog_content">Gendan standardindstillinger nu?</string>
     <string name="title_reply">Kommentar</string>
     <string name="title_like">Synes godt om</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_wid_viewpoint_buttom">Tag en kort pause.</string>
     <string name="video_repeat">Afspil igen</string>
@@ -2391,8 +2408,13 @@ Du vil ikke miste nogen appdata."</string>
     <string name="notify_diving_mode_exception_open_fail">Der opstod en SIM-kortfejl. Kunne ikke aktivere immersiv tilstand.</string>
     <string name="notify_diving_mode_exception_close_fail">Der opstod en SIM-kortfejl. Kunne ikke deaktivere immersiv tilstand.</string>
     <string name="gamebox_recent_task_expand_fail">Apps, der bruger genveje, er ikke installerede</string>
-    <string name="gamecenter_install_sucessfull">Installed successfully</string>
-    <string name="gamecenter_install_fail">"Couldn't install"</string>
+    <string name="gamecenter_install_sucessfull">Installation fuldført</string>
+    <string name="gamecenter_install_fail">Kunne ikke installere</string>
+    <string name="securityadd_update_tips_title">Opdater</string>
+    <string name="securityadd_update_tips_message">Opdater plug-in til sikkerhedsservice for at få adgang til de seneste gaming-funktioner. %1$dMB downloades.</string>
+    <string name="securityadd_update_tips_cancle">Ikke nu</string>
+    <string name="securityadd_update_tips_now">Opdater</string>
+    <string name="securityadd_install_fail">Kunne ikke opdatere plug-in. Prøv igen.</string>
     <string name="notify_channel_name_security">Systemsikkerhed</string>
     <string name="privacy_apps_category_title">Skjulte apps</string>
     <string name="privacy_apps">Skjulte apps</string>
@@ -2524,5 +2546,4 @@ Alle data på din enhed kan blive slettet, og din låseskærmsadgangskode kan bl
     <string name="resource_gamebooster">Spilhastighedsbooster</string>
     <string name="keywords_gamebooster">Spil;hastighedsbooster;King of Glory;Ydeevnetilstand;DND;Spil;Spil;Spilhastighed;boost</string>
     <string name="path_gamebooster">System-apps/Sikkerhed/Spilhastighedsbooster</string>
-    <string name="gb_shortcut_pref_title">Home screen shortcut</string>
 </resources>

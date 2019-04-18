@@ -340,6 +340,11 @@
         <item>Paramaribo</item>
         <item>Quito</item>
     </string-array>
+    <string-array name="clock_bg_setting_entries">
+        <item>Hvid</item>
+        <item>Sort</item>
+        <item>Auto</item>
+    </string-array>
     <string-array name="countries_names_miui">
         <item>Elfenbenskysten</item>
         <item>Ghana</item>

@@ -20,6 +20,10 @@
         <item quantity="other">Meget lille forsinkelse (%1$d ms)</item>
         <item quantity="one">Meget lille forsinkelse (%1$d ms)</item>
     </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="other">" %1$stimer %2$s"</item>
+        <item quantity="one">" %1$stime %2$s"</item>
+    </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Slået fra for %d apps</item>
         <item quantity="one">Slået fra for %d app</item>
