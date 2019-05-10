@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Bemærk!</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Denne video kan ikke streames på denne enhed.</string>
     <string name="selectTextMode">Markér tekst</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon for fingeraftryk</string>
     <string name="paste_as_plain_text">Indsæt som almindelig tekst</string>
     <string name="autofill">AutoFyld</string>
@@ -386,6 +387,7 @@ Kontakt din organisations administrator, hvis du har spørgsmål."</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Funktionskoden er komplet.</string>
     <string name="fcError">Forbindelsesproblemer eller ugyldig funktionskode.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Find</string>
     <string name="find_next">Find næste</string>
     <string name="find_on_page">Find på siden</string>
@@ -591,6 +593,7 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Angiv pinkode til SIM-kort</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kortet låses op…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har indtastet din adgangskode forkert %1$d gange. 
 
 Prøv igen om %2$d sekunder."</string>
@@ -615,6 +618,14 @@ Prøv igen om %2$d sekunder."</string>
     <string name="leave_accessibility_shortcut_on">Brug genvej</string>
     <string name="loading">Indlæser…</string>
     <string name="locale_search_menu">Søg</string>
+    <string name="lock_to_app_description">"Skærmfastgørelse låser skærmen i en enkelt visning.
+
+For at frigøre skærmen skal du holde hjem- og tænd/sluk-knappen nede samtidigt."</string>
+    <string name="lock_to_app_description_accessible">"Skærmfastgørelse låser skærmen i en enkelt visning.
+
+For at frigøre skærmen skal du holde hjem- og tænd/sluk-knappen nede samtidigt."</string>
+    <string name="lock_to_app_toast">For at frigøre denne skærm skal du holde hjem- og tænd/sluk-knappen nede samtidigt.</string>
+    <string name="lock_to_app_toast_accessible">For at frigøre denne skærm skal du holde hjem- og tænd/sluk-knappen nede samtidigt.</string>
     <string name="lock_to_app_unlock_password">Bed om adgangskode inden frigørelse</string>
     <string name="lock_to_app_unlock_pattern">Bed om oplåsningsmønster ved deaktivering</string>
     <string name="lock_to_app_unlock_pin">Bed om pinkode inden frigørelse</string>
@@ -646,15 +657,15 @@ Besøg "<b>google.com/accounts/recovery</b>.</string>
     <string name="lockscreen_instructions_when_pattern_enabled">Tryk på Menu for at låse op eller foretage et nødopkald.</string>
     <string name="lockscreen_missing_sim_instructions">Indsæt et SIM-kort.</string>
     <string name="lockscreen_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke læses. Indsæt et SIM-kort.</string>
-    <string name="lockscreen_missing_sim_message">Der er ikke noget SIM-kort i telefonen.</string>
+    <string name="lockscreen_missing_sim_message">Intet SIM-kort i telefonen.</string>
     <string name="lockscreen_missing_sim_message_short">Intet SIM-kort</string>
     <string name="lockscreen_network_locked_message">Netværket er låst</string>
     <string name="lockscreen_password_wrong">Prøv igen</string>
     <string name="lockscreen_pattern_correct">Rigtigt!</string>
     <string name="lockscreen_pattern_instructions">Tegn oplåsningsmønster</string>
     <string name="lockscreen_pattern_wrong">Prøv igen</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions">"Dit SIM-kort er blevet permanent deaktiveret.
-Kontakt din tjenesteudbyder for at få et nyt SIM-kort."</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions">"Dit SIM-kort er permanent deaktiveret.
+Kontakt din trådløse tjenesteudbyder for at få et andet SIM-kort."</string>
     <string name="lockscreen_permanent_disabled_sim_message_short">Ubrugeligt SIM-kort.</string>
     <string name="lockscreen_return_to_call">Tilbage til opkald</string>
     <string name="lockscreen_screen_locked">Skærmen er låst.</string>
@@ -875,6 +886,7 @@ Prøv igen om %2$d sekunder."</string>
     <string name="notification_channel_wfc">Wi-Fi-opkald</string>
     <string name="notification_hidden_text">Ny underretning</string>
     <string name="notification_listener_binding_label">Underretningslytter</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Tjeneste til rangering af underretninger</string>
     <string name="notification_reply_button_accessibility">Svar</string>
     <string name="notification_title">Loginfejl for %1$s</string>
@@ -1420,8 +1432,11 @@ Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</st
     <string name="system_error_wipe_data">Der er et internt problem med enheden, og den vil muligvis være ustabil, indtil du gendanner fabriksdataene.</string>
     <string name="taking_remote_bugreport_notification_title">Opretter fejlrapport…</string>
     <string name="terabyteShort">Tb</string>
-    <string name="tethered_notification_message">Tryk for at konfigurere</string>
-    <string name="tethered_notification_title">Netdeling eller hotspot er aktivt</string>
+    <string name="tethered_notification_message">Tryk for at opsætte.</string>
+    <string name="tethered_notification_multi_device_message">%1$s forbundne enheder</string>
+    <string name="tethered_notification_no_device_message">Ingen tilsluttet enhed</string>
+    <string name="tethered_notification_one_device_message">%1$s forbundet enhed</string>
+    <string name="tethered_notification_title">Tethering eller hotspot aktivt</string>
     <string name="textSelectionCABTitle">Tekstmarkering</string>
     <string name="text_copied">Teksten er kopieret til udklipsholderen.</string>
     <string name="time_of_day" formatted="false">%H:%M:%S</string>
@@ -1488,11 +1503,11 @@ Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</st
     <string name="volume_call">Lydstyrke for opkald</string>
     <string name="volume_dialog_ringer_guidance_silent">Der afspilles ikke lyd ved opkald og underretninger</string>
     <string name="volume_dialog_ringer_guidance_vibrate">Telefonen vil vibrere ved opkald og underretninger</string>
-    <string name="volume_icon_description_bluetooth">Lydstyrke for bluetooth</string>
-    <string name="volume_icon_description_incall">Lydstyrke for opkald</string>
-    <string name="volume_icon_description_media">Lydstyrke for medier</string>
-    <string name="volume_icon_description_notification">Lydstyrke for underretninger</string>
-    <string name="volume_icon_description_ringer">Lydstyrke for ringetone</string>
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <string name="volume_icon_description_incall">Opkald</string>
+    <string name="volume_icon_description_media">Medier</string>
+    <string name="volume_icon_description_notification">Notifikation</string>
+    <string name="volume_icon_description_ringer">Ringetone</string>
     <string name="volume_music">Lydstyrke for medier</string>
     <string name="volume_music_hint_playing_through_bluetooth">Afspilning via Bluetooth</string>
     <string name="volume_music_hint_silent_ringtone_selected">Lydløs ringetone er angivet</string>
@@ -1597,6 +1612,7 @@ Vil du lukke den?"</string>
     <string name="zen_mode_feature_name">Forstyr ikke</string>
     <string name="zen_mode_forever">Indtil du deaktiverer</string>
     <string name="zen_mode_forever_dnd">Indtil du slår \"Forstyr ikke\" fra</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Indtil %1$s</string>
     <string name="zen_upgrade_notification_content">Tryk for at se, hvad der er blokeret.</string>
     <string name="zen_upgrade_notification_title">Tilstanden Forstyr ikke blev ændret</string>

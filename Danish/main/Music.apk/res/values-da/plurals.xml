@@ -79,8 +79,8 @@ Bemærk: Filen vil blive slettet også fra denne enhed."</item>
         <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> downloader</item>
     </plurals>
     <plurals name="free_downloads_num_hint">
-        <item quantity="other">Gratis downloads tilbage %d sange</item>
-        <item quantity="one">Gratis downloads tilbage %d sang</item>
+        <item quantity="other">%d gratis downloads tilbage</item>
+        <item quantity="one">%d gratis download tilbage</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d elementer valgt</item>
@@ -123,7 +123,7 @@ Bemærk: Filen vil blive slettet også fra denne enhed."</item>
         <item quantity="one">%1$s view</item>
     </plurals>
     <plurals name="vip_remain_days_hint">
-        <item quantity="other">Tilbage %d dage</item>
-        <item quantity="one">Tilbage %d day</item>
+        <item quantity="other">%d dage tilbage</item>
+        <item quantity="one">%d dag tilbage</item>
     </plurals>
 </resources>

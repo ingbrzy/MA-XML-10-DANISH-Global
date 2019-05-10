@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Tilføj til arbejdsområde</string>
     <string name="activity_not_found">Appen er ikke installeret på din enhed</string>
     <string name="add_screen">Tilføj skærm</string>
@@ -110,9 +111,12 @@
     <string name="drag_single_item_name" />
     <string name="dual_app">Dobbelte apps</string>
     <string name="edit_folder_title">Rediger mappens navn</string>
+    <string name="edit_mode_dual_app">Opret dual app</string>
     <string name="edit_mode_group">Gruppe</string>
+    <string name="edit_mode_group_error_cant_delete_system_apps">Kan ikke afinstallere system-apps</string>
     <string name="edit_mode_group_error_full">Ikke nok plads</string>
     <string name="edit_mode_group_error_in_folder">Luk mappen før gruppering af ikoner</string>
+    <string name="edit_mode_group_error_nothing_be_selected">Vælg en app først</string>
     <string name="edit_mode_group_error_one_folder">Kan ikke kopiere en mappe med valgte ikoner</string>
     <string name="edit_mode_top_menu_finish">Udført</string>
     <string name="edit_mode_uninstall">Afinstaller</string>
@@ -186,15 +190,22 @@
     <string name="guide_install_app_msg">Denne app er ikke installeret på din enhed. Find og installer appen nu?</string>
     <string name="guide_install_app_title">Find og installer app?</string>
     <string name="guide_tips_editing_mode">Tryk &amp; hold for at vælge en dims</string>
+    <string name="home_gesture_content_center">Indholdscenter</string>
+    <string name="home_gesture_global_search">Søg</string>
+    <string name="home_gesture_no_action">Ingen</string>
+    <string name="home_gesture_notification_bar">Notifikationer</string>
+    <string name="home_pull_down_action">Stryg nedad på startskærmen</string>
     <string name="home_screen">Startskærm</string>
+    <string name="home_slide_up_action">Stryg opad på startskærmen</string>
     <string name="icon_reorganize_channel">Arranger ikoner</string>
     <string name="image_too_small_message">Originalbilledet er ikke stort nok.</string>
     <string name="install">Installer</string>
     <string name="invalid_contact_shortcut">Ugyldig kontakt</string>
     <string name="is_setting_wallpaper_message">Indstiller baggrundsbillede…</string>
     <string name="is_system_wallpaper_message">Kan ikke slette systemressourcer</string>
-    <string name="launcher_auto_fill_empty_title">Udfyld tomme celler</string>
     <string name="launcher_not_exist">Der opstod en fejl. Gå tilbage til startskærmen og prøv igen.</string>
+    <string name="launcher_pull_down_title">Stryg nedad på startskærmen</string>
+    <string name="launcher_slide_up_title">Stryg opad på startskærmen</string>
     <string name="launcher_sliding_up_gesture">Stryg op på startskærmen for at åbne søgning</string>
     <string name="launcher_title">Startskærm og seneste</string>
     <string name="like">Føj til favoritter</string>
@@ -210,7 +221,7 @@
     <string name="memory_clear_nothing_result">Intet at rydde i cache</string>
     <string name="memory_clear_result">%1$sB ryddet</string>
     <string name="menu_add">Tilføj</string>
-    <string name="menu_auto_fill">Udfyld tomme celler</string>
+    <string name="menu_auto_fill_of_uninstall">Fyld cellerne til uinstallerede apps</string>
     <string name="menu_back_desktop">Tilbage til startskærm</string>
     <string name="menu_cell_setting">Startskærmlayout</string>
     <string name="menu_customize">Indstillinger</string>
@@ -231,6 +242,7 @@
     <string name="menu_wallpaper">Baggrundsbillede</string>
     <string name="menu_workspace_preview">Forhåndsvisninger på startskærmen</string>
     <string name="mi_wallpaper">MIUI Themes</string>
+    <string name="minus_one_screen">App-boks</string>
     <string name="miui_screen_config_title">Indstillinger for startskærm</string>
     <string name="mtzgadget_missing_text">Widget er ikke tilgængelig</string>
     <string name="multi_selecting_tips">For at hente en app skal du trække dens ikon og slippe her.</string>
@@ -356,16 +368,7 @@
     <string name="widget_global_search">Søg</string>
     <string name="widget_quick_function">Hurtigfunktioner</string>
     <string name="widgets_preview_title">Tilføj widget</string>
-    <string name="edit_mode_dual_app">Opret dual app</string>
-    <string name="edit_mode_group_error_cant_delete_system_apps">Kan ikke afinstallere system-apps</string>
-    <string name="edit_mode_group_error_nothing_be_selected">Vælg en app først</string>
-    <string name="home_gesture_content_center">Indholdscenter</string>
-    <string name="home_gesture_global_search">Søg</string>
-    <string name="home_gesture_no_action">Ingen</string>
-    <string name="home_gesture_notification_bar">Notifikationer</string>
-    <string name="home_pull_down_action">Stryg nedad på startskærmen</string>
-    <string name="home_slide_up_action">Stryg opad på startskærmen</string>
-    <string name="launcher_pull_down_title">Stryg nedad på startskærmen</string>
-    <string name="launcher_slide_up_title">Stryg opad på startskærmen</string>
-    <string name="minus_one_screen">App-boks</string>
+    <string name="privacy_thumbnail_blur_summary">Slør apps forhåndsvisninger i Nylige</string>
+    <string name="privacy_thumbnail_blur_title">Slør apps forhåndsvisninger</string>
+    <string name="system_shortcuts_more_operation">App-oplysninger</string>
 </resources>

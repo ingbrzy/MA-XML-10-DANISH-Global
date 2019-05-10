@@ -15,7 +15,7 @@
     <string name="add_to_album_success">Føj til album</string>
     <string name="add_to_album_tip">Cloud-fotos</string>
     <string name="add_to_favorites_failed">Kunne ikke føjes til favoritter</string>
-    <string name="add_to_secret_exist">Foto findes allerede i skjult album</string>
+    <string name="add_to_secret_exist">Dette element findes allerede i skjult album</string>
     <string name="add_to_secret_fail">Kunne ikke føje til skjult album</string>
     <string name="add_to_secret_failed_with_reason">Kan ikke føje til skjult album. %1$s.</string>
     <string name="add_to_secret_successful">Føjet til skjult album</string>
@@ -32,13 +32,14 @@
     <string name="adjust_saturation">Mætning</string>
     <string name="adjust_sharpen">Gør skarpere</string>
     <string name="adjust_vignette">Vignette</string>
-    <string name="agreement_agree">Acceptér</string>
+    <string name="agreement_agree">Accepter</string>
     <string name="agreement_optional_tip">(Valgfrit)</string>
     <string name="agreement_quit">Afslut</string>
     <string name="agreement_required_tip">(Obligatorisk)</string>
     <string name="agreement_summary">Juridiske dokumenter</string>
     <string name="ai_album_open_switch_button_title">Begynd at analysere billeder</string>
     <string name="ai_album_requesting_title">AI-algoritme behandler stadig dine billeder. Kom tilbage om et stykke tid.</string>
+    <string name="ai_album_setting_key_word">Søg efter fotos</string>
     <string name="ai_album_setting_sub_title">Tillad AI-algoritme at identificere personer, steder og objekter på dine fotos, så du kunne finde dem hurtigere.</string>
     <string name="ai_album_setting_title">Identificer objekter på fotos</string>
     <string name="album_already_exists_check">Se</string>
@@ -188,6 +189,8 @@
     <string name="backuped_title">Sikkerhedskopieret med succes</string>
     <string name="backuping_title_gprs">Sikkerhedskopierer med mobildata…</string>
     <string name="backuping_title_normal">Sikkerhedskopierer…</string>
+    <string name="base_btn_cancel">Annuller</string>
+    <string name="base_btn_download">Download</string>
     <string name="begin_share">Oprettet babyalbum \"%s\". Du kan dele det nu.</string>
     <string name="begin_share_toast">Opret en separat album til dette barn inden deling?</string>
     <string name="blank_app_name" />
@@ -499,6 +502,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="face_name_edit">Redigér</string>
     <string name="face_name_input">Indtast navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fuldføre handlingen</string>
     <string name="fail_to_pick_email">Ugyldig e-mailadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Tjek din dataforbindelse og prøv igen.</string>
@@ -509,6 +513,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="feature_guidance_photo_effects">"Nye fotoeffekter
 er tilgængelige"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgængelige</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">B&amp;W</string>
     <string name="filter_bi_dusk">Skumring</string>
     <string name="filter_bi_lilt">Munter melodi</string>
@@ -526,6 +531,7 @@ er tilgængelige"</string>
     <string name="filter_category_master">Master</string>
     <string name="filter_category_portrait">Portræt</string>
     <string name="filter_category_scene">Landskab</string>
+    <string name="filter_category_sky">Himmel</string>
     <string name="filter_film_blackwhite">S/H</string>
     <string name="filter_film_dew">Dug</string>
     <string name="filter_film_fade">Fade</string>
@@ -568,6 +574,17 @@ er tilgængelige"</string>
     <string name="filter_scene_series">Refleksioner</string>
     <string name="filter_scene_vivid">Livagtig</string>
     <string name="filter_scene_warm">Søn</string>
+    <string name="filter_sky_cloudy">Overskyet</string>
+    <string name="filter_sky_detect_forbidden_tips">Kunne ikke finde himlen</string>
+    <string name="filter_sky_download_failed">Kunne ikke hente plug-in. Kontrollér dine netværksindstillinger og prøv igen.</string>
+    <string name="filter_sky_download_finish">Plug-in blev hentet</string>
+    <string name="filter_sky_download_sdk_without_wifi_msg">Hvis du ikke har forbindelse til Wi-Fi, kan du bruge mobil data til at hente den plug-in (%1$dMB), som lader dig at erstatte himlen på dine billeder.</string>
+    <string name="filter_sky_download_sdk_without_wifi_title">Download plug-in</string>
+    <string name="filter_sky_dusk">Skumring</string>
+    <string name="filter_sky_glow">Skær</string>
+    <string name="filter_sky_rainbow">Regnbue</string>
+    <string name="filter_sky_sunny">Solrigt</string>
+    <string name="filter_sky_sunset">Solnedgang</string>
     <string name="finish_create_baby_album_toast">Oprettet et album til \"%s\" i Mi Cloud</string>
     <string name="finish_fill_baby">Opret</string>
     <string name="flash_off">Ingen blitz</string>
@@ -582,6 +599,7 @@ er tilgængelige"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Indstil</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri skal have adgang til 
 %s
  for at fungere normalt, tryk på \"Indstil\" for at gå til Tilladelser."</string>
@@ -835,6 +853,7 @@ til at gøre Galleri personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Vælg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Unavngivet</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">Til navngivning af personer på fotos</string>
     <string name="permission_contract_name">Kontakter</string>
     <string name="permission_optional_category">Valgfrie tilladelser</string>
@@ -959,7 +978,7 @@ til at gøre Galleri personligt"</string>
     <string name="privacy_permission_request_message">Galleri skal have adgang til %3$s. De oplysninger, vi indsamler, bliver brugt i overensstemmelse med vores %1$s og %2$s. Tillad?</string>
     <string name="privacy_permission_request_negative">Begræns</string>
     <string name="privacy_permission_request_positive">Tillad</string>
-    <string name="privacy_permission_request_title">Tilladelser påkrævet</string>
+    <string name="privacy_permission_request_title">Kræver tilladelser</string>
     <string name="projection_cancel">Annuller</string>
     <string name="projection_checkbox_text">Husk dette skærmbillede</string>
     <string name="projection_device_connection_failed">Kunne ikke tilslutte projektor.</string>
@@ -1030,7 +1049,12 @@ til at gøre Galleri personligt"</string>
     <string name="scan_barcode_to_join">Scan QR-kode for at tilføje album</string>
     <string name="scan_qr_code_buttom_text">Scan QR-kode for at se dette album</string>
     <string name="screen_doodle_talkback_size">Figurlinjebredde</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Udført</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Annuller</string>
     <string name="screen_save_dialog_btn_delete">Slet skærmbillede</string>
     <string name="screen_save_dialog_btn_save">Gem i Galleri</string>
@@ -1088,6 +1112,9 @@ til at gøre Galleri personligt"</string>
     <string name="search_title_recommend">Anbefalet</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leder efter projektor…</string>
     <string name="secret_album_card_description">Det bedste sted for alle dine små hemmeligheder</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1251,6 +1278,7 @@ til at gøre Galleri personligt"</string>
     <string name="today">I dag</string>
     <string name="too_many_recipients">Kan ikke tilføje mere end %2$s modtagere (Du har i øjeblikket tilføjet %1$s).</string>
     <string name="trash_bin">Papirkurv</string>
+    <string name="trash_bin_key_word">Slettede fotos</string>
     <string name="trash_bin_summary">Gennemse sikkerhedskopierede fotos, der blev slettet for nylig</string>
     <string name="try_again_later">Prøv igen senere.</string>
     <string name="try_to_send">Send</string>
@@ -1264,7 +1292,7 @@ til at gøre Galleri personligt"</string>
     <string name="unpublishing">Annullerer…</string>
     <string name="unsupport_video">%s fungerer ikke med videoer</string>
     <string name="user_agree">Godkend</string>
-    <string name="user_agreement2">Servicevilkår</string>
+    <string name="user_agreement2">Brugervilkår</string>
     <string name="user_agreement4">Fortrolighedspolitik</string>
     <string name="user_alias_self">Selv</string>
     <string name="user_notice_identify_summary_format">Ved at bruge denne service accepterer du Xiaomys %1$s og %2$s.</string>

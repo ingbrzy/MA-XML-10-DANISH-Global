@@ -219,6 +219,7 @@ For at aktivere din konto, følg det
     <string name="passport_talkback_switch_image_captcha">Skift til billed-verifikationskode</string>
     <string name="passport_license_info_open">Oplysninger</string>
     <string name="passport_license_info_collapse">Klap sammen</string>
+    <string name="passport_first_login_prompt">Mi Account oprettes automatisk, når du logger ind for første gang.</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Mi Cloud, Kontoindstilling, Mi Pay-oplysninger, Log ud</string>
@@ -353,6 +354,8 @@ For at aktivere din konto, følg det
     <string name="activity_not_found_notice">Kan ikke finde appen</string>
     <string name="scan_barcode_title">Scan QR-koden for at logge ind på din Mi-konto</string>
     <string name="talkback_scan_barcode">Scan QR-kode</string>
+    <string name="scan_barcode">Scan QR-kode for at logge ind</string>
+    <string name="agreement_and_privacy">Privatlivspolitik og Brugeraftale</string>
     <string name="authorize_title">Autorisation</string>
     <string name="my_device_title">Aktuel enhed</string>
     <string name="device_list_title">Mine enheder</string>
@@ -419,9 +422,8 @@ For at aktivere din konto, følg det
     <string name="push_notify_dialog_title">Kontobekræftelse</string>
     <string name="push_notify_dialog_message">En ukendt enhed er brugt til at logge ind på din Mi Account. Indtast denne verificeringskode på enheden. Hvis det ikke var dig, så skift din Mi Account-adgangskode øjeblikkeligt. Afslør ikke verifikationskoden til andre folk.</string>
     <string name="account_secure_info_pref_title">Kontoinfo</string>
-    <string name="account_user_email">E-mail</string>
-    <string name="account_user_phone">Telefon</string>
-    <string name="account_user_recovery_phone">Gendannelsestelefon</string>
+    <string name="account_user_email">Gendannelses-e-mail</string>
+    <string name="account_user_phone">Gendannelsestelefon</string>
     <string name="input_new_pwd">Indtast ny adgangskode</string>
     <string name="confirm_new_pwd">Bekræft ny adgangskode</string>
     <string name="inconsistent_pwd">Adgangskoder er ikke ens</string>

@@ -3,7 +3,12 @@
     <string name="allow">Acceptér</string>
     <string name="app_name">Lommeregner</string>
     <string name="app_name_danfa">Mi-lommeregner</string>
+    <string name="app_notification_info">Lommeregner arbejder i baggrunden</string>
     <string name="base_rate">Basisrente</string>
+    <string name="btn_float_window_alpha">Juster opacitet</string>
+    <string name="btn_float_window_back_to_app">Maksimer lommeregner</string>
+    <string name="btn_float_window_close">Luk minimeret lommeregner</string>
+    <string name="btn_float_window_resize">Ændr størrelsen på minimeret lommeregner</string>
     <string name="cal_convert_to_word_figure">Konverter til finansielle tegn</string>
     <string name="cal_copy">Kopiér</string>
     <string name="cal_edit_mode">Redigeringstilstand</string>
@@ -71,6 +76,7 @@
     <string name="extra_deduction_tips">Tryk på knappen i skærmens øverste hjørne for at se oplysninger om fradrag.</string>
     <string name="extra_deduction_title">Yderligere fradrag</string>
     <string name="factorialDesc">faktoriel</string>
+    <string name="float_window_guide_text">Tryk her for at minimere lommeregner</string>
     <string name="fund" />
     <string name="fund_loan">Finansier lån</string>
     <string name="further_education">Videre uddannelse</string>
@@ -91,6 +97,7 @@
     <string name="golbal_search_calculator_setting">Lommeregner;Lommeregnerindstillinger;Indstillinger</string>
     <string name="golbal_search_path_calculator_setting">System-apps/Lommeregner/Indstillinger</string>
     <string name="help_content_desc">Hjælp</string>
+    <string name="hint_floatwindow_alpha_guide_text">Tryk for at justere opacitet</string>
     <string name="home_loan">Realkreditrenter</string>
     <string name="home_title_calculator">Lommeregner</string>
     <string name="house_rent">Leje</string>
@@ -569,6 +576,7 @@
     <string name="unit_yuan">CNY</string>
     <string name="updating">Opdatering af regnemaskine…</string>
     <string name="user_agreement">Brugeraftale</string>
+    <string name="view_float_window_move">Flyt minimeret lommeregner</string>
     <string name="voiceDesc">Stemmestyring</string>
     <string name="wf_word_figure">Finansielle tegn</string>
     <string name="word_figure_big_unit_fen">分</string>
@@ -592,20 +600,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke forbinde til Downloads. Kontrollér, om denne app har alle de nødvendige tilladelser i indstillingerne > installeret apps.</string>
     <string name="xiaomi_external_storage_unavailable">Lager er ikke tilgængeligt. Kontrollér dit SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
 Delta opdateringsstørrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_title">%1$s opdatering!</string>
     <string name="year" />
-    <string name="app_notification_info">Lommeregner arbejder i baggrunden</string>
-    <string name="btn_float_window_alpha">Juster opacitet</string>
-    <string name="btn_float_window_back_to_app">Maksimer lommeregner</string>
-    <string name="btn_float_window_close">Luk minimeret lommeregner</string>
-    <string name="btn_float_window_resize">Ændr størrelsen på minimeret lommeregner</string>
-    <string name="float_window_guide_text">Tryk her for at minimere lommeregner</string>
-    <string name="hint_floatwindow_alpha_guide_text">Tryk for at justere opacitet</string>
-    <string name="view_float_window_move">Flyt minimeret lommeregner</string>
 </resources>

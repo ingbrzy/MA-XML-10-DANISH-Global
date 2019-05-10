@@ -56,6 +56,7 @@
     <string name="loading_space">Lige et øjeblik…</string>
     <string name="private_space_setting">Styr</string>
     <string name="exit_private_space">Skift</string>
+    <string name="kid_mode_label">Børnespace</string>
     <string name="wating">Lige et øjeblik…</string>
     <string name="Active">Aktiv</string>
     <string name="ok_button">OK</string>
@@ -161,6 +162,7 @@ Visse dobbelte apps kræver understøttelse af Google Services Framework I dette
     <string name="create_space_loading">Opretter Andet rum…</string>
     <string name="close_second_space">Slettede Andet rum</string>
     <string name="close_second_space_success">Slettede Andet rum</string>
+    <string name="close_kid_space_success">Slet børnespace</string>
     <string name="enable">Slå til</string>
     <string name="disable">Slå fra</string>
     <string name="PrivacyContactDes1">"Kontakter vil blive private.
@@ -462,4 +464,6 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="button_touch">Placer din finger på sensoren</string>
     <string name="button_input_password">Indtast adgangskode</string>
     <string name="master_clear_not_available">Fabriksnulstilling er begrænset af din virksomhed.</string>
+    <string name="dual_animation">Start animation</string>
+    <string name="dual_animation_description">Vis animation, når dual-apps er startet</string>
 </resources>

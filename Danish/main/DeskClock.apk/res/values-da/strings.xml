@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Tilføj alarm</string>
     <string name="add_clock">Tilføj ur</string>
     <string name="add_timezone_title">Tilføj tidszone</string>
@@ -86,7 +87,7 @@
     <string name="dialog_message_for_contact_permission">For at gøre fødselsdagsalarmer tilgængelige skal uret have adgang til dine kontakter. Enig?</string>
     <string name="dialog_message_negative">Ikke enig</string>
     <string name="dialog_message_not_remind">Vis ikke igen</string>
-    <string name="dialog_privacy_content">For at kunne hente og synkronisere oplysninger om lokale helligdage og tilbyde personlige tjenester, skal uret have forbindelse til internettet. Inden uret kan bruges, skal du også læse og acceptere vores %1$s og %2$s. Accepter?</string>
+    <string name="dialog_privacy_content">For at kunne hente relevante oplysninger om lokale helligdage, indstille alarmer og tilbyde personlige tjenester skal uret have forbindelse til internettet. Inden uret bruges, skal du også læse og acceptere vores %1$s og %2$s. Acceptér?</string>
     <string name="dialog_privacy_content_global">For at kunne tilbyde personlige tjenester skal uret have forbindelse til internettet. Inden du bruger uret, skal du også læse og acceptere vores %1$s og %2$s. Accepter?</string>
     <string name="dialog_privacy_content_news">For at kunne tilbyde personlige tjenester og inkludere morgennyheder i alarmer, skal uret have forbindelse til internettet. Inden du bruger uret, skal du også læse og acceptere vores %1$s og %2$s. Accepter?</string>
     <string name="dialog_privacy_content_timer">For at kunne downloade lydfiler til omgivende støjtimere og tilbyde personlige tjenester, skal uret have forbindelse til internettet. Inden du kan bruge uret, skal du også læse og acceptere vores %1$s og %2$s. Accepter?</string>
@@ -200,6 +201,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmen vil aktivere, hvis den er sat til mindst 5 minutter, efter du slukker for din enhed</string>
     <string name="shutdown_alarm_title">Sluk for alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sluk én gang på %s</string>
     <string name="slider_text">Swipe op for at slukke</string>
     <string name="snooze_confirm_cancel">Afblæs alarm</string>
@@ -218,6 +220,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen overlap</string>
     <string name="stopwatch_title">Stopur</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Indstillinger</string>
     <string name="system_time_settings_category_title">Tidsindstillinger</string>
     <string name="temperature_unit">℃</string>

@@ -92,6 +92,8 @@ Du skal bekræfte Kikas privatlivspolitik, før du kan bruge denne funktion."</s
     <string name="content_description_complete">Færdig</string>
     <string name="language_picker_other_languages_title">Flere sprog</string>
     <string name="language_settings">Vælg sprog</string>
+    <string name="font_hint_normal">Øg tekststørrelse</string>
+    <string name="font_hint_large">Standard tekststørrelse</string>
     <string name="navigation_picker_radio_text_full_screen">Fuldskærms-gestusser</string>
     <string name="navigation_picker_radio_text_virtual_key">Knapper</string>
     <string name="congratulation_swipe">Stryg opad for at komme ind i systemet</string>
@@ -119,4 +121,8 @@ Du skal bekræfte Kikas privatlivspolitik, før du kan bruge denne funktion."</s
     <string name="ai_button_double_press_desc">Tryk to gange på AI-knappen for at fuldføre brugeropgaver</string>
     <string name="zone_picker_title">Vælg tidszone</string>
     <string name="locale_picker_other_locale_title">Flere regioner</string>
+    <string name="skip_gesture_guide_dialog_title">Fuldskærms-gestusser</string>
+    <string name="skip_gesture_guide_dialog_message">Sørg for, at du ved, hvordan man bruger fuldskærmsgestussene, før du vælger denne mulighed.</string>
+    <string name="skip_gesture_guide_dialog_negative_btn">Annuller</string>
+    <string name="skip_gesture_guide_dialog_positive_btn">OK</string>
 </resources>

@@ -81,6 +81,8 @@
     <string name="HIPS_Perm_service_foreground_Desc">forgrundstjenester</string>
     <string name="HIPS_Perm_UDevice_ID">Del nogle af enhedsoplysningerne med spiludviklere for at hjælpe dem med at forbedre din spiloplevelse. Accepter?</string>
     <string name="HIPS_Perm_UDevice_ID_DESC">del nogle af enhedsoplysningerne med spiludviklere for at hjælpe dem med at forbedre din spiloplevelse. Accepter?</string>
+    <string name="HIPS_Perm_deamon_notification">Permanent notifikation</string>
+    <string name="HIPS_Perm_deamon_notification_Desc">vis permanente notifikationer</string>
     <string name="permission_group_title_charges_related">Gebyrer</string>
     <string name="permission_group_title_privacy_related">Fortrolighed</string>
     <string name="permission_group_title_media_related">Multimedie</string>

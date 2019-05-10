@@ -38,7 +38,9 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -50,6 +52,7 @@
     <string name="exo_track_surround_7_point_1">7.1 surroundsound</string>
     <string name="exo_track_unknown">Ukendt</string>
     <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_setting_hint">"Tryk på knappen øverst til højre for at slå denne tjeneste til.
 Temaer vil registrere, hvilke apps du bruger, og vise gennemsigtige baggrunde i dine ønskede apps."</string>
     <string name="accessibiliy_description_content_account">Profil</string>
@@ -89,6 +92,7 @@ Temaer vil registrere, hvilke apps du bruger, og vise gennemsigtige baggrunde i 
     <string name="apply_theme_with_ringtones">Brug temaringetoner</string>
     <string name="audio_duration_minutes_format">%1$d minutter</string>
     <string name="audio_duration_seconds_format">%1$d sekunder</string>
+    <string name="audition_ringtone">Afspil</string>
     <string name="automatically_update_using_theme_tips">Opdater automatisk næste gang</string>
     <string name="backup_theme_dialog_message">Sikkerhedskopier dit aktuelle tema?</string>
     <string name="backup_theme_dialog_ok">Sikkerhedskopier</string>
@@ -115,6 +119,7 @@ Temaer vil registrere, hvilke apps du bruger, og vise gennemsigtige baggrunde i 
     <string name="component_title_settings_video_wallpaper">Baggrunde med specielle effekter</string>
     <string name="component_title_video_wallpaper">Baggrundstapet-videoer</string>
     <string name="component_title_wallpaper">Baggrunde</string>
+    <string name="count_down_tip">%ds tilbage</string>
     <string name="current_using_desktop_wallpaper_text">Startskærm</string>
     <string name="current_using_lockscreen_wallpaper_text">Låseskærm</string>
     <string name="current_version_incompatible">Ikke kompatibel</string>
@@ -206,11 +211,13 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="incompatible_dialog_ok">Forstået</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Indstiller baggrund…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbagekaldsringetone</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
     <string name="item_resource_audio_optional_phone_ring">Ringetone</string>
     <string name="lab">Temalaboratorie</string>
+    <string name="like_list">Elementer jeg kunne lide</string>
     <string name="live_wallpaper">Online baggrund</string>
     <string name="loading">Lige et øjeblik…</string>
     <string name="loading_resource_detail_fail">Kan ikke indlæse ressource</string>
@@ -277,6 +284,7 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="online_precust_plant">Plante</string>
     <string name="online_precust_scenery">Landskab</string>
     <string name="online_search_hint">Søg efter online ressourcer</string>
+    <string name="playing_ringtone">Afspiller</string>
     <string name="pref_privacy_policy">Privatlivspolitik</string>
     <string name="present_local_fonts">Mine skrifttyper</string>
     <string name="present_local_themes">Mine temaer</string>
@@ -309,7 +317,6 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="resource_alarm_default">Alarm</string>
     <string name="resource_app_name">Se ressourcer</string>
     <string name="resource_apply">Anvend</string>
-    <string name="resource_apply_trial">Prøv nu</string>
     <string name="resource_back">Tilbage</string>
     <string name="resource_buy">Køb</string>
     <string name="resource_can_not_selected">%1$s kan ikke vælges</string>
@@ -380,7 +387,6 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="resource_download">Download</string>
     <string name="resource_download_notification_title_many">%1$s temaer downloadet</string>
     <string name="resource_download_notification_title_one">Tema downloadet</string>
-    <string name="resource_download_trial">Prøv gratis</string>
     <string name="resource_downloaded_title">Downloadede ressourcer</string>
     <string name="resource_downloading">Downloader</string>
     <string name="resource_exchange">Indløs</string>
@@ -435,6 +441,7 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="resource_pack_price_info">Oprindelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerede købt %1$d komponenter i dette tema. Det er billigere, hvis du køber de resterende komponenter enkeltvis.</string>
     <string name="resource_present">Gave</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi Credits</string>
     <string name="resource_purchase_common_error">Der er opstået en fejl. Prøv igen</string>
@@ -446,6 +453,10 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="resource_ranking">Populær</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Betalt</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Ringetoner</string>
     <string name="resource_ringtone_playing_error">Fejl</string>
     <string name="resource_ringtone_volume_mute">Ringetone sat på lydløs</string>
@@ -540,8 +551,6 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="theme_changed_failed_message">Kan ikke anvende tema</string>
     <string name="theme_changed_message">Tema anvendt</string>
     <string name="theme_changing_dialog_title">Anvender</string>
-    <string name="theme_comment_dialog_message">Bedøm denne app og fortæl os, hvad du synes.</string>
-    <string name="theme_comment_dialog_ok">Bedøm</string>
     <string name="theme_component_title_alarm">Alarm</string>
     <string name="theme_component_title_alarmstyle">Alarmstil</string>
     <string name="theme_component_title_all">Temaer</string>
@@ -585,13 +594,13 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="theme_is_external_priority_storage">Gem på SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen genstartes øjeblikkeligt for at anvende denne indstilling.</string>
     <string name="theme_multiple_button_title_customize">Brugertilpas</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_purchased_list_empty">Du har ikke købt nogen temaer.</string>
     <string name="theme_purchased_non_local">Online</string>
     <string name="theme_select_others">Gennemse</string>
     <string name="theme_setting">Indstillinger</string>
     <string name="theme_staggered_item_text">Modtag Mi Credits</string>
-    <string name="theme_to_comment">Ikke dårligt!</string>
     <string name="theme_user_agreement_allow">Godkend</string>
     <string name="theme_user_agreement_content1">Ved at bruge dette produkt accepterer du vores</string>
     <string name="theme_user_agreement_content2">Brugeraftale</string>
@@ -630,6 +639,17 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="transparent_wallpaper_guide">Gå til Temaer</string>
     <string name="transparent_wallpaper_guide_tip">Du kan nu vælge en gennemsigtig baggrund i Temaer.</string>
     <string name="transparent_wallpaper_pref_summary">Baggrunde med reduceret baggrundsopacitet</string>
+    <string name="transparent_wallpaper_white_wallpaper">Gør baggrunden hvid</string>
+    <string name="transparent_wallpaper_white_wallpaper_failed">Baggrunden kunne ikke gøres hvid</string>
+    <string name="transparent_wallpaper_white_wallpaper_success">Baggrundsfarven er nu hvid</string>
+    <string name="transparent_wallpaper_white_wallpaper_tip">Gennemsigtig baggrund ser bedre ud på hvid baggrund</string>
+    <string name="trial_count_empty">Ikke flere gratis varer tilbage for i dag. Kom tilbage i morgen!</string>
+    <string name="trial_count_tip">Prøveperioden udløber om %1$s:%2$s:%3$s</string>
+    <string name="trial_for_free">Gratis prøve</string>
+    <string name="trial_get_failed_tip">Færdig med at se videoen for at få temaet.</string>
+    <string name="trial_get_success_tip">Til lykke! Du har fået en 3-dages gratis prøveperiode.</string>
+    <string name="trial_now">Prøv nu</string>
+    <string name="try_5_min">Prøv i 5 minutter</string>
     <string name="uid_change_dialog_message">Du har slettet opdateringer. Genstart din enhed for at kunne bruge temaer.</string>
     <string name="uid_change_dialog_ok">Forstået</string>
     <string name="uid_change_dialog_title">Genstart enhed</string>
@@ -647,6 +667,11 @@ For at slå denne funktion fra, gå til Indstillinger > Lyd og vibration > Profi
     <string name="using_theme_next_automatic_update">Automatiske opdateringer</string>
     <string name="using_theme_next_automatic_update_summary">Opdater automatisk downloadede temaer via Wi-Fi, når skærmen låses</string>
     <string name="using_theme_show_ad">Anbefalinger</string>
+    <string name="video_ad_click">Prøv nu</string>
+    <string name="video_ad_try_for_free">Gratis prøve</string>
+    <string name="video_ad_uncomplete_tip">Færdig med at se videoen for at få temaet.</string>
+    <string name="video_ad_uncomplete_tip_cancel">Annuller</string>
+    <string name="video_ad_uncomplete_tip_continue">Bliv ved med at se</string>
     <string name="video_audio_apply_success">Har konfigureret video med lyd</string>
     <string name="video_data_tips_message">Brug af mobildata kan generere ekstra gebyrer. Fortsæt alligevel?</string>
     <string name="video_data_tips_title">Advarsel om dataforbrug</string>
