@@ -23,7 +23,6 @@
     <string name="dialog_alert_title">Bemærk!</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Denne video kan ikke streames på denne enhed.</string>
     <string name="selectTextMode">Markér tekst</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon for fingeraftryk</string>
     <string name="paste_as_plain_text">Indsæt som almindelig tekst</string>
     <string name="autofill">AutoFyld</string>
@@ -387,7 +386,6 @@ Kontakt din organisations administrator, hvis du har spørgsmål."</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Funktionskoden er komplet.</string>
     <string name="fcError">Forbindelsesproblemer eller ugyldig funktionskode.</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Find</string>
     <string name="find_next">Find næste</string>
     <string name="find_on_page">Find på siden</string>
@@ -593,7 +591,6 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Angiv pinkode til SIM-kort</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kortet låses op…</string>
-    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har indtastet din adgangskode forkert %1$d gange. 
 
 Prøv igen om %2$d sekunder."</string>
@@ -886,7 +883,6 @@ Prøv igen om %2$d sekunder."</string>
     <string name="notification_channel_wfc">Wi-Fi-opkald</string>
     <string name="notification_hidden_text">Ny underretning</string>
     <string name="notification_listener_binding_label">Underretningslytter</string>
-    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Tjeneste til rangering af underretninger</string>
     <string name="notification_reply_button_accessibility">Svar</string>
     <string name="notification_title">Loginfejl for %1$s</string>
@@ -1612,7 +1608,6 @@ Vil du lukke den?"</string>
     <string name="zen_mode_feature_name">Forstyr ikke</string>
     <string name="zen_mode_forever">Indtil du deaktiverer</string>
     <string name="zen_mode_forever_dnd">Indtil du slår \"Forstyr ikke\" fra</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Indtil %1$s</string>
     <string name="zen_upgrade_notification_content">Tryk for at se, hvad der er blokeret.</string>
     <string name="zen_upgrade_notification_title">Tilstanden Forstyr ikke blev ændret</string>
