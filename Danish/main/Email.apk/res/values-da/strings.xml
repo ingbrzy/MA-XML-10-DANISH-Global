@@ -70,24 +70,24 @@
     <string name="account_setup_account_type_instructions">Hvilken type konto er dette?</string>
     <string name="account_setup_account_type_title">Kontoopsætning</string>
     <string name="account_setup_address_label">E-mail</string>
-    <string name="account_setup_autodiscover_dlg_authfail_message">Bekræft, at brugernavn, adgangskode og kontoindstillinger er korrekte.</string>
+    <string name="account_setup_autodiscover_dlg_authfail_message">Bekræft at brugernavn, adgangskode og kontoindstillinger er korrekte.</string>
     <string name="account_setup_autodiscover_dlg_authfail_title">Kunne ikke oprette konto</string>
-    <string name="account_setup_basics_email_label">Indtast e-mailadresse</string>
+    <string name="account_setup_basics_email_label">E-mailadresse</string>
     <string name="account_setup_basics_login_gmail_without_proxy">Log ind med aktuelt netværk</string>
     <string name="account_setup_basics_manual_setup_action">Manuel opsætning</string>
     <string name="account_setup_basics_mi_mail_login_help">Du skal måske bekræfte din konto via sms for at modtage e-mails</string>
-    <string name="account_setup_basics_password_label">Indtast adgangskode</string>
+    <string name="account_setup_basics_password_label">Adgangskode</string>
     <string name="account_setup_basics_title">Tilføj konto</string>
     <string name="account_setup_check_settings_check_incoming_msg">Bekræver serverindstillinger/u2026</string>
     <string name="account_setup_check_settings_check_outgoing_msg">Bekræfter SMTP-indstillinger/u2026</string>
     <string name="account_setup_check_settings_retr_info_msg">"    Henter kontoinformation/u2026"</string>
-    <string name="account_setup_correct_address_tips">Indtast e-mailadresse</string>
+    <string name="account_setup_correct_address_tips">Den indtastede e-mailadresse er ugyldig.</string>
     <string name="account_setup_creating_account_msg">"    Opretter konto/u2026"</string>
     <string name="account_setup_deleting_account_msg">"    Fjerner konto/u2026"</string>
     <string name="account_setup_exchange_certificate_title">Klientcertifikat</string>
     <string name="account_setup_exchange_device_id_label">Mobil enheds-id</string>
     <string name="account_setup_exchange_no_certificate">Ingen</string>
-    <string name="account_setup_failed_auth_required">"This authentication method isn't supported by the server."</string>
+    <string name="account_setup_failed_auth_required">Denne godkendelsesmetode understøttes ikke af serveren.</string>
     <string name="account_setup_failed_certificate_inaccessible">Certifikatet er ugyldigt eller ikke tilgængeligt.</string>
     <string name="account_setup_failed_certificate_required">Der er blevet anmodet om et klientcertifikat. Vil du tilslutte til serveren med et klientcertifikat?</string>
     <string name="account_setup_failed_check_credentials_message">Serveren svarede med en fejl. Tjek dit brugernavn og adgangskode og prøv igen.</string>
@@ -162,10 +162,12 @@
     <string name="activity_folder_selection">Vælg mappe</string>
     <string name="activity_mailbox_selection">Vælg konto</string>
     <string name="ad_merge">Reklamer &amp; notifikationer</string>
-    <string name="add_account">Add account</string>
+    <string name="add_account">Tilføj konto</string>
     <string name="add_account_keywords">Tilføj konto;tilføj mail-konto</string>
+    <string name="add_account_search">Tilføj konto</string>
     <string name="add_attachment">Tilføj vedhæftelse</string>
     <string name="add_calendar">Påmind</string>
+    <string name="add_file_exception">Kunne ikke tilføjes. Prøv at tilføje denne vedhæftede fil fra et andet sted.</string>
     <string name="add_label">Tilføj mappe</string>
     <string name="add_pre_message_attachments">Tilføj vedhæftelserne for forbesked?</string>
     <string name="add_pre_message_attachments_no">Tilføj ikke</string>
@@ -175,6 +177,10 @@
     <string name="always_bcc_myself">Bcc altid mig selv</string>
     <string name="always_show_images">Vis altid billeder fra denne sender</string>
     <string name="app_name">Post</string>
+    <string name="appraise_des">Kan du lide vores app?</string>
+    <string name="appraise_good">Ja</string>
+    <string name="appraise_ignore">Det kan jeg ikke sige endnu</string>
+    <string name="appraise_negative">Nej</string>
     <string name="archive">Arkivér</string>
     <string name="archived">Arkiveret</string>
     <string name="att_download_failed_content">Kunne ikke downloade vedhæftelsen for denne besked.</string>
@@ -194,7 +200,7 @@
     <string name="attachment_application_vnd_ms_excel">Regneark</string>
     <string name="attachment_application_vnd_ms_powerpoint">Præsentation</string>
     <string name="attachment_audio">Lyd</string>
-    <string name="attachment_canceling">Annullerer/u2026</string>
+    <string name="attachment_canceling">Canceling…</string>
     <string name="attachment_decoding">Åbner vedhæftelser/u2026</string>
     <string name="attachment_download_all">Download alt</string>
     <string name="attachment_image">Billede</string>
@@ -226,6 +232,7 @@
     <string name="battery_saver">Batteribesparer</string>
     <string name="battery_saver_keywords">batteribesparer;mail batteri</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Fakturaindstillinger</string>
     <string name="bill_center_setting_head">Importér info fra disse konti</string>
     <string name="bill_cycle_text">Fakturacyklus</string>
@@ -246,6 +253,7 @@
     <string name="cancel_pop3_attchemt_downloading">Kan ikke annullere igangværende downloads for vedhæftelser i POP3-konti</string>
     <string name="cant_move_or_change_labels">Kan ikke flytte genstande fra flere konti</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="change_folders_selection_dialog_title">Skift mapper</string>
@@ -263,6 +271,7 @@
     <string name="click_download_all_content">[ Tryk for at downloade indhold ]</string>
     <string name="click_to_reload">Tryk på skærmen for at genopfriske</string>
     <string name="collapse_recipient_details">Skjul modtageroplysninger</string>
+    <string name="colon">:</string>
     <string name="compose">Opret</string>
     <string name="compose_attachment_number_limit">Kan ikke tilføje over 10 vedhæftelser</string>
     <string name="compose_paste_address_oob">For mange tegn</string>
@@ -347,6 +356,7 @@
     <string name="default_signature_2">Sendt fra min %s</string>
     <string name="del_account_questionnair_hint">Kan du fortælle os, hvorfor du fjerner denne konto?</string>
     <string name="delete">Slet</string>
+    <string name="delete_contact_content">Delete this contact now?</string>
     <string name="delete_message_flow">Slet besked-flow</string>
     <string name="delete_message_flow_keywords">slet besked-flow;slet omdiriger</string>
     <string name="deleted">Slettet</string>
@@ -357,7 +367,9 @@
     <string name="device_not_activiey_lint1">Enhedsmanager er ikke aktiveret</string>
     <string name="device_not_activiey_lint2">Mail-service virker ikke med Exchange</string>
     <string name="dialog_account_auto_sync_setting_no_open">Du valgte at synkronisere e-mails manuelt. Genopfrisk for at synkronisere.</string>
+    <string name="dialog_agree">Godkend</string>
     <string name="dialog_change_sync_lookback">Mailen modtaget for %s siden vil blive automatisk slettet. Tryk for at ændre.</string>
+    <string name="dialog_disagree">Er ikke enig</string>
     <string name="dialog_insufficient_space_on_external">Kan ikke downloade vedhæftelse. Utilstrækkelig plads på eksternt lager.</string>
     <string name="dialog_insufficient_space_on_internal">Ikke nok plads på internt lager.</string>
     <string name="dialog_system_auto_sync_account_no_open">Slå kontosynkronisering til for at modtage e-mails automatisk</string>
@@ -413,7 +425,8 @@
     <string name="exception_cancel">"
         Denne begivenhed er blevet annulleret
         for:
-%s "</string>
+        %s
+    "</string>
     <string name="exception_updated">Oplysningerne for denne begivenhed er blevet ændret for: %s</string>
     <string name="exchange_name">Erhverv</string>
     <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
@@ -442,8 +455,10 @@
     <string name="file_save_term">Filbesparende vilkår</string>
     <string name="filtered_tag">" [%1$s]%2$s"</string>
     <string name="first_quick_default_reply">Tryk på knappen for at sende \"%s\" til alle personer i samtalen</string>
+    <string name="folder_empty_to_fresh">"Mail isn't synced. Pull down to sync."</string>
     <string name="folder_list_display_all">Vis alle mapper</string>
     <string name="folder_list_display_only_import">Vis kun vigtige mapper</string>
+    <string name="folder_no_mails">No emails in this folder.</string>
     <string name="folder_picker_title">Vælg mapper</string>
     <string name="folder_removed">Fjernet fra %1$s</string>
     <string name="folder_shortcut_widget_label">E-mailmappe</string>
@@ -476,10 +491,13 @@
     <string name="gmail_server_authorization_deleted">Kunne ikke godkende konto. Prøv at tilføje kontoen igen.</string>
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Log ind på Gmail</string>
+    <string name="have_auth_code">Jeg har en kode</string>
     <string name="header_category_account">Konti</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Respons</string>
     <string name="header_label_general_preferences">Generelt</string>
     <string name="help_and_info">Hjælp</string>
+    <string name="help_me_get_qq_auth">Få QQ kode</string>
     <string name="hide_elided">▼ Skjul citeret tekst</string>
     <string name="hide_password">Skjul adgangskode</string>
     <string name="hint_quick_reply_all">Svar alle</string>
@@ -498,6 +516,8 @@
     <string name="invalid_recipient">Adressen %s er ugyldig.</string>
     <string name="invalid_recipient_title">Modtagerfejl</string>
     <string name="kilobytes">%s KB</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
+    <string name="list_empty_to_fresh">No emails yet.</string>
     <string name="load_from_remote">Søg i mailindbakke på server</string>
     <string name="load_more">Indlæs mere</string>
     <string name="loading_conversation">Indlæser…</string>
@@ -509,7 +529,7 @@
     <string name="login139">Log ind med China Mobile</string>
     <string name="login_failed_ticker">%s login mislykkedes.</string>
     <string name="login_failed_title">Kan ikke logge ind</string>
-    <string name="login_mail">Sign in</string>
+    <string name="login_mail">Log ind</string>
     <string name="login_support_tip_text">Understøtter alle store e-mailkonti</string>
     <string name="long_press_to_select_tip">Rør ved &amp; hold inde for at vælge en samtale, og rør så for at vælge flere.</string>
     <string name="mail">Post</string>
@@ -533,12 +553,6 @@
     <string name="mailbox_settings_mailbox_sync_window_label">Synkronisér mail fra</string>
     <string name="mailbox_settings_sync_enabled_label">Synkronisér denne mappe</string>
     <string name="mailbox_settings_sync_enabled_summary">Synkronisér beskeder i denne mappe</string>
-    <string name="maileditor_fontsize_textitem1">8pt</string>
-    <string name="maileditor_fontsize_textitem2">10pt</string>
-    <string name="maileditor_fontsize_textitem3">12pt</string>
-    <string name="maileditor_fontsize_textitem4">14pt</string>
-    <string name="maileditor_fontsize_textitem5">16pt</string>
-    <string name="maileditor_fontsize_textitem6">18pt</string>
     <string name="manual_sync">Synkronisér nu</string>
     <string name="mark_important">Markér som vigtig</string>
     <string name="mark_not_important">Markér ikke som vigtig</string>
@@ -549,38 +563,48 @@
     <string name="me_subject_pronun">mig</string>
     <string name="meeting_accepted">"
         Accepteret:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_allday">"
         Hvornår:
-%s (hele dagen)
+        %s
+        (hele dagen)
     "</string>
     <string name="meeting_allday_recurring">"
         Hvornår:
-%s (hele dagen, tilbagevendende
+        %s
+        (hele dagen, tilbagevendende
     "</string>
     <string name="meeting_canceled">"
         Annulleret:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_declined">"
         Afvist:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_recurring">"
         Hvornår:
-%s (tilbagevendende)
+        %s
+        (tilbagevendende)
     "</string>
     <string name="meeting_responded_failed">Intet svar</string>
     <string name="meeting_tentative">"
         Forsøgsvis:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_updated">"
         Opdateret:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_when">"
         Hvornår:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_where">"
         Hvor:
-%s "</string>
+        %s
+    "</string>
     <string name="megabytes">%s MB</string>
     <string name="menu_att_mgr">Vedhæftelser</string>
     <string name="menu_att_mgr_order_default">Set for nyligt</string>
@@ -625,7 +649,7 @@
     <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
     <string name="mute">Gør tavs</string>
     <string name="navigation_menu">Navigationsmenu</string>
-    <string name="need_get_qq_mail">Requires QQ Mail</string>
+    <string name="need_get_qq_mail">Kræver QQ-mail</string>
     <string name="network_error">Ingen forbindelse</string>
     <string name="network_invaild">Kan ikke tilslutte til netværket</string>
     <string name="network_not_available">Kan ikke tilslutte til netværket</string>
@@ -651,15 +675,18 @@ Prøv en anden indbakke."</string>
     <string name="not_synced_title">Konto ikke synkroniseret.</string>
     <string name="notification_action_archive">Arkivér</string>
     <string name="notification_action_delete">Slet</string>
-    <string name="notification_action_remove_label">Fjern tag</string>
+    <string name="notification_action_remove_label">Fjern label</string>
     <string name="notification_action_reply">Svar</string>
     <string name="notification_action_reply_all">Svar alle</string>
     <string name="notification_action_undo_archive">Arkiveret</string>
     <string name="notification_action_undo_delete">Slettet</string>
-    <string name="notification_action_undo_remove_label">Tag fjernet</string>
+    <string name="notification_action_undo_remove_label">Label fjernet</string>
     <string name="notification_exchange_calendar_added">Exchange-kalender tilføjet</string>
-    <string name="notify_channel_new_mail">Notify about new messages</string>
-    <string name="notify_channel_send_fail">Notify about failed delivery</string>
+    <string name="notify_channel_new_mail">Giv besked om nye meddelelser</string>
+    <string name="notify_channel_no_disterb">DND-tilstand</string>
+    <string name="notify_channel_permission_notice">Dette kræver tilladelser</string>
+    <string name="notify_channel_send_fail">Giv besked om mislykket levering</string>
+    <string name="notify_channel_service">Underret om baggrundssynkronisering</string>
     <string name="oauth_error_description">Kunne ikke godkende</string>
     <string name="oauth_gmail_login_notify">Indtast dit brugernavn og adgangskode til din Google-konto på følgende login-side.</string>
     <string name="oauth_login_continue">Fortsæt</string>
@@ -670,14 +697,15 @@ Prøv en anden indbakke."</string>
     <string name="one_day">1 dag</string>
     <string name="one_month">1 måned</string>
     <string name="one_week">1 uge</string>
+    <string name="open_androidp_warning">"Advar om 9,0 uofficielle SDK'er"</string>
     <string name="open_calendar_and_contacts_permission">Tillad Mail adgang til kontaktpersoner og kalenderinfo i Indstillinger</string>
     <string name="open_external_storage_and_calendar_permission">Tillad Mail adgang til lager og kalenderinfo i Indstillinger</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">Tillad Mail adgang til lager, kontaktpersoner og kalenderinfo i Indstillinger</string>
     <string name="open_external_storage_and_contacts_permission">Tillad Mail adgang til lager og kontaktpersoner i Indstillinger</string>
-    <string name="open_notification_kingagent">Turn on burial point notifications</string>
-    <string name="optimization_suggestion">Optimization suggestions</string>
-    <string name="others_mail">Other</string>
-    <string name="others_mail_des">(Compatible with 600K mail services)</string>
+    <string name="open_notification_kingagent">Tænd for begravelsespunkt-notifikationer</string>
+    <string name="optimization_suggestion">Optimering af forslag</string>
+    <string name="others_mail">Andet</string>
+    <string name="others_mail_des">(Kompatibel med 600K mail tjenester)</string>
     <string name="outbox_alert_button_no_resend">Send ikke</string>
     <string name="outbox_alert_button_resend">Gensend</string>
     <string name="outbox_alert_certificate_error">Kontakt din e-mailsystems administrator og opdatér dit certifikat.</string>
@@ -771,7 +799,7 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="policy_screen_timeout">Kræver, at enhed ikke er brug for at låse skærm</string>
     <string name="policy_text_truncation">Begræns størrelse for tekst-mail</string>
     <string name="pop3_name">POP3</string>
-    <string name="preference_eas_tips">Tryk Aktiver for at indstille mail-server.</string>
+    <string name="preference_eas_tips">Tryk “Aktiver” for at indstille mail-server.</string>
     <string name="preference_imap_tips" />
     <string name="preference_pop_tips">I POP3 vil vedhæftelser automatisk blive downloadet med e-mail. Dette kan øge dit forbrug af mobildata.</string>
     <string name="preference_sender_image_description">Vis profilbilleder ved siden af afsenders navn i indbakke</string>
@@ -782,7 +810,8 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="preview_attachment">Forvisning</string>
     <string name="previous_action">Tilbage</string>
     <string name="print">Udskriv</string>
-    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_des">Logfilerne indeholder debugging-oplysninger for e-mail-klienten og din enheds oplysninger. Disse oplysninger bruges til at lokalisere problemer hurtigere. Ved at trykke på \"%1$s\" nedenfor, accepterer du vores \"%2$s\".</string>
+    <string name="privacy_policy">Fortrolighedspolitik</string>
     <string name="prompt_title">Påmindelse</string>
     <string name="protocol_setting_toast">Tryk på øverste højre hjørne for at gå til indstillinger, efter du godkender</string>
     <string name="pull_to_refresh">Træk ned for at genopfriske</string>
@@ -796,9 +825,9 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="push_wps_confirm_message">Prøv at bruge WPS Office til at åbne denne vedhæftelse.</string>
     <string name="push_wps_confirm_title">Prøv WPS Office</string>
     <string name="push_wps_no_response_app">Ingen app blev fundet til at håndtere denne handling</string>
-    <string name="qq_authorization_help_get">Get code</string>
-    <string name="qq_authorization_know">About the code</string>
-    <string name="qq_authorization_tips">"Don't show again"</string>
+    <string name="qq_authorization_help_get">Få kode</string>
+    <string name="qq_authorization_know">Om koden</string>
+    <string name="qq_authorization_tips">Vis ikke igen</string>
     <string name="qq_auto_login_failed_cpy_pass_success">Korrekt kopieret. Gå tilbage til login-siden og kopiér koden ind i adgangskodefeltet.</string>
     <string name="qq_auto_login_failed_dialog_message">Kopiér bekræftelseskode, tryk på \"Indtast brugernavn og adgangskode for at logge ind\" på login-siden, og kopiér koden ind i adgangskodefeltet.</string>
     <string name="qq_auto_login_failed_dialog_positive_label">Kopiér kode</string>
@@ -806,13 +835,15 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="qq_bar_send_message">Send sms</string>
     <string name="qq_login_basecode">Logger ind på web QQ Mail. Indtast uafhængig adgangskode.</string>
     <string name="qq_login_get_auth">Slå adgangskodebeskyttelse til, hvis du ikke kan modtage sms</string>
+    <string name="qq_login_notice">Bemærk: Hvis du allerede har konfigureret en adgangskode, er du nødt til at bekræfte den, når du logger på.</string>
     <string name="qq_login_open_imap">Tryk på \"Hjælp\" for at slå IMAP/SMTP til</string>
     <string name="qq_login_origin_setting">Indtast brugernavn og adgangskode for at logge ind ></string>
     <string name="qq_login_send_message">Tryk på \"Send sms\" for at få en bekræftelseskode</string>
     <string name="qq_login_webview">Logger ind på QQ webklient, tryk på log ind med adgangskoden.</string>
     <string name="qq_next_generation_auth_toast">Slå adgangskodebeskyttelse til i din browser</string>
+    <string name="qq_pwd_or_qq_auth_code">Angiv QQ kode eller e-mail-adgangskode</string>
     <string name="qq_uthentication_failed">Kunne ikke bekræfte konto, log ind igen</string>
-    <string name="qq_verify_code">(Requires verification code from QQ)</string>
+    <string name="qq_verify_code">(Kræver bekræftelseskode fra QQ)</string>
     <string name="qq_webview_loading">Lige et øjeblik…</string>
     <string name="questionnair_body_invisibility">Beskeder vises ikke</string>
     <string name="questionnair_confirm_delete">Fjern konto</string>
@@ -865,6 +896,7 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="recognize_ticket_train_return">Returneret</string>
     <string name="recognize_ticket_train_user_name">Passager: %1$s</string>
     <string name="recognize_title">Rejseinformation</string>
+    <string name="recommend_protocal">Recommendations Usage Protocol</string>
     <string name="reduce_the_receiving_frequencye_summary">Synkronisér indbakke sjældnere, når Forstyr ikke er til</string>
     <string name="reduce_the_receiving_frequencye_title">Synkronisér sjældnere</string>
     <string name="refresh">Genopfrisk</string>
@@ -872,6 +904,7 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="refreshing_done">Udført</string>
     <string name="release_to_refresh">Slip for at genopfriske</string>
     <string name="remind_attachment_size_limit">Dine e-mails bør være mindre end %sMB</string>
+    <string name="remote_no_mail">Der er ikke flere e-mails på serveren.</string>
     <string name="remove_account">Fjern konto</string>
     <string name="remove_folder">Fjern fra %1$s</string>
     <string name="remove_star">Ikke favorit</string>
@@ -894,7 +927,7 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="saved">Gemt,  %s</string>
     <string name="saving">Gemmer...</string>
     <string name="sdcard_cannot_use">Kan ikke bruge SD-kort</string>
-    <string name="search_bar_text">Søg efter beskeder og kontaktpersoner</string>
+    <string name="search_bar_text">Søg efter afsendere eller kontakter</string>
     <string name="search_hint">Søg i mail</string>
     <string name="search_result">Resultater</string>
     <string name="search_tabs_name_all">Alle</string>
@@ -946,6 +979,7 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="shortcut_name_title">Navngiv mappegenvej</string>
     <string name="show_elided">▶ Vis citeret tekst</string>
     <string name="show_images">Download og vis billeder</string>
+    <string name="show_more_attachment">Flere vedhæftede filer</string>
     <string name="show_password">Vis adgangskode</string>
     <string name="signature">"
 
@@ -955,8 +989,10 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="silent_ringtone">Tavs</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Adgangskode for udgående mail-server er forkert</string>
     <string name="sort_attachment">Sorter efter</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage">Hukommelse</string>
     <string name="str_select_all">Vælg alt</string>
     <string name="str_select_none">Vælg alt fra</string>
@@ -985,15 +1021,16 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="tap_to_configure">Rør for at lave opsætning.</string>
     <string name="tap_to_enable_sync">Rør for at slå til.</string>
     <string name="three_day">3 dage</string>
-    <string name="title_activity_about">About</string>
+    <string name="title_activity_about">Om</string>
     <string name="to">Til</string>
     <string name="to_heading">Til:</string>
-    <string name="toast_bar_fail_synchronization">Kan ikke tilslutte til netværket</string>
+    <string name="toast_bar_fail_synchronization">"Couldn't access server. Wait a minute or two and try again."</string>
     <string name="toast_bar_insufficient_memory_space">Kan ikke modtage e-mails. Utilstrækkelig lagerplads.</string>
     <string name="toast_bar_invalid_account">Kontoinfo er udløbet. Tryk for at logge ind igen.</string>
     <string name="toast_bar_no_connection_network">Du har ikke en internetforbindelse</string>
     <string name="toast_bar_open_gmail_synchronization">Kunne ikke forbinde til Gmail. Slå Gmail-proxy til.</string>
     <string name="toast_bar_send_fail_remind">Kunne ikke sende e-mail. Gemt til mappen \"Udgående\".</string>
+    <string name="toast_bar_sync_failed_mi_authority">"Couldn't sync. Wait a minute or two and try again. If you're signing in for the first time, authorize your device via the intranet/SMS token."</string>
     <string name="toastbar_calendar_and_contacts_permission_switch_close">For at synkronisere kalenderinfo og kontaktpersoner skal Mail have de nødvendige tilladelser i Indstillinger</string>
     <string name="toastbar_calendar_permission_switch_close">For at få kalenderpåmindelser skal Mail have de nødvendige tilladelser i Indstillinger</string>
     <string name="toastbar_contacts_permission_switch_close">For at tilføje kontaktpersoner skal Mail have de nødvendige tilladelser i Indstillinger</string>
@@ -1027,9 +1064,9 @@ Fjern konto?"</string>
     <string name="unknow">Ukendt.</string>
     <string name="unread_string">samtale ulæst</string>
     <string name="unzip_file_failed">Kunne ikke pakke fil ud</string>
-    <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
+    <string name="update_date_format_templete">HH:mm aa, dd MMMM</string>
     <string name="updated_at">Genopfrisket ved %1$s</string>
-    <string name="upload_log">Overfør logfiler</string>
+    <string name="upload_log">Send</string>
     <string name="upload_log_failed">Kunne ikke sende logfiler</string>
     <string name="upload_log_no">Annuller</string>
     <string name="upload_log_success">Korrekt sendt, vi vender tilbage til dig snarest.</string>
@@ -1043,7 +1080,7 @@ Fjern konto?"</string>
     <string name="veiled_alternate_text" />
     <string name="veiled_alternate_text_unknown_person" />
     <string name="veiled_summary_unknown_person" />
-    <string name="verify_code">Verification code</string>
+    <string name="verify_code">Verifikationskode</string>
     <string name="version_string">Version: %s</string>
     <string name="via_domain">via %1$s</string>
     <string name="view_more_conversations">Se flere samtaler</string>
@@ -1060,6 +1097,7 @@ Rør ved "<b>Synkronisér nu</b> for at synkronisere mail en gang eller <b>Skift
     <string name="widget_large_unread_count">%d+</string>
     <string name="widget_other_views">Andet</string>
     <string name="wipe_account_fail_description">Tillad</string>
+    <string name="wipe_account_fail_description_remind">Due to data usage restrictions, there may be residual data in Calendar and Contacts after you delete the account. Delete these items manually.</string>
     <string name="wipe_account_fail_title">Kunne ikke slette personlig info</string>
     <string name="wps_title">WPS Mail</string>
     <string name="wrong_password">Den indtastede adgangskode er forkert</string>

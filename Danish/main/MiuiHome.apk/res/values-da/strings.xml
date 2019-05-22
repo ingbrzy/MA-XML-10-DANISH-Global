@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Tilføj til arbejdsområde</string>
     <string name="activity_not_found">Appen er ikke installeret på din enhed</string>
     <string name="add_screen">Tilføj skærm</string>
@@ -367,6 +368,8 @@
     <string name="widget_global_search">Søg</string>
     <string name="widget_quick_function">Hurtigfunktioner</string>
     <string name="widgets_preview_title">Tilføj widget</string>
+    <string name="activity_not_unlocked">Vent, indtil din enhed er fuldt ud genstartet, inden du åbner apps</string>
+    <string name="default_folder_title_meitu">Meitu</string>
     <string name="privacy_thumbnail_blur_summary">Slør apps forhåndsvisninger i Nylige</string>
     <string name="privacy_thumbnail_blur_title">Slør apps forhåndsvisninger</string>
     <string name="system_shortcuts_more_operation">App-oplysninger</string>

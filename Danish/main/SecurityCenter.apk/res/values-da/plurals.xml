@@ -132,6 +132,14 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="other">Tilføj %d minutter</item>
         <item quantity="one">Tilføj %d minut</item>
     </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%2$d apps, including %1$s, are draining battery</item>
+        <item quantity="one">%2$d app, including %1$s, is draining battery</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">%d apps are draining battery</item>
+        <item quantity="one">%d app is draining battery</item>
+    </plurals>
     <plurals name="people">
         <item quantity="other">Downloadet af %1$d mennesker</item>
         <item quantity="one">Downloadet af %1$d mennesker</item>
@@ -367,6 +375,10 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Loggede ind %d days i træk</item>
         <item quantity="one">Loggede ind %d gang</item>
+    </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">%d features</item>
+        <item quantity="one">%d feature</item>
     </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
         <item quantity="other">    +%1$d flere tegn</item>
