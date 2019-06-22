@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_firewall_setting">Blokeringsliste</string>
     <string name="activity_not_found">Ingen app blev fundet til at håndtere denne handling</string>
     <string name="activity_not_found_uri">Ingen app blev fundet til at håndtere denne handling.</string>
@@ -99,16 +98,7 @@
     <string name="cm_privacy_dialog_tips">Smart messaging-tjenester leveres af din udbyder. Messaging skal oprette forbindelse til internettet og få adgang til din placering for at yde disse tjenester. Du skal acceptere din udbyders %1s, før du begynder at bruge disse tjenester. Accepter?</string>
     <string name="cm_privacy_dialog_title">Vigtigt</string>
     <string name="cmcc_privacy">China Mobil-udbyderens fortrolighedsaftale</string>
-    <string name="complain_input_number">Indtast dit telefonnummer</string>
-    <string name="complain_jump">Spring over</string>
     <string name="complain_message_title">Anmeld</string>
-    <string name="complain_ok">OK</string>
-    <string name="complain_phone_number">Telefonnummer (valgfrit)</string>
-    <string name="complain_reason">Hvorfor rapporterer du denne besked?</string>
-    <string name="complain_success">Tak for din feedback. Den hjælper os med at gøre beskedtjenesten bedre!</string>
-    <string name="complain_tips">"Indholdet i den seneste besked, du rapporterer, vil blive uploadet til vores servere sammen med det telefonnummer, du har oplyst. Vores tjenesteudbydere vil gennemgå den rapporterede besked.
-"</string>
-    <string name="complain_upload">Klagen er blevet indsendt</string>
     <string name="compressing">Billede er for stort. Komprimerer…</string>
     <string name="confirm">OK</string>
     <string name="confirm_add_blacklist_dialog_dspt">Tilføj dette nummer til din blokeringsliste?</string>
@@ -174,7 +164,7 @@
     <string name="dialog_message_networking">Messaging skal bruge de gule sider for at blive i stand til at levere afsender-id-genkendelse. Messaging og gule sider skal oprette forbindelse til internettet og få adgang til din placering for at arbejde normalt. Tillad?</string>
     <string name="dialog_message_rcs">China Mobile Messaging giver dig mulighed for at sende beskeder til andre China Mobile-brugere i Kina uden at opkræve gebyrer. Du skal acceptere \"%1$s\" før du bruger China Mobile Messaging.</string>
     <string name="dialog_sim_locked_confirm">OK</string>
-    <string name="dialog_sim_locked_message">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
+    <string name="dialog_sim_locked_message">Dit SIM-kort ikke er fuldt funktionsdygtigt på denne telefon, da det ikke overholder vilkårene og betingelserne for dit abonnement. Hvis du har spørgsmål eller har brug for flere oplysninger om dette spørgsmål, så kontakt venligst Xiaomis servicecentre eller den butik, der solgte dig produktet.</string>
     <string name="dialog_title_fake_cell_detect_error">Correction</string>
     <string name="dialog_title_mx_rcs">Mi Message</string>
     <string name="dialog_title_networking">Vilkår og betingelser</string>
@@ -231,6 +221,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny besked</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_message_select_title">Viderend besked</string>
@@ -685,6 +676,7 @@
     <string name="send_signature_confirm_dialog_title">Send besked</string>
     <string name="send_sms">Send besked</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt den: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Besked udløbet eller utilgængelig</string>
@@ -733,6 +725,7 @@
     <string name="sp_mark_as_read_menu_title">Markér som læst</string>
     <string name="sqlite_disk_full">Lagerplads på din enhed er fuld.</string>
     <string name="sqlite_low_memory">Ikke nok lagerplads</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_failed">Lykkedes ikke</string>
     <string name="status_label">"Status: "</string>
     <string name="status_pending">Afventende</string>

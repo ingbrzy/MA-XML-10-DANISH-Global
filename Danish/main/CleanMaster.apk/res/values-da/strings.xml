@@ -53,7 +53,7 @@
     <string name="button_text_uninstall">Afinstaller</string>
     <string name="pref_category_title_cleanup_white_list">Undtagelser</string>
     <string name="pref_title_cleanup_white_list">Undtagelser</string>
-    <string name="pref_summary_cleanup_white_list">Forhindr valgte apps i at blive renset</string>
+    <string name="pref_summary_cleanup_white_list">Forhindr valgte filer i at blive renset</string>
     <string name="pref_category_title_auto_update_cleanup_db">Yderligere indstillinger</string>
     <string name="pref_title_auto_update_cleanup_db">Opdater automatisk</string>
     <string name="pref_summary_auto_update_cleanup_db">Sidst opdateret %s</string>
@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Hukommelse</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerede apps: %d</string>
     <string name="toast_resolve_apk_error">Ret APK-fejl</string>
@@ -185,8 +186,6 @@
     <string name="toast_backup_uninstall_success">Sikkerhedskopiering og afinstallation fuldført</string>
     <string name="activity_title_cache_data">App-data</string>
     <string name="deepclean_cache_header_left">Datafiler: %d</string>
-    <string name="notification_title_of_garbage_cleanup">%s af uønskede filer</string>
-    <string name="notification_summary_of_garbage_cleanup">Tryk for at frigøre plads.</string>
     <string name="notification_summary_after_auto_cleanup">Renset %s.</string>
     <string name="toast_uninstall_success">Afinstallation er færdig</string>
     <string name="toast_app_no_residual_on_sdcard">Appen har ingen filer gemt på dit SD-kort</string>
@@ -299,6 +298,7 @@
     <string name="downloading">Downloader</string>
     <string name="installing">Installerer</string>
     <string name="start_install">Installer nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åbn i browser</string>
     <string name="title_share_link">Del URL</string>
     <string name="connecting">Opretter forbindelse…</string>
@@ -565,4 +565,10 @@
     <string name="one_tap_clean_M">%d Mb</string>
     <string name="one_tap_clean_GB">%s Gb</string>
     <string name="security_center_slogan">Sikkerhed. Altid på vagt.</string>
+    <string name="notification_garbage_cleanup_title">Ryd uønskede filer</string>
+    <string name="notification_garbage_cleanup_summary">Størrelse på uønskede filer nået %s</string>
+    <string name="notification_low_memory_cache_title">Ryd cache</string>
+    <string name="notification_low_memory_cache_summary">Mindre end 1.5GB lagerplads tilgængelig</string>
+    <string name="notification_low_memory_deepclean_title">Der er snart ikke mere lagerplads</string>
+    <string name="notification_low_memory_deepclean_summary">En grundig rengøring kan frigøre lagerplads på din enhed</string>
 </resources>

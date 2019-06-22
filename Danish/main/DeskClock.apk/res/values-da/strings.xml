@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Tilføj alarm</string>
     <string name="add_clock">Tilføj ur</string>
     <string name="add_timezone_title">Tilføj tidszone</string>
@@ -108,7 +109,9 @@
     <string name="hour_unit">Timer +</string>
     <string name="install_weather_app_error">Kunne ikke loade app.</string>
     <string name="install_weather_app_loading">Lige et øjeblik…</string>
-    <string name="invalid_time">Ugyldig tid: %3$s %1$d: %2$d</string>
+    <string name="invalid_time">"Ugyldig tid:
+%3$s %1$d:
+%2$d "</string>
     <string name="invalid_timer_length">Timerens varighed er ugyldig</string>
     <string name="keep_screen_on">Behold skærmen tændt.</string>
     <string name="korea_permission_calendar">Kalender</string>
@@ -195,11 +198,15 @@
     <string name="setting_alarm_arriving_summary">Send en besked inden ringning.</string>
     <string name="setting_alarm_arriving_title">Besked inden ringning</string>
     <string name="settings">Indstillinger</string>
+    <string name="shortcut_new_alarm">Set alarm</string>
+    <string name="shortcut_start_timer">Start timer</string>
+    <string name="shortcut_stop_watch">Start stopwatch</string>
     <string name="shut_down_keep_screen">Skærmen vil ikke blive holdt tændt</string>
     <string name="shutdown_alarm_disable_summary">Alarmen vil ikke lyde, hvis enheden er slukket</string>
     <string name="shutdown_alarm_enable_summary">Alarmen vil aktivere, hvis den er sat til mindst 5 minutter, efter du slukker for din enhed</string>
     <string name="shutdown_alarm_title">Sluk for alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sluk én gang på %s</string>
     <string name="slider_text">Swipe op for at slukke</string>
     <string name="snooze_confirm_cancel">Afblæs alarm</string>
@@ -218,6 +225,7 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen overlap</string>
     <string name="stopwatch_title">Stopur</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Indstillinger</string>
     <string name="system_time_settings_category_title">Tidsindstillinger</string>
     <string name="temperature_unit">℃</string>
@@ -271,6 +279,7 @@
     <string name="turn_off_this_repeat_alarm">Sluk denne repeterende alarm</string>
     <string name="upcoming_alarm">%s  Kommende alarmer</string>
     <string name="upcoming_alarm_hint">Du kan lukke alarm på forhånd.</string>
+    <string name="update_notification_info">Opdaterer data i baggrunden…</string>
     <string name="user_agreement">Brugeraftale</string>
     <string name="vibrate_pref_summary">Vibrer, når alarm lyder.</string>
     <string name="vibrate_when_ringing">Vibrer ved ringning</string>

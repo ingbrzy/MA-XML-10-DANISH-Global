@@ -132,13 +132,61 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="other">Tilføj %d minutter</item>
         <item quantity="one">Tilføj %d minut</item>
     </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">%s dag</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">%s dage tilbage</item>
+        <item quantity="one">%s dag tilbage</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">%s timer tilbage</item>
+        <item quantity="one">%s time tilbage</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">%s minutter tilbage</item>
+        <item quantity="one">%s minut tilbage</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">%s dage tilbage</item>
+        <item quantity="one">%s dag tilbage</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">%s timer tilbage</item>
+        <item quantity="one">%s time tilbage</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">%s minutter tilbage</item>
+        <item quantity="one">%s minut tilbage</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">%s dage før fuldt opladet</item>
+        <item quantity="one">%s dag før fuldt opladet</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">%s timer før fuldt opladet</item>
+        <item quantity="one">%s time før fuldt opladet</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">%s minutter før fuldt opladet</item>
+        <item quantity="one">%s minut før fuldt opladet</item>
+    </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
-        <item quantity="other">%2$d apps, including %1$s, are draining battery</item>
-        <item quantity="one">%2$d app, including %1$s, is draining battery</item>
+        <item quantity="other">%2$d apper, inklusive %1$s, bræner batteriet</item>
+        <item quantity="one">%2$d app, inklusive %1$s, bræner batteriet</item>
     </plurals>
     <plurals name="pc_abnormal_scan_result_model_result_title">
-        <item quantity="other">%d apps are draining battery</item>
-        <item quantity="one">%d app is draining battery</item>
+        <item quantity="other">%d apper dræner batteriet</item>
+        <item quantity="one">%d app dræner batteriet</item>
     </plurals>
     <plurals name="people">
         <item quantity="other">Downloadet af %1$d mennesker</item>
@@ -377,8 +425,8 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="one">Loggede ind %d gang</item>
     </plurals>
     <plurals name="function_shield_num">
-        <item quantity="other">%d features</item>
-        <item quantity="one">%d feature</item>
+        <item quantity="other">%d funktioner</item>
+        <item quantity="one">%d funktion</item>
     </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
         <item quantity="other">    +%1$d flere tegn</item>

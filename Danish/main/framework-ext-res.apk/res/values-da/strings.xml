@@ -42,7 +42,6 @@
     <string name="auto_start_warning_title">Tillad, at %s starter automatisk?</string>
     <string name="auto_start_warning_allow">Tillad</string>
     <string name="auto_start_warning_deny">Nægt</string>
-    <string name="call_record_sample_prefix_miui">Opkald</string>
     <string name="call_record_or">eller</string>
     <string name="caller_info_name_delimiter">eller</string>
     <string name="first_back_long_press_message">For at indstille brugertilpassede \"tryk og hold\"-handlinger for navigationsknapper, gå til Indstillinger > Yderligere indstillinger > Knapper</string>
@@ -198,12 +197,13 @@
     <string name="popup_camera_front_failed">Kunne ikke åbne frontkamera. Prøv igen.</string>
     <string name="takeback_camera_front_failed">Kunne ikke lukke frontkamera. Prøv igen.</string>
     <string name="stop_operate_camera_frequently">Du åbner frontkameraet for ofte.</string>
+    <string name="popup_camera_front_when_use">Kamera-appen skal åbne frontkameraet igen. Åbn det nu?</string>
     <string name="popup_camera_popup_falied_times_calibrate">Kunne ikke åbne frontkameraet flere gange. Prøv at kalibrere kameraet.</string>
     <string name="popup_camera_takeback_falied_times_calibrate">Kunne ikke lukke frontkameraet flere gange. Prøv at kalibrere kameraet.</string>
     <string name="popup_camera_calibrate_now">Kalibrer</string>
     <string name="popup_camera_calibrate_success">Kalibrering lykkedes. Du kan nu åbne frontkameraet.</string>
     <string name="popup_camera_calibrate_failed">Kunne ikke kalibrere</string>
     <string name="popup_camera_using_camera_background">%s bruger frontkameraet</string>
-    <string name="sim_lock_non_ais_msg">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
-    <string name="sim_lock_now_ais_title">SIM%1$d</string>
+    <string name="sim_lock_non_ais_msg">Dit SIM-kort fungerer ikke helt sammen med denne telefon, fordi det ikke overholder dit abonnements vilkår og betingelser. Hvis du skulle have spørgsmål eller brug for flere oplysninger om dette problem, bedes du kontakte Xiaomi servicecentre eller den butik, der har solgt produktet til dig.</string>
+    <string name="sim_lock_now_ais_title">SIM %1$d</string>
 </resources>

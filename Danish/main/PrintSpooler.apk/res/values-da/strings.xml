@@ -11,6 +11,7 @@
     <string name="cannot_add_printer">Der kan ikke tilføjes printere</string>
     <string name="collapse_handle">Håndtag til skjuling</string>
     <string name="could_not_create_file">Filen kunne ikke oprettes</string>
+    <string name="current_page_template">%1$d af %2$d</string>
     <string name="destination_default_text">Vælg en printer</string>
     <string name="disabled_services_title">Deaktiverede tjenester</string>
     <string name="enable_print_service">Vælg for at aktivere</string>
@@ -56,6 +57,7 @@
     <string name="print_service_security_warning_title">Vil du bruge %1$s?</string>
     <string name="print_services_disabled_toast">Nogle udskrivningstjenester er deaktiveret</string>
     <string name="print_write_error_message">Der kunne ikke skrives til filen</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Flere oplysninger om denne printer</string>
     <string name="printing_app_crashed">Udskrivningsapp gik ned</string>
     <string name="printing_notification_title_template">%1$s udskrives</string>

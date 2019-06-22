@@ -9,6 +9,9 @@
     <string name="button_queue_for_wifi">Vent</string>
     <string name="button_start_now">Download</string>
     <string name="call_record">Optagede opkald</string>
+    <string name="call_record_list_group_all">Alle</string>
+    <string name="call_record_list_group_connected">Tilsluttet</string>
+    <string name="call_record_list_group_unconnected">Ikke tilsluttet</string>
     <string name="clear_records">Slet synkroniserede optagelser</string>
     <string name="cloud_record_open">Synkroniser optagelser</string>
     <string name="cloud_record_tip">Synkroniser optagelser med Mi Cloud.</string>
@@ -133,13 +136,14 @@
     <string name="preference_enable_earpiece_summary">Brug modtagerhøjttaler til ekstern afspilning</string>
     <string name="preference_enable_earpiece_title">Brug modtager til at afspille lyd</string>
     <string name="preference_led_indicator">Låseskærmsnotifikationer</string>
-    <string name="preference_led_indicator_prompt">Mens du optager, vis statuslinjegenvejen og impulsnotifikationslampen på låseskærmen</string>
+    <string name="preference_led_indicator_prompt">Mens du optager, vis statuslinjegenvejen og impulsnotifikationslampen</string>
     <string name="preference_online_orders">Online ordrer</string>
     <string name="preference_recog_faqs">Online transskribering af FAQ</string>
     <string name="preference_recog_terms">Servicevilkår</string>
     <string name="preference_record_scenes_dialog_title">Vælg optagelsestype</string>
     <string name="preference_scenes">Optagelsestype</string>
     <string name="preference_silent_mode">Slå ringetone fra under optagelse</string>
+    <string name="preference_status_bar_indicator_prompt">Vis genvej til statusbjælken under optagelse</string>
     <string name="preference_tip_rename">Døb optagelser manuelt</string>
     <string name="privacy_policy_title">Privatlivspolitik</string>
     <string name="recognition_error_cancel">Annulleret</string>
@@ -231,6 +235,9 @@
     <string name="service_instructions">Om iflyrec.com</string>
     <string name="share">Del</string>
     <string name="share_dialog_title">Del med</string>
+    <string name="shortcut_records">Optagelser</string>
+    <string name="shortcut_start_record">Start optagelse</string>
+    <string name="shortcut_stop_record">Stop optagelse</string>
     <string name="sound_recorder_settings">Indstillinger</string>
     <string name="speech_recognition_complete">Transskriberet</string>
     <string name="speech_recognition_running_tip">"Behandler "</string>

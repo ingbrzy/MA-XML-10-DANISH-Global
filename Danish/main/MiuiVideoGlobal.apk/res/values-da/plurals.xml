@@ -36,4 +36,8 @@
         <item quantity="other">Se %d kommentarer</item>
         <item quantity="one">Se %d kommentar</item>
     </plurals>
+    <plurals name="subscriber">
+        <item quantity="other"> abonnenter</item>
+        <item quantity="one"> abonnent</item>
+    </plurals>
 </resources>

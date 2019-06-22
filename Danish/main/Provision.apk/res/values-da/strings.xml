@@ -56,6 +56,7 @@ Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvend
     <string name="terms_of_use_label_systemhelper">, selvregistreringsservice</string>
     <string name="terms_of_use_lable_smart_cards">, smartkort</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
+    <string name="terms_of_use_label_updater">, Opdater</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Du skal bekræfte Facemojis privatlivspolitik, før du kan bruge denne funktion."</string>

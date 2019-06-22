@@ -64,6 +64,7 @@
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Udløbet</string>
     <string name="alert_title">Kalendernotifikationer</string>
+    <string name="all_events">Alle begivenheder</string>
     <string name="anniversary_event_title">Jubilæum: %1$s</string>
     <string name="anniversary_secondary_tag">Jubilæum</string>
     <string name="app_label">Kalender</string>
@@ -135,6 +136,7 @@
     <string name="date_interval_text_to">Til %1$s</string>
     <string name="date_jump_hint">Hop direkte til en given dato</string>
     <string name="date_jump_title">Hop til dato</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (i dag)"</string>
     <string name="day_view_new_event_hint">Ny begivenhed</string>
     <string name="default_reminder_mode">Remindere</string>
@@ -343,6 +345,7 @@
     <string name="preferences_default_reminder_title">Standard-remindertid</string>
     <string name="preferences_home_tz_title">Hjemme-tidszone</string>
     <string name="preferences_notification_ringtone_title">Lyd</string>
+    <string name="preferences_show_indic_date_title">Vis indisk kalender</string>
     <string name="preferences_title">Kalender</string>
     <string name="preferences_use_home_tz_descrip">Vis kalendere og eventtidspunkter i din hjemme-tidszone, når du rejser.</string>
     <string name="preferences_use_home_tz_title">Brug hjemme-tidszone</string>
@@ -402,10 +405,12 @@
     <string name="setting_others">Yderligere</string>
     <string name="setting_title_about">Om</string>
     <string name="setting_title_holiday_display">Vis ferier</string>
+    <string name="setting_title_policy">Fortrolighedspolitik</string>
     <string name="share_image">Del</string>
     <string name="share_image_label">Del via</string>
     <string name="share_title">Del</string>
     <string name="show_day_view">Vis dag</string>
+    <string name="show_indic_date_summary">Indisk kalender er tilgængelig, når et af de indiske sprog er valgt som dit systemsprog</string>
     <string name="start_date_calculate">Beregn</string>
     <string name="storage_permission_denied">Giv først adgang til hukommelse</string>
     <string name="subscribe_card">Abonner nu</string>

@@ -35,6 +35,8 @@
     <string name="mx_sub_dspt_provision_with_voip">Internetopkald</string>
     <string name="phone_number_required_dspt_provision">Denne service kræver dit telefonnummer.</string>
     <string name="sync_dspt_provision">Synkroniser dine fotos, kontakter, noter og mere på tværs af alle dine enheder eller få adgang til dem på</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan når som helst slå denne funktion til og fra i Indstillinger.
 "</string>
     <string name="sync_dspt_entrance_provision">"Med Mi Cloud kan du synkronisere fotos, kontakter og andre elementer på tværs af enheder. Du kan hvor som helst få adgang til synkroniserede elementer på %s. "</string>
@@ -44,7 +46,9 @@
     <string name="sync_dspt_entrance_provision_confirm_content">"MIUI's indbyggede apps skal bruge Mi Cloud for at tage backup af dine fotos, kontakter, noter og mere. Mi Cloud er gratis og klar til at bruge uden videre lige med det samme."</string>
     <string name="sync_dspt_entrance_provision_skip">Spring dette trin over</string>
     <string name="sync_dspt_entrance_provision_network">Denne app er nødt til at tilslutte til internettet for at fungere normalt. Synkronisering af data kan kræve mobildataforbindelse, og at wi-fi er tændt.</string>
-    <string name="find_device_dspt_provision">Hvis du mister din enhed, kan du gå til %s for at finde, låse eller nulstille den. Du kan når som helst slå denne funktion til og fra i Indstillinger.</string>
+    <string name="find_device_dspt_provision">Hvis du mister din enhed, kan du gå til &lt;font color=#ff0000>%s&lt;/font> for at finde, låse eller nulstille den. Du kan når som helst slå denne funktion til og fra i Indstillinger.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_send_sms_alert">Hvis du skifter SIM-kort, vil en anden SMS muligvis blive sendt automatisk for at genaktivere denne funktion.</string>
     <string name="mx_dspt_provision">"Mi Message lader dig sende beskeder til andre MIUI-enheder uden at pålægge betaling, når enheden er tilsluttet til wi-fi.
 
@@ -133,8 +137,8 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="sync_item_calllog_summary">Synkroniser alle optagelser, der er blevet lavet og modtaget på denne telefon.</string>
     <string name="micloud_main_network_error">Kan ikke tilslutte til netværket.</string>
     <string name="micloud_main_manual_sync">Synkroniser manuelt</string>
-    <string name="micloud_main_sync_mode_title">Strømbesparende synkronisering</string>
-    <string name="micloud_main_sync_mode_summary">Synkroniser de fleste elementer, når opladeren er tilsluttet og skærmen slukket</string>
+    <string name="micloud_main_sync_mode_title">Hurtig synkronisering</string>
+    <string name="micloud_main_sync_mode_summary">Synkroniser appdata i realtid. Strømforbruget stiger, når denne funktion er slået til.</string>
     <string name="micloud_main_wait_wlan">Venter på wi-fi</string>
     <string name="micloud_main_wait_wlan_charge_sleep">Tilslut til wi-fi, sluk for skærmen og oplad din enhed fuldt for at fortsætte synkroniseringen.</string>
     <string name="micloud_main_wait_wlan_charge">Tilslut til wi-fi og oplad din enhed fuldt for at fortsætte synkroniseringen.</string>
@@ -243,6 +247,7 @@ på din Mi Account for at genaktivere Mi Cloud."</string>
     <string name="micloud_find_device_opened">Find enhed tændt</string>
     <string name="micloud_find_device_open_fail">Kunne ikke tænde Find enhed.</string>
     <string name="micloud_find_device_opened_content">Find din enhed på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke genaktivere Find enhed.</string>
     <string name="micloud_find_device_close_fail">Kunne ikke slukke Find enhed,</string>
     <string name="micloud_find_device_finish">Udført</string>
@@ -263,11 +268,9 @@ på din Mi Account for at genaktivere Mi Cloud."</string>
     <string name="micloud_find_device_guide_alert_negtive">Nej tak</string>
     <string name="micloud_find_device_guide_alert_negtive_activate">Nej tak</string>
     <string name="micloud_find_device_close_alert_title">Sluk Find enhed?</string>
-    <string name="micloud_find_device_close_alert_content">Hvis du slukker denne funktion, vil du ikke kunne finde din enhed, hvis du skulle miste den.</string>
     <string name="micloud_find_device_close_alert_positive">Bevar tændt</string>
     <string name="micloud_find_device_close_alert_negtive">Sluk alligevel</string>
-    <string name="find_device_gdpr_prompt">Ved at tænde for Find enhed accepterer du vores privatlivspolitik. Hvis du er nødt til at tilbagekalde autorisation, så sluk for denne funktion.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">Fortrolighedspolitik</string>
+    <string name="find_device_gdpr_prompt">Ved at tænde for Find enheden, accepterer du vores <u><a href="app://com.miui.cloudservice.gdpr.license">Fortrolighedspolitik</a></u>. Hvis du er nødt til at tilbagekalde autoriseringen, slå denne funktion fra.</string>
     <string name="activate_finddevice">Tilslut til netværket for at aktivere enhed</string>
     <string name="account_related">Din enhed er tilknyttet en eksisterende Mi Account(%s). Tilslut til netværket for at verificere enheden.</string>
     <string name="connect_network">Tilslut til wi-fi eller indsæt et SIM-kort</string>
@@ -301,6 +304,8 @@ på din Mi Account for at genaktivere Mi Cloud."</string>
     <string name="micloud_main_head_menu_state_close">Slukket</string>
     <string name="micloud_main_head_menu_state_unavailable">Understøttes ikke</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Fin enhed er ikke tilgængelig i Second space. Du kan bruge funktionen i First space.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Betaling med fingeraftryk</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>
@@ -374,6 +379,7 @@ på din Mi Account for at genaktivere Mi Cloud."</string>
     <string name="micloud_sync_result_cloud_storage_full">Mi Cloud-lagerplads er fuld</string>
     <string name="micloud_sync_result_cta_permission_error">Tilslut først til netværket</string>
     <string name="micloud_sync_result_common_message">Kunne ikke synkronisere. Vent et minut eller to og prøv så igen.</string>
+    <string name="micloud_request_sync_too_frequent">For mange anmodninger. Vent et øjeblik eller to og prøv så igen.</string>
     <string name="warning_bar_title_sync_off">Synkronisering med Mi Cloud er slået fra</string>
     <string name="warning_bar_action_turn_on_sync">Slå til</string>
     <string name="warning_bar_title_master_sync_off">Automatisk synkronisering er slukket</string>
@@ -408,10 +414,13 @@ på din Mi Account for at genaktivere Mi Cloud."</string>
     <string name="sync_detail_summary_off">Slukket</string>
     <string name="enable_sync_setting_title">Konfigurerer cloud services…</string>
     <string name="provision_sync_items_loading">Forbereder synkronisering af elementer</string>
+    <string name="waiting_for_sync">Venter…</string>
+    <string name="system_busy_or_network_error">Der opstod en fejl. Vent et minut eller to og prøv så igen.</string>
     <string name="micloud_main_memory_low_title">Telefonens interne lager er næsten fuldt</string>
     <string name="micloud_notif_title_memory_low">Kan ikke synkronisere med Mi Cloud</string>
     <string name="find_device_service_title">Find enhed</string>
     <string name="micloud_wipe_data_confirm_title">Fjern elementer, der er synkroniseret med Mi Cloud, fra telefonen, efter at du har logget ud?</string>
     <string name="wipe_data_dialog_msg">%s blev ikke synkroniseret og vil forblive på din telefon.</string>
+    <string name="micloud_find_device_close_alert_content">Hvis du deaktiverer Find enhed, vil du ikke kunne lokalisere din telefon ved hjælp af denne funktion. Hvis din telefon understøtter NFC-funktionaltet, bliver alle dine bankkort og nøglekort slettet fra Mi Pay.</string>
     <string name="micloud_manual_all_sync_off_summary">Gendan synkroniserede data på nye enheder ved hjælp af Mi Cloud</string>
 </resources>

@@ -409,7 +409,7 @@ Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string
     <string name="activate_ent_mode">Aktivér Enterprisetilstand</string>
     <string name="about_ent_mode">Om Enterprisetilstand</string>
     <string name="ent_mode_activated">Enterprisetilstand er aktiveret</string>
-    <string name="ent_activation_hint">Indtast din virksomhedskode sammen med din licenskode for at aktivere Enterprisetilstand. Efter dette vil tilpassede enterprisetjenester blive aktiveret.</string>
+    <string name="ent_activation_hint">Indtast din virksomhedskode sammen med din licenskode for at aktivere Enterprise-tilstand. Efter dette vil tilpassede Enterprise-tjenester blive aktiveret.</string>
     <string name="ent_activation_hint_whit_licence">"Aktivér Enterprisetilstand for at aktivere tilpassede enterprisetjenester.
 Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relaterede privatlivspolitik før aktivering."</string>
     <string name="ent_agency_code">Virksomhedskode</string>
@@ -429,7 +429,7 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="ent_invalid_agency">Virksomhedskoden er ugyldig.</string>
     <string name="ent_privacy_policy_notice">* Personlige data i denne tilstand indsamles i henhold til politikkerne, der er etableret af din virksomhed. Xiaomi indsamler ikke personlige data i denne tilstand.</string>
     <string name="ent_confirm_dialog_content">Du vil ikke være i stand til at gå tilbage til dit systems nuværende tilstand, når du har aktiveret Enterprise-tilstand. Alle dine data vil dog blive gemt på denne enhed. Du skal genstarte din enhed for at aktivere Enterprise-tilstand. Aktiver nu?</string>
-    <string name="ent_error_dialog_content">Mindst en af indtastede koder var forkerte. Tjek dine virksomheds- og licenskoder og indtast dem igen.</string>
+    <string name="ent_error_dialog_content">Mindst en af de indtastede koder var forkerte. Tjek dine virksomheds- og licenskoder og indtast dem igen.</string>
     <string name="ent_download_install_dialog_content">Du skal installere virksomheds-apps for at aktivere Enterprisetilstand. Installer nu?</string>
     <string name="ent_download_install_dialog_title">Download virksomheds-apps</string>
     <string name="ent_downloading_message">Downloader %d%%</string>

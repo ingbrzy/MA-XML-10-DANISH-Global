@@ -127,6 +127,7 @@
     <string name="note_sort_way">Vælg, hvordan du vil sortere dine noter</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Notepåmindelse</string>
     <string name="permdesc_accessNote">Ondsindede apps kan bruge dette til at gå ind på dine personlige data.</string>
     <string name="permission_intro_contact">Til at markere noter taget under opkald</string>
@@ -134,13 +135,13 @@
     <string name="permission_intro_phone">Til at markere noter taget under opkald</string>
     <string name="permission_intro_storage">Til at gemme noter og vedhæftede filer</string>
     <string name="permlab_accessNote">Gå ind på noter</string>
-    <string name="pref_desc_skip_confirm_for_quick_delete">Bed ikke om bekræftelse, når en note slettes med en håndbevægelse</string>
+    <string name="pref_desc_skip_confirm_for_quick_delete">Stryg op med 2 fingre for at slette notater uden bekræftelse</string>
     <string name="pref_title_cloud_trash_bin">Slettede noter i Mi Cloud</string>
     <string name="pref_title_common">Yderligere indstillinger</string>
     <string name="pref_title_font_size">Skriftstørrelse</string>
     <string name="pref_title_note_style">Stil</string>
     <string name="pref_title_show_root_folder_in_homepage">Vis kun hurtige noter på startsiden</string>
-    <string name="pref_title_skip_confirm_for_quick_delete">Hurtig sletning</string>
+    <string name="pref_title_skip_confirm_for_quick_delete">Slet brug af en gestus</string>
     <string name="recover_notes_hint">Der opstod en fejl. Gå til i.mi.com for at gendanne noter.</string>
     <string name="redo">Gør igen</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Vent, indtil noten er loadet og prøv så igen.</string>
@@ -208,6 +209,7 @@
     <string name="toast_notes_hidden_edit">Denne note blev skjult med succes. Træk ned for at se skjulte noter.</string>
     <string name="toast_notes_hidden_home">Denne note blev skjult med succes. Træk ned for at se skjulte noter.</string>
     <string name="toast_notes_unhidden">Er nu synliggjort</string>
+    <string name="toast_pic_is_not_really">Gemmer billede…</string>
     <string name="toast_reach_text_limit_attachment">Kan ikke tilføje nye vedhæftelser, fordi notat er for langt</string>
     <string name="toast_reach_text_limit_checkbox">Kan ikke tilføje afkrydsningsfeltet, da noten er for lang</string>
     <string name="toast_reach_text_limit_truncate">Dette notat er for langt. Noget af teksten er blevet skåret af til sidst.</string>

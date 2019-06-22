@@ -52,6 +52,10 @@
         <item quantity="other">%d app-vault-poster</item>
         <item quantity="one">Indgang til %d app-boks</item>
     </plurals>
+    <plurals name="dirty_phrase_count">
+        <item quantity="other">%d hyppige sætninger</item>
+        <item quantity="one">%d hyppig sætning</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">%d skjulte fotos er ikke synkroniseret. Log ud, efter at alle elementer er synkroniseret, for at beholde dem. Ellers vil elementerne blive slettet.</item>
         <item quantity="one">%d skjulte fotos er ikke synkroniseret. Log ud, efter at alle elementer er synkroniseret, for at beholde dem. Ellers vil elementerne blive slettet.</item>

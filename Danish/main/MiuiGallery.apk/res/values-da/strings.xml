@@ -195,6 +195,13 @@
     <string name="begin_share_toast">Opret en separat album til dette barn inden deling?</string>
     <string name="blank_app_name" />
     <string name="browse_category_title">Gennemse</string>
+    <string name="burst_image_download_item_title" formatted="false">Download original (%s|%s)</string>
+    <string name="burst_preview_title">Seriefoto</string>
+    <string name="burst_save_all">Gem alt</string>
+    <string name="burst_save_choice_title" formatted="false">Valgt %d ud af %d</string>
+    <string name="burst_save_confirm_dialog_title">Gemmer fotos</string>
+    <string name="burst_save_error_msg">Kunne ikke gemme</string>
+    <string name="burst_save_processing">Behandler…</string>
     <string name="buy_member_tip">Bliv medlem</string>
     <string name="by_email">E-mail</string>
     <string name="by_others">Andet</string>
@@ -337,6 +344,8 @@
     <string name="custom_select_title_select_item">Valgte emner</string>
     <string name="debugging_info">Fejlretningsoplysninger blev oprettet. Tryk OK for at åbne mappe.</string>
     <string name="debugging_tip">Generel fejlfinding af data</string>
+    <string name="decrypt_video_failed">Kunne ikke klargøre video</string>
+    <string name="decrypting_video">Klargør video…</string>
     <string name="default_relation_name">Ny gruppe</string>
     <string name="define_by_user">Brugertilpasset</string>
     <string name="delete">Slet</string>
@@ -390,6 +399,10 @@
     <string name="downloading_dialog_message">Du kan vælge kvaliteten af de downloadede billeder eller slukke for automatiske downloads i indstillingerne.</string>
     <string name="downloading_title">Downloader fotos fra Mi Cloud</string>
     <string name="edit_baby_info">Se babyoplysninger</string>
+    <string name="editor_cancel">Annuller</string>
+    <string name="editor_export">Gem</string>
+    <string name="editor_talkback_redo">Gentag</string>
+    <string name="editor_talkback_undo">Fortryd</string>
     <string name="email_picker_title">Tilføj delt e-mail</string>
     <string name="empty_query_text_msg">Ved ikke hvad man skal søge efter…</string>
     <string name="empty_recommend_back">Tilbage</string>
@@ -502,6 +515,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="face_name_edit">Redigér</string>
     <string name="face_name_input">Indtast navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fuldføre handlingen</string>
     <string name="fail_to_pick_email">Ugyldig e-mailadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Tjek din dataforbindelse og prøv igen.</string>
@@ -512,6 +526,7 @@ Tag flere fotos af dine venner!"</string>
     <string name="feature_guidance_photo_effects">"Nye fotoeffekter
 er tilgængelige"</string>
     <string name="feature_guidance_video_editor_smart_effects">Nye effekter er tilgængelige</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">B&amp;W</string>
     <string name="filter_bi_dusk">Skumring</string>
     <string name="filter_bi_lilt">Munter melodi</string>
@@ -560,7 +575,7 @@ er tilgængelige"</string>
     <string name="filter_people_movie">Biograf</string>
     <string name="filter_people_nature">Natur</string>
     <string name="filter_people_pink">Rødme</string>
-    <string name="filter_people_riddle">Candy</string>
+    <string name="filter_people_riddle">Slik</string>
     <string name="filter_people_sepia">Sepia</string>
     <string name="filter_people_story">Historie</string>
     <string name="filter_people_tea">Te</string>
@@ -585,18 +600,20 @@ er tilgængelige"</string>
     <string name="filter_sky_sunset">Solnedgang</string>
     <string name="finish_create_baby_album_toast">Oprettet et album til \"%s\" i Mi Cloud</string>
     <string name="finish_fill_baby">Opret</string>
+    <string name="first_time_add_video_to_secret_tips">Opdater Galleri til at kunne gemme videoer</string>
     <string name="flash_off">Ingen blitz</string>
     <string name="flash_on">Blitz brugt</string>
     <string name="frame_not_support_image_ratio">Dette målforhold er ikke understøttet</string>
     <string name="free_view_desc">3D-visning</string>
     <string name="gallery_setting">Indstillinger</string>
     <string name="gallery_sync_disable_toast">Synkronisering er slukket for galleri.</string>
-    <string name="generate_story_summary">MIUI vil analysere dine fotos og skabe historiealbummer. Slå denne funktion fra for at stoppe med at skabe historiealbummer.</string>
-    <string name="generate_story_title">Historiealbum</string>
+    <string name="generate_story_summary">MIUI will analyze your photos and create memories. Turn this feature off to stop creating memories.</string>
+    <string name="generate_story_title">Memories</string>
     <string name="get_album_info_in_process">Henter delte albums detaljer…</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Indstil</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri skal have adgang til 
 %s
  for at fungere normalt, tryk på \"Indstil\" for at gå til Tilladelser."</string>
@@ -850,6 +867,7 @@ til at gøre Galleri personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Vælg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Unavngivet</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">Til navngivning af personer på fotos</string>
     <string name="permission_contract_name">Kontakter</string>
     <string name="permission_optional_category">Valgfrie tilladelser</string>
@@ -875,7 +893,7 @@ til at gøre Galleri personligt"</string>
     <string name="photo_editor_crop_rotation_format">%d°</string>
     <string name="photo_editor_doodle">Tegne kruseduller</string>
     <string name="photo_editor_filter">Filter</string>
-    <string name="photo_editor_font_default">>Mi Lanting (almindelig)</string>
+    <string name="photo_editor_font_default">Mi Lanting (almindelig)</string>
     <string name="photo_editor_frame">Ramme</string>
     <string name="photo_editor_label">Rediger</string>
     <string name="photo_editor_long_crop">Beskær</string>
@@ -906,6 +924,7 @@ til at gøre Galleri personligt"</string>
     <string name="photo_editor_navigator_module_downloading">Downloader %s…</string>
     <string name="photo_editor_navigator_need_download">Forbind til internettet for at downloade %s.</string>
     <string name="photo_editor_remove_watermark">Fjern vandmærke</string>
+    <string name="photo_editor_remove_watermark_on">Tilføj vandmærke</string>
     <string name="photo_editor_remover">Slet</string>
     <string name="photo_editor_rotate">Rotér</string>
     <string name="photo_editor_saving">Gemmer…</string>
@@ -914,10 +933,11 @@ til at gøre Galleri personligt"</string>
     <string name="photo_editor_talkback_confirm">Bekræft</string>
     <string name="photo_editor_talkback_crop_16_9">Seksten til ni</string>
     <string name="photo_editor_talkback_crop_1_1">En til en</string>
+    <string name="photo_editor_talkback_crop_2_3">To til tre</string>
     <string name="photo_editor_talkback_crop_3_4">Tre til fire</string>
     <string name="photo_editor_talkback_crop_4_3">Fire til tre</string>
     <string name="photo_editor_talkback_crop_9_16">Ni til seksten</string>
-    <string name="photo_editor_talkback_crop_free">Gratis</string>
+    <string name="photo_editor_talkback_crop_free">Fri</string>
     <string name="photo_editor_talkback_crop_mirror">Spejl</string>
     <string name="photo_editor_talkback_crop_original">Original</string>
     <string name="photo_editor_talkback_crop_rotate">Rotér</string>
@@ -1045,7 +1065,12 @@ til at gøre Galleri personligt"</string>
     <string name="scan_barcode_to_join">Scan QR-kode for at tilføje album</string>
     <string name="scan_qr_code_buttom_text">Scan QR-kode for at se dette album</string>
     <string name="screen_doodle_talkback_size">Figurlinjebredde</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Udført</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Annuller</string>
     <string name="screen_save_dialog_btn_delete">Slet skærmbillede</string>
     <string name="screen_save_dialog_btn_save">Gem i Galleri</string>
@@ -1103,6 +1128,9 @@ til at gøre Galleri personligt"</string>
     <string name="search_title_recommend">Anbefalet</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leder efter projektor…</string>
     <string name="secret_album_card_description">Det bedste sted for alle dine små hemmeligheder</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -1178,6 +1206,12 @@ til at gøre Galleri personligt"</string>
     <string name="slim_running">Optimerer…</string>
     <string name="slim_space">frigjort</string>
     <string name="slim_stop">Stop optimering</string>
+    <string name="special_type_eye_repair">Lukkede øjne korrigeret med Al</string>
+    <string name="special_type_hdr">HDR</string>
+    <string name="special_type_night_beauty">AI low light portrait</string>
+    <string name="special_type_night_mode">Al nattilstand</string>
+    <string name="special_type_portrait">Al portræt malet udelukkende med lys</string>
+    <string name="special_type_wide_angle">Al ultravidvinkel</string>
     <string name="start_debug">Fejlfinding af Galleri</string>
     <string name="start_to_use_face_albumset">Sorter efter personer</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1291,8 +1325,14 @@ til at gøre Galleri personligt"</string>
     <string name="video_editor_adjust">Forbedre</string>
     <string name="video_editor_analyzing">Analyserer video…</string>
     <string name="video_editor_audio">Lyd</string>
+    <string name="video_editor_audio_antiquity">Retro</string>
     <string name="video_editor_audio_custom">Vælg</string>
+    <string name="video_editor_audio_dream">Drøm</string>
+    <string name="video_editor_audio_electronics">Elektro</string>
     <string name="video_editor_audio_none">Ingen</string>
+    <string name="video_editor_audio_quiet">Zen</string>
+    <string name="video_editor_audio_summertime">Sommer</string>
+    <string name="video_editor_audio_vitality">Vigor</string>
     <string name="video_editor_auto_trim">Auto-trim</string>
     <string name="video_editor_auto_trim_tip">Auto-trimmer…</string>
     <string name="video_editor_cancel">Annuller</string>
