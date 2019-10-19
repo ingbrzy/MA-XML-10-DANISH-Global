@@ -61,8 +61,8 @@
         <item quantity="one">%d skjulte fotos er ikke synkroniseret. Log ud, efter at alle elementer er synkroniseret, for at beholde dem. Ellers vil elementerne blive slettet.</item>
     </plurals>
     <plurals name="micloud_manual_pause_and_resume">
-        <item quantity="other">Synkronisering er sat på pause. Genoptages om %d minutter…</item>
-        <item quantity="one">Synkronisering er sat på pause. Genoptages om %d minut…</item>
+        <item quantity="other">Genoptager synkronisering om %d minutter</item>
+        <item quantity="one">Genoptager synkronisering om %d minut</item>
     </plurals>
     <plurals name="last_sync_time_mins_ago">
         <item quantity="other">%s min. siden</item>
@@ -73,7 +73,7 @@
         <item quantity="one">%s time siden</item>
     </plurals>
     <plurals name="provision_sync_items_status_title">
-        <item quantity="other">%s-tjenester synkroniseres med Mi Cloud</item>
-        <item quantity="one">%s-tjeneste synkroniseres med Mi Cloud</item>
+        <item quantity="other">%s-tjenester synkroniseres med Xiaomi Cloud</item>
+        <item quantity="one">%s-tjeneste synkroniseres med Xiaomi Cloud</item>
     </plurals>
 </resources>

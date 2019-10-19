@@ -41,4 +41,5 @@
     <string name="prompt_connect_to_network">Vil du oprette forbindelse til netværket %1$s?</string>
     <string name="beam_requires_nfc_enabled">Android Beam kræver, at NFC er aktiveret. Vil du at aktivere NFC?</string>
     <string name="android_beam">Android Beam</string>
+    <string name="beam_requires_external_storage_permission">Appen har ikke adgang til det eksterne lager. Adgangstilladelse er påkrævet for at overføre denne fil.</string>
 </resources>

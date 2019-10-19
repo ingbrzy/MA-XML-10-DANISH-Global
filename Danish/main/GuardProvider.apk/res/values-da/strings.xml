@@ -14,19 +14,19 @@
     <string name="DesAvast">Avast</string>
     <string name="tencent_dialog_title">Tencents Fortrolighedspolitik</string>
     <string name="tencent_dialog_header">Denne funktion krypterer og uploader dit enheds-id til Tencents servere (%s).</string>
-    <string name="tencent_dialog_policy">vis fortrolighedspolitik</string>
+    <string name="tencent_dialog_policy">Privatlivspolitik</string>
     <string name="tencent_dialog_cloudscan">Upload og scan appnavne og oplysninger med online virusdefinitioner.</string>
     <string name="tencent_dialog_dbupdate">Opdater virusdefinitioner automatisk</string>
     <string name="tencent_dialog_url">http://api.sec.miui.com/policy/proxy?p=tencent&amp;l=en_US</string>
     <string name="avl_dialog_title">"AVL's Fortrolighedspolitik"</string>
     <string name="avl_dialog_header">"Denne funktion krypterer og uploader dit enheds-id til AVL's servere (%s)."</string>
-    <string name="avl_dialog_policy">vis fortrolighedspolitik</string>
+    <string name="avl_dialog_policy">Privatlivspolitik</string>
     <string name="avl_dialog_cloudscan" />
     <string name="avl_dialog_dbupdate" />
     <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
     <string name="avast_dialog_title">Avasts Fortrolighedspolitik</string>
     <string name="avast_dialog_header">Denne funktion krypterer og uploader dit enheds-id til Avasts servere (%s).</string>
-    <string name="avast_dialog_policy">vis fortrolighedspolitik</string>
+    <string name="avast_dialog_policy">Privatlivspolitik</string>
     <string name="avast_dialog_cloudscan" />
     <string name="avast_dialog_dbupdate" />
     <string name="avast_dialog_url">http://api.sec.miui.com/policy/proxy?p=avast&amp;l=en_US</string>

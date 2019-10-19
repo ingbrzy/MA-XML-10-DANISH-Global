@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="date_of_traffic_cmcc">
-        <item>Denne uge</item>
-        <item>I dag</item>
-        <item>Denne måned</item>
+        <item>"Denne uge "</item>
+        <item>"I dag "</item>
+        <item>"Denne måned "</item>
     </string-array>
     <string-array name="date_of_traffic">
-        <item>I går</item>
-        <item>I dag</item>
+        <item>"I går "</item>
+        <item>"I dag "</item>
         <item>"Sidste måned "</item>
         <item>"Denne måned "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
-        <item>Denne uge:</item>
-        <item>"I dag: "</item>
-        <item>Denne måned:</item>
+        <item>"Denne uge "</item>
+        <item>"I dag "</item>
+        <item>"Denne måned "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix">
-        <item>I går:</item>
-        <item>I dag:</item>
-        <item>"Sidste måned: "</item>
-        <item>"Denne måned: "</item>
+        <item>"I går "</item>
+        <item>"I dag "</item>
+        <item>"Sidste måned "</item>
+        <item>"Denne måned "</item>
     </string-array>
     <string-array name="date_of_app_all">
-        <item>I går (data)</item>
-        <item>I dag (data)</item>
-        <item>Sidste måned (data)</item>
-        <item>Denne måned (data)</item>
-        <item>I går Wi-Fi</item>
-        <item>I dag Wi-Fi</item>
-        <item>Sidste måned Wi-Fi</item>
-        <item>Denne måned Wi-Fi</item>
+        <item>"I går (mobildata) "</item>
+        <item>"I dag (mobildata) "</item>
+        <item>"Sidste måned (mobildata) "</item>
+        <item>"Denne måned (mobildata) "</item>
+        <item>"I går (Wi-Fi) "</item>
+        <item>"I dag (Wi-Fi) "</item>
+        <item>"Sidste måned (Wi-Fi) "</item>
+        <item>"Denne måned (Wi-Fi) "</item>
     </string-array>
     <string-array name="traffic_type">
-        <item>Mobilbrug</item>
-        <item>Wi-Fi-brug</item>
+        <item>"Mobildataforbrug "</item>
+        <item>"Wi-Fi-forbrug "</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
-        <item>Mobilbrug</item>
-        <item>Wi-Fi-brug</item>
+        <item>"Mobilbrug "</item>
+        <item>"Wi-Fi-forbrug "</item>
     </string-array>
     <string-array name="over_limit_traffic_waring_style">
         <item>Vis advarsel</item>
@@ -73,6 +73,12 @@
         <item>Sorter efter brugt lagerplads</item>
         <item>Sorter efter installationstid</item>
     </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
+    </string-array>
     <string-array name="title_app_info">
         <item>Installationskilde</item>
         <item>Installationstid</item>
@@ -104,5 +110,13 @@
         <item>Hver dag</item>
         <item>Ugedage</item>
         <item>Brugertilpasset</item>
+    </string-array>
+    <string-array name="pc_settings_thermal_entries">
+        <item>Standard</item>
+        <item>Prioriter ydeevne</item>
+    </string-array>
+    <string-array name="pc_settings_thermal_summaries">
+        <item>Bruger standard temperaturstyringstilstand</item>
+        <item>Prioriter ydeevne</item>
     </string-array>
 </resources>

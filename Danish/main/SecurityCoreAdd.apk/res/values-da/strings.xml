@@ -60,19 +60,19 @@
     <string name="wating">Lige et øjeblik…</string>
     <string name="Active">Aktiv</string>
     <string name="ok_button">OK</string>
-    <string name="remove_button">Fjern og genstart</string>
-    <string name="remove_button_time">Fjern og genstart (%ds)</string>
+    <string name="remove_button">Slet</string>
+    <string name="remove_button_time">Slet (%ds)</string>
     <string name="cancel_button">Annuller</string>
     <string name="list_empty_text">Tom</string>
-    <string name="list_empty_text_xspace">Installer WeChat/QQ/Weibo, lav dobbelte apps, og prøv igen.</string>
+    <string name="list_empty_text_xspace">Skab flere dobbelte apper og prøv igen.</string>
     <string name="xspace_label">Dobbelte apps</string>
     <string name="xspace_setting_label">Indstillinger for dobbelt app</string>
     <string name="xspace_account">Dobbelt app-konti</string>
     <string name="xspace_remove">Slet konti for dobbelt-apps</string>
     <string name="declare_dialog_title">Om dobbelte apps</string>
     <string name="menu_item_about_privacy_title">Privatlivspolitik</string>
-    <string name="stop_xspace_alert_title">Sletter konti for dobbelt-app</string>
-    <string name="stop_xspace_alert_content">Alle dobbelt-apps og deres data vil blive slettet permanent. Du er nødt til at genstarte din enhed, for at denne ændring skal træde i kraft. Slet konti nu?</string>
+    <string name="stop_xspace_alert_title">Slet konti for dobbelte apper</string>
+    <string name="stop_xspace_alert_content">Slet alle dobbelte apper og deres konti og app-data? Din enhed genstartes for at ændingen overtages.</string>
     <string name="xspace_loading_msg">Indlæser apps…</string>
     <string name="xspace_header">Dobbelte apps</string>
     <string name="xspace_introduce">Anbefalet</string>
@@ -295,15 +295,23 @@ for at åbne Andet rum fra låseskærm"</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Log ind og del</string>
-    <string name="use_xiaoai_open">Vågn ved hjælp af stemmeassistent</string>
+    <string name="use_xiaoai_open">Våg vha. Mi Al</string>
+    <string name="use_google_open">Våg vha. Google Assistant</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Send til Weibo</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="qq_send">Send til QQ-venner/-computer</string>
     <string name="qq_login">Log på QQ</string>
-    <string name="xspace_default_setting_label">Standard app</string>
-    <string name="xspace_default_app_title">Standard app</string>
-    <string name="xspace_default_app_summary">Angiv standardapp for betalinger, deling, favoritter og meget mere.</string>
+    <string name="xspace_whatsapp_title">WhatsApp</string>
+    <string name="whatsapp_send">Del på WhatsApp</string>
+    <string name="xspace_facebook_title">Facebook</string>
+    <string name="facebook_send">Del på Facebook</string>
+    <string name="facebook_login">Log på med Facebook</string>
+    <string name="xspace_instagram_title">Instagram</string>
+    <string name="instagram_send">Del på Instagram</string>
+    <string name="xspace_default_setting_label">Tilpasning</string>
+    <string name="xspace_default_app_title">Tilpasning</string>
+    <string name="xspace_default_app_summary">Vælg standard apper, der bruges til at logge ind med, dele og til voice assistant</string>
     <string name="xspace_default_setting_dialog_title"> standard</string>
     <string name="xspace_default_guide_notification_content">Tryk for at ændre</string>
     <string name="xspace_default_guide_notification_main_title">Bruger standard-app</string>
@@ -393,7 +401,7 @@ Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string
     <string name="second_space_desktop_tips_dialog_title">Vigtig opdatering</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Forstået</string>
     <string name="second_space_desktop_tips_dialog_message">Efter denne opdatering vil ikonerne for at flytte data og administrere Second space ikke længere være vist på startskærmen. Du vil kunne få adgang til deres korresponderende funktioner i Indstillingerne.</string>
-    <string name="green_guard">Forældrekontrol</string>
+    <string name="green_guard">Familieindstilling</string>
     <string name="bind_device">Tilføj enheder</string>
     <string name="green_guard_des1">Tilføj enheder for at kunne administrere dem langt væk fra</string>
     <string name="green_guard_title2">Se placeringsoplysninger</string>
@@ -437,10 +445,12 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="install_error">Kunne ikke installere. Prøv igen.</string>
     <string name="ent_install_dialog_content">Installer apps og genstart din enhed nu?</string>
     <string name="ent_disallow_running">Denne app har forbud mod at køre</string>
-    <string name="greenguard_child_des_title">Jeg har brug for hjælp fra mine venner og familie</string>
-    <string name="greenguard_child_des">Brug vores app til at forblive tilsluttet</string>
-    <string name="greenguard_parent_des_title">Jeg må hjælpe mine venner og familie</string>
-    <string name="greenguard_parent_des">Download vores app og tilføj andre personers enheder</string>
+    <string name="greenguard_child_des_title">Scan QR-kode for at tilføje enhed</string>
+    <string name="greenguard_child_des">Styr dine venners og din families enheder</string>
+    <string name="greenguard_parent_des_title">Brug Kite Guard til at tilføje enheder</string>
+    <string name="greenguard_parent_des">Styr dine venners og din families enheder</string>
+    <string name="greenguard_functional_description">"Fjernbetjen enheder, se info om placeringer,
+styr installerede apper og begræns adgangen"</string>
     <string name="cta_declaration_title">Vilkår og betingelser</string>
     <string name="cta_declaration_message_format" formatted="false">Du skal læse og acceptere vores &lt;font color=%s>&lt;a href=%s> %s &lt;/a>&lt;/font>, inden du bruger Enterprisetilstand. Din enhed skal have forbindelse til internettet for at kunne aktivere Enterprisetilstand. Accepter?</string>
     <string name="cta_declaration_agree_and_continue">Accepter</string>
@@ -466,4 +476,5 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="master_clear_not_available">Fabriksnulstilling er begrænset af din virksomhed.</string>
     <string name="dual_animation">Start animation</string>
     <string name="dual_animation_description">Vis animation, når dual-apps er startet</string>
+    <string name="can_not_switch_when_super_power_active">Kan ikke skifte mellem spaces, når Ultra-batterisparer er aktiv</string>
 </resources>

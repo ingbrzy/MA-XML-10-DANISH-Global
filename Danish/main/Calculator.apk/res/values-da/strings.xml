@@ -18,6 +18,7 @@
     <string name="cancel">Annuller</string>
     <string name="children_education">Børns uddannelse</string>
     <string name="choose_currency">Vælg valuta</string>
+    <string name="choose_radix">Vælg numerisk system</string>
     <string name="choose_unit">Vælg enhed</string>
     <string name="city">By</string>
     <string name="clearDesc">ryd</string>
@@ -28,6 +29,7 @@
     <string name="convertion_unit">Enheds-omregner</string>
     <string name="convertion_unit_area">Arealomregner</string>
     <string name="convertion_unit_length">Længdeomregner</string>
+    <string name="convertion_unit_radix">Numerisk system</string>
     <string name="convertion_unit_temperature">Temperaturomregner</string>
     <string name="convertion_unit_time">Tidsomregner</string>
     <string name="convertion_unit_velocity">Hastighedsomregner</string>
@@ -112,6 +114,7 @@
     <string name="item_title_dress_size">Tøjstørrelse</string>
     <string name="item_title_length_conversion">Længde</string>
     <string name="item_title_mortgage">Huslån</string>
+    <string name="item_title_radix">Numerisk system</string>
     <string name="item_title_scientific_calculator">Videnskabelig</string>
     <string name="item_title_tax">Skatter</string>
     <string name="item_title_temprature_conversion">Temperatur</string>
@@ -174,6 +177,7 @@
     <string name="mortgage_item_years">Låneperiode</string>
     <string name="mortgage_loans_amount">Pantebeløb</string>
     <string name="mortgage_provident_found_interest_rate">Lånets rentesats</string>
+    <string name="mortgage_provider_east_money">Data er leveret af East Money</string>
     <string name="mortgage_repayment_amount">Tilbagebetalingsbeløb</string>
     <string name="mortgage_result">Resultater</string>
     <string name="mortgage_show_details">Vis oplysninger</string>
@@ -186,6 +190,7 @@
     <string name="negDesc">Skift mellem temperaturer under og over nul</string>
     <string name="network_confirm_content">Valutaomregner, skatte- og panteberegnere skal være forbundet til internettet og have adgang til placeringsservice, for at kunne virke normalt.</string>
     <string name="network_confirm_title">Kræver tilladelser</string>
+    <string name="network_purpose">Velkommen til Lommeregner. Lommeregner kan omregne valutaer, beregne afdrag på lån med mere.</string>
     <string name="none">Ingen</string>
     <string name="not_supported_due_to_language">Denne funktion er kun tilgængelig for det kinesiske sprog</string>
     <string name="ok">OK</string>
@@ -318,11 +323,13 @@
     <string name="unit_data_display_currency_aed">Forenede Arabiske Emirater-dirham</string>
     <string name="unit_data_display_currency_ars">Argentinsk peso</string>
     <string name="unit_data_display_currency_aud">Australsk dollar</string>
+    <string name="unit_data_display_currency_bdt">Bangladeshi taka</string>
     <string name="unit_data_display_currency_bgn">Bulgarsk lev</string>
     <string name="unit_data_display_currency_bhd">Bahrainsk dinar</string>
     <string name="unit_data_display_currency_bnd">Bruneisk dollar</string>
     <string name="unit_data_display_currency_brl">Brasiliansk real</string>
     <string name="unit_data_display_currency_byn">Hviderussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Canadisk dollar</string>
     <string name="unit_data_display_currency_chf">Schweiziske franc</string>
     <string name="unit_data_display_currency_clp">Chilensk pesos</string>
@@ -408,6 +415,10 @@
     <string name="unit_data_display_length_um">Mikrometer</string>
     <string name="unit_data_display_length_yd">Yard</string>
     <string name="unit_data_display_length_zhang">Zhang</string>
+    <string name="unit_data_display_radix_10">Decimal</string>
+    <string name="unit_data_display_radix_16">Heksadecimal</string>
+    <string name="unit_data_display_radix_2">Binær</string>
+    <string name="unit_data_display_radix_8">Oktal</string>
     <string name="unit_data_display_temperature_c">Celsius</string>
     <string name="unit_data_display_temperature_f">Fahrenheit</string>
     <string name="unit_data_display_temperature_k">Kelvin</string>
@@ -601,8 +612,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke forbinde til Downloads. Kontrollér, om denne app har alle de nødvendige tilladelser i indstillingerne > installeret apps.</string>
     <string name="xiaomi_external_storage_unavailable">Lager er ikke tilgængeligt. Kontrollér dit SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
@@ -610,5 +624,9 @@ Delta opdateringsstørrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_title">%1$s opdatering!</string>
     <string name="year" />
     <string name="preference_use_voice">Stemmeinput</string>
+    <string name="preference_use_voice_summary">Tænd for at bruge taleudgang under udregninger</string>
+    <string name="preference_use_voice_title">Taleudgang</string>
+    <string name="preference_user_feedback_title">Feedback</string>
+    <string name="voice_guide_text">Du kan slå taleudgang til her</string>
     <string name="warn_locale_unsupport_for_voice">Stemmeoutput for dette sprog understøttes ikke endnu.</string>
 </resources>

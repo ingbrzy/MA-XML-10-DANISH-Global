@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">Går tilbage til hjemmesiden om %1$d sekunder…</item>
+        <item quantity="one">Går tilbage til hjemmesiden om %1$d sekund…</item>
+    </plurals>
     <plurals name="lv_subtitle_offset_advance_times">
         <item quantity="other">Undertekster vil blive vist %.1f sekunder tidligere</item>
         <item quantity="one">Undertekster vil blive vist %.1f sekund tidligere</item>
@@ -24,20 +28,40 @@
         <item quantity="other">%d videoer</item>
         <item quantity="one">%d video</item>
     </plurals>
-    <plurals name="pw_comment_count">
-        <item quantity="other">%d kommentarer</item>
-        <item quantity="one">%d kommentarer</item>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">Slet %s elementer nu?</item>
+        <item quantity="one">Slet %s element nu?</item>
     </plurals>
-    <plurals name="pw_comment_sub_count">
-        <item quantity="other">%d svar</item>
-        <item quantity="one">%d reply</item>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">Valgte %s elementer</item>
+        <item quantity="one">Valgte %s element</item>
     </plurals>
-    <plurals name="pw_comment_view_all_comment">
-        <item quantity="other">Se %d kommentarer</item>
-        <item quantity="one">Se %d kommentar</item>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">Filstørrelse: %.2f KB</item>
+        <item quantity="one">Filstørrelse: %.2f KB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">%2$s resultater for \"%1$s\"</item>
+        <item quantity="one">%2$s resultat for \"%1$s\"</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d billeder</item>
+        <item quantity="one">%d billede</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d videoer</item>
+        <item quantity="one">%d video</item>
     </plurals>
     <plurals name="subscriber">
-        <item quantity="other"> abonnenter</item>
-        <item quantity="one"> abonnent</item>
+        <item quantity="other">%s abonnenter</item>
+        <item quantity="one">%s abonnent</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Subtitles are moved %.1f seconds forward</item>
+        <item quantity="one">Undertekster er flyttet %.1f sekunder fremad</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Subtitles are delayed for %.1f seconds</item>
+        <item quantity="one">Undertekster er forsinket i %.1f sekunder</item>
     </plurals>
 </resources>

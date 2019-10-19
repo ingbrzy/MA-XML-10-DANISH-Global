@@ -11,12 +11,17 @@
     </string-array>
     <string-array name="backup_automatically_key_words">
         <item>Sikkerhedskopiér fotos</item>
-        <item>Synkroniser med Mi Cloud</item>
+        <item>Synkroniser kontakter med clouden</item>
     </string-array>
     <string-array name="last_weekend_title">
         <item>Mine weekender</item>
         <item>Små stykker af livet</item>
         <item>Weekendminder</item>
+    </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Flyt</item>
+        <item>Kopiér</item>
+        <item>@string/cancel</item>
     </string-array>
     <string-array name="month">
         <item>Januar</item>

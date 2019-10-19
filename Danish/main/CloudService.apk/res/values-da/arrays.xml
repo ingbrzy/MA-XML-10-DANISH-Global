@@ -19,104 +19,104 @@
         <item>Lager</item>
     </string-array>
     <string-array name="settings_search_contacts">
-        <item>Synkroniser kontakter med Mi Cloud</item>
+        <item>Synkroniser kontakter med Xiaomi Cloud</item>
         <item>Aktiver/konfigurer synkronisering</item>
-        <item>Kontakter;Opkaldshistorik;Cloud;Synkronisering;Cloud-tjeneser;Mi Cloud</item>
+        <item>Kontakter;Opkaldshistorik;Cloud;Synkronisering;Cloud-tjeneser;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_sms">
-        <item>Synkroniser beskeder med Mi Cloud</item>
+        <item>Synkroniser beskeder med Xiaomi Cloud</item>
         <item>Aktiver/konfigurer synkronisering</item>
-        <item>Beskeder;SMS;MMS;Cloud;Synkrinisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Beskeder;SMS;MMS;Cloud;Synkrinisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_gallery">
-        <item>Synkroniser galleri med Mi Cloud</item>
+        <item>Synkroniser galleri med Xiaomi Cloud</item>
         <item>Aktiver/konfigurer synkronisering</item>
-        <item>Galleri;Billeder;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Galleri;Billeder;Cloud;Synkronisering;Cloud-tjenesterXiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_dial">
-        <item>Synkroniser opkaldshistorik med Mi Cloud</item>
+        <item>Synkroniser opkaldshistorik med Xiaomi Cloud</item>
         <item>Aktiver/konfigurer synkronisering</item>
-        <item>Opkaldshistorik;Cloud;Synkronisering;Cloud-tjeneser;Mi Cloud</item>
+        <item>Opkaldshistorik;Cloud;Synkronisering;Cloud-tjeneser;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_recorder">
-        <item>Synkroniser optagelser med Mi Cloud</item>
+        <item>Synkroniser optagelser med Xiaomi Cloud</item>
         <item>Aktiver/konfigurer synkronisering</item>
-        <item>Optager;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Optager;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_music">
-        <item>Synkroniser musik med Mi Cloud</item>
+        <item>Synkroniser musik med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
-        <item>Musik;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Musik;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_notes">
-        <item>Synkroniser noter med Mi Cloud</item>
+        <item>Synkroniser noter med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
-        <item>Noter;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Noter;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_wlan">
-        <item>Synkroniser Wi-Fi-indstillinger med Mi Cloud</item>
+        <item>Synkroniser Wi-Fi-indstillinger med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
-        <item>WLAN;wifi;Wi-Fi;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>WLAN;wifi;Wi-Fi;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_calendar">
-        <item>Synkroniser kalender med Mi Cloud</item>
+        <item>Synkroniser kalender med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
-        <item>Kalender;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Kalender;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_browser">
-        <item>Synkroniser browser med Mi Cloud</item>
+        <item>Synkroniser browser med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
-        <item>Browser;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Browser;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_security">
-        <item>Synkroniser sikkerhed med Mi Cloud</item>
+        <item>Synkroniser sikkerhed med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
-        <item>Sikkerhed;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Sikkerhed;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_personal_assistant">
-        <item>Synkroniser App-vault med Mi Cloud</item>
+        <item>Synkroniser App-vault med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
-        <item>App-vault;Kort;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>App-vault;Kort;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_sync_manage">
-        <item>Mi Cloud. Alle Mi-tjenester på ét sted.</item>
+        <item>Xiaomi Cloud. Alle Mi-tjenester på ét sted.</item>
         <item>Få adgang til dine billeder, kontakter, beskeder og enheder overalt</item>
-        <item>Utilstrækkelig lagerplads;Medlemskab;Lager;Pladsplads;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud;Papirkurv;Slettede elementer;Sikkerhed</item>
+        <item>Utilstrækkelig lagerplads;Medlemskab;Lager;Lagerplads;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud;Papirkurv;Slettede elementer;Sikkerhed</item>
     </string-array>
     <string-array name="settings_search_find_phone">
         <item>Find enhed</item>
         <item>Slet data og lås din enhed, hvis den bliver væk</item>
-        <item>Find enhed;Mistet;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Find enhed;Mistet;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_find_pad">
         <item>Find enhed</item>
         <item>Slet data og lås din enhed, hvis den bliver væk</item>
-        <item>Find enhed;Mistet;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud</item>
+        <item>Find enhed;Mistet;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_recycle_bin">
-        <item>Slettede elementer i Mi Cloud</item>
+        <item>Slettede elementer i Xiaomi Cloud</item>
         <item>Gendan kontakt, billeder, beskeder og mere</item>
-        <item>Papirkurv;Slettede elementer;Papirkurv;Gendan;Cloud-tjenester;Mi Cloud</item>
+        <item>Papirkurv;Slettede elementer;Papirkurv;Gendan;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_subscribe_vip">
-        <item>Mi Cloud-medlemskab</item>
+        <item>Xiaomi Cloud-medlemskab</item>
         <item>Opgrader dit medlemskab, få mere lagerplads og beskyt dine data</item>
-        <item>Utilstrækkelig lagerplads;Medlemskab;Lager;Lagerplads;Cloud;Synkronisering;Cloud-tjenester;Mi Cloud;Mega;Ultra;VIP;Sikkerhedskopier;Sikkerhedskopiering;Gendan;Papirkurv;Slettede elementer;Papirkurv</item>
+        <item>Utilstrækkelig lagerplads;Medlemskab;Lager;Lagerplads;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud;Mega;Ultra;VIP;Sikkerhedskopier;Sikkerhedskopiering;Gendan;Papirkurv;Slettede elementer;Papirkurv</item>
     </string-array>
     <string-array name="settings_search_backup_setting">
-        <item>Sikkerhedskopier startskærmen til Mi Cloud</item>
+        <item>Sikkerhedskopier startskærmen til Xiaomi Cloud</item>
         <item>Sikkerhedskopier startskærmslayout; liste over installerede apps og systemindstillinger</item>
-        <item>Cloud;Sikkerhedskopier;Sikkerhedskopiering;Cloud-tjenester;Mi Cloud;Startskærm;Layout;Apps;Indstillinger;Hyppighed for sikkerhedskopiering;Administrer sikkerhedskopier;Gendan</item>
+        <item>Cloud;Sikkerhedskopier;Sikkerhedskopiering;Cloud-tjenester;Xiaomi Cloud;Startskærm;Layout;Apps;Indstillinger;Hyppighed for sikkerhedskopiering;Administrer sikkerhedskopier;Gendan</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Sikkerhedskopier</item>
         <item>Sikkerhedskopierede elementer</item>
-        <item>Cloud;Sikkerhedskopier;Sikkerhedskopiering;Cloud-tjenester;Mi Cloud;Startskærm;Layout;Apps;Administrer sikkerhedskopier;Gendan</item>
+        <item>Cloud;Sikkerhedskopier;Sikkerhedskopiering;Xiaomi Cloud;Startskærm;Layout;Apps;Administrer sikkerhedskopier;Gendan</item>
     </string-array>
     <string-array name="settings_search_restore_device">
-        <item>Gendan elementer fra Mi Cloud</item>
+        <item>Gendan elementer fra Xiaomi Cloud</item>
         <item>Download sikkerhedskopierede elementer til din enhed</item>
-        <item>Cloud;Sikkerhedskopier;Sikkerhedskopiering;Gendan;Cloud-tjenester;Mi Cloud</item>
+        <item>Cloud;Sikkerhedskopier;Sikkerhedskopiering;Gendan;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkroniser app-data</item>

@@ -6,6 +6,9 @@ Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
 Størrelse delta-opdatering: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Ingen ledig hukommelse, kontroller dit SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke påbegynde download. Kontroller at Download Manager fungerer normalt.</string>
     <string name="app_name">Sikkerhedskopiering</string>
     <string name="local_app_name">Sikkerhedskopiering</string>
@@ -48,8 +51,8 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="camera_summary">Kameraindstillinger (omfatter ikke fotos)</string>
     <string name="gallery_summary">Galleriindstillinger (omfatter ikke fotos)</string>
     <string name="account_summary">Tag backup af Google Account, Mi Account og andre brugerdata</string>
-    <string name="cloud_app_name">Mi Cloud-backup</string>
-    <string name="cloud_home_title">Mi Cloud</string>
+    <string name="cloud_app_name">Xiaomi Cloud-sikkerhedskopi</string>
+    <string name="cloud_home_title">Xiaomi Cloud</string>
     <string name="prompt_reading">Læser…</string>
     <string name="prompt_sending">Uploader…</string>
     <string name="prompt_writing">Gemmer…</string>
@@ -57,17 +60,17 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="backup_update">Opdater</string>
     <string name="backup_delete">Slet:</string>
     <string name="findlost_contact">Gendan kontakter</string>
-    <string name="findlost_contact_online">Gendan kontakter fra Mi Cloud</string>
+    <string name="findlost_contact_online">Gendan kontakter fra skyen</string>
     <string name="cloud_backup_login">Log ind på din Mi Account</string>
     <string name="cloud_backup_hint">For at få adgang til dine backups skal du logge ind nu.</string>
-    <string name="cloud_backup_window_title">Mi Cloud-backup</string>
-    <string name="cloud_restore_window_title">Mi Cloud-gendannelse</string>
+    <string name="cloud_backup_window_title">Xiaomi Cloud-sikkerhedskopi</string>
+    <string name="cloud_restore_window_title">Gendan fra Xiaomi Cloud</string>
     <string name="cloud_restore_title">Gendan backupdata</string>
     <string name="local_backup_window_title">Lokale backupdata</string>
     <string name="local_restore_window_title">Lokal gendannelse</string>
     <string name="account_login">Log ind</string>
     <string name="miliao_account_login">Log ind med Mi Talk</string>
-    <string name="miliao_account_guide">Brug din Mi Account til at logge ind hvor som helst fra til Mi Cloud, MIUI Theme Store og andre Mi-servicer.</string>
+    <string name="miliao_account_guide">Brug din Mi Account til at logge ind i Xiaomi Cloud, MIUI Theme Store og andre Mi-servicer overalt fra.</string>
     <string name="auto_backup">Planlæg rutinemæssig backup</string>
     <string name="contact_title">Kontakter</string>
     <string name="call_title">Opkaldshistorik</string>
@@ -115,7 +118,7 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="sc_network_unavailable">Tjek din forbindelse og prøv igen.</string>
     <string name="sc_bad_request">Ugyldig anmodning</string>
     <string name="sc_unaccess_password_file">Kan ikke finde adgangskoden til wi-fi-netværk.</string>
-    <string name="sc_service_unavailable">Mi Cloud ikke tilgængelig.</string>
+    <string name="sc_service_unavailable">Xiaomi Cloud er ikke tilgængelig</string>
     <string name="sc_unauthorized">Log ind igen</string>
     <string name="sc_request_timeout">Anmodning udløb.</string>
     <string name="sc_precondition_failed">Du er nødt til først at tilføje en e-mailadresse til din Mi Account.</string>
@@ -173,7 +176,7 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="deselect_all">Fravælg alt</string>
     <string name="reverse_all">Nulstil alt</string>
     <string name="refresh">Opdater</string>
-    <string name="cloud_item_info_summary">" (Local: %1$s | Mi Cloud: %2$s)"</string>
+    <string name="cloud_item_info_summary">(Local: %1$s | Xiaomi Cloud: %2$s)</string>
     <string name="cloud_restore_guide">For at gendanne brugerdata for %s skal du berøre Gendan.</string>
     <string name="import_from_xiaomi_account_hint1">"1.\u0009Download Mi Talk-appen og log ind.
 \u0009http://www.miliao.com
@@ -227,6 +230,7 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="restore_backup">Gendan</string>
     <string name="enable_encrypt_description">Kryptér</string>
     <string name="disable_encrypt_description">Kryptér ikke</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Lige et øjeblik…</string>
     <string name="state_mounting">Får adgang til routerlager…</string>
     <string name="abort_backup_confirm">Backup er ikke færdig. Stop alligevel?</string>
@@ -257,7 +261,7 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="err_pkg_not_exist">Kunne ikke finde app.</string>
     <string name="err_user_abort">Annulleret af brugeren.</string>
     <string name="err_binder_died">Appen stoppede uventet.</string>
-    <string name="err_no_gms">Inkompatibel app-version. Installer denne app separat.</string>
+    <string name="err_no_gms">Ikke kompatibel app-version. Installer denne app separat</string>
     <string name="backup_is_running">Tager backup af enhed.</string>
     <string name="restore_is_running">Gendanner enhed.</string>
     <string name="notif_backup_title">Tag backup af data</string>
@@ -312,9 +316,7 @@ Sluk ikke for wi-fi-hotspot.old enheder tæt på hinanden."</string>
     <string name="trans_detail_item_app_data_too_large_tip">Det ser ud til, at elementet er for stort til at overføre.</string>
     <string name="trans_detail_item_app_data_skip_data">Kan ikke overføre app-data</string>
     <string name="trans_detail_item_app_data_selected_tip">Valgte også korresponderende apps.</string>
-    <string name="trans_detail_list_footer">"1. Du kan vælge individuelle apps, du vil overføre.
-2. Hvis du vælger appdata, vil korresponderende apps også blive valgt.
-3. WeChat- og QQ-appdata vil muligvis ikke blive overført pga. kompatibilitetsproblemer. Du kan forsøge med overførselsfunktioner i selve appen."</string>
+    <string name="trans_detail_list_footer">1. Du kan vælge individuelle apps, du vil overføre. 2. Hvis du vælger appdata, vil korresponderende apps også blive valgt. 3. WeChat- og QQ-appdata vil muligvis ikke blive overført pga. kompatibilitetsproblemer. Du kan forsøge med overførselsfunktioner i selve appen.</string>
     <string name="trans_detail_page_tip">Jo flere elementer du vælger, des længere tid vil overførslen vare.</string>
     <string name="trans_detail_sys_data_list_title">System-apps</string>
     <string name="trans_detail_app_data_list_title">App-data</string>
@@ -374,9 +376,7 @@ Tryk så \"Tilslut igen\" for at scanne QR-koden."</string>
     <string name="trans_wait_trans_data">"Tilsluttet til den gamle enhed.
 Venter på overførslen…"</string>
     <string name="trans_select_data">Vælg elementer, der skal sendes.</string>
-    <string name="trans_select_data_tips">"Vælg elementer til overførsel.
-Lignende elementer på den nye enhed vil blive overskrevet.
-(Størrelsen af de overførte elementer, du ser nu, er et løst skøn.)"</string>
+    <string name="trans_select_data_tips">Vælg elementer til overførsel. Lignende elementer på den nye enhed vil blive overskrevet. (Størrelsen af de overførte elementer, du ser nu, er et løst skøn.)</string>
     <string name="trans_select_data_no_space">"Der er ikke nok lagerplads i den nye enhed (%s til rådighed).
 Frigør lagerplads eller overfør kun vigtige elementer."</string>
     <string name="trans_select_data_too_large">"Du valgte for mange elementer til overførsel.
@@ -393,9 +393,7 @@ Frigør lagerplads eller overfør kun vigtige elementer."</string>
     <string name="button_clean_garbage">Frigør plads</string>
     <string name="button_quit">Afslut</string>
     <string name="soft_ap_creating">Opretter hotspot…</string>
-    <string name="wait_link">"Åbn Mi Mover på den gamle enhed,
-tryk på \"Jeg er en sender\" og vælg et hotspot at oprette forbindelse til.
-Undlad at lukke siden, før forbindelsen er oprettet."</string>
+    <string name="wait_link">Åbn Mi Mover på den gamle enhed, tryk på Jeg er en sender og vælg et hotspot at oprette forbindelse til. Undlad at lukke siden, før forbindelsen er oprettet.</string>
     <string name="old_way">Du kan også generere en QR-kode på din nye enhed og scanne den med den gamle.</string>
     <string name="soft_ap_create_failed">Kunne ikke oprette hotspot</string>
     <string name="scan_soft_ap_label">Forbind til den gamle enhed</string>
@@ -437,12 +435,12 @@ for at downloade og installere Mi Mover."</string>
     <string name="trans_intro_desc_1">På en Mi-telefon skal du tilslutte til wi-fi og trykke \"Jeg er en modtager\". Vælg din iOS-enhed, log ind på iCloud og importér data.</string>
     <string name="trans_intro_question_2">%d. Hvordan får jeg Mi Mover til at flytte data fra en Android-enhed?</string>
     <string name="trans_intro_title_new">På en ny telefon:</string>
-    <string name="trans_intro_desc_new">Tryk \"Jeg er en modtager\". En QR-kode vil blive genereret.</string>
+    <string name="trans_intro_desc_new">Tryk Jeg er en modtager. En QR-kode vil blive genereret.</string>
     <string name="trans_intro_title_old">På en gammel telefon:</string>
     <string name="trans_intro_desc_old">Tryk \"Jeg er en sender\". Scan QR-koden på den nye telefon og vent, indtil Mi Mover finder ud af, hvilke filer der skal sendes, og tryk \"Send\".</string>
     <string name="trans_intro_desc_old_market">Tryk \"Start\". Scan QR-koden på den nye telefon og vent, indtil Mi Mover finder ud af, hvilke filer der skal sendes, og tryk \"Send\".</string>
     <string name="trans_intro_question_10">%d. Kan ikke finde hotspottet på den gamle enhed?</string>
-    <string name="trans_intro_desc_10">Tryk på \"Forbind via QR-kode\" på den nye enhed og scan QR-koden for at oprette forbindelse.</string>
+    <string name="trans_intro_desc_10">Tryk på Forbind via QR-kode på den nye enhed og scan QR-koden for at oprette forbindelse.</string>
     <string name="trans_intro_question_3">%d. Hvad skal jeg gøre, hvis Mi Mover går i stå på et givent trin?</string>
     <string name="trans_intro_desc_3">Annuller overførslen, afslut Mi Mover og begynd forfra. Dubletfiler vil blive overskrevet under den nye overførsel.</string>
     <string name="trans_intro_question_4">%d. Hvorfor kan jeg ikke bruge wi-fi under overførsler?</string>
@@ -460,7 +458,7 @@ for at downloade og installere Mi Mover."</string>
     <string name="trans_intro_title_account">Konti og adgangskoder:</string>
     <string name="trans_intro_desc_account">Du er af sikkerhedsmæssige årsager nødt til at logge ind igen på dine konti (f.eks. Mi Account, Exchange, Google etc.) på en ny enhed.</string>
     <string name="trans_intro_title_private">Skjult album:</string>
-    <string name="trans_intro_desc_private">Mi Mover kan ikke få adgang til fotos i et skjult album, fordi de er krypterede. Du kan gendanne disse fotos fra Mi Cloud på en nye enhed.</string>
+    <string name="trans_intro_desc_private">Mi Mover kan ikke få adgang til fotos i et skjult album, fordi de er krypterede. Du kan gendanne disse fotos fra Xiaomi Cloud på en nye enhed.</string>
     <string name="trans_intro_title_multiuser">Second space-data:</string>
     <string name="trans_intro_desc_multiuser">Mi Mover kan ikke få adgang til elementer i Second space. Flyt elementer til First space og start Mi Mover der.</string>
     <string name="trans_intro_title_multiapp">Dual apps-data:</string>
@@ -552,8 +550,7 @@ https://appleid.apple.com/#!&amp;page=signin at lukke"</string>
     <string name="hsa_sending">Sender…</string>
     <string name="hsa_send_failed">Kunne ikke sende verifikationskode. Vent et minut eller to og prøv så igen.</string>
     <string name="hsa_tip_title">Tips:</string>
-    <string name="hsa_tip_message">"1. En besked med verifikationskoden er sendt til enheden, der er tilknyttet med din Apple ID.
-2. Sluk tofaktor-autentifikation, hvis verifikationskoden ikke virker."</string>
+    <string name="hsa_tip_message">1. Hvis du ikke modtager bekræftelseskoden, skal du sikre dig, at du allerede er logget ind i iCloud på din Apple-enhed. 2. Hvis det ikke hjælper at indtaste bekræftelseskoden, sluk for to-faktor-autentificeringen.</string>
     <string name="hsa_tip_message_with_device">"1. En besked med verifikationskoden er sendt til \"%s\", der er tilknyttet din Apple ID.
 2. Sluk tofaktor-autentifikation, hvis verifikationskoden ikke virker."</string>
     <string name="hsa_tip_message_shutdown_hsa">Sådan slukker du tofaktor-autentifikation</string>
@@ -567,6 +564,7 @@ https://appleid.apple.com/#!&amp;page=signin at lukke"</string>
 bør du først oprette en iCloud-backup."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund af kompatibilitetsproblemer kan du kun overføre en del af dataene fra iOS-enheder. Vær sikker på, at du har oprettet en iCloud-backup, inden du begynder overførslen.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importér</string>
     <string name="select_empty">Vælg elementer til import</string>
     <string name="select_item_summary_wait">Venter…</string>
@@ -647,9 +645,10 @@ Frigør plads eller lav flere mindre overførsler."</string>
     <string name="dialog_backup_password_cancel">Annuller</string>
     <string name="dialog_backup_password_to_settings">Indstillinger</string>
     <string name="user_feedback">Feedback</string>
-    <string name="iCloud_ID_verification_tip">Indtast SMS-verifikationskoden, der er sendt til telefonnummeret tilknyttet dit Apple-ID. Ignorer pop-op-koden, der vises på din iPhones skærm.</string>
+    <string name="iCloud_ID_verification_tip">Tryk på Tillad på din Apple-enhed for at få vist bekræftelseskoden. Indtast bekræftelseskoden her.</string>
     <string name="trans_complete_restoring">Overførsel færdig. Gendanner aapdata…</string>
     <string name="dialog_backup_password_auto_backup_tips">Kan ikke automatisk sikkerhedskopiere elementer, når adgangskoden for sikkerhedskopiering er slået til. Slå adgangskoden for sikkerhedskopiering fra først.</string>
     <string name="dialog_backup_password_change_device_restore_tips">Kan ikke bruge Mi Mover, når adgangskoden for sikkerhedskopiering er slået til. Slå adgangskoden for sikkerhedskopiering fra først.</string>
     <string name="dialog_backup_password_restore_tips">Kan ikke gendanne elementer, når adgangskoden for sikkerhedskopiering er slået til. Slå adgangskoden for sikkerhedskopiering fra først.</string>
+    <string name="trans_cancel_dialog_survey_title">Hvorfor afbrød du overførslen?</string>
 </resources>

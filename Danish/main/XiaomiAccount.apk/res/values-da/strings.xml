@@ -70,7 +70,7 @@
     <string name="passport_login">Log ind</string>
     <string name="passport_relogin">Log ind igen</string>
     <string name="passport_skip_login">Spring over</string>
-    <string name="passport_skip_setup_account_title">Brug ikke Mi Cloud?</string>
+    <string name="passport_skip_setup_account_title">Brug ikke Xiaomi Cloud?</string>
     <string name="passport_skip_setup_account_msg">Du kan opsætte en Mi-konto senere i Indstillinger.</string>
     <string name="passport_confirm_login">Fortsæt</string>
     <string name="passport_find_password_on_web_msg">Besøg account.mi.com for at nulstille din adgangskode.</string>
@@ -200,10 +200,7 @@ For at aktivere din konto, følg det
     <string name="passport_querying_phone_info">Anmoder om kontooplysninger…</string>
     <string name="passport_area_code_title">Landekode</string>
     <string name="passport_area_code_hot">OFTE BRUGT</string>
-    <string name="passport_user_agreement_p1">Accepter </string>
-    <string name="passport_user_agreement_p2">Brugeraftale</string>
-    <string name="passport_user_agreement_p3"> og </string>
-    <string name="passport_user_agreement_p4">Fortrolighedspolitik</string>
+    <string name="passport_user_agreement_link">"&lt;Data>Jeg har læst og accepterer Xiaomi's &lt;a href=%1$s>Brugeraftale&lt;/a> og &lt;a href=%2$s>Fortrolighedspolitik&lt;/a>.&lt;/Data>"</string>
     <string name="passport_privacy_policy">Fortrolighedspolitik</string>
     <string name="passport_user_agreement">Brugeraftale</string>
     <string name="passport_license_host_unreachable">Kan ikke oprette forbindelse til netværket. Du kan se denne side på %s.</string>
@@ -273,21 +270,22 @@ For at aktivere din konto, følg det
     <string name="passport_get_innetdate_msg">&lt;font color=Red>Det ser ud til&lt;/font>, at nummer %s er blevet genanvendt af din udbyder. Se hvornår nummeret gik online?</string>
     <string name="passport_get_innetdate_agree">Kontroller</string>
     <string name="passport_get_innetdate_disagree">Nej</string>
-    <string name="passport_extra_gdpr_license">"Ved at oprette din Mi Account accepterer du, at Xiaomi indsamler, bearbejder og bruger dine personlige oplysninger, herunder verifikationsdata (f.eks. verifikationskoder), Second space-data (f.eks. oplysninger om, hvordan du bruger Second space, ID'er brugt i Second spaces) og andre data, specificeret i vores Privatlivspolitik. Se vores Privatlivspolitik og læs om, hvordan vi bearbejder og bruger personlige data."</string>
     <string name="passport_talkback_image_captcha">Billedverifikationskode</string>
     <string name="passport_talkback_voice_captcha">Afspil stemme-verifikationskode</string>
     <string name="passport_talkback_switch_voice_captcha">Skift til stemme-verifikationskode</string>
     <string name="passport_talkback_switch_image_captcha">Skift til billed-verifikationskode</string>
-    <string name="passport_license_info_open">Oplysninger</string>
-    <string name="passport_license_info_collapse">Klap sammen</string>
     <string name="passport_first_login_prompt">Mi Account oprettes automatisk, når du logger ind for første gang.</string>
     <string name="passport_wx_bind_account_limit">Kan ikke oprette konto nu. Prøv andre metoder til at logge ind på.</string>
     <string name="facebook_app_id">2263965750590514</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="server_client_id">29336734752-hkhmuft60qa4qn1ual7etmp6pfo0ib54.apps.googleusercontent.com</string>
+    <string name="passport_ticket_login_select_sim_card">Vælg SIM-kort</string>
+    <string name="passport_ticket_login_select_sim_card_cancel">Annuller</string>
+    <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
+    <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
-    <string name="search_mi_account_key_words">Mi Cloud, Kontoindstilling, Mi Pay-oplysninger, Log ud</string>
+    <string name="search_mi_account_key_words">Xiaomi Cloud,kontoindstillinger,Mi Pay-oplysninger,log ud</string>
     <string name="search_mi_account_desc">Mi-konto</string>
     <string name="search_mi_account_path">Indstillinger/Mi-konto</string>
     <string name="search_user_detail">Personlige oplysninger</string>
@@ -314,15 +312,21 @@ For at aktivere din konto, følg det
     <string name="bind_sns_description">Log ind med %s</string>
     <string name="add_account">Forbind konto</string>
     <string name="qq">QQ</string>
+    <string name="weixin">WeChat</string>
     <string name="bind_qq">QQ</string>
+    <string name="bind_weixin">Tilslut din WeChat-konto</string>
+    <string name="need_install_wechat">Installer WeChat først</string>
     <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
     <string name="bind_facebook">Forbind din Facebook-konto</string>
+    <string name="bind_google">Tilslut din Google-konto</string>
     <string name="binded">Tilsluttet</string>
     <string name="nobind">Ikke tilsluttet</string>
     <string name="button_unbind">Afbryd forbindelse</string>
     <string name="unbind_sns_description">Efter at du afbryder forbindelsen for denne konto, kan du ikke anvende dine %s-kontooplysninger til at logge ind på din Mi-konto.</string>
     <string name="confirm_unbind">Afbryd forbindelse med denne konto?</string>
-    <string name="binded_description" formatted="false">%s er blevet forbundet til din Mi-konto. Din profil er blevet opdateret med info fra din %s-konto.</string>
+    <string name="binded_description" formatted="false">"%s er blevet tilsluttet til din Mi-konto.
+Du kan logge ind på din Mi-konto ved hjælp af %s nu."</string>
     <string name="access_token_expired_warning">Weibo-konto udløbet</string>
     <string name="access_token_invalid_warning">Weibo-konto ugyldig</string>
     <string name="service_error">Servicefejl</string>
@@ -406,7 +410,7 @@ For at aktivere din konto, følg det
     <string name="account_mibi_charge">Fyld på</string>
     <string name="account_mipay_info">Mi Pay</string>
     <string name="account_xiaomi_service">Serviceydelser</string>
-    <string name="cloud_service">Mi Cloud</string>
+    <string name="cloud_service">Xiaomi Cloud</string>
     <string name="vip_account_settings">VIP-indstillinger</string>
     <string name="xiao_mi_vip">Mi VIP</string>
     <string name="mi_vip_info">Se privilegier</string>
@@ -418,8 +422,11 @@ For at aktivere din konto, følg det
     <string name="activity_not_found_notice">Kan ikke finde appen</string>
     <string name="scan_barcode_title">Scan QR-koden for at logge ind på din Mi-konto</string>
     <string name="talkback_scan_barcode">Scan QR-kode</string>
-    <string name="scan_barcode">Scan QR-kode for at logge ind</string>
     <string name="agreement_and_privacy">Privatlivspolitik og Brugeraftale</string>
+    <string name="system_ad">Reklamer i system-apps</string>
+    <string name="system_ad_switch">Reklamer i system-apps</string>
+    <string name="system_ad_summary">"Tænd for denne funktion for at tillade at et lille antal reklamer vises i system-apps. Disse reklamer hjælper os med at udvikle og forbedre vores produkter og tjenester. Du kan når som helst vælge at slukke for denne funktion. Tak for din støtte! "</string>
+    <string name="system_ad_list">Se relaterede apps.</string>
     <string name="authorize_title">Autorisation</string>
     <string name="my_device_title">Aktuel enhed</string>
     <string name="device_list_title">Mine enheder</string>
@@ -431,6 +438,13 @@ For at aktivere din konto, følg det
     <string name="device_delete_success_title">Logget ud</string>
     <string name="device_delete_success_message">Hvis du ikke loggede ind på denne enhed, så skift omgående din adgangskode.</string>
     <string name="change_password">Skift adgangskode</string>
+    <string name="two_factor_auth">Tofaktor-autentifikation</string>
+    <string name="two_factor_auth_summary">Når du prøver at logge ind på en enhed eller et nyt sted, modtager du notifikationer herom på andre tilsluttede enheder. Du skal i så fald bekræfte, om sådanne forsøg på at logge ind er autoriseret af dig.</string>
+    <string name="two_factor_auth_method">Autentifikationsmetode</string>
+    <string name="two_factor_auth_click_confirm">Bekræft login</string>
+    <string name="two_factor_auth_click_confirm_summary">Du kommer til at se notifikationer på andre tilsluttede Mi-enheder. Tryk på notifikationen for at tillade login i en ny enhed.</string>
+    <string name="two_factor_auth_need_code">Indtast kode</string>
+    <string name="two_factor_auth_need_code_summary">Du kommer til at se en kode på andre tilsluttede Mi-enheder. Indtast denne kode på en ny enhed for at logge ind.</string>
     <string name="completed">Alt er klar!</string>
     <string name="no_network_title">Kan ikke oprette forbindelse til netværket.</string>
     <string name="no_network_btn">Opdater</string>
@@ -439,9 +453,9 @@ For at aktivere din konto, følg det
     <string name="empty_device_list_notice">Ingen enheder</string>
     <string name="device_name">Enhedens navn</string>
     <string name="sim_card">Sim-kort</string>
-    <string name="multi_user_not_show_sync_activity_title">Tænd ikke for synkronisering med Mi Cloud</string>
+    <string name="multi_user_not_show_sync_activity_title">Tænd ikke for synkronisering med skyen</string>
     <string name="multi_user_not_show_sync_activity_message_1">Det ser ud, som om du bruger din First space Mi Account.</string>
-    <string name="multi_user_not_show_sync_activity_message_2">I sådanne tilfælde vil alle data synkroniseres til dit Second space. For at undgå dette skal du ikke tænde for synkronisering med Mi Cloud.</string>
+    <string name="multi_user_not_show_sync_activity_message_2">I så tilfælde synkroniseres alle data til dit Second space. For at undgå dette skal du ikke tænde for synkronisering med skyen.</string>
     <string name="find_device_access_denied">Kan ikke hente status, adgang nægtet</string>
     <string name="find_device_account_error">Kan ikke hente status pga. konto-fejl</string>
     <string name="find_device_null_credential_error">Kan ikke hente enheds-oplysninger, kontakt Xiaomi kundeservice</string>
@@ -529,7 +543,7 @@ Send denne kode til supervisoren."</string>
     <string name="exit">Luk</string>
     <string name="passport_privacy_policy_required">Fortrolighedspolitik (obligatorisk)</string>
     <string name="passport_user_agreement_required">Brugeraftale (obligatorisk)</string>
-    <string name="kr_license_desc">Du skal bekræfte vores Brugeraftale og Fortrolighedspolitik før brug af Mi-konto- og Mi Cloud-tjenester.</string>
+    <string name="kr_license_desc">Du skal bekræfte vores Brugeraftale og Fortrolighedspolitik før brug af Mi-konto- og Xiaomi Cloud-tjenester.</string>
     <string name="kr_permission_desc">Tilladelser påkrævet</string>
     <string name="optional_permissions">Valgfrie tilladelser</string>
     <string name="permission_group_contacts">Kontakter</string>
@@ -540,4 +554,6 @@ Send denne kode til supervisoren."</string>
     <string name="kr_permission_phone_desc">Til at beskytte din konto</string>
     <string name="kr_permission_storage_desc">Til at gemme diagnoser</string>
     <string name="kr_permission_sms_desc">Til automatisk at udfylde verifikationskoder</string>
+    <string name="system_ad_switch_failed">Kunne ikke anvende indstilling</string>
+    <string name="ep_unsupported">Kan ikke logge ind på Mi-konto på din enhed</string>
 </resources>

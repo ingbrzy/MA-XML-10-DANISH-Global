@@ -78,7 +78,6 @@
     <string name="respond_via_sms_custom_message">Brugerdefineret SMS</string>
     <string name="manageConferenceLabel">Administrer konferenceopkald</string>
     <string name="emergency_call_dialog_number_for_display">Nødnummer</string>
-    <string name="volte_call">VoLTE-opkald</string>
     <string name="notification_dialing">Ringer op</string>
     <string name="notification_ongoing_call">Opkald i gang</string>
     <string name="notification_on_hold">På pause</string>
@@ -128,14 +127,9 @@
     <string name="msim_select_default_time_left">(%d s)</string>
     <string name="select_sim_hint">Kan ikke anvende SIM %2$d, mens SIM %1$d er i brug.</string>
     <string name="select_one_sim_title">Kan kun anvende SIM %1$d</string>
-    <string name="select_sim_hint_for_heduohao">"Can't use other, while SIM %1$d Sub %2$d is in use."</string>
-    <string name="select_one_sim_title_for_heduohao">Can only use SIM %1$d Sub %2$d</string>
     <string name="can_not_use">Kan ikke anvende</string>
     <string name="sim1_description">SIM1</string>
     <string name="sim2_description">SIM2</string>
-    <string name="sim1_heduohao_card">Sub1</string>
-    <string name="sim2_heduohao_card">Sub2</string>
-    <string name="sim3_heduohao_card">Sub3</string>
     <string name="call_description_recording">Optager…</string>
     <string name="call_recording_error_privacy">Kan ikke optage, mens du er i gæstetilstand.</string>
     <string name="call_recording_error_sd_access">Kan ikke få adgang til SD-kort</string>
@@ -169,7 +163,6 @@
     <string name="onscreen_message_text">Beskeder</string>
     <string name="onscreen_close_preview_camera">Luk</string>
     <string name="upgrade_vt_prompt">Skift til videoopkald?</string>
-    <string name="incoming_answer_voice_text">Stemmebesked</string>
     <string name="picking_participant">Henter kontaktoplysninger…</string>
     <string name="conference_caller_info_name">%1$ss konferenceopkald</string>
     <string name="video_conference_caller_info_name">%1$ss videokonferenceopkald</string>
@@ -191,8 +184,8 @@
     <string name="incoming_circle_text_reject">Giv slip</string>
     <string name="incoming_circle_text_answer_p">Stryg op</string>
     <string name="incoming_circle_text_answer">Giv slip</string>
-    <string name="incoming_circle_text_message_p">Stryg op</string>
-    <string name="incoming_circle_text_message">Giv slip</string>
+    <string name="incoming_circle_text_video_answer_p">Stryg opad for at svare med video</string>
+    <string name="incoming_circle_text_video_answer">Slip for at svare med video</string>
     <string name="dialpad_zero">0</string>
     <string name="dialpad_one">1</string>
     <string name="dialpad_two">2</string>
@@ -206,4 +199,9 @@
     <string name="prompt_no_volte_when_failed">Kan ikke foretage opkald. Sørg for, at din enhed har forbindelse til et 4G-netværk med VoLTE-understøttelse.​</string>
     <string name="volume_boost_text">Volumen er nu boostet</string>
     <string name="supp_service_notification_call_waiting">Det indtastede nummer er optaget. Vent venligst…</string>
+    <string name="incall_bubble_hangup_click_hint">Tryk igen for at komme tilbage til opkald</string>
+    <string name="manager_conference_done">Færdig</string>
+    <string name="incoming_answer_voice_text">Stemmebesked</string>
+    <string name="incoming_circle_text_message_p">Stryg op</string>
+    <string name="incoming_circle_text_message">Giv slip</string>
 </resources>

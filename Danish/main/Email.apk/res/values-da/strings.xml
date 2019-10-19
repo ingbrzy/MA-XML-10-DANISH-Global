@@ -36,7 +36,7 @@
     <string name="account_settings_incoming_summary">Brugernavn, adgangskoder og andre serverindstillinger</string>
     <string name="account_settings_login_dialog_content_fmt">"Brugernavnet eller adgangskoden for %s er forkert.
  Opdater dem nu?"</string>
-    <string name="account_settings_login_dialog_reason_fmt" formatted="false">Kunne ikke logge ind på %s. The server said: %s</string>
+    <string name="account_settings_login_dialog_reason_fmt">Kunne ikke logge ind på %1$s. The server said: %2$s</string>
     <string name="account_settings_login_dialog_title">Kunne ikke logge ind</string>
     <string name="account_settings_mail_check_frequency_dialog_title">Du skal genopfriske Mail manuelt for at synkronisere dine e-mails</string>
     <string name="account_settings_mail_check_frequency_dialog_title_eas">Du skal synkronisere Mail manuelt for at synkronisere beskeder og kalenderbegivenheder.</string>
@@ -232,6 +232,7 @@
     <string name="battery_saver">Batteribesparer</string>
     <string name="battery_saver_keywords">batteribesparer;mail batteri</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Fakturaindstillinger</string>
     <string name="bill_center_setting_head">Importér info fra disse konti</string>
     <string name="bill_cycle_text">Fakturacyklus</string>
@@ -252,6 +253,7 @@
     <string name="cancel_pop3_attchemt_downloading">Kan ikke annullere igangværende downloads for vedhæftelser i POP3-konti</string>
     <string name="cant_move_or_change_labels">Kan ikke flytte genstande fra flere konti</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="change_folders_selection_dialog_title">Skift mapper</string>
@@ -269,6 +271,7 @@
     <string name="click_download_all_content">[ Tryk for at downloade indhold ]</string>
     <string name="click_to_reload">Tryk på skærmen for at genopfriske</string>
     <string name="collapse_recipient_details">Skjul modtageroplysninger</string>
+    <string name="colon">:</string>
     <string name="compose">Opret</string>
     <string name="compose_attachment_number_limit">Kan ikke tilføje over 10 vedhæftelser</string>
     <string name="compose_paste_address_oob">For mange tegn</string>
@@ -490,6 +493,7 @@
     <string name="gmail_web_login_required_message">Log ind på Gmail</string>
     <string name="have_auth_code">Jeg har en kode</string>
     <string name="header_category_account">Konti</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Respons</string>
     <string name="header_label_general_preferences">Generelt</string>
     <string name="help_and_info">Hjælp</string>
@@ -512,6 +516,7 @@
     <string name="invalid_recipient">Adressen %s er ugyldig.</string>
     <string name="invalid_recipient_title">Modtagerfejl</string>
     <string name="kilobytes">%s KB</string>
+    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">No emails yet.</string>
     <string name="load_from_remote">Søg i mailindbakke på server</string>
     <string name="load_more">Indlæs mere</string>
@@ -760,7 +765,7 @@ Prøv en anden indbakke."</string>
     <string name="permission_read_attachment_label">Læs vedhæftelser</string>
     <string name="phone">telefon</string>
     <string name="photo_load_failed">Kunne ikke indlæse billede</string>
-    <string name="photo_view_count" formatted="false">%d af %d</string>
+    <string name="photo_view_count">%1$d af %2$d</string>
     <string name="please_fill_in_your_mailbox_information2">Indtast info for din e-mailindbakke</string>
     <string name="pls_parse_bill_discribe">"Analysér regninger og rejseinfo i din e-mail
 for at modtage påmindelser om betalinger og rejser"</string>
@@ -899,13 +904,14 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="refreshing_done">Udført</string>
     <string name="release_to_refresh">Slip for at genopfriske</string>
     <string name="remind_attachment_size_limit">Dine e-mails bør være mindre end %sMB</string>
+    <string name="remote_no_mail">Der er ikke flere e-mails på serveren.</string>
     <string name="remove_account">Fjern konto</string>
     <string name="remove_folder">Fjern fra %1$s</string>
     <string name="remove_star">Ikke favorit</string>
     <string name="reply">Svar</string>
     <string name="reply_add_bodycontent">Tilføj svar til beskedteksten?</string>
     <string name="reply_all">Svar alle</string>
-    <string name="reply_attribution" formatted="false">Den %s skrev %s:</string>
+    <string name="reply_attribution">Den %1$s skrev %2$s:</string>
     <string name="report_phishing">Rapportér phishing</string>
     <string name="report_spam">Rapportér spam</string>
     <string name="request_copy_db_to_disk">Mail anmoder om at kopiere din database til en fil</string>
@@ -983,12 +989,14 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="silent_ringtone">Tavs</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Adgangskode for udgående mail-server er forkert</string>
     <string name="sort_attachment">Sorter efter</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage">Hukommelse</string>
     <string name="str_select_all">Vælg alt</string>
     <string name="str_select_none">Vælg alt fra</string>
-    <string name="subject_and_snippet" formatted="false">%s — %s</string>
+    <string name="subject_and_snippet">%1$s — %2$s</string>
     <string name="subject_hint">Emne</string>
     <string name="sync_contacts_fail_per_content">Tryk for at tillade adgang til kontaktpersoner</string>
     <string name="sync_contacts_fail_per_title">Kunne ikke synkronisere kontaktpersoner</string>
@@ -1022,7 +1030,8 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="toast_bar_no_connection_network">Du har ikke en internetforbindelse</string>
     <string name="toast_bar_open_gmail_synchronization">Kunne ikke forbinde til Gmail. Slå Gmail-proxy til.</string>
     <string name="toast_bar_send_fail_remind">Kunne ikke sende e-mail. Gemt til mappen \"Udgående\".</string>
-    <string name="toast_bar_sync_failed_mi_authority">"Couldn't sync. Wait a minute or two and try again. If you're signing in for the first time, authorize your device via the intranet/SMS token."</string>
+    <string name="toast_bar_sync_failed_mi_authority">"Couldn't sync. Wait a minute or two and try again. View details.
+(If you're using an unauthorized device, connect to the intranet or use a verification code.)"</string>
     <string name="toastbar_calendar_and_contacts_permission_switch_close">For at synkronisere kalenderinfo og kontaktpersoner skal Mail have de nødvendige tilladelser i Indstillinger</string>
     <string name="toastbar_calendar_permission_switch_close">For at få kalenderpåmindelser skal Mail have de nødvendige tilladelser i Indstillinger</string>
     <string name="toastbar_contacts_permission_switch_close">For at tilføje kontaktpersoner skal Mail have de nødvendige tilladelser i Indstillinger</string>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_weather_setting">Om vejret</string>
+    <string name="about_weather_setting_feedback">Feedback</string>
+    <string name="abrupt_weather_settings_summary_type">Modtag alarmer om forventet regn, ændringer i luftkvaliteten og andre betydelige ændringer</string>
     <string name="act_find_city_hint">Indtast placering</string>
     <string name="act_find_city_hot_attractions_title">Populære steder</string>
     <string name="act_find_city_hot_city_title">Populære byer</string>
@@ -29,6 +32,8 @@
     <string name="add_city">Tilføj</string>
     <string name="alert_detail_title">Advarselsoplysninger</string>
     <string name="alert_warning">Vejrmeldinger</string>
+    <string name="alert_weather_enable_settings_summary">Modtag officielle vejrvarsler</string>
+    <string name="alert_weather_enable_settings_title">Vejrvarsler</string>
     <string name="already_voted_toast">Du har allerede stemt i dag</string>
     <string name="app_name">Vejr</string>
     <string name="aqi_data_source">Drevet af Colorful Clouds</string>
@@ -96,14 +101,17 @@
     <string name="daily_forecast_add_city_message">Følg vejret i %1$s for en mere detaljeret vejrudsigt.</string>
     <string name="daily_forecast_add_city_title">Følg vejret i %1$s</string>
     <string name="daily_forecast_detail_date">M/d</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunne ikke hente vejroplysninger
 Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="data_provided_by">Data delvist leveret af</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Opdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke oprette forbindelse til netværket</string>
     <string name="empty_view_refresh">Prøv igen</string>
     <string name="eu_region_version_first_start_network_msg">Ved at bruge dette produkt accepterer du, at dette produkt tilslutter til netværket, indsamler, behandler og bruger dine personlige oplysninger, herunder koordinaterne for de byer, som du leder efter, og andre former for data, der er specificeret i vores privatlivspolitik. Se vores privatlivspolitik for at finde ud af, hvordan vi indsamler og bearbejder oplysninger. Ved at trykke på \"Acceptér\", accepterer du Xiaomis %1$s og %2$s.</string>
+    <string name="feedback">Rapporter forkerte vejroplysninger</string>
     <string name="feedback_cloudy">Overskyet</string>
     <string name="feedback_foggy">Tåget</string>
     <string name="feedback_haze">Diset</string>
@@ -112,12 +120,16 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="feedback_overcast">Overskyet</string>
     <string name="feedback_report_privacy_msg">Rapporten kommer til at indeholde dine placeringsoplysninger</string>
     <string name="feedback_result_fail_no_choice">Vælg de aktuelle vejrforhold</string>
+    <string name="feedback_result_fail_no_reason">Tak for din tilbagemelding!</string>
+    <string name="feedback_result_fail_same_type">Det ser ud, som om din rapport ikke er forskellig fra det aktuelle vejr. Prøv igen.</string>
     <string name="feedback_result_success">Indsendt korrekt. Tak for din feedback.</string>
     <string name="feedback_sandy">Sandfyldt</string>
     <string name="feedback_sunny">Nulstil</string>
     <string name="first_start_network_title">Adgangs til internetforbindelse og placering</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s%2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-timers prognose</string>
     <string name="hourly_forecast_title_hourly_desc">Prognose hver time</string>
@@ -133,11 +145,15 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="indices_title_feel">Ægte fornemmelse</string>
     <string name="indices_title_pressure">Tryk</string>
     <string name="install">Installer</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">TRYK</string>
     <string name="international_details_title">Oplysninger</string>
     <string name="international_details_uv_index_title">UV-INDEKS</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer til at regne</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="locate_fail_detail_err">"Kan ikke finde enheden
 Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="location_provider_btn_text">Slå placeringstjenester til</string>
@@ -160,7 +176,7 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="more_details">Flere oplysninger</string>
     <string name="network_not_available">Kan ikke oprette forbindelse til netværket</string>
     <string name="network_unavailable">Kan ikke oprette forbindelse til netværket.</string>
-    <string name="night_not_disturb_settings_summary">Sæt alarmer på lydløs mellem kl. 23.00 og 07.00</string>
+    <string name="night_not_disturb_settings_summary">Bloker alarmer mellem kl. 23:00 og 7:00</string>
     <string name="night_not_disturb_settings_title">Forstyr ikke om natten</string>
     <string name="no_data">Ingen data</string>
     <string name="no_network_btn">Prøv igen</string>
@@ -219,6 +235,7 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI Vejr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke tage skærmbillede</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timers prognose</string>
@@ -226,6 +243,7 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="some_where_on_earth">Et sted på jorden</string>
     <string name="sunrise">Solopgang</string>
     <string name="sunset">Solnedgang</string>
+    <string name="temperature_normal_unit">%1$s°</string>
     <string name="temperature_unit_C">%1$s℃</string>
     <string name="temperature_unit_F">%1$s℉</string>
     <string name="title_share_link">Del URL</string>
@@ -265,6 +283,8 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="view_forecast_item_yesterday">I går</string>
     <string name="view_indexes_item_today">I dag</string>
     <string name="view_indexes_item_tommorrow">I morgen</string>
+    <string name="warning_weather_day_and_night_settings_summary">Modtag daglige opsummeringer, der indeholder oplysninger om vejret kl. 7:00 og 19:00</string>
+    <string name="warning_weather_day_and_night_settings_title">Daglige opsummeringer</string>
     <string name="weather_alert_channel_name">Advarsler</string>
     <string name="weather_introduce">Altid med dig i regn og solskin.</string>
     <string name="weather_permission_agree">Accepter</string>

@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Bemærk!</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Denne video kan ikke streames på denne enhed.</string>
     <string name="selectTextMode">Markér tekst</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon for fingeraftryk</string>
     <string name="paste_as_plain_text">Indsæt som almindelig tekst</string>
     <string name="autofill">AutoFyld</string>
@@ -386,6 +387,7 @@ Kontakt din organisations administrator, hvis du har spørgsmål."</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Funktionskoden er komplet.</string>
     <string name="fcError">Forbindelsesproblemer eller ugyldig funktionskode.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Find</string>
     <string name="find_next">Find næste</string>
     <string name="find_on_page">Find på siden</string>
@@ -591,6 +593,7 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Angiv pinkode til SIM-kort</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kortet låses op…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har indtastet din adgangskode forkert %1$d gange. 
 
 Prøv igen om %2$d sekunder."</string>
@@ -883,6 +886,7 @@ Prøv igen om %2$d sekunder."</string>
     <string name="notification_channel_wfc">Wi-Fi-opkald</string>
     <string name="notification_hidden_text">Ny underretning</string>
     <string name="notification_listener_binding_label">Underretningslytter</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Tjeneste til rangering af underretninger</string>
     <string name="notification_reply_button_accessibility">Svar</string>
     <string name="notification_title">Loginfejl for %1$s</string>
@@ -995,8 +999,8 @@ Prøv igen om %2$d sekunder."</string>
     <string name="permdesc_requestInstallPackages">Tillader, at en app anmoder om installation af pakker.</string>
     <string name="permdesc_route_media_output">Tillader, at en applikation viderefører medieoutput til andre eksterne enheder.</string>
     <string name="permdesc_runInBackground">Denne app kan køre i baggrunden. Dette kan aflade batteriet hurtigere.</string>
-    <string name="permdesc_sdcardRead">Tillader, at appen læser indholdet af dit SD-kort.</string>
-    <string name="permdesc_sdcardWrite">Tillader, at appen kan skrive til SD-kortet.</string>
+    <string name="permdesc_sdcardRead">Tillader, at appen læser indholdet på dit USB-lager.</string>
+    <string name="permdesc_sdcardWrite">Lader appen skrive til USB.</string>
     <string name="permdesc_sendSms">Tillader, at appen kan sende sms-beskeder. Dette kan resultere i uventede opkrævninger. Skadelige apps kan koste dig penge ved at sende beskeder uden din bekræftelse.</string>
     <string name="permdesc_setAlarm">Tillader, at appen kan indstille en alarm i en installeret alarmapp. Nogle alarmapps har muligvis ikke denne funktion.</string>
     <string name="permdesc_setInputCalibration">Tillader, at appen ændrer kalibreringsparametrene for berøringsskærmen. Dette bør aldrig være nødvendigt for almindelige apps.</string>
@@ -1137,8 +1141,8 @@ for kontoen %s."</string>
     <string name="permlab_requestInstallPackages">anmod om installation af pakker</string>
     <string name="permlab_route_media_output">viderefør medieoutput</string>
     <string name="permlab_runInBackground">kør i baggrunden</string>
-    <string name="permlab_sdcardRead">læse indholdet af dit SD-kort</string>
-    <string name="permlab_sdcardWrite">ændre eller slette indholdet på dit SD-kort</string>
+    <string name="permlab_sdcardRead">læse USB-lagerets indhold</string>
+    <string name="permlab_sdcardWrite">ændre eller slette indhold på USB-lager</string>
     <string name="permlab_sendSms">Send og se sms-beskeder</string>
     <string name="permlab_setAlarm">indstille en alarm</string>
     <string name="permlab_setInputCalibration">skift kalibrering for inputenheden</string>
@@ -1194,7 +1198,7 @@ for kontoen %s."</string>
     <string name="policydesc_disableKeyguardFeatures">Undgå brugen af visse skærmlåsfunktioner.</string>
     <string name="policydesc_encryptedStorage">Kræver, at gemte appdata krypteres.</string>
     <string name="policydesc_expirePassword">Rediger, hvor ofte skærmlåsens adgangskode, pinkode eller adgangsmønster skal skiftes.</string>
-    <string name="policydesc_forceLock">Kontrollerer, hvordan og hvornår skærmen låses.</string>
+    <string name="policydesc_forceLock">Administrerer, hvordan og hvornår skærmen låses.</string>
     <string name="policydesc_limitPassword">Tjek længden samt tilladte tegn i adgangskoder og pinkoder til skærmlåsen.</string>
     <string name="policydesc_resetPassword">Skifter skærmlås</string>
     <string name="policydesc_setGlobalProxy">Indstil den globale proxy for enheden, der skal bruges, mens politikken er aktiveret. Det er kun enhedens ejer, der kan indstille den globale proxy.</string>
@@ -1229,8 +1233,8 @@ for kontoen %s."</string>
     <string name="printing_disabled_by">Udskrivning er deaktiveret af %s.</string>
     <string name="profile_encrypted_detail">Arbejdsprofilen er låst</string>
     <string name="profile_encrypted_message">Tryk for at låse profilen op</string>
-    <string name="progress_erasing">Sletter SD-kortet...</string>
-    <string name="quick_contacts_not_available">Der blev ikke fundet nogen applikation, som kan vise denne kontaktperson.</string>
+    <string name="progress_erasing">Sletter USB-lageret...</string>
+    <string name="quick_contacts_not_available">Der blev ikke fundet nogen applikation, som kan vise denne kontakt.</string>
     <string name="reason_service_unavailable">Udskrivningstjenesten er ikke aktiveret</string>
     <string name="reason_unknown">ukendt</string>
     <string name="reboot_safemode_confirm">Vil du genstarte i sikker tilstand? Dette vil deaktivere alle tredjepartsapplikationer, som du har installeret. De vil blive genoprettet, når du genstarter igen.</string>
@@ -1580,6 +1584,9 @@ Vil du lukke den?"</string>
     <string name="wifi_p2p_show_pin_message">Pinkode:</string>
     <string name="wifi_p2p_to_message">Til:</string>
     <string name="wifi_p2p_turnon_message">Start Wi-Fi Direct. Dette slår Wi-Fi-klient/hotspot fra.</string>
+    <string name="wifi_softap_config_change">Ændringer af dine indstillinger for hotspot</string>
+    <string name="wifi_softap_config_change_detailed">Denne enhed understøtter ikke din præference om kun 5 GHz. Denne enhed vil i stedet bruge 5 GHz-båndet, når det er muligt.</string>
+    <string name="wifi_softap_config_change_summary">Dit hotspotbånd er ændret.</string>
     <string name="wifi_wakeup_enabled_content">Du er i nærheden af et gemt netværk: %1$s</string>
     <string name="wifi_wakeup_enabled_title">Wi‑Fi blev automatisk aktiveret</string>
     <string name="wifi_wakeup_onboarding_action_disable">Aktivér ikke igen</string>
@@ -1608,6 +1615,7 @@ Vil du lukke den?"</string>
     <string name="zen_mode_feature_name">Forstyr ikke</string>
     <string name="zen_mode_forever">Indtil du deaktiverer</string>
     <string name="zen_mode_forever_dnd">Indtil du slår \"Forstyr ikke\" fra</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Indtil %1$s</string>
     <string name="zen_upgrade_notification_content">Tryk for at se, hvad der er blokeret.</string>
     <string name="zen_upgrade_notification_title">Tilstanden Forstyr ikke blev ændret</string>

@@ -12,7 +12,7 @@
     <string name="permdesc_downloadManagerAdvanced">Giver appen adgang til de avancerede funktioner i download. Ondsindede apps kan bruge dette til at forstyrre downloads og få adgang til privat information.</string>
     <string name="permlab_downloadCompletedIntent">Send downloadmeddelelser.</string>
     <string name="permdesc_downloadCompletedIntent">Tillader, at appen sender meddelelser om færdiggjorte downloads. Ondsindede apps kan bruge dette til at forvirre andre apps, der henter filer.</string>
-    <string name="permlab_seeAllExternal">Se alle downloads til SD-kort</string>
+    <string name="permlab_seeAllExternal">Se alle downloads til USB-lagring</string>
     <string name="permdesc_seeAllExternal">Tillader, at appen kan se alle downloads til SD-kortet, uanset hvilken app der downloadede dem.</string>
     <string name="permlab_downloadCacheNonPurgeable">Reserver plads i download-cachen</string>
     <string name="permdesc_downloadCacheNonPurgeable">Tillader, at appen kan downloade filer til download-cachen, som ikke kan slettes automatisk, når download-manageren har brug for mere plads.</string>
@@ -42,4 +42,5 @@ Ttryk på %s for at starte denne download næste gang du er tilsluttet et Wi-Fi-
     <string name="download_queued">I kø</string>
     <string name="download_running">Downloader</string>
     <string name="download_error">Kunne ikke downloade</string>
+    <string name="download_running_percent">Downloader %s</string>
 </resources>

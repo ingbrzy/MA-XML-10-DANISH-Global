@@ -51,12 +51,13 @@
     <string name="accessibility_repeats">Gentag</string>
     <string name="accessibility_sync_cal">Synkronisér kalender</string>
     <string name="account_and_calendar">Konti</string>
-    <string name="action_bar_date_button_title">Beregn dato</string>
     <string name="action_bar_return">Tilbage</string>
     <string name="action_text_card_manager">Kanal</string>
     <string name="add_anniversary">Tilføj jubilæum</string>
     <string name="add_countdown">Tilføj nedtælling</string>
     <string name="add_event">Tilføj event</string>
+    <string name="add_holiday_desc">Tilføj ferie her</string>
+    <string name="add_holiday_title">Tilføj ferie</string>
     <string name="agenda_month_empty_hint">Ingen begivenheder i dag</string>
     <string name="agenda_tomorrow">I MORGEN, %1$s</string>
     <string name="agenda_view">Events</string>
@@ -104,6 +105,7 @@
     <string name="cards_language_hint">Nogle kort er muligvis ikke tilgængelige på det valgte sprog.</string>
     <string name="change_response_title">Ændr svar</string>
     <string name="change_zodiac">Skift stjernetegn</string>
+    <string name="choose_your_holidays">Vælg ferie</string>
     <string name="click_to_share">Tryk for at dele</string>
     <string name="close_alarm">Slå fra</string>
     <string name="contacts_permission_desc">Få adgang til kontaktoplysninger</string>
@@ -116,6 +118,7 @@
 
 • Få adgang til den fra en enhver browser.
 • Sikkerhedskopiér dine events sikkert."</string>
+    <string name="create_kundli">Opret Kundli</string>
     <string name="creating_event">Event oprettet</string>
     <string name="creating_event_with_guest">Sender invitationer…</string>
     <string name="daily">Daglig</string>
@@ -136,6 +139,7 @@
     <string name="date_interval_text_to">Til %1$s</string>
     <string name="date_jump_hint">Hop direkte til en given dato</string>
     <string name="date_jump_title">Hop til dato</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (i dag)"</string>
     <string name="day_view_new_event_hint">Ny begivenhed</string>
     <string name="default_reminder_mode">Remindere</string>
@@ -176,6 +180,7 @@
     <string name="edit_event_tab_countdown">Nedtælling</string>
     <string name="edit_event_tab_event">Event</string>
     <string name="edit_event_to_label">Til</string>
+    <string name="edit_your_long_holidays">Redigér ferier</string>
     <string name="email_guests_label">E-mail gæster</string>
     <string name="email_install_hint">Mail er blevet afinstalleret. Installer Mail igen for at gendanne kalenderkonti eller for at tilføje en ny konto.</string>
     <string name="email_picker_label">E-mail med</string>
@@ -204,6 +209,12 @@
     <string name="event_view">Se event</string>
     <string name="every_weekday">Ugedage (Man–Fre)</string>
     <string name="fb_birthday_failure">Kunne ikke importere fødselsdage fra Facebook. Prøv igen.</string>
+    <string name="fb_birthday_import_pref_desc">Importer venners fødselsdage fra Facebook</string>
+    <string name="fb_birthday_import_pref_title">Importer nu</string>
+    <string name="fb_birthday_logout_failure">Du har endnu ikke tilføjet din Facebook-konto</string>
+    <string name="fb_birthday_logout_pref_desc">Fjern Facebook-konto sammen med venners fødselsdage</string>
+    <string name="fb_birthday_logout_pref_title">Fjern Facebook-konto</string>
+    <string name="fb_birthday_logout_success">Facebook-konto blev fjernet</string>
     <string name="fb_birthday_region_warning">Denne funktion er ikke tilgængelig i dit område</string>
     <string name="fb_birthday_success">Importerede fødselsdage fra Facebook</string>
     <string name="fb_calendar_account_name">Mi lokal kalender</string>
@@ -212,6 +223,7 @@
     <string name="festival_detail_title">Festival</string>
     <string name="file_exception">Der opstod en fejl</string>
     <string name="fixtures">Sportskampe</string>
+    <string name="fourth_saturday_holiday">Hver anden og hver fjerde lørdag er fridage</string>
     <string name="from_google_group_calendar">Google-kalender</string>
     <string name="gadget_no_events">Ingen forestående kalenderevents</string>
     <string name="gadget_title">Kalender</string>
@@ -226,6 +238,10 @@
     <string name="greetingcard_end_of_page">Det er alt for i dag. Kom tilbage i morgen!</string>
     <string name="greetingcard_notification_desc">Se de nyeste statusser</string>
     <string name="greetingcard_notification_title">Dit daglige feed er klar</string>
+    <string name="greetingcard_reminder_dialog_message">Tillad at kalenderen hver dag sender dig notifikationer om hilsener og statusser?</string>
+    <string name="greetingcard_reminder_dialog_negative">Nej tak</string>
+    <string name="greetingcard_reminder_dialog_positive">Tillad</string>
+    <string name="greetingcard_reminder_dialog_title">Modtag meddelelser</string>
     <string name="greetingcard_reminder_disabled_status">Du modtager ikke daglige påmindelser om WhatsApp-statusser.</string>
     <string name="greetingcard_reminder_disabled_text">Aktiver påmindelser</string>
     <string name="greetingcard_reminder_enabled_status">Du modtager daglige påmindelser om WhatsApp-statusser.</string>
@@ -246,7 +262,14 @@
     <string name="hint_what">Eventnavn</string>
     <string name="hint_where">Placering</string>
     <string name="holiday_card_title">På denne dag</string>
+    <string name="holiday_date">Dato</string>
+    <string name="holiday_date_title">Feriedato</string>
     <string name="holiday_detail_read_more">Mere</string>
+    <string name="holiday_name">Navn på ferie</string>
+    <string name="holiday_name_empty">Feriens navn kan ikke være tomt</string>
+    <string name="holiday_name_exists">Denne ferie eksisterer allerede</string>
+    <string name="holiday_saved">Gemt korrekt</string>
+    <string name="holidays_title">Ferier</string>
     <string name="horoscope_select_activity_label">Vælg stjernetegn</string>
     <string name="image_processing">"Billede isn't er ikke klar endnu"</string>
     <string name="import_action">Importér</string>
@@ -268,9 +291,21 @@
     <string name="loading">Lige et øjeblik…</string>
     <string name="local_calendar_display_name">Lokal kalender</string>
     <string name="local_owner_account_name">Gemt på denne enhed</string>
+    <string name="long_holiday_date_place_holder">dd MMMM</string>
+    <string name="long_holiday_dates">Begynder fra den %1$s</string>
+    <string name="long_holiday_month_off">Månedlige fridage</string>
+    <string name="long_holiday_week_off">Ugentlige fridage</string>
     <string name="lunar_date">Månedato</string>
+    <string name="manage_holidays">Administrer ferier</string>
+    <string name="manage_title">Administrer</string>
     <string name="match_finished">Der kan ikke indstilles påmindelser til igangværende og afsluttede spil</string>
     <string name="match_select_activity_label">Ligaer</string>
+    <string name="match_zodiac">Match stjernetegn</string>
+    <string name="menstruation_card_default_title">Ingen registreringer af menstruation</string>
+    <string name="menstruation_card_error_sub_title">Vælg Kalender og opstart den igen.</string>
+    <string name="menstruation_card_error_title">Kunne ikke hente data</string>
+    <string name="menstruation_card_private_mode_sub_title">Privattilstand</string>
+    <string name="menstruation_card_private_mode_title">Menstruationscyklus ****</string>
     <string name="menu_general_preferences">Generelt</string>
     <string name="menu_reminder_preferences">Remindere</string>
     <string name="missing_name">(Intet navn)</string>
@@ -299,7 +334,9 @@
     <string name="news">Nyheder</string>
     <string name="no_contact_birthday_hint">Ingen fødselsdag at importere.</string>
     <string name="no_events_hint">Ingen events</string>
+    <string name="no_holiday_selected">Fridage er ikke valgt</string>
     <string name="no_internet">Kunne ikke oprette forbindelse til internettet</string>
+    <string name="no_long_holidays">Ingen kommende lange ferier</string>
     <string name="no_network">Kunne ikke tilslutte til netværket./nTjek netværksindstillinger og prøv igen.</string>
     <string name="no_network_btn">Prøv igen</string>
     <string name="no_storage">Ikke nok hukommelse</string>
@@ -307,6 +344,7 @@
     <string name="no_visiable_calendar_message">Du er nødt til at tilføje en kalenderkonto. Tryk \"Tilføj konto\" for at fortsætte.</string>
     <string name="no_visiable_calendar_select_account">Tilføj konto</string>
     <string name="no_visiable_calendar_title">Tilføj konto</string>
+    <string name="not_more_than_three_weekday">Du kan vælge op til 3 dage</string>
     <string name="notification_channel_description" />
     <string name="notification_channel_name">Kalenderpåmindelser</string>
     <string name="panchang_amanta">Amanta</string>
@@ -324,12 +362,14 @@
     <string name="panchang_ritu">Ritu</string>
     <string name="panchang_shaka_samvat">Shaka Samvat</string>
     <string name="panchang_sun_sign">Soltegn</string>
+    <string name="panchang_till_time">Op til %1$s</string>
     <string name="panchang_tithi">Tithi</string>
     <string name="panchang_to"> til </string>
     <string name="panchang_upto"> op til </string>
     <string name="panchang_vikram_samvat">Vikram Samvat</string>
     <string name="panchang_yamaghanta">Yamaghanta</string>
     <string name="panchang_yog">Yog</string>
+    <string name="partner_compatibility">Partnerkompatibilitet</string>
     <string name="path_calendar_settings">System-apps/Kalender/Indstillinger</string>
     <string name="prefDialogTitle_vibrateWhen">Vibrér</string>
     <string name="pref_reminder_time">Remindertid</string>
@@ -384,11 +424,13 @@
     <string name="response_no">Nej</string>
     <string name="response_yes">Ja</string>
     <string name="rest_day_indication">: )</string>
+    <string name="saturday_click_disabled">Hver anden og hver fjerde lørdag er fridage nu</string>
     <string name="saving_event">Event gemt</string>
     <string name="saving_event_with_guest">Sender opdateringer…</string>
     <string name="search_calendar">Dato;Solar Vilkår;Lunar;Almanac;Fortune;Agenda;Møde;Påmindelse;Ferie;Helligdag;Fødselsdag;2016;2017;Forårsfestival;Nytår;International Arbejdsdag;Sensommerfestival</string>
     <string name="search_calendar_edit_event">Møde;Påmindelse;Agenda</string>
     <string name="search_calendar_settings">Kalender;Agenda;Påmindelse</string>
+    <string name="second_saturday_holiday">Hver anden lørdag er en fridag</string>
     <string name="select_date">Hop til dato</string>
     <string name="set_reminder">Indstil påmindelse</string>
     <string name="setting_about_calendar_version">Kalendar-version:</string>
@@ -397,6 +439,7 @@
     <string name="setting_about_summary">Version:</string>
     <string name="setting_accounts">Kalenderkonti</string>
     <string name="setting_change_language">Vælg sprog for kalender</string>
+    <string name="setting_desc_import_todo">Importer skemalagte opgaver fra Notes</string>
     <string name="setting_fb_birthdays_title">Importer fødselsdage fra Facebook</string>
     <string name="setting_features_title">Vis indstillinger</string>
     <string name="setting_holiday_display_desc">Feriekort er placeret under din lommekalender på hjemmesiden.</string>
@@ -404,12 +447,18 @@
     <string name="setting_others">Yderligere</string>
     <string name="setting_title_about">Om</string>
     <string name="setting_title_holiday_display">Vis ferier</string>
+    <string name="setting_title_import_todo">Importer opgaver</string>
     <string name="setting_title_policy">Fortrolighedspolitik</string>
+    <string name="settings_show_long_holiday">Lange ferier</string>
+    <string name="settings_show_long_holiday_description">Planlæg din ferie på forhånd</string>
+    <string name="settings_show_p_tracker">Vis menstruationsoplysninger</string>
+    <string name="settings_show_p_tracker_description">Hold øje med dine perioder</string>
     <string name="share_image">Del</string>
     <string name="share_image_label">Del via</string>
     <string name="share_title">Del</string>
     <string name="show_day_view">Vis dag</string>
     <string name="show_indic_date_summary">Indisk kalender er tilgængelig, når et af de indiske sprog er valgt som dit systemsprog</string>
+    <string name="single_selected_holiday">%1$s er en fridag</string>
     <string name="start_date_calculate">Beregn</string>
     <string name="storage_permission_denied">Giv først adgang til hukommelse</string>
     <string name="subscribe_card">Abonner nu</string>
@@ -431,11 +480,16 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="talk_back_read_date">%1$s (%2$s efter månekalenderen).</string>
     <string name="talk_back_setting">Indstillinger</string>
     <string name="template_announce_item_index">Event %1$s af %2$s.</string>
+    <string name="three_selected_holiday">%1$s, %2$s og %3$s er fridage</string>
     <string name="time_zone">Tidszone</string>
     <string name="timezone_label">Tidszone</string>
+    <string name="title_p_tracker">Menstruation</string>
     <string name="today">I dag</string>
     <string name="today_at_time_fmt">I dag kl. %s</string>
     <string name="today_no_events">Ingen events</string>
+    <string name="todays_panchang_title">Dagens Panchang</string>
+    <string name="todo_audio_event">"[Voice task] "</string>
+    <string name="todo_event">Kommende opgaver</string>
     <string name="tomorrow">I morgen</string>
     <string name="tomorrow_at_time_fmt">I morgen kl. %s</string>
     <string name="too_long_content">Indhold er for langt.</string>
@@ -462,6 +516,7 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="travel_seat_number_text">Plads</string>
     <string name="travel_train_number_text">Tog</string>
     <string name="travel_train_station">Togstation</string>
+    <string name="two_selected_holiday">%1$s og %2$s er fridage</string>
     <string name="unsubscribe_card">Opsig abonnement</string>
     <string name="unsubscribe_card_success">Opsigelse af abonnement på “%1$s” lykkedes.</string>
     <string name="unsubscribing_card">Afmeldt</string>
@@ -485,4 +540,8 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="xiaomi_calendar_display_name">Mi Account Kalender</string>
     <string name="yearly">Årlig (hver %s)</string>
     <string name="yearly_plain">Årlig</string>
+    <string name="action_bar_date_button_title">Beregn dato</string>
+    <string name="preferences_week_settings_title">Ugeindstillinger</string>
+    <string name="preferences_weekly_holiday_summary">Valgte dage markeres som fridage</string>
+    <string name="preferences_weekly_holiday_title">Fridage</string>
 </resources>

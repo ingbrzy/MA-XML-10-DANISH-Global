@@ -2,7 +2,7 @@
 <resources>
     <string name="button_dismiss">OK</string>
     <string name="app_label">CB-meddelelser</string>
-    <string name="sms_cb_settings">Nødalarmer</string>
+    <string name="sms_cb_settings">Indstillinger for Cell Broadcast-beskeder</string>
     <string name="cell_broadcast_settings_not_available">Denne bruger har ikke adgang til indstillingerne for Cell Broadcast</string>
     <string name="no_cell_broadcasts">Der er ingen aktive advarsler i dit område. Du kan ændre indstillingerne for advarslen ved hjælp af menuen Indstillinger.</string>
     <string name="menu_preferences">Indstillinger</string>

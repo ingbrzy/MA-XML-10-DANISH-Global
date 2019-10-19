@@ -32,7 +32,7 @@
     <string name="bt_enable_title" />
     <string name="bt_error_btn_ok">OK</string>
     <string name="bt_share_picker_label">Bluetooth</string>
-    <string name="bt_sm_2_1">Der er ikke nok plads på SD-kortet til at gemme filen fra \"%1$s\"</string>
+    <string name="bt_sm_2_1">Der er ikke nok plads på USB-lageret til at gemme filen fra \"%1$s\"</string>
     <string name="bt_sm_2_2">Nødvendig plads: %1$s</string>
     <string name="bt_toast_1">Filen modtages. Se status i underretningspanelet.</string>
     <string name="bt_toast_2">Filen kan ikke modtages.</string>
@@ -96,7 +96,9 @@
     <string name="opp_notification_group">Bluetooth-deling</string>
     <string name="outbound_history_title">Udgående overførsler</string>
     <string name="outbound_noti_title">Bluetooth-deling: Sendte filer</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Der var timeout ved forbindelsen med %1$s</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Der var timeout i indgangssessionnøgle med %1$s</string>
     <string name="pbap_notification_group">Deling af kontaktpersoner via Bluetooth</string>
     <string name="pbap_session_key_dialog_header">Bluetooth-sessionsnøgle kræves</string>
@@ -111,7 +113,7 @@
     <string name="status_connection_error">Forbindelsen mislykkedes.</string>
     <string name="status_file_error">Lagerproblem.</string>
     <string name="status_forbidden">Modtagerenheden forbyder overførslen.</string>
-    <string name="status_no_sd_card">Intet SD-kort. Indsæt et SD-kort for at gemme overførte filer.</string>
+    <string name="status_no_sd_card">Intet USB-lager.</string>
     <string name="status_not_accept">Indholdet understøttes ikke.</string>
     <string name="status_pending">Filoverførslen er endnu ikke påbegyndt.</string>
     <string name="status_protocol_error">Anmodningen kan ikke håndteres korrekt.</string>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="detail_update_time_hour">
+        <item quantity="other">%d timer siden</item>
+        <item quantity="one">%d time siden</item>
+    </plurals>
+    <plurals name="detail_update_time_minute">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">%d minutt siden</item>
+    </plurals>
     <plurals name="guide_used_number">
         <item quantity="other">Valgt for %1$d enheder</item>
         <item quantity="one">Valgt for %1$d enhed</item>
@@ -9,7 +17,7 @@
         <item quantity="one">%d kommentar</item>
     </plurals>
     <plurals name="resource_rating">
-        <item quantity="other">%1$.1f points</item>
+        <item quantity="other">%1$.1f point</item>
         <item quantity="one">%1$.1f point</item>
     </plurals>
     <plurals name="ringtone_nums">

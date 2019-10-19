@@ -26,13 +26,13 @@
     </string-array>
     <string-array name="alarm_set">
         <item>Alarm starter om mindre end 1 minut.</item>
-        <item>Alarm starter om %1$s.</item>
-        <item>Alarm starter om %2$s.</item>
-        <item>Alarm starter om %1$s og %2$s.</item>
-        <item>Alarm starter om %3$s.</item>
-        <item>Alarm starter om %1$s og %3$s.</item>
-        <item>Alarm starter om %2$s og %3$s.</item>
-        <item>Alarm starter om %1$s %2$s og %3$s.</item>
+        <item>Alarmen vil lyde om %1$s.</item>
+        <item>Alarmen vil lyde om %2$s.</item>
+        <item>Alarmen vil lyde om %1$s og %2$s.</item>
+        <item>Alarmen vil lyde om %3$s.</item>
+        <item>Alarmen vil lyde om %1$s og %3$s.</item>
+        <item>Alarmen vil lyde om %2$s og %3$s.</item>
+        <item>Alarmen vil lyde om %1$s %2$s og %3$s.</item>
     </string-array>
     <string-array name="aqi_value">
         <item>God</item>
