@@ -50,8 +50,6 @@
     <string name="self_device_second_space">Denne telefons Second space</string>
     <string name="other_device_main_space">First space</string>
     <string name="other_device_second_space">Second space</string>
-    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
-    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
     <string name="size_unknown">Ukendt størrelse</string>
     <string name="recovering">Gendanner %s</string>
@@ -135,7 +133,6 @@
     <string name="provision_error_connect_msg">Test netværket og prøv igen. Sikkerhedskopier er ikke tilgængelige, når din enhed er offline.</string>
     <string name="provision_error_connect_title">Kan ikke oprette forbindelse</string>
     <string name="loading_user_backup">Indlæser brugersikkerhedskopier…</string>
-    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Beregner størrelse…</string>
     <string name="authentication_failed">Kunne ikke bekræfte konto.</string>

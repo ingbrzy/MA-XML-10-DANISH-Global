@@ -161,7 +161,6 @@
     <string name="dialog_type_image">Billeder</string>
     <string name="dialog_type_text">Dokumenter</string>
     <string name="dialog_type_video">Videoer</string>
-    <string name="directory_info_divider">"  |  "</string>
     <string name="display_name">Vis navn</string>
     <string name="domain">Domæne</string>
     <string name="download_success">Download lykkedes</string>
@@ -208,7 +207,6 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="favorite_ringtone">Ringetoner</string>
     <string name="favorite_screen_cap">Skærmfotos</string>
     <string name="feedback_send_email_body_extra_info">Slet ikke følgende info. Det vil hjælpe os med at lokalisere problemet.</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Læsbar: </string>
     <string name="file_info_canwrite">Skrivbar: </string>
     <string name="file_info_ishidden">Skjult: </string>
