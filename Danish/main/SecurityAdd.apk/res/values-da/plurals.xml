@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">%d dage tilbage, før sessionen til netværkshastighedsboost slutter. Forny din session nu for at undgå problemer med netværkshastigheden.</item>
+        <item quantity="one">%d dag tilbage, før sessionen til netværkshastighedsboost slutter. Forny din session nu for at undgå problemer med netværkshastigheden.</item>
+    </plurals>
+</resources>

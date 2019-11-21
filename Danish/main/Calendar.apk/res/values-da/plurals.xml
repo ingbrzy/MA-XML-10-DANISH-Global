@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%d dage før</item>
-        <item quantity="one">%d dage før</item>
+        <item quantity="other">%d dage før arrangementet</item>
+        <item quantity="one">%d dag før arrangementet</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">In %1$d days at %2$s</item>
         <item quantity="one">Om %1$d dage kl. %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d dage forinden kl. %2$s</item>
-        <item quantity="one">%1$d dag forinden kl. %2$s</item>
+        <item quantity="other">%1$d dage før arrangementet kl. %2$s</item>
+        <item quantity="one">%1$d dag før arrangementet kl. %2$s</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d timer før</item>
-        <item quantity="one">%d time før</item>
+        <item quantity="other">%d timer før arrangementet</item>
+        <item quantity="one">%d time før arrangementet</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d minutes before</item>
-        <item quantity="one">%d minutter før</item>
+        <item quantity="other">%d minutter før arrangementet</item>
+        <item quantity="one">%d minut før arrangementet</item>
     </plurals>
     <plurals name="Nweeks">
-        <item quantity="other">%d weeks before</item>
-        <item quantity="one">%d uger før</item>
+        <item quantity="other">%d uger før arrangementet</item>
+        <item quantity="one">%d uge før arrangementet</item>
     </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s days</item>
@@ -84,9 +84,25 @@
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>
     </plurals>
+    <plurals name="reminder_custom_unit_day">
+        <item quantity="other">" dage"</item>
+        <item quantity="one">" dag"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_hour">
+        <item quantity="other">" timer"</item>
+        <item quantity="one">" time"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_minute">
+        <item quantity="other">" minutter"</item>
+        <item quantity="one">" minut"</item>
+    </plurals>
+    <plurals name="reminder_later_toast">
+        <item quantity="other">Næste påmindelse om %1$d minutter</item>
+        <item quantity="one">Næste påmindelse om %1$d minut</item>
+    </plurals>
     <plurals name="repeat_custom_prompt">
-        <item quantity="other">hver %1$s på %2$s</item>
-        <item quantity="one">hver %1$s på %2$s</item>
+        <item quantity="other">hver %1$s den %2$s</item>
+        <item quantity="one">hver %1$s den %2$s</item>
     </plurals>
     <plurals name="repeat_interval_frequency_day_multiple">
         <item quantity="other">%1$d days</item>
@@ -103,10 +119,6 @@
     <plurals name="repeat_interval_frequency_year_multiple">
         <item quantity="other">%1$d years</item>
         <item quantity="one">%1$d år</item>
-    </plurals>
-    <plurals name="travel_eta_advice">
-        <item quantity="other">%2$s minutters kørsel til %1$s.</item>
-        <item quantity="one">%2$s minuts kørsel til %1$s.</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">WEEK %d</item>

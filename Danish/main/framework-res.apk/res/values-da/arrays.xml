@@ -37,6 +37,8 @@
         <item>Andet</item>
         <item>Tilpasset</item>
     </string-array>
+    <array name="face_acquired_vendor" />
+    <array name="face_error_vendor" />
     <array name="fingerprint_acquired_vendor" />
     <array name="fingerprint_error_vendor" />
     <string-array name="imAddressTypes">
@@ -57,9 +59,5 @@
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
         <item>Der opstod et problem under registrering af Wi-Fi-opkald hos dit mobilselskab: %1$s</item>
-    </string-array>
-    <string-array name="wfcSpnFormats">
-        <item>%s</item>
-        <item>%s Wi-Fi-opkald</item>
     </string-array>
 </resources>

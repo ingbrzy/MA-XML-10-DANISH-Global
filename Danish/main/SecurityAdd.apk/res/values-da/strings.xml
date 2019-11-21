@@ -18,6 +18,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ad_downloading">Download…</string>
     <string name="app_name">Systemservice-plugin</string>
     <string name="app_select_title">Tilføj ofte anvendte apps</string>
@@ -35,6 +36,7 @@
     <string name="dialog_market_score_title_step2">Tak for din feedback!</string>
     <string name="dual_app_title">Dobbelte apper</string>
     <string name="dual_app_words">Hver konto fortjener sin egen app</string>
+    <string name="empty">" "</string>
     <string name="fastboot_locked_answer_1">Fastboot er den traditionelle metode til flash af Mi-enheder. Når enheden er i Fastboot-tilstand, kan alle data, som er gemt på enheden, nemt findes og slettes direkte. Vi låser Fastboot for at sikre, at dine data forbliver sikre, hvis du mister enheden, samt for at sikre at funktionen Find Enhed virker pålideligt.</string>
     <string name="fastboot_locked_answer_2">I tilfælde af at du mister din enhed, garanterer Fastboot for sikkerheden for de emner, som er gemt på den. Hvis du låser op for Fastboot, kan du ikke længere fjernlåse din enhed eller slette data med Find Enhed. Derfor anbefaler vi ikke oplåsning af Fastboot på din enhed.</string>
     <string name="fastboot_locked_answer_3">Du bør anvende oplåsnings-værktøjet fra MIUIs websted. For at låse enheden op er vi nødt til at sikre os, at enheden tilhører dig. Derfor bør du logge ind med din Mi-konto og tænde for Find Enhed.</string>
@@ -78,7 +80,7 @@
     <string name="superpower_progress_battery_last">%s tilbage</string>
     <string name="superpower_progress_left_time">%1$dh %2$dm</string>
     <string name="superpower_search_hint">Søg efter apps</string>
-    <string name="superpower_select_app_title">Startskærmlayout</string>
+    <string name="superpower_select_app_title">Ofte anvendte apps</string>
     <string name="superpower_settings">Ultrabatteribesparelse</string>
     <string name="superpower_system">Anbefalet</string>
     <string name="superpower_third">Tredjepartsapps</string>
@@ -87,4 +89,23 @@
     <string name="title_share_link">Del URL</string>
     <string name="usage_sorted_loading_text">Lige et øjeblik…</string>
     <string name="xunyou_pay_webview">Xunyou-tjenester</string>
+    <string name="cancel">Annuller</string>
+    <string name="fingerprint_not_remind">Spørg ikke igen</string>
+    <string name="free_send_net_booster">Gratis netværkshastighedsboost</string>
+    <string name="free_send_net_booster_busniess">Få gratis Xunlei-hastighedsboost</string>
+    <string name="free_send_net_booster_busniess_tip">Tryk for at modtage</string>
+    <string name="free_send_net_booster_tip">Få en god spiloplevelse med gratis netværkshastighedsboost.</string>
+    <string name="net_booster_expire_notification">Sessionen til boost af netværkshastighed er ved at være slut</string>
+    <string name="net_booster_overdue_notification">Sessionen til boost af netværkshastighed er ved at være slut</string>
+    <string name="net_booster_overdue_notification_tip">Sessionen til netværkshastighedsboost vil slutte snart. Forny sessionen?</string>
+    <string name="renew_now">Forny</string>
+    <string name="superpower_app_contact">Kontaktpersoner</string>
+    <string name="superpower_app_delete">Slet</string>
+    <string name="superpower_app_edit">Rediger</string>
+    <string name="superpower_app_exit">Afslut</string>
+    <string name="superpower_app_isadded">Tilføjet</string>
+    <string name="superpower_app_mms">Beskedservice</string>
+    <string name="superpower_app_phone">Telefon</string>
+    <string name="superpower_settings_launcher">Ultrabatteribesparelse</string>
+    <string name="superpower_toast_app_select_full">Du kan føje op til 6 elementer til ofte anvendte apps</string>
 </resources>

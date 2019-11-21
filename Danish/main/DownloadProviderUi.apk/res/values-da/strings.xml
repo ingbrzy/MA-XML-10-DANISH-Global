@@ -73,6 +73,7 @@
     <string name="bt_path_not_exit">Stien findes ikke</string>
     <string name="bt_restart_dialog_message">Genstart alle downloads i BT-mappen?</string>
     <string name="bt_restart_dialog_title">Genstart alle downloads</string>
+    <string name="byteShort_per_seconds">B/s</string>
     <string name="cancel">Annuller</string>
     <string name="check_new_downloaded_action">Vis</string>
     <string name="check_new_downloaded_file">En ny fil blev fundet</string>
@@ -113,6 +114,7 @@
     <string name="download_pending">Download venter</string>
     <string name="download_remain_time">Tilbage:</string>
     <string name="download_speed">Downloadhastighed:</string>
+    <string name="download_speed_suffix">%1$s %2$s</string>
     <string name="download_spend_time">Tid</string>
     <string name="download_status_continue">Genoptag</string>
     <string name="download_status_fail">Prøv igen</string>
@@ -141,6 +143,7 @@
     <string name="file_exist_hint">Denne fil findes allerede</string>
     <string name="file_size">Størrelse:</string>
     <string name="get_data_failed">Kunne ikke hente oplysninger. Vent et minut eller to og prøv så igen.</string>
+    <string name="gigabyteShort_per_seconds">GB/s</string>
     <string name="guess_like">Måske synes du også om</string>
     <string name="hint">Bemærk</string>
     <string name="info_download_details">Detaljer</string>
@@ -151,17 +154,21 @@
     <string name="install">Installer</string>
     <string name="installing">Installerer…</string>
     <string name="insufficient_space">Ikke nok lagerplads</string>
+    <string name="kilobyteShort_per_seconds">kB/s</string>
     <string name="korean_all_choose_item_title">Jeg accepterer alle vilkår og betingelser nedenfor.</string>
     <string name="korean_permission_group_phone_describe">Gå til enhedens IMEI- og netværksstatus, indsaml oplysningerne om mislykkede downloads for at forbedre tjenesten</string>
     <string name="korean_permission_group_phone_title">Telefon</string>
+    <string name="korean_permission_group_storage_describe">Få adgang til enhedens hukommelse for at administrere downloads</string>
+    <string name="korean_permission_group_storage_title">Lagerplads</string>
     <string name="korean_privacy_btn_accept">Acceptér</string>
     <string name="korean_privacy_btn_exit">Luk</string>
-    <string name="korean_privacy_item_title">Privacy Policy (mandatory)</string>
+    <string name="korean_privacy_item_title">Fortrolighedspolitik (obligatorisk)</string>
     <string name="korean_privacy_tv_summary">Læs nøje alle de følgende elementer og vælg, om du vil acceptere dem.</string>
-    <string name="korean_user_agreement_item_title">User Agreement (mandatory)</string>
+    <string name="korean_user_agreement_item_title">Brugeraftale (obligatorisk)</string>
     <string name="load_finish_hint">Det er alt for nu.</string>
-    <string name="loading">Et øjeblik…</string>
+    <string name="loading">Lige et øjeblik…</string>
     <string name="media_filter">Medier</string>
+    <string name="megabyteShort_per_seconds">MB/s</string>
     <string name="menu_all_task_pause">Sæt alt på pause</string>
     <string name="menu_all_task_start">Start alt</string>
     <string name="menu_enter_edit_mode">Redaktør</string>
@@ -194,6 +201,7 @@
     <string name="paused_unknown">På pause</string>
     <string name="paused_waiting_for_network">Venter på netværk</string>
     <string name="paused_waiting_to_retry">Venter på at prøve igen</string>
+    <string name="petabyteShort_per_seconds">PB/s</string>
     <string name="pref_download_settings_title">Maks. størrelse download</string>
     <string name="pref_summary_any_bytes_popup">Vent altid på forbindelse til Wi-Fi for download af filer</string>
     <string name="pref_summary_enable_max_bytes_popup">Vis pop-op-notifikation, når der bruges mobildata til at downloade indhold</string>
@@ -237,6 +245,7 @@
     <string name="task_detail">Opgaver</string>
     <string name="task_detail_notfound_confirm">OK</string>
     <string name="task_fail">Mislykkedes</string>
+    <string name="terabyteShort_per_seconds">TB/s</string>
     <string name="toast_only_wifi_download">Opret forbindelse til Wi-Fi for at downloade dette element</string>
     <string name="total_speedup">Hastighedsforøgelse (total)</string>
     <string name="version">Version %s</string>

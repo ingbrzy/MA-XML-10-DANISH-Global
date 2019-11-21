@@ -23,7 +23,8 @@
     <string name="app_notification_info">Noter arbejder i baggrunden</string>
     <string name="app_widget">Noter</string>
     <string name="application_icon">App-ikon</string>
-    <string name="audio_panel_time_counter_default">00:00</string>
+    <string name="audio_create_normal_state">Slip for at oprette. Stryg op for at annullere.</string>
+    <string name="audio_create_will_cancel_state">Slip for at annullere</string>
     <string name="audio_toast_file_invalid">Lydfil er ugyldig</string>
     <string name="audio_toast_file_undownload">Lydfil er ikke fuldt downloadet, eller også mangler den.</string>
     <string name="audio_toast_network_is_not_available">Kunne ikke tilslutte til netværket</string>
@@ -40,10 +41,6 @@
     <string name="cta_dialog_title">Tilladelser påkrævet</string>
     <string name="cta_reminder">Noter skal have tilladelser til at få forbindelse til internettet, optage lyde og få adgang til dine kontakter for at fungere normalt. Tillad?</string>
     <string name="date_calculate_today">0 dage</string>
-    <string name="date_picker_label_day" />
-    <string name="date_picker_label_month" />
-    <string name="date_picker_label_year" />
-    <string name="date_time_picker_alarm_reminder">Alarm</string>
     <string name="date_time_picker_dialog_title">Fastsæt dato og tid</string>
     <string name="date_time_picker_has_not_set_alarm">Alarm er ikke fastsat</string>
     <string name="date_time_picker_has_set_alarm">Alarm fastsat med succes</string>
@@ -89,8 +86,6 @@
     <string name="error_widget_exist_for_send_to_desktop">Dette notat er allerede på din startskærm</string>
     <string name="exceed_todo_text_limitation">Opgavebeskrivelsen er for lang.</string>
     <string name="first_enter_custom_folder_hint">Du kan omdøbe eller slette mapper her</string>
-    <string name="fmt_chinese_date">N e</string>
-    <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="folder_exist">En mappe med samme navn findes allerede</string>
     <string name="folder_operation_delete">Slet</string>
     <string name="folder_operation_rename">Omdøb</string>
@@ -130,6 +125,10 @@
     <string name="menu_todo_show_finished_todo">Vis fuldførte opgaver</string>
     <string name="menu_unhide">Synliggør</string>
     <string name="menu_unstick">Tag ned</string>
+    <string name="new_audio_create_cancel_talkback_des">Annulleret</string>
+    <string name="new_audio_create_done_talkback_des">Oprettet</string>
+    <string name="new_audio_create_guide_tip">Tryk og hold for at oprette en stemmenote</string>
+    <string name="new_audio_create_talkback_des">Tryk for at oprette en tekstnote. Tryk og hold for at oprette en stemmenote. Slip knappen for at stoppe optagelsen og oprette noten, eller stryg op for at annullere.</string>
     <string name="not_now">Ikke nu</string>
     <string name="note_description_content">Appen Noter er et godt værktøj til skrive dine ideer ned med. Den har indbyggede påmindelser og synkroniserer dine elementer med clouden, så du kan få adgang til dem hvor som helst når som helst. Sørg for, at du kan undvære disse funktioner, inden du sletter appen.</string>
     <string name="note_description_title">Om Noter</string>
@@ -165,6 +164,7 @@
     <string name="pref_title_skip_confirm_for_quick_delete">Slet brug af en gestus</string>
     <string name="pref_title_todo_float_mode">Brug opgave-værktøjskasse</string>
     <string name="pref_title_todo_shorcut">Værktøjskasse</string>
+    <string name="privacy_note_content_empty">Ingen elementer her endnu.</string>
     <string name="recover_notes_hint">Der opstod en fejl. Gå til i.mi.com for at gendanne noter.</string>
     <string name="redo">Gør igen</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Vent, indtil noten er loadet og prøv så igen.</string>
@@ -195,7 +195,6 @@
     <string name="snippet_audio_stub">Stemmenote</string>
     <string name="snippet_image_stub">Billednote</string>
     <string name="snippet_image_template">[Billede %1$s]</string>
-    <string name="sns_action_send">Send</string>
     <string name="sns_choose_quality_high">Høj (%1$s)</string>
     <string name="sns_choose_quality_low">Lav</string>
     <string name="sns_choose_quality_title">Vælg billedkvalitet</string>
@@ -221,14 +220,12 @@
     <string name="theme_title_dark">Mørk</string>
     <string name="theme_title_default">Standard</string>
     <string name="theme_title_green">Grøn</string>
-    <string name="theme_title_invitation">Invitation</string>
     <string name="theme_title_red">Rød</string>
     <string name="theme_title_star">Stjerner</string>
     <string name="theme_title_yellow">Gul</string>
     <string name="theme_white_description">Hvid</string>
     <string name="theme_yellow_description">Gul</string>
     <string name="time_picker_label_hour">T</string>
-    <string name="time_picker_label_minute">M</string>
     <string name="toast_cancel_to_insert_image">Kunne ikke tilføje billede.</string>
     <string name="toast_message_add_image_fail">Kunne ikke tilføje billede</string>
     <string name="toast_notes_delete_success">Korrekt slettet</string>
@@ -250,7 +247,6 @@ Tillad at Notes læser telefonstatus og -identitet."</string>
     <string name="toast_refuse_to_use_record_audio">"Mikrofontilladelser er begrænsede.
 Tillad at Notes optager lyd."</string>
     <string name="todo_alert_title_delete">Slet gennemførte opgaver</string>
-    <string name="todo_audio_default_content">"[Voice task] "</string>
     <string name="todo_custom_remind_tag_pattern_with_md">dd/MM/ HH:mm</string>
     <string name="todo_custom_remind_tag_pattern_with_ymd">dd/MM/yyy HH:mm</string>
     <string name="todo_edit_audio_hint">Sig din opgave</string>
@@ -284,8 +280,6 @@ Tillad at Notes optager lyd."</string>
     <string name="todo_module_name">Opgaver</string>
     <string name="todo_notify_alarm_title">Påmindelse om opgave</string>
     <string name="todo_schedule_time_expired">" (udløbet)"</string>
-    <string name="todo_schedule_time_for_picker_hm">H mm</string>
-    <string name="todo_schedule_time_hm">HH:mm</string>
     <string name="todo_schedule_time_md">dd/MM</string>
     <string name="todo_schedule_time_mdhm">dd/MM/ HH:mm</string>
     <string name="todo_schedule_time_today">I dag</string>

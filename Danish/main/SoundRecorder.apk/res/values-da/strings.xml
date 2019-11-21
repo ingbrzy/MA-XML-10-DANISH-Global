@@ -7,11 +7,11 @@
     <string name="app_name">Optager</string>
     <string name="back">Tilbage</string>
     <string name="button_queue_for_wifi">Vent</string>
-    <string name="button_start_now">Download</string>
     <string name="call_record">Optagede opkald</string>
     <string name="call_record_list_group_all">Alle</string>
     <string name="call_record_list_group_connected">Tilsluttet</string>
     <string name="call_record_list_group_unconnected">Ikke tilsluttet</string>
+    <string name="cancel_rename">Annuller</string>
     <string name="clear_records">Slet synkroniserede optagelser</string>
     <string name="cloud_record_open">Synkroniser optagelser</string>
     <string name="cloud_record_tip">Synkroniser optagelser med Xiaomi Cloud.</string>
@@ -21,7 +21,6 @@
     <string name="cloud_status_full_dialog_ok">Opgrader</string>
     <string name="cloud_status_full_dialog_title">Xiaomi Clouds lagerplads er fuld</string>
     <string name="data_connection_body">Brug af din mobile dataforbindelse til at downloade denne fil vil øge dit dataforbrug. Hvis du overskrider dit abonnements dataforbrugsgrænse, opkræver din udbyder muligvis ekstra gebyrer.</string>
-    <string name="data_connection_button_text">OK</string>
     <string name="data_connection_title">Advarsel om brug af data</string>
     <string name="delete">Slet</string>
     <string name="delete_dialog_message">Slet optagelse?</string>
@@ -30,10 +29,7 @@
     <string name="dialog_content_storage_full">Optagelsen stoppede, da der ikke er plads nok tilbage på din enhed.</string>
     <string name="dialog_privacy_revoke_tips">Efter du tilbagekalder autorisationer, holder appen op med at indsamle data, og alle de relaterede data slettes fra serverne. Det kan gøre appen stort set ubrugelig. Tilbagekald tilladelsen alligevel? For at sikre din kontos sikkerhed skal du logge ind på i.mi.com før tilbagekaldelse af autorisationer til Xiaomi Cloud-tjenester.</string>
     <string name="dialog_title_storage_full">Ikke nok plads</string>
-    <string name="download">Download</string>
     <string name="duration_format_hour">%st</string>
-    <string name="duration_format_minute">%sm</string>
-    <string name="duration_format_second">%ss</string>
     <string name="empty_recognition_tip">Tom</string>
     <string name="err_msg_abandon">Ordren blev opgivet</string>
     <string name="err_msg_complete">Ordren blev afsluttet</string>
@@ -73,14 +69,13 @@
     <string name="korea_permission_record_resc">Til optagelse af lyd</string>
     <string name="korea_permission_storage">Hukommelse</string>
     <string name="korea_permission_storage_desc">Til at gemme optagelser</string>
+    <string name="loading_more">Lige et øjeblik…</string>
     <string name="loading_order_list">Lige et øjeblik…</string>
     <string name="loading_order_list_empty">Ingen ordrer her.</string>
     <string name="low_battery_error">Der er mindre end 5 % batteri tilbage. Stop og gem din optagelse for at sikre, at den ikke går tabt.</string>
-    <string name="low_battery_error_confirm">OK</string>
     <string name="low_battery_error_title">Lavt batteri</string>
     <string name="lyric_item_point_count">%1$d til %2$d</string>
     <string name="mark_point_list_title">Mærker</string>
-    <string name="menu">Menu</string>
     <string name="message_file_size_error">Optagelsen har nået den maksimale længde, der understøttes af %s</string>
     <string name="mi_account_msg">Log på med Mi-konto for at transskribere filer i skyen og få de første 60 minutter gratis.</string>
     <string name="mi_account_ok">Log ind</string>
@@ -105,13 +100,11 @@
     <string name="online_recognize_duration_limite">(Starter fra 10 minutter)</string>
     <string name="online_recognize_fail">Kunne ikke transskribere</string>
     <string name="online_recognize_login_fail">Kunne ikke logge på</string>
-    <string name="online_recognize_order_audio_price">%s CNY</string>
     <string name="online_recognize_order_create">Log ind</string>
     <string name="online_recognize_order_duration_key">Varighed</string>
     <string name="online_recognize_order_pay">Betal og se resultater</string>
     <string name="online_recognize_order_progress_done">Transskriber</string>
     <string name="online_recognize_order_progress_pay">Betal</string>
-    <string name="online_recognize_order_progress_upload">Upload</string>
     <string name="online_recognize_order_service_type_key">Servicetype</string>
     <string name="online_recognize_order_service_type_value">Online audiotransskription</string>
     <string name="online_recognize_order_title">Bekræft ordre</string>
@@ -121,13 +114,12 @@
     <string name="online_recognize_order_upload">Bekræft og upload</string>
     <string name="online_recognize_order_uploading">Uploader %s…</string>
     <string name="online_recognize_other_order_upload">Vent, indtil nuværende uploads er afsluttet og prøv igen.</string>
+    <string name="online_recognize_progress">Transskriberer %s…</string>
     <string name="online_recognize_running">Transskriberer…</string>
     <string name="online_recognize_service_unavailable">Tjenesten er ikke tilgængelig nu. Vent et minut eller to og prøv igen.</string>
     <string name="order_item_duration">Varighed: %s</string>
     <string name="order_item_number">Ordrenummer: %s</string>
-    <string name="order_item_price">%s CNY</string>
     <string name="path_soundrecorder_setting">System-apps/Optager</string>
-    <string name="pause">Pause</string>
     <string name="pay_error_cancel">Betaling blev annulleret</string>
     <string name="pay_error_null">Kunne ikke fuldføre betalingen. Tjek din konto.</string>
     <string name="pay_error_unknown">Ukendt fejl</string>
@@ -152,7 +144,6 @@
     <string name="recognition_error_download_data_msg">Download transskriberingsmaskinen for at gøre denne service tilgængelig. Dette download kræver ca. 20 MB af din mobildata.</string>
     <string name="recognition_error_download_fail">Kunne ikke downloade. Kontroller netværksindstillingerne og prøv igen.</string>
     <string name="recognition_error_download_msg">Download transskriberingsmaskine for at gøre denne tjeneste tilgængelig.</string>
-    <string name="recognition_error_download_ok">Download</string>
     <string name="recognition_error_download_title">Ingen transskriberingsmaskine</string>
     <string name="recognition_error_downloading">"Downloader "</string>
     <string name="recognition_error_engine">Transskriberer maskinfejl</string>
@@ -190,15 +181,12 @@
     <string name="record_format_preference_title">Optagelsesformat</string>
     <string name="record_list">Optagelser</string>
     <string name="record_list_call">Optagede opkald</string>
-    <string name="record_list_category_title_format">MMMM yyyy</string>
     <string name="record_list_cloud">Synkroniserede optagelser</string>
     <string name="record_list_cloud_call">Synkroniserede optagede opkald</string>
     <string name="record_list_cloud_fm">Synkroniserede FM-optagelser</string>
     <string name="record_list_fm">FM-optagelser</string>
     <string name="record_list_item_recognize_text">Tekst</string>
     <string name="record_mark_point">Marker %s</string>
-    <string name="record_name_hour">.</string>
-    <string name="record_name_minute" />
     <string name="record_quliaty_preference_title">Optagelseskvalitet</string>
     <string name="record_resotre">Genskab optagelser</string>
     <string name="recording">Optagelse</string>
@@ -225,7 +213,9 @@
     <string name="retry">Prøv igen</string>
     <string name="runtime_permission_ungranted">Kan ikke bruge optageren på grund af manglende tilladelser</string>
     <string name="search_app">Optager</string>
+    <string name="search_empty">Kunne ikke finde resultater</string>
     <string name="search_enable_earpiece_title">Brug modtager til at afspille lyd</string>
+    <string name="search_hint">Søg</string>
     <string name="search_led_indicator">Låseskærmsnotifikationer</string>
     <string name="search_led_indicator_prompt">Mens du optager, vis statuslinjegenvejen og impulsnotifikationslampen på låseskærmen</string>
     <string name="search_quliaty_title">Optagelseskvalitet</string>
@@ -246,11 +236,9 @@
     <string name="status_bar_recording">Optager…</string>
     <string name="status_bar_recording_pause">Optager sat på pause</string>
     <string name="text_btn_backward_3_seconds">3 sekunder tilbage</string>
-    <string name="text_btn_complete">Stop</string>
     <string name="text_btn_forward_3_seconds">3 sekunder fremad</string>
     <string name="text_btn_list">Optagelser</string>
     <string name="text_btn_mark">Marker</string>
-    <string name="text_btn_pause">Pause</string>
     <string name="text_btn_play">Afspil</string>
     <string name="text_btn_recognize">Transskribere</string>
     <string name="text_btn_recognize_pending">"Venter "</string>
@@ -261,9 +249,6 @@
     <string name="text_play_speed_1_0">Almindelig afspilningshastighed</string>
     <string name="text_play_speed_1_5">1.5X afspilningshastighed</string>
     <string name="text_play_speed_2_0">2X afspilningshastighed</string>
-    <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
-    <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s kan optage i ca. %2$s</string>
     <string name="toast_uninstall_fileexplorer">Filhåndtering er ikke installeret</string>
     <string name="usage_description">Transskriberer lyd og synkroniserer elementer med clouden</string>

@@ -2,7 +2,6 @@
 <resources>
     <string name="app_name">Kvikbold</string>
     <string name="app_not_installed">Ikke installeret</string>
-    <string name="applications">Apps</string>
     <string name="category_others">Andet</string>
     <string name="category_setting">Indstillinger</string>
     <string name="close_panel">Slå Kvikbold fra</string>
@@ -17,26 +16,21 @@
     <string name="mi_wallet_summary">Transportkort/Mi Pay/nøglekort</string>
     <string name="motion_behavior">Foretrukken fagt</string>
     <string name="name_alipay_payment_code">Alipay betaling</string>
-    <string name="name_alipay_scan">Alipay scanner</string>
-    <string name="name_all_mipay_cards">Mi Pay</string>
     <string name="name_handy_mode">Enhåndstilstand</string>
     <string name="name_long_press_power_key">Tryk længe på afbryderknappen</string>
     <string name="name_memory_clean">Ryd cache</string>
-    <string name="name_mi_wallet">Mi Wallet</string>
     <string name="name_music_next_song">Næste sang</string>
     <string name="name_music_prev_song">Forrige sang</string>
     <string name="name_music_toggle">Sand afspil/sæt på pause</string>
     <string name="name_payment_code">Kvikbetaling</string>
     <string name="name_press_back_key">Tilbage</string>
     <string name="name_press_home_key">Hjem</string>
-    <string name="name_press_menu_key">Menu</string>
     <string name="name_quick_lock">Skærm fra</string>
     <string name="name_quick_search">Søg</string>
     <string name="name_scan_to_pay">Scan for at betale</string>
     <string name="name_screenshot">Skærmbillede</string>
     <string name="name_trans_cards">Transportkort</string>
     <string name="name_wechat_payment_code">WeChat betaling</string>
-    <string name="name_wechat_scan">WeChat scanner</string>
     <string name="nfc_all_mipay_card_not_in_use">Mi Pay ikke aktiveret</string>
     <string name="nfc_trans_card_not_in_use">Transportkort ikke aktiveret</string>
     <string name="not_working">%s (virker ikke)</string>

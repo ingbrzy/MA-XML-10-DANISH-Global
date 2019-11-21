@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">for %d dage siden</item>
+        <item quantity="one">for %d dag siden</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">for %d min. siden</item>
+        <item quantity="one">for %d min. siden</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">for %d år siden</item>
+        <item quantity="one">for %d år siden</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d apps har fuld adgang til din enhed</item>
+        <item quantity="one">%1$d app har fuld adgang til din enhed</item>
+    </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
         <item quantity="other">Ekstremt lille forsinkelse (%1$d ms)</item>
         <item quantity="one">Ekstremt lille forsinkelse (%1$d ms)</item>
@@ -69,16 +85,16 @@
         <item quantity="one">%d app kan ikke tilslutte til netværket</item>
     </plurals>
     <plurals name="billing_cycle_days_left">
-        <item quantity="other">Der er %d dage tilbage</item>
-        <item quantity="one">Der er %d dag tilbage</item>
+        <item quantity="other">%d dage tilbage</item>
+        <item quantity="one">%d dag tilbage</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheder</item>
         <item quantity="one">%d enhed</item>
     </plurals>
     <plurals name="data_saver_unrestricted_summary">
-        <item quantity="other">%1$d apps har tilladelse til at anvende ubegrænset data, når datasparefunktionen er slået til</item>
-        <item quantity="one">%1$d app har tilladelse til at anvende ubegrænset data, når datasparefunktionen er slået til</item>
+        <item quantity="other">%1$d apps har tilladelse til at anvende ubegrænset data, selvom datasparefunktionen er aktiveret</item>
+        <item quantity="one">%1$d app har tilladelse til at anvende ubegrænset data, selvom datasparefunktionen er aktiveret</item>
     </plurals>
     <plurals name="default_camera_app_title">
         <item quantity="other">Kameraapps</item>
@@ -131,6 +147,14 @@
     <plurals name="hours">
         <item quantity="other">%s timer</item>
         <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d ud af %2$d apps har adgang til din placering</item>
+        <item quantity="one">%1$d ud af %2$d app har adgang til din placering</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Til – %1$d apps har adgang til din placering</item>
+        <item quantity="one">Til – %1$d app har adgang til din placering</item>
     </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Skal indeholde mindst %d bogstaver</item>
@@ -189,8 +213,8 @@
         <item quantity="one">Vent i %d sekunder og prøv igen.</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
-        <item quantity="other">%d apps kan læse underretninger</item>
-        <item quantity="one">%d apps kan læse underretninger</item>
+        <item quantity="other">%d apps kan læse notifikationer</item>
+        <item quantity="one">%d apps kan læse notifikationer</item>
     </plurals>
     <plurals name="manage_trust_agents_summary_on">
         <item quantity="other">%d aktive trust agents</item>
@@ -208,9 +232,17 @@
         <item quantity="other">%d tilføjet</item>
         <item quantity="one">%d tilføjet</item>
     </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM-kort</item>
+        <item quantity="one">%1$d SIM-kort</item>
+    </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d begrænsninger</item>
         <item quantity="one">%1$d begrænsning</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d notifikationskanaler.</item>
+        <item quantity="one">%1$d notifikationskanal.</item>
     </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d kategorier</item>
@@ -224,9 +256,21 @@
         <item quantity="other">%d kategorier er deaktiveret</item>
         <item quantity="one">%d kategori er deaktiveret</item>
     </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d notifikationer om dagen</item>
+        <item quantity="one">~%d notifikation om dagen</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d notifikationer om ugen</item>
+        <item quantity="one">~%d notifikation om ugen</item>
+    </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d aktive apps</item>
         <item quantity="one">%d aktiv app</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s apps</item>
+        <item quantity="one">%s app</item>
     </plurals>
     <plurals name="permissions_summary">
         <item quantity="other">Der er givet %d tilladelser</item>
@@ -271,6 +315,10 @@
     <plurals name="settings_suggestion_header_summary_hidden_items">
         <item quantity="other">Vis %d skjulte elementer</item>
         <item quantity="one">Vis %d skjult element</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d enheder er tilsluttet</item>
+        <item quantity="one">%1$d enhed er tilsluttet</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Du er %1$d trin fra at indtaste CIT.</item>
@@ -405,8 +453,8 @@ Kontakt din administrator for at få flere oplysninger om dette certifikat."</it
         <item quantity="one">" time"</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_min">
-        <item quantity="other">" min"</item>
-        <item quantity="one">" min"</item>
+        <item quantity="other">"  min"</item>
+        <item quantity="one">"  min"</item>
     </plurals>
     <plurals name="virus_scan_app_find_risk">
         <item quantity="other">%d risici fundet</item>
@@ -415,6 +463,14 @@ Kontakt din administrator for at få flere oplysninger om dette certifikat."</it
     <plurals name="wifi_saved_access_points_summary">
         <item quantity="other">%d netværk</item>
         <item quantity="one">%d netværk</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d netværk og abonnementer</item>
+        <item quantity="one">%d netværk og abonnement</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d abonnementer</item>
+        <item quantity="one">%d abonnement</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Delte %d netværker</item>
@@ -428,17 +484,21 @@ Kontakt din administrator for at få flere oplysninger om dette certifikat."</it
         <item quantity="other">Forkert pinkode til SIM-kort. Du har %d forsøg tilbage.</item>
         <item quantity="one">Forkert pinkode til SIM-kort. Du har %d forsøg tilbage.</item>
     </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">Notifikationer fra %1$d apps kan tilsidesætte Forstyr ikke</item>
+        <item quantity="one">Notifikationer fra %1$d app kan tilsidesætte Forstyr ikke</item>
+    </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d timer (medmindre tilstanden aktiveres automatisk)</item>
-        <item quantity="one">%d time (medmindre tilstanden aktiveres automatisk)</item>
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
     </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d regler</item>
-        <item quantity="one">%d regel</item>
+        <item quantity="other">%d er aktiveret</item>
+        <item quantity="one">%d er aktiveret</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
-        <item quantity="other">%d regler kan aktiveres automatisk</item>
-        <item quantity="one">%d regel kan aktiveres automatisk</item>
+        <item quantity="other">%d tidsplaner kan starte automatisk</item>
+        <item quantity="one">%d tidsplan kan starte automatisk</item>
     </plurals>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
         <item quantity="other">%d andre</item>

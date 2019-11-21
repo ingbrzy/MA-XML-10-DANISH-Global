@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recommendation_desc_week">
+        <item>Anbefalinger for søndag</item>
+        <item>Anbefalinger for mandag</item>
+        <item>Anbefalinger for tirsdag</item>
+        <item>Anbefalinger for onsdag</item>
+        <item>Anbefalinger for torsdag</item>
+        <item>Anbefalinger for fredag</item>
+        <item>Anbefalinger for lørdag</item>
+    </string-array>
+</resources>

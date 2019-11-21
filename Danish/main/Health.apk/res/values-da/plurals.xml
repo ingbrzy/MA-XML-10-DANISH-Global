@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="day_index">
+        <item quantity="other">%1$d dage</item>
+        <item quantity="one">%1$d dag</item>
+    </plurals>
+    <plurals name="goal_format_with_unit">
+        <item quantity="other">Mål: %1$d skridt</item>
+        <item quantity="one">Mål: %1$d skridt</item>
+    </plurals>
+    <plurals name="goal_unit">
+        <item quantity="other">" skridt"</item>
+        <item quantity="one">" skridt"</item>
+    </plurals>
+    <plurals name="menstruation_sum_days">
+        <item quantity="other">%1$d-dags menstruation</item>
+        <item quantity="one">%1$d-dags menstruation</item>
+    </plurals>
+    <plurals name="step_num_format">
+        <item quantity="other">%1$d skridt</item>
+        <item quantity="one">%1$d skridt</item>
+    </plurals>
+    <plurals name="steps_format">
+        <item quantity="other">%1$d</item>
+        <item quantity="one">%1$d</item>
+    </plurals>
+    <plurals name="subtitle_add_record">
+        <item quantity="other">Du har ikke registreret i %1$d dage. Registrer dine menstruationer for at få mere præcise forudsigelser.</item>
+        <item quantity="one">Du har ikke registreret i %1$d dag. Registrer dine menstruationer for at få mere præcise forudsigelser.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_continued_days">
+        <item quantity="other">Denne menstruation varede i alt %1$d dage</item>
+        <item quantity="one">Denne menstruation varede i alt %1$d dag</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_cycle_days">
+        <item quantity="other">Dag %1$d af denne menstruationscyklus</item>
+        <item quantity="one">Dag %1$d af denne menstrutionscyklus</item>
+    </plurals>
+    <plurals name="sum_cycle_days">
+        <item quantity="other">%1$d-dags cyklus</item>
+        <item quantity="one">%1$d-dags cyklus</item>
+    </plurals>
+    <plurals name="times_format">
+        <item quantity="other">%1$d gange</item>
+        <item quantity="one">%1$d gang</item>
+    </plurals>
+    <plurals name="title_menstruation_day">
+        <item quantity="other">Dag %1$d af menstruation</item>
+        <item quantity="one">Dag %1$d af menstruation</item>
+    </plurals>
+    <plurals name="title_menstruation_margin_next_time_days">
+        <item quantity="other">%1$d dage til næste menstruation</item>
+        <item quantity="one">%1$d dag til næste menstruation</item>
+    </plurals>
+    <plurals name="title_menstruation_predict_period">
+        <item quantity="other">Anslået dag %1$d af menstruation</item>
+        <item quantity="one">Anslået dag %1$d af menstruation</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="other">" dage"</item>
+        <item quantity="one">" dag"</item>
+    </plurals>
+    <plurals name="user_age_display_format_year">
+        <item quantity="other">%1$d år gammel</item>
+        <item quantity="one">%1$d år gammel</item>
+    </plurals>
+</resources>

@@ -48,7 +48,6 @@
     <string name="announce_for_show_uninstall_dialog">Afinstallationsmenu kom frem. Annuller eller bekræft.</string>
     <string name="announce_for_unchecked">%1$s, afmarkeret</string>
     <string name="announce_for_widget_span">Bredde %1$d, højde %2$d</string>
-    <string name="announce_for_xiaoai">Mi AI</string>
     <string name="app_already_exist">Appen eksisterer allerede</string>
     <string name="app_being_backup_message">Appen sikkerhedskopieres</string>
     <string name="app_being_restored_message">Appen gendannes</string>
@@ -63,12 +62,10 @@
     <string name="app_category_news">Nyheder</string>
     <string name="app_category_photos">Fotografi</string>
     <string name="app_category_productivity">Produktivitet</string>
-    <string name="app_category_shopping">Shopping</string>
     <string name="app_category_social">Socialt</string>
     <string name="app_category_sport">Sport</string>
     <string name="app_category_tools">Værktøj</string>
     <string name="app_category_travel">Rejse</string>
-    <string name="app_category_vr">VR</string>
     <string name="application_name">Systemlanceringsprogram</string>
     <string name="apply">Indstil</string>
     <string name="apply_action">Indstil</string>
@@ -95,7 +92,6 @@
     <string name="chooser_wallpaper">Vælg et nyt baggrundsbillede</string>
     <string name="cloud_app_restore_title">Afventende</string>
     <string name="configure_wallpaper">Indstillinger</string>
-    <string name="confirm_btn_label">OK</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Dobbelte apps vil blive afinstalleret sammen med disse.</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Dobbelte apps vil blive afinstalleret sammen med denne.</string>
     <string name="confirm_uninstall_dialog_title">Dobbelte apps vil blive afinstalleret</string>
@@ -106,25 +102,17 @@
     <string name="current_wallpaper">Aktuel</string>
     <string name="custom_wallpaper_picker">Gennemse</string>
     <string name="defalut_launcher_title">Standard starter</string>
-    <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Spil</string>
     <string name="default_folder_title_meitu">Meitu-apper</string>
-    <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Flere apps</string>
-    <string name="default_folder_title_security">System</string>
     <string name="default_folder_title_services">Servicer</string>
-    <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Værktøj</string>
     <string name="default_screen_preview_title">Indstil standardskærm</string>
-    <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="delete">Slet</string>
     <string name="delete_screen">Slet skærm</string>
     <string name="delete_wallpaper_message">Slet %1$d baggrundsbillede?</string>
     <string name="deselect_all">Vælg alle fra</string>
     <string name="disable_wallpaper_scroll">Slå side-scrolling fra</string>
-    <string name="download_action">Download</string>
-    <string name="drag_multiple_item_name" />
-    <string name="drag_single_item_name" />
     <string name="dual_app">Dobbelte apps</string>
     <string name="edit_folder_title">Rediger mappens navn</string>
     <string name="edit_mode_dual_app">Opret dual app</string>
@@ -154,7 +142,6 @@
     <string name="frame_load_failed">Kan ikke indlæse ramme</string>
     <string name="free_style_apps_title">Vælg app</string>
     <string name="free_style_drawer_title">Alle apps</string>
-    <string name="free_style_edit_app">App</string>
     <string name="free_style_edit_bar_empty">Tom</string>
     <string name="free_style_edit_bar_select_app">Vælg app</string>
     <string name="free_style_edit_bottom_empty_tip">Tryk på rektangel for at redigere</string>
@@ -178,7 +165,6 @@
     <string name="gadget_error_text">Kan ikke indlæse widget</string>
     <string name="gadget_google_search_label">Google søgning</string>
     <string name="gadget_load_error">Indlæser…</string>
-    <string name="gadget_mtz_label">Gadgets</string>
     <string name="gadget_notes_label">Noter</string>
     <string name="gadget_photo_22_label">Billede 2x2</string>
     <string name="gadget_photo_24_label">Billede 4x2</string>
@@ -257,7 +243,6 @@
     <string name="menu_trans_effect">Overgangseffekter</string>
     <string name="menu_wallpaper">Baggrundsbillede</string>
     <string name="menu_workspace_preview">Forhåndsvisninger på startskærmen</string>
-    <string name="mi_wallpaper">MIUI Themes</string>
     <string name="minus_one_screen">App-boks</string>
     <string name="miui_screen_config_title">Indstillinger for startskærm</string>
     <string name="mtzgadget_missing_text">Widget er ikke tilgængelig</string>
@@ -269,7 +254,6 @@
     <string name="notification_installed">Installeret med succes</string>
     <string name="notification_open_button">Åbn</string>
     <string name="notification_reset_title">Arrangeret ikoner</string>
-    <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Annuller</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå fra</string>
     <string name="open_personal_assistant_dialog_desc">Du vil ikke være i stand til at bruge App Vault og modtage dens opdateringer. Slå fra nu?</string>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Screen Recorder</string>
     <string name="app_notification_info">Screen Recorder arbejder i baggrunden</string>
-    <string name="app_notification_title">Screen Recorder</string>
     <string name="auto_stop_title">Videoen er nu gemt</string>
     <string name="battery_not_allowed" formatted="false">Kan ikke optage, når batteriet er lavere end 3 %. Sørg for, at batteriet er mindst 20 % opladet.</string>
     <string name="bit_rate">Videokvalitet</string>
@@ -10,16 +8,12 @@
     <string name="bubble_text">Tryk for at starte optagelse</string>
     <string name="button_back">Tilbage</string>
     <string name="button_clear_storage">Frigør plads</string>
-    <string name="button_confirm">OK</string>
     <string name="button_goon_recorder">Genoptag</string>
     <string name="cancel_edit">Annuller</string>
     <string name="cannot_change_frames">Frameraten kan kun tilpasses til optagelser med fast framerate.</string>
     <string name="cannot_change_parames">Kunne ikke ændre parametre under optagelse</string>
     <string name="cannot_record">Kunne ikke optage. Prøv igen senere.</string>
     <string name="close_screen_record">Stoppet optagelse</string>
-    <string name="date_day" />
-    <string name="date_month">/</string>
-    <string name="date_year">/</string>
     <string name="description_content">Screen Recorder giver mulighed for optagelse på systemniveau. Du vil ikke kunne anvende Screen Recorder, hvis du fortsætter. Bekræft for at fortsætte.</string>
     <string name="description_title">Om Screen Recorder</string>
     <string name="deselect_all">Fravælg alle</string>
@@ -34,7 +28,6 @@
     <string name="gleam_led_while_recording">Blink notifikationslys under optagelse</string>
     <string name="hint_back">Tilbage</string>
     <string name="hint_home">Menu</string>
-    <string name="hint_menu">Menu</string>
     <string name="hint_power">Strøm</string>
     <string name="hint_volume_down">Skru ned for lyd</string>
     <string name="hint_volume_up">Skru op for lyd</string>
@@ -55,7 +48,6 @@
     <string name="no_recorder_info2">Tryk på knappen for at starte optagelsen</string>
     <string name="no_sound">Sluk lyd</string>
     <string name="operation_delete">Slet</string>
-    <string name="operation_send">Send</string>
     <string name="permission_intro_microphone">For at optage lyd, når lydkilden er indstillet til mikrofon</string>
     <string name="permission_intro_storage">For at gemme skærmoptagelser</string>
     <string name="permission_microphone_desc">Bruger mikrofonen som lydkilde ved skærmoptagelser</string>
@@ -77,14 +69,9 @@
     <string name="show_hard_key_summary">Vis systembeskeder, når du trykker på knapperne Home, Menu og Tilbage</string>
     <string name="show_screen_touch">Vis berøringsbevægelser</string>
     <string name="show_screen_touch_summary">Visualiser håndbevægelser ved hjælp af en hvid prik</string>
-    <string name="size_byte">B</string>
-    <string name="size_gigabyte">GB</string>
-    <string name="size_kilobyte">KB</string>
-    <string name="size_megabyte">MB</string>
     <string name="sound_source">Lydkilde</string>
     <string name="sound_source_summary">Systemlyde eller mikrofon</string>
     <string name="sound_source_summary_without_system_sounds">Brug mikrofonen eller sluk for lyden</string>
-    <string name="start">Start</string>
     <string name="start_recording">Start optagelse</string>
     <string name="stop_by_second_space">Skift af rum vil stoppe optagelsen</string>
     <string name="stop_record_while_locking">Lås skærm for at afslutte</string>
@@ -92,7 +79,6 @@
     <string name="stop_recording">Stop optagelse</string>
     <string name="storage_location">Lagerplads</string>
     <string name="storage_location_summary">Vælg din foretrukne lagermulighed</string>
-    <string name="timer_format">%s</string>
     <string name="unchecked">Ikke valgt</string>
     <string name="using_record_confirm_cancel">Begræns</string>
     <string name="using_record_confirm_ok">Tillad</string>
