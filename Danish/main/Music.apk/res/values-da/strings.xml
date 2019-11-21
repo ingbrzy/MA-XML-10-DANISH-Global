@@ -593,7 +593,6 @@
     <string name="priority_storage_summary">Automatisk download til eksternt SD-kort, hvis det er tilgængeligt</string>
     <string name="privacy_desc">Fortrolighedspolitik (obligatorisk)</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=da_DK</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="prompt_grant_write_settings_permission">Tillad ændring af systemindstillinger</string>
     <string name="pulluprefreshrecyclerview_loading_error">Kunne ikke indlæse</string>
@@ -779,7 +778,6 @@
     <string name="upgrade_music_message">Opdateringer er parat. Genstart for at opdatere.</string>
     <string name="upgrading_in_backstage">Opdatering i baggrunden…</string>
     <string name="user_agreement">Brugeraftale</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=da_DK</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
     <string name="version_info">Udgave</string>

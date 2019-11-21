@@ -111,7 +111,6 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol ti sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Slå lyden fra</string>
     <string name="cast_notification_connected_message">Forbundet til %1$s</string>
     <string name="cast_notification_connecting_message">Der oprettes forbindelse til %1$s</string>
@@ -503,7 +502,6 @@ til videoer"</string>
     <string name="not_show">Vis ikke igen</string>
     <string name="notify_apk_installed">Download lykkedes</string>
     <string name="ok">OK</string>
-    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Seneste abonnementer</string>
     <string name="order_recently_updated">Senest opdateret</string>
     <string name="ovp_alert_dialog_download_install_task">Downloader HD-plugin…</string>
@@ -863,7 +861,6 @@ Forøge din kontos sikkerhed"</string>
     <string name="sns_bind_limit">For mange forsøg. Prøv andre måder at logge ind på.</string>
     <string name="sns_sign_in">Andre måder at logge ind på</string>
     <string name="source">"Kilde: "</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lager</string>
     <string name="submit">Indsend</string>

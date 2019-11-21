@@ -406,11 +406,8 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="voice_guide_text">Du kan slå taleudgang til her</string>
     <string name="wf_word_figure">Finansielle tegn</string>
     <string name="word_figure_guide_text">Tryk og hold teksten for at skifte mellem store og små bogstaver.</string>
-    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke forbinde til Downloads. Kontrollér, om denne app har alle de nødvendige tilladelser i indstillingerne > installeret apps.</string>
     <string name="xiaomi_external_storage_unavailable">Lager er ikke tilgængeligt. Kontrollér dit SD-kort.</string>
-    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
-    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
