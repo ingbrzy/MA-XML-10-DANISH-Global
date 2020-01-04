@@ -41,4 +41,5 @@ Ttryk på %s for at starte denne download næste gang du er tilsluttet et Wi-Fi-
     <string name="download_queued">I kø</string>
     <string name="download_running">Downloader</string>
     <string name="download_error">Kunne ikke downloade</string>
+    <string name="download_running_percent">Downloader %s</string>
 </resources>

@@ -329,6 +329,7 @@
     <string name="open_feedback_main">Mere</string>
     <string name="packaging_dialog_content">Opretter rapport…</string>
     <string name="pic_not_exist">Billedet findes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">"Din feedback vil sammen med fejllogge blive sendt til Mi's servers."</string>
     <string name="plus_one_submit_dialog_not_show_again">Husk præference</string>
     <string name="post_miui_bbs_failed">Kunne ikke poste til MIUI Forum.</string>

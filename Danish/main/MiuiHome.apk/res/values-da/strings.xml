@@ -100,7 +100,6 @@
     <string name="aqi_quality_index_light_pollution">Advarsel</string>
     <string name="aqi_quality_index_moderate">Moderat</string>
     <string name="aqi_quality_index_unhealthy">Usund</string>
-    <string name="auto_add_app_shortcut">新安装应用添加到桌面</string>
     <string name="auto_delete_category_dialog_content">Nuværende apps fjernes fra denne kategori, og kategorien slettes. Slet denne kategori nu?</string>
     <string name="auto_delete_category_dialog_title">Sletter kategori</string>
     <string name="backup_fail">Kunne ikke sikkerhedskopiere launcher</string>
@@ -403,6 +402,7 @@
     <string name="sort_by_not_defined">Automatisk sortering</string>
     <string name="start_activity_failed">Kan ikke starte lanceringsprogram</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_downloaded">Downloadet</string>
     <string name="status_downloading">Downloader</string>
     <string name="status_installing">Installerer</string>

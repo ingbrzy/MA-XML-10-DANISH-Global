@@ -18,6 +18,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ad_downloading">Download…</string>
     <string name="app_name">Systemservice-plugin</string>
     <string name="app_select_title">Tilføj ofte anvendte apps</string>
@@ -35,6 +36,7 @@
     <string name="dialog_market_score_title_step2">Tak for din feedback!</string>
     <string name="dual_app_title">Dobbelte apper</string>
     <string name="dual_app_words">Hver konto fortjener sin egen app</string>
+    <string name="empty">" "</string>
     <string name="fastboot_locked_answer_1">Fastboot er den traditionelle metode til flash af Mi-enheder. Når enheden er i Fastboot-tilstand, kan alle data, som er gemt på enheden, nemt findes og slettes direkte. Vi låser Fastboot for at sikre, at dine data forbliver sikre, hvis du mister enheden, samt for at sikre at funktionen Find Enhed virker pålideligt.</string>
     <string name="fastboot_locked_answer_2">I tilfælde af at du mister din enhed, garanterer Fastboot for sikkerheden for de emner, som er gemt på den. Hvis du låser op for Fastboot, kan du ikke længere fjernlåse din enhed eller slette data med Find Enhed. Derfor anbefaler vi ikke oplåsning af Fastboot på din enhed.</string>
     <string name="fastboot_locked_answer_3">Du bør anvende oplåsnings-værktøjet fra MIUIs websted. For at låse enheden op er vi nødt til at sikre os, at enheden tilhører dig. Derfor bør du logge ind med din Mi-konto og tænde for Find Enhed.</string>
