@@ -419,7 +419,6 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="private_dns_mode_provider">Hostname for privat DNS-udbyder</string>
     <string name="private_dns_mode_provider_failure">Der kunne ikke oprettes forbindelse</string>
     <string name="private_dns_mode_provider_hostname_hint">Angiv hostname for DNS-udbyder</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="remaining_length_format">%1$s tilbage</string>
     <string name="respond_via_sms_canned_response_1">Kan ikke tale nu. Hvad så?</string>
     <string name="respond_via_sms_canned_response_2">Jeg ringer tilbage om lidt.</string>
