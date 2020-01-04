@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_action_bar_home_description">Naviger hjem</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_action_bar_up_description">Naviger op</string>
     <string name="abc_action_menu_overflow_description">Flere muligheder</string>
     <string name="abc_action_mode_done">Luk</string>
@@ -273,8 +276,13 @@ For at aktivere din konto, følg det
     <string name="passport_talkback_switch_image_captcha">Skift til billed-verifikationskode</string>
     <string name="passport_first_login_prompt">Mi Account oprettes automatisk, når du logger ind for første gang.</string>
     <string name="passport_wx_bind_account_limit">Kan ikke oprette konto nu. Prøv andre metoder til at logge ind på.</string>
+    <string name="facebook_app_id">2263965750590514</string>
+    <string name="fb_login_protocol_scheme">fb2263965750590514</string>
+    <string name="server_client_id">29336734752-hkhmuft60qa4qn1ual7etmp6pfo0ib54.apps.googleusercontent.com</string>
     <string name="passport_ticket_login_select_sim_card">Vælg SIM-kort</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Annuller</string>
+    <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
+    <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Xiaomi Cloud,kontoindstillinger,Mi Pay-oplysninger,log ud</string>
@@ -298,12 +306,18 @@ For at aktivere din konto, følg det
     <string name="removing_account">Logger ud…</string>
     <string name="delete_bank_card_title">Bemærk</string>
     <string name="delete_bank_card_message">Mi Pay-bankkort og NFC-kort vil blive slettet, efter at du har logget ud.</string>
+    <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Forbind Sina Weibo-konto</string>
     <string name="bind_weibo_description">Tilføj dine venner fra Sina Weibo</string>
     <string name="bind_sns_description">Log ind med %s</string>
     <string name="add_account">Forbind konto</string>
+    <string name="qq">QQ</string>
+    <string name="weixin">WeChat</string>
+    <string name="bind_qq">QQ</string>
     <string name="bind_weixin">Tilslut din WeChat-konto</string>
     <string name="need_install_wechat">Installer WeChat først</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
     <string name="bind_facebook">Forbind din Facebook-konto</string>
     <string name="bind_google">Tilslut din Google-konto</string>
     <string name="binded">Tilsluttet</string>
@@ -336,6 +350,7 @@ Du kan logge ind på din Mi-konto ved hjælp af %s nu."</string>
     <string name="account_error_user_birthday">Den indtastede fødselsdag er ugyldig</string>
     <string name="account_limit_update_birthday">Kan ikke opdatere fødselsdag lige nu</string>
     <string name="account_user_other_info">Flere kilder</string>
+    <string name="account_user_region">Region</string>
     <string name="account_global_region">Udlandet</string>
     <string name="account_user_avatar_from_camera">Tag foto</string>
     <string name="account_user_avatar_from_album">Vælg foto</string>
@@ -391,9 +406,13 @@ Du kan logge ind på din Mi-konto ved hjælp af %s nu."</string>
     <string name="set_success">Ændret</string>
     <string name="account_user_details">Personlige oplysninger</string>
     <string name="account_security">Konto-sikkerhed</string>
+    <string name="account_mibi_center">Mi Credits</string>
     <string name="account_mibi_charge">Fyld på</string>
+    <string name="account_mipay_info">Mi Pay</string>
     <string name="account_xiaomi_service">Serviceydelser</string>
+    <string name="cloud_service">Xiaomi Cloud</string>
     <string name="vip_account_settings">VIP-indstillinger</string>
+    <string name="xiao_mi_vip">Mi VIP</string>
     <string name="mi_vip_info">Se privilegier</string>
     <string name="vip_settings_info">VIP-indstillinger</string>
     <string name="used_cloud_storage_info">Brugt lagerplads %s</string>
@@ -475,6 +494,7 @@ Du kan logge ind på din Mi-konto ved hjælp af %s nu."</string>
     <string name="oauth_getting_scopes">Bekræfter konto…</string>
     <string name="oauth_get_scopes_failed">Kunne ikke hente kontoinformationer</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> vil få følgende tilladelser:&lt;br> &lt;br> %3$s</string>
+    <string name="guest_account_label">Mi Guest Account</string>
     <string name="push_notification_title">Du loggede ind på din Mi Account på en ukendt enhed</string>
     <string name="push_notification_content">Få bekræftelseskode</string>
     <string name="push_notify_dialog_title">Kontobekræftelse</string>
@@ -516,7 +536,9 @@ ID:%s
 Send denne kode til supervisoren."</string>
     <string name="diagnosis_log_send_failed">Logfilen kunne ikke sendes.</string>
     <string name="temporary_not_available">Denne funktion er endnu ikke tilgængelig.</string>
+    <string name="ok">OK</string>
     <string name="select_all">Vælg alt</string>
+    <string name="i_agree">OK</string>
     <string name="i_agree_continue">Bekræft</string>
     <string name="exit">Luk</string>
     <string name="passport_privacy_policy_required">Fortrolighedspolitik (obligatorisk)</string>
@@ -527,6 +549,7 @@ Send denne kode til supervisoren."</string>
     <string name="permission_group_contacts">Kontakter</string>
     <string name="permission_group_phone">Telefon</string>
     <string name="permission_group_storage">Lager</string>
+    <string name="permission_group_sms">SMS</string>
     <string name="kr_permission_contacts_desc">Til at få adgang til kontaktoplysninger</string>
     <string name="kr_permission_phone_desc">Til at beskytte din konto</string>
     <string name="kr_permission_storage_desc">Til at gemme diagnoser</string>

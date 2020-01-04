@@ -15,6 +15,7 @@
     <string name="hint_search_in_enabled_apps">Søg efter apps, der kan vise notifikationer</string>
     <string name="list_title_disable_notification">Notifikationer er ikke tilladt</string>
     <string name="loading">Lige et øjeblik…</string>
+    <string name="lock_screen_display_rules">Format</string>
     <string name="lock_screen_tip_toast">Tillad låseskærmsnotifikationer under \"Format\"</string>
     <string name="lockscreen_notifications">Låseskærmsnotifikationer</string>
     <string name="not_sent_recently">Ikke for nylig</string>
@@ -24,10 +25,13 @@
     <string name="notification_fold_summary">Alle ikke-vigtige notifikationer vises i en separat mappe</string>
     <string name="notification_fold_title">Notifikationsmappe</string>
     <string name="notification_manager">Appnotifikationer</string>
+    <string name="notification_style_android">Android</string>
+    <string name="notification_style_miui">MIUI</string>
     <string name="off">Slået fra</string>
     <string name="on">Slå til</string>
     <string name="settings_guide_title">Brug for andre indstillinger?</string>
     <string name="show_badge_notifications">Notifikationsbadges</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_disable_float_notification">Flydende notifikationer er ikke tilladt</string>
     <string name="summary_disable_lockscreen_notification">Låseskærmsnotifikationer er ikke tilladt</string>

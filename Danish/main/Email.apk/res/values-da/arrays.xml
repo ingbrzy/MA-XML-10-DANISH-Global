@@ -51,6 +51,10 @@
         <item>Ældre besked</item>
         <item>Indbakke</item>
     </string-array>
+    <string-array name="prefEntries_contact_add">
+        <item>Alle</item>
+        <item>Kun afsendere</item>
+    </string-array>
     <string-array name="signature_normal_string_array_next">
         <item>Adresse:</item>
         <item>Tlf:</item>

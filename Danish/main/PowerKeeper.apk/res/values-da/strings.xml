@@ -32,6 +32,7 @@
     <string name="config_suggest_description">"Identificer apps og aktiviteter for at holde vigtige processer i gang.
 Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="config_suggest_suffix_title">Batteribesparer (anbefales)</string>
+    <string name="confirm">OK</string>
     <string name="current_cloud_addr_is">Serveradresse til cloudstyring er:</string>
     <string name="empty_title_apps_container_list">Ingen apps</string>
     <string name="enable_sleep_mode">Tænd sovetilstand for at optimere batteriforbruget om natten</string>
@@ -80,6 +81,7 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="power_checker_wifi_scan_title">%1$s søger ofte efter Wi-Fi</string>
     <string name="power_config_apps">App-batterisparer</string>
     <string name="power_config_event_delete">Slet</string>
+    <string name="power_config_select_apps_title">Apps</string>
     <string name="power_consume_abnormal_night">Batteriet bliver drænet om natten</string>
     <string name="power_hide_mode_app_list_summary">Sparer strøm i baggrunden</string>
     <string name="power_hide_mode_title">Batteri og ydeevne</string>
@@ -90,6 +92,7 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="scenario_policies_summary">Anvend forskellige strømbesparelsesstrategier til forskellige scenarier.</string>
     <string name="scenario_policies_title">Smarte scenarier</string>
     <string name="scenario_policies_warmcontrol">Temperaturstyring</string>
+    <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Kunne ikke finde nogen apps</string>
     <string name="show_system_app">Vis system-apps</string>
     <string name="sleep_config_enhance_description">Når MIUI registrerer, at du sover, vil den lukke baggrunds-apps, begrænse NFC, Bluetooth, GPS, mobildata og Wi-Fi-forbrug og vil ikke lyse op med notifikationer på skærmen.</string>
