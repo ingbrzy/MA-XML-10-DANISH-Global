@@ -31,7 +31,6 @@
     <string name="on">Slå til</string>
     <string name="settings_guide_title">Brug for andre indstillinger?</string>
     <string name="show_badge_notifications">Notifikationsbadges</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_disable_float_notification">Flydende notifikationer er ikke tilladt</string>
     <string name="summary_disable_lockscreen_notification">Låseskærmsnotifikationer er ikke tilladt</string>
