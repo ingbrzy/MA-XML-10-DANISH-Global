@@ -33,7 +33,6 @@
     <string name="printer_low_on_toner">Ved at løbe tør for toner</string>
     <string name="printer_not_encrypted">Ikke krypteret</string>
     <string name="printer_not_supported">Printer understøttes ikke</string>
-    <string name="printer_offline">Offline</string>
     <string name="printer_out_of_ink">Løbet tør for blæk</string>
     <string name="printer_out_of_paper">Løbet tør for papir</string>
     <string name="printer_out_of_toner">Løbet tør for toner</string>
@@ -44,7 +43,6 @@
     <string name="title_activity_add_printer">Tilføj printer</string>
     <string name="unreadable_input">Kunne ikke læse dokument</string>
     <string name="waiting_to_send">Venter på at sende</string>
-    <string name="wifi_direct">Wi-Fi Direct</string>
     <string name="wifi_direct_permission_rationale">Standardudskrivningstjeneste skal have placeringstilladelse for at finde enheder i nærheden.</string>
     <string name="wifi_direct_printers">Wi-Fi Direct-printere</string>
     <string name="wifi_direct_printing">Wi-Fi Direct-udskrivning</string>

@@ -54,6 +54,7 @@
     <string name="action_item_hifi">Hovedtelefoner &amp; audioeffekter</string>
     <string name="action_item_play_all">Bland alle</string>
     <string name="action_item_play_next">Afspil senere</string>
+    <string name="action_item_play_video">Afspil musikvideo</string>
     <string name="action_item_remove">Fjern</string>
     <string name="action_item_remove_from_favorite">Ikke favorit</string>
     <string name="action_item_share">Del</string>
@@ -111,6 +112,7 @@
     <string name="artist_name">Kunstner</string>
     <string name="audio_picker_title">Vælg en sang</string>
     <string name="auto_recommend">Automatisk (anbefales)</string>
+    <string name="auto_sound_quality">Auto</string>
     <string name="auto_update">Opdater automatisk</string>
     <string name="auto_update_tip">Du kan opdatere system-apps med mobildata. Dette kan medføre yderligere datagebyrer.</string>
     <string name="available_playlist_name_format">Ny afspilningsliste %d</string>
@@ -128,11 +130,13 @@
     <string name="button_wait_for_wifi">Vent</string>
     <string name="cancel">Annuller</string>
     <string name="cancel_running_download">Annuller</string>
+    <string name="cannot_download_to_sdcard_hint">Kan ikke downloade elementer til SD-kort på grund af copyrightrestriktioner. Elementer downloades i stedet til internt lager.</string>
     <string name="change_download_quality">Ændr downloadkvalitet</string>
     <string name="checking_new_version">Kontrollerer for opdateringer…</string>
     <string name="choose_download_quality">Vælg downloadkvalitet</string>
     <string name="choose_music_lang_pref">Foretrukket sprog for sange</string>
     <string name="choose_stream_quality">Vælg streaming-kvalitet</string>
+    <string name="click_and_watch_video_tip">Tryk for at afspille musikvideo</string>
     <string name="click_to_add_album_cover_and_lyric">Tryk for at tilføje album-covers og sangtekster</string>
     <string name="click_to_shuffle">Tryk for at blande</string>
     <string name="close_music_time">"Tid tilbage: "</string>
@@ -161,6 +165,7 @@
     <string name="connecting_apk">Opretter forbindelse…</string>
     <string name="create_playlist">Opret afspilningsliste</string>
     <string name="create_playlist_failure">Kunne ikke oprette afspilningsliste</string>
+    <string name="create_playlist_input_hint">Indtast playlistens navn</string>
     <string name="current_album">Aktuelt album-cover</string>
     <string name="current_lyric">Aktuelle tekster</string>
     <string name="current_version">Aktuel udgave</string>
@@ -265,7 +270,9 @@
     <string name="download_method">Download</string>
     <string name="download_no_application_title">Kan ikke åbne filen</string>
     <string name="download_paused_in_power_save_mode">Download er sat på pause, når batterisparer er slået til</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Downloader…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Downloadkvalitet</string>
     <string name="download_quality_summary">Yderligere indstillinger for sange som du downloader</string>
     <string name="download_queued">I kø</string>
@@ -346,7 +353,9 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -374,6 +383,7 @@
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feed_back">Respons</string>
     <string name="file_not_found">Fil eksisterer ikke</string>
+    <string name="filter_by_MP4">Vis mapper med MP4-filer</string>
     <string name="filter_by_duration">Efter længde</string>
     <string name="filter_by_duration_max">%d min.</string>
     <string name="filter_by_duration_min">%d sek.</string>
@@ -415,6 +425,7 @@
     <string name="home_tab_local">Min musik</string>
     <string name="home_tab_more_music">Mere musik</string>
     <string name="home_tab_online">Onlinemusik</string>
+    <string name="home_tab_recommend">Online</string>
     <string name="home_tab_search">Søg</string>
     <string name="hot_icon_in_fast_indexer">T</string>
     <string name="hungama_batch_download_alert_summary">Kun PRO-medlemmer kan downloade flere sange. Få en PRO-medlemskab nu?</string>
@@ -599,6 +610,7 @@
     <string name="online_apk_install_in_background">Loader onlineindhold i baggrunden…</string>
     <string name="online_apk_install_network_change_paused">Du bruger mobildata. Sat loadning af elementer på pause for nu. Tryk %s for at se.</string>
     <string name="online_apk_install_network_error">Kunne ikke tilslutte til netværket. Kontrollér dine netværksindstillinger og prøv igen.</string>
+    <string name="online_apk_install_tips">Du skal downloade plug-inen fra denne indholdsleverandør én gang. Næste gang vil du kunne få adgang til sange direkte.</string>
     <string name="online_list_delete_message">Alle downloadede sange i denne afspilningsliste slettes fra den interne hukommelse.</string>
     <string name="online_playlist_category">Afspilningslister</string>
     <string name="online_recommend">Afspilningsliste</string>
@@ -661,6 +673,7 @@
     <string name="priority_storage_summary">Automatisk download til eksternt SD-kort, hvis det er tilgængeligt</string>
     <string name="privacy_desc">Fortrolighedspolitik (obligatorisk)</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=da_DK</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Phone</string>
     <string name="prompt_grant_write_settings_permission">Tillad ændring af systemindstillinger</string>
@@ -738,6 +751,8 @@
     <string name="service_and_settings">Service og indstillinger</string>
     <string name="set_as_alarm_clock_ringtone">Alarm</string>
     <string name="set_as_ring">Indstil som ringetone</string>
+    <string name="set_online_home_subtitle">Åbn onlineanbefalinger, når appen startes</string>
+    <string name="set_online_home_title">Vis onlineanbefalinger ved opstart</string>
     <string name="set_ringtones_failed">Kunne ikke indstille ringetone</string>
     <string name="set_ringtones_successful">%s indstillet som ringetone</string>
     <string name="setting_feature_setting">Vis indstillinger</string>
@@ -786,6 +801,7 @@
     <string name="start_to_check_new_version">Kontrollerer for opdateringer…</string>
     <string name="start_to_download">Downloader…</string>
     <string name="start_to_play">Afspil</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lager til dual apps</string>
     <string name="storage_internal">Internt lager</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -862,6 +878,7 @@
     <string name="upgrade_music_message">Opdateringer er parat. Genstart for at opdatere.</string>
     <string name="upgrading_in_backstage">Opdatering i baggrunden…</string>
     <string name="user_agreement">Brugeraftale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=da_DK</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
     <string name="version_info">Udgave</string>
@@ -878,4 +895,5 @@ Tryk %s for at starte dette download næste gang du er tilsluttet til et wifi-ne
     <string name="wifi_required_title">Du bør tilslutte til wifi for at downloade denne fil</string>
     <string name="you_can_switch_mode_in_settings">Du kan skifte mellem tilstande i indstillingerne</string>
     <string name="you_may_like">Måske synes du også om</string>
+    <string name="youtube_play_history">Afspilningshistorik</string>
 </resources>

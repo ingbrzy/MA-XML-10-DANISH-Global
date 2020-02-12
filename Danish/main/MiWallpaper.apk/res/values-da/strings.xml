@@ -2,5 +2,4 @@
 <resources>
     <string name="mi_wallpaper_loading">Indlæser Mi-Wallpaper...</string>
     <string name="mi_wallpaper_title">Mi baggrundsbillede</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

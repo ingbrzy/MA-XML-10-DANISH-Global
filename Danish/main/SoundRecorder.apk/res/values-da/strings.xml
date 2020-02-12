@@ -152,6 +152,10 @@
     <string name="preference_status_bar_indicator_prompt">Vis genvej til statusbjælken under optagelse</string>
     <string name="preference_tip_rename">Døb optagelser manuelt</string>
     <string name="privacy_policy_title">Privatlivspolitik</string>
+    <string name="recognition_button_add_to_queue">Føj til kø</string>
+    <string name="recognition_button_cancel">Ikke nu</string>
+    <string name="recognition_button_start">Transskribér</string>
+    <string name="recognition_confirm_dialog_body">Transskribering kan tage et stykke tid. Du modtager en notifikation, når denne opgave er fuldført. Transskribér nu?</string>
     <string name="recognition_error_cancel">Annulleret</string>
     <string name="recognition_error_code">Fejlkode: %d</string>
     <string name="recognition_error_download_cancel">Senere</string>
@@ -167,6 +171,11 @@
     <string name="recognition_error_internal">Intern fejl</string>
     <string name="recognition_error_stopped">Transskription stoppet</string>
     <string name="recognition_error_unknown">Der opstod en ukendt fejl. Rapporter den til os og prøv igen.</string>
+    <string name="recognition_interrupt_current_dialog_body">Transskribering kan tage et stykke tid. Du modtager en notifikation, når denne opgaven er fuldført. \"%s\" transskriberes nu. Føj denne opgave til transskriberingskøen?</string>
+    <string name="recognition_notification_channel">Transskriberer</string>
+    <string name="recognition_notification_complete_success">Transskriberet \"%s\". Tryk for at se.</string>
+    <string name="recognition_notification_error">Kunne ikke transskribere \"%s\"</string>
+    <string name="recognition_notification_running">Transskriberer \"%s\"…</string>
     <string name="recognition_process_dialog_body">Andre optagelser (%s) er ved at blive transskriberet nu. Stop de igangværende opgaver og start en ny?</string>
     <string name="recognition_process_dialog_cancel">Kø</string>
     <string name="recognition_process_dialog_confirm">Fremtving start</string>
@@ -174,6 +183,7 @@
     <string name="recognition_status_downloaded">Transskriberingsmaskine downloadet</string>
     <string name="recognition_status_downloading">"Downloader "</string>
     <string name="recognition_status_init">"Forbereder "</string>
+    <string name="recognition_stop_current">Stop igangværende opgave</string>
     <string name="recognize_choose_dialog_offline">Transskriberer gratis</string>
     <string name="recognize_choose_dialog_offline_desp">Transskriber optagelser uden at oprette forbindelse til internettet</string>
     <string name="recognize_choose_dialog_online">Transskriberer i skyen</string>

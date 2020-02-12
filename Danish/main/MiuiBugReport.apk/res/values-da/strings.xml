@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="action_cancel">Annuller</string>
-    <string name="action_submit">Send</string>
     <string name="announcement">Bemærk</string>
     <string name="app_empty">Kunne ikke finde apps.</string>
-    <string name="app_label">Feedback</string>
-    <string name="app_name">Feedback</string>
     <string name="app_search">Søg efter apps</string>
-    <string name="btn_send">Send</string>
     <string name="bugreport_dialog_not_show_again">Vis ikke igen</string>
     <string name="bugreport_dialog_submit_content">&lt;Data>Du gemmer softwarelogfiler på denne enhed nu. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. Del ikke logfiler med nogen, hvis du ikke ønsker, at disse oplysninger skal videregives. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>.&lt;/Data></string>
     <string name="bugreport_dump_complete_notification_summary">Tryk for at se.</string>
@@ -32,7 +28,6 @@
 3. Kom tilbage til denne side og tryk på \"Afslut og upload\"."</string>
     <string name="catch_full_log_item_content_title">Trin:</string>
     <string name="catch_full_log_item_title_audio">Lyd, lydoptagelse og opkaldslyd</string>
-    <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Langsom</string>
     <string name="catch_full_log_item_title_gps">Placeringsservicer</string>
     <string name="catch_full_log_item_title_sensor">Sensorer</string>
@@ -50,14 +45,12 @@
     <string name="catch_full_log_submit_directly">Indsend</string>
     <string name="close_feedback_main">Skjul</string>
     <string name="cta_cancel">Annuller</string>
-    <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Denne app er nødt til at tilslutte til internettet for at fungere normalt.</string>
     <string name="cta_dialog_title">Internetforbindelse</string>
     <string name="cta_not_show_again">Vis ikke igen</string>
     <string name="customer_service_apply">Anmod om kundeservice</string>
     <string name="customer_service_complain">Anmeld kundeservice</string>
     <string name="customer_service_station">Serviceplaceringer</string>
-    <string name="default_text_view">TextView</string>
     <string name="description">Beskriv problemet</string>
     <string name="dialog_ask_delete">Slet</string>
     <string name="dialog_ask_quit">Afslut</string>
@@ -66,11 +59,7 @@
     <string name="discard_draft_dialog_content">Alle ændringer, som du har lavet i denne rapport, vil gå tabt.</string>
     <string name="discard_draft_dialog_title">Afvis udkast?</string>
     <string name="err_type">Fejltype</string>
-    <string name="err_type_app">Apps</string>
-    <string name="err_type_appstore">App Store</string>
-    <string name="err_type_bluetooth">Bluetooth</string>
     <string name="err_type_camera">Kamera</string>
-    <string name="err_type_hardware">Hardware</string>
     <string name="err_type_hardware_summary">Knapper, opladning, sensorer etc.</string>
     <string name="err_type_more">Mere</string>
     <string name="err_type_nonsystemapp">Andre apps</string>
@@ -78,12 +67,9 @@
     <string name="err_type_reboot">Genstarter</string>
     <string name="err_type_signal">Netværk</string>
     <string name="err_type_suggestion">Forslag</string>
-    <string name="err_type_system">System</string>
     <string name="err_type_system_summary">Hukommelse, ydelse etc.</string>
     <string name="err_type_systemapp">MIUI-apps</string>
     <string name="err_type_translate">Sprog</string>
-    <string name="err_type_wifi">Wi-Fi</string>
-    <string name="err_type_xiaomi_family">Mi Home</string>
     <string name="err_type_xiaomi_service">Kundeservice</string>
     <string name="error_no_connection">Kunne ikke tilslutte til netværket.</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
@@ -109,7 +95,6 @@
     <string name="feedback_detail_feedback_category">Kategori</string>
     <string name="feedback_detail_feedback_id">Rapport-id: %d</string>
     <string name="feedback_detail_feedback_reply_hint">Svar</string>
-    <string name="feedback_detail_feedback_summary">Feedback</string>
     <string name="feedback_detail_need_content">Indtast indhold først</string>
     <string name="feedback_detail_title">Oplysninger</string>
     <string name="feedback_detail_upload_generate_log">Generer logfiler</string>
@@ -120,8 +105,6 @@
     <string name="feedback_empty_report_list">Endnu ingen rapporter.</string>
     <string name="feedback_guess">Vores gæt:</string>
     <string name="feedback_history_remind_login_desc">Log ind med din Mi Account for at se oplysninger om sagsforløbet af din rapport.</string>
-    <string name="feedback_id">ID: %d</string>
-    <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Opretter en Jira-rapport…</string>
     <string name="feedback_package_log_failed">Kunne ikke komprimere logge.</string>
     <string name="feedback_phone_model_label">Telefonmodel</string>
@@ -185,10 +168,7 @@
     <string name="feedback_title_hint">Beskriv kort problemet.</string>
     <string name="feedback_title_reproductivity">Vælg reproduktivitet</string>
     <string name="feedback_tracking">Sporingsproblemer</string>
-    <string name="feedback_version_label">Version</string>
     <string name="feesback_list">Rapporter</string>
-    <string name="first_position">2#</string>
-    <string name="floor">%1$s#</string>
     <string name="from">fra %1$s</string>
     <string name="goon_feedback_main">Fortsæt</string>
     <string name="hint_feedback_main">Beskriv problemet</string>
@@ -210,7 +190,6 @@
     <string name="kr_authorization_user_protocol">Brugeraftale (obligatorisk)</string>
     <string name="loading_apps">Indlæser liste…</string>
     <string name="login_system_failed">Kunne ikke logge ind, prøv igen</string>
-    <string name="logo_title">Feedback</string>
     <string name="max_error">Din %1$s skal være kortere.</string>
     <string name="menu_copy">Kopiér</string>
     <string name="message_label">Besked</string>
@@ -218,12 +197,9 @@
     <string name="mi_service_dialog_confirm">Åbn</string>
     <string name="mi_service_dialog_content">Alle feedback-funktioner er flyttet til den nye app \"Tjenester og feedback\". Feedback-appen bliver fjernet fra din startskærm. Tryk \"Åbn\" for at prøve \"Tjenester og feedback\".</string>
     <string name="mi_service_dialog_title">Introducerer \"Tjenester og feedback\"</string>
-    <string name="michat_app_name">Online support</string>
-    <string name="michat_artificial_customer_phone">4001005678</string>
     <string name="michat_artificial_customer_phone_dial_error">Hvis du ikke kan ringe til 400 hotline, så ring %1$s med en anden telefon</string>
     <string name="michat_artificial_customer_text">Support-personale</string>
     <string name="michat_attach_image">Billede</string>
-    <string name="michat_attach_smiley">Emoticon</string>
     <string name="michat_attach_take_photo">Kamera</string>
     <string name="michat_back_to_detail">Gå tilbage til chat</string>
     <string name="michat_cant_access_artificial">Kan ikke kontakte support i øjeblikket</string>
@@ -259,7 +235,6 @@
     <string name="michat_msg_image_upload_error">Kunne ikke sende billede, prøv igen senere</string>
     <string name="michat_msg_input_info">Beskriv problemet kort</string>
     <string name="michat_msg_status_arrived">Sendt</string>
-    <string name="michat_msg_status_send">Send</string>
     <string name="michat_msg_status_sendding">Sender…</string>
     <string name="michat_msg_too_long_info">Du har indtastet %1$d characters. Du kan indtaste op til %2$d tegn.</string>
     <string name="michat_net_error_info">Ingen netværksforbindelse, tryk her for at gå til indstillinger</string>
@@ -282,7 +257,6 @@
     <string name="michat_webview_title">Se oplysninger</string>
     <string name="min_error">Din %1$s skal være længere.</string>
     <string name="mobile_data_note_dialog_cancel">Vent på wi-fi</string>
-    <string name="mobile_data_note_dialog_confirm">Upload</string>
     <string name="mobile_data_note_dialog_content">Det ser ud til, at du tilsluttet til et betalingsnetværk. Uploading af logfiler kan medføre yderligere afgifter.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">Det ser ud til, at du tilsluttet til et betalingsnetværk. Uploading af logfiler kræver %s MB mobildata.</string>
     <string name="mobile_data_note_dialog_title">Advarsel om dataforbrug</string>
@@ -302,7 +276,6 @@
     <string name="module_network">Netværk</string>
     <string name="module_search">Søg</string>
     <string name="module_security">Sikkerhed og Xiaomi Cloud</string>
-    <string name="module_system">System</string>
     <string name="module_tools">Systemværktøjer</string>
     <string name="modules">Vælg element</string>
     <string name="multi_graph_more">Emner i alt: %d</string>
@@ -321,14 +294,13 @@
     <string name="network_errortip_server">Der opstod en serverfejl, prøv igen senere</string>
     <string name="network_errortip_timeout">Forbindelse udløbet, prøv igen senere</string>
     <string name="network_errortip_unknow">Vi prøver at rette den…</string>
-    <string name="network_unavailable_dialog_button_ok">OK</string>
     <string name="network_unavailable_dialog_content">Din rapport vil blive sendt, når du har en dataforbindelse.</string>
     <string name="network_unavailable_dialog_title">Kan ikke tilslutte til netværket.</string>
     <string name="non_system_app_select">Downloadede apps</string>
-    <string name="nothing">--</string>
     <string name="open_feedback_main">Mere</string>
     <string name="packaging_dialog_content">Opretter rapport…</string>
     <string name="pic_not_exist">Billedet findes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">"Din feedback vil sammen med fejllogge blive sendt til Mi's servers."</string>
     <string name="plus_one_submit_dialog_not_show_again">Husk præference</string>
     <string name="post_miui_bbs_failed">Kunne ikke poste til MIUI Forum.</string>
@@ -350,7 +322,6 @@
     <string name="save_pic_fail">Kunne ikke gemme billede, kontroller dit SD-kort</string>
     <string name="save_pic_success">Gemt billede på %s</string>
     <string name="screen_lock">Skærmlås</string>
-    <string name="second_position">3#</string>
     <string name="section_description">Beskrivelse</string>
     <string name="section_err_type">Fejltype</string>
     <string name="section_screenshot">Skærmbillede</string>
@@ -367,7 +338,6 @@
     <string name="tab_title_chat">FAQ/OSS</string>
     <string name="tab_title_my_reports">Mine rapporter</string>
     <string name="tab_title_preferences">Indstillinger</string>
-    <string name="tab_title_report">Feedback</string>
     <string name="title_answer_feedback_main">Vi fandt svar!</string>
     <string name="title_catch_full_log">Logfiler</string>
     <string name="title_customer_service">Kundeservice</string>
@@ -403,7 +373,6 @@
     <string name="toast_screenshot_too_large">Kan ikke uploade billeder eller videoer, der er større end 100 Mb.</string>
     <string name="toast_third_packagename_required">Indtast app-navn.</string>
     <string name="toast_title_required">Beskriv dit problem</string>
-    <string name="topic_author">1#</string>
     <string name="try_again">Prøv igen</string>
     <string name="upload_log_failed">Kunne ikke sende logge.</string>
     <string name="warning_field_empty">Indtast %1$s</string>

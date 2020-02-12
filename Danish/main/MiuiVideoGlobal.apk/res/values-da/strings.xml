@@ -111,6 +111,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol ti sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Slå lyden fra</string>
     <string name="cast_notification_connected_message">Forbundet til %1$s</string>
     <string name="cast_notification_connecting_message">Der oprettes forbindelse til %1$s</string>
@@ -297,6 +298,7 @@ Send denne kode til supervisoren."</string>
     <string name="fw_loading">Lige et øjeblik…</string>
     <string name="fw_reload_sub_title">Tryk på skærmen for at prøve igen</string>
     <string name="fw_reload_title">Kunne ikke oprette forbindelse til netværket.</string>
+    <string name="gallery_fold_tags">Skjul mærker</string>
     <string name="gallery_folder_alias_TAOBAO">Taobao</string>
     <string name="gallery_folder_alias_camera">Kamera</string>
     <string name="gallery_folder_alias_download">Download</string>
@@ -329,6 +331,7 @@ Send denne kode til supervisoren."</string>
     <string name="gallery_video_operate_text">Justering af slowmotion</string>
     <string name="gallery_video_save_video">Laver video…</string>
     <string name="gallery_video_slow_edit">Slowmotion</string>
+    <string name="gallery_view_tags">Vis mærker</string>
     <string name="get_back_pwd">Nulstiller adgangskode</string>
     <string name="get_ph_ticket">Få kode</string>
     <string name="get_phone_bind_exceed_limit">Du kan tilknytte op til 3 Mi-konti til et telefonnummer. Kan ikke tilføje nye konti.</string>
@@ -356,11 +359,16 @@ til videoer"</string>
     <string name="language_setting_tips_dialog">Du kan ændre sprogpræferencer for indhold i Konto > Sprog.</string>
     <string name="later">Senere</string>
     <string name="loading">Lige et øjeblik…</string>
+    <string name="local_push_title">Populært i dag</string>
     <string name="login">Log ind</string>
     <string name="login_tip">Log ind for at kunne modtage vores svar på din feedback.</string>
     <string name="logout">Log af</string>
     <string name="logout_account">Log ud</string>
     <string name="lp_base_folder">SD-kort</string>
+    <string name="lp_play_mode_list_loop">Gentag alle</string>
+    <string name="lp_play_mode_pause">Afspil en</string>
+    <string name="lp_play_mode_single_loop">Gentag en</string>
+    <string name="lp_play_mode_title">Afspilningstilstand</string>
     <string name="lp_speed_title">Afspilningshastighed</string>
     <string name="lp_speed_toast">Afspiller på %sX hastighed…</string>
     <string name="lp_videoView_error_button">Forstået</string>
@@ -381,6 +389,7 @@ til videoer"</string>
     <string name="lv_audio_track">Lydspor</string>
     <string name="lv_auto_update">Opdater senere</string>
     <string name="lv_brightness">lysstyrke</string>
+    <string name="lv_cast">Cast</string>
     <string name="lv_check_delete_file">Vælg elementer at slette</string>
     <string name="lv_check_send_file">Du kan kun sende 1 fil ad gangen</string>
     <string name="lv_confirm_delete_history">Slet valgte elementer?</string>
@@ -517,6 +526,7 @@ til videoer"</string>
     <string name="next">Næste</string>
     <string name="nick_name">Kaldenavn</string>
     <string name="no_account">Ikke logget ind</string>
+    <string name="no_more_content">Det er alt for nu</string>
     <string name="no_network_tips">Denne funktion kan ikke bruges lige nu. Netværksadgangen er begrænset.</string>
     <string name="no_phone">Intet telefonnummer</string>
     <string name="no_recommend_data">Ingen anbefalede videoer nu</string>
@@ -530,6 +540,7 @@ til videoer"</string>
     <string name="notice_title">Beskeder</string>
     <string name="notify_apk_installed">Download lykkedes</string>
     <string name="ok">OK</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Seneste abonnementer</string>
     <string name="order_recently_updated">Senest opdateret</string>
     <string name="ovp_alert_dialog_download_install_task">Downloader HD-plugin…</string>
@@ -930,6 +941,7 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>-databasen. &lt;br
     <string name="sns_bind_limit">For mange forsøg. Prøv andre måder at logge ind på.</string>
     <string name="sns_sign_in">Andre måder at logge ind på</string>
     <string name="source">"Kilde: "</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lager</string>
     <string name="submit">Indsend</string>

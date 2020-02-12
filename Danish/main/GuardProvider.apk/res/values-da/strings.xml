@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AVL">AVL</string>
-    <string name="Avast">Avast</string>
-    <string name="DesAVL">AVL</string>
-    <string name="DesAvast">Avast</string>
-    <string name="DesMi">Mi</string>
-    <string name="DesTencent">Tencent</string>
-    <string name="Mi">Mi</string>
-    <string name="Tencent">Tencent</string>
     <string name="app_name">MIUI-sikkerhedskomponenter</string>
-    <string name="avast_dialog_cloudscan" />
-    <string name="avast_dialog_dbupdate" />
     <string name="avast_dialog_header">Denne funktion krypterer og uploader dit enheds-id til Avasts servere (%s).</string>
     <string name="avast_dialog_policy">Privatlivspolitik</string>
     <string name="avast_dialog_title">Avasts Fortrolighedspolitik</string>
-    <string name="avast_dialog_url">http://api.sec.miui.com/policy/proxy?p=avast&amp;l=en_US</string>
     <string name="avast_virus_type_adware_description">Virussen er en adware. Den leverer automatisk reklamer.</string>
     <string name="avast_virus_type_cryportor_description">Virussen er en cryptor. Det er en ondsindet software, der sendes ved at replikere sig selv i lagerpladsen.</string>
     <string name="avast_virus_type_dropper_description">Virussen er en dropper. Den bærer koden, som installerer andre ondsindede virusser.</string>
@@ -29,12 +18,9 @@
     <string name="avast_virus_type_trjan_description">Virussen er en trojansk hest. Det er en malware, der er designet til at give uautoriseret fjernadgang til en brugers enhed. Trojanske heste har normalt ikke evnen til at replikere sig som virus. De kan dog føre til, at andre malware installeres på din enhed, data bliver stjålet eller andre ondsindede aktiviteter.</string>
     <string name="avast_virus_type_unknown_description">Ukendt type infektion.</string>
     <string name="avast_virus_type_worm_description">Virussen er en orm. Det er en selvstændig malware, der replikerer sig selv for at sprede sig til andre enheder. Den udnytter filer eller informationsoverførselsfunktioner i dit system (f.eks. netværk), det kan vandre uden nogen menneskelig handling. Orme forårsager næsten altid en eller anden form for skade på netværket.</string>
-    <string name="avl_dialog_cloudscan" />
-    <string name="avl_dialog_dbupdate" />
     <string name="avl_dialog_header">"Denne funktion krypterer og uploader dit enheds-id til AVL's servere (%s)."</string>
     <string name="avl_dialog_policy">Privatlivspolitik</string>
     <string name="avl_dialog_title">"AVL's Fortrolighedspolitik"</string>
-    <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
     <string name="hello_world">Hej derude!</string>
     <string name="menu_settings">Indstillinger</string>
     <string name="tencent_dialog_cloudscan">Upload og scan appnavne og oplysninger med online virusdefinitioner.</string>
@@ -42,6 +28,4 @@
     <string name="tencent_dialog_header">Denne funktion krypterer og uploader dit enheds-id til Tencents servere (%s).</string>
     <string name="tencent_dialog_policy">Privatlivspolitik</string>
     <string name="tencent_dialog_title">Tencents Fortrolighedspolitik</string>
-    <string name="tencent_dialog_url">http://api.sec.miui.com/policy/proxy?p=tencent&amp;l=en_US</string>
-    <string name="title_activity_main">MainActivity</string>
 </resources>
