@@ -83,6 +83,7 @@
     <string name="handy_mode_summary">For at lukke skal du trykke på det mørke område</string>
     <string name="handy_mode_title">Enhåndstilstand</string>
     <string name="ignore_home_when_fingerprint_enrolling_msg">Placer fingeren på Hjem-knappen</string>
+    <string name="input_method_clipboard_tips">Kopierede elementer vil blive slettet fra udklipsholder efter 48 timer</string>
     <string name="input_method_edit_phrase_text">Rediger hyppige sætninger</string>
     <string name="input_method_no_content_text">Ingen elementer her endnu</string>
     <string name="input_method_switch_settings_text">Tastaturindstillinger</string>

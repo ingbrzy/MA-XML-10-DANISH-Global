@@ -28,6 +28,8 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="search_menu_title">Søg</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="above_image">Op</string>
     <string name="accessibility_battery_level">Batteri %d procent.</string>
     <string name="accessibility_battery_level_charging">Batteriet oplades, %d procent.</string>
     <string name="align_type">Tilpas</string>
@@ -42,19 +44,22 @@
     <string name="aod_mode_summary">Vis ur, dato, notifikationer og baggrundsbilleder, når skærmen er slukket</string>
     <string name="aod_mode_time_summary">Skemalæg tid til at slå tilstanden \"Altid tændt\" til og fra</string>
     <string name="aod_mode_time_title">Skema</string>
-    <string name="aod_mode_title">Altid tændt-tilstand</string>
+    <string name="aod_mode_title">Vises altid</string>
+    <string name="aod_show_date_and_time">Vis dato og tid</string>
     <string name="aod_show_style_title">Vis elementer</string>
     <string name="aod_style">Tema</string>
     <string name="aod_to_close">Sluk</string>
     <string name="apply">Brug</string>
     <string name="apply_succeed">Tilføjet med succes</string>
     <string name="background_icon">Baggrund</string>
+    <string name="below_image">Ned</string>
     <string name="cancel">Annuller</string>
     <string name="choose_aod_style">Vælg tema</string>
     <string name="chosen_picture">Vælg baggrund</string>
     <string name="clock_panel_icon">Urskive</string>
     <string name="color_change_with_time_description">Skift tekstfarve automatisk over tid</string>
     <string name="color_change_with_time_title">Skift farve automatisk</string>
+    <string name="custom_image">Tilpasset billede</string>
     <string name="deep_space_planet">Ydre rum</string>
     <string name="deep_space_planet_des">Dette tema genspejler de forandringer af lyset, der sker omkring dig i dagens løb. Solopgange og solnedgange synkronieres med din placering.</string>
     <string name="digital_clock">Digital</string>
@@ -84,18 +89,20 @@
     <string name="show_battery_status">Vis batteristatus</string>
     <string name="show_notification">Vis underretninger</string>
     <string name="show_notificaton">Vis notifikationer</string>
+    <string name="shownone_arround_image">Ingen</string>
     <string name="signature">Underskrift</string>
     <string name="signature_default_content">"Tro altid på, at noget
 vidunderligt er lige om hjørnet"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
-    <string name="summary">"For at sænke energiforbruget vises elementer ikke i de følgende situationer:
-1. Når din enhed ligger i mørke i lang tid.
-2. Når DND-tilstanden er slået til."</string>
+    <string name="summary">For at reducere strømforbruget vises elementer ikke, når din enhed henligger i mørke i lang tid.</string>
     <string name="temporary_style">I 10 sekunder efter tryk</string>
     <string name="text_color">Tekstfarve</string>
     <string name="text_length_exceed_limit_alert">*Den indtastede tekst er for lang</string>
     <string name="text_size">Tekststørrelse</string>
+    <string name="time_location">Urposition</string>
     <string name="time_style">Stil</string>
     <string name="time_style_layout">Layout</string>
+    <string name="disable_aod_in_power_save_mode">Sluk, når batterispareren er tændt</string>
+    <string name="disable_aod_in_power_save_mode_summary">Vis ikke elementer for at spare strøm</string>
 </resources>

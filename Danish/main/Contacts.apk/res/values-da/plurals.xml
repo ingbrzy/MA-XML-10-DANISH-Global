@@ -88,29 +88,17 @@
         <item quantity="other">(%1$d)</item>
         <item quantity="one">(%1$d)</item>
     </plurals>
-    <plurals name="listFoundAllContacts">
-        <item quantity="other">%d fundet</item>
-        <item quantity="one">1 fundet</item>
-    </plurals>
     <plurals name="listTotalAllContacts">
         <item quantity="other">%d kontakter</item>
-        <item quantity="one">1 kontakt</item>
-    </plurals>
-    <plurals name="listTotalPhoneContacts">
-        <item quantity="other">%d kontaktpersoner med telefonnummer</item>
-        <item quantity="one">1 kontaktperson med telefonnummer</item>
+        <item quantity="one">%d kontakt</item>
     </plurals>
     <plurals name="merge_contact_message_plurals">
         <item quantity="other">%1$d kontakter med delvist identiske oplysninger</item>
         <item quantity="one">%1$d kontakter med delvist identiske oplysninger</item>
     </plurals>
     <plurals name="merge_info">
-        <item quantity="other">flettet fra %1$d kilder</item>
+        <item quantity="other">flettet fra %0$d kilder</item>
         <item quantity="one">ikke flettet</item>
-    </plurals>
-    <plurals name="notification_voicemail_title">
-        <item quantity="other">%1$d telefonsvarerbeskeder</item>
-        <item quantity="one">Telefonsvarer</item>
     </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d valgt</item>
@@ -121,8 +109,8 @@
         <item quantity="one">%1$d folk fra %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
-        <item quantity="other">1 gruppe%1$d grupper</item>
-        <item quantity="one">1 gruppe</item>
+        <item quantity="other">%d grupper</item>
+        <item quantity="one">%d gruppe</item>
     </plurals>
     <plurals name="number_of_items_available">
         <item quantity="other">%1$d elementer tilbage</item>
@@ -150,7 +138,7 @@
     </plurals>
     <plurals name="searchFoundContacts">
         <item quantity="other">%d fundet</item>
-        <item quantity="one">1 fundet</item>
+        <item quantity="one">%d fundet</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Vælg ikke flere end %1$d. Kan ikke vælge alle</item>

@@ -21,6 +21,7 @@
     <string name="accessibility_camera_record_start">Optagelse af video påbegyndt</string>
     <string name="accessibility_camera_record_stop">Optagelse af video standset</string>
     <string name="accessibility_camera_shutter_finish">Tog et foto</string>
+    <string name="accessibility_camera_switch_capture_recording">Skift mellem foto- og videotilstand</string>
     <string name="accessibility_camera_ultra_wide_bokeh_off">Fuldkropstilstand slået fra</string>
     <string name="accessibility_camera_ultra_wide_bokeh_on">Fuldkropstilstand slået til</string>
     <string name="accessibility_camera_video_960fps_120">120FPS</string>
@@ -71,14 +72,16 @@
     <string name="accessibility_video_pause_button">Optagelse af video sat på pause</string>
     <string name="accessibility_video_resume_button">Optagelse af video genoptaget</string>
     <string name="accessibility_zoom_button">Zoomtilstand</string>
-    <string name="ai_scene_mode_use_hint_text">"AI-kamera detekterer automatisk scenarier
-og optimerer dine billeder baseret på denne information"</string>
+    <string name="ai_scene_mode_use_hint_text">Genkend scener ved hjælp af Al og juster præferencer automatisk</string>
     <string name="ai_scene_top_moon_off">Svag belysning</string>
     <string name="ai_scene_top_tip">Månetilstand</string>
     <string name="audio_focus_exit_button_text">Sluk Audiofokus</string>
     <string name="autozoom_click_hint">Tryk på et objekt for at holde det i fokus, mens det bevæger sig. Hold mindst 3 meters afstand for bedste effekt.</string>
     <string name="autozoom_disabled_hint">Stoppede med at følge objekt i bevægelse</string>
     <string name="autozoom_hint">Følg objekt i bevægelse</string>
+    <string name="auxiliary_close_status">Yderligere effekter er slået fra</string>
+    <string name="auxiliary_exposure_feedback_status">Eksponeringsverifikation er slået til</string>
+    <string name="auxiliary_focus_peak_status">Fokusoptimering er slået til</string>
     <string name="back_bokeh_use_hint">Hold dit motiv indenfor 1,5 meter for den bedste effekt</string>
     <string name="beauty_body">Figur</string>
     <string name="beauty_body_body">Slank</string>
@@ -112,6 +115,7 @@ og optimerer dine billeder baseret på denne information"</string>
     <string name="camera_liveshot_on_tip">Dynamiske optagelser</string>
     <string name="camera_mode_options">Tilstande</string>
     <string name="camera_setting">Kamera</string>
+    <string name="camera_settings_category_development">Eksperimentelle funktioner</string>
     <string name="camera_settings_label">Kamera</string>
     <string name="camera_snap_mode_title">Quick snap-tilstand</string>
     <string name="camera_snap_mode_title_detail">Tryk for at se oplysninger</string>
@@ -159,7 +163,7 @@ og optimerer dine billeder baseret på denne information"</string>
     <string name="confirm_install_scanner_message">Med scanneren kan du scanne QR-koder, stregkoder og mere. Du behøver ikke at være tilsluttet til internettet for at installere den.</string>
     <string name="confirm_install_scanner_title">Installer scanner</string>
     <string name="confirm_location_alert">Husker, hvor foto er taget.</string>
-    <string name="confirm_location_message">Mærk dine fotos og videoer med stedet, hvor de er taget. Andre apps kan få adgang til denne information sammen med dine gemte billeder.</string>
+    <string name="confirm_location_message">&lt;Data>Velkommen til Kamera! Sæt tags på dine billeder og videoer med placeringen, hvor de blev taget, for at holde dit galleri mere organiseret og hjælpe dig med hurtigere at finde elementer. Visse funktioner vil ikke være tilgængelige, hvis du ikke tillader at tilføje placeringsoplysninger.&lt;br/>&lt;br/>Vi vil beskytte dine personlige oplysninger i overensstemmelse med relevante love, forordninger og fortrolighedspolitikker.&lt;/Data></string>
     <string name="confirm_location_title">Husker, hvor foto er taget?</string>
     <string name="confirm_recording_fail_calling_alert">Kan ikke optage under et opkald.</string>
     <string name="confirm_recording_fail_recorder_busy_alert">Det kan være, at en anden app allerede bruger enhedens mikrofon til optagelse.</string>
@@ -298,9 +302,11 @@ i Portrættilstand"</string>
     <string name="live_sticker_fragment_tab_name">TikTok-effekter</string>
     <string name="live_sticker_network_error_hint">Netværksfejl</string>
     <string name="live_sticker_updating">Opdaterer…</string>
+    <string name="location_access_allow">Tillad</string>
     <string name="location_permission_des">Husk placering for fotos og videoer</string>
     <string name="location_permission_not_ask_again">Tillad Kamera at få adgang til placering i indstillingerne.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Tillad</string>
+    <string name="log_format">LOG</string>
     <string name="lying_direct_hint">Nuværende orientering</string>
     <string name="macro_mode">Makro</string>
     <string name="macro_mode_tip">Afstand mellem linse og objekt bør ikke overstige 10 cm</string>
@@ -381,6 +387,7 @@ til at se store ud på fotos"</string>
     <string name="module_name_professional">Pro</string>
     <string name="module_name_square">Kvadrat</string>
     <string name="module_name_video">Video</string>
+    <string name="moive_frame">Filmramme</string>
     <string name="multi_window_mode_not_supported">Kameraet fungerer ikke med opdelt skærm.</string>
     <string name="network_access_user_notice_agree">Bekræft</string>
     <string name="network_access_user_notice_message_live_video">&lt;Data>Kamera skal have forbindelse til internettet for at kunne tilbyde effekter, musik og andre funktioner til korte videoer.&lt;br/>&lt;br/>Ved at trykke på Bekræft nedenfor bekræfter du vores &lt;a href =%1$s>Brugeraftale&lt;/a> og &lt;a href =%2$s>Privatlivspolitik&lt;/a> og tillader Kamera at oprette forbindelse til internettet.&lt;/Data></string>
@@ -395,8 +402,47 @@ til at se store ud på fotos"</string>
     <string name="pano_how_to_use_prompt_slow_down">Sænk hastigheden…</string>
     <string name="pano_how_to_use_prompt_start">Tryk på pilen for at skifte retning og begynd at panorere langsomt.</string>
     <string name="pano_how_to_use_prompt_to_move">Begynd at bevæge kameraet langsomt</string>
+    <string name="parameter_description_pro_capture_title">Pro-funktioner til at tage billeder</string>
+    <string name="parameter_description_pro_video_title">Pro-funktioner til optagelse af videoer</string>
+    <string name="parameter_description_sub_title">Få mere kreativ kontrol over dine billeder og videoer</string>
+    <string name="parameter_ef_split_description">Du kan trække eksponeringsringen væk fra fokusringen og justere de to parametre separat.</string>
+    <string name="parameter_ef_split_title">Separat fokusering og eksponeringsmåling</string>
+    <string name="parameter_et_description">Automatisk lukkerhastighed fastslås af kameraets lysmåler. Når du vælger lukkerhastighed manuelt, skal du huske, at jo længere lukkeren er åben, des mere lys får sensoren, hvilket gør billedet lysere.</string>
+    <string name="parameter_exposure_description">Denne funktion lader dig kompensere eksponeringen, når du vil gøre dit billede lysere eller mørkere, end måleren foreslår.</string>
+    <string name="parameter_exposure_feecback_description">Fremhæv undereksponerede områder med blåt og overeksponerede områder med rødt for at tilpasse eksponeringen.</string>
+    <string name="parameter_exposure_feecback_title">Eksponeringsverifikation</string>
+    <string name="parameter_exposure_title">Eksponeringskompensering</string>
+    <string name="parameter_focus_description">Du kan fokusere både manuelt og automatisk. Jo større fokusværdi du vælger på skyderen, des længere væk fra linsen vil fokusområdet være.</string>
+    <string name="parameter_focus_title">Fokus</string>
+    <string name="parameter_histogram_description">Histogram er en realtidsrepræsentation af eksponering, der viser de mørkeste dele af din scene i venstre side og fortsætter til de lyseste dele i højre side. Den lodrette del af skalaen viser, hvor meget af scenen er lys eller mørk.</string>
+    <string name="parameter_histogram_title">Histogram</string>
+    <string name="parameter_iso_description">ISO-værdi kan fastslås automatisk af lysmåleren. Du kan ændre værdien manuelt. Husk at højere ISO gør dit kamera mere følsomt over for lys, men giver mere digital støj på billedet.</string>
+    <string name="parameter_lens_description">Du kan skifte mellem flere tilgængelige linser:</string>
+    <string name="parameter_lens_marco">, MACRO (makrolinse)</string>
+    <string name="parameter_lens_st">, S-TELE (zoomlinse)</string>
+    <string name="parameter_lens_t">, TELE (telefotolinse)</string>
+    <string name="parameter_lens_tele_2x">, TELE-2X (telefotolinse)</string>
+    <string name="parameter_lens_tele_5x">, TELE-5X (telefotolinse)</string>
+    <string name="parameter_lens_title">Linser</string>
+    <string name="parameter_lens_uw">, UW (ultra vidvinkellinse)</string>
+    <string name="parameter_lens_w">WIDE (vidvinkellinse)</string>
+    <string name="parameter_log_format_description">Dette format optager videoer med logaritmefunktion anvendt på eksponeringskurven for at fange flere detaljer i fremhævninger og skygger, så du får flere efterbehandlingsmuligheder.</string>
+    <string name="parameter_log_format_title">LOG-format</string>
+    <string name="parameter_metering_description">Gennemsnitsmåling tager alle områder af dit billede i betragtning, hvilket fungerer bedst for jævnt oplyste scener. Centervægtet måling fokuserer hovedsageligt på det midterste område af rammen og tager lysstyrken i det omkringliggende område i betragtning, hvilket egner sig til optagelse af genstande i midten af rammen. Punktmåling dækker kun området i ét punkt, hvilket giver dig præcis kontrol over eksponeringen.</string>
+    <string name="parameter_metering_title">Måletilstande</string>
+    <string name="parameter_peak_focus_description">Når du fokuserer manuelt, skal du bruge fokusoptimering til at anbringe en rød fremhævning i fokusområdet.</string>
+    <string name="parameter_peak_focus_title">Fokusoptimering</string>
+    <string name="parameter_peak_raw_description">Dette billedformat fanger alle billeddata, der optages af sensoren, når du tager et billede. Ikke-komprimerede data giver dig flere muligheder for efterbehandling.</string>
+    <string name="parameter_peak_raw_title">RAW-format</string>
+    <string name="parameter_wb_description">Udover faste indstillinger for hvidbalance (hvidglødende, dagslys, fluorescerende, skyet) kan du også indstille hvidbalance til en brugerdefineret værdi inden for 2000-8000 Kelvin-området.</string>
+    <string name="parameter_wb_title">Hvidbalance</string>
+    <string name="parameter_zoom_slider_description">Træk zoomskyderen op og ned for at ændre din optagelse jævnt fra et fjernbillede til et nærbillede.</string>
+    <string name="parameter_zoom_slider_title">Zoom</string>
     <string name="path_settings">System-apps/Kamera/Indstillinger</string>
     <string name="photo_assistance_tips_title">Livetips</string>
+    <string name="pic_flaw_blink_more">Det ser ud til, at en person på billedet lukkede sine øjne</string>
+    <string name="pic_flaw_blink_one">Det ser ud til, at personen på billedet lukkede sine øjne</string>
+    <string name="pic_flaw_cover">Det ser ud til, at linsen er delvist tildækket</string>
     <string name="popup_tip_3d_beauty_intro_text">3D-skønhed</string>
     <string name="portait_effect_entry_blackwhite">S/H</string>
     <string name="portait_effect_entry_cool">Mynte</string>
@@ -418,6 +464,17 @@ til at se store ud på fotos"</string>
 baggrunden på dine fotos"</string>
     <string name="portrait_bokeh_text">Portrættilstand</string>
     <string name="portrait_bokeh_tips">Placer objektet inden for 1,5 meters afstand</string>
+    <string name="portrait_india_effect_entry_memory">Minde</string>
+    <string name="portrait_india_effect_entry_mono">Mono</string>
+    <string name="portrait_india_effect_entry_pink">Pink</string>
+    <string name="portrait_india_effect_entry_portrait">Portræt</string>
+    <string name="portrait_india_effect_entry_retro">Retro</string>
+    <string name="portrait_india_effect_entry_romantic">Romantisk</string>
+    <string name="portrait_india_effect_entry_strong">Intens</string>
+    <string name="portrait_india_effect_entry_sunny">Solrig</string>
+    <string name="portrait_india_effect_entry_sweet">Karamel</string>
+    <string name="portrait_india_effect_entry_warm">Varm</string>
+    <string name="portrait_india_effect_entry_young">Ung</string>
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_lowlight_hint">Det er for mørkt nu.</string>
     <string name="portrait_mode_too_close_hint">Gå længere væk fra objektet</string>
@@ -427,7 +484,6 @@ og fremhæver folk tæt på."</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Prøv portrættilstand.
 Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_960_watermark_title">960 fps-vandmærke</string>
-    <string name="pref_advance_settings">Yderligere indstillinger</string>
     <string name="pref_ai_detect">AI-detektion</string>
     <string name="pref_audio_focus_entry_front">Forrest</string>
     <string name="pref_audio_focus_entry_general">Mellem</string>
@@ -452,6 +508,10 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">Rammegennemsnit</string>
     <string name="pref_camera_autoexposure_entry_spotmetering">Spotmåling</string>
     <string name="pref_camera_autoexposure_title">Indstillinger for automatisk eksponering</string>
+    <string name="pref_camera_auxiliary_close">Slået fra</string>
+    <string name="pref_camera_auxiliary_exposure_feedback">Eksponeringsverifikation</string>
+    <string name="pref_camera_auxiliary_focus_peak">Fokusoptimering</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>
@@ -476,6 +536,7 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_coloreffect_entry_vsco_a4">Analog</string>
     <string name="pref_camera_coloreffect_entry_vsco_f2">Mat</string>
     <string name="pref_camera_coloreffect_title">Filtre</string>
+    <string name="pref_camera_common_settings">Generelle indstillinger</string>
     <string name="pref_camera_contrast_title">Kontrast</string>
     <string name="pref_camera_delay_capture_entry_10s">10 s forsinkelse</string>
     <string name="pref_camera_delay_capture_entry_3s">3 s forsinkelse</string>
@@ -484,12 +545,10 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_delay_capture_title">Timer</string>
     <string name="pref_camera_device_watermark_title">Enhedsvandmærke</string>
     <string name="pref_camera_exposuretime_entry_0_5">2s</string>
-    <string name="pref_camera_exposuretime_entry_1">1s</string>
     <string name="pref_camera_exposuretime_entry_1000">1/1000s</string>
     <string name="pref_camera_exposuretime_entry_125">1/125s</string>
     <string name="pref_camera_exposuretime_entry_15">1/15s</string>
     <string name="pref_camera_exposuretime_entry_16s">16 s</string>
-    <string name="pref_camera_exposuretime_entry_2">1/2s</string>
     <string name="pref_camera_exposuretime_entry_250">1/250s</string>
     <string name="pref_camera_exposuretime_entry_30">1/30s</string>
     <string name="pref_camera_exposuretime_entry_32s">32 s</string>
@@ -526,6 +585,8 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_hdr_entry_live">Live</string>
     <string name="pref_camera_hdr_entry_normal">Pro</string>
     <string name="pref_camera_hdr_entry_off">Slukket</string>
+    <string name="pref_camera_heic_image_format_description">Fotos i højeffektivt billedfilformat kræver mindre lagerplads, men understøttes ikke af visse apps</string>
+    <string name="pref_camera_heic_image_format_title">HEIF-format</string>
     <string name="pref_camera_hfr_entry_2x">60</string>
     <string name="pref_camera_hfr_entry_3x">90</string>
     <string name="pref_camera_hfr_entry_4x">120</string>
@@ -548,6 +609,7 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_lying_summary">Informer om aktuel orientering, når telefonen er parallel med jorden</string>
     <string name="pref_camera_lying_title">Informer om orientering</string>
     <string name="pref_camera_magic_mirror_title">Magisk spejl</string>
+    <string name="pref_camera_manual_description_title">Om Pro-funktioner</string>
     <string name="pref_camera_manual_mode_title">Manuel</string>
     <string name="pref_camera_movie_solid_title">Billedstabilisering</string>
     <string name="pref_camera_multilevel_entry_high">Høj</string>
@@ -571,6 +633,7 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_portrait_mode_title">Portrættilstand</string>
     <string name="pref_camera_proximity_lock_summary">Lås for berøring, når det befinder sig i en lomme.</string>
     <string name="pref_camera_proximity_lock_title">Lommetilstand</string>
+    <string name="pref_camera_quick_settings">Hurtigindstillinger</string>
     <string name="pref_camera_recordlocation_entry_off">Slukket</string>
     <string name="pref_camera_recordlocation_entry_on">Slå til</string>
     <string name="pref_camera_recordlocation_title">Gem oplysninger om stedet</string>
@@ -675,6 +738,9 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
     <string name="pref_photo_assistance_tips_off">Slukket</string>
     <string name="pref_photo_assistance_tips_on">Tændt</string>
+    <string name="pref_pic_flaw_tip_summary">Modtage notifikationer i realtid, hvis en person på billedet lukker sine øjne, eller linsen er delvist tildækket under optagelse</string>
+    <string name="pref_pic_flaw_tip_title">Giv besked om fejl</string>
+    <string name="pref_popup_camera_title">Pop-up-kamera</string>
     <string name="pref_priority_storage_title">Gem på SD-kort</string>
     <string name="pref_privacy_title">Privatlivspolitik</string>
     <string name="pref_qc_focus_position_title">F</string>
@@ -814,7 +880,7 @@ Vidvinkeltilstand er praktisk, når du ikke kan bevæge dig længere væk fra sc
     <string name="video_effect_entry_polaroid">Polaroid</string>
     <string name="video_reach_size_limit">Størrelsesgrænse nået.</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
-    <string name="video_ultra_clear_tip_8k">8K UHD</string>
+    <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Vis Privatlivspolitik</string>
     <string name="vv_duartion_hint">%1$s | Segment %2$d | %3$ss</string>
     <string name="vv_hint">Du kan kun optage vlogs i tilstanden liggende format</string>

@@ -10,7 +10,6 @@
     <string name="retry">Prøv igen</string>
     <string name="cloud_app_current_device">Aktuel enhed</string>
     <string name="cloud_app_other_devices">Andre enheder</string>
-    <string name="cloud_app_restore_app_and_data">Konfigurer din enhed</string>
     <string name="cloud_app_restore_data">Personlige data og tidligere installerede apps vises automatisk på din enhed</string>
     <string name="cloud_app_dont_restore">Konfigurer som ny enhed</string>
     <string name="cloud_app_restore_wifi_prompt">Gendan fra cloud-sikkerhedskopi.</string>
@@ -50,6 +49,8 @@
     <string name="self_device_second_space">Denne telefons Second space</string>
     <string name="other_device_main_space">First space</string>
     <string name="other_device_second_space">Second space</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
     <string name="size_unknown">Ukendt størrelse</string>
     <string name="recovering">Gendanner %s</string>
@@ -222,4 +223,5 @@ Kontrollér dine netværksindstillinger og prøv igen."</string>
     <string name="restore_task_unfinished">Kunne ikke gendanne</string>
     <string name="restore_failed_reason_network_error">Netværksfejl. Vent et minut eller to og prøv så igen.</string>
     <string name="restore_failed_reason_disk_space_not_enough">Ikke nok lagerplads. Frigør lagerplads først.</string>
+    <string name="cloud_app_restore_app_and_data">Konfigurer din enhed</string>
 </resources>

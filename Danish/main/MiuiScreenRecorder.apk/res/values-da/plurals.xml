@@ -2,7 +2,7 @@
 <resources>
     <plurals name="delete_confirm_text">
         <item quantity="other">Slet %1$d skærmoptagelser?</item>
-        <item quantity="one">Slet denne skærmoptagelse?</item>
+        <item quantity="one">Slet %1$d skærmoptagelse?</item>
     </plurals>
     <plurals name="home_title_selected">
         <item quantity="other">Valgte %1$d elementer</item>

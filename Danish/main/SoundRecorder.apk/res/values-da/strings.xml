@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Find hjem</string>
+    <string name="abc_action_bar_up_description">Gå op</string>
+    <string name="abc_action_menu_overflow_description">Flere valgmuligheder</string>
+    <string name="abc_action_mode_done">Udfør</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slet</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellemrum</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgsel</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgsel</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="alert_message_clear_records">Slet valgte optagelser?</string>
     <string name="alert_message_delete_local_record">Slet denne optagelse?</string>
     <string name="alert_message_delete_record">Når optagelsen slettes fra din enhed, slettes denne optagelse også fra Xiaomi Cloud. Slet nu?</string>
@@ -246,6 +273,7 @@
     <string name="search_hint">Søg</string>
     <string name="search_led_indicator">Låseskærmsnotifikationer</string>
     <string name="search_led_indicator_prompt">Mens du optager, vis statuslinjegenvejen og impulsnotifikationslampen på låseskærmen</string>
+    <string name="search_menu_title">Søg</string>
     <string name="search_quliaty_title">Optagelseskvalitet</string>
     <string name="search_scenes">Optagelsestype</string>
     <string name="search_silent_mode">Slå ringetone fra under optagelse</string>
@@ -261,6 +289,7 @@
     <string name="speech_recognition_running_tip">"Behandler "</string>
     <string name="start">Genoptag</string>
     <string name="status_bar_back">Tryk for at vende tilbage til optager</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Optager…</string>
     <string name="status_bar_recording_pause">Optager sat på pause</string>
     <string name="text_btn_backward_3_seconds">3 sekunder tilbage</string>

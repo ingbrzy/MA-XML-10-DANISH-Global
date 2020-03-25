@@ -17,6 +17,7 @@
     <string name="all_app_category_news_reading">Nyheder og læsning</string>
     <string name="all_app_category_personalization">Tilpasning</string>
     <string name="all_app_category_photography">Fotografi</string>
+    <string name="all_app_category_shopping">Shopping</string>
     <string name="all_app_category_tools">Værktøjer</string>
     <string name="all_apps">Alle apps</string>
     <string name="all_apps_no_search_results">Kunne ikke finde resultater</string>
@@ -28,6 +29,7 @@
     <string name="all_apps_setting_drawer_tips_desc">App-skuffen åbnes ved at swipe opad på startskærmen. Hvid du skifter til startskærmstilstand med app-skuffe, bliver indholdscenteret utilgængeligt. Skift alligevel?</string>
     <string name="all_apps_setting_drawer_tips_title">Brug af app-skuffen</string>
     <string name="all_apps_setting_drawer_title">Vis app-skuffe</string>
+    <string name="all_apps_setting_letter_scrollbar">A-Z</string>
     <string name="all_apps_setting_original_scrollbar">Oprindeligt layout</string>
     <string name="all_apps_setting_scroll_bar">Rullepanel</string>
     <string name="all_apps_setting_title">Startskærm</string>
@@ -64,6 +66,7 @@
     <string name="announce_for_show_uninstall_dialog">Afinstallationsmenu kom frem. Annuller eller bekræft.</string>
     <string name="announce_for_unchecked">%1$s, afmarkeret</string>
     <string name="announce_for_widget_span">Bredde %1$d, højde %2$d</string>
+    <string name="announce_for_xiaoai">Mi AI</string>
     <string name="app_already_exist">Appen eksisterer allerede</string>
     <string name="app_being_backup_message">Appen sikkerhedskopieres</string>
     <string name="app_being_restored_message">Appen gendannes</string>
@@ -78,10 +81,12 @@
     <string name="app_category_news">Nyheder</string>
     <string name="app_category_photos">Fotografi</string>
     <string name="app_category_productivity">Produktivitet</string>
+    <string name="app_category_shopping">Shopping</string>
     <string name="app_category_social">Socialt</string>
     <string name="app_category_sport">Sport</string>
     <string name="app_category_tools">Værktøj</string>
     <string name="app_category_travel">Rejse</string>
+    <string name="app_category_vr">VR</string>
     <string name="application_name">Systemlanceringsprogram</string>
     <string name="apply">Indstil</string>
     <string name="apply_action">Indstil</string>
@@ -95,7 +100,6 @@
     <string name="aqi_quality_index_light_pollution">Advarsel</string>
     <string name="aqi_quality_index_moderate">Moderat</string>
     <string name="aqi_quality_index_unhealthy">Usund</string>
-    <string name="auto_add_app_shortcut">Placér nye apps på startskærmen</string>
     <string name="auto_delete_category_dialog_content">Nuværende apps fjernes fra denne kategori, og kategorien slettes. Slet denne kategori nu?</string>
     <string name="auto_delete_category_dialog_title">Sletter kategori</string>
     <string name="backup_fail">Kunne ikke sikkerhedskopiere launcher</string>
@@ -112,9 +116,6 @@
     <string name="category_cannot_empty">Indtast kategori først</string>
     <string name="category_choose_no_app_select_tip">Hver kategori skal indeholde mindst 1 app.</string>
     <string name="category_drawer_name_hint">Indtast kategorinavn</string>
-    <string name="category_edit_back_confirm_dialog_content">Gem ændringer nu?</string>
-    <string name="category_edit_back_confirm_dialog_negative_button">Gem ikke</string>
-    <string name="category_edit_back_confirm_dialog_positive_button">Gem</string>
     <string name="category_group">Kategoriser apps</string>
     <string name="category_group_summary">Kategoriser apps i appskuffen</string>
     <string name="category_not_selected">Tilgængelige apps</string>
@@ -123,6 +124,7 @@
     <string name="chooser_wallpaper">Vælg et nyt baggrundsbillede</string>
     <string name="cloud_app_restore_title">Afventende</string>
     <string name="configure_wallpaper">Indstillinger</string>
+    <string name="confirm_btn_label">OK</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Dobbelte apps vil blive afinstalleret sammen med disse.</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Dobbelte apps vil blive afinstalleret sammen med denne.</string>
     <string name="confirm_uninstall_dialog_title">Dobbelte apps vil blive afinstalleret</string>
@@ -133,13 +135,18 @@
     <string name="current_wallpaper">Aktuel</string>
     <string name="custom_wallpaper_picker">Gennemse</string>
     <string name="defalut_launcher_title">Standard starter</string>
+    <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Spil</string>
     <string name="default_folder_title_meitu">Meitu-apper</string>
+    <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_other_apps">Andre apps</string>
     <string name="default_folder_title_recommend">Flere apps</string>
+    <string name="default_folder_title_security">System</string>
     <string name="default_folder_title_services">Servicer</string>
+    <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Værktøj</string>
     <string name="default_screen_preview_title">Indstil standardskærm</string>
+    <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="delete">Slet</string>
     <string name="delete_category_dialog_content">Du kan ikke gendanne kategori, efter du har slettet den. Slet alligevel?</string>
     <string name="delete_category_dialog_title">Slet denne kategori?</string>
@@ -147,6 +154,9 @@
     <string name="delete_wallpaper_message">Slet %1$d baggrundsbillede?</string>
     <string name="deselect_all">Vælg alle fra</string>
     <string name="disable_wallpaper_scroll">Slå side-scrolling fra</string>
+    <string name="download_action">Download</string>
+    <string name="drag_multiple_item_name" />
+    <string name="drag_single_item_name" />
     <string name="drawer_background">Baggrunde</string>
     <string name="drawer_background_dark">Mørk</string>
     <string name="drawer_background_light">Lys</string>
@@ -182,6 +192,7 @@
     <string name="frame_load_failed">Kan ikke indlæse ramme</string>
     <string name="free_style_apps_title">Vælg app</string>
     <string name="free_style_drawer_title">Alle apps</string>
+    <string name="free_style_edit_app">App</string>
     <string name="free_style_edit_bar_empty">Tom</string>
     <string name="free_style_edit_bar_select_app">Vælg app</string>
     <string name="free_style_edit_bottom_empty_tip">Tryk på rektangel for at redigere</string>
@@ -205,6 +216,7 @@
     <string name="gadget_error_text">Kan ikke indlæse widget</string>
     <string name="gadget_google_search_label">Google søgning</string>
     <string name="gadget_load_error">Indlæser…</string>
+    <string name="gadget_mtz_label">Gadgets</string>
     <string name="gadget_notes_label">Noter</string>
     <string name="gadget_photo_22_label">Billede 2x2</string>
     <string name="gadget_photo_24_label">Billede 4x2</string>
@@ -249,9 +261,6 @@
     <string name="is_system_wallpaper_message">Kan ikke slette systemressourcer</string>
     <string name="launcher_not_exist">Der opstod en fejl. Gå tilbage til startskærmen og prøv igen.</string>
     <string name="launcher_pull_down_title">Stryg nedad på startskærmen</string>
-    <string name="launcher_search_bar_title">Startskærmens søgelinje</string>
-    <string name="launcher_search_bar_value_disable">Slukket</string>
-    <string name="launcher_search_bar_value_enable">Tændt</string>
     <string name="launcher_slide_up_title">Stryg opad på startskærmen</string>
     <string name="launcher_sliding_up_gesture">Stryg op på startskærmen for at åbne søgning</string>
     <string name="launcher_title">Startskærm og seneste</string>
@@ -290,6 +299,7 @@
     <string name="menu_trans_effect">Overgangseffekter</string>
     <string name="menu_wallpaper">Baggrundsbillede</string>
     <string name="menu_workspace_preview">Forhåndsvisninger på startskærmen</string>
+    <string name="mi_wallpaper">MIUI Themes</string>
     <string name="minus_one_screen">App-boks</string>
     <string name="miui_screen_config_title">Indstillinger for startskærm</string>
     <string name="mtzgadget_missing_text">Widget er ikke tilgængelig</string>
@@ -302,6 +312,7 @@
     <string name="notification_open_button">Åbn</string>
     <string name="notification_reset_title">Arrangeret ikoner</string>
     <string name="one_key_call_title">Tryk for at foretage opkald</string>
+    <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Annuller</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå fra</string>
     <string name="open_personal_assistant_dialog_desc">Du vil ikke være i stand til at bruge App Vault og modtage dens opdateringer. Slå fra nu?</string>
@@ -366,7 +377,7 @@
     <string name="screen_cells_config_title">Startskærmlayout</string>
     <string name="screen_locked_toast">Startskærmens layout er låst.</string>
     <string name="screen_number">%d skærm</string>
-    <string name="search_in_apps_store">Søg efter \"%1$s i %2$s</string>
+    <string name="search_in_apps_store">Søg efter \"%1$s\" i %2$s</string>
     <string name="search_no_result">Kunne ikke finde nogen resultater</string>
     <string name="select_all">Vælg alle</string>
     <string name="select_frame">Ramme</string>
@@ -390,15 +401,18 @@
     <string name="sort_by_not_defined">Automatisk sortering</string>
     <string name="start_activity_failed">Kan ikke starte lanceringsprogram</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_downloaded">Downloadet</string>
     <string name="status_downloading">Downloader</string>
     <string name="status_installing">Installerer</string>
     <string name="status_paused">På pause</string>
     <string name="status_pending">Venter</string>
     <string name="switch_personal_assistant_app_vault">App-boks</string>
+    <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Ingen</string>
     <string name="system_shortcuts_more_operation">App-oplysninger</string>
     <string name="system_shortcuts_remove">Fjern</string>
+    <string name="system_text">System</string>
     <string name="title_jeejen">Jeejen-startskærm</string>
     <string name="title_select_live_folder">Vælg mappe</string>
     <string name="title_select_shortcut">Vælg genvej</string>
