@@ -129,11 +129,11 @@
     <string name="downloads_operating">Arbejder…</string>
     <string name="durationDayHour">%1$d dag %2$d time</string>
     <string name="durationDayHours">%1$d dag %2$d timer</string>
-    <string name="durationHourMinute">%1$d time %2$d min</string>
-    <string name="durationHourMinutes">%1$d time %2$d min</string>
+    <string name="durationHourMinute">%1$d time %2$d min.</string>
+    <string name="durationHourMinutes">%1$d time %2$d min.</string>
     <string name="durationMinute">%1$d min.</string>
-    <string name="durationMinuteSecond">%1$d min %2$d sek.</string>
-    <string name="durationMinuteSeconds">%1$d min %2$d sek.</string>
+    <string name="durationMinuteSecond">%1$d min. %2$d sek.</string>
+    <string name="durationMinuteSeconds">%1$d min. %2$d sek.</string>
     <string name="durationMinutes">%1$d min.</string>
     <string name="durationSecond">%1$d sek.</string>
     <string name="durationSeconds">%1$d sek.</string>
@@ -249,4 +249,5 @@
     <string name="toast_only_wifi_download">Opret forbindelse til Wi-Fi for at downloade dette element</string>
     <string name="total_speedup">Hastighedsforøgelse (total)</string>
     <string name="version">Version %s</string>
+    <string name="security_ui_title">Security ads</string>
 </resources>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FM-radioservice</string>
-    <string name="station_freq_format">%s MHz</string>
     <string name="frequency_mhz_fomart">%s MHz</string>
     <string name="notification_rec_title">Tryk for at se optagelse</string>
     <string name="record_completed">Optagelse fuldført</string>
+    <string name="station_freq_format">%s MHz</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

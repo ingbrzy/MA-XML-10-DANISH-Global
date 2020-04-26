@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choosed">
+        <item quantity="other">Valgt %1$d elementer</item>
+        <item quantity="one">Valgt %1$d element</item>
+    </plurals>
+</resources>

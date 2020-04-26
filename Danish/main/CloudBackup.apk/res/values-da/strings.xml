@@ -49,6 +49,8 @@
     <string name="self_device_second_space">Denne telefons Second space</string>
     <string name="other_device_main_space">First space</string>
     <string name="other_device_second_space">Second space</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
     <string name="size_unknown">Ukendt størrelse</string>
     <string name="recovering">Gendanner %s</string>
@@ -57,6 +59,7 @@
     <string name="start_backup_to_micloud">Sikkerhedskopier apps til Xiaomi Cloud</string>
     <string name="backing_up_to_micloud">Sikkerhedskopierer…</string>
     <string name="restore_from_cloud">Gendan fra cloud-sikkerhedskopi</string>
+    <string name="restore_from_mimover">Overfør fra din gamle enhed ved brug af Mi Mover</string>
     <string name="backup_to_cloud">Sikkerhedskopier app</string>
     <string name="restoring_file_title_no_progress">Gendanner filer…</string>
     <string name="menu_item_sort">Sorter efter</string>
@@ -80,7 +83,7 @@
     <string name="download_settings">Downloader indstillinger for startskærm %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm dd/MM/yyyy</string>
     <string name="recover_home_settings">Gendan indstillinger for startskærm</string>
-    <string name="cancel_recover_settings"><u>Annuller</u></string>
+    <string name="cancel_recover_settings">Annuller</string>
     <string name="recover_settings_description">Hold din enhed tændt</string>
     <string name="recover_miui_settings">Gendan systemindstillinger</string>
     <string name="wait_icon_download">Downloader appikoner</string>
@@ -106,6 +109,7 @@
     <string name="restore_data_summary">Denne funktioner kræver internetforbindelse.</string>
     <string name="query_restore_summary">Fandt en Xiaomi Cloud-sikkerhedskopi til denne enhed. Gendan startskærms-apps og -indstillinger, eller brug den som en ny enhed og slet tidligere Xiaomi Cloud-sikkerhedskopier?</string>
     <string name="restore_home_screen_apps">Gendan fra cloud-sikkerhedskopi</string>
+    <string name="restoring_home_screen_apps">Gendanner fra Xiaomi Cloud…</string>
     <string name="query_restore_description">Gendan startskærms-apps og -indstillinger ved hjælp af denne sikkerhedskopi. Dette vil overskrive appdata for duplikat-apps, der allerede er installeret på denne enhed. Apps, der ikke er inkluderet i sikkerhedskopien, flyttes til den sidste startskærm.</string>
     <string name="restore_from_this_device">Gendan ved brug af denne sikkerhedskopi</string>
     <string name="confirm_cancel_restore_title">Annuller gendannelse?</string>
@@ -132,7 +136,7 @@
     <string name="provision_error_connect_msg">Test netværket og prøv igen. Sikkerhedskopier er ikke tilgængelige, når din enhed er offline.</string>
     <string name="provision_error_connect_title">Kan ikke oprette forbindelse</string>
     <string name="loading_user_backup">Indlæser brugersikkerhedskopier…</string>
-    <string name="loading_progress_num">(%s%%)</string>
+    <string name="loading_progress_num">Indlæst %s%%</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Beregner størrelse…</string>
     <string name="authentication_failed">Kunne ikke bekræfte konto.</string>
@@ -165,7 +169,7 @@
     <string name="cloud_backup">Cloud-sikkerhedskopier</string>
     <string name="open_backup_switch">Tryk på sikkerhedskopieringsknappen</string>
     <string name="restore_cloud_backup_to_phone">Gendan elementer fra skyen</string>
-    <string name="cloud_backup_in_process">Sikkerhedskopierer…</string>
+    <string name="cloud_backup_in_process">Sikkerhedskopierer</string>
     <string name="cloud_backup_in_cancel">Annuller</string>
     <string name="dialog_cancel_backup_title">Annuller den igangværende sikkerhedskopiering?</string>
     <string name="dialog_cancel_backup_msg">Ved at trykke på kontakten afbrydes igangværende sikkerhedskopieringer.</string>
@@ -221,5 +225,6 @@ Kontrollér dine netværksindstillinger og prøv igen."</string>
     <string name="restore_task_unfinished">Kunne ikke gendanne</string>
     <string name="restore_failed_reason_network_error">Netværksfejl. Vent et minut eller to og prøv så igen.</string>
     <string name="restore_failed_reason_disk_space_not_enough">Ikke nok lagerplads. Frigør lagerplads først.</string>
-    <string name="cloud_app_restore_app_and_data">Konfigurer din enhed</string>
+    <string name="storage_unit_mb">%s MB</string>
+    <string name="storage_unit_gb">%s GB</string>
 </resources>

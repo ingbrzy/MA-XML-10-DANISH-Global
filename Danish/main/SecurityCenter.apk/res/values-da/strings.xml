@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="HIPS_Perm_CallLog_Desc">Skriv og slet opkaldshistorik</string>
+    <string name="HIPS_Perm_Call_Desc">Ring direkte til telefonnumre</string>
+    <string name="HIPS_Perm_Contact_Desc">Rediger og slet kontakter</string>
+    <string name="HIPS_Perm_PhoneID_Desc">Få adgang til telefonnummer, IMEI og IMSI</string>
+    <string name="HIPS_Perm_PhoneID_Desc_Q">Få adgang til telefonnummer og enhedsstatus</string>
+    <string name="HIPS_Perm_Read_Call_Log_Desc">Læs opkaldshistorik</string>
+    <string name="HIPS_Perm_Read_Contact_Desc">Læs dine kontakter</string>
+    <string name="HIPS_Perm_Read_SMS_Desc">Læs dine SMS-beskeder</string>
+    <string name="HIPS_Perm_SendSMS_Desc">Send direkte SMS-beskeder</string>
+    <string name="HIPS_Perm_add_voicemail_Desc">Tilføj system-stemmebeskeder</string>
+    <string name="HIPS_Perm_get_accounts_Desc">Tilgå alle konti, der er gemt på enheden</string>
+    <string name="HIPS_Perm_use_sip_Desc">Brug Session Initiation Protocol til at streame video</string>
     <string name="Phonepass">Tillad opkald</string>
     <string name="SMS_and_MMS">SMS og MMS</string>
     <string name="SMSpass">Tillad SMS</string>
@@ -13,16 +25,20 @@
     <string name="ac_enter_applock">Indtast app-lås</string>
     <string name="ac_firstUseApplock_subTitle">Brug bedre sikkerhedsværktøjer på systemniveau</string>
     <string name="ac_firstUseApplock_title">Indstil et adgangskode for at beskytte dine apps</string>
-    <string name="ac_mask_all_apps">Skjul for alle apps</string>
+    <string name="ac_mask_all_apps">Skjul for alle</string>
     <string name="ac_notification_contentText">Tryk for at slå til</string>
     <string name="ac_notification_contentTitle">Beskyt apps med app-lås</string>
     <string name="ac_post_notification_contentText">Få beskyttelse på systemniveau</string>
     <string name="ac_post_notification_contentTitle">Tænd App Lock</string>
     <string name="ac_pre_notification_contentText">Beskyt dine personlige oplysninger</string>
     <string name="ac_pre_notification_contentTitle">Prøv App Lock</string>
+    <string name="ac_recommend_guide_dialog_app_content">Use App lock with this app in order to protect your personal info and avoid data leaks.</string>
+    <string name="ac_recommend_guide_dialog_content">You can protect your personal info and avoid data leaks using App lock.</string>
+    <string name="ac_recommend_guide_dialog_ignore">"Don't show again"</string>
+    <string name="ac_recommend_guide_dialog_open">Turn on</string>
     <string name="ac_summaryOff">Slået fra - der kræves ikke noget adgangskode for at åbne apps</string>
     <string name="ac_summaryOn">Indtast adgangskode for at åbne beskyttede apps</string>
-    <string name="ac_unmask_all_apps">Skjul for alle apps</string>
+    <string name="ac_unmask_all_apps">Vis for alle</string>
     <string name="access_control_app_is_launching">App starter</string>
     <string name="access_control_failed_need_to_unlock_nofingerprint">Indtast adgangskode inden oplåsning med et nyt finderaftryk</string>
     <string name="access_control_fingerprint_not_identified_msg">Kunne ikke læse fingeraftryk.</string>
@@ -126,8 +142,10 @@
     <string name="antivirus_update_btn_contiue">Fortsæt</string>
     <string name="antivirus_update_btn_open">Tillad</string>
     <string name="antivirus_update_btn_update">Opdater</string>
+    <string name="apn_exception_modify_summary">Udbyderens standard-adgangspunkt er ikke brugt eller ændret</string>
     <string name="apn_exception_summary">Kontroller teleudbyders konfigurationer for navn på adgangspunkt</string>
     <string name="apn_exception_title">Kontroller APN-konfigurationer</string>
+    <string name="apn_exception_wap_summary">WAT er ustabil nu. Skift til NET.</string>
     <string name="app_bg_restrict_dialog_message">Begrænsing af netværksforbindelse i baggrunden for denne app kan forhindre den i at virke normalt. For eksempel kan det måske ikke længere modtage beskeder eller opdatere indhold.</string>
     <string name="app_check_no_issue">Det lader til, at der ikke er problemer med batteriet. Fantastisk!</string>
     <string name="app_detail">Oplysninger</string>
@@ -288,6 +306,7 @@ Du vil ikke miste nogen appdata."</string>
     <string name="applock_add_account">Tilføj</string>
     <string name="applock_add_account_info">Tilføj din Mi-konto for at kunne nulstille din adgangskode, hvis du skulle glemme den.</string>
     <string name="applock_add_account_setting">Konto og privatliv</string>
+    <string name="applock_app_recommend_lock_title">Du kan låse følgende apps</string>
     <string name="applock_bind_account_title">Glem adgangskode</string>
     <string name="applock_close_dialog_summary">Alle skjulte apps vil blive synliggjort, deres genveje til hjemmeskærmen vil blive gendannet, og deres App-låseadgangskode vil blive slettet. Slå App-lås fra?</string>
     <string name="applock_close_dialog_title">Slå app-lås fra?</string>
@@ -296,11 +315,29 @@ Du vil ikke miste nogen appdata."</string>
     <string name="applock_face_unlock_title">Ansigtsoplåsning</string>
     <string name="applock_function_base_settings">App-lås</string>
     <string name="applock_function_pwd_settings">Adgangskode</string>
+    <string name="applock_go_to">Indstillinger</string>
+    <string name="applock_guide_open_applock">Slå til</string>
+    <string name="applock_guide_tip1">Du kan få adgang på flere måder. Lås apps op med dit fingeraftryk, ansigt eller indtast adgangskode.</string>
+    <string name="applock_guide_tip1_global">Lås apps op med dit fingeraftryk, ansigt eller indtast adgangskode.</string>
+    <string name="applock_guide_tip1_global_without_face">Lås apps op med dit fingeraftryk eller indtast adgangskode.</string>
+    <string name="applock_guide_tip1_global_without_finger">Lås apps op med dit ansigt eller indtast adgangskode.</string>
+    <string name="applock_guide_tip1_global_without_finger_face">Du kan få adgang på flere måder.</string>
+    <string name="applock_guide_tip1_without_face">Du kan få adgang på flere måder. Lås apps op med dit fingeraftryk eller indtast adgangskode.</string>
+    <string name="applock_guide_tip1_without_finger">Du kan få adgang på flere måder. Lås apps op med dit ansigt eller indtast adgangskode.</string>
+    <string name="applock_guide_tip1_without_finger_face">Du kan få adgang på flere måder.</string>
+    <string name="applock_guide_tip2">Tilføj din Mi-konto for at kunne nulstille din adgangskode.</string>
+    <string name="applock_guide_tip3">Skjul notifikationsindhold.</string>
+    <string name="applock_guide_tip3_global">Skjul notifikationsindhold.</string>
+    <string name="applock_guide_title">Beskyt dit privatliv med app-lås</string>
     <string name="applock_header_text_less_than_half">For lille. Træk lidt mere.</string>
+    <string name="applock_lock_all">Lås alle</string>
     <string name="applock_login_and_add_account">Log på og tilføj</string>
     <string name="applock_not_add_account"><u>Ikke nu</u></string>
     <string name="applock_not_login_account">Du er ikke logget på</string>
+    <string name="applock_set_password_title">Skift adgangskodetype</string>
+    <string name="applock_settings_unlock_all_toast">Lås alle apps op</string>
     <string name="applock_toast_tip">Verificering af applås lykkedes</string>
+    <string name="applock_unlock_all">Lås alle op</string>
     <string name="apps_item_sign_dialog_content">%ss underskrift er forskellig fra versionen i App Store. Slet denne app og installér den officielle version? Bemærk: Installation af en app med en forkert underskrift kan medføre tab af app-data.</string>
     <string name="apps_item_sign_dialog_title">Installer officiel app</string>
     <string name="apps_item_sign_install_button_text">Erstat</string>
@@ -557,6 +594,7 @@ Du vil ikke miste nogen appdata."</string>
     <string name="card_main_private_space_summary">Brug af andet rum er som at have 2 enheder</string>
     <string name="card_main_private_space_title">Andet rum</string>
     <string name="card_main_sectool_title">Værktøjer</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Opret</string>
     <string name="card_main_xspace_summary">Opret to konti til enhver app</string>
     <string name="card_main_xspace_title">Dobbelte apps</string>
@@ -749,6 +787,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="doze_optimization_title">Optimerede berøringskontroller</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-mail</string>
     <string name="empty_app">Ingen apps</string>
     <string name="empty_title_auto_start_list">Ingen apps kan starte automatisk.</string>
@@ -798,7 +837,9 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -1249,6 +1290,7 @@ Teleudbyderen kan opkræve yderligere gebyrer, hvis du anvender mobil dataforbin
     <string name="load_only_under_wlan">Indlæs kun med Wi-Fi</string>
     <string name="loading">Lige et øjeblik…</string>
     <string name="local_ip_exception_summary">Kunne ikke hente lokal IP-adresse. For at rapportere problemet til MIUI gå til Feedback-appen og send en log fra din enhed.</string>
+    <string name="lock_all_title">Lås alle apps</string>
     <string name="lock_mode_title">Låseindstillinger</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s brugt på låseskærm</string>
     <string name="lock_screen_traffic_guide_notification_title">Tryk for at administrere dataforbrug.</string>
@@ -1425,9 +1467,11 @@ svarer"</string>
     <string name="menu_text_antispam">Blokeringsliste</string>
     <string name="menu_text_antivirus">Sikkerhedsscanning</string>
     <string name="menu_text_garbage_cleanup">Renser</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_license_manager">Tilladelser</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -1435,6 +1479,7 @@ svarer"</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_optimize_manage">Boost hastigheden</string>
     <string name="menu_text_power_manager">Batteri &amp; ydeevne</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Fjern fra undtagelser</string>
     <string name="menu_white">Føj til undtagelser</string>
     <string name="mi_service_app_detail">Oplysninger dataforbrug</string>
@@ -1457,6 +1502,11 @@ svarer"</string>
     <string name="more_lock">Mere</string>
     <string name="more_settings">Mere</string>
     <string name="name">Navn</string>
+    <string name="nd_result_button_optimize">Optimer</string>
+    <string name="nd_result_summary_optimize">Prøv at optimere netværksforbindelsen, når den er ustabil</string>
+    <string name="nd_result_title_auxiliary">Netværkskonfiguration</string>
+    <string name="nd_result_title_network">Netværksforbindelse</string>
+    <string name="nd_result_title_optimize">Netværksoptimering</string>
     <string name="net_booster">Boost netværkshastighed</string>
     <string name="net_booster_expire_notification">Sessionen til boost af netværkshastighed er ved at være slut</string>
     <string name="net_booster_overdue_notification">Sessionen til boost af netværkshastighed er ved at være slut</string>
@@ -1537,8 +1587,8 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="notification_garbage_cleanup_title">Ryd uønskede filer</string>
     <string name="notification_mask_summary">Vis ikke notifikationsindhold for beskyttede apps</string>
     <string name="notification_mask_title">Skjul notifikationsindhold</string>
-    <string name="notification_masked_item">Skjul notifikationer</string>
-    <string name="notification_masked_subtitle">Skjul notifikationer fra apps, der er beskyttet med app-lås</string>
+    <string name="notification_masked_item">Hvordan skjuler man meddelelsers indhold?</string>
+    <string name="notification_masked_subtitle">Brug App lock for at skjule meddelelsers indhold for udvalgte apps</string>
     <string name="notification_summary_cmcc_app_check">Tryk for at se oplysninger.</string>
     <string name="notify_channel_mipush">Sikkerheds-pushmeddelelse</string>
     <string name="notify_channel_name_security">Systemsikkerhed</string>
@@ -1600,7 +1650,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="operator_number_unicom">10010</string>
     <string name="optimize_manage_title">Boost hastighed</string>
     <string name="optimize_result_available_memory_info">Tilgængelig hukommelse</string>
-    <string name="optimize_result_button_cloudspace">Tilføj cloudlagerplads</string>
+    <string name="optimize_result_button_cloudspace">Få mere lagerplads i skyen</string>
     <string name="optimize_result_button_consume_power_analysis">Scan batteriet</string>
     <string name="optimize_result_button_cooldown_now">Køl ned</string>
     <string name="optimize_result_button_correct_now">Tilpas</string>
@@ -1695,6 +1745,8 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="percentage">%d%%</string>
     <string name="perfermance_optimization_summary">Undgå overophedning og hardwarerelaterede problemer</string>
     <string name="perfermance_optimization_title">Ydelsesoptimering</string>
+    <string name="permdesc_in_calls">Monitor incoming calls</string>
+    <string name="permdesc_out_calls">Monitor outgoing calls</string>
     <string name="permgroupdesc_calendar">Få adgang til kalenderbegivenheder</string>
     <string name="permgroupdesc_calllog">Få adgang til og gem elementer i opkaldshistorik</string>
     <string name="permgroupdesc_camera">Tag fotos og optag videoer</string>
@@ -1761,6 +1813,11 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_center_dialog_msg_top">Når batteribesparelse er slået til, gennemfører MIUI følgende optimeringer:</string>
     <string name="power_center_hints_scan_danger_result">Du kan løse problemer med batteriet nu</string>
     <string name="power_center_list_item_auto_brightness">Indstil automatisk skærmens lysstyrke</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Slå Bluetooth fra</string>
     <string name="power_center_list_item_deep_save_title">Avancerede indstillinger</string>
@@ -1773,6 +1830,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_center_power_save_summary_text">Øg resterende tid op til %1$dt %2$dm</string>
     <string name="power_center_power_save_title_text">Batteribesparer</string>
     <string name="power_center_repeat">Gentag</string>
+    <string name="power_center_scan_item_title_5g">5G-forbindelse</string>
     <string name="power_center_scan_item_title_GPS">Justér GPS-nøjagtighed</string>
     <string name="power_center_scan_item_title_abnormal">Batteriproblemer</string>
     <string name="power_center_scan_item_title_abnormal_apps">Apps der dræner batteriet</string>
@@ -1803,6 +1861,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_dialog_cancel">Annuller</string>
     <string name="power_dialog_ok">OK</string>
     <string name="power_dialog_super_save_msg">Ultrabatteribesparelse begrænser de mest energiforbrugende funktioner og sænker din enheds præstation for at holde basisfunktionerne (f.eks. opkald, SMS og oprette forbindelse til netværk) tilgængelige længst muligt. Tænd for ultrabatteribesparelse?</string>
+    <string name="power_dialog_super_save_msg_5g">Ultra batterisparer begrænser de funktioner, der bruger mest energi (f.eks. 5G-forbindelse) og mindsker din enheds præstation. Kun opkald, beskeder og netværksforbindelser påvirkes ikke. Tænd for Ultra batterisparer?</string>
     <string name="power_dialog_super_save_title">Ultrabatteribesparelse</string>
     <string name="power_idle">Telefon inaktiv</string>
     <string name="power_main_battery_last_day_hour">%1$s: %2$s timer tilbage</string>
@@ -1814,6 +1873,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_optimize_btn_text_fixed">Optimeret</string>
     <string name="power_optimize_catagory_fixed_title">Optimeret</string>
     <string name="power_optimize_close_app">Luk apps, der bruger for meget strøm</string>
+    <string name="power_optimize_disable_5g">Begrænse 5G-forbindelse</string>
     <string name="power_optimize_disable_app_autostart">Forhindr apps i at åbne automatisk</string>
     <string name="power_optimize_disable_gps">Slå GPS fra</string>
     <string name="power_optimize_disable_start_other_app">Forhindr apps i at åbne andre apps</string>
@@ -1835,7 +1895,8 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_save_on_time_end_time_summary_na">Til</string>
     <string name="power_save_on_time_start_time_summary_na">Fra</string>
     <string name="power_save_ps_clean">Ryd cache, når enheden er låst</string>
-    <string name="power_save_ps_close_setting">Sluk for baggrundstjenester (sync, GPS) for at spare batteri</string>
+    <string name="power_save_ps_close_setting">Sluk for tjenester og funktioner med højt strømforbrug (synkronisering, GPS, haptisk feedback, \"Løft enhed for at vække\", \"Dobbelttryk for at vække eller slukke for skærmen\", \"Vis fingeraftryksikon, når skærmen er slukket\") for at spare batteri</string>
+    <string name="power_save_ps_close_setting_5g">Sluk for tjenester og funktioner med højt strømforbrug (synkronisering, 5G netværksforbindelse, GPS, haptisk feedback, \"Løft enhed for at vække\", \"Dobbelttryk for at vække eller slukke for skærmen\", \"Vis fingeraftryksikon, når skærmen er slukket\") for at spare batteri</string>
     <string name="power_save_ps_freeze">Frys apper i baggrunden</string>
     <string name="power_save_ps_limit">Begræns system-appernes aktivitet</string>
     <string name="power_save_settings">Batteriindstillinger</string>
@@ -1907,6 +1968,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="pref_normal_traffic_limit">Når dataplan er opbrugt</string>
     <string name="pref_open_adjust_traffic">Opdater dataforbrug hver dag med statistik fra din teleudbyder</string>
     <string name="pref_operator_not_set">Teleudbyder ikke indstillet</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Når du går over din dataplan</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_pkg_begin_date">Data for nulstilling af forbrug</string>
@@ -1975,6 +2037,9 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
 
 Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente dennes kalibreringsskabelon."</string>
     <string name="privacy_prompt_upload">Upload</string>
+    <string name="privacyapp_number_masked_text">Meddelelsers indhold er skjult</string>
+    <string name="privacyapp_number_unmasked_text">Meddelelsers indhold kan skjules</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="promotion">Annonce</string>
     <string name="prompt_all">Spørg for alle</string>
@@ -2108,6 +2173,8 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
     <string name="shield_keyboard_detail">Dobbeltklik på knapperne for at tænde dem igen</string>
     <string name="shield_keyboard_summary">Begræns knapper og fuldskærmshåndbevægelser under gaming</string>
     <string name="shield_keyboard_title">Begræns knapper og håndbevægelser</string>
+    <string name="shortcut_title_scan">Scan</string>
+    <string name="shortcut_title_whatsapp_clean">WhatsApp-renser</string>
     <string name="show_system_app">Vis system-apps</string>
     <string name="show_traffic_dialog_message">Info for dit dataforbrug vises i notifikations-skyggen. Du kan til enhver tid slå denne funktion til eller fra i Dataforbrug > Indstillinger.</string>
     <string name="show_traffic_dialog_title">Vis forbrug i notifikations-skygge</string>
@@ -2115,6 +2182,8 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
     <string name="shutdown_cancel_reminder">Slukkede ikke</string>
     <string name="shutdown_cancel_reminder_detail">Enheden slukkede ikke, fordi du var midt i et opkald</string>
     <string name="shutdown_cancel_reminder_detail2">Det ser ud til, at du er i gang med at spille et spil. Planlagt slukning annulleres.</string>
+    <string name="signal_exception_4g_bad_rsrq">Den aktuelle signalmodtagelse er dårlig. Forbindelseshastigheden kan være lav.</string>
+    <string name="signal_exception_none_4g_5g_network">Du bruger 2G/3G mobile netværk. Tilslutningshastigheden kan være lav.</string>
     <string name="signal_exception_summary">Kan ikke forbinde til netværk i dette område.</string>
     <string name="signal_exception_title">Kontroller signalstyrke</string>
     <string name="signed_rule">Regler</string>
@@ -2305,7 +2374,7 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
     <string name="still_retain_btn">Behold</string>
     <string name="stop_milink_connect">Holdt op med at caste</string>
     <string name="suggest_app_tolock">Forslag</string>
-    <string name="suggest_app_tolock_masked">Skjult</string>
+    <string name="suggest_app_tolock_masked">Indhold skjult</string>
     <string name="suggest_app_tolock_unmasked">Synlige notifikationer</string>
     <string name="suggest_scan_again">Fuldfør scanningen for at undgå sikkerhedsrisici.</string>
     <string name="summary_app_lock_disable">Beskyt dine data med app-lås</string>
@@ -2397,8 +2466,8 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
     <string name="system_permission_declare_no_say_no">Hvis du vælger ikke at give os de anmodede tilladelser eller ikke tillader os at indsamle og bruge dine data, vil denne app ikke kunne fungere normalt.</string>
     <string name="system_permission_declare_no_say_no_analytics">Hvis du ikke ønsker at give disse tilladelser, kan du afmelde dig under Indstillinger > Yderligere indstillinger > Fortrolighed > User Experience Program.</string>
     <string name="system_permission_declare_no_say_no_non_mandatory">Hvis du vælger ikke at give os de anmodede tilladelser eller ikke tillader os at indsamle og bruge dine data, vil denne app ikke kunne fungere bare delvist.</string>
-    <string name="system_permission_declare_privacy_declare">Vi vil beskytte dine personlige oplysninger i overensstemmelse med relevante love, regler og fortrolighedspolitikker. Vær opmærksom på, at Sikkerhed skal oprette forbindelse til internettet og kræver følgende tilladelser for at kunne indsamle dine personlige oplysninger:</string>
-    <string name="system_permission_declare_privacy_no_permission">Vær opmærksom på, at Sikkerhed skal oprette forbindelse til internettet og indsamler personlige oplysninger for at kunne tilbyde dig tjenester. Vi vil beskytte dine personlige oplysninger i overensstemmelse med relevante love, regler og fortrolighedspolitikker.</string>
+    <string name="system_permission_declare_privacy_declare">Vi vil beskytte dine personlige oplysninger i overensstemmelse med relevante love, regler og privatlivspolitikker. Vær opmærksom på, at denne app skal oprette forbindelse til internettet og kræver følgende tilladelser for at kunne indsamle dine personlige oplysninger:</string>
+    <string name="system_permission_declare_privacy_no_permission">Vær opmærksom på, at denne app skal oprette forbindelse til internettet og indsamler personlige oplysninger for at kunne tilbyde dig tjenester. Vi vil beskytte dine personlige oplysninger i overensstemmelse med relevante love, regler og privatlivspolitikker.</string>
     <string name="system_permission_declare_privacy_policy">&lt;Data>Læs og bekræft vores &lt;a href=\"%1$s\">Privatlivspolitik&lt;/a>, inden du bruger denne funktion.&lt;/Data></string>
     <string name="system_permission_declare_revoke_system">Du kan afslutte denne app.</string>
     <string name="system_permission_declare_revoke_uninstallable">Du kan logge ud, afinstallere denne app eller tilbagekalde din tilladelse og autorisation i Sikkerhed > Administrer apps > Tilladelser > Tilladelser.</string>
@@ -2406,6 +2475,7 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
     <string name="system_permission_declare_use_network_no_permission">Opret forbindelse til netværket</string>
     <string name="system_permission_declare_user_agreement">&lt;Data>Læs og bekræft vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a>, inden du bruger denne funktion.&lt;/Data></string>
     <string name="system_permission_perm_answer_call">Foretag opkald</string>
+    <string name="system_permission_perm_optional">" (valgfrit)"</string>
     <string name="system_permission_perm_read_mms">Læs MMS</string>
     <string name="system_permission_perm_read_numbers">Læs telefonnumre</string>
     <string name="system_permission_perm_send_mms">Send MMS</string>

@@ -91,7 +91,6 @@
     <string name="description_image_button_four">fire</string>
     <string name="description_image_button_hangup">Slut</string>
     <string name="description_image_button_message_enter">Svar med besked</string>
-    <string name="description_image_button_message_exit">Skjul beskeder</string>
     <string name="description_image_button_nine">ni</string>
     <string name="description_image_button_one">en</string>
     <string name="description_image_button_pound">firkant</string>
@@ -207,4 +206,5 @@
     <string name="wait_prompt_str">"Send de følgende toner?
 "</string>
     <string name="waiting_close_airplane_mode">Lige et øjeblik…</string>
+    <string name="wifi_call">VoWifi-opkald</string>
 </resources>

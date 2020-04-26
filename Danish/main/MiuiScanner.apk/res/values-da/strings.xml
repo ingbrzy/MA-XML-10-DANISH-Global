@@ -41,7 +41,6 @@
     <string name="agree_camera_permission">Til at tage fotos og optage videoer</string>
     <string name="agree_storage_permission">For at få adgang til fotos og filer, der er gemt på din enhed</string>
     <string name="always">Altid</string>
-    <string name="amazon_assistant_shopping_title">Søg på Amazon</string>
     <string name="app_description_content">Scanneren lader dig scanne QR-koder, dokumenter, visitkort og mere. Sørg for, at du kan undvære disse funktioner, inden du afinstallerer appen.</string>
     <string name="app_description_title">Om Scanner</string>
     <string name="app_details">App:</string>
@@ -74,6 +73,7 @@
     <string name="choose_open_code_app">Vælg en app</string>
     <string name="choose_pay_title">Vælg betalingsmetode</string>
     <string name="choose_picture">Vælg QR-kodebillede</string>
+    <string name="choosed_title">Valgt</string>
     <string name="classesNameNull_toast">Klassenavn må ikke være tomt</string>
     <string name="classes_canfirmTitle">Bekræft resultater og begynd import</string>
     <string name="classes_company">Importér</string>
@@ -100,10 +100,16 @@
     <string name="copy_text">Kopiér tekst</string>
     <string name="copy_text_success">Tekst kopieret</string>
     <string name="copy_tracknum">Kopier sporingskode</string>
+    <string name="create">Generér QR-kode</string>
+    <string name="createFail">Kunne ikke generere QR-kode. Din besked er for lang.</string>
+    <string name="createQRCode_hint">Indtast tekst</string>
+    <string name="createQRCode_save">Gem</string>
+    <string name="create_again">Opdatér</string>
     <string name="crop_cancel_description">Annuller</string>
     <string name="crop_done_description">Udført</string>
     <string name="crop_title_study">Beskær billedet</string>
     <string name="crop_title_translation">Vælg tekst at oversætte</string>
+    <string name="delete">Slet</string>
     <string name="document_color_picture">Farve</string>
     <string name="document_color_picture_tip">Konverterer til farve…</string>
     <string name="document_crop_title">Beskær dokument</string>
@@ -158,6 +164,8 @@
     <string name="food_module_title_food">Kalorier</string>
     <string name="got_it">Forstået</string>
     <string name="gps">Naviger</string>
+    <string name="history">Historik</string>
+    <string name="importFailed">Kunne ikke importere</string>
     <string name="import_contact">Importér kontaktperson</string>
     <string name="impunity_declaration_content">Scanneren skal bruge dit kamera og behandle de billeder, du tager, mens du bruger appen. Brug ikke scanneren til at tage billeder af de genstande, der indeholder dine personlige oplysninger. Ved at trykke på \"Acceptér\" accepterer du vores &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">Privatlivspolitik&lt;/a>&lt;/font> og giver scanneren tilladelse til at tilslutte til internettet.</string>
     <string name="impunity_declaration_negative_text">Afslut</string>
@@ -228,6 +236,11 @@
     <string name="recognize">Scan</string>
     <string name="recognize_fail">Kunne ikke læse kode</string>
     <string name="request_server_failed">Kunne ikke oprette forbindelse til serveren</string>
+    <string name="saveDone">Gemt</string>
+    <string name="scanHistory">Scannerhistorik</string>
+    <string name="scanHistory_close">Deaktiver</string>
+    <string name="scanHistory_isOpen">Begynd at tracke historikken for scannede elementers nu?</string>
+    <string name="scanHistory_open">Aktivér</string>
     <string name="scan_result">Resultat</string>
     <string name="scan_support_type">WeChat, Alipay, QR-koder, stregkoder</string>
     <string name="sdk_not_ready">Forbereder SDK. Prøv igen senere.</string>

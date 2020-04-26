@@ -95,6 +95,7 @@ Deaktiver personlige reklamer alligevel?"</string>
     <string name="other_settings_auto_update">Automatiske systemopdateringer</string>
     <string name="other_settings_auto_update_summary">MIUI vælger det bedste tidspunkt til at downloade og installere opdateringer. Din enhed genstartes automatisk, så du kan bruge ændringerne.</string>
     <string name="other_settings_enhanced_lockscreen">Baggrundskarrusel</string>
+    <string name="other_settings_enhanced_lockscreen_for_india">Glance til Mi</string>
     <string name="other_settings_enhanced_lockscreen_privacy_index">Fortrolighedspolitik</string>
     <string name="other_settings_enhanced_lockscreen_summary">Få kuraterede billeder og historier leveret til din Lock-skærm hver dag. %1$s and %2$s</string>
     <string name="other_settings_enhanced_lockscreen_summary_index">Slutbrugerlicensaftale</string>
@@ -160,7 +161,7 @@ Se det valgte tastaturs Fortrolighedspolitik."</string>
     <string name="require_authority_statement">For at give os tilladelse til at tilbyde dig grundlæggende tjenester er du nødt til at give de følgende tilladelser, for at vi kan indsamle dine personlige oplysninger:</string>
     <string name="require_network_authority_statement">For at give os tilladelse til at tilbyde dig grundlæggende tjenester er du nødt til at oprette forbindelse til internettet og give de følgende tilladelser, for at vi kan indsamle dine personlige oplysninger:</string>
     <string name="screen_recording_introduction">Med denne app kan du optage, hvad der sker på din skærm.</string>
-    <string name="security_introduction">Du kan bruge appen til at rydde spam fra din enhed, finde og neutralisere virusser, optimere ydeevnen af spil, spare på batteriet, administrere apps mv.</string>
+    <string name="security_introduction">Du kan bruge denne app til at rydde papirkurven på din enhed, finde og neutralisere virusser, optimere ydeevnen til spil, spare batteri, administrere apps, tilladelser og mere.</string>
     <string name="security_mobile_account_introduction">Til at logge ind og administrere systemkonti</string>
     <string name="service_agreement">Jeg har læst og bekræftet vilkår og betingelser.</string>
     <string name="service_name_album">Galleri</string>
@@ -206,7 +207,7 @@ Se det valgte tastaturs Fortrolighedspolitik."</string>
     <string name="summary_not_set">Ikke indstillet</string>
     <string name="system_navigation_mode">Systemnavigationstilstand</string>
     <string name="terms_of_use">Vilkår og betingelser</string>
-    <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTMLViewer</string>
+    <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTML-fremviser</string>
     <string name="terms_of_use_label">"Læs vores Brugeraftale og Privatlivspolitik og se, hvilke oplysninger vi indsamler, hvordan vi bruger dem, samt hvilke valg du har.
 Du skal acceptere vores Brugeraftale og Privatlivspolitik, inden du kan anvende MIUI.
 %s og Mi-kontokomponenter vil tilslutte til internettet og bede om din placering."</string>

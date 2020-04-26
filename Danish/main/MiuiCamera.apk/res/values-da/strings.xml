@@ -75,6 +75,7 @@
     <string name="ai_scene_mode_use_hint_text">Genkend scener ved hjælp af Al og juster præferencer automatisk</string>
     <string name="ai_scene_top_moon_off">Svag belysning</string>
     <string name="ai_scene_top_tip">Månetilstand</string>
+    <string name="ai_watermark_title">AI-vandmærke</string>
     <string name="audio_focus_exit_button_text">Sluk Audiofokus</string>
     <string name="autozoom_click_hint">Tryk på et objekt for at holde det i fokus, mens det bevæger sig. Hold mindst 3 meters afstand for bedste effekt.</string>
     <string name="autozoom_disabled_hint">Stoppede med at følge objekt i bevægelse</string>
@@ -108,6 +109,7 @@
     <string name="button_fisheye_camera_title">Fiskeøje</string>
     <string name="button_front_camera_title">Tag en selfie</string>
     <string name="button_normal_video_title">Optag video</string>
+    <string name="camcorder_tip_8k_max_video_duration">Du kan optage op til 6 minutter på 8K</string>
     <string name="camera_disabled">Kamera er blevet deaktiveret.</string>
     <string name="camera_error_title">Kamerafejl</string>
     <string name="camera_label">Kamera</string>
@@ -121,14 +123,15 @@
     <string name="camera_snap_mode_title_detail">Tryk for at se oplysninger</string>
     <string name="cannot_connect_camera_once">Kan ikke tilslutte til kamera.</string>
     <string name="cannot_connect_camera_twice">Kan stadig ikke tilslutte til kamera. Prøv at genstarte din enhed.</string>
-    <string name="cannot_connect_camera_volte_call">Videoopkald er i gang. Prøv igen senere.</string>
     <string name="cannot_move_warning_message">Hold enheden stille, når du tager et foto.</string>
     <string name="capture_back_pressed_hint">Tryk igen for at afslutte</string>
+    <string name="ccc_temperature_warning_msg">Din enhed er overophedet. Kamera lukkes om %d sekunder. Dine fotos og videoer gemmes automatisk.</string>
+    <string name="ccc_temperature_warning_title">Enhed er overophedet</string>
     <string name="close_back_flash_toast">Din enhed er overophedet. Kan ikke bruge blitz nu.</string>
     <string name="close_front_flash_toast">Din enhed er overophedet. Kan ikke bruge blitz nu.</string>
     <string name="color_effect_entry_berry">Bær</string>
     <string name="color_effect_entry_blackwhite">S/H</string>
-    <string name="color_effect_entry_classic">Classic</string>
+    <string name="color_effect_entry_classic">Klassisk</string>
     <string name="color_effect_entry_cookie">Cookie</string>
     <string name="color_effect_entry_delicacy">Gourmet</string>
     <string name="color_effect_entry_fade">Fade</string>
@@ -149,6 +152,7 @@
     <string name="color_effect_live_none">Normal</string>
     <string name="color_effect_live_solar">Himmelblå</string>
     <string name="color_effect_live_years">Sepia</string>
+    <string name="color_enhance_mode">Forbedrede farver</string>
     <string name="config_name_group">Gruppeselfie</string>
     <string name="config_name_hht">HHT</string>
     <string name="config_name_magic">Magi</string>
@@ -182,6 +186,12 @@
     <string name="dialog_ok_time">OK (%ds)</string>
     <string name="dirty_tip_toast">Linsen er snavset. Tør den af.</string>
     <string name="do_not_remind_me">Vis ikke igen</string>
+    <string name="document_blackwhite">S/H</string>
+    <string name="document_mode_use_hint_text_body">"Bliv klar til at forbedre
+scannede dokumenter automatisk"</string>
+    <string name="document_mode_use_hint_text_title">Scan dokumenter</string>
+    <string name="document_origin">Original</string>
+    <string name="document_strengthen">Forbedret</string>
     <string name="dual_camera_lens_covered_toast">Linsen er dækket.</string>
     <string name="dual_camera_lowlight_toast">Det ser ud at være for mørkt.</string>
     <string name="dual_camera_too_close_toast">Kameraet er for tæt på objektet.</string>
@@ -192,6 +202,7 @@
     <string name="edit_eyebrow_dye">Øjenbryn</string>
     <string name="edit_face_ruddy">Rødmosset</string>
     <string name="edit_face_slender">Slank</string>
+    <string name="edit_hairline">Hårgrænse</string>
     <string name="edit_jelly_lips">Lipgloss</string>
     <string name="edit_lips">Læber</string>
     <string name="edit_neck">Hals</string>
@@ -237,6 +248,7 @@
     <string name="face_beauty_smart">Smart</string>
     <string name="face_score_info">Score: %.1f</string>
     <string name="fps960_toast">Slowmotionoptagelse vil begynde ved sidste fjerdedel af optagelsen</string>
+    <string name="fragment_tab_name_bokeh">Bokeh</string>
     <string name="front_camera_hint_text_place">"Det er nemmere at tage selfies,
 hvis du roterer din telefon"</string>
     <string name="front_camera_hint_text_rotate">Rotér dit foto</string>
@@ -255,8 +267,16 @@ og så lave et foto, hvor alle ser bedst ud."</string>
     <string name="hint_groupshot_beauty">Kan ikke anvende Forskønnelse på gruppebilleder</string>
     <string name="hint_mimovie">Fotografer i landskabstilstand for den bedste effekt</string>
     <string name="hint_slow_motion">Videoen, du optager, vil blive afspillet langsommere.</string>
+    <string name="hint_subtitle">Dikter undertekster, mens du skyder videoen</string>
+    <string name="hint_subtitle_prompt">Du kan diktere undertekster nu</string>
     <string name="hunt_dual_water_mark">Dobbelte kameravandmærker vil blive påført automatisk.</string>
+    <string name="id_card_mode_hint_back">Scan bagsiden af dit ID</string>
+    <string name="id_card_mode_hint_front">Scan forsiden af dit ID</string>
+    <string name="id_card_mode_use_hint_text_body">"Kombiner begge sider af dit ID i ét billede.
+Udskriv kopien trådløst på A4-papir."</string>
+    <string name="id_card_mode_use_hint_text_title">Scan ID</string>
     <string name="install_confirmed">Installer</string>
+    <string name="kaleidoscope_fragment_tab_name">Kaleidoskop</string>
     <string name="lens_dirty_detected_content">"Det ser ud til, at dit kameras linse er snavsede.
 Rens linsen for at få bedre effekt."</string>
     <string name="lens_dirty_detected_title_back">Linsen på bagkameraet er snavset</string>
@@ -390,9 +410,10 @@ til at se store ud på fotos"</string>
     <string name="moive_frame">Filmramme</string>
     <string name="multi_window_mode_not_supported">Kameraet fungerer ikke med opdelt skærm.</string>
     <string name="network_access_user_notice_agree">Bekræft</string>
-    <string name="network_access_user_notice_message_live_video">&lt;Data>Kamera skal have forbindelse til internettet for at kunne tilbyde effekter, musik og andre funktioner til korte videoer.&lt;br/>&lt;br/>Ved at trykke på Bekræft nedenfor bekræfter du vores &lt;a href =%1$s>Brugeraftale&lt;/a> og &lt;a href =%2$s>Privatlivspolitik&lt;/a> og tillader Kamera at oprette forbindelse til internettet.&lt;/Data></string>
-    <string name="network_access_user_notice_message_sticker">&lt;Data>Kamera skal have forbindelse til internettet for at kunne tilbyde stickere.&lt;br/>&lt;br/>Ved at trykke på Bekræft nedenfor bekræfter du vores &lt;a href =%1$s>Brugeraftale&lt;/a> og &lt;a href =%2$s>Privatlivspolitik&lt;/a> og tillader Kamera at oprette forbindelse til internettet.&lt;/Data></string>
-    <string name="network_access_user_notice_message_voice_caption">&lt;Data>Kamera skal have forbindelse til internettet for at kunne tilbyde funktionalitet til tale-til-tekst-output.&lt;br/>&lt;br/>Ved at trykke på Bekræft nedenfor bekræfter du vores &lt;a href =%1$s>Brugeraftale&lt;/a> og &lt;a href =%2$s>Privatlivspolitik&lt;/a> og tillader Kamera at oprette forbindelse til internettet.&lt;/Data></string>
+    <string name="network_access_user_notice_message_live_video">&lt;Data>Kamera skal have forbindelse til internettet for at kunne tilbyde effekter, musik og andre funktioner til korte videoer.&lt;br/>&lt;br/>Ved at trykke på \"Bekræft\" nedenfor bekræfter du vores &lt;a href =%1$s>Brugeraftale&lt;/a> og &lt;a href =%2$s>Privatlivspolitik&lt;/a> og tillader Kamera at oprette forbindelse til internettet.&lt;/Data></string>
+    <string name="network_access_user_notice_message_mi_live_video">&lt;Data>Velkommen til korte videoer! Vores tjenester skal tilslutte til netværket for at kunne give dig musik og andre funktioner.&lt;br/>&lt;br/>Inden brug af vores tjeneste skal du læse og bekræfte vores &lt;a href =%1$s>Brugeraftale&lt;/a> og &lt;a href =%2$s>Privatlivspolitik&lt;/a> såvel som at tillade appen at tilslutte til internettet.&lt;/Data></string>
+    <string name="network_access_user_notice_message_sticker">&lt;Data>Kamera skal have forbindelse til internettet for at kunne tilbyde stickere.&lt;br/>&lt;br/>Ved at trykke på \"Bekræft\" nedenfor bekræfter du vores &lt;a href =%1$s>Brugeraftale&lt;/a> og &lt;a href =%2$s>Privatlivspolitik&lt;/a> og tillader Kamera at oprette forbindelse til internettet.&lt;/Data></string>
+    <string name="network_access_user_notice_message_voice_caption">&lt;Data>Kamera skal have forbindelse til internettet for at kunne tilbyde funktionalitet til tale-til-tekst-output.&lt;br/>&lt;br/>Ved at trykke på \"Bekræft\" nedenfor bekræfter du vores &lt;a href =%1$s>Brugeraftale&lt;/a> og &lt;a href =%2$s>Privatlivspolitik&lt;/a> og tillader Kamera at oprette forbindelse til internettet.&lt;/Data></string>
     <string name="network_access_user_notice_title">Opretter forbindelse til internettet</string>
     <string name="no_storage">Indsæt SD-kort inden brug af kameraet</string>
     <string name="not_enough_space">SD-kort er fyldt.</string>
@@ -408,6 +429,7 @@ til at se store ud på fotos"</string>
     <string name="parameter_ef_split_description">Du kan trække eksponeringsringen væk fra fokusringen og justere de to parametre separat.</string>
     <string name="parameter_ef_split_title">Separat fokusering og eksponeringsmåling</string>
     <string name="parameter_et_description">Automatisk lukkerhastighed fastslås af kameraets lysmåler. Når du vælger lukkerhastighed manuelt, skal du huske, at jo længere lukkeren er åben, des mere lys får sensoren, hvilket gør billedet lysere.</string>
+    <string name="parameter_et_title">Lukkerhastighed</string>
     <string name="parameter_exposure_description">Denne funktion lader dig kompensere eksponeringen, når du vil gøre dit billede lysere eller mørkere, end måleren foreslår.</string>
     <string name="parameter_exposure_feecback_description">Fremhæv undereksponerede områder med blåt og overeksponerede områder med rødt for at tilpasse eksponeringen.</string>
     <string name="parameter_exposure_feecback_title">Eksponeringsverifikation</string>
@@ -417,7 +439,8 @@ til at se store ud på fotos"</string>
     <string name="parameter_histogram_description">Histogram er en realtidsrepræsentation af eksponering, der viser de mørkeste dele af din scene i venstre side og fortsætter til de lyseste dele i højre side. Den lodrette del af skalaen viser, hvor meget af scenen er lys eller mørk.</string>
     <string name="parameter_histogram_title">Histogram</string>
     <string name="parameter_iso_description">ISO-værdi kan fastslås automatisk af lysmåleren. Du kan ændre værdien manuelt. Husk at højere ISO gør dit kamera mere følsomt over for lys, men giver mere digital støj på billedet.</string>
-    <string name="parameter_lens_description">Du kan skifte mellem flere tilgængelige linser:</string>
+    <string name="parameter_iso_title">ISO-følsomhed</string>
+    <string name="parameter_lens_description">"Du kan skifte mellem flere tilgængelige linser: "</string>
     <string name="parameter_lens_marco">, MACRO (makrolinse)</string>
     <string name="parameter_lens_st">, S-TELE (zoomlinse)</string>
     <string name="parameter_lens_t">, TELE (telefotolinse)</string>
@@ -511,6 +534,7 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_auxiliary_close">Slået fra</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Eksponeringsverifikation</string>
     <string name="pref_camera_auxiliary_focus_peak">Fokusoptimering</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>
@@ -543,22 +567,8 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_delay_capture_entry_audio">Lyd</string>
     <string name="pref_camera_delay_capture_title">Timer</string>
     <string name="pref_camera_device_watermark_title">Enhedsvandmærke</string>
-    <string name="pref_camera_exposuretime_entry_0_5">2s</string>
-    <string name="pref_camera_exposuretime_entry_1000">1/1000s</string>
-    <string name="pref_camera_exposuretime_entry_125">1/125s</string>
-    <string name="pref_camera_exposuretime_entry_15">1/15s</string>
-    <string name="pref_camera_exposuretime_entry_16s">16 s</string>
-    <string name="pref_camera_exposuretime_entry_250">1/250s</string>
-    <string name="pref_camera_exposuretime_entry_30">1/30s</string>
-    <string name="pref_camera_exposuretime_entry_32s">32 s</string>
-    <string name="pref_camera_exposuretime_entry_4">1/4s</string>
-    <string name="pref_camera_exposuretime_entry_4s">4 s</string>
-    <string name="pref_camera_exposuretime_entry_500">1/500 s</string>
-    <string name="pref_camera_exposuretime_entry_60">1/60s</string>
-    <string name="pref_camera_exposuretime_entry_8">1/8s</string>
-    <string name="pref_camera_exposuretime_entry_8s">8 s</string>
-    <string name="pref_camera_exposuretime_entry_auto">AUTO</string>
     <string name="pref_camera_face_info_watermark_title">Føj aldersmærke til fotos</string>
+    <string name="pref_camera_first_tag_tips">Markeret</string>
     <string name="pref_camera_flashmode_entry_auto">Automatisk</string>
     <string name="pref_camera_flashmode_entry_back_soft_light">Blidt lys</string>
     <string name="pref_camera_flashmode_entry_off">Slukket</string>
@@ -624,7 +634,7 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_panoramamode_title">Panorama</string>
     <string name="pref_camera_peak_entry_off">Slukket</string>
     <string name="pref_camera_peak_entry_on">Slå til</string>
-    <string name="pref_camera_peak_title">Fokus topper</string>
+    <string name="pref_camera_peak_title">Fokusoptimering</string>
     <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
     <string name="pref_camera_picturesize_title_simple_mode">Kameraramme</string>
     <string name="pref_camera_portrait_mode_entry_off">Portrættilstand er slukket.</string>
@@ -689,6 +699,8 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_video_duration_entry_120">Ingen begrænsning</string>
     <string name="pref_camera_video_duration_entry_30">30 minutter</string>
     <string name="pref_camera_video_duration_entry_mms">30 sekunder (MMS)</string>
+    <string name="pref_camera_video_tag">Tillad markering af videoer</string>
+    <string name="pref_camera_video_tag_description">Tryk \"Markér\" under optagelse af en video, så du under afspilningen kan gå tilbage til markerede tidspunkter</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Lukker</string>
     <string name="pref_camera_volumekey_function_entry_timer">Lukkernedtælling</string>
     <string name="pref_camera_volumekey_function_entry_volume">Volumen</string>
@@ -707,8 +719,8 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_zoom_mode_entry_macro">MACRO</string>
     <string name="pref_camera_zoom_mode_entry_standard">ALMINDELIG</string>
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
-    <string name="pref_camera_zoom_mode_entry_tele_2X">Tele 2X</string>
-    <string name="pref_camera_zoom_mode_entry_tele_standalone">Tele 5X</string>
+    <string name="pref_camera_zoom_mode_entry_tele_2X">TELE 2X</string>
+    <string name="pref_camera_zoom_mode_entry_tele_standalone">TELE 5X</string>
     <string name="pref_camera_zoom_mode_entry_ultra">ULTRAVIDVINKEL</string>
     <string name="pref_camera_zoom_mode_entry_wide">VID</string>
     <string name="pref_camera_zoom_mode_title">LINSE</string>
@@ -716,6 +728,7 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_zsl_entry_off">Slukket</string>
     <string name="pref_camera_zsl_entry_on">Slå til</string>
     <string name="pref_capture_settings">Kamera</string>
+    <string name="pref_document_mode">Dokumenter</string>
     <string name="pref_face_beauty_title">Forskøn</string>
     <string name="pref_fingerprint_capture_title">Fingeraftryks-lukker</string>
     <string name="pref_front_mirror_entry_auto">Når ansigt er detekteret</string>
@@ -777,13 +790,14 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_video_speed_entry_slow">Langsom</string>
     <string name="pref_video_speed_fast_title">Tidsforsinkelse</string>
     <string name="pref_video_speed_slow_title">Slowmotion</string>
+    <string name="pref_video_subtitle">Undertekster</string>
     <string name="pref_video_time_lapse_frame_interval_entry_10">10X (interval på 0,3 sekunder)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_120">120X (interval på 4 sekunder)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_150">150X (interval på 5 sekunder)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_1800">1800X (interval på 60 sekunder)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">2X (interval på 0,06 sekunder)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_240">240X (interval på 8 sekunder)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_30">30X (interval på 1 sekund)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_30">30X (interval på 1 sekunder)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_300">300X (interval på 10 sekunder)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4">4X (interval på 0,12 sekunder)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_450">450X (interval på 15 sekunder)</string>
@@ -795,6 +809,7 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_watermark_on">Tændt</string>
     <string name="pref_watermark_title">Vandmærke</string>
     <string name="preparing_sd">Kontrolllerer SD-kort…</string>
+    <string name="pro_color_mode">Pro farve</string>
     <string name="recommend_macro_mode">Prøv makrotilstand</string>
     <string name="recommend_portrait">Prøv tilstanden stående format</string>
     <string name="recommend_soft_light_tip">Tænd for blitz</string>
@@ -833,6 +848,10 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sticker_tab1">Nuttet</string>
     <string name="sticker_tab2">Sjov</string>
+    <string name="subtitle_network_exception_tips">Kunne ikke oprette forbindelse til netværket. Kan ikke transkribere nu.</string>
+    <string name="super_eis">Superstabilisering</string>
+    <string name="super_eis_disabled_hint">Superstabilisering er deaktiveret</string>
+    <string name="super_night_hint">Optimerer billede… Hold din enhed roligt.</string>
     <string name="super_night_toast">Hold din telefon stille, mens du tager et foto</string>
     <string name="tap_to_exposure">Tryk for at justere eksponering manuelt</string>
     <string name="tap_to_focus">Tryk for at fokusere</string>
@@ -845,13 +864,17 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="toast_start_audio_capture">Lav en lyd for at tage et billede</string>
     <string name="ubi_focus_capture_fail">Kunne ikke tage foto.</string>
     <string name="ubifocus_capture_warning_message">For at få det bedste resultat bør dit foto indeholde objekter tæt på (mindre end 1 meter fra linsen) og længere væk.</string>
+    <string name="ultra_pixel_108mp">108MP</string>
     <string name="ultra_pixel_32mp">32MP</string>
     <string name="ultra_pixel_48mp">48MP</string>
     <string name="ultra_pixel_64mp">64MP</string>
     <string name="ultra_pixel_photography_close_tip">%s Ultra HD er deaktiveret</string>
     <string name="ultra_pixel_photography_open_tip">%s Ultra HD er aktiveret</string>
-    <string name="ultra_pixel_portrait_hint">HD-portræt</string>
+    <string name="ultra_pixel_portrait_hint">Portræt med lav belysning</string>
     <string name="ultra_pixel_zoom_no_support_tip">Zoom fungerer ikke i %s Ultra HD-tilstand</string>
+    <string name="ultra_tele_use_hint_text_body">"Brug 50X zoom for at indfange fjerne objekter
+mere detaljeret"</string>
+    <string name="ultra_tele_use_hint_text_title">50X zoom</string>
     <string name="ultra_wide_bokeh_close_tip">Fuldkropstilstand slået fra</string>
     <string name="ultra_wide_bokeh_open_tip">Fuldkropstilstand</string>
     <string name="ultra_wide_close_tip">Ultravidvinkeltilstand er deaktiveret</string>
@@ -870,14 +893,27 @@ Vidvinkeltilstand er praktisk, når du ikke kan bevæge dig længere væk fra sc
     <string name="user_notice_identify_summary_format">Inden du bruger kameraet, skal du acceptere vores <a href="http://www.miui.com/res/doc/eula.html?lang=da_DK">Brugeraftale</a>og<a href="http://www.miui.com/res/doc/privacy.html?lang=da_DK">Fortrolighedspolitik</a>. Kameraet skal også have forbindelse til internettet for at fungere normalt. Accepter?</string>
     <string name="user_notice_title">Vilkår og betingelser</string>
     <string name="video_beauty_tip">Smukke videoer</string>
+    <string name="video_beauty_tip_beautification">Beautify</string>
+    <string name="video_beauty_tip_filter">Filtre</string>
+    <string name="video_beauty_tip_portrait_bokeh">Bokeh</string>
     <string name="video_camera_label">Videokamera</string>
     <string name="video_effect_entry_blackwhite">S/H</string>
     <string name="video_effect_entry_bygone">Svunden</string>
+    <string name="video_effect_entry_central">Central</string>
+    <string name="video_effect_entry_color_retention">Farvepop</string>
+    <string name="video_effect_entry_fantasy">Fantasi</string>
     <string name="video_effect_entry_film">Film</string>
     <string name="video_effect_entry_forest">Lund</string>
     <string name="video_effect_entry_holiday">Refleksioner</string>
+    <string name="video_effect_entry_lost">Tabt</string>
+    <string name="video_effect_entry_meet">Møde</string>
+    <string name="video_effect_entry_northern_europe">Nordisk</string>
     <string name="video_effect_entry_polaroid">Polaroid</string>
+    <string name="video_effect_entry_rome">Rom</string>
+    <string name="video_effect_entry_summer_day">Sommer</string>
+    <string name="video_effect_entry_wind_sing">Brise</string>
     <string name="video_reach_size_limit">Størrelsesgrænse nået.</string>
+    <string name="video_tag_flag_title">Markér</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Vis Privatlivspolitik</string>
@@ -889,6 +925,11 @@ Vidvinkeltilstand er praktisk, når du ikke kan bevæge dig længere væk fra sc
 optage og redigere videoer, mens du er på farten"</string>
     <string name="vv_use_hint_text_title">VLOG</string>
     <string name="wait">Lige et øjeblik…</string>
+    <string name="watermark_tab_city">By</string>
+    <string name="watermark_tab_festival">Ferie</string>
+    <string name="watermark_tab_general">Generelt</string>
+    <string name="watermark_tab_scene">Scene</string>
+    <string name="watermark_tab_spots">Site</string>
     <string name="wideselfie_press_shoot_key_to_start">Tryk på udløserknappen</string>
     <string name="wideselfie_result_image_lossless">Kunne ikke lave panoramaoptagelse</string>
     <string name="wideselfie_rotate_slowly">Drej telefonen sidelæns</string>

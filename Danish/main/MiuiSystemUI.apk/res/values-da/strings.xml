@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Skift af operatørnetværk.</string>
     <string name="accessibility_cast_name">Forbindelse oprettet til %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Skærmcasting stoppet.</string>
     <string name="accessibility_cell_data">Mobildata</string>
     <string name="accessibility_cell_data_off">Mobildata slået fra</string>
@@ -312,6 +313,8 @@
     <string name="available_via_carrier">Tilgængelig via %1$s</string>
     <string name="available_via_passpoint">Tilgængelig via %1$s</string>
     <string name="back">Tilbage</string>
+    <string name="band_24G">" (2,4 GHz-båndet)"</string>
+    <string name="band_5G">" (5 GHz-båndet)"</string>
     <string name="battery">Batteri</string>
     <string name="battery_can_use_time">Omtrent %s tilbage</string>
     <string name="battery_detail_charging_summary">Batteribesparer er ikke tilgængelig under opladning</string>
@@ -442,7 +445,7 @@ prøvehastighed"</string>
     <string name="branded_vpn_footer">Netværket kan være overvåget</string>
     <string name="broadcast_tile">Udsendelsesfelt</string>
     <string name="bt_hci_snoop_log">Aktivér Bluetooth HCI-spionlog</string>
-    <string name="bt_hci_snoop_log_summary">Opfang alle Bluetooth HCI-pakker i en fil</string>
+    <string name="bt_hci_snoop_log_summary">Registrer Bluetooth-pakker. (Skift til Bluetooth, når du har ændret denne indstilling)</string>
     <string name="bt_is_off">Bluetooth er slået fra</string>
     <string name="btn_camera">Indtast dit ansigt</string>
     <string name="bugreport_in_power">Genvej til fejlrapport</string>
@@ -773,26 +776,6 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="gxzw_area">Fingeraftryksscanner</string>
     <string name="gxzw_long_press_tip" />
     <string name="gxzw_press_harder">Tryk lidt hårdere</string>
-    <string name="gxzw_quick_open_add_event">Tilføj begivenhed</string>
-    <string name="gxzw_quick_open_add_event_sub">Kalender</string>
-    <string name="gxzw_quick_open_alipay_pay">Betalingskode</string>
-    <string name="gxzw_quick_open_alipay_pay_sub">Alipay</string>
-    <string name="gxzw_quick_open_alipay_scan">Scanner</string>
-    <string name="gxzw_quick_open_alipay_scan_sub">Alipay</string>
-    <string name="gxzw_quick_open_qr_code">QR-kode</string>
-    <string name="gxzw_quick_open_qr_code_sub">Scanner</string>
-    <string name="gxzw_quick_open_search">Søg</string>
-    <string name="gxzw_quick_open_search_sub">Browser</string>
-    <string name="gxzw_quick_open_skip_teach">Spring videovejledning over</string>
-    <string name="gxzw_quick_open_wechat_pay">Betalingskode</string>
-    <string name="gxzw_quick_open_wechat_pay_sub">WeChat</string>
-    <string name="gxzw_quick_open_wechat_scan">Scanner</string>
-    <string name="gxzw_quick_open_wechat_scan_sub">WeChat</string>
-    <string name="gxzw_quick_open_xiaoai_sub">Mi AI</string>
-    <string name="gxzw_quick_open_xiaoai_title1">Sig navnet på den app, du vil åbne</string>
-    <string name="gxzw_quick_open_xiaoai_title2">Sig navnet på den funktion, du vil bruge</string>
-    <string name="gxzw_quick_tip_press">Bliv ved at trykke…</string>
-    <string name="gxzw_quick_tip_slide">Løft ikke fingeren. Stryg for at vælge.</string>
     <string name="gxzw_try_again">Prøv igen</string>
     <string name="gxzw_try_more_again">Prøv igen</string>
     <string name="gxzw_use_password">Brug din adgangskode til at låse op</string>
@@ -915,6 +898,10 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyguard_charging_back_to_lockscreen">Tilbage til låseskærm</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
+    <string name="keyguard_charging_info_data_c">%s ℃</string>
+    <string name="keyguard_charging_info_data_ma">%s mA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%s V</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Drænet</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">I dag %s</string>
@@ -942,6 +929,7 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke læses. Indsæt et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Intet SIM-kort i telefon.</string>
     <string name="keyguard_missing_sim_message_short">Intet SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Netværk er låst</string>
     <string name="keyguard_password_enter_password_code">Indtast adgangskode for at låse op</string>
     <string name="keyguard_password_enter_pin_code">Indtast PIN-kode</string>
@@ -1025,6 +1013,7 @@ Prøv igen om %2$d sekunder."</string>
     <string name="left_keycode">Venstre nøglekode</string>
     <string name="left_nav_bar_button_type">Ekstra venstre knaptype</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Indlæser…</string>
     <string name="local_backup_password_summary_change">Tryk for at ændre eller fjerne adgangkoden for fulde sikkerhedskopier af startskærmen</string>
     <string name="local_backup_password_summary_none">Fulde sikkerhedskopier af startskærmeen ern i øjeblikket ikke beskyttet</string>
@@ -1100,6 +1089,7 @@ et scrollende screenshot"</string>
     <string name="miui_guide_dialog_message">Medielyde (musik, videoer osv.) afspilles stadig i lydløs tilstand. Du kan ændre dette i indstillingerne.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Låst op med Bluetooth-enhed</string>
     <string name="miui_ringer_count_down">Nedtælling</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Lydløs</string>
     <string name="miui_ringer_standard_description">Sluk for ringetoner ved indkommende opkald og notifikationer</string>
     <string name="miui_ringer_total">DND</string>
@@ -1127,12 +1117,14 @@ Du er også forbundet til %3$s, som kan overvåge din personlige netværksaktivi
 
 Kontakt din administrator for flere oplysninger."</string>
     <string name="monitoring_description_ca_cert_settings">Åbn pålidelige brugeroplysninger</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Der er installeret et nøglecenter på denne enhed. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_do_body">Din administrator kan overvåge og administrere indstillinger, firmaadgang, apps, data, der er forbundet med din enhed, samt din enheds placeringsoplysninger.</string>
     <string name="monitoring_description_do_body_vpn">Du har forbindelse til %1$s, som kan overvåge din netværksaktivitet, herunder e-mails, apps og websites.</string>
     <string name="monitoring_description_do_header_generic">Din enhed styres af %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruger %2$s til at styre din enhed.</string>
     <string name="monitoring_description_do_learn_more">Få mere at vide</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din virksomhed har installeret et nøglecenter i din arbejdsprofil. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbejdsprofil er forbundet til %1$s, som kan overvåge din netværksaktivitet, herunder e-mails, apps og websites.</string>
     <string name="monitoring_description_management">"Din enhed administreres af din virksomhed.
@@ -1164,6 +1156,7 @@ Kontakt din administrator for flere oplysninger.
 
 Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Åbn VPN-indstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikater</string>
     <string name="monitoring_subtitle_network_logging">Netværkslogning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1202,6 +1195,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="nav_guide_message">Brug bevægelser til at skjule/vise funktionsknapper.</string>
     <string name="nav_guide_ok">Indstil</string>
     <string name="nav_guide_title">Skjul funktionsknapper</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Intet</string>
     <string name="no_multi_window_app">Ingen apps understøtter splitskærm</string>
     <string name="no_notification_tips">Ingen notifikationer</string>
@@ -1354,7 +1348,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="power_remaining_charging_duration_only">%1$s igen til fuldt opladet</string>
     <string name="power_remaining_duration_only">Omtrent %1$s tilbage</string>
     <string name="power_remaining_duration_only_enhanced">Omtrent %1$s tilbage, afhængig af dit forbrug</string>
-    <string name="power_remaining_duration_only_short">%1$s tilbage</string>
+    <string name="power_remaining_duration_only_short">%1$s</string>
     <string name="power_remaining_duration_only_shutdown_imminent">Telefonen slukker nok snart</string>
     <string name="power_remaining_duration_shutdown_imminent">Telefonen slukker nok snart (%1$s)</string>
     <string name="power_remaining_less_than_duration">Mindre end %1$s tilbage(%2$s)</string>
@@ -1374,6 +1368,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="private_dns_mode_provider">Hostnavn på privat DNS-udbyder</string>
     <string name="private_dns_mode_provider_failure">Kunne ikke tilslutte</string>
     <string name="private_dns_mode_provider_hostname_hint">Indtast hostnavn på DNS-udbyder</string>
+    <string name="process_kernel_label">Android-OS</string>
     <string name="profile_owned_footer">Profilen kan være overvåget</string>
     <string name="prompt_danger">Fare</string>
     <string name="prompt_detecting">Detekterer</string>
@@ -1490,6 +1485,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="quick_settings_wifi_not_connected">Ikke tilsluttet</string>
     <string name="quick_settings_wifi_off_label">Wi-Fi er slået fra</string>
     <string name="quick_settings_wifi_on_label">Wi-Fi er slået til</string>
+    <string name="quick_settings_wireless_label">Reverse trådløs opladning</string>
     <string name="quick_settings_work_mode_label">Arbejdstilstand</string>
     <string name="rapid_charge_mode_tip">Hurtigopladning</string>
     <string name="recent_cannot_dock">Kan ikke bruge delt skærm i Second space</string>
@@ -1575,7 +1571,9 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="screenshot_edit">Redigér</string>
     <string name="screenshot_failed_title">Kunne ikke tage screenshot.</string>
     <string name="screenshot_failed_to_capture_text">Appen eller din virksomhed tillader ikke at tage screenshots</string>
+    <string name="screenshot_failed_to_capture_title">Denne app kan ikke tage screenshots</string>
     <string name="screenshot_failed_to_save_text">Kan ikke gemme screenshot på grund af begrænset lagerplads.</string>
+    <string name="screenshot_failed_to_save_title">Ikke nok lagerplads til nye screenshots</string>
     <string name="screenshot_failed_to_save_unknown_text">Der opstod en fejl, da skærmbilledet blev gemt.</string>
     <string name="screenshot_feedback_txt">Respons</string>
     <string name="screenshot_insert_failed">Kunne ikke indlæse skærmbillede. Tag et nyt og se billedet i Galleri.</string>
@@ -1961,6 +1959,7 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Heksadecimal</string>
     <string name="wapi_yes">Ja</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Opdateret %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tilgangspunkt midlertidig fuldt</string>
     <string name="wifi_auto_sel_wapi_cert">Vælg automatisk</string>
@@ -1984,12 +1983,12 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="wifi_is_off">Wi-Fi er slået fra</string>
     <string name="wifi_limited_connection">Begrænset forbindelse</string>
     <string name="wifi_metered_label">Målt</string>
-    <string name="wifi_no_internet">Kan ikke tilslutte til internettet</string>
+    <string name="wifi_no_internet">Kan ikke tilslutte til nettet</string>
     <string name="wifi_no_internet_no_reconnect">Kan ikke tilslutte til internettet</string>
     <string name="wifi_not_in_range">Ikke inden for rækkevidde</string>
     <string name="wifi_remembered">Gemt</string>
     <string name="wifi_scan_throttling">Wi‑Fi scan reguleringsspjæld</string>
-    <string name="wifi_scan_throttling_summary">Mindsker batteriforbrug &amp; forbedrer netværksydelse</string>
+    <string name="wifi_scan_throttling_summary">Mindsker batteriforbrug og forbedrer netværksydelse</string>
     <string name="wifi_security_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_none">Ingen</string>
@@ -2024,6 +2023,15 @@ Lager med brugeroplysninger er muligvis ikke aktiveret."</string>
     <string name="wireless_charge_reset_device">Opladningen går langsomt. Juster din enhed.</string>
     <string name="wireless_charge_reset_device_detail">Sørg for, at din enheds placering på opladningsbasen er korrekt</string>
     <string name="wireless_charge_stop">Stoppede trådløs opladning</string>
+    <string name="wireless_charging_connected_message">Kan ikke bruge reverse trådløs opladning, når din enhed oplader trådløs.</string>
+    <string name="wireless_charging_low_battery_level_message">Kan ikke bruge reverse trådløs opladning, når batteriet er mindre end 30% opladet.</string>
+    <string name="wireless_charging_ok">Forstået</string>
+    <string name="wireless_charging_saver_cancel">Sluk</string>
+    <string name="wireless_charging_saver_message">Batteribesparelse er tændt nu. Lad reverse trådløs opladning være tilgængelig?</string>
+    <string name="wireless_charging_saver_ok">Behold</string>
+    <string name="wireless_charging_tips_disable">Vis ikke igen</string>
+    <string name="wireless_charging_tips_message">Anbring enheder, der understøtter Qi trådløs opladning (telefoner, tilbehør osv.) på bagsiden af denne enhed.</string>
+    <string name="wireless_charging_tips_title">Reverse trådløs opladning</string>
     <string name="wrong_password">Forkert adgangskode</string>
     <string name="zen_alarm_warning">Du vil ikke høre din næste alarm %1$s</string>
     <string name="zen_alarm_warning_indef">Du vil ikke høre din næste alarm %1$s, medmindre du slår dette fra inden da</string>

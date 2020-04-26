@@ -30,8 +30,12 @@
     <string name="mi_service_app_name">Tjenester og feedback</string>
     <string name="miservice_channel_update_notification_info">\"Tjenester og feedback\" anmoder om data online…</string>
     <string name="miservice_notification_boot_content">Lær mere om, hvad MIUI kan</string>
+    <string name="miservice_notification_huanji_content">Overfør dem ved hjælp af Mi Power</string>
+    <string name="miservice_notification_huanji_title">Har du vigtige elemeter på din gamle telefon?</string>
     <string name="miservice_notification_open_feedback_content">Alle feedback-funktioner er flyttet til den nye app</string>
     <string name="miservice_notification_open_feedback_title">Introducerer \"Tjenester og feedback\"</string>
+    <string name="miservice_notification_scan_content">Brug scanner til et oversætte ord og sætninger</string>
+    <string name="miservice_notification_scan_title">Oversæt i et snuptag</string>
     <string name="miui_feedback_answer_detail_community">Du kan finde svar på dine spørgsmål i Mi Community</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">Ja</string>
     <string name="miui_feedback_answer_detail_feedback_result">Tak for din tilbagemelding!</string>
@@ -46,6 +50,7 @@
     <string name="miui_feedback_edit_add_original_images_dialog_content">Hvis det problem, som du rapporterer, er relateret til kameraets billedkvalitet, tilføj et originalt prøvefoto (ubeskåret) for at hjælpe os med at lokalisere problemet. Tilføj et foto nu?</string>
     <string name="miui_feedback_edit_choose_module">Vælg element</string>
     <string name="miui_feedback_edit_choose_module_hint">Påkrævet</string>
+    <string name="miui_feedback_edit_choose_occurrence_time">Tid</string>
     <string name="miui_feedback_edit_choose_reproductivity">Reproduktivitet</string>
     <string name="miui_feedback_edit_choose_third_app_name">Vælg app-navn</string>
     <string name="miui_feedback_edit_contact_info_hint">Telefonnummer/e-mail</string>
@@ -58,6 +63,7 @@
     <string name="miui_feedback_edit_discard_draft_dialog_title">Afvis udkast?</string>
     <string name="miui_feedback_edit_hint">Rapportér fejl, hver gang du støder på dem, for at hjælpe os med at løse dem hurtigere</string>
     <string name="miui_feedback_edit_hint_gone">Lukket besked</string>
+    <string name="miui_feedback_edit_hint_optional">Vælg</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_cancel">Vent på wi-fi</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_confirm">Upload</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_content">Det ser ud til, at du tilsluttet til et betalingsnetværk. Uploading af logfiler kan medføre yderligere afgifter.</string>
@@ -92,6 +98,7 @@
     <string name="miui_feedback_edit_submit_dialog_not_show_again">Vis ikke igen</string>
     <string name="miui_feedback_edit_submit_dialog_title">Send rapport</string>
     <string name="miui_feedback_edit_submit_directly">Indsend</string>
+    <string name="miui_feedback_edit_title_occurrence_time">Vælg tid</string>
     <string name="miui_feedback_edit_title_reproductivity">Vælg reproduktivitet</string>
     <string name="miui_feedback_edit_toast_description_required">Du skal skrive en beskrivelse</string>
     <string name="miui_feedback_edit_toast_module_required">Vælg element</string>

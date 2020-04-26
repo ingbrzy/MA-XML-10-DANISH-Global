@@ -119,6 +119,7 @@
     <string name="passport_change_phone_number">Skift numre</string>
     <string name="passport_forget_password"><u>Glem adgangskode</u></string>
     <string name="passport_forget_password_no_underline">Glem adgangskode</string>
+    <string name="passport_can_not_receive_verification_code">Kan du ikke modtage verifikationskoden?</string>
     <string name="passport_reg_type_email">E-mailadresse</string>
     <string name="passport_register_by_email"><u>Opret en konto ved brug af e-mailadresse</u></string>
     <string name="passport_international_register_by_email">Opret en konto ved hjælp af en e-mailadresse</string>
@@ -505,7 +506,9 @@ Du kan logge ind på din Mi-konto ved hjælp af %s nu."</string>
     <string name="input_new_pwd">Indtast ny adgangskode</string>
     <string name="confirm_new_pwd">Bekræft ny adgangskode</string>
     <string name="inconsistent_pwd">Adgangskoder er ikke ens</string>
-    <string name="same_new_and_old_pwd">Kan ikke være lig med den aktuelle adgangskode</string>
+    <string name="same_new_and_old_pwd">Den nye adgangskode skal være forskellig fra den gamle</string>
+    <string name="pwd_width_phone_number_or_mail_num">Adgangskoden må ikke indeholde dit telefonnummer, e-mail eller Mi Account-id</string>
+    <string name="risky_pwd_not_allow">Den nye adgangskode er ikke sikker. Indstil en anden.</string>
     <string name="account_security_info_pref_title">Sikkerhedsoplysninger</string>
     <string name="account_bind_settings">Konti</string>
     <string name="account_bind_devices">Enheder</string>
