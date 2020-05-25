@@ -249,5 +249,5 @@
     <string name="toast_only_wifi_download">Opret forbindelse til Wi-Fi for at downloade dette element</string>
     <string name="total_speedup">Hastighedsforøgelse (total)</string>
     <string name="version">Version %s</string>
-    <string name="security_ui_title">Security ads</string>
+    <string name="security_ui_title">Sikkerhedsreklamer</string>
 </resources>

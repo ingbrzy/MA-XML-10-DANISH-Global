@@ -18,8 +18,8 @@
     <string name="activate_feature_verify_mx_token">Mi-kontobekræftelse</string>
     <string name="activate_feature_voip">Mi besked VoIP</string>
     <string name="activate_history_canceled_overview">SIM-kortaktivering blev annulleret. Aktivering udløses af \"%1$s\".</string>
-    <string name="activate_history_multisim_canceled_overview">Aktivering af SIM-kort %2$d blev annulleret. Aktivering udløses af %1$s\".</string>
-    <string name="activate_history_multisim_success_overview">SIM-kort %2$d er nu aktiveret. Aktivering udløses af %1$s\".</string>
+    <string name="activate_history_multisim_canceled_overview">Aktivering af SIM-kort %2$d blev annulleret. Aktivering udløses af \"%1$s\".</string>
+    <string name="activate_history_multisim_success_overview">SIM-kort %2$d er nu aktiveret. Aktivering udløses af \"%1$s\".</string>
     <string name="activate_history_sms">SMS blevet sendt under aktivering.</string>
     <string name="activate_history_success_overview">SIM-kort er nu aktiveret. Aktivering udløses af \"%1$s\".</string>
     <string name="activate_history_title">SIM-kortaktivering</string>

@@ -13,10 +13,23 @@
         <item>Ugedage</item>
         <item>Brugertilpasset</item>
     </string-array>
+    <string-array name="app_behavior_type_menu">
+        <item>Alle poster</item>
+        <item>Autostart</item>
+        <item>Kædestart</item>
+        <item>Bruger tilladelser</item>
+        <item>Sensitive handlinger</item>
+    </string-array>
     <string-array name="applock_password_types">
         <item>Mønster</item>
         <item>PIN</item>
         <item>Adgangskode</item>
+    </string-array>
+    <string-array name="daily_brand">
+        <item>Brugertilpasset</item>
+        <item>Mi Fan-kort</item>
+        <item>Xiao Tiansheng-kort</item>
+        <item>Tencent King-kort</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"I går (mobildata) "</item>
@@ -50,6 +63,18 @@
         <item>"I dag "</item>
         <item>"Denne måned "</item>
     </string-array>
+    <string-array name="debug_open_intercept">
+        <item>Det vil være muligt at få adgang til og redigere filer på din enhed ved hjælp af en computer.</item>
+        <item>Installering af apps på din enhed uden udtrykkelig tilladelse vil være tilladt.</item>
+        <item>Du vil være i stand til at overvåge og optage indholdet på din skærm på afstand.</item>
+        <item>Det vil være muligt at få adgang til de detaljerede oplysninger om din enhed.</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
+    </string-array>
     <string-array name="lock_mode">
         <item>Når enhed er låst</item>
         <item>Når enhed er låst, eller når app afsluttes</item>
@@ -64,9 +89,37 @@
         <item>"Mobilbrug "</item>
         <item>"Wi-Fi-forbrug "</item>
     </string-array>
+    <string-array name="miui_optimization_close_intercept">
+        <item>Vigtigt: Det er muligt, at flere system-apps stopper med at virke korrekt.</item>
+        <item>Tekst-layouts, konti og indhold bliver muligvis ikke vist korrekt.</item>
+    </string-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
+    <string-array name="operate_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
+    <string-array name="operate_memory_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="over_limit_traffic_waring_style">
         <item>Vis advarsel</item>
         <item>Advar og sluk for mobildata</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_settings_thermal_entries">
         <item>Standard</item>
@@ -75,6 +128,24 @@
     <string-array name="pc_settings_thermal_summaries">
         <item>Bruger standard temperaturstyringstilstand</item>
         <item>Prioriter ydeevne</item>
+    </string-array>
+    <string-array name="perm_intercept_notification">
+        <item>Læs alle dine notifikationer, her iblandt indholdet af dine tekstbeskeder og andre elementer, der kan indeholde personlige oplysninger</item>
+        <item>Begræns notifikationstilladelser for nogle apps</item>
+        <item>Simuler tryk på notifikationer og åbn apps</item>
+        <item>Slå DND-tilstanden til og fra</item>
+    </string-array>
+    <string-array name="perm_intercept_statitics">
+        <item>Indsamler data om dine interesser og din adfærd ved at lære, hvilke apps du bruger, og hvor tit du bruger dem.</item>
+        <item>Skaffer sig adgang til dine udbyderrelaterede og sprogindstillinger samt andre oplysninger</item>
+    </string-array>
+    <string-array name="perm_intercept_unknown_source">
+        <item>Tredjeparters apps, der ikke er bekræftet af GetApps, kan give flere problemer og mindske systemets stabilitet.</item>
+        <item>Nogle apps fra tredjeparter kan indeholde malware, som bringer dine personoplysninger i fare.</item>
+    </string-array>
+    <string-array name="priority_storage_entries">
+        <item>Intern lagerplads</item>
+        <item>Ekstern lagerplads</item>
     </string-array>
     <string-array name="roaming_network_type">
         <item>Altid</item>

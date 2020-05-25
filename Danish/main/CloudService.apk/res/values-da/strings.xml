@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Find hjem</string>
+    <string name="abc_action_bar_up_description">Gå op</string>
+    <string name="abc_action_menu_overflow_description">Flere valgmuligheder</string>
+    <string name="abc_action_mode_done">Udfør</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slet</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellemrum</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgsel</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgsel</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="access_denied">Adgang nægtet.</string>
     <string name="account_related">Din enhed er tilknyttet en eksisterende Mi Account(%s). Tilslut til netværket for at verificere enheden.</string>
     <string name="activate_find_device_success">Kan se, at enheden er blevet aktiveret.</string>
@@ -8,7 +35,7 @@
     <string name="add_short_cut">Tilføj</string>
     <string name="added_successfully">Tilføjet</string>
     <string name="antispam_sync">Vil ikke forstyrres-indstillinger</string>
-    <string name="app_name">Skyen</string>
+    <string name="app_name">Xiaomi Cloud</string>
     <string name="bad_authentication">Ugyldig konto eller adgangskode.</string>
     <string name="btn_return">Tilbage</string>
     <string name="button_cancel">Annuller</string>
@@ -24,6 +51,7 @@
     <string name="cloud_storage_default_title">Cloud-lagerplads</string>
     <string name="cloud_storage_info_type_drive">Mi Drive</string>
     <string name="cloud_storage_info_type_duokan">Duokan</string>
+    <string name="cloud_storage_info_type_family">Familie</string>
     <string name="cloud_storage_info_type_others">Andet</string>
     <string name="cloud_storage_info_type_pdc">Systemindstillinger</string>
     <string name="cloud_storage_loading_data">Lige et øjeblik…</string>
@@ -34,20 +62,22 @@
     <string name="confirm_save">Behold</string>
     <string name="connect_network">Tilslut til wi-fi eller indsæt et SIM-kort</string>
     <string name="connect_wlan">Tilslut til wi-fi</string>
+    <string name="copy">Kopiér</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_more_than_two">Denne konto bruges også på en anden enhed. Flet elementerne fra flere apps (herunder %1$s og %2$s) med elementerne på denne enhed?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_one">Denne konto bruges også på en anden enhed. Flet elementerne fra %s med elementerne på denne enhed?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_two">Denne konto bruges også på en anden enhed. Flet elementerne fra %1$s og %2$s med elementerne på denne enhed?</string>
-    <string name="data_merge_dialog_alert_msg_more_than_two">Elementerne fra flere apps (herunder %1$s og %2$s) på denne enhed vil blive flettet med elementerne i skyen. Flet elementer nu?</string>
-    <string name="data_merge_dialog_alert_msg_more_than_two_pad">Elementerne fra flere apps (herunder %1$s og %2$s) på denne enhed vil blive flettet med elementerne i skyen. Flet elementer nu?</string>
-    <string name="data_merge_dialog_alert_msg_one">Elementerne fra %s på denne enhed vil blive flettet med elementerne i skyen. Flet elementer nu?</string>
-    <string name="data_merge_dialog_alert_msg_one_pad">Elementerne fra %s på denne enhed vil blive flettet med elementerne i skyen. Flet elementer nu?</string>
-    <string name="data_merge_dialog_alert_msg_two">Elementerne fra %1$s og %2$s på denne enhed vil blive flettet med elementerne i skyen. Flet elementer nu?</string>
-    <string name="data_merge_dialog_alert_msg_two_pad">Elementerne fra %1$s og %2$s på denne enhed vil blive flettet med elementerne i skyen. Flet elementer nu?</string>
+    <string name="data_merge_dialog_alert_msg_more_than_two">Elementer fra flere kilder, herunder %1$s og %2$s, er gemt i Xiaomi Cloud. Skal de synkroniseres og sammenflettes med elementerne på denne enhed?</string>
+    <string name="data_merge_dialog_alert_msg_more_than_two_pad">Elementer fra flere kilder, herunder %1$s og %2$s, er gemt i Xiaomi Cloud. Skal de synkroniseres og sammenflettes med elementerne på denne enhed?</string>
+    <string name="data_merge_dialog_alert_msg_one">Elementer fra %s er gemt i Xiaomi Cloud. Skal de synkroniseres og sammenflettes med elementerne på denne enhed?</string>
+    <string name="data_merge_dialog_alert_msg_one_pad">Elementer fra %s er gemt i Xiaomi Cloud. Skal de synkroniseres og sammenflettes med elementerne på denne enhed?</string>
+    <string name="data_merge_dialog_alert_msg_two">Elementer fra %1$s og %2$s er gemt i Xiaomi Cloud. Skal de synkroniseres og sammenflettes med elementerne på denne enhed?</string>
+    <string name="data_merge_dialog_alert_msg_two_pad">Elementer fra %1$s og %2$s er gemt i Xiaomi Cloud. Skal de synkroniseres og sammenflettes med elementerne på denne enhed?</string>
     <string name="data_merge_dialog_loading">Verificerer data…</string>
+    <string name="data_merge_dialog_title">Sammenflet elementerne</string>
     <string name="data_protection_title">Beskyt data</string>
     <string name="detect_sim_card">Søger efter SIM-kort</string>
     <string name="disable_find_device_error">\"Kan ikke slukke for Find enhed. \"%1$s</string>
-    <string name="do_not_merge">Flet ikke</string>
+    <string name="do_not_merge">Annuller</string>
     <string name="enable_find_device_error">\"Kan ikke tænde for Find enhed. \"%1$s</string>
     <string name="enable_find_device_success">Kan se, at enheden er tændt.</string>
     <string name="enable_micloud">Log ind for at bruge Xiaomi Cloud</string>
@@ -57,8 +87,12 @@
     <string name="error_network">Kan ikke tilslutte til netværk.</string>
     <string name="error_server">Serverfejl</string>
     <string name="error_unknown">Kan ikke logge ind</string>
+    <string name="expand_button_title">Avanceret</string>
+    <string name="feedback_custom_hint">Beskriv de problemer, du oplever, her. Hvis du giver forslag, vil vi sætte pris på flere oplysninger!</string>
     <string name="find_device">Find enhed</string>
     <string name="find_device_dspt_provision">Hvis du mister din enhed, kan du gå til &lt;font color=#0097FF>%s&lt;/font> for at finde, låse eller nulstille den. Du kan når som helst slå denne funktion til og fra i Indstillinger.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_error_network">Tjek din dataforbindelse og prøv igen.</string>
     <string name="find_device_error_server">Serverfejl</string>
     <string name="find_device_gdpr_prompt">Ved at tænde for Find enheden, accepterer du vores <a href="app://com.miui.cloudservice.gdpr.license"><u>Fortrolighedspolitik</u></a>. Hvis du er nødt til at tilbagekalde autoriseringen, slå denne funktion fra.</string>
@@ -115,6 +149,9 @@
     <string name="menu_add_feedback">Feedback</string>
     <string name="menu_add_short_cut">Opret en genvej på startskærmen</string>
     <string name="merge">Flet</string>
+    <string name="mi_drive_not_publish_toast">Mi Drive bliver snart tilgængelig</string>
+    <string name="mi_drive_summary">Få adgang til dokumenter fra Xiaomi Cloud på flere enheder</string>
+    <string name="mi_drive_title">Mi Drive</string>
     <string name="micloud_alert_dialog_positive">OK</string>
     <string name="micloud_all_sub_1_intl_sms">International SMS vil blive sendt for at aktivere dit SIM-kort. Teleselskabet vil opkræve penge for denne besked.</string>
     <string name="micloud_all_sub_1_sms">En almindelig SMS vil blive sendt for at aktivere dit SIM-kort. Teleselskabet vil opkræve penge for denne besked.</string>
@@ -195,15 +232,18 @@ Lokaliser og lås din enhed, for det tilfælde at den går tabt."</string>
     <string name="micloud_find_device_open_fail">Kunne ikke tænde Find enhed.</string>
     <string name="micloud_find_device_opened">Find enhed tændt</string>
     <string name="micloud_find_device_opened_content">Find din enhed på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_sms_alert">En udgående SMS-besked kan være påkrævet for at aktivere denne service. Dit teleselskab opkræver penge for denne besked. Når du skifter dit SIM-kort, sendes der automatisk en besked til genaktivering af denne funktion.</string>
     <string name="micloud_find_device_verify_button">Genaktivér Find enhed</string>
     <string name="micloud_find_device_verify_close">Sluk Find enhed</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke genaktivere Find enhed.</string>
     <string name="micloud_find_device_verify_progress">Genaktiverer Find enhed…</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Synkroniseringen blev aflyst. Prøv igen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Backup af startskærm</string>
-    <string name="micloud_main_head_menu_cloud_backup_summary">Startskærmlayout, apper og systemindstillinger</string>
-    <string name="micloud_main_head_menu_finddevice_summary">Lokaliser og lås din enhed, hvis den er tabt</string>
+    <string name="micloud_main_head_menu_cloud_backup_summary">Systemindstillinger og layout af startskærm</string>
+    <string name="micloud_main_head_menu_finddevice_summary">Lokaliser og lås din enhed</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Fin enhed er ikke tilgængelig i Second space. Du kan bruge funktionen i First space.</string>
     <string name="micloud_main_head_menu_recycle_bin_summary">Gendan slettede elementer</string>
     <string name="micloud_main_head_menu_recycle_bin_title">Papirkurv</string>
@@ -364,6 +404,7 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="mx_sub_dspt_provision_with_voip">Internetopkald</string>
     <string name="mx_voip_dspt">Mi Voice</string>
     <string name="no_sim">Kunne ikke finde SIM-kort</string>
+    <string name="not_set">Ikke angivet</string>
     <string name="pay_info_dialog_confirm_to_pay">Betal %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Brug resterende Mi-kreditter: %s</string>
     <string name="pay_info_dialog_title">Vælg betalingsmetode</string>
@@ -373,6 +414,7 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="pref_summary_sync_display_photo_on_wifi_only">Synkroniser kontakters profilbilleder, kun når du er tilsluttet et wi-fi-netværk.</string>
     <string name="pref_title_sync_contacts_title">Synkroniser kontakter</string>
     <string name="pref_title_sync_display_photo_on_wifi_only">Brug kun wi-fi til at synkronisere fotos.</string>
+    <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="privacy_and_agreement">Vilkår og betingelser</string>
     <string name="privacy_dialog_finddevice_all_purpose_pad">Velkommen til Find enhed! Du kan bruge denne tjeneste til at finde, låse eller slette data på din enhed, hvis du mister den.</string>
     <string name="privacy_dialog_finddevice_all_purpose_phone">Velkommen til Find enhed! Du kan bruge denne tjeneste til at finde, låse eller slette data på din enhed, hvis du mister den.</string>
@@ -394,6 +436,7 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="search_finddevice_pref_desc">Slå Find enhed til/fra</string>
     <string name="search_finddevice_pref_key_words">findenhed, find enhed</string>
     <string name="search_finddevice_pref_path">M-Konto/Xiaomi Cloud/Find enhed</string>
+    <string name="search_menu_title">Søg</string>
     <string name="share_cancel">Dele annulleret.</string>
     <string name="share_failed">Kunne ikke dele.</string>
     <string name="share_miliao_not_installed">Mi Talk er ikke installeret.</string>
@@ -404,16 +447,21 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="soundrecorder_sync_only_in_wifi">Brug kun wi-fi til synkronisering</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">Optageren vil ikke bruge mobildata for at downloade eller uploade optagelser.</string>
     <string name="soundrecorder_sync_records">Synkroniser med Xiaomi Cloud</string>
+    <string name="special_func_title">Specielle funktioner</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_manage_expansion">Få mere</string>
     <string name="storage_manage_list_title">Cloud-data</string>
     <string name="storage_manage_list_title_action">Se mere</string>
     <string name="storage_manage_renewal">Forny</string>
     <string name="storage_manage_title">Skift cloud-lagerplan</string>
     <string name="storage_manage_upgrade">Opgrader</string>
+    <string name="storage_upgrade_card_summary">Få mere lagerplads i skyen</string>
+    <string name="storage_upgrade_card_title">Opgrader din plan</string>
     <string name="sub_alert_notif_content">Tænd for Xiaomi Cloud</string>
     <string name="sub_alert_notif_title">Synkroniser med Xiaomi Cloud</string>
     <string name="sub_sync_item_sms_summary">Synkroniser beskeder med billeder, audio eller anden media, kun når du er tilsluttet til et wi-fi-netværk.</string>
     <string name="sub_sync_item_sms_title_wifi_only">Brug kun wi-fi til at synkronisere MMS</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sync_detail_summary_master_sync_off">Synkronisering er slået fra</string>
     <string name="sync_detail_summary_off">Synkronisering er slået fra</string>
     <string name="sync_detail_text">Synkroniseringsoplysninger</string>
@@ -426,6 +474,8 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="sync_dspt_entrance_provision_network">Denne app er nødt til at tilslutte til internettet for at fungere normalt. Synkronisering af data kan kræve mobildataforbindelse, og at wi-fi er tændt.</string>
     <string name="sync_dspt_entrance_provision_skip">Spring dette trin over</string>
     <string name="sync_dspt_provision">Synkroniser dine fotos, kontakter, noter og mere på tværs af alle dine enheder eller få adgang til dem på</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan når som helst slå denne funktion til og fra i Indstillinger.
 "</string>
     <string name="sync_item_calllog_summary">Synkroniser alle optagelser, der er blevet lavet og modtaget på denne telefon.</string>
@@ -450,11 +500,13 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="title_reg">Opret Mi Account</string>
     <string name="trying_to_connect_to_network">Tilslutter til netværket…</string>
     <string name="user_agreement_content">Ved at bruge denne service accepterer du %s.</string>
-    <string name="user_agreement_link">Xiaomii Clouds servicevilkår</string>
+    <string name="user_agreement_link">Xiaomi Clouds servicevilkår</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_title">Xiaomii Clouds servicevilkår</string>
+    <string name="user_agreement_title">Xiaomi Clouds servicevilkår</string>
     <string name="user_storage_info_available_text_prefix">%s tilgængelig</string>
+    <string name="v7_preference_off">FRA</string>
+    <string name="v7_preference_on">TIL</string>
     <string name="waiting_for_sync">Venter…</string>
     <string name="warning_bar_action_add_short_cut">Tilføj</string>
     <string name="warning_bar_action_close">Luk</string>
@@ -475,6 +527,6 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="wipe_data_dialog_title">Nogle enheder er ikke blevet synkroniseret</string>
     <string name="wipe_data_query_progress_title">Kontrollerer…</string>
     <string name="wipe_secret_photo_dialog_title">Skjulte fotos er ikke synkroniserede.</string>
-    <string name="xiaomi_cloud_service">Skyen</string>
+    <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="xiaomi_cloud_service_subtitle">Alle vigtige elementer på samme sted.</string>
 </resources>

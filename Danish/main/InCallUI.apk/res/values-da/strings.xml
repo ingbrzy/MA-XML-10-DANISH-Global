@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="ai_assistant">Smart-opkald</string>
+    <string name="ai_assistant_not_installed">Installer AI Call Assistant først</string>
     <string name="antispam_local_marked">Markeret lokalt</string>
     <string name="antispam_notification_title">Ukendt nummer</string>
     <string name="antispam_provider">Identificeret af %s</string>
@@ -50,14 +52,10 @@
     <string name="can_not_use">Kan ikke anvende</string>
     <string name="cancel">Annuller</string>
     <string name="card_title_answering">Besvarer opkald</string>
-    <string name="card_title_answering_time_out">Kunne ikke besvare opkald, prøv igen.</string>
     <string name="card_title_call_ended">"Opkald afsluttet "</string>
     <string name="card_title_conf_call">Konferenceopkald</string>
     <string name="card_title_dialing">Ringer op</string>
     <string name="card_title_hanging_up">"Afslutter "</string>
-    <string name="card_title_hanging_up_fail">Kunne ikke afslutte opkald, prøv igen.</string>
-    <string name="card_title_hanging_up_restart">Kan ikke afslutte opkald. Genstart din enhed.</string>
-    <string name="card_title_hanging_up_weak_signal">Svagt mobilsignal. Afslutter opkald…</string>
     <string name="card_title_in_call">Opkald i gang</string>
     <string name="card_title_in_call_short">Opkald i gang</string>
     <string name="card_title_in_video">Video</string>
@@ -117,6 +115,8 @@
     <string name="dialpad_zero">0</string>
     <string name="do_not_support_video_calls_by_remote">Videoopkald understøttes ikke på den anden enhed</string>
     <string name="emergency_call_dialog_number_for_display">Nødnummer</string>
+    <string name="enter_ai_assistant">Brug</string>
+    <string name="enter_ai_assistant_tip">Hvis du ikke kan tale, kan du bruge AI Call Assistant til at konvertere dine beskeder til tale under dette opkald. Brug AI Call Assistant?</string>
     <string name="inCallLabel">Telefon</string>
     <string name="incall_bubble_hangup_click_hint">Tryk igen for at komme tilbage til opkald</string>
     <string name="incall_call_type_label_sip">Internetopkald</string>

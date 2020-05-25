@@ -28,6 +28,10 @@
         <item quantity="other">Dit indhold indeholder elementer (%1$s), der overtræder vores fællesskabsstandarder. Din konto er suspenderet i %2$d dage indtil %3$s.</item>
         <item quantity="one">Dit indhold indeholder elementer (%1$s), der overtræder vores fællesskabsstandarder. Din konto er suspenderet i %2$d dag indtil %3$s.</item>
     </plurals>
+    <plurals name="notification_close_tip">
+        <item quantity="other">Denne funktion deaktiveres i %s dage</item>
+        <item quantity="one">Denne funktion deaktiveres i %s dag</item>
+    </plurals>
     <plurals name="ovp_detail_v_video_count">
         <item quantity="other">%d videoer</item>
         <item quantity="one">%d video</item>

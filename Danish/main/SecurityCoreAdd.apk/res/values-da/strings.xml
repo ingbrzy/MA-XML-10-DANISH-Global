@@ -6,6 +6,33 @@
 Beskeder vises kun i Andet rum."</string>
     <string name="PrivacyContactDes2">"Hvis du brugte private beskeder i Første rum,
 føjes denne funktion automatisk til Andet rum."</string>
+    <string name="abc_action_bar_home_description">Find hjem</string>
+    <string name="abc_action_bar_up_description">Gå op</string>
+    <string name="abc_action_menu_overflow_description">Flere valgmuligheder</string>
+    <string name="abc_action_mode_done">Udfør</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slet</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellemrum</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgsel</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgsel</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="about_ent_mode">Om Enterprisetilstand</string>
     <string name="activate_ent_mode">Aktivér Enterprisetilstand</string>
     <string name="add_finger_print">Tilføj fingeraftryk</string>
@@ -61,6 +88,7 @@ føjes denne funktion automatisk til Andet rum."</string>
 for at kunne se dem når som helst"</string>
     <string name="contact_us">Kontakt os</string>
     <string name="continueButton">Fortsæt</string>
+    <string name="copy">Kopiér</string>
     <string name="createANewSpace">Opret et separat rum på din telefon.</string>
     <string name="createUserFail">Kunne ikke oprette</string>
     <string name="create_app_icon_failed">Kunne ikke oprette ikon</string>
@@ -149,6 +177,7 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="err_unknown">Ukendt fejl</string>
     <string name="err_volume_not_enough">Ikke nok lagerplads</string>
     <string name="exit_private_space">Skift</string>
+    <string name="expand_button_title">Avanceret</string>
     <string name="experience_more_features">Tilføj en enhed for at se alle funktioner</string>
     <string name="facebook_login">Log på med Facebook</string>
     <string name="facebook_send">Del på Facebook</string>
@@ -174,10 +203,10 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="greenguard_child_des_title">Scan QR-kode for at tilføje enhed</string>
     <string name="greenguard_functional_description">"Fjernbetjen enheder, se info om placeringer,
 styr installerede apper og begræns adgangen"</string>
-    <string name="greenguard_install_cancle">No thanks</string>
-    <string name="greenguard_install_confirm">Install</string>
-    <string name="greenguard_install_message">"Family Guard is a system app. You don't need internet to install it."</string>
-    <string name="greenguard_install_title">Install Family Guard</string>
+    <string name="greenguard_install_cancle">Nej tak</string>
+    <string name="greenguard_install_confirm">Installer</string>
+    <string name="greenguard_install_message">Family Guard er en system-app. Du behøver ikke internettet for at installere den.</string>
+    <string name="greenguard_install_title">Installer Family Guard</string>
     <string name="greenguard_parent_des">Styr dine venners og din families enheder</string>
     <string name="greenguard_parent_des_title">Brug Kite Guard til at tilføje enheder</string>
     <string name="guide_contact_sub_title_desc">"Kontakter, der føjes til Andet rum, vil være private.
@@ -223,6 +252,7 @@ Du kan også downloade dem separat."</string>
     <string name="master_clear_apply_step_2">Sørg for, at du har sikkerhedskopieret alle vigtige elementer til din computer. Når du trykker på \"OK\", udføres en fabriksnulstilling på din enhed, som permanent fjerner alle filer og data, herunder konti, kontaktpersoner, fotos og apps.</string>
     <string name="master_clear_apply_title">Bemærk</string>
     <string name="master_clear_not_available">Fabriksnulstilling er begrænset af din virksomhed.</string>
+    <string name="master_clear_not_available_ep">Du har ikke tilladelse til at udføre fabriksnulstilling eller til at tilbagekalde din autorisation nu. Kontakt din tilsynsførende.</string>
     <string name="menu_item_about_privacy_title">Privatlivspolitik</string>
     <string name="messageData">Beskeder</string>
     <string name="more_settings">Mere</string>
@@ -240,6 +270,7 @@ Du kan også downloade dem separat."</string>
     <string name="next_setp">Næste</string>
     <string name="no_match_repate_scanner">Kunne ikke finde matchende fingeraftryk. Scan igen</string>
     <string name="normal_app">Første rum</string>
+    <string name="not_set">Ikke angivet</string>
     <string name="not_support_air_space">Denne funktion understøttes ikke på din telefon</string>
     <string name="not_support_multiple_users">Flere rum understøttes ikke</string>
     <string name="notificationSetPassword">Indstil kodeord</string>
@@ -262,6 +293,7 @@ Du kan også downloade dem separat."</string>
     <string name="passwordProtect">Adgangskode</string>
     <string name="please_diff_finger_print">"Sørg for, at der bruges forskellige fingeraftryk i Første rum og Andet rum.
 I modsat fald vil ikke muligvis ikke være i stand til at åbne Andet rum fra låseskærm."</string>
+    <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="privacyContactsSummary">Vis private elementer i Andet rum</string>
     <string name="privacyContactsTitle">Private beskeder og kontakter</string>
     <string name="privacy_password_fingerprint_dialog_message">Placer fingeren på sensoren</string>
@@ -312,6 +344,7 @@ Hvis du ikke opdaterer, vil dobbelte apps muligvis ikke fungere korrekt."</strin
 Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string>
     <string name="sdcradfs_dialog_in_sec_title">Vigtig opdatering</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
+    <string name="search_menu_title">Søg</string>
     <string name="search_result_text">Kunne ikke finde nogen apps</string>
     <string name="secondSpace">Andet rum</string>
     <string name="second_owner_finger_print">Fingeraftryk til Andet rum</string>
@@ -392,6 +425,7 @@ for at åbne Andet rum fra låseskærmen"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_xspace_alert_content">Slet alle dobbelte apper og deres konti og app-data? Din enhed genstartes for at ændingen overtages.</string>
     <string name="stop_xspace_alert_title">Slet konti for dobbelte apper</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_switch_apps_settings">Vælg apps, der bruges i det aktuelle rum</string>
     <string name="support_desc">Sikkerhedstjenester tilbudt af Spaces Mobile</string>
     <string name="sure_to_use">Bekræft</string>
@@ -441,6 +475,8 @@ for at åbne Andet rum fra låseskærmen"</string>
     <string name="undo_success">Tilbagekaldt</string>
     <string name="use_google_open">Våg vha. Google Assistant</string>
     <string name="use_xiaoai_open">Våg vha. Mi Al</string>
+    <string name="v7_preference_off">FRA</string>
+    <string name="v7_preference_on">TIL</string>
     <string name="wating">Lige et øjeblik…</string>
     <string name="weibo_send">Send til Weibo</string>
     <string name="weixin_pay">WeChat Pay</string>
@@ -460,6 +496,8 @@ for at åbne Andet rum fra låseskærmen"</string>
     <string name="xspace_description">"Dobbelte apps er appkopier, der kan bruges separat med en anden konto.
 
 Visse dobbelte apps kræver understøttelse af Google Services Framework I dette tilfælde oprettes dobbelt Google Services Framework."</string>
+    <string name="xspace_disable">Ikke oprettet</string>
+    <string name="xspace_enable">Oprettet</string>
     <string name="xspace_facebook_title">Facebook</string>
     <string name="xspace_guide_des">Brug 2 konti uden at skifte</string>
     <string name="xspace_guide_title">Opret en dobbelt app</string>
@@ -472,9 +510,12 @@ Visse dobbelte apps kræver understøttelse af Google Services Framework I dette
     <string name="xspace_introduce">Anbefalet</string>
     <string name="xspace_label">Dobbelte apps</string>
     <string name="xspace_loading_msg">Indlæser apps…</string>
+    <string name="xspace_notification">Dual app-notifikationer</string>
+    <string name="xspace_notification_error">Log ind på dual WeChat og prøv igen</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Slet konti for dobbelt-apps</string>
     <string name="xspace_setting_label">Indstillinger for dobbelt app</string>
+    <string name="xspace_settins">Indstil</string>
     <string name="xspace_uninstall_completed">Dobbelt app er nu afinstalleret</string>
     <string name="xspace_uninstall_dialog_content">Afinstallation af dobbelte app vil fjerne alle appdata.</string>
     <string name="xspace_uninstall_dialog_title">Afinstaller dobbelt app</string>

@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Find hjem</string>
+    <string name="abc_action_bar_up_description">Gå op</string>
+    <string name="abc_action_menu_overflow_description">Flere valgmuligheder</string>
+    <string name="abc_action_mode_done">Udfør</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slet</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellemrum</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgsel</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgsel</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="about_extreme_mode">Extreme-batterisparer</string>
     <string name="about_hide_mode">Om app-batteribesparer</string>
     <string name="active_classify">Sortér efter aktivitetsstatus</string>
@@ -15,9 +42,6 @@
     <string name="atrace_start">Optager atrace-logfil…</string>
     <string name="base_info">Basisoplysninger</string>
     <string name="cloud_addr_info">Cloudoplysninger</string>
-    <string name="cloud_china_addr">Opdater kinesiske serverdata</string>
-    <string name="cloud_international_addr">Opdaterer internationale serverdata</string>
-    <string name="cloud_staging_addr">Opdaterer midlertidige serverdata</string>
     <string name="config_classify">Sortér efter app-indstillinger</string>
     <string name="config_description">MIUI kan identificere apps med specifikke baggrundsprocesser (f.eks. besked- og navigations-apps, medieafspillere), og anvende batteribesparer således, at den ikke påvirker vigtig baggrundsaktivitet.</string>
     <string name="config_mode_title">Baggrundsindstillinger</string>
@@ -33,10 +57,11 @@
 Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="config_suggest_suffix_title">Batteribesparer (anbefales)</string>
     <string name="confirm">OK</string>
-    <string name="current_cloud_addr_is">Serveradresse til cloudstyring er:</string>
+    <string name="copy">Kopiér</string>
     <string name="empty_title_apps_container_list">Ingen apps</string>
     <string name="enable_sleep_mode">Tænd sovetilstand for at optimere batteriforbruget om natten</string>
     <string name="error_filename_too_long">Det filnavn, du har indtastet, er for langt.</string>
+    <string name="expand_button_title">Avanceret</string>
     <string name="extreme_add_white_list_summary">Tilføj op til 4 apps</string>
     <string name="extreme_add_white_list_title">Baggrundsundtagelser</string>
     <string name="extreme_mode_max_item_alert">Du kan vælge op til 4 apps til at køre i baggrunden, når Extreme-batterisparer er tændt</string>
@@ -60,6 +85,7 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="message_i_know">Forstået</string>
     <string name="nonui_mode_config_description">Lys ikke skærmen op med notifikationer, slå LED-lys, fingeraftrykssensor og berøringskontroller fra for at spare batteri, når MIUI registrerer, at du ikke bruger enheden.</string>
     <string name="nonui_mode_config_title">Ikke-interaktiv tilstand</string>
+    <string name="not_set">Ikke angivet</string>
     <string name="notification_exit_extreme_mode_text">Batteri er mere end %s opladet</string>
     <string name="notification_exit_extreme_mode_title">Slog Extreme-batterisparer fra</string>
     <string name="notification_open_extreme_mode_text">Slog Extreme-batterisparer til</string>
@@ -90,11 +116,13 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="power_mode">Strømindstillinger</string>
     <string name="power_usage">Strømforbrug</string>
     <string name="pref_config_title">Ydelsesoptimering</string>
+    <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="privacy">Fortrolighedspolitik</string>
     <string name="scenario_policies_summary">Anvend forskellige strømbesparelsesstrategier til forskellige scenarier.</string>
     <string name="scenario_policies_title">Smarte scenarier</string>
     <string name="scenario_policies_warmcontrol">Temperaturstyring</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
+    <string name="search_menu_title">Søg</string>
     <string name="search_result_text">Kunne ikke finde nogen apps</string>
     <string name="show_system_app">Vis system-apps</string>
     <string name="sleep_config_enhance_description">Når MIUI registrerer, at du sover, vil den lukke baggrunds-apps, begrænse NFC, Bluetooth, GPS, mobildata og Wi-Fi-forbrug og vil ikke lyse op med notifikationer på skærmen.</string>
@@ -105,9 +133,11 @@ Batteribespareren vil behandle vigtige apps selektivt."</string>
     <string name="sleepmode_privacy_content">Denne funktion vil bruge din telefons system og enhedsoplysninger. Den vil ikke blive opladet til vores servere.</string>
     <string name="sleepmode_privacy_link">Se mere om privatliv og sikkerhed</string>
     <string name="sleepmode_privacy_title">Sovetilstand</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sucess">Udført</string>
-    <string name="update_profile_failture_not_connect_wifi">Kunne ikke opdatere. Opret forbindelse til Wi-Fi og prøv igen.</string>
-    <string name="update_profile_sucess">Opdateret fra serveren</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="v7_preference_off">FRA</string>
+    <string name="v7_preference_on">TIL</string>
     <string name="vip_feedback">VIP-feedback</string>
     <string name="vip_feedback_enable">Slå VIP-feedback til</string>
     <string name="warm_configure">Indstillinger for temperaturstyring</string>

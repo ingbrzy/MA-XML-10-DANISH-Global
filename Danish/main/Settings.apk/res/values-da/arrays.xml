@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="aggregate_entries">
+        <item>Gruppe</item>
+        <item>Gruppér og mindsk prioritet</item>
+        <item>Gruppér ikke</item>
+    </string-array>
+    <string-array name="aggregate_summaries">
+        <item>Salgsfremmende og indholdsrelaterede push-meddelelser grupperes</item>
+        <item>Push-meddelelser grupperes og vises under andre notifikationer</item>
+        <item>Push-meddelelser grupperes ikke</item>
+    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
@@ -771,6 +781,31 @@
         <item>Paramaribo</item>
         <item>Quito</item>
     </string-array>
+    <array name="click_bottom">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom08</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="color_mode_descriptions">
         <item>Udvidede farver</item>
         <item>Naturlige farver som set med øjet</item>
@@ -910,6 +945,36 @@
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
     </string-array>
+    <string-array name="input_method_function_des">
+        <item>@string/input_method_function_voice_des</item>
+        <item>@string/input_method_function_xiaoai_des</item>
+        <item>@string/input_method_function_switch_des</item>
+        <item>@string/input_method_function_clipboard_des</item>
+        <item>@string/input_method_function_no_function_des</item>
+    </string-array>
+    <array name="input_method_function_icons">
+        <item>@drawable/input_method_voice_function_selector</item>
+        <item>@drawable/input_method_xiaoai_function_selector</item>
+        <item>@drawable/input_method_switch_function_selector</item>
+        <item>@drawable/input_method_clipboard_function_selector</item>
+        <item>@drawable/input_method_no_function_selector</item>
+    </array>
+    <string-array name="input_method_function_title">
+        <item>@string/input_method_function_voice</item>
+        <item>@string/input_method_function_xiaoai</item>
+        <item>@string/input_method_function_switch</item>
+        <item>@string/input_method_function_clipboard</item>
+        <item>@string/input_method_function_no_function</item>
+    </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
+    </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>Væk ikke skærmen</item>
         <item>Væk skærm</item>
@@ -953,6 +1018,43 @@
         <item>Efter 5 minutter</item>
         <item>Aldrig</item>
     </string-array>
+    <array name="long_press">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Kort</item>
         <item>Mellem</item>
@@ -987,12 +1089,12 @@
         <item>Lilla</item>
     </string-array>
     <string-array name="miui_entries_font_size">
+        <item>XS</item>
         <item>S</item>
         <item>M</item>
         <item>L</item>
         <item>XL</item>
         <item>XXL</item>
-        <item>XXXL</item>
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP og ældre</item>
@@ -1020,6 +1122,14 @@
         <item>Få adgang til monteret enhed: mtpfs /media/mtp via Filhåndtering; samme som lokal mappe.</item>
         <item>"Afinstaller enhed: fusermount -u /media/mtp
 Note: Only for Ubuntu 8.04!"</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
     </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
@@ -1121,6 +1231,97 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Enkelt mikrofon støjundertrykkelse</item>
         <item>Dobbelt mikrofon støjundertrykkelse</item>
     </string-array>
+    <array name="power_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_double_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_long_press">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
     <string-array name="power_mode_entries">
         <item>Præstation</item>
         <item>Balanceret</item>
@@ -1238,6 +1439,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Mættet</item>
         <item>Standard</item>
     </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
+    </string-array>
     <string-array name="screen_resolution_text">
         <item>2K</item>
         <item>1080p</item>
@@ -1305,6 +1511,10 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Tegn ikke-rektangulært klipområde i blåt</item>
         <item>Fremhæv testede tegnekommandoer med grønt</item>
     </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
+    </string-array>
     <string-array name="silent_mode_duration_text">
         <item>Altid</item>
         <item>30 minutter</item>
@@ -1331,6 +1541,31 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
         <item>0</item>
     </string-array>
+    <array name="three_drop">
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop02</item>
+        <item>@drawable/threedrop03</item>
+        <item>@drawable/threedrop04</item>
+        <item>@drawable/threedrop05</item>
+        <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12-timers 1:00 PM</item>
         <item>24-timers 13:00</item>
@@ -1487,6 +1722,10 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Procentdel (inde i ikonet)</item>
         <item>Procentdel (ved siden af ikonet i notifikationsskyggen)</item>
     </string-array>
+    <string-array name="wifi_ap_band_config_2G_5G">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
         <item>@string/wifi_security_wpa2</item>
@@ -1578,29 +1817,29 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scanner…</item>
-        <item>Tilslutter…</item>
-        <item>Autentificerer…</item>
-        <item>Får IP-adresse…</item>
+        <item>Scanner ...</item>
+        <item>Opretter forbindelse...</item>
+        <item>Godkender...</item>
+        <item>Henter IP-adresse…</item>
         <item>Tilsluttet</item>
-        <item>Suspenderet</item>
-        <item>Afbryder…</item>
-        <item>Forbindelse afbrudt</item>
-        <item>Lykkedes ikke</item>
+        <item>Sat på pause</item>
+        <item>Afbryder ...</item>
+        <item>Afbrudt</item>
+        <item>Mislykkedes</item>
         <item>Blokeret</item>
         <item>Undgår midlertidigt dårlig forbindelse</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scanner…</item>
-        <item>Tillutter til %1$s…</item>
-        <item>Autentificerer med %1$s…</item>
-        <item>Får IP-adresse fra %1$s…</item>
-        <item>Tilsluttet til %1$s</item>
-        <item>Suspenderet</item>
-        <item>Afbryder fra %1$s…</item>
-        <item>Forbindelse afbrudt</item>
-        <item>Lykkedes ikke</item>
+        <item>Scanner ...</item>
+        <item>Opretter forbindelse til %1$s ...</item>
+        <item>Godkender med %1$s ...</item>
+        <item>Henter IP-adresse fra %1$s ...</item>
+        <item>Forbundet til %1$s</item>
+        <item>Sat på pause</item>
+        <item>Afbryder fra %1$s ...</item>
+        <item>Afbrudt</item>
+        <item>Mislykkedes</item>
         <item>Blokeret</item>
         <item>Undgår midlertidigt dårlig forbindelse</item>
     </string-array>

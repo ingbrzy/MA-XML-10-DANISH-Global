@@ -181,9 +181,6 @@ Valg"</string>
     <string name="bugreport_in_power">Genvej til fejlrapportering</string>
     <string name="bugreport_in_power_summary">Vis en knap til oprettelse af fejlrapporter i afbrydermenuen</string>
     <string name="button_convert_fbe">Ryd og konvertér…</string>
-    <string name="callFailed_simError">SIM-kortfejl</string>
-    <string name="can_not_dial_vt_while_voice_prompt">Kan ikke foretage et videoopkald, mens du er i gang med taleopkald</string>
-    <string name="can_not_dial_while_vt_prompt">Kan ikke ringe, mens et videoopkald er i gang</string>
     <string name="cancel">Annuller</string>
     <string name="cant_call_due_to_no_supported_service">Opkaldet kan ikke foretages, fordi der ikke er nogen opkaldskonti, der understøtter opkald af denne type.</string>
     <string name="cant_call_due_to_ongoing_call">Kan ikke foretage opkald. %1$s andet opkald er i gang.</string>
@@ -203,7 +200,6 @@ Valg"</string>
     <string name="charge_length_format">For %1$s siden</string>
     <string name="choose_profile">Vælg profil</string>
     <string name="clear_adb_keys">Tilbagekald tilladelser for USB-fejlretning</string>
-    <string name="close">Slå fra</string>
     <string name="confirm_enable_oem_unlock_text">ADVARSEL! Funktioner, der beskytter enheden, fungerer ikke på denne enhed, når denne indstilling er aktiveret.</string>
     <string name="confirm_enable_oem_unlock_title">Vil du tillade OEM-oplåsning?</string>
     <string name="connected_via_app">Forbundet via %1$s</string>
@@ -254,8 +250,6 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="development_settings_not_available">Valgmuligheder for udviklere er ikke tilgængelige for denne bruger</string>
     <string name="development_settings_summary">Konfigurer valgmuligheder for appudvikling</string>
     <string name="development_settings_title">Indstillinger for udviklere</string>
-    <string name="dial_conference_fail_prompt">Kan ikke ringe direkte til konferencen, fordi det nuværende netværk ikke understøtter VoLTE.</string>
-    <string name="dial_vt_fail_prompt">Det nuværende netværk understøtter ikke VoLTE. Skift til almindeligt taleopkald?</string>
     <string name="direct_boot_unaware_dialog_message">Bemærk! Efter en genstart kan denne app ikke starte, før du låser din telefon op</string>
     <string name="disable_overlays">Deaktiver HW-overlejring</string>
     <string name="disable_overlays_summary">Brug altid GPU til skærmsammensætning</string>
@@ -300,9 +294,6 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="inactive_app_active_summary">Aktiv. Tryk for at skifte.</string>
     <string name="inactive_app_inactive_summary">Inaktiv. Tryk for at skifte.</string>
     <string name="inactive_apps_title">Apps på standby</string>
-    <string name="incall_error_call_failed">Kunne ikke ringe.</string>
-    <string name="incall_error_power_off">Slå flytilstand fra for at lave et opkald.</string>
-    <string name="incall_error_supp_service_unknown">Denne tjeneste understøttes ikke.</string>
     <string name="install_other_apps">Installer ukendte apps</string>
     <string name="keep_screen_on">Lås ikke</string>
     <string name="keep_screen_on_summary">Skærmen går ikke i dvale under opladning</string>
@@ -318,7 +309,6 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="managed_user_title">Alle arbejdsapps</string>
     <string name="media_category">Medie</string>
     <string name="media_transfer_this_device_name">Denne enhed</string>
-    <string name="missedcall_notification_public_version_title">Telefon</string>
     <string name="mobile_data_always_on">Mobildata er altid aktiveret</string>
     <string name="mobile_data_always_on_summary">Hold altid mobildata aktiveret, selv når Wi-Fi er aktiveret (for at skifte hurtigt mellem netværk).</string>
     <string name="mock_location_app">Vælg app til falsk placering</string>
@@ -353,7 +343,6 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="no_vm_number_msg">Intet voicemailnummer er gemt på SIM-kortet.</string>
     <string name="non_primary_user">Kun enhedsejer kan se og administrere blokerede numre.</string>
     <string name="not_set">Ikke angivet</string>
-    <string name="notification_AllMissedCallTitle">Alle ubesvarede opkald</string>
     <string name="notification_channel_call_blocking">Opkaldsblokering</string>
     <string name="notification_channel_incoming_call">Indkommende opkald</string>
     <string name="notification_channel_missed_call">Ubesvarede opkald</string>
@@ -362,7 +351,6 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="notification_missedCallTicker">Mistede opkald fra %s</string>
     <string name="notification_missedCallTitle">Ubesvaret opkald</string>
     <string name="notification_missedCall_call_back">Ring tilbage</string>
-    <string name="notification_missedCall_call_back_miui">Opkald</string>
     <string name="notification_missedCall_message">Besked</string>
     <string name="notification_missedCallsMsg">%s ubesvarede opkald</string>
     <string name="notification_missedCallsTitle">Ubesvarede opkald</string>
@@ -419,6 +407,7 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="private_dns_mode_provider">Hostname for privat DNS-udbyder</string>
     <string name="private_dns_mode_provider_failure">Der kunne ikke oprettes forbindelse</string>
     <string name="private_dns_mode_provider_hostname_hint">Angiv hostname for DNS-udbyder</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="remaining_length_format">%1$s tilbage</string>
     <string name="respond_via_sms_canned_response_1">Kan ikke tale nu. Hvad så?</string>
     <string name="respond_via_sms_canned_response_2">Jeg ringer tilbage om lidt.</string>
@@ -546,9 +535,6 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="v7_preference_on">TIL</string>
     <string name="verify_apps_over_usb_summary">Tjek apps, der er installeret via ADB/ADT, for skadelig adfærd.</string>
     <string name="verify_apps_over_usb_title">Verificer apps via USB</string>
-    <string name="voice_dial_out">Stemmeopkald</string>
-    <string name="voice_report_incoming_call">Indkommende opkald</string>
-    <string name="voice_report_unknown_num">Ukendt nummer</string>
     <string name="vpn_settings_not_available">VPN-indstillingerne er ikke tilgængelige for denne bruger</string>
     <string name="wait_for_debugger">Vent på fejlfinder</string>
     <string name="wait_for_debugger_summary">Fejlrettet app venter på tilknytning af fejlfinder før udførelse</string>

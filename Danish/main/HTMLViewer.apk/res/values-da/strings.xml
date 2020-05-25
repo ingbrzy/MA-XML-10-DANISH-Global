@@ -19,6 +19,7 @@ gå til %s på en anden tilsluttet enhed."</string>
     <string name="poco_privacy_policy">POCO Launcher Fortrolighedspolitik og POCO Launcher Brugeraftale</string>
     <string name="policy_name">Protokol: %s</string>
     <string name="pre_installed_apps">Forinstallerede apps</string>
+    <string name="privacy_station_title">Privatliv hos Xiaomi</string>
     <string name="settings_ad_loading">Lige et øjeblik…</string>
     <string name="settings_ad_loading_unavailable">Kunne ikke loade informationer.</string>
     <string name="settings_license_activity_loading">Lige et øjeblik…</string>
@@ -28,4 +29,5 @@ gå til %s på en anden tilsluttet enhed."</string>
     <string name="settings_safetylegal_activity_title">Sikkerhedsinformation</string>
     <string name="settings_safetylegal_activity_unreachable">Kunne ikke tilslutte til netværket. For at se disse informationer nu, gå til %s fra en hvilket som helst computer, der er tilsluttet til internettet.</string>
     <string name="settings_safetylegal_title">Sikkerhedsinformation</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

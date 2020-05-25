@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="extra_photo_common_save_fail">Kunne ikke gemme</string>
     <string name="extra_photo_common_saving">Gemmer…</string>
-    <string name="motion_photo_re_pick_title">Vælg bedste foto</string>
+    <string name="motion_photo_cancel">Annuller</string>
+    <string name="motion_photo_re_pick_title">Live billede</string>
+    <string name="motion_photo_save_fail">Kunne ikke gemme</string>
+    <string name="motion_photo_save_gif">Gem som GIF</string>
+    <string name="motion_photo_save_gif_ing">Gemmer GIF…</string>
+    <string name="motion_photo_save_image">Gem bedste billede</string>
+    <string name="motion_photo_save_image_ing">Gemmer bedste billede…</string>
+    <string name="motion_photo_save_video">Gem som video</string>
+    <string name="motion_photo_save_video_ing">Gemmer video…</string>
     <string name="motion_photo_toast_default">Standard</string>
+    <string name="motion_photo_toast_long_press_play">Hold billedet nede for at afspille</string>
     <string name="motion_photo_toast_suggest">Anbefalede</string>
     <string name="refocus_discard_confirm_message">Gem ændringer?</string>
     <string name="refocus_discard_negative_btn">Kassér</string>

@@ -88,6 +88,10 @@
         <item quantity="other">%d dage tilbage</item>
         <item quantity="one">%d dag tilbage</item>
     </plurals>
+    <plurals name="bt_usable_device_title">
+        <item quantity="other">%d tilgængelige enheder</item>
+        <item quantity="one">%d tilgængelig enhed</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheder</item>
         <item quantity="one">%d enhed</item>
@@ -189,7 +193,7 @@
         <item quantity="one">Indtast mindst %d tegn</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN-kode skal være på %d cifre</item>
+        <item quantity="other">Pin skal være %d cifre</item>
         <item quantity="one">Pin skal være %d cifre</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
@@ -303,6 +307,10 @@
     <plurals name="runtime_permissions_summary">
         <item quantity="other">%1$d af %2$d tilladelser blev givet</item>
         <item quantity="one">%1$d af %2$d tilladelser blev givet</item>
+    </plurals>
+    <plurals name="saved_network_checked_num">
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
     </plurals>
     <plurals name="seconds">
         <item quantity="other">%s sekunder</item>

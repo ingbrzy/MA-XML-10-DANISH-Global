@@ -83,6 +83,7 @@ Gå til id.mi.com for at nulstille din adgangskode
 Andre årsager
 Log på i.mi.com og prøv at låse din enhed op derfra."</string>
     <string name="unlock_help_title">Hjælp til oplåsning:</string>
+    <string name="unlock_number">Oplåsningskode: %s</string>
     <string name="unlock_wrong_captcha">Den indtastede kode er forkert</string>
     <string name="unlocking">Aktiverer…</string>
     <string name="verifing_account">Bekræfter adgangskode…</string>

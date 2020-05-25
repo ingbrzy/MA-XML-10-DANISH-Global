@@ -28,6 +28,14 @@
         <item quantity="other">%d optagelser downloadet</item>
         <item quantity="one">%d optagelse downloadet</item>
     </plurals>
+    <plurals name="search_alll_records_hint">
+        <item quantity="other">Søg blandt %d optagelser</item>
+        <item quantity="one">Søg blandt %d optagelse</item>
+    </plurals>
+    <plurals name="search_call_records_hint">
+        <item quantity="other">Søg blandt %d opkaldsoptagelser</item>
+        <item quantity="one">Søg blandt %d opkaldsoptagelse</item>
+    </plurals>
     <plurals name="search_result">
         <item quantity="other">Fundet %d optagelser</item>
         <item quantity="one">Fundet %d optagelse</item>

@@ -4,4 +4,12 @@
         <item quantity="other">Tryk og hold knappen på æsken i %1$d sekunder</item>
         <item quantity="one">Tryk og hold knappen på æsken i %1$d sekund</item>
     </plurals>
+    <plurals name="fast_connect_reset_air2_se">
+        <item quantity="other">Tryk og hold på et berøringsfølsomt område på hovedtelefonerne i %1$d sekunder</item>
+        <item quantity="one">Tryk og hold på et berøringsfølsomt område på hovedtelefonerne i %1$d sekund</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d enheder tilsluttet</item>
+        <item quantity="one">%1$d enhed tilsluttet</item>
+    </plurals>
 </resources>

@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="agree_description">Tillad denne app at oprette forbindelse til internettet for at kunne bruge alle dens funktioner.</string>
     <string name="alert_message_clear_records">Slet valgte optagelser?</string>
     <string name="alert_message_delete_local_record">Slet denne optagelse?</string>
     <string name="alert_message_delete_record">Når optagelsen slettes fra din enhed, slettes denne optagelse også fra Xiaomi Cloud. Slet nu?</string>
@@ -48,6 +49,7 @@
     <string name="cloud_status_full_dialog_msg">Dit cloudlager er fyldt, så optagelserne kan ikke synkroniseres. Opgrader din konto for at få flere lagerplads.</string>
     <string name="cloud_status_full_dialog_ok">Opgrader</string>
     <string name="cloud_status_full_dialog_title">Xiaomi Clouds lagerplads er fuld</string>
+    <string name="copy">Kopiér</string>
     <string name="data_connection_body">Brug af din mobile dataforbindelse til at downloade denne fil vil øge dit dataforbrug. Hvis du overskrider dit abonnements dataforbrugsgrænse, opkræver din udbyder muligvis ekstra gebyrer.</string>
     <string name="data_connection_button_text">OK</string>
     <string name="data_connection_title">Advarsel om brug af data</string>
@@ -88,6 +90,7 @@
     <string name="error_filename_too_long">Filnavnet er for langt.</string>
     <string name="error_sdcard_access">Kan ikke få adgang til SD-kort</string>
     <string name="error_sdcard_unmounted">Indsæt SD-kort nu</string>
+    <string name="expand_button_title">Avanceret</string>
     <string name="export_to_note">Eksport</string>
     <string name="head_set_tip_dialog_msg">Frakobl dine øretelefoner for at kunne optage lyd med bestemte forudindstillinger (f.eks. musik, stemme).</string>
     <string name="head_set_tip_dialog_ok">Forstået</string>
@@ -122,6 +125,7 @@
     <string name="network_unavailable_tip">Opret forbindelse til netværket og prøv igen.</string>
     <string name="new_record_name">Ny optagelse</string>
     <string name="no_file">Tom</string>
+    <string name="not_set">Ikke angivet</string>
     <string name="notification_message_all_paused">Venter på Wi-Fi-forbindelse.</string>
     <string name="notification_playback">Afspiller…</string>
     <string name="notification_recording">Optager…</string>
@@ -164,6 +168,7 @@
     <string name="pay_error_unknown">Ukendt fejl</string>
     <string name="playback_delete_records">Slet optagelse</string>
     <string name="playback_share_records">Del optagelse</string>
+    <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="preference_enable_earpiece_summary">Brug modtagerhøjttaler til ekstern afspilning</string>
     <string name="preference_enable_earpiece_title">Brug modtager til at afspille lyd</string>
     <string name="preference_led_indicator">Låseskærmsnotifikationer</string>
@@ -292,6 +297,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Optager…</string>
     <string name="status_bar_recording_pause">Optager sat på pause</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="text_btn_backward_3_seconds">3 sekunder tilbage</string>
     <string name="text_btn_complete">Stop</string>
     <string name="text_btn_forward_3_seconds">3 sekunder fremad</string>
@@ -314,6 +320,8 @@
     <string name="toast_max_record_time">%1$s kan optage i ca. %2$s</string>
     <string name="toast_uninstall_fileexplorer">Filhåndtering er ikke installeret</string>
     <string name="usage_description">Transskriberer lyd og synkroniserer elementer med clouden</string>
+    <string name="v7_preference_off">FRA</string>
+    <string name="v7_preference_on">TIL</string>
     <string name="webview_check_network">Netværksindstillinger</string>
     <string name="webview_data_error">Der opstod en fejl</string>
     <string name="webview_locating_fail">Kunne ikke finde din placering</string>

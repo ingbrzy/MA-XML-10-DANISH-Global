@@ -4,6 +4,14 @@
         <item quantity="other">%d dage</item>
         <item quantity="one">%d dag</item>
     </plurals>
+    <plurals name="steady_on_screen_notification_summary">
+        <item quantity="other">Du har holdt din enhed i %d minutter uden afbrydelser</item>
+        <item quantity="one">Du har holdt din enhed i %d minut uden afbrydelser</item>
+    </plurals>
+    <plurals name="steady_on_screen_time_pick">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
     <plurals name="trend_from_last_several_day_equal">
         <item quantity="other">Skærmtiden i dag er lig med dit %d-dages gennemsnit</item>
         <item quantity="one">Skærmtiden i dag er lig med dit %d-dags gennemsnit</item>
@@ -23,6 +31,26 @@
     <plurals name="usage_days">
         <item quantity="other">%d dage</item>
         <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="usage_new_home_avg_unlockc">
+        <item quantity="other">%.2f gange om dagen i gennemsnit</item>
+        <item quantity="one">%.2f gang om dagen i gennemsnit</item>
+    </plurals>
+    <plurals name="usage_new_home_total_unlocks">
+        <item quantity="other">Låst op %d gange</item>
+        <item quantity="one">Låst op %d gang</item>
+    </plurals>
+    <plurals name="usage_new_home_total_week_unlocks">
+        <item quantity="other">Låst op %d gange</item>
+        <item quantity="one">Låst op %d gang</item>
+    </plurals>
+    <plurals name="usage_remain_about_hour">
+        <item quantity="other">≈%s t</item>
+        <item quantity="one">≈%s t</item>
+    </plurals>
+    <plurals name="usage_remain_about_miunte">
+        <item quantity="other">≈%s min</item>
+        <item quantity="one">≈%s min</item>
     </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="other">Låst op %d gange</item>
@@ -87,6 +115,14 @@
     <plurals name="usage_state_work_day_minute">
         <item quantity="other">Hverdage: %d minutter</item>
         <item quantity="one">Hverdage: %d minut</item>
+    </plurals>
+    <plurals name="usage_stats_remain_hour">
+        <item quantity="other">%s t</item>
+        <item quantity="one">%s t</item>
+    </plurals>
+    <plurals name="usage_stats_remain_miunte">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_hour">
         <item quantity="other">"  timer"</item>

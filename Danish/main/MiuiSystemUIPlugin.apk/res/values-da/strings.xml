@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="already_in_small_freeform">Nogle apps er åbnet i flydende vinduer</string>
+    <string name="no_avaliable_application">Ingen tilgængelige apps</string>
+    <string name="quick_settings_hang_label">Flydende vinduer</string>
+    <string name="quick_settings_hang_on">Du kan bruge flydende vinduer nu</string>
+    <string name="quick_settings_scanner_label">Scanner</string>
+</resources>

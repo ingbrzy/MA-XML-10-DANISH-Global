@@ -8,6 +8,10 @@
         <item quantity="other">Fornylig åbnede, tilgængelige apps: %d. Stryg op for at fjerne, stryg ned for at låse.</item>
         <item quantity="one">Fornylig åbnede, tilgængelige app: %d. Stryg op for at fjerne, stryg ned for at låse.</item>
     </plurals>
+    <plurals name="auto_disconnect_timer_tip">
+        <item quantity="other">Hænger op om %1$d sekunder</item>
+        <item quantity="one">Hænger op om %1$d sekund</item>
+    </plurals>
     <plurals name="fold_tips_title">
         <item quantity="other">%d uvigtig(e) notifikation(er)</item>
         <item quantity="one">%d ikke-vigtig(e) notifikation(er)</item>

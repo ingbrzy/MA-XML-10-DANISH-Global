@@ -51,8 +51,10 @@
     <string name="cannot_get_location">--</string>
     <string name="compass_settings">Indstillinger</string>
     <string name="copy">Kopiér</string>
+    <string name="cta_agree_desc">Giv denne app tilladelse til at oprette forbindelse til internettet og giv valgfrie tilladelser for at kunne bruge alle dens funktioner.</string>
     <string name="cta_v2_app_purpose">viser retninger, koordinater, atmosfærisk tryk og aktuel højde</string>
     <string name="dialog_body_no_network">Tilslut til Wi-Fi eller slå mobildata til.</string>
+    <string name="dialog_body_no_network_china">Connect to WLAN or turn on mobile data.</string>
     <string name="dialog_calibrat_altitude">Kalibrerer…</string>
     <string name="dialog_title_no_network">Kunne ikke tilslutte til netværket</string>
     <string name="direction_east">Ø</string>
@@ -86,8 +88,8 @@
     <string name="not_set">Ikke angivet</string>
     <string name="open_perm_msg">Compass er nødt til at få adgang til placeringsoplysninger og kamera. Det er nødvendigt for at kunne bestemme koordinater og give live-forhåndsvisninger. Tillad?</string>
     <string name="open_perm_title">Tilladelse påkrævet</string>
-    <string name="permission_camera_desc">Bruger åndeniveauet</string>
-    <string name="permission_location_desc">Viser koordinater og atmosfærisk tryk</string>
+    <string name="permission_camera_desc">Til visning af azimuth i live preview</string>
+    <string name="permission_location_desc">For visning af koordinater</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="preference_other">Andre</string>
     <string name="preference_privacy_title">Privatlivspolitik</string>
