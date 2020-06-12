@@ -140,8 +140,11 @@
     <string name="first_enter_custom_folder_hint">Du kan omdøbe eller slette mapper her</string>
     <string name="float_todo_guide_cancel">Annullér</string>
     <string name="float_todo_guide_message">Startskærmsgenveje giver dig mulighed for at swipe fra kanten af skærmen for at se og oprette opgaver. Opret genvejen nu?</string>
+    <string name="float_todo_guide_message_v2">Gestusgenvej giver dig mulighed for at se og oprette opgaver ved at stryge fra skærmens kant. Du kan tænde og slukke for denne funktion under Indstillinger.</string>
     <string name="float_todo_guide_ok">Opret</string>
+    <string name="float_todo_guide_ok_v2">Slå til</string>
     <string name="float_todo_guide_title">Startskærmsgenvej</string>
+    <string name="float_todo_guide_title_v2">Gestusgenvej</string>
     <string name="fmt_chinese_date">N e</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
@@ -294,6 +297,7 @@
     <string name="note_sort_way">Vælg, hvordan du vil sortere dine noter</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notification_content_add_todo_from_other_app">Du tilføjede en ny opgave. Tryk for at se.</string>
     <string name="notify_alarm_title">Notepåmindelse</string>
     <string name="permdesc_accessNote">Ondsindede apps kan bruge dette til at gå ind på dine personlige data.</string>
@@ -313,7 +317,9 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Stryg op med 2 fingre for at slette notater uden bekræftelse</string>
     <string name="pref_desc_todo_float_mode">Stryg fra kanten af skærmen for at åbne opgave-værktøjskassen</string>
     <string name="pref_remind_type_summary">Afspil påmindelseslyd i stille tilstand</string>
+    <string name="pref_remind_type_summary_new">Ignorer lydløs tilstand og bliv ved med at afspille lyde, indtil der slukkes for alarmen</string>
     <string name="pref_remind_type_title">Ignorer stille tilstand</string>
+    <string name="pref_remind_type_title_new">Påmindelser med høj prioritet</string>
     <string name="pref_title_cloud_trash_bin">Slettede noter i clouden</string>
     <string name="pref_title_common">Yderligere indstillinger</string>
     <string name="pref_title_font_size">Skriftstørrelse</string>
@@ -473,6 +479,7 @@
     <string name="toast_reach_text_limit_truncate">Dette notat er for langt. Noget af teksten er blevet skåret af til sidst.</string>
     <string name="toast_refuse_to_record_when_in_call">Kan ikke bruge denne funktion under opkald</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Kan ikke bruge denne funktion med delt skærm</string>
+    <string name="toast_refuse_to_record_when_in_multi_window_new">Kan ikke bruge denne funktion i delt skærm eller flydende vinduer</string>
     <string name="toast_refuse_to_use_contact">"Kontakttilladelser er begrænsede.
 Tillad at Notes læser dine kontakter og finder konti på enheden."</string>
     <string name="toast_refuse_to_use_external_storage">"Opbevaringstilladelser er begrænsede.
@@ -556,6 +563,7 @@ Tillad at Notes optager lyd."</string>
     <string name="toolbar_voice_description">Stemme</string>
     <string name="trash_folder_name">Papirkurv</string>
     <string name="trash_folder_reminder">De noter, du sletter, slettes permanent om 30 dage.</string>
+    <string name="trash_folder_reminder_new">Notes are kept in the trash for 30 days before being permanently deleted</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>
     <string name="tuesday_shortest">Tirs</string>

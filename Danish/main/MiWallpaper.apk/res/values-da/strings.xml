@@ -29,14 +29,20 @@
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="actionbar_button_up_description">Tilbage</string>
     <string name="afternoon">Eftermiddag</string>
+    <string name="already_newest_version">Current version is up to date</string>
     <string name="am">AM</string>
+    <string name="cancel_download">Download canceled</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Kinesisk traditionel kalender</string>
+    <string name="download_failed">"Couldn't download"</string>
     <string name="early_morning">Morgen</string>
+    <string name="earth_summary">Jorden er den menneskelige civilisations vugge</string>
+    <string name="earth_super_wallpaper_label">earth</string>
+    <string name="earth_title">Hjem</string>
     <string name="empty" />
     <string name="eras_ad">e.v.t.</string>
     <string name="eras_bc">f.v.t.</string>
@@ -81,6 +87,24 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="install_failed">"Couldn't install"</string>
+    <string name="mars_position_content_0">"This region contains cliffs, mesas, and wide flat valleys, which are believed to have been caused by debris-covered glaciers. Clay minerals have also been detected here, which are of great interest in the search for evidence of life on ancient Mars.
+
+NASA/JPL/University of Arizona"</string>
+    <string name="mars_position_content_1">"Taken when the Mars rover Curiosity is exploring the Pahrump Hills in Gale Crater. The region contains sedimentary rocks that scientists believe formed in the presence of water, and the dark areas are sand.
+
+NASA/JPL/University of Arizona"</string>
+    <string name="mars_position_content_2">"Mawrth Vallis is an ancient water outflow channel with light-colored clay-rich rocks. Clay minerals easily preserve microscopic life on Earth, so perhaps traces of ancient life may be found at Mawrth.
+
+NASA/JPL/University of Arizona"</string>
+    <string name="mars_position_title_0">"Nilosyrtis
+Mensae regionen"</string>
+    <string name="mars_position_title_1">Gale Crater</string>
+    <string name="mars_position_title_2">"Crater in
+Mawrth Vallis"</string>
+    <string name="mars_summary">De store ørkener af Mars har altid gjort stor indtryk på menneskeheden</string>
+    <string name="mars_super_wallpaper_label">mars</string>
+    <string name="mars_title">Den røde planet</string>
     <string name="midnight">Nat</string>
     <string name="miuix_appcompat_cloud_state_disabled">Synkronisering med clouden er deaktiveret</string>
     <string name="miuix_appcompat_cloud_state_finished">Synkronisering med clouden lykkedes</string>
@@ -127,6 +151,8 @@
     <string name="more">Mere</string>
     <string name="morning">Morgen</string>
     <string name="night">Aften</string>
+    <string name="no_cta_agreed">"GetApps doesn't have CTA permissions"</string>
+    <string name="no_install_permission">"You don't have permissions to install this item"</string>
     <string name="noon">Middag</string>
     <string name="not_set">Ikke angivet</string>
     <string name="pm">PM</string>
@@ -134,12 +160,22 @@
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
+    <string name="saturn_summary">Saturns ringe er det mest utrolige spektakel i solsystemet</string>
+    <string name="saturn_super_wallpaper_label">saturn</string>
+    <string name="saturn_title">Fjerne ringe</string>
     <string name="search_menu_title">Søg</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="super_wallpaper_list_label">Super-baggrunde</string>
+    <string name="super_wallpaper_setting_apply_success_toast">Anvendt med succes</string>
+    <string name="super_wallpaper_setting_apply_super_wallpaper_button_text">Anvend</string>
+    <string name="super_wallpaper_setting_choose_position_btn_text">Vælg placering</string>
+    <string name="super_wallpaper_setting_coordinate_title">Koordinater</string>
+    <string name="super_wallpaper_setting_view_height_title">Højde</string>
+    <string name="task_already_exist">This task already exists</string>
     <string name="the_anniversary_of_lifting_martial_law">Jubilæum for indførelse af undtagelsestilstand</string>
     <string name="the_anti_aggression_day">Antiaggressionsdag</string>
     <string name="the_arbor_day">Arbor-dag</string>
@@ -191,8 +227,19 @@
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>
     <string name="tuesday_shortest">Tirs</string>
+    <string name="update">Update</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
+    <string name="wallpaper_setting_aod_wallpaper_banner_button_text">Altid tændt skærm</string>
+    <string name="wallpaper_setting_find_more_text">Flere online-baggrunde</string>
+    <string name="wallpaper_setting_home_wallpaper_banner_button_text">Hjemmeskærm</string>
+    <string name="wallpaper_setting_lock_screen_wallpaper_banner_button_text">Låseskærm</string>
+    <string name="wallpaper_setting_online_wallpaper_actionbar_title">Online-baggrunde</string>
+    <string name="wallpaper_setting_online_wallpaper_none_title">Opdag baggrunde</string>
+    <string name="wallpaper_setting_online_wallpaper_title">Online-baggrunde</string>
+    <string name="wallpaper_setting_super_wallpaper_banner_title">Super-baggrunde</string>
+    <string name="wallpaper_setting_super_wallpaper_more_button_text">Mere</string>
+    <string name="wallpaper_setting_title">Baggrundsbillede</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>

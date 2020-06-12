@@ -10,6 +10,7 @@
     <string name="download_queued">I kø</string>
     <string name="download_remaining">%s tilbage</string>
     <string name="download_running">Downloader</string>
+    <string name="download_running_percent">Downloader %s</string>
     <string name="download_unknown_title">&lt;Uden overskrift></string>
     <string name="notif_title_file_size">%1$d i alt</string>
     <string name="notif_title_single_downloading">Downloader %1$s</string>

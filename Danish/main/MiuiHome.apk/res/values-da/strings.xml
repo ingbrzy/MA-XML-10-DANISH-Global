@@ -27,6 +27,13 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="accessibility_all_app_custom_category_finish">Done</string>
+    <string name="accessibility_all_app_custom_category_item_remove">Remove \"%1$s\" from categories</string>
+    <string name="accessibility_clear_search_bar_text">Clear search bar</string>
+    <string name="accessibility_enter_all_app_mode">Open App drawer</string>
+    <string name="accessibility_enter_all_app_settings">Open App drawer settings</string>
+    <string name="accessibility_menu_item_smallwindow_disable">Denne app understøtter ikke flydende vinduer</string>
+    <string name="accessibility_menu_item_smallwindow_enable">Denne app understøtter flydende vinduer</string>
     <string name="accessibility_menu_item_split_disable">Appen understøtter ikke opdelt skærm.</string>
     <string name="accessibility_menu_item_split_enable">App understøtter opdelt skærm</string>
     <string name="accessibility_recent_task_enter">Senest åbnede</string>
@@ -60,6 +67,7 @@
     <string name="all_apps_no_search_results">Kunne ikke finde resultater</string>
     <string name="all_apps_search_app">Søg efter apps</string>
     <string name="all_apps_search_market_message">Søg online</string>
+    <string name="all_apps_setting_classic_title">Klassisk</string>
     <string name="all_apps_setting_desktop_desc">Vis alle installerede apps på startskærmen. Hold en app-ikon nedtrykket for at se tilgængelige genveje, administrer eller afinstaller appen.</string>
     <string name="all_apps_setting_desktop_title">Almindelig</string>
     <string name="all_apps_setting_drawer_desc">Placér alle installerede apps i app-skuffen, som kan åbnes ved at swipe opad på startskærmen. Du vil stadig kunne finde de apps, som du flyttede fra startskærmen, i app-skuffen.</string>
@@ -141,6 +149,7 @@
     <string name="auto_add_app_shortcut">Placér nye apps på startskærmen</string>
     <string name="auto_delete_category_dialog_content">Nuværende apps fjernes fra denne kategori, og kategorien slettes. Slet denne kategori nu?</string>
     <string name="auto_delete_category_dialog_title">Sletter kategori</string>
+    <string name="back">Back</string>
     <string name="backup_fail">Kunne ikke sikkerhedskopiere launcher</string>
     <string name="bad_wallpaper_source_prompt">Kan ikke indlæse baggrundsbillede</string>
     <string name="buffering">Buffer…</string>
@@ -165,6 +174,10 @@
     <string name="choose_wallpaper">Vælg baggrundsbillede</string>
     <string name="chooser_wallpaper">Vælg et nyt baggrundsbillede</string>
     <string name="cloud_app_restore_title">Afventende</string>
+    <string name="common_home_search_delete">Sletter startskærmens søgelinje</string>
+    <string name="common_home_search_delete_cancle">Annuller</string>
+    <string name="common_home_search_delete_confirm">Slet</string>
+    <string name="common_home_search_delete_content">Du vil ikke være i stand til at søge efter elementer ved hjælp af startskærmens søgebjælke, efter du har slettet den. Slet alligevel?</string>
     <string name="configure_wallpaper">Indstillinger</string>
     <string name="confirm_btn_label">OK</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Dobbelte apps vil blive afinstalleret sammen med disse.</string>
@@ -490,8 +503,11 @@
     <string name="sort_by_not_defined">Automatisk sortering</string>
     <string name="start_activity_failed">Kan ikke starte lanceringsprogram</string>
     <string name="starting_preset_app">Starter…</string>
-    <string name="status_bar_recent_memory_info1">%1$sB af %2$sB tilgængelige</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_bar_recent_memory_giga">%1$s GB</string>
+    <string name="status_bar_recent_memory_info1">%1$s af %2$s tilgængelig</string>
     <string name="status_bar_recent_memory_info2" />
+    <string name="status_bar_recent_memory_mega">%1$s MB</string>
     <string name="status_downloaded">Downloadet</string>
     <string name="status_downloading">Downloader</string>
     <string name="status_installing">Installerer</string>

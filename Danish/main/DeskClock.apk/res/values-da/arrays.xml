@@ -12,7 +12,7 @@
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Én gang</item>
-        <item>Dagligt</item>
+        <item>Daglig</item>
         <item>Hverdage</item>
         <item>Fridage</item>
         <item>Man til fre</item>
