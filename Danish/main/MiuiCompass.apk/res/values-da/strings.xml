@@ -37,9 +37,9 @@
     <string name="altitude_uncalibrate_tip">Ikke-kalibrerede data</string>
     <string name="altitude_unit">m</string>
     <string name="angle">%.0f</string>
-    <string name="app_description_content">Compass bruges til navigation og orientering og viser dig retning. Vær sikker på, at du kan klare dig uden disse funktioner, inden du installerer appen.</string>
-    <string name="app_description_title">Om Compass</string>
-    <string name="app_label">Kompass</string>
+    <string name="app_description_content">Kompas bruges til navigation og orientering og viser dig retning. Vær sikker på, at du kan klare dig uden disse funktioner, inden du installerer appen.</string>
+    <string name="app_description_title">Om Kompas</string>
+    <string name="app_label">Kompas</string>
     <string name="calibrate_failed">Kalibrering af højde fejlede.</string>
     <string name="calibrate_failed_no_location">Kan ikke kalibrere.</string>
     <string name="calibrate_failed_timeout">Kan ikke tilslutte til serveren.</string>
@@ -69,7 +69,7 @@
     <string name="error_camera_unavailable">Kontrollér, om en anden app aktuelt bruger Kamera.</string>
     <string name="error_camera_unavailable_title">Kamera utilgængeligt</string>
     <string name="expand_button_title">Avanceret</string>
-    <string name="first_using_dialog_message">Compass er nødt til at bruge din enheds netværksforbindelse, kamera og placeringsservicer for at fungere normalt.</string>
+    <string name="first_using_dialog_message">Kompas er nødt til at bruge din enheds netværksforbindelse, kamera og placeringsservicer for at fungere normalt.</string>
     <string name="first_using_dialog_title">Adgangstilladelse</string>
     <string name="guide_toast">For at kalibrere skal du bevæge din enhed som vist nedenfor.</string>
     <string name="latitude">BRE</string>
@@ -78,7 +78,8 @@
     <string name="location_enable_later">Senere</string>
     <string name="location_enabled">Du kan når som helst slukke placeringsservicer i Indstillinger.</string>
     <string name="location_north">NL</string>
-    <string name="location_not_enabled_summary">Compass er nødt til at få adgang til din placering for at kunne vise koordinater og højde.</string>
+    <string name="location_not_enabled_summary">Kompas er nødt til at få adgang til din placering for at kunne vise koordinater og højde.</string>
+    <string name="location_not_enabled_summary_no_pressure_sensor">Compass skal have adgang til din placering for at kunne vise dine aktuelle koordinater.</string>
     <string name="location_not_enabled_title">Placeringsservicer</string>
     <string name="location_south">SL</string>
     <string name="location_west">WL</string>
@@ -86,7 +87,7 @@
     <string name="mobiledata_alert_dialog_message">Tilslut til internettet for at kalibrere højde?</string>
     <string name="mobiledata_alert_dialog_title">Advarsel om dataforbrug</string>
     <string name="not_set">Ikke angivet</string>
-    <string name="open_perm_msg">Compass er nødt til at få adgang til placeringsoplysninger og kamera. Det er nødvendigt for at kunne bestemme koordinater og give live-forhåndsvisninger. Tillad?</string>
+    <string name="open_perm_msg">Kompas er nødt til at få adgang til placeringsoplysninger og kamera. Det er nødvendigt for at kunne bestemme koordinater og give live-forhåndsvisninger. Tillad?</string>
     <string name="open_perm_title">Tilladelse påkrævet</string>
     <string name="permission_camera_desc">Til visning af azimuth i live preview</string>
     <string name="permission_location_desc">For visning af koordinater</string>

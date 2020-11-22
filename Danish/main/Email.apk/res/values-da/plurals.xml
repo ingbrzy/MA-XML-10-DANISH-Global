@@ -25,8 +25,8 @@
         <item quantity="one">Slet %1$d udkast?</item>
     </plurals>
     <plurals name="contact_num_selected">
-        <item quantity="other">%d valgt</item>
-        <item quantity="one">%d valgt</item>
+        <item quantity="other">Tilføjet %d kontakter</item>
+        <item quantity="one">Tilføjet %d kontakt</item>
     </plurals>
     <plurals name="conversation_archived">
         <item quantity="other">&lt;b>%1$d&lt;/b> arkiveret.</item>
@@ -115,6 +115,46 @@
     <plurals name="num_selected">
         <item quantity="other">%d valgt</item>
         <item quantity="one">%d valgt</item>
+    </plurals>
+    <plurals name="number_of_day_after">
+        <item quantity="other">%1$d dage efter</item>
+        <item quantity="one">%1$d dag efter</item>
+    </plurals>
+    <plurals name="number_of_day_before">
+        <item quantity="other">%1$d dage før</item>
+        <item quantity="one">%1$d dag før</item>
+    </plurals>
+    <plurals name="number_of_hour_after">
+        <item quantity="other">%1$d timer efter</item>
+        <item quantity="one">%1$d time efter</item>
+    </plurals>
+    <plurals name="number_of_hour_before">
+        <item quantity="other">%1$d timer før</item>
+        <item quantity="one">%1$d time før</item>
+    </plurals>
+    <plurals name="number_of_minute_after">
+        <item quantity="other">%1$d minutter efter</item>
+        <item quantity="one">%1$d minut efter</item>
+    </plurals>
+    <plurals name="number_of_minute_before">
+        <item quantity="other">%1$d minutter før</item>
+        <item quantity="one">%1$d minut før</item>
+    </plurals>
+    <plurals name="number_of_second_after">
+        <item quantity="other">%1$d sekunder efter</item>
+        <item quantity="one">%1$d sekund efter</item>
+    </plurals>
+    <plurals name="number_of_second_before">
+        <item quantity="other">%1$d sekunder før</item>
+        <item quantity="one">%1$d sekund før</item>
+    </plurals>
+    <plurals name="number_of_week_after">
+        <item quantity="other">%1$d uger efter</item>
+        <item quantity="one">%1$d uge efter</item>
+    </plurals>
+    <plurals name="number_of_week_before">
+        <item quantity="other">%1$d uger før</item>
+        <item quantity="one">%1$d uge før</item>
     </plurals>
     <plurals name="quick_reply_hint">
         <item quantity="other">Svar %1$d personer</item>

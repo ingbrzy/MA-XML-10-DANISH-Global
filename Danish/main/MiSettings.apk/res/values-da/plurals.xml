@@ -40,6 +40,10 @@
         <item quantity="other">Låst op %d gange</item>
         <item quantity="one">Låst op %d gang</item>
     </plurals>
+    <plurals name="usage_new_home_total_unlocks_new">
+        <item quantity="other">Låst op %1$d gange på %2$s</item>
+        <item quantity="one">Låst op %1$d gang på %2$s</item>
+    </plurals>
     <plurals name="usage_new_home_total_week_unlocks">
         <item quantity="other">Låst op %d gange</item>
         <item quantity="one">Låst op %d gang</item>

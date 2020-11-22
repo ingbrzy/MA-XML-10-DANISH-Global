@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_search_earth">
+        <item>Jorden</item>
+        <item>Baggrund/Super-baggrunde/Jorden</item>
+        <item>Jorden;Super-baggrunde;Jorden-version;Baggrund</item>
+    </string-array>
+    <string-array name="settings_search_mars">
+        <item>Den røde planet</item>
+        <item>Baggrund/Super-baggrunde/Den røde planet</item>
+        <item>Mars;Mars-version;Super-baggrunde;Baggrund</item>
+    </string-array>
+    <string-array name="settings_search_superwp">
+        <item>Super-baggrunde</item>
+        <item>Baggrund/Super-baggrunde</item>
+        <item>Super-baggrunde;Baggrund;Dynamisk baggrund;3D-baggrund</item>
+    </string-array>
+</resources>

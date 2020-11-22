@@ -160,6 +160,7 @@ https://appleid.apple.com/#!&amp;page=signin at lukke"</string>
     <string name="dialog_backup_password_change_machine_tips">Du vil ikke være i stand til at overføre adgangskodebeskyttede sikkerhedskopier. Slå adgangskoden for sikkerhedskopier fra vha. Mi Mover.</string>
     <string name="dialog_backup_password_restore_tips">Kan ikke gendanne elementer, når adgangskoden for sikkerhedskopiering er slået til. Slå adgangskoden for sikkerhedskopiering fra først.</string>
     <string name="dialog_backup_password_to_settings">Indstillinger</string>
+    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Kryptér ikke</string>
     <string name="disable_encrypt_title">Sluk kryptering</string>
@@ -254,6 +255,7 @@ bør du først oprette en iCloud-backup."</string>
 2.\u0009Gå til Mi Talk-indstillinger og vælg ”Tag backup af kontakter til Mi Account”."</string>
     <string name="import_from_xiaomi_account_hint2">Hvis du allerede har en backup, så berør Næste.</string>
     <string name="import_from_xiaomi_account_hint_title">Brug Mi Talk til at tage backup af dine kontakter på tværs af enheder.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">På grund af kompatibilitetsproblemer kan du kun overføre en del af dataene fra iOS-enheder. Vær sikker på, at du har oprettet en iCloud-backup, inden du begynder overførslen.</string>
     <string name="lack_perm_msg">Mi Mover kræver følgende tilladelser: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Tilladelser påkrævet</string>
@@ -305,6 +307,14 @@ bør du først oprette en iCloud-backup."</string>
     <string name="logining">Logger ind…</string>
     <string name="miliao_account_guide">Brug din Mi Account til at logge ind i Xiaomi Cloud, MIUI Theme Store og andre Mi-servicer overalt fra.</string>
     <string name="miliao_account_login">Log ind med Mi Talk</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Slip for at opdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det er alt for nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det er alt for nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
     <string name="mms_title">Multimedia-beskedservice</string>
     <string name="multi_select_title">%1$s valgt.</string>
     <string name="multi_user_mode_backup_message">Kan ikke bruge Backup i multibrugertilstand. Sluk multibrugertilstand for at fortsætte.</string>
@@ -326,8 +336,8 @@ bør du først oprette en iCloud-backup."</string>
     <string name="new_local_detail_description">"Bemærk:
 %1$d. Kopier sikkerhedskopier til din computer for at undgå at miste data. %2$s.
 %3$d. Sikkerhedskopier vil blive gemt i MIUI-Backup-AllBackup."</string>
-    <string name="new_local_tab_backup">Sikkerhedskopier mobilenheden</string>
-    <string name="new_local_tab_restore">Gendan fra mobilenhed</string>
+    <string name="new_local_tab_backup">Sikkerhedskopier</string>
+    <string name="new_local_tab_restore">Gendan</string>
     <string name="new_low_storage_title">Ikke nok lagerplads</string>
     <string name="new_more_settings_label">Yderligere indstillinger</string>
     <string name="new_pc_backup_content1">%1$d. Åbn \"%2$s\".</string>
@@ -350,8 +360,8 @@ bør du først oprette en iCloud-backup."</string>
     <string name="new_select_third">Tredjepartsapps og appdata</string>
     <string name="new_select_third_apk">Tredjepartsapps</string>
     <string name="new_select_third_data">Tredjepartsappdata</string>
-    <string name="new_tab_pc_backup">Sikkerhedskopier til computer</string>
-    <string name="new_tab_pc_restore">Gendan fra computer</string>
+    <string name="new_tab_pc_backup">Sikkerhedskopier</string>
+    <string name="new_tab_pc_restore">Gendan</string>
     <string name="new_task_finished">Udført</string>
     <string name="new_usb_detail_description">"Bemærk:
 %1$d. Denne metode muliggør sikkerhedskopiering af tredjeparts-apps og app-data.
@@ -359,8 +369,8 @@ bør du først oprette en iCloud-backup."</string>
     <string name="new_usb_disconnect_dialog_message">Tilslut først et USB-drev.</string>
     <string name="new_usb_disconnect_dialog_title">Kunne ikke finde USB-drev</string>
     <string name="new_usb_select_data_no_space">Kun %s lagerplads ledig på dit USB-drev. Frigør lagerplads.</string>
-    <string name="new_usb_tab_backup">Sikkerhedskopier til USB-drev</string>
-    <string name="new_usb_tab_restore">Gendan fra USB-drev</string>
+    <string name="new_usb_tab_backup">Sikkerhedskopier</string>
+    <string name="new_usb_tab_restore">Gendan</string>
     <string name="no_encrypt_password">Ingen adgangskode.</string>
     <string name="no_network">Kan ikke tilslutte til netværket.</string>
     <string name="not_set">Ikke angivet</string>
@@ -755,8 +765,11 @@ tryk på \"Jeg er en sender\" og vælg et hotspot at oprette forbindelse til.
 Undlad at lukke siden, før forbindelsen er oprettet."</string>
     <string name="waiting">Lige et øjeblik…</string>
     <string name="wifi_title">Wi-fi-indstillinger</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke påbegynde download. Kontroller at Download Manager fungerer normalt.</string>
     <string name="xiaomi_external_storage_unavailable">Ingen ledig hukommelse, kontroller dit SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s

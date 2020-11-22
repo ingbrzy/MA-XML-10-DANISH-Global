@@ -79,9 +79,6 @@
     <string name="incoming_line3">Størrelse</string>
     <string name="insert_record">Indsæt post</string>
     <string name="localPhoneName">Mit navn</string>
-    <string name="miui_transfer_history_title">Bluetooth-overførsler</string>
-    <string name="miui_transfer_inbound_title">Indkommende</string>
-    <string name="miui_transfer_outbound_title">Udgående</string>
     <string name="no_transfers">Overførselshistorikken er tom.</string>
     <string name="not_exist_file">Ingen fil</string>
     <string name="not_exist_file_desc">"Filen findes ikke. 
@@ -98,7 +95,9 @@
     <string name="opp_notification_group">Bluetooth-deling</string>
     <string name="outbound_history_title">Udgående overførsler</string>
     <string name="outbound_noti_title">Bluetooth-deling: Sendte filer</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Der var timeout ved forbindelsen med %1$s</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Der var timeout i indgangssessionnøgle med %1$s</string>
     <string name="pbap_notification_group">Deling af kontakter via Bluetooth</string>
     <string name="pbap_session_key_dialog_header">Bluetooth-sessionsnøgle kræves</string>
@@ -136,7 +135,6 @@
     <string name="upload_fail_cancel">Luk</string>
     <string name="upload_fail_line1">Filen blev ikke sendt til \"%1$s\".</string>
     <string name="upload_fail_line1_2">Fil: %1$s</string>
-    <string name="upload_fail_ok">Prøv igen</string>
     <string name="upload_line1">Til: \"%1$s\"</string>
     <string name="upload_line3">Filtype: %1$s (%2$s)</string>
     <string name="upload_line5">Sender fil…</string>

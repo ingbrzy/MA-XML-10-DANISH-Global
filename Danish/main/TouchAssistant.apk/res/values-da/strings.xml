@@ -35,6 +35,11 @@
     <string name="close_panel">Slå Kvikbold fra</string>
     <string name="copy">Kopiér</string>
     <string name="customize_entries">Vælg genveje</string>
+    <string name="edge_distance_pref_summary">Tryk på opvågningsområderne nær skærmens kanter for at hente Kvikbold frem</string>
+    <string name="edge_distance_pref_title">Opvågningsområder</string>
+    <string name="edge_mode_custom_summary">Juster størrelsen af opvågningsområderne nær skærmens kanter</string>
+    <string name="edge_mode_custom_title">Brugerdefineret</string>
+    <string name="edge_mode_default_title">Standard</string>
     <string name="enable_touch_assistant">Slå Kvikbold til</string>
     <string name="expand_button_title">Avanceret</string>
     <string name="function_settings">Indstillinger genveje</string>
@@ -67,6 +72,7 @@
     <string name="name_trans_cards">Transportkort</string>
     <string name="name_wechat_payment_code">WeChat betaling</string>
     <string name="name_wechat_scan">WeChat scanner</string>
+    <string name="name_xiao_ai">Mi AI</string>
     <string name="nfc_all_mipay_card_not_in_use">Mi Pay ikke aktiveret</string>
     <string name="nfc_trans_card_not_in_use">Transportkort ikke aktiveret</string>
     <string name="not_set">Ikke angivet</string>

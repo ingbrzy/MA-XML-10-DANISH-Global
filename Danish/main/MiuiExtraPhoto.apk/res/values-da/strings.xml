@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="doc_photo_adjust_section_title">Træk for at justere</string>
+    <string name="doc_photo_cancel">Annuller</string>
+    <string name="doc_photo_confirm">Afslut</string>
+    <string name="doc_photo_doc_photo_title">Rediger dokument</string>
+    <string name="doc_photo_enhance_bin">S/H</string>
+    <string name="doc_photo_enhance_color">Forbedret</string>
+    <string name="doc_photo_enhance_none">Original</string>
+    <string name="doc_photo_idcard_alert_msg">Kassér alle ændringer og luk editoren?</string>
+    <string name="doc_photo_idcard_emblem">Bagside</string>
+    <string name="doc_photo_idcard_mode_title">ID-kort</string>
+    <string name="doc_photo_idcard_portrait">Forside</string>
+    <string name="doc_photo_not_support">Kan ikke redigere dette billede som et dokument</string>
+    <string name="doc_photo_view_effect">Forhåndsvisning</string>
     <string name="extra_photo_common_save_fail">Kunne ikke gemme</string>
     <string name="extra_photo_common_saving">Gemmer…</string>
     <string name="motion_photo_cancel">Annuller</string>
@@ -25,6 +38,7 @@
     <string name="refocus_save_to_video">Gemme som video</string>
     <string name="refocus_saving">Gemmer…</string>
     <string name="refocus_title">Sløret</string>
+    <string name="refocus_type_movie_relighting">Cinematic</string>
     <string name="refocus_type_relighting">Studielys</string>
     <string name="refocus_type_relighting_no_face">Kunne ikke finde ansigt</string>
     <string name="refocus_type_relighting_small_face">Studiebelysning fungerer for fotos, hvor ansigter optager mere plads end her.</string>

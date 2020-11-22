@@ -37,7 +37,6 @@
     <string name="back_up_task_in_process">Sikkerhedskopierer…</string>
     <string name="back_up_task_unfinished">Kunne ikke sikkerhedskopiere</string>
     <string name="backing_up_to_micloud">Sikkerhedskopierer…</string>
-    <string name="backup_fail_wifi_needed">Kunne ikke sikkerhedskopiere, da der kræves Wi-Fi.</string>
     <string name="backup_failed_reason_cloud_space_not_enough">Ikke nok lagerplads i Xiaomi Cloud. Opgradér din plan eller frigør lagerplads.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Ikke nok lagerplads. Frigør lagerplads først.</string>
     <string name="backup_failed_reason_network_error">Netværksfejl. Vent et minut eller to og prøv så igen.</string>
@@ -58,6 +57,7 @@
     <string name="btn_restore_resume">Fortsæt</string>
     <string name="btn_restore_retry">Prøv igen</string>
     <string name="btn_restore_wait">Vent på Wi-Fi</string>
+    <string name="btn_restore_wait_china">Wait for WLAN</string>
     <string name="btn_retry">Kontroller igen</string>
     <string name="btn_skip">Spring dette trin over</string>
     <string name="button_cancel">Annuller</string>
@@ -87,10 +87,15 @@
 *  Notifikationsindstillinger 
 *  MIUI- og systemindstillinger 
 \"Bemærk: Data for apps, du har installeret, vil ikke blive sikkerhedskopieret til Xiaomi Cloud."</string>
+    <string name="cloud_back_up_detail_discription_china">"These items will be backed up to Xiaomi Cloud when your device is connected to WLAN: 
+*  Apps, Home screen layout, and wallpapers 
+*  Alarm, clock, and time settings 
+*  Notification settings 
+*  MIUI and system settings 
+Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Tidsplan for sikkerhedskopiering</string>
     <string name="cloud_back_up_frequence_long">Hver 7. dag</string>
     <string name="cloud_back_up_frequence_short">Hver dag</string>
-    <string name="cloud_back_up_no_network_warn">Kan ikke oprette forbindelse til Wi-Fi</string>
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_opening">Lige et øjeblik…</string>
     <string name="cloud_back_up_subscribe_vip_confirm">Opgrader</string>
@@ -103,6 +108,7 @@
     <string name="cloud_backup_detail_manage">Administrer sikkerhedskopier</string>
     <string name="cloud_backup_detail_state">Automatiske sikkerhedskopieringer</string>
     <string name="cloud_backup_detail_state_summary">Opret Xiaomi Cloud-sikkerhedskopier automatisk, når du har forbindelse til Wi-Fi.</string>
+    <string name="cloud_backup_detail_state_summary_china">Create Xiaomi Cloud backups automatically when connected to WLAN.</string>
     <string name="cloud_backup_detail_time">Sidste sikkerhedskopiering: %1$s</string>
     <string name="cloud_backup_detail_title">Startskærm, apps og indstillinger.</string>
     <string name="cloud_backup_have_data">Fandt sikkerhedskopi i Xiaomi Cloud</string>
@@ -138,7 +144,9 @@
     <string name="dialog_cancel_backup_title">Annuller den igangværende sikkerhedskopiering?</string>
     <string name="dialog_msg_overwrite_backup">Lokal sikkerhedskopi er forskellig fra den i Xiaomi Cloud. Hvis du fortsætter, vil den nuværende sikkerhedskopi overskrive den forrige.</string>
     <string name="dialog_msg_restore_require_wlan">Gendannelse af sikkerhedskopier kræver tilslutning til Wi-Fi.</string>
+    <string name="dialog_msg_restore_require_wlan_china">Restoring backups requires connecting to WLAN.</string>
     <string name="dialog_title_require_wlan">Tilslut til Wi-Fi</string>
+    <string name="dialog_title_require_wlan_china">Connect to WLAN</string>
     <string name="dir_date_format">HHmmss_ddMMyyyy</string>
     <string name="doing_calc_backup_data_size">Beregner størrelse…</string>
     <string name="doing_restore_home">Gendanner startskærm og indstillinger…</string>
@@ -153,6 +161,7 @@
     <string name="error_unknown">Noget gik galt</string>
     <string name="expand_button_title">Avanceret</string>
     <string name="get_device_id_error">Kunne ikke få enheds-ID</string>
+    <string name="help_and_feedback">Hjælp og feedback</string>
     <string name="hint_restore_cross_space">Hjemmeskærmens layout kan blive vist forkert, hvis du overfører elementer mellem spaces.</string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Anden launcher</string>
@@ -179,11 +188,10 @@
     <string name="notification_channel_remind">Påmindelse</string>
     <string name="notification_channel_service">Tjeneste</string>
     <string name="open_backup_switch">Tryk på sikkerhedskopieringsknappen</string>
-    <string name="open_wifi">Slå Wi-Fi til nu</string>
-    <string name="open_wifi_description">Opret forbindelse til et Wi-Fi-netværk for at gendanne app</string>
-    <string name="open_wifi_setting">Wi-Fi-indstillinger</string>
     <string name="other_device_main_space">First space</string>
     <string name="other_device_second_space">Second space</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
     <string name="provision_background_restore_more_data">Gendan flere elementer i baggrunden</string>
@@ -211,7 +219,6 @@ Kontrollér dine netværksindstillinger og prøv igen."</string>
     <string name="restore_app_order_search_prior">Højt prioriterede apper</string>
     <string name="restore_app_order_title">Prioriter gendannede elementer</string>
     <string name="restore_cloud_backup_to_phone">Gendan elementer fra skyen</string>
-    <string name="restore_data_summary">Denne funktioner kræver internetforbindelse.</string>
     <string name="restore_data_title">Gendan data</string>
     <string name="restore_detail_category_apps">Startskærmlayout &amp; apper</string>
     <string name="restore_detail_category_settings">Indstillinger</string>

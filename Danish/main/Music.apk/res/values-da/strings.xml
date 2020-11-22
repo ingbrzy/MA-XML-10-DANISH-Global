@@ -61,7 +61,7 @@
     <string name="action_settings">Indstillinger</string>
     <string name="ad_close">Luk</string>
     <string name="ad_data_exception">Reklame-datafejl</string>
-    <string name="ad_recommend">Modtag anbefalinger</string>
+    <string name="ad_recommend">Vis reklamer</string>
     <string name="ad_setting">Yderligere indstillinger</string>
     <string name="add_music">Tilføj sange</string>
     <string name="add_to_last_of_playlist">Tilføj til slutning af afspilningslisten</string>
@@ -110,6 +110,8 @@
     <string name="artist_home_search_hint">Led efter kunstnere</string>
     <string name="artist_is_empty">Kunstnernavn kan ikke være tom.</string>
     <string name="artist_name">Kunstner</string>
+    <string name="audio_ad_countdown">Spring reklame over om %s s</string>
+    <string name="audio_ad_pass">Spring reklame over</string>
     <string name="audio_picker_title">Vælg en sang</string>
     <string name="auto_recommend">Automatisk (anbefales)</string>
     <string name="auto_sound_quality">Automatisk</string>
@@ -216,9 +218,14 @@
     <string name="dialog_renew_positive_text">JEPS, JEG VIL ROCKE SOM EN PRO</string>
     <string name="dialog_renew_success">Tak for din bekræftelse</string>
     <string name="dialog_score_btn_good">Bedøm</string>
+    <string name="dialog_score_msg_score_explorer">Kan du lide Mi Music?</string>
+    <string name="dialog_score_msg_score_not_good">Kan du også give os din feedback?</string>
+    <string name="dialog_score_msg_score_perfect">Fedt! Vil du også vurdere vores app på Play Store?</string>
     <string name="dialog_score_prompt_bad">Tak for din feedback. Vi vil gøre vores bedste for at forbedre vores app og tjenester.</string>
     <string name="dialog_score_prompt_good">Tak for din støtte. Bedøm også vores app i Google Play?</string>
     <string name="dialog_score_title">Bedøm vores app</string>
+    <string name="dialog_score_toast_rate">Bedøm først vores app</string>
+    <string name="dialog_score_toast_scroll_down_score_midrop">Kør ned for at vurdere vores app</string>
     <string name="dialog_song_sort_type">Sorter sange</string>
     <string name="dialog_song_sort_type_name">Efter navn</string>
     <string name="dialog_song_sort_type_playing_times">Efter antal gange de er blevet afspillet</string>
@@ -235,6 +242,7 @@
     <string name="dialog_title_queued_body">Fil ikke tilgængelig endnu</string>
     <string name="dialog_title_remove_tracks">Fjern</string>
     <string name="disallow_add_to_fm">Kan ikke tilføje sange til FM radio</string>
+    <string name="discover_more_music">Opdag flere sange</string>
     <string name="do_not_remind_this_version">Mind mig ikke om denne version</string>
     <string name="do_not_support_google_voice_search">Google-stemmesøgning understøttes ikke af denne enhed.</string>
     <string name="download">Download</string>
@@ -272,7 +280,9 @@
     <string name="download_method">Download</string>
     <string name="download_no_application_title">Kan ikke åbne filen</string>
     <string name="download_paused_in_power_save_mode">Download er sat på pause, når batterisparer er slået til</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Downloader…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Downloadkvalitet</string>
     <string name="download_quality_summary">Yderligere indstillinger for sange som du downloader</string>
     <string name="download_queued">I kø</string>
@@ -336,6 +346,7 @@
     <string name="error_not_support">Ikke understøttet</string>
     <string name="exo_controls_fastforward_description">Spol frem</string>
     <string name="exo_controls_fullscreen_description">Fuld skærm</string>
+    <string name="exo_controls_hide">Skjul afspilningsknapper</string>
     <string name="exo_controls_next_description">Afspil næste</string>
     <string name="exo_controls_pause_description">Sæt på pause</string>
     <string name="exo_controls_play_description">Afspil</string>
@@ -344,8 +355,11 @@
     <string name="exo_controls_repeat_off_description">Gentag ingen</string>
     <string name="exo_controls_repeat_one_description">Gentag én</string>
     <string name="exo_controls_rewind_description">Spol tilbage</string>
-    <string name="exo_controls_shuffle_description">Bland</string>
+    <string name="exo_controls_show">Vis afspilningsknapper</string>
+    <string name="exo_controls_shuffle_off_description">Bland er slået fra</string>
+    <string name="exo_controls_shuffle_on_description">Bland er slået til</string>
     <string name="exo_controls_stop_description">Stop</string>
+    <string name="exo_controls_vr_description">VR-tilstand</string>
     <string name="exo_download_completed">Downloaden er udført</string>
     <string name="exo_download_description">Download</string>
     <string name="exo_download_downloading">Downloader</string>
@@ -353,7 +367,16 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_media_action_repeat_all_description">Gentag alle</string>
+    <string name="exo_media_action_repeat_off_description">Gentag ingen</string>
+    <string name="exo_media_action_repeat_one_description">Gentag én</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativt spor</string>
+    <string name="exo_track_role_closed_captions">Undertekster</string>
+    <string name="exo_track_role_commentary">Kommentarspor</string>
+    <string name="exo_track_role_supplementary">Supplerende spor</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -451,6 +474,8 @@
     <string name="individuation_cart_login_title">Vil du se flere anbefalinger?</string>
     <string name="individuation_recommend_switch_message">At slå denne funktion fra vil påvirke de skræddersyede Mi Music tjenester. Slå fra alligevel?</string>
     <string name="individuation_recommend_title">Anbefalinger</string>
+    <string name="individuation_setting_summary">Modtag anbefalinger om indhold, baseret på dine interesser</string>
+    <string name="individuation_setting_title">Personaliserede anbefalinger</string>
     <string name="input_hint_prefix">Indtast %1$s</string>
     <string name="installing_apk">Installerer…</string>
     <string name="insufficient_space">Ikke nok plads i din enheds interne hukommelse</string>
@@ -584,6 +609,7 @@
     <string name="my_playlist_create_self_playlist">Opret afspilningslister med dine yndlingssange</string>
     <string name="my_playlist_set_to_private">Gør privat</string>
     <string name="my_playlist_set_to_public">Gør offentlig</string>
+    <string name="network_disable">Kunne ikke tilslutte til netværket.</string>
     <string name="network_error_and_retry">Kunne ikke oprette forbindelse, tryk for at prøve igen</string>
     <string name="network_request_error">Kan ikke tilslutte til netværket</string>
     <string name="network_settings_error">Kan ikke tilslutte til netværket</string>
@@ -712,8 +738,22 @@
     <string name="preset_music_playlist">Mi Music afspilningsliste</string>
     <string name="priority_storage">Brug eksternt SD-kort</string>
     <string name="priority_storage_summary">Automatisk download til eksternt SD-kort, hvis det er tilgængeligt</string>
+    <string name="privacy_authorize_network_error">Din enhed skal oprette forbindelse til netværket, før du kan tilbagetrække dit samtykke. Kontroller dine netværksindstillinger, og prøv igen.</string>
+    <string name="privacy_authorize_revoke_failed">Kunne ikke tilbagekalde autorisation</string>
+    <string name="privacy_authorize_revoke_success">Autorisationen blev tilbagekaldt</string>
+    <string name="privacy_authorize_revoking">Tilbagekalder autorisation…</string>
     <string name="privacy_desc">Fortrolighedspolitik (obligatorisk)</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=da_DK</string>
+    <string name="privacy_request_desc">"&lt;Data>Mi Musik er nødt til at indsamle nødvendige personoplysninger for at kunne forsyne dig med onlinestreamingtjenester. I vores &lt;a href=\"%1$s\">Fortrolighedspolitik&lt;/a> kan du læse, hvordan vi håndterer de indsamlede oplysninger. Du kan når som helst tilbagekalde din accept af Mi Musiks Fortrolighedspolitik under Indstillinger.
+Læs og accepter vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%1$s\">Fortrolighedspolitik&lt;/a>, før du bruger Mi Musik.
+Hvis du ikke accepterer brugen af de førnævnte tjenester, vil der være nogle funktioner af denne app, som du ikke kan bruge. Appens grundlæggende funktioner vil dog stadig være tilgængelige for dig.&lt;/Data>"</string>
+    <string name="privacy_request_subtitle">"Velkommen til Mi Musik! Denne app leverer følgende tjenester:
+
+- En lokal lydafspiller
+
+- Onlinestreamingtjenester"</string>
+    <string name="privacy_request_title">Vilkår og betingelser</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Phone</string>
     <string name="prompt_grant_write_settings_permission">Tillad ændring af systemindstillinger</string>
@@ -729,15 +769,20 @@
     <string name="recommended_no_file_size_download_in_mobile">Vil du bruge din mobile dataforbindelse til download af denne fil?</string>
     <string name="remove">Fjern</string>
     <string name="remove_download">Fjern</string>
+    <string name="remove_user_privacy_dialog_message">Ved at slå knappen fra for at tilbagetrække dit samtykke til fortrolighedspolitikken for Mi Musik. Vi vil ophøre med at indsamle dine personlige oplysninger. De personlige oplysninger, som vi allerede har indsamlet og gemt, vil blive slettet inden for den specifikke periode, som loven foreskriver. Mi Musik skal indsamle nødvendige personlige oplysninger for at kunne tilbyde dig grundlæggende tjenester. Din tilbagetrækning af samtykke til denne fortrolighedspolitik betragtes som en afvisning af deres tjenester baseret på indsamlede personlige oplysninger.</string>
+    <string name="remove_user_privacy_dialog_message_canuse">Ved at slå knappen fra for at tilbagetrække dit samtykke til fortrolighedspolitikken for Mi Musik. Vi vil ophøre med at indsamle dine personlige oplysninger. De personlige oplysninger, som vi allerede har indsamlet og gemt, vil blive slettet inden for det specifikke tidsrum, som loven foreskriver. Mi Musik skal indsamle nødvendige personlige oplysninger for at kunne tilbyde dig online streamingtjenester. Din tilbagetrækning af samtykke til denne fortrolighedspolitik betragtes som en afvisning af de tidligere nævnte tjenester baseret på indsamlede personlige oplysninger.</string>
+    <string name="remove_user_privacy_dialog_title">Tilbagetrækning af samtykke</string>
     <string name="repeat_all_notif">Gentag alle sange.</string>
     <string name="repeat_current_notif">Gentag aktuel sang.</string>
     <string name="request_overlay_permission_desc">Tillad at Mi Music viser flydende vinduer for at være i stand til at bruge denne funktion.</string>
+    <string name="request_privacy_permission_title">Læs og acceptér vilkår og betingelser nedenfor for at få adgang til alle vores tjenester.</string>
     <string name="request_share_info">Lige et øjeblik…</string>
     <string name="request_subscription_status">Lige et øjeblik…</string>
     <string name="restart_immediate">Genstart</string>
     <string name="retry">Prøv igen</string>
     <string name="retry_after_network_available">Kan ikke få forbindelse til netværket. Tjek forbindelsen og prøv igen.</string>
     <string name="retry_download">Prøv igen</string>
+    <string name="revoke_upload_playlist_to_hungama_toast">Online sange synkroniseres ikke til Hungama</string>
     <string name="ringtone_editing">Ringetoneeditor</string>
     <string name="ringtone_not_support">Denne sangs format understøttes ikke</string>
     <string name="ringtone_selected">Valgt</string>
@@ -815,10 +860,12 @@
     <string name="shuffle_music">Bland afspilning</string>
     <string name="shuffle_off_notif">Blande er slået fra.</string>
     <string name="shuffle_on_notif">Blande er slået til</string>
+    <string name="shuffle_play_toast_text">Blander sange…</string>
     <string name="similar_albums">Lignende albummer</string>
     <string name="similar_playlists">Lignende afspilningslister</string>
     <string name="similar_songs">Lignende sange</string>
     <string name="similar_videos">Lignende videoer</string>
+    <string name="skip">Spring over</string>
     <string name="sleep_mode">Sovetimer</string>
     <string name="sleep_mode_canceled">Slumretilstand slået fra</string>
     <string name="sleep_mode_summary">Stop afspilningen efter et vist tidsrum</string>
@@ -842,6 +889,8 @@
     <string name="start_to_check_new_version">Kontrollerer for opdateringer…</string>
     <string name="start_to_download">Downloader…</string>
     <string name="start_to_play">Afspil</string>
+    <string name="start_update">Installerer ny version…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lager til dual apps</string>
     <string name="storage_internal">Internt lager</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -890,6 +939,7 @@
     <string name="title_online_recommend">Viste afspilningslister</string>
     <string name="title_search_history">Søgehistorik</string>
     <string name="title_search_hot">Populære</string>
+    <string name="toast_cant_commit_without_title">Angiv sangtitel</string>
     <string name="toast_download_error_by_count_limit">Du har opbrugt din downloadkvote for denne måned.</string>
     <string name="toast_download_error_by_not_login">Log ind på Mi Account og prøv igen.</string>
     <string name="toast_download_error_by_vip_required">Få premium sangpakke til at downloade denne sang.</string>
@@ -904,8 +954,13 @@
     <string name="toast_normal_songs_for_download">Downloadkvalitet indstillet til standard</string>
     <string name="toast_normal_songs_for_stream">Streamingkvalitet indstillet til standard</string>
     <string name="toast_not_pro">Denne funktion er kun tilgængelig for PRO-medlemmer.</string>
+    <string name="toast_playmode_loop_playback">Aktuelt afspilningsliste er sat på loop</string>
+    <string name="toast_playmode_shuffle_play">Afspilningsliste er blandet</string>
+    <string name="toast_playmode_single_cycle">Aktuelt sang er sat på loop</string>
     <string name="toast_uhd_songs_for_download">Downloadkvalitet indstillet til høj</string>
     <string name="toast_uhd_songs_for_stream">Streamingkvalitet indstillet til høj</string>
+    <string name="toast_will_play_list_when_ad_pause">Denne playlist afspilles efter reklamerne</string>
+    <string name="toast_will_play_song_when_ad_pause">Denne sang afspilles efter reklamerne</string>
     <string name="today">I dag</string>
     <string name="top_chart_title">Hitlister</string>
     <string name="track_play_history_after_login">Log på for at se afspilningshistorik</string>
@@ -918,7 +973,20 @@
     <string name="upgrade_music">Opdater Music</string>
     <string name="upgrade_music_message">Opdateringer er parat. Genstart for at opdatere.</string>
     <string name="upgrading_in_backstage">Opdatering i baggrunden…</string>
+    <string name="upload_favorite_dialog_title">Upload dine sange til skyen for at kunne få adgang til dem fra andre synkroniserede enheder. Du kan deaktivere denne funktion under Indstillinger.</string>
+    <string name="upload_favorite_setting_summary">Når du tilføjer online sange til favoritter uploades de til clouden, så du får adgang til dem på andre enheder</string>
+    <string name="upload_favorite_setting_title">Synkronisér sange</string>
+    <string name="upload_playlist_to_hungama_negative_text">Synkroniser ikke</string>
+    <string name="upload_playlist_to_hungama_positive_text">Synkroniser</string>
+    <string name="upload_playlist_to_hungama_title">Synkroniser online sange med Hungama for at kunne få adgang til dem på andre enheder, hvor du bruger din Mi-konto.</string>
+    <string name="upload_playlist_to_hungama_toast">Online sange synkroniseres til Hungama</string>
     <string name="user_agreement">Brugeraftale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=da_DK</string>
+    <string name="user_privacy_dialog_negative_text">Annuller</string>
+    <string name="user_privacy_dialog_positive_count_down_text">Tilbagetræk (%ss)</string>
+    <string name="user_privacy_dialog_positive_text">Tilbagetræk</string>
+    <string name="user_privacy_setting_group_title">Tilbagetrækning af samtykke</string>
+    <string name="user_privacy_setting_title">Ved at slå knappen fra trækker du dit samtykke til privatlivspolitikken for Mi Musik tilbage.</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
     <string name="version_info">Udgave</string>

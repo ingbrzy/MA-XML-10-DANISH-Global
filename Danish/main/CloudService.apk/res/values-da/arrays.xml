@@ -20,6 +20,12 @@
         <item>Tag backup af vigtige indstillinger, herunder wi-fi og skærm</item>
         <item>Lås din enhed fjernt, hvis du har mistet den</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_china">
+        <item>Sync your contacts, messages, notes, calendar, and more</item>
+        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Back up important settings, including WLAN and display</item>
+        <item>"Lock your device remotely if it's lost"</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Synkroniser app-data</item>
         <item>Tag backup af startskærmslayout</item>
@@ -98,6 +104,11 @@
         <item>Slå synkronisering til</item>
         <item>App-vault;Kort;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
+    <string-array name="settings_search_phrase">
+        <item>Synkroniser hurtige svar</item>
+        <item>Slå synkronisering til</item>
+        <item>Hurtige svar;Udklipsholder;Redigeringsprogram;Cloud;Synkronisering;Cloud-tjenester</item>
+    </string-array>
     <string-array name="settings_search_recorder">
         <item>Synkroniser optagelser med Xiaomi Cloud</item>
         <item>Aktiver/konfigurer synkronisering</item>
@@ -114,9 +125,9 @@
         <item>Cloud;Sikkerhedskopier;Sikkerhedskopiering;Gendan;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_security">
-        <item>Synkroniser sikkerhed med Xiaomi Cloud</item>
+        <item>Sikkerhedssynkronisering med clouden</item>
         <item>Slå synkronisering til</item>
-        <item>Sikkerhed;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
+        <item>Sikkerhed;Cloud;Xiaomi-cloud;Synkronisering;Cloud-tjenester</item>
     </string-array>
     <string-array name="settings_search_sms">
         <item>Synkroniser beskeder med Xiaomi Cloud</item>
@@ -137,6 +148,11 @@
         <item>Synkroniser Wi-Fi-indstillinger med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
         <item>WLAN;wifi;Wi-Fi;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_wlan_china">
+        <item>Sync WLAN settings with Xiaomi Cloud</item>
+        <item>Turn on sync</item>
+        <item>WLAN;wifi;Wi-Fi;Cloud;Sync;Cloud services;Xiaomi Cloud</item>
     </string-array>
     <string-array name="user_detail_fixed_items">
         <item>Se synkroniserede elementer</item>

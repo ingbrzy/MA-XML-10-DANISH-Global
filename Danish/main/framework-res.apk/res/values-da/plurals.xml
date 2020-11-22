@@ -104,14 +104,6 @@
         <item quantity="other">Certifikatmyndigheder er installeret</item>
         <item quantity="one">Certifikatmyndighed er installeret</item>
     </plurals>
-    <plurals name="wifi_available">
-        <item quantity="other">Tilgængelige Wi-Fi-netværk</item>
-        <item quantity="one">Tilgængelige Wi-Fi-netværk</item>
-    </plurals>
-    <plurals name="wifi_available_detailed">
-        <item quantity="other">Åbne Wi-Fi-netværk er tilgængelige</item>
-        <item quantity="one">Åbne Wi-Fi-netværk er tilgængelige</item>
-    </plurals>
     <plurals name="zen_mode_duration_hours">
         <item quantity="other">I %d timer</item>
         <item quantity="one">I %d time</item>

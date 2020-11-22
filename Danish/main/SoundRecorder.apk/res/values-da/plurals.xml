@@ -28,13 +28,17 @@
         <item quantity="other">%d optagelser downloadet</item>
         <item quantity="one">%d optagelse downloadet</item>
     </plurals>
+    <plurals name="recovery_failed_dialog_message">
+        <item quantity="other">Kunne ikke gendanne %d elementer på grund af en ukendt fejl.</item>
+        <item quantity="one">Kunne ikke gendanne %d element på grund af en ukendt fejl.</item>
+    </plurals>
     <plurals name="search_alll_records_hint">
         <item quantity="other">Søg blandt %d optagelser</item>
         <item quantity="one">Søg blandt %d optagelse</item>
     </plurals>
     <plurals name="search_app_records_hint">
-        <item quantity="other">Search among %d recordings</item>
-        <item quantity="one">Search among %d recording</item>
+        <item quantity="other">Søg blandt %d optagelser</item>
+        <item quantity="one">Søg blandt %d optagelse</item>
     </plurals>
     <plurals name="search_call_records_hint">
         <item quantity="other">Søg blandt %d opkaldsoptagelser</item>
@@ -43,6 +47,18 @@
     <plurals name="search_result">
         <item quantity="other">Fundet %d optagelser</item>
         <item quantity="one">Fundet %d optagelse</item>
+    </plurals>
+    <plurals name="time_left_for_clear_file">
+        <item quantity="other">%d dage tilbage</item>
+        <item quantity="one">%d dag tilbage</item>
+    </plurals>
+    <plurals name="trash_box_delete_items">
+        <item quantity="other">Slet %d valgte optagelser permanent?</item>
+        <item quantity="one">Slet %d valgte optagelse permanent?</item>
+    </plurals>
+    <plurals name="trash_box_tip">
+        <item quantity="other">Slettede elementer kan gemmes i papirkurven i op til %d dag</item>
+        <item quantity="one">Slettede elementer kan gemmes i papirkurven i op til %d dage</item>
     </plurals>
     <plurals name="unsynced_records_count">
         <item quantity="other">%d er ikke synkroniseret</item>

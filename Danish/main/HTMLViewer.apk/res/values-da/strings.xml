@@ -10,6 +10,14 @@
 gå til %s på en anden tilsluttet enhed."</string>
     <string name="loading">Lige et øjeblik…</string>
     <string name="mibi_license">Mi Credits-brugeraftale</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Slip for at opdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det er alt for nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det er alt for nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
     <string name="open_wifi_connect_and_use_data_summary">Du bruger mobildata. Tryk for at skifte til Wi-Fi.</string>
     <string name="open_wifi_connect_summary">Tryk for at se oplysninger.</string>
     <string name="open_wifi_connect_title">Tilsluttet til %1$s</string>

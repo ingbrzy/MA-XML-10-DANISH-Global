@@ -126,13 +126,6 @@ for at kunne se dem når som helst"</string>
     <string name="dual_animation">Start animation</string>
     <string name="dual_animation_description">Vis animation, når dual-apps er startet</string>
     <string name="enable">Slå til</string>
-    <string name="encrypt_space_delete_dialog_click_message">*Hvis du ikke har behov for at flytte data, %s</string>
-    <string name="encrypt_space_delete_dialog_click_message_action">slet og opret Second space nu.</string>
-    <string name="encrypt_space_delete_dialog_message">Du er ved at gennemføre en systemopdatering. Efter opdateringen bliver Second Space-data inkompatible. For at undgå dette skal du flytte alle data til First Space, slette Second Space og oprette det igen.</string>
-    <string name="encrypt_space_delete_dialog_positive_text">Flyt data</string>
-    <string name="encrypt_space_delete_dialog_title">Bemærk</string>
-    <string name="encrypt_space_delete_notification_message">Slet din Second space og opret en ny for at kunne opdatere din enhed korrekt.</string>
-    <string name="encrypt_space_delete_notification_title">Second space</string>
     <string name="ent_activating">Aktiverer…</string>
     <string name="ent_activation">Aktivér</string>
     <string name="ent_activation_hint">Indtast din virksomhedskode sammen med din licenskode for at aktivere Enterprise-tilstand. Efter dette vil tilpassede Enterprise-tjenester blive aktiveret.</string>
@@ -217,7 +210,6 @@ Beskeder vises kun i Andet rum."</string>
     <string name="guide_pwd_detail_title">"Beskyt dine data
 Åbn Andet rum fra låseskærm"</string>
     <string name="guide_setting_guide_title">Administrer Andet rum</string>
-    <string name="guide_start_ads_text">Et helt nyt niveau af sikkerhed</string>
     <string name="guide_start_text">To rum. En enhed.</string>
     <string name="has_created_second_space">"Du kan åbne Andet rum nu.
 To rum. En enhed."</string>
@@ -255,6 +247,14 @@ Du kan også downloade dem separat."</string>
     <string name="master_clear_not_available_ep">Du har ikke tilladelse til at udføre fabriksnulstilling eller til at tilbagekalde din autorisation nu. Kontakt din tilsynsførende.</string>
     <string name="menu_item_about_privacy_title">Privatlivspolitik</string>
     <string name="messageData">Beskeder</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Slip for at opdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det er alt for nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det er alt for nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
     <string name="more_settings">Mere</string>
     <string name="msg_switch_file">Slet disse filer fra Første rum, efter de er blevet flyttet?</string>
     <string name="msg_switch_file_second">Slet disse filer i Andet rum, efter de er blevet flyttet?</string>
@@ -286,7 +286,6 @@ Du kan også downloade dem separat."</string>
     <string name="openPasswordGuard">Indstil adgangskode til Andet rum</string>
     <string name="openSuccess">Slået til</string>
     <string name="opened">Slået til</string>
-    <string name="optimize_now">Optimer</string>
     <string name="other">Andet</string>
     <string name="otherSettings">Andre indstillinger</string>
     <string name="passWordGuardSummary">Åbn Andet rum fra låseskærm ved brug af en adgangskode</string>
@@ -310,8 +309,6 @@ I modsat fald vil ikke muligvis ikke være i stand til at åbne Andet rum fra l�
     <string name="remove_button">Slet</string>
     <string name="remove_button_time">Slet (%ds)</string>
     <string name="remove_second_space_msg">Alle Andet rum-appdata vil gå tabt, efter at du har slettet Andet rum. Slet Andet rum nu?</string>
-    <string name="remove_user_click_message">*Hvis du ikke har nogen vigtige elementer i det Andet rum, %s</string>
-    <string name="remove_user_click_message_action">du kan slette Andet rum og genstarte din enhed nu.</string>
     <string name="removingSpace">Sletter…</string>
     <string name="repeat_scanner_fingerprint">Tilføj igen</string>
     <string name="reset_passwd_success">Adgangskoden blev nulstillet</string>
@@ -335,14 +332,6 @@ for at åbne Andet rum fra låseskærm"</string>
     <string name="scanner_fingerprint_tips_desc">Vælg eksisterende fingeraftryk for at komme ind i Andet rum. Du vil ikke kunne bruge det i Første rum.</string>
     <string name="scanner_fingerprint_tips_title">Åbn Andet område ved brug af fingeraftryk</string>
     <string name="scanner_second_space_fingerprint">Scan fingeraftryk til Andet rum</string>
-    <string name="sdcardfs_dialog_message">Et nyt filsystem er introduceret i denne opdatering. Gamle data vil muligvis ikke være kompatible med det. For at løse dette problem, følg trinnene til at installere en opdatering. Din enhed vil genstarte to gange i løbet af denne opdatering.</string>
-    <string name="sdcardfs_dialog_title">Vigtig opdatering</string>
-    <string name="sdcradfs_dialog_in_owner_message">"Et nyt filsystem er blevet introduceret i denne opdatering. Gamle data vil ikke være kompatible med det. For at opdatere skal du flytte elementer fra Andet rum, genstarte din enhed og oprette Andet rum igen.
-Hvis du ikke opdaterer, vil dobbelte apps muligvis ikke fungere korrekt."</string>
-    <string name="sdcradfs_dialog_in_owner_title">Andet rum</string>
-    <string name="sdcradfs_dialog_in_sec_message">"For at opdatere skal du slette dit Andet rum og derefter oprette det igen. Flyt dataene fra det Andet rum til Første rum, og genstart din enhed for at fuldføre opdateringen.
-Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string>
-    <string name="sdcradfs_dialog_in_sec_title">Vigtig opdatering</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_menu_title">Søg</string>
     <string name="search_result_text">Kunne ikke finde nogen apps</string>
@@ -353,6 +342,8 @@ Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string
     <string name="second_space_desktop_tips_dialog_title">Vigtig opdatering</string>
     <string name="second_space_finger_printf_desc">Tilføj fingeraftryk specifikt brugt til Andet rum</string>
     <string name="second_space_finger_printf_title">Fingeraftryk til Andet rum</string>
+    <string name="secondspace_homepage">"Indstil en designeret låseskærm til Second space.
+Separer og sikr dine data."</string>
     <string name="select_existed_fingerprint">Vælg fingeraftryk</string>
     <string name="serNameSummary">Andet rum</string>
     <string name="setSecondSpacePassword">Indstil adgangskode til Andet rum</string>
@@ -410,7 +401,6 @@ Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string
     <string name="space_create_guide_title_1">Beskyt dit privatliv</string>
     <string name="space_create_guide_title_2">Opret til hver en tid</string>
     <string name="space_create_guide_title_3">Helt uden risiko</string>
-    <string name="space_created_success">Andet rum er nu oprettet</string>
     <string name="space_deleted">Dette rum blev slettet</string>
     <string name="space_des_default">Isoleret plads med krypterede data</string>
     <string name="space_finger_sub_text">Indstil fingeraftryk til Andet rum for at skifte hurtigere</string>
@@ -427,7 +417,6 @@ for at åbne Andet rum fra låseskærmen"</string>
     <string name="stop_xspace_alert_title">Slet konti for dobbelte apper</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_switch_apps_settings">Vælg apps, der bruges i det aktuelle rum</string>
-    <string name="support_desc">Sikkerhedstjenester tilbudt af Spaces Mobile</string>
     <string name="sure_to_use">Bekræft</string>
     <string name="switchDataSummary">Flyt elementer mellem rum</string>
     <string name="switch_apps_settings">App-indstillinger</string>

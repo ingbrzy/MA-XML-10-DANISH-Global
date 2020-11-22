@@ -33,8 +33,8 @@
     <string name="alert_message_delete_record">Når optagelsen slettes fra din enhed, slettes denne optagelse også fra Xiaomi Cloud. Slet nu?</string>
     <string name="alert_message_delete_record_title">Slet optagelse?</string>
     <string name="app_name">Optager</string>
-    <string name="app_record">App recordings</string>
-    <string name="app_record_preference_title">App recordings</string>
+    <string name="app_record">App-optagelser</string>
+    <string name="app_record_preference_title">App-optagelser</string>
     <string name="back">Tilbage</string>
     <string name="button_queue_for_wifi">Vent</string>
     <string name="button_start_now">Download</string>
@@ -127,6 +127,7 @@
     <string name="network_unavailable_tip">Opret forbindelse til netværket og prøv igen.</string>
     <string name="new_record_name">Ny optagelse</string>
     <string name="no_file">Tom</string>
+    <string name="no_network">"Couldn't connect to the network"</string>
     <string name="not_set">Ikke angivet</string>
     <string name="notification_message_all_paused">Venter på Wi-Fi-forbindelse.</string>
     <string name="notification_playback">Afspiller…</string>
@@ -239,7 +240,7 @@
     <string name="record_downloading_notification_count">%d downloader</string>
     <string name="record_format_preference_title">Optagelsesformat</string>
     <string name="record_list">Optagelser</string>
-    <string name="record_list_app">App recordings</string>
+    <string name="record_list_app">App-optagelser</string>
     <string name="record_list_call">Optagede opkald</string>
     <string name="record_list_category_title_format">MMMM yyyy</string>
     <string name="record_list_cloud">Synkroniserede optagelser</string>
@@ -257,6 +258,9 @@
     <string name="recording_quality_low">Lav kvalitet</string>
     <string name="recording_quality_standard">Standardkvalitet</string>
     <string name="recording_stopped">Stoppet</string>
+    <string name="recovery">Gendan</string>
+    <string name="recovery_failed_dialog_button">Forstået</string>
+    <string name="recovery_failed_dialog_title">Bemærk</string>
     <string name="reg_error_audio_exist">Denne fil findes allerede.</string>
     <string name="reg_error_audio_large">Lydfiler er større end 500MB.</string>
     <string name="reg_error_audio_short">Lydfilen er for lille.</string>
@@ -275,6 +279,7 @@
     <string name="rename_no_more_tip">Vis ikke igen</string>
     <string name="retry">Prøv igen</string>
     <string name="runtime_permission_ungranted">Kan ikke bruge optageren på grund af manglende tilladelser</string>
+    <string name="save_record_dialog_title">Gem optagelse</string>
     <string name="search_app">Optager</string>
     <string name="search_empty">Kunne ikke finde resultater</string>
     <string name="search_enable_earpiece_title">Brug modtager til at afspille lyd</string>
@@ -318,11 +323,14 @@
     <string name="text_play_speed_1_5">1.5X afspilningshastighed</string>
     <string name="text_play_speed_2_0">2X afspilningshastighed</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
     <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s kan optage i ca. %2$s</string>
     <string name="toast_uninstall_fileexplorer">Filhåndtering er ikke installeret</string>
+    <string name="trash_box">For nylig slettede elementer</string>
+    <string name="trash_box_close_tip">Luk straks</string>
+    <string name="trash_box_delete_all">Slet alle elementer fra papirkurven permanent?</string>
     <string name="usage_description">Transskriberer lyd og synkroniserer elementer med clouden</string>
+    <string name="user_feedback">Feedback</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
     <string name="webview_check_network">Netværksindstillinger</string>

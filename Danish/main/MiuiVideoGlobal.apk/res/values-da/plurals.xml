@@ -8,6 +8,10 @@
         <item quantity="other">Går tilbage til hjemmesiden om %1$d sekunder…</item>
         <item quantity="one">Går tilbage til hjemmesiden om %1$d sekund…</item>
     </plurals>
+    <plurals name="follower">
+        <item quantity="other">%d følgere</item>
+        <item quantity="one">%d følger</item>
+    </plurals>
     <plurals name="lv_subtitle_offset_advance_times">
         <item quantity="other">Undertekster vil blive vist %.1f sekunder tidligere</item>
         <item quantity="one">Undertekster vil blive vist %.1f sekund tidligere</item>
@@ -23,6 +27,10 @@
     <plurals name="lv_video_count">
         <item quantity="other">%d videoer</item>
         <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="mediation_animate_close_after">
+        <item quantity="other">%s sek. tilbage</item>
+        <item quantity="one">%s sek. tilbage</item>
     </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Dit indhold indeholder elementer (%1$s), der overtræder vores fællesskabsstandarder. Din konto er suspenderet i %2$d dage indtil %3$s.</item>
@@ -63,6 +71,18 @@
     <plurals name="plus_serval_videos">
         <item quantity="other">%d videoer</item>
         <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="s_double_tap_backward">
+        <item quantity="other">Tryk to gange for at spole tilbage om %d sekunder</item>
+        <item quantity="one">Tryk to gange for at spole tilbage om %d sekund</item>
+    </plurals>
+    <plurals name="s_double_tap_forward">
+        <item quantity="other">Tryk to gange for at spole fremad om %d sekunder</item>
+        <item quantity="one">Tryk to gange for at spole fremad om %d sekund</item>
+    </plurals>
+    <plurals name="s_forward_tip">
+        <item quantity="other">%1$s sek.</item>
+        <item quantity="one">%1$s sek.</item>
     </plurals>
     <plurals name="subscriber">
         <item quantity="other">%s abonnenter</item>

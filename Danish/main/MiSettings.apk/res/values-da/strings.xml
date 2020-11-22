@@ -30,7 +30,7 @@
     <string name="advanced_mode">Avancerede indstillinger</string>
     <string name="anti_flicker_mode">Flimmerfri</string>
     <string name="anti_flicker_mode_categroy">Tilstande</string>
-    <string name="anti_flicker_mode_summary">Reducer flimmer i dårlige lysforhold for at minimere øjnenes belastning. Nogle elementer vises muligvis ikke korrekt.</string>
+    <string name="anti_flicker_mode_summary">Undgå overdrevet flimring og mindsk belastningen på øjnene under forhold med svagt lys.</string>
     <string name="anti_flicker_title">Flimmerfri tilstand</string>
     <string name="app_name">Indstillinger</string>
     <string name="application_sound">Appnotifikationer</string>
@@ -51,6 +51,10 @@
     <string name="created">Oprettet</string>
     <string name="created_successfully">Er nu oprettet</string>
     <string name="cu_confirm">Indstil</string>
+    <string name="dc_light_hint_enable_title">Bemærk</string>
+    <string name="dc_light_hint_normal">Lysdæmpning af skærmen kan påvirke, hvordan nogle elementer bliver vist.</string>
+    <string name="dc_light_hint_other">Lysdæmpning af skærmen kan påvirke opdateringsfrekvensen, samt hvordan nogle elementer bliver vist.</string>
+    <string name="dc_lignt_enable_hint">Anti-flicker-tilstand indstiller skærmens opdateringsfrekvens til 60 Hz. Skift til Anti-flicker-tilstand?</string>
     <string name="display_description">Større ikoner, større tekst, mindre visuelt rod</string>
     <string name="display_title">Større elementer</string>
     <string name="exit_easymode">Slå Lite-tilstand fra</string>
@@ -66,6 +70,7 @@
     <string name="follow_sim1">Brug SIM 1-indstillinger</string>
     <string name="gamma">Gamma</string>
     <string name="healthy_use_phone">Administrer skærmtid</string>
+    <string name="high_fps_description">Høj skærmopdateringsfrekvens. Højere energiforbrug.</string>
     <string name="hsv_space_color">HSV-farverum</string>
     <string name="hsv_space_color_hue">Farvetone</string>
     <string name="hsv_space_color_saturation">Mætning</string>
@@ -74,6 +79,7 @@
     <string name="intelligent_recognition_item_title">Identificer tjenester</string>
     <string name="less_than_one">&lt; %d</string>
     <string name="lock_summary">Beskyt dine personlige oplysninger</string>
+    <string name="low_fps_description">Lav skærmopdateringsfrekvens. Lavere energiforbrug.</string>
     <string name="low_light_preview">Eksempel på dårligt lys</string>
     <string name="mms">Beskeder</string>
     <string name="more_ringtone">Alle ringetoner</string>
@@ -119,6 +125,7 @@
     <string name="search_menu_title">Søg</string>
     <string name="several_days_use_time">Skærmtid: %2$s</string>
     <string name="shortcut_created">Denne genvej findes allerede</string>
+    <string name="silent_ringtone_hint">Lyden er stillet på lydløs nu. Skru op for lyden og prøv igen.</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
     <string name="sms_delivered_sound_title">Leverede beskeder</string>
@@ -158,7 +165,9 @@
     <string name="usage_app_limit_alter_title">Tjek skærmtidsgrænser</string>
     <string name="usage_app_limit_prelong">Forlæng tid</string>
     <string name="usage_app_limit_reach_summay">%s tilbage</string>
+    <string name="usage_app_limit_reach_summay_new">Tryk for at tilføje %d min.</string>
     <string name="usage_app_limit_reach_title">%s nærmer sig sin skærmtidsgrænse</string>
+    <string name="usage_app_limit_reach_title_new" formatted="false">Resterende skærmtid for %1s: %2s</string>
     <string name="usage_app_limit_summary">Valgte apps er ikke tilgængelige, når grænsen er nået</string>
     <string name="usage_app_limit_title">Begræns skærmtid</string>
     <string name="usage_app_other_settings">Yderligere indstillinger</string>
@@ -210,8 +219,12 @@ Denne app kræver også forbindelse til internettet og kræver følgende tillade
     <string name="usage_home_premission_second_summary_double_link_prefix">Vi vil beskytte dine personlige oplysninger i henhold til gældende love, bestemmelser og privatlivspolitikker. Hvis du ikke accepterer at give sådanne tilladelser eller at dele og uploade dine personlige oplysninger, vil du ikke kunne bruge denne app. Du kan tilbagekalde din autorisation i Skærmtid > Indstillinger > Deaktivér skærmtid.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Før du bruger denne app, bedes du læse og acceptere vores &lt;a href='%1s'>Brugeraftale&lt;/a> og&lt;a href='%2s'>Privatlivspolitik&lt;/a>.&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">Vi vil beskytte dine personlige oplysninger i henhold til gældende love, bestemmelser og privatlivspolitikker. Hvis du ikke accepterer at give sådanne tilladelser eller at dele og uploade dine personlige oplysninger, vil du ikke kunne bruge denne app. Du kan tilbagekalde din autorisation i Skærmtid > Indstillinger > Deaktivér skærmtid. Hvis du har yderligere spørgsmål om privatliv, kan du kontakte os på privacy@xiaomi.com.</string>
+    <string name="usage_new_home_app_limit_summary">Indstil daglig skærmtidsbegrænsning for apps</string>
+    <string name="usage_new_home_app_limit_title">Begræns skærmtid</string>
     <string name="usage_new_home_average">"Gennemsnit "</string>
+    <string name="usage_new_home_avg_usage_day">I gennemsnit %s pr. dag</string>
     <string name="usage_new_home_category">Kategori</string>
+    <string name="usage_new_home_classify_manage">Administrer appkategorier</string>
     <string name="usage_new_home_compare_text1">%.2f mere end dagen før</string>
     <string name="usage_new_home_compare_text2">%.2f mindre end dagen før</string>
     <string name="usage_new_home_compare_text3">Samme som dagen før</string>
@@ -219,15 +232,19 @@ Denne app kræver også forbindelse til internettet og kræver følgende tillade
     <string name="usage_new_home_dashboard">Oversigtspanel</string>
     <string name="usage_new_home_date_day_title">%s | Brugstid</string>
     <string name="usage_new_home_day_category_title">App-kategorier</string>
+    <string name="usage_new_home_day_category_title_new">Skærmtid for app-kategorier på %s</string>
     <string name="usage_new_home_day_title">Dag</string>
     <string name="usage_new_home_day_usage_title">Individuelle apps</string>
+    <string name="usage_new_home_day_usage_title_new">Skærmtid på %s</string>
     <string name="usage_new_home_first_unlock">Lås først op: %s</string>
     <string name="usage_new_home_name">Navn</string>
     <string name="usage_new_home_show_more_data_summary">Du kan også begrænse skærmtiden for individuelle apps</string>
     <string name="usage_new_home_show_more_data_title">Se flere statistikker</string>
+    <string name="usage_new_home_sys_no_limit_summary">Kan ikke begrænse skærmtid for systemapps</string>
     <string name="usage_new_home_unlock_equals_text">Samme som dagen før</string>
     <string name="usage_new_home_unused">Brugte ikke</string>
     <string name="usage_new_home_update">Skift</string>
+    <string name="usage_new_home_usage_detail">Oplysninger om forbrug</string>
     <string name="usage_new_home_week_category_title">App-kategorier</string>
     <string name="usage_new_home_week_compare_text1">%.2f mere end ugen før</string>
     <string name="usage_new_home_week_compare_text2">%.2f mindre end ugen før</string>
@@ -249,7 +266,7 @@ Denne app skal tilslutte til internettet og kræver følgende tilladelser for at
     <string name="usage_reach_device_limit_warning_text">Du har nået din skærmtidsgrænse for i dag</string>
     <string name="usage_refresh">Prøv igen</string>
     <string name="usage_remain_about_hour_miunte">≈%1$s %2$s</string>
-    <string name="usage_remain_hour_miunte">%1$s%2$s</string>
+    <string name="usage_remain_hour_miunte">%1$s %2$s</string>
     <string name="usage_request_error_summary">Der opstod en ukendt fejl</string>
     <string name="usage_request_timeout_summary">Anmodning udløb</string>
     <string name="usage_runtime_per_des_summary">For at gemme dine statistikker om skærmtid</string>
@@ -363,6 +380,8 @@ Denne app skal tilslutte til internettet og kræver følgende tilladelser for at
     <string name="usage_stats_week_day">Weekender</string>
     <string name="usage_total_days">Dage i alt</string>
     <string name="usage_total_times">Sessioner i alt</string>
+    <string name="usage_week_avg_usage_title">Gennemsnit denne uge</string>
+    <string name="usage_week_avg_usage_title2">Gennemsnitlig tid</string>
     <string name="usage_weekly_report_summary">Lær, hvordan du bruger din enhed</string>
     <string name="usage_weekly_report_title">Ugentlig rapport</string>
     <string name="usagestats_app_category_miui_education">Uddannelse</string>

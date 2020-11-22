@@ -4,17 +4,17 @@
     <string name="This_week">Denne uge</string>
     <string name="Today">I dag</string>
     <string name="Yesterday">I går</string>
-    <string name="abc_action_bar_home_description">Naviger hjem</string>
-    <string name="abc_action_bar_up_description">Naviger op</string>
-    <string name="abc_action_menu_overflow_description">Flere muligheder</string>
-    <string name="abc_action_mode_done">Luk</string>
+    <string name="abc_action_bar_home_description">Find hjem</string>
+    <string name="abc_action_bar_up_description">Gå op</string>
+    <string name="abc_action_menu_overflow_description">Flere valgmuligheder</string>
+    <string name="abc_action_mode_done">Udfør</string>
     <string name="abc_activity_chooser_view_see_all">Se alle</string>
     <string name="abc_activitychooserview_choose_application">Vælg en app</string>
     <string name="abc_capital_off">FRA</string>
     <string name="abc_capital_on">TIL</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_delete_shortcut_label">slet</string>
     <string name="abc_menu_enter_shortcut_label">enter</string>
     <string name="abc_menu_function_shortcut_label">Fn+</string>
     <string name="abc_menu_meta_shortcut_label">Meta+</string>
@@ -23,10 +23,10 @@
     <string name="abc_menu_sym_shortcut_label">Sym+</string>
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Søg…</string>
-    <string name="abc_searchview_description_clear">Ryd forespørgslen</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgsel</string>
     <string name="abc_searchview_description_query">Søgeforespørgsel</string>
     <string name="abc_searchview_description_search">Søg</string>
-    <string name="abc_searchview_description_submit">Indsend forespørgslen</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgsel</string>
     <string name="abc_searchview_description_voice">Talesøgning</string>
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
@@ -66,8 +66,17 @@
     <string name="action_update_phone">Skift telefonnummer</string>
     <string name="activate_email_notice">Sørg for at aktivere din konto indenfor 24 timer</string>
     <string name="activity_not_found_notice">Kan ikke finde appen</string>
+    <string name="ad_buy">Køb</string>
+    <string name="ad_download">Download</string>
+    <string name="ad_join">Vær med i fællesskabet</string>
+    <string name="ad_more">Flere</string>
+    <string name="add_search_channel_link">URL</string>
+    <string name="add_search_channel_name">Navn</string>
+    <string name="add_search_channel_tip">Søg efter \"%s\" på destinationswebsitet, og kopiér og indsæt derefter URL-adressen her.</string>
     <string name="add_to_trust_device">Dette er en enhed, der er tillid til</string>
+    <string name="add_website">Tilføj et website</string>
     <string name="agree">Acceptér</string>
+    <string name="agree_and_continue">Acceptér</string>
     <string name="ai_animation_music_text">Hele lydsporet</string>
     <string name="ai_music_save_cancel">Annuller</string>
     <string name="ai_music_save_dialog_title">Gem</string>
@@ -86,9 +95,11 @@
     <string name="alert_dialog_download_progress">"Downloader app: "</string>
     <string name="all">Vis alle</string>
     <string name="app_name">Mi Video</string>
+    <string name="auth_again">Accepter</string>
     <string name="auth_fail_warning">Session udløbet. Log ind igen.</string>
     <string name="auto_play_next_off">Automatisk afspilning er deaktiveret</string>
     <string name="auto_play_next_on">Automatisk afspilning er aktiveret</string>
+    <string name="back_to_mainpage">Opdag</string>
     <string name="before_yestoday">2 dage siden</string>
     <string name="bind_sign_in_title">Tilføj Mi-konto</string>
     <string name="cancel">Annuller</string>
@@ -104,6 +115,7 @@
     <string name="cast_expanded_controller_ad_image_description">Billede, der vises, mens Cast-modtageren afspiller en annonce</string>
     <string name="cast_expanded_controller_ad_in_progress">Igangværende annonce…</string>
     <string name="cast_expanded_controller_background_image">Albumgrafik</string>
+    <string name="cast_expanded_controller_live_head_description">Den aktuelle position er øverst på livestreamen</string>
     <string name="cast_expanded_controller_live_stream_indicator">Livestreaming</string>
     <string name="cast_expanded_controller_loading">Indlæser…</string>
     <string name="cast_expanded_controller_skip_ad_label">Spring annoncen over</string>
@@ -111,6 +123,8 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol ti sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
+    <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Slå lyden fra</string>
     <string name="cast_notification_connected_message">Forbundet til %1$s</string>
     <string name="cast_notification_connecting_message">Der oprettes forbindelse til %1$s</string>
@@ -142,7 +156,9 @@
     <string name="choose_to_signup">Nej, jeg opretter en</string>
     <string name="click_to_reload_more">Tryk for at loade mere</string>
     <string name="click_to_retry">Prøv igen</string>
-    <string name="cloud_online_switch">Personlige anbefalinger</string>
+    <string name="cloud_auto_pip_play_switch">Brug automatisk billede-i-billede</string>
+    <string name="cloud_online_player">Afspiller</string>
+    <string name="cloud_online_switch">Personaliserede anbefalinger</string>
     <string name="cloud_online_switch_close_time">Du kan aktivere personlige indholdsanbefalinger om %s</string>
     <string name="cloud_online_switch_open_time">Vis personlige indholdsanbefalinger</string>
     <string name="collect_diagnosis_log">Indsaml logfiler</string>
@@ -217,19 +233,23 @@
     <string name="confirm_unbundled_phone_dialog_message">Dette telefonnummer var tilknyttet Mi-konto %2$s den %1$s. Hvis du fortsætter, vil det ikke længere være tilknyttet Mi-konto %3$s. Fortsæt?</string>
     <string name="content">Indhold</string>
     <string name="content_can_not_null">Kan ikke indsende feedback uden beskrivelse.</string>
+    <string name="continue_play">Fortsæt</string>
     <string name="data_empty">Ingen elementer her</string>
     <string name="description">Beskrivelse</string>
+    <string name="detail_select_source">Vælg kilde for playpack</string>
     <string name="diagnosis_log_send_failed">Kunne ikke sende logfiler. Prøv igen.</string>
     <string name="diagnosis_log_sent_format">"Logfiler er nu sendt.
 ID:%s
 Send denne kode til supervisoren."</string>
-    <string name="dialog_privacy_info_new2">For at kunne bruge dens tjenester skal du acceptere, at %1$s indsamler, behandler og bruger dine personlige oplysninger. Du forventes at have læst og accepteret vores &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>, når du trykker \"Acceptér\" nedenfor.</string>
+    <string name="dialog_privacy_info_new2">For at kunne bruge dens tjenester skal du acceptere, at %1$s indsamler, behandler og bruger dine personlige oplysninger. Du forventes at have læst og accepteret vores &lt;a href=%2$s>Privatlivspolitik&lt;/a>, når du trykker Acceptér nedenfor.</string>
+    <string name="dialog_privacy_info_new3">For at kunne bruge denne serivce skal du give tilladelse til, at %1$s indsamler, behandler og bruger dine personoplysninger i overensstemmelse med Fortrolighedspolitikken. Ved at trykke på Accepter forneden accepterer du Xiaomis &lt;a href=%2$s>Fortrolighedspolitik&lt;/a> og &lt;a href=%3$s>Brugeraftale&lt;/a>. &lt;br/>&lt;br/>Tryk på Accepter giver også Mi Video adgang til listen over apps installeret på din enhed. Med denne tilladelse vil Mi Video være i stand til at dele elementer, forstå om en app er installeret på din enhed, hvilken version af en app der er installeret, og om en app er sikker.</string>
     <string name="dialog_privacy_title">Autorisation</string>
     <string name="dialog_revoke_privacy_info_new2">Efter du har tilbagekaldt tilladelsen, holder appen op med at indsamle data, og alle de relaterede data slettes fra vores servere. Det kan stort set gøre appen ubrugelig. Vil du alligevel tilbagekald tilladelsen?</string>
     <string name="dialog_revoke_privacy_title">Tilbagekalder autorisation</string>
     <string name="diy_channels_tips">Nu kan du tilpasse listen over dine kanaler.</string>
     <string name="do_not_show_again">Vis ikke igen</string>
     <string name="download">Download</string>
+    <string name="download_checking_tip">Forbereder at downloade…</string>
     <string name="download_complete">Downloadet</string>
     <string name="download_delete_tip">Slet valgte elementer?</string>
     <string name="download_delete_title">Slet</string>
@@ -238,6 +258,7 @@ Send denne kode til supervisoren."</string>
     <string name="download_power_off_tips">Denne funktion er ikke tilgængelig nu</string>
     <string name="download_progress">%d%%</string>
     <string name="download_retry">Prøv igen</string>
+    <string name="download_unable_tip">Kan ikke downloade dette element</string>
     <string name="download_video">Downloader video</string>
     <string name="downloading">Downloader…</string>
     <string name="empty_channels">Administrer kanaler</string>
@@ -278,6 +299,7 @@ Send denne kode til supervisoren."</string>
     <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
     <string name="exo_track_surround_7_point_1">7.1 surroundsound</string>
     <string name="exo_track_unknown">Ukendt</string>
+    <string name="explore">Opdag</string>
     <string name="explore_on_mi_video">Find mere på Mi Video</string>
     <string name="failed_dup_secure_phone_number">Telefonnummeret er allerede tilknyttet en anden Mi-konto</string>
     <string name="failed_to_fetch_data">Kunne ikke loade oplysninger.</string>
@@ -290,6 +312,7 @@ Send denne kode til supervisoren."</string>
     <string name="favorite_fail">Kunne ikke tilføje til favoritter. Prøv igen.</string>
     <string name="favorite_success">Føjet til favoritter</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
+    <string name="fcm_push_title">Populære videoer</string>
     <string name="feedback">Feedback</string>
     <string name="feedback_activity_title">Feedback</string>
     <string name="feedback_contact_empty">Indtast dine kontaktoplysninger</string>
@@ -305,8 +328,11 @@ Send denne kode til supervisoren."</string>
     <string name="feedback_success_toast">Indsendt korrekt. Tak for din feedback!</string>
     <string name="feedback_tag_title">Kategori</string>
     <string name="feedback_text_empty_toast">Indtast først din feedback.</string>
+    <string name="file_cant_rename">File with %1$s name already exists. Please rename</string>
+    <string name="file_space_not_enough_tip">Der er ikke nok lagerplads. Frigør mindst %d MB, og start appen igen.</string>
     <string name="find_psw">Glem adgangskode</string>
     <string name="finish">Udført</string>
+    <string name="firework_privacy">Fortrolighedspolitik for Firework</string>
     <string name="for_diagnosis_usage_only">Logfiler bruges kun til diagnosticering.</string>
     <string name="for_you">TIL DIG</string>
     <string name="friday">Fredag</string>
@@ -331,11 +357,17 @@ Send denne kode til supervisoren."</string>
     <string name="gallery_folder_alias_youku_video">Youku</string>
     <string name="gallery_tab_all">Alle</string>
     <string name="gallery_tab_videos">Videoer</string>
+    <string name="galleryplus_already_cloud_member">Using VIP membership to play</string>
+    <string name="galleryplus_check_network">Indstillinger</string>
     <string name="galleryplus_chose_play_speed">Afspiller på %1$.1fX hastighed</string>
+    <string name="galleryplus_chose_play_speed_2">Afspiller ved en hastighed på %1$.2fX</string>
     <string name="galleryplus_chose_play_speed_failure">Kunne ikke justere afspilningshastighed</string>
     <string name="galleryplus_click_to_higher_definition">Dobbelttryk for at åbne HD-forhåndsvisning</string>
+    <string name="galleryplus_copyright_unsported_audio">Kan ikke afspille videoens lydspor på grund af copyright-restriktioner</string>
+    <string name="galleryplus_copyright_unsported_video">Kan ikke afspille denne video på grund af copyright-restriktioner</string>
     <string name="galleryplus_cta_tips">Du kan hjælpe os med at forbedre vores tjenester ved at deltage i Brugeroplevelsesprogrammet og ved at tillade Mi Video at tilslutte til internettet? Acceptér?</string>
     <string name="galleryplus_double_tap_to_higher_definition">Dobbelttryk igen for at åbne HD-forhåndsvisning</string>
+    <string name="galleryplus_fr_unsupport_restore_speed">Ikke-understøttet framerate. Skiftede tilbage til normal hastighed.</string>
     <string name="galleryplus_gallery_fold_tags">Skjul mærker</string>
     <string name="galleryplus_gallery_video_adjust_hint">Kun videoer med 960 fps er understøttet</string>
     <string name="galleryplus_gallery_video_adjust_text">Tilpas</string>
@@ -352,7 +384,16 @@ Send denne kode til supervisoren."</string>
     <string name="galleryplus_gallery_video_save_video">Laver video…</string>
     <string name="galleryplus_gallery_video_slow_edit">Slowmotion</string>
     <string name="galleryplus_gallery_view_tags">Vis mærker</string>
-    <string name="galleryplus_is_higher_definition">Åbnede HD-forhåndsvisning</string>
+    <string name="galleryplus_is_higher_definition">HD-forhåndsvisning</string>
+    <string name="galleryplus_network_connect_check">Kunne ikke tilslutte til netværket</string>
+    <string name="galleryplus_network_connect_confirm">Tilslut til Wi-Fi eller aktivér mobildata i netværksindstillingerne.</string>
+    <string name="galleryplus_network_error">Kunne ikke tilslutte til netværket</string>
+    <string name="galleryplus_network_not_wifi">Brug af mobildata til at streame videoer kan medføre yderligere operatørgebyrer</string>
+    <string name="galleryplus_online_cta">Mi Video er nødt til at tilslutte til internettet for at fungere normalt. Enig?</string>
+    <string name="galleryplus_online_cta_agree">Bekræft</string>
+    <string name="galleryplus_online_cta_disagree">Bekræft ikke</string>
+    <string name="galleryplus_online_cta_title">Vilkår og betingelser</string>
+    <string name="galleryplus_online_video_loading">Lige et øjeblik…</string>
     <string name="galleryplus_permission_content">Giv Mi Video de påkrævede tilladelser for at kunne bruge denne funktion.</string>
     <string name="galleryplus_permission_content2">"For at kunne bruge denne funktion skal du gå til Indstillinger > Apps > Mi Video > Apptilladelser og tillade Mi Video at gøre følgende:
 
@@ -374,6 +415,7 @@ Send denne kode til supervisoren."</string>
     <string name="galleryplus_subtitle_edit_edit">Redigér undertekster</string>
     <string name="galleryplus_subtitle_edit_hide">Skjul undertekster</string>
     <string name="galleryplus_subtitle_edit_literal_edit">Redigér tekst</string>
+    <string name="galleryplus_subtitle_edit_reminder">Den indtastede tekst er for lang</string>
     <string name="galleryplus_subtitle_recognized_empty_subtitles">Kunne ikke genkende tale, mens du optog</string>
     <string name="galleryplus_v_agree">Acceptér</string>
     <string name="galleryplus_v_cancel">Annullér</string>
@@ -396,6 +438,7 @@ Send denne kode til supervisoren."</string>
     <string name="get_ph_ticket">Få kode</string>
     <string name="get_phone_bind_exceed_limit">Du kan tilknytte op til 3 Mi-konti til et telefonnummer. Kan ikke tilføje nye konti.</string>
     <string name="get_phone_verifycode_exceed_limit">For mange bekræftelseskoder sendt til dette nummer. Vent 24 timer og prøv igen.</string>
+    <string name="got_it">Forstået</string>
     <string name="goto_sign_up">Opret konto</string>
     <string name="have_learned">Forstået</string>
     <string name="hidden_channels">Følgende kanaler vil ikke blive vist på hjemmesiden.</string>
@@ -403,6 +446,7 @@ Send denne kode til supervisoren."</string>
     <string name="history">Historik</string>
     <string name="history_local_video">Lokal</string>
     <string name="history_online_video">Online</string>
+    <string name="hot">Populær</string>
     <string name="identity">Identifikation</string>
     <string name="inconsistent_pwd">Adgangskoder er ikke ens</string>
     <string name="init_channels">Gendan standardindstillinger</string>
@@ -411,6 +455,12 @@ Send denne kode til supervisoren."</string>
     <string name="input_size_tips">Du kan angive maks. 1000 tegn</string>
     <string name="isornot_your_mi_account">Er dette din Mi Account?</string>
     <string name="issue">Problem</string>
+    <string name="item_card_all_replies">Alle svar</string>
+    <string name="item_card_continue_play">Automatisk afspilning</string>
+    <string name="item_card_more_trailers">Flere trailere</string>
+    <string name="item_card_open_in">"Åben i "</string>
+    <string name="item_card_related">Relateret</string>
+    <string name="item_setting_go_back">Tilbagetrækning af samtykke</string>
     <string name="just_a_second">Lige et øjeblik…</string>
     <string name="language_later_setting_tips">Du kan ændre dine sprogpræferencer i Profil > Sprog.</string>
     <string name="language_select_tips">"Vælg dit foretrukne sprog
@@ -531,7 +581,7 @@ til videoer"</string>
     <string name="lv_subtitle_onlinesub_loading">Loader undertekster…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Loader undertekster…</string>
     <string name="lv_subtitle_onlinesub_right_declare">Ansvarsfralæggelse</string>
-    <string name="lv_subtitle_onlinesub_right_declare_content">Få undertekster&lt;br/>&lt;br/>fra &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>&lt;br/>Alle online-undertekster er stillet til rådighed af &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>.</string>
+    <string name="lv_subtitle_onlinesub_right_declare_content">Få undertekster&lt;br/>&lt;br/>fra &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>. &lt;br/>&lt;br/>Alle online-undertekster er stillet til rådighed af &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
     <string name="lv_subtitle_onlinesub_save_failed">Kunne ikke tilføje undertekster</string>
     <string name="lv_subtitle_onlinesub_save_success">Undertekster tilføjet</string>
     <string name="lv_subtitle_onlinesub_search_keyword">Indtast nøgleord at søge efter</string>
@@ -553,6 +603,7 @@ til videoer"</string>
     <string name="lv_video_null">Ingen videoer</string>
     <string name="lv_volume">Volumen</string>
     <string name="manage">Håndtere</string>
+    <string name="mediation_ad_can_not_share">Kan ikke dele denne video</string>
     <string name="mi_video">Mi Video</string>
     <string name="mnc_live_tv">Live-tv</string>
     <string name="moment_guide_desc">Brug håndbevægelser for at zoome ind og ud</string>
@@ -594,7 +645,9 @@ til videoer"</string>
     <string name="need_update_app">Opdatér Mi Video for at bruge alle dens funktioner</string>
     <string name="network_connect_info">Kunne ikke tilslutte til netværket. Kontrollér dine netværksindstillinger og prøv igen.</string>
     <string name="network_failed">Kunne ikke forbinde til netværket</string>
+    <string name="new_channel_tip">Tag et kik på nye kanaler!</string>
     <string name="next">Næste</string>
+    <string name="next_step">Næste</string>
     <string name="nick_name">Kaldenavn</string>
     <string name="no_account">Ikke logget ind</string>
     <string name="no_longer_prompt">Vis ikke igen</string>
@@ -613,9 +666,17 @@ til videoer"</string>
     <string name="notice_message_title">Notifikationer</string>
     <string name="notice_title">Beskeder</string>
     <string name="notification_bar">Notifikationsskygge</string>
+    <string name="notification_bar_player_subtitle">Vis minimeret afspiller i notifikationsskyggen</string>
+    <string name="notification_bar_player_title">Minimer afspiller</string>
     <string name="notification_open_tip">Aktivér for at modtage notifikationer</string>
+    <string name="notification_recall_action">Slå til</string>
+    <string name="notification_recall_desc">Mi Video kan sende dig meddelelser om populære videoer og dine abonnementer.</string>
+    <string name="notification_recall_title">Slå meddelelser til</string>
     <string name="notify_apk_installed">Download lykkedes</string>
+    <string name="off_tip_firework_recommend">Du vil ikke modtage personlige indholdsanbefalinger fra Firework</string>
     <string name="ok">OK</string>
+    <string name="on_tip_firework_recommend">Du vil modtage personlige indholdsanbefalinger fra Firework</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Seneste abonnementer</string>
     <string name="order_recently_updated">Senest opdateret</string>
     <string name="ovp_alert_dialog_download_install_task">Downloader HD-plugin…</string>
@@ -623,7 +684,7 @@ til videoer"</string>
     <string name="ovp_category">Kategorier</string>
     <string name="ovp_confirm_delete_favor">Fjern valgte elementer fra favoritter?</string>
     <string name="ovp_default_plugin_name">HD-plugin</string>
-    <string name="ovp_detail_back_to_watch_more">Opdag flere varer på hjemmesiden</string>
+    <string name="ovp_detail_back_to_watch_more">Discover more brilliant videos</string>
     <string name="ovp_detail_collapse_summary">Skjul</string>
     <string name="ovp_detail_collect">Tilføj til favoritter</string>
     <string name="ovp_detail_comment">Kommentar</string>
@@ -784,8 +845,8 @@ Opdater først Mi Video til den seneste udgave."</string>
     <string name="passport_unknow_error">Der opstod en ukendt fejl</string>
     <string name="passport_unknow_host_network_error">Kontrollér dine netværksindstillinger og prøv igen</string>
     <string name="passport_unknow_network_error">Der opstod en netværksfejl</string>
-    <string name="passport_user_agreement_link">&lt;Data>Jeg har læst og accepteret Xiaomis &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_link_more">&lt;Data>Jeg har læst og accepteret følgende dokumenter: Xiaomis &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%4$s\">Privatlivspolitik&lt;/a>, &lt;a href=\"%2$s\">\"%3$s\"&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link">&lt;Data>Jeg har læst og accepteret Xiaomis &lt;a href=%1$s>Brugeraftale&lt;/a> og &lt;a href=%2$s>Privatlivspolitik&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link_more">&lt;Data>Jeg har læst og accepteret følgende dokumenter: Xiaomis &lt;a href=%1$s>Brugeraftale&lt;/a> og &lt;a href=%4$s>Privatlivspolitik&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data></string>
     <string name="passport_user_id_intro">Indtast adgangskode for %1$s</string>
     <string name="passport_v_code_error">Verifikationskoden er forkert</string>
     <string name="passport_vcode_notification_title">Din loginverifikation er ikke fuldført</string>
@@ -811,16 +872,23 @@ Forøge din kontos sikkerhed"</string>
     <string name="permission_storage">Lager</string>
     <string name="permission_storage_desc">For at få adgang til elementer, gemme filer, vide og afspille lokale videoer</string>
     <string name="permission_title">Kræver tilladelser</string>
+    <string name="pgc_push_title">Abonnementer</string>
     <string name="phone_bind_too_many">Denne telefon er blevet tilknyttet adskillige Mi Accounts i løbet af kort tid. Prøv at bruge et andet telefonnummer.</string>
     <string name="phone_hint">Telefonnummer</string>
     <string name="phone_num_use_for">Telefonnummer anvendes til:</string>
     <string name="phone_number">Telefonnummer</string>
     <string name="photoPickerNotFoundText">Ingen fotos tilgængelige.</string>
+    <string name="pip">PiP</string>
+    <string name="playlist_create">Opret</string>
     <string name="playlist_detail_recomm_title">Anbefalede afspilningslister</string>
+    <string name="playlist_finish">Udført</string>
     <string name="playlist_hot">Populær</string>
+    <string name="playlist_name">Indtast playlistens titel</string>
     <string name="playlist_new">Ny</string>
     <string name="playlist_no_more">Der er ikke flere videoer her</string>
+    <string name="playlist_no_videos">Ingen videoer her</string>
     <string name="playlist_offline">Dette afspilningsliste er ikke længere tilgængelig.</string>
+    <string name="playlist_remove">Fjern</string>
     <string name="playlist_title">Afspilningsliste</string>
     <string name="playlist_view_more">Flere afspilningslister</string>
     <string name="plus_add_shortcut">Opret genvej til startskærm</string>
@@ -888,8 +956,7 @@ Forøge din kontos sikkerhed"</string>
     <string name="plus_player_subtitle_local_add_success">Undertekster er nu tilføjet</string>
     <string name="plus_player_subtitle_no_file">Ingen undertekster her.</string>
     <string name="plus_player_subtitle_online">Online-undertekster</string>
-    <string name="plus_player_subtitle_online_declare_content">"Du er ved at søge efter &lt;br/>undertekster i &lt;a
-href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>-databasen. &lt;br/>Alle undertekster udbydes af &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>."</string>
+    <string name="plus_player_subtitle_online_declare_content">Du er ved at søge efter &lt;br/>undertekster i &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>-databasen. &lt;br/>Alle undertekster udbydes af &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
     <string name="plus_player_subtitle_online_declare_title">Ansvarsfralæggelse</string>
     <string name="plus_player_subtitle_online_download_fail">Kunne ikke downloade undertekster</string>
     <string name="plus_player_subtitle_online_download_start">Downloader undertekster…</string>
@@ -968,6 +1035,7 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>-databasen. &lt;br
     <string name="remaining_space">Tilgængelig: %s</string>
     <string name="remaining_space_not_enough">Kan ikke downloade på grund af utilstrækkelig lagerplads</string>
     <string name="reminder">Bemærk</string>
+    <string name="rename">Omdøb</string>
     <string name="report">Rapporter</string>
     <string name="report_content_dislike">Vold eller upassende adfærd</string>
     <string name="report_content_fakement">Spam eller svindel</string>
@@ -989,6 +1057,8 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>-databasen. &lt;br
     <string name="restart_phone_bind_title">Skift gendannelsestelefon</string>
     <string name="restore_channel_list">Gendan standardindstillinger nu?</string>
     <string name="retry">Forsøg igen</string>
+    <string name="reveal">Rotér</string>
+    <string name="reveal_tip">Rotér din enhed for bedre at kunne se</string>
     <string name="revoke">Tilbagekald</string>
     <string name="s1">Gem billede</string>
     <string name="s2">Vil du tillade, at annoncen gemmer billedet i Galleri?</string>
@@ -1009,6 +1079,8 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>-databasen. &lt;br
     <string name="search_hot_words">Populære</string>
     <string name="search_key_not_null">Søgeanmodning kan ikke være tom</string>
     <string name="search_menu_title">Søg</string>
+    <string name="search_result_download_error">Kunne ikke downloade</string>
+    <string name="search_result_startdownload">Downloader…</string>
     <string name="selectall">Vælg alle</string>
     <string name="selectnull">Fravælg alle</string>
     <string name="send_diagnosis_log">Send logfiler</string>
@@ -1032,6 +1104,7 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>-databasen. &lt;br
     <string name="sns_sign_in">Andre måder at logge ind på</string>
     <string name="source">"Kilde: "</string>
     <string name="start_download_tip">Føjet til kø. Tjek fremskridt i Profil > Downloads.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lager</string>
     <string name="submit">Indsend</string>
@@ -1080,11 +1153,19 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>-databasen. &lt;br
     <string name="ticket_hint">Verifikationskode</string>
     <string name="ticket_invalid">Den indtastede kode er forkert</string>
     <string name="ticket_sign_in">Log på via SMS</string>
+    <string name="tip_auth_again">Da du ikke tidligere har accepteret vilkårene i den tilsvarende fortrolighedspolitik for tredjeparts indholdsudbyder, kan vi ikke vise videoindhold i Øjeblikke. Tryk på knappe herunder for at acceptere fortrolighedspolitikken og få adgang til denne funktion.</string>
+    <string name="tip_author_click">Tryk for at se flere videoer fra denne konto.</string>
+    <string name="tip_pop">&lt;Data>Indhold fra Øjeblikke leveres af Firework. For at kunne forbedre din visningsoplevelse, og for at du kan få modtage mere relevante indholdsanbefalinger, skal du give Firework tilladelse til at indsamle, behandle og bruge dine personlige oplysninger i overensstemmelse med deres fortrolighedspolitik. Læs og accepter &lt;a href=\"%1$s\">Fortrolighedspolitik for Firework&lt;/a>, før du bruger deres tjenester.&lt;/Data></string>
+    <string name="tip_topic_click">Tryk for at finde flere videoer om dette emne</string>
+    <string name="title_firework_recommend">Anbefalinger fra Firework</string>
     <string name="title_publisher">Skabere</string>
     <string name="title_subscribe">Abonnementer</string>
+    <string name="toast_no_data">Dette element er ikke tilgængeligt nu. Kom tilbage senere.</string>
     <string name="toast_request_too_frequently">Ikke så hurtigt!</string>
     <string name="toast_share_failed">Kunne ikke dele. Vent et minut eller to og prøv så igen.</string>
     <string name="today">I dag</string>
+    <string name="tool_bar_notification_setting_sub_title">Vis værktøjsbjælken i notifikationsskyggen</string>
+    <string name="tool_bar_notification_setting_title">Værktøjsbjælke til notifikationsskygge</string>
     <string name="top_bar_game_desc">Find masser af nye spil her</string>
     <string name="top_bar_game_title">Spilkanal</string>
     <string name="tuesday">Tirsdag</string>
@@ -1140,10 +1221,13 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>-databasen. &lt;br
     <string name="video_resolution_kb_size_suffix">%.2f kB</string>
     <string name="video_resolution_mb_size_suffix">%.2f MB</string>
     <string name="video_resolution_tag_suffix">%dP</string>
+    <string name="view">Se</string>
     <string name="vp_VideoView_error_button">Ok</string>
     <string name="vp_VideoView_error_text_unknown">Der opstod en fejl.</string>
     <string name="vp_VideoView_error_title">Ukendt fejl</string>
     <string name="vp_app_name">Videoafspiller</string>
+    <string name="vp_copyright_unsported_audio">Kan ikke afspille videoens lydspor på grund af copyright-restriktioner</string>
+    <string name="vp_copyright_unsported_video">Kan ikke afspille denne video på grund af copyright-restriktioner</string>
     <string name="vp_hardware_unsported">Denne video kan ikke afspilles på din enhed.</string>
     <string name="vp_notify_apk_installed">Korrekt downloadet</string>
     <string name="vp_replay">Afspil igen</string>
