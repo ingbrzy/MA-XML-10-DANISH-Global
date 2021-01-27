@@ -87,6 +87,9 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="geometry_summary">Former, lys og farver</string>
+    <string name="geometry_super_wallpaper_label">Geometri</string>
+    <string name="geometry_title">Geometri</string>
     <string name="install_failed">Kunne ikke installere</string>
     <string name="mars_position_content_0">"This region contains cliffs, mesas, and wide flat valleys, which are believed to have been caused by debris-covered glaciers. Clay minerals have also been detected here, which are of great interest in the search for evidence of life on ancient Mars.
 
@@ -106,9 +109,25 @@ Mawrth Vallis"</string>
     <string name="mars_super_wallpaper_label">mars</string>
     <string name="mars_title">Den røde planet</string>
     <string name="midnight">Nat</string>
-    <string name="miuix_appcompat_cloud_state_disabled">Synkronisering med clouden er deaktiveret</string>
-    <string name="miuix_appcompat_cloud_state_finished">Synkronisering med clouden lykkedes</string>
-    <string name="miuix_appcompat_cloud_state_syncing">Synkroniserer med clouden…</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
+    <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mere</string>
+    <string name="miuix_appcompat_cancel_description">Annuller</string>
+    <string name="miuix_appcompat_confirm_description">Bekræft</string>
+    <string name="miuix_appcompat_delete_description">Slet</string>
+    <string name="miuix_appcompat_deselect_all_description">Fravælg alle</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Annuller</string>
+    <string name="miuix_appcompat_search_input_description">Søg</string>
+    <string name="miuix_appcompat_select_all_description">Vælg alle</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Slip for at opdatere</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Det er alt for nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Det er alt for nu</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
     <string name="monday_shortest">Man</string>
@@ -222,6 +241,7 @@ Mawrth Vallis"</string>
     <string name="time_picker_dialog_title">Indstil tid</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="title_system_wallpaper_resource">Systembaggrunde</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
     <string name="tuesday">Tirsdag</string>
@@ -240,6 +260,9 @@ Mawrth Vallis"</string>
     <string name="wallpaper_setting_super_wallpaper_banner_title">Super-baggrunde</string>
     <string name="wallpaper_setting_super_wallpaper_more_button_text">Mere</string>
     <string name="wallpaper_setting_title">Baggrundsbillede</string>
+    <string name="weather_summary">Lokal vejrudsigt</string>
+    <string name="weather_super_wallpaper_label">Vejr</string>
+    <string name="weather_title">Vejr</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>

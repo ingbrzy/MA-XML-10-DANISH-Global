@@ -68,6 +68,14 @@
         <item quantity="other">%1$d kontakter</item>
         <item quantity="one">%1$d kontakt</item>
     </plurals>
+    <plurals name="contacts_trash_delete_dialog_respond">
+        <item quantity="other">har slettet %d kontakter permanent</item>
+        <item quantity="one">Har slettet %d kontakt permanent</item>
+    </plurals>
+    <plurals name="contacts_trash_restore_respond">
+        <item quantity="other">Det lykkedes at gendanne %d kontakter</item>
+        <item quantity="one">Det lykkedes at gendanne %d kontakt</item>
+    </plurals>
     <plurals name="device_import_done_toast">
         <item quantity="other">%1$d kontakter importeret</item>
         <item quantity="one">%1$d kontakt importeret</item>
@@ -107,6 +115,10 @@
     <plurals name="half_hour_ago">
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>
+    </plurals>
+    <plurals name="hint_account_contacts">
+        <item quantity="other">%1$d elementer</item>
+        <item quantity="one">%1$d element</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d kontakter</item>

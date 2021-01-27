@@ -31,6 +31,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="access_denied_info">For mange forsøg. Vent et øjeblik eller to og prøv så igen.</string>
     <string name="account_bind_secure_email_title">Tilføj gendannelses-e-mail</string>
     <string name="account_bind_secure_phone_title">Tilføj gendannelsestelefonnummer</string>
     <string name="account_crop_user_avatar">Beskær foto</string>
@@ -66,6 +67,8 @@
     <string name="action_update_phone">Skift telefonnummer</string>
     <string name="activate_email_notice">Sørg for at aktivere din konto indenfor 24 timer</string>
     <string name="activity_not_found_notice">Kan ikke finde appen</string>
+    <string name="ad_bar_notification_setting_sub_title">Vis events i notifikationsskyggen</string>
+    <string name="ad_bar_notification_setting_title">Events</string>
     <string name="ad_buy">Køb</string>
     <string name="ad_download">Download</string>
     <string name="ad_join">Vær med i fællesskabet</string>
@@ -123,6 +126,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol ti sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Slå lyden fra</string>
     <string name="cast_notification_connected_message">Forbundet til %1$s</string>
@@ -393,6 +397,8 @@ Send denne kode til supervisoren."</string>
     <string name="galleryplus_online_cta_disagree">Bekræft ikke</string>
     <string name="galleryplus_online_cta_title">Vilkår og betingelser</string>
     <string name="galleryplus_online_video_loading">Lige et øjeblik…</string>
+    <string name="galleryplus_orientation_lock">Orienteringen er låst</string>
+    <string name="galleryplus_orientation_unlock">Skærmorientering er låst op</string>
     <string name="galleryplus_permission_content">Giv Mi Video de påkrævede tilladelser for at kunne bruge denne funktion.</string>
     <string name="galleryplus_permission_content2">"For at kunne bruge denne funktion skal du gå til Indstillinger > Apps > Mi Video > Apptilladelser og tillade Mi Video at gøre følgende:
 
@@ -446,6 +452,7 @@ Send denne kode til supervisoren."</string>
     <string name="history_local_video">Lokal</string>
     <string name="history_online_video">Online</string>
     <string name="hot">Populær</string>
+    <string name="i_know">Forstået</string>
     <string name="identity">Identifikation</string>
     <string name="inconsistent_pwd">Adgangskoder er ikke ens</string>
     <string name="init_channels">Gendan standardindstillinger</string>
@@ -642,8 +649,10 @@ til videoer"</string>
     <string name="my_favorite_channels">Mine favoritkanaler</string>
     <string name="my_feedback_title">Min feedback</string>
     <string name="need_update_app">Opdatér Mi Video for at bruge alle dens funktioner</string>
-    <string name="network_connect_info">Kunne ikke tilslutte til netværket. Kontrollér dine netværksindstillinger og prøv igen.</string>
+    <string name="network_connect_info">Kunne ikke oprette forbindelse til netværket.</string>
+    <string name="network_error_info">Der opstod en netværksfejl. Kontrollér dine netværksindstillinger og prøv igen.</string>
     <string name="network_failed">Kunne ikke forbinde til netværket</string>
+    <string name="network_timeout_info">Kunne ikke oprette forbindelse til netværket. Prøv igen.</string>
     <string name="new_channel_tip">Tag et kik på nye kanaler!</string>
     <string name="next">Næste</string>
     <string name="next_step">Næste</string>
@@ -675,6 +684,8 @@ til videoer"</string>
     <string name="off_tip_firework_recommend">Du vil ikke modtage personlige indholdsanbefalinger fra Firework</string>
     <string name="ok">OK</string>
     <string name="on_tip_firework_recommend">Du vil modtage personlige indholdsanbefalinger fra Firework</string>
+    <string name="open_settings">Indstillinger</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Seneste abonnementer</string>
     <string name="order_recently_updated">Senest opdateret</string>
     <string name="ovp_alert_dialog_download_install_task">Downloader HD-plugin…</string>
@@ -775,6 +786,7 @@ Opdater først Mi Video til den seneste udgave."</string>
     <string name="passport_area_code_title">Landekode</string>
     <string name="passport_bad_authentication">Ugyldigt brugernavn eller adgangskode</string>
     <string name="passport_barcode_add_account_prompt">For at tilføje en konto skal du scanne QR-koden igen, efter du har logget ind.</string>
+    <string name="passport_can_not_receive_verification_code">Kan du ikke modtage verifikationskoden?</string>
     <string name="passport_captcha_title">Captcha</string>
     <string name="passport_checking_account">Kontrollerer adgangskode…</string>
     <string name="passport_close">Luk</string>
@@ -914,6 +926,7 @@ Forøge din kontos sikkerhed"</string>
     <string name="plus_menu_delete_popup_text">Slet nu?</string>
     <string name="plus_menu_properties">Egenskaber</string>
     <string name="plus_menu_rename">Omdøb</string>
+    <string name="plus_menu_rename_cant_empty">Filnavnet kan ikke være tomt</string>
     <string name="plus_menu_rename_fail">Filnavnet kan ikke indeholde \"/\"</string>
     <string name="plus_menu_share">Del</string>
     <string name="plus_mine_gallery">Mine albummer</string>
@@ -1009,6 +1022,7 @@ Forøge din kontos sikkerhed"</string>
     <string name="plus_sort_type_time">Tid</string>
     <string name="plus_tab_gallery">Mapper</string>
     <string name="plus_tab_time">Tidslinje</string>
+    <string name="progressbar_title">Tjekker for sikkerhedsproblemer…</string>
     <string name="psw_hint">Adgangskode</string>
     <string name="psw_sign_in">Log på ved hjælp af adgangskode</string>
     <string name="pull_to_refresh_from_bottom_pull_label">Træk opad for at opdatere…</string>
@@ -1046,6 +1060,7 @@ Forøge din kontos sikkerhed"</string>
     <string name="report_content_violence">Haderetorik</string>
     <string name="report_fail">Kunne ikke rapportere. Prøv igen.</string>
     <string name="report_success">Anmeldt korrekt</string>
+    <string name="request_camera_permission_message">Vi vil beskytte dine oplysninger i henhold til de relevante love og bestemmelser. Denne app skal have følgende tilladelser for at fungere normalt:&lt;br>&lt;br>&lt;b>Brug af kamera (for at bruge dit profilfoto)&lt;/b>&lt;br>&lt;br>Hvis du ikke vil give sådanne tilladelser, vil du ikke kunne bruge nogle af denne apps funktioner. Men dens grundlæggende funktioner vil du stadig kunne bruge. Du kan altid begrænse tilladelser eller tilbagekalde din autorisation i Indstillinger.</string>
     <string name="resend_active_email">Gensend</string>
     <string name="resend_email_reach_limit_message">Du har anmodet om for mange verifikations-e-mails. Tjek, om verifikations-e-mailen skulle være i din spammappe.</string>
     <string name="resend_email_reach_limit_title">For mange forsøg</string>
@@ -1102,6 +1117,7 @@ Forøge din kontos sikkerhed"</string>
     <string name="sns_sign_in">Andre måder at logge ind på</string>
     <string name="source">"Kilde: "</string>
     <string name="start_download_tip">Føjet til kø. Tjek fremskridt i Profil > Downloads.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lager</string>
     <string name="submit">Indsend</string>
@@ -1120,6 +1136,7 @@ Forøge din kontos sikkerhed"</string>
     <string name="sync_favorites_limit">Der er flere end 500 videoer blandt dine favoritter. Vi er nødt til at slette nogle af de tidligere videoer for at kunne fortsætte synkroniseringen.</string>
     <string name="sync_favorites_message">Synkronisér favoritter fra denne enhed med din konto? Elementer, der ikke længere er tilgængelige, vil blive fjernet.</string>
     <string name="sync_favorites_title">Synkronisér favoritter</string>
+    <string name="system_error_info">Systemet er optaget. Vent et minut eller to og prøv igen.</string>
     <string name="t_check_hide_file">Vælg elementer at skjule</string>
     <string name="t_check_unhide_file">Vælg elementer at vise</string>
     <string name="t_downloading">Downloader:</string>
@@ -1172,6 +1189,7 @@ Forøge din kontos sikkerhed"</string>
     <string name="ugc_no_net">Kunne ikke tilslutte til netværket. Kontrollér dine netværksindstillinger og prøv igen.</string>
     <string name="ui_log_tip">Tryk på dette område. Tryk og hold for at nulstille gamle logs. Træk logs manuelt.</string>
     <string name="unknow">Ukendt.</string>
+    <string name="unknown_error_info">Ukendt fejl</string>
     <string name="update">Opdater</string>
     <string name="update_email_address_dialog_message">Du skal verificere din identitet, inden du kan opdatere gendannelses-e-mailen.</string>
     <string name="update_email_address_dialog_title">Opdatér gendannelses-e-mail</string>

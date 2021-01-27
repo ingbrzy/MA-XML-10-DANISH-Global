@@ -88,6 +88,14 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minut siden</item>
     </plurals>
+    <plurals name="pc_notes_search_result">
+        <item quantity="other">Fandt %1$s noter</item>
+        <item quantity="one">Fandt %1$s note</item>
+    </plurals>
+    <plurals name="pc_todo_search_result">
+        <item quantity="other">Fandt %1$s opgaver</item>
+        <item quantity="one">Fandt %1$s opgave</item>
+    </plurals>
     <plurals name="record_last_ten_seconds_reminder">
         <item quantity="other">%d sekunder tilbage</item>
         <item quantity="one">%d sekund tilbage</item>

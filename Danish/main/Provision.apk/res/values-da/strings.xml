@@ -106,8 +106,9 @@
     <string name="next_fingerprint">Næste</string>
     <string name="note_introduction">Med denne app kan du oprette, se og redigere noter.</string>
     <string name="other_settings">Yderligere indstillinger</string>
-    <string name="other_settings_ad_dialog_content">"Efter at have deaktiveret denne funktion vil du ikke længere modtage personlige reklamer. Men du vil fortsat modtage reklamer, der er irrelevante for dine interesser. Du kan læse mere om personlige reklamer i Xiaomis privatlivspolitik.
-Deaktiver personlige reklamer alligevel?"</string>
+    <string name="other_settings_ad_dialog_agree">Aktivér</string>
+    <string name="other_settings_ad_dialog_content">Når personlige reklameanbefalinger er deaktiveret, vil du stadig se samme antal reklamer, som når funktionen er aktiveret. Men reklamerne vil ikke længere være relevante, da de ikke vil være baserede på dine personlige præferencer.</string>
+    <string name="other_settings_ad_dialog_disagree">Deaktiver</string>
     <string name="other_settings_ad_disable_summary">Aktivér for at gøre reklamer personlige</string>
     <string name="other_settings_ad_enable">Personlige reklamer</string>
     <string name="other_settings_ad_enable_summary">Personlige reklamer baseret på dine interesser</string>

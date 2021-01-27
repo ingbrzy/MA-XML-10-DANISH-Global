@@ -43,6 +43,8 @@
     <string name="call_record_list_group_connected">Tilsluttet</string>
     <string name="call_record_list_group_unconnected">Ikke tilsluttet</string>
     <string name="cancel_rename">Annuller</string>
+    <string name="clear_data_dialog_content">Cachede elementer, app-data og brugerdefinerede indstillinger slettes, men dine optagelser forbliver på plads.</string>
+    <string name="clear_data_dialog_title">Ryd data nu?</string>
     <string name="clear_records">Slet synkroniserede optagelser</string>
     <string name="cloud_record_open">Synkroniser optagelser</string>
     <string name="cloud_record_tip">Synkroniser optagelser med Xiaomi Cloud.</string>
@@ -127,7 +129,7 @@
     <string name="network_unavailable_tip">Opret forbindelse til netværket og prøv igen.</string>
     <string name="new_record_name">Ny optagelse</string>
     <string name="no_file">Tom</string>
-    <string name="no_network">"Couldn't connect to the network"</string>
+    <string name="no_network">Kunne ikke tilslutte til netværket</string>
     <string name="not_set">Ikke angivet</string>
     <string name="notification_message_all_paused">Venter på Wi-Fi-forbindelse.</string>
     <string name="notification_playback">Afspiller…</string>
@@ -171,6 +173,7 @@
     <string name="pay_error_unknown">Ukendt fejl</string>
     <string name="playback_delete_records">Slet optagelse</string>
     <string name="playback_share_records">Del optagelse</string>
+    <string name="preference_clear_data">Ryd data</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="preference_enable_earpiece_summary">Brug modtagerhøjttaler til ekstern afspilning</string>
     <string name="preference_enable_earpiece_title">Brug modtager til at afspille lyd</string>
@@ -329,6 +332,8 @@
     <string name="trash_box">For nylig slettede elementer</string>
     <string name="trash_box_close_tip">Luk straks</string>
     <string name="trash_box_delete_all">Slet alle elementer fra papirkurven permanent?</string>
+    <string name="uninstall_warning_content">Optager er en systemapp. Du kan ikke længere optage og transskribere lyd- og stemmeoptagelser, efter du har afinstalleret den.</string>
+    <string name="uninstall_warning_title">Afinstaller optager?</string>
     <string name="usage_description">Transskriberer lyd og synkroniserer elementer med clouden</string>
     <string name="user_feedback">Feedback</string>
     <string name="v7_preference_off">FRA</string>

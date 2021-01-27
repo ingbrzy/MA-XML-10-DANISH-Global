@@ -65,6 +65,10 @@
     <string name="about">Om</string>
     <string name="action_settings">Indstillinger</string>
     <string name="ad_install">Installer</string>
+    <string name="add_download_download">Download</string>
+    <string name="add_download_error_not_support">Dette link er ikke understøttet</string>
+    <string name="add_download_text_hint">Indtast et HTTP-/HTTPS-link</string>
+    <string name="add_download_title">Tilføj URL</string>
     <string name="all_downloads">Alle downloads</string>
     <string name="all_fileter">Alle</string>
     <string name="all_share_files_content">De valgte filer er allerede blevet slettet.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Annuller</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Netværksindstillinger</string>
+    <string name="dialog_clipboard_permission_message">"Tillad downloads at få adgang til elementer i udklipsholderen for automatisk at kunne tilføje kopierede URL'er?"</string>
+    <string name="dialog_clipboard_permission_title">Tilladelser påkrævet</string>
     <string name="dialog_confirm_delete_checkbox_message">Slet også lokale filer</string>
     <string name="dialog_confirm_delete_the_download_item_message">Slet disse opgaver</string>
     <string name="dialog_file_missing_title">Kan ikke åbne fil</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Download ved brug af dataforbindelse</string>
     <string name="downloaded">Download fuldført</string>
     <string name="downloaded_empty">Tom</string>
+    <string name="downloaded_tab_hint">Du kan se downloadede elementer i Filhåndtering</string>
     <string name="downloading">Downloader…</string>
     <string name="downloading_empty">Tom</string>
     <string name="downloads_operating">Arbejder…</string>
-    <string name="durationDayHour">%1$d dag %2$d time</string>
-    <string name="durationDayHours">%1$d dag %2$d timer</string>
-    <string name="durationHourMinute">%1$d time %2$d min.</string>
-    <string name="durationHourMinutes">%1$d time %2$d min.</string>
-    <string name="durationMinute">%1$d min.</string>
-    <string name="durationMinuteSecond">%1$d min. %2$d sek.</string>
-    <string name="durationMinuteSeconds">%1$d min. %2$d sek.</string>
-    <string name="durationMinutes">%1$d min.</string>
-    <string name="durationSecond">%1$d sek.</string>
-    <string name="durationSeconds">%1$d sek.</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Slet</string>
     <string name="editmode_menu_share">Del</string>
     <string name="extend">Mere</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Maks. størrelse download</string>
     <string name="pref_summary_any_bytes_popup">Vent altid på forbindelse til Wi-Fi for download af filer</string>
     <string name="pref_summary_enable_max_bytes_popup">Vis pop-op-notifikation, når der bruges mobildata til at downloade indhold</string>
-    <string name="pref_summary_max_bytes_limit_format">Vent på Wi-Fi, hvis filstørrelsen overskrider %s</string>
     <string name="pref_summary_no_limit_popup">Ubegrænset</string>
     <string name="pref_title_enable_max_bytes_popup">Vis besked om dataforbrug</string>
     <string name="preferences_title">Indstillinger</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Velkommen til Download. Du kan bruge denne app til at downloade filer.&lt;BR>For at kunne tilbyde dig tjenesterne skal Download indsamle nødvendige personlige oplysninger, der genererer statistikker om download. Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a>.&lt;BR>Læs og acceptér vores &lt;a href=\"%2$s\">brugeraftale&lt;/a> og &lt;a href=\"%1$s\">privatlivspolitik&lt;/a>, inden du bruger Download.&lt;BR>I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til privatlivspolitikken for Download. Hvis du ikke accepterer vores privatlivspolitik, vil du ikke kunne bruge nogle af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Vilkår og betingelser</string>
+    <string name="privacy_revoke_dialog_later">Annuller</string>
+    <string name="privacy_revoke_dialog_msg">Ved at slå knappen fra trækker du dit samtykke til privatlivspolitikken for Download tilbage. Vi vil ophøre med at indsamle dine personlige oplysninger. De personlige oplysninger, som vi allerede har indsamlet og gemt, vil blive slettet inden for den specifikke periode, som loven foreskriver. For at kunne tilbyde dig tjenesterne skal Downloads indsamle nødvendige personlige oplysninger, der genererer statistikker om download. Din tilbagetrækning af samtykke til dens privatlivspolitik betragtes som en afvisning af sådanne tjenester, der er baseret på indsamlede personlige oplysninger.</string>
+    <string name="privacy_revoke_dialog_ok">Tilbagetræk</string>
+    <string name="privacy_revoke_dialog_title">Tilbagetrækning af samtykke</string>
+    <string name="privacy_revoke_label">Tilbagetrækning af samtykke</string>
+    <string name="privacy_revoke_msg">Ved at slå knappen fra trækker du dit samtykke til privatlivspolitikken for Download tilbage.</string>
+    <string name="privacy_revoke_nonetwork_msg">Din enhed skal oprette forbindelse til netværket, før du kan tilbagetrække dit samtykke. Kontroller dine netværksindstillinger, og prøv igen.</string>
+    <string name="privacy_revoke_nonetwork_ok">Forstået</string>
+    <string name="privacy_revoke_nonetwork_title">Kan ikke tilslutte til netværket.</string>
     <string name="privacy_tip_cancel">Annuller</string>
     <string name="privacy_tip_ok">OK</string>
     <string name="rank">Bedømmelser</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Opret forbindelse til Wi-Fi for at downloade dette element</string>
     <string name="total_speedup">Hastighedsforøgelse (total)</string>
     <string name="version">Version %s</string>
-    <string name="security_ui_title">Sikkerhedsreklamer</string>
 </resources>

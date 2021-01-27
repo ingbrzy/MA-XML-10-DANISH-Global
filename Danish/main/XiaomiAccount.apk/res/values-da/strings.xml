@@ -47,7 +47,7 @@
     <string name="account_has_been_set">Ændr</string>
     <string name="account_invalid_user_avatar">Dette foto er ugyldigt. Prøv et andet.</string>
     <string name="account_limit_update_birthday">Kan ikke opdatere fødselsdag lige nu</string>
-    <string name="account_mibi_center">Mi Credits</string>
+    <string name="account_mibi_center">Mi mønter</string>
     <string name="account_mibi_charge">Fyld på</string>
     <string name="account_mipay_info">Mi Pay</string>
     <string name="account_no_set">Ingen</string>
@@ -83,7 +83,7 @@
     <string name="activate_email_notice">Sørg for at aktivere din konto indenfor 24 timer</string>
     <string name="activity_not_found_notice">Kan ikke finde appen</string>
     <string name="add_account">Forbind konto</string>
-    <string name="agreement_and_privacy">Privatlivspolitik og Brugeraftale</string>
+    <string name="agreement_and_privacy">Vilkår og betingelser</string>
     <string name="app_name">Mi-konto</string>
     <string name="auth_fail_warning">Sessionen udløb. Log på igen senere.</string>
     <string name="authorize_title">Autorisation</string>
@@ -226,6 +226,7 @@ Send denne kode til supervisoren."</string>
     <string name="health_state_not_activated">Ikke aktiveret</string>
     <string name="health_state_not_installed">Ikke installeret</string>
     <string name="health_state_not_support">Understøttes ikke i denne version</string>
+    <string name="help_center">Hjælp</string>
     <string name="i_agree">OK</string>
     <string name="i_agree_continue">Bekræft</string>
     <string name="identity">Identifikation</string>
@@ -309,7 +310,7 @@ Send denne kode til supervisoren."</string>
     <string name="passport_checking_input">Kontrollerer indtastning…</string>
     <string name="passport_click_email_to_valid">For at aktivere din konto følg det link, vi har sendt til din indbakke.</string>
     <string name="passport_completed">Afslut</string>
-    <string name="passport_confirm_login">Fortsæt</string>
+    <string name="passport_confirm_login">Tilmeld</string>
     <string name="passport_confirm_recycle_account">Ja</string>
     <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Det ser ud til&lt;/font>, at nummer %s er blevet genanvendt af din udbyder, og der er en Mi-konto knyttet til det. Er denne konto din?</string>
     <string name="passport_continue">Fortsæt</string>
@@ -347,7 +348,7 @@ Send denne kode til supervisoren."</string>
     <string name="passport_error_verify_activator_phone_title">Kunne ikke bekræfte telefonnummer</string>
     <string name="passport_failed_to_send_activate_email">Kunne ikke sende aktiverings-e-mail</string>
     <string name="passport_find_password_on_web_msg">Besøg account.mi.com for at nulstille din adgangskode.</string>
-    <string name="passport_first_login_prompt">Mi Account oprettes automatisk, når du logger ind for første gang.</string>
+    <string name="passport_first_login_prompt">Mi-konto oprettes automatisk, når du bruger et telefonnummer for første gang.</string>
     <string name="passport_forget_password"><u>Glem adgangskode</u></string>
     <string name="passport_forget_password_no_underline">Glem adgangskode</string>
     <string name="passport_get_back_pwd">Hent kontoadgangskode</string>
@@ -462,8 +463,8 @@ Send denne kode til supervisoren."</string>
     <string name="passport_setting">Opsætter…</string>
     <string name="passport_skip_login">Spring over</string>
     <string name="passport_skip_register">Spring tilmelding over</string>
-    <string name="passport_skip_setup_account_msg">Du kan opsætte en Mi-konto senere i Indstillinger.</string>
-    <string name="passport_skip_setup_account_title">Brug ikke Xiaomi Cloud?</string>
+    <string name="passport_skip_setup_account_msg">Tilmelding til Mi Konto giver dig mulighed for at bruge Xiaomi Cloud-tjenester. Spring alligevel dette trin over?</string>
+    <string name="passport_skip_setup_account_title">Mi Konto og Xiaomi Cloud</string>
     <string name="passport_sms_send_success">Sendt</string>
     <string name="passport_sms_verification_code_login">Log på med SMS</string>
     <string name="passport_sms_verification_code_login_or_register">Log på eller opret en konto ved brug af SMS</string>
@@ -589,7 +590,7 @@ Send denne kode til supervisoren."</string>
     <string name="update_email_address_dialog_title">Opdater e-mail</string>
     <string name="update_phone_notice">Ændr sikkerhedsindstillinger</string>
     <string name="update_phone_number_notice_message">Du skal verificere din identitet inden du kan opdatere telefonnummer.</string>
-    <string name="used_cloud_storage_info">Brugt lagerplads %s</string>
+    <string name="used_cloud_storage_info">Brugt %s</string>
     <string name="user_avatar_update_title">Ændr profilfoto</string>
     <string name="user_avatar_uploading">Lige et øjeblik…</string>
     <string name="v7_preference_off">FRA</string>

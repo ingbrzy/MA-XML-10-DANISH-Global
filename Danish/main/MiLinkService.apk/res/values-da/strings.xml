@@ -326,7 +326,7 @@ Læs og accepter vores &lt;a href=%1$s>Brugeraftale&lt;/a> og &lt;a href=%2$s>Pr
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
-    <string name="synergy_casting">跨屏协作时无法使用投屏</string>
+    <string name="synergy_casting">Kan ikke bruge udsendelse, mens Screen Combo arbejder</string>
     <string name="the_anniversary_of_lifting_martial_law">Jubilæum for indførelse af undtagelsestilstand</string>
     <string name="the_anti_aggression_day">Antiaggressionsdag</string>
     <string name="the_arbor_day">Arbor-dag</string>

@@ -156,6 +156,10 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="other">%1$d mennesker spiller</item>
         <item quantity="one">%1$d person spiller</item>
     </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">Afinstaller %2$d spil (herunder %1$s)</item>
+        <item quantity="one">Afinstaller %2$d spil (herunder %1$s)</item>
+    </plurals>
     <plurals name="gb_record_time_title">
         <item quantity="other">%d sek</item>
         <item quantity="one">%d sek</item>

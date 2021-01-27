@@ -121,7 +121,7 @@ Indtast det telefonnummer, der er knyttet til dit nye SIM-kort, for at aktivere 
     <string name="phone_verify_text">%1$s vil ikke hente dit telefonnummer. Den vil bare sørge for, at telefonnummeret er gyldigt. Accepter?</string>
     <string name="phone_verify_title">Tillad %1$s at bekræfte dit telefonnummer</string>
     <string name="privacy_revoke_failed_msg">Aktivering kræver tildeling af autorisation, så Messaging kan få fat i dit telefonnummer.</string>
-    <string name="privacy_revoke_tips">Efter du tilbagekalder tilladelsen, holder appen op med at indsamle dine data og slette alle dine data fra sine servere. Synkroniserer du med MiCloud, er Mi Message og andre Messaging-funktioner ikke længere tilgængelige. Tilbagekald autorisation alligevel?</string>
+    <string name="privacy_revoke_tips">Efter du tilbagekalder tilladelsen, holder appen op med at indsamle dine data og slette alle dine data fra sine servere. Synkroniserer du med Xiaomi Cloud, er Mi Message og andre Messaging-funktioner ikke længere tilgængelige. Tilbagekald autorisation alligevel?</string>
     <string name="sim_unactivated_title">Dit SIM-kort er ikke aktiveret</string>
     <string name="waiting_sim_in_service">Venter på, at SIM-kort bliver aktiveret</string>
 </resources>

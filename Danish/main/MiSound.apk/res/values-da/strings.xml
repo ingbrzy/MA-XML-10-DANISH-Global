@@ -82,8 +82,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det er alt for nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
-    <string name="multi_music_coexistence_summary">Når notifikationslyden lyder, forbliver medievolumet uændret, og flere lyde er ikke påvirkede af hinanden</string>
-    <string name="multi_music_coexistence_title">Tillad flere lyde</string>
+    <string name="multi_music_coexistence_summary">Juster ikke medievolumen mens meddelelser indgår eller mens lyd fra en anden kilde afspilles</string>
+    <string name="multi_music_coexistence_title">Flere lydkilder</string>
     <string name="music_add_my_sound">Føj til faste indstillinger</string>
     <string name="music_app_unavailable">Vær sikker på, at Mi Music-appen er tilgængelig.</string>
     <string name="music_audio_effect_optimize">Lydindstillinger</string>
@@ -99,6 +99,8 @@
     <string name="music_delete">Slet</string>
     <string name="music_delete_sound_title">Sletter faste indstillinger</string>
     <string name="music_dirac_control">Optimer lydkvalitet</string>
+    <string name="music_dirac_mode_bluetooth_collar">Mi Bluetooth Neckband-øretelefoner</string>
+    <string name="music_dirac_mode_bluetooth_linefree">Mi Bluetooth-øretelefoner (trådløs udgave)</string>
     <string name="music_dirac_mode_cancelling">Mi-støjreduktion 3,5 mm</string>
     <string name="music_dirac_mode_capsule">Mi Capsule</string>
     <string name="music_dirac_mode_earbuds">Mi ørepropper</string>
@@ -193,6 +195,8 @@
     <string name="personal_sound">Afspil med de anvendte faste indstillinger</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="retry_test">Start forfra</string>
+    <string name="ringtone_output_device_summary">Tillad lyd for indkommende opkald og notifikationer, når tilbehør (headsets med ledning eller Bluetooth-enheder) er tilsluttede</string>
+    <string name="ringtone_output_device_title">Tillad højttalerlyd</string>
     <string name="save_and_apply">Gem og anvend</string>
     <string name="search_menu_title">Søg</string>
     <string name="second_note">Tag dine hovedtelefoner på.</string>

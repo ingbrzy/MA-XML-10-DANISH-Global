@@ -68,6 +68,13 @@
     <string name="focus_mode_timer_pick_dialog_title">Indtast varighed</string>
     <string name="focus_time_exception_tip">Det ser ud til, at systemtiden ændrede sig. Fokustilstand deaktiveret.</string>
     <string name="follow_sim1">Brug SIM 1-indstillinger</string>
+    <string name="fps_nature_summary">Høj opdateringsfrekvens gør, at alt vises skarpt og tydeligt.</string>
+    <string name="fps_nature_title">Høj</string>
+    <string name="fps_smooth_summary">Mellem-opdateringsfrekvens gør detaljer mere tydelige</string>
+    <string name="fps_smooth_title">Mellem</string>
+    <string name="fps_standard_summary">Standard-opdateringsfrekvens sparer på batteriet</string>
+    <string name="fps_standard_title">Standard</string>
+    <string name="fps_user_tip">Til din orientering afspilles disse demoanimationer på lav hastighed. Aktuelt ydelse kan fremstå anderledes på grund af forskellige faktorer.</string>
     <string name="gamma">Gamma</string>
     <string name="healthy_use_phone">Administrer skærmtid</string>
     <string name="high_fps_description">Høj skærmopdateringsfrekvens. Højere energiforbrug.</string>
@@ -114,6 +121,7 @@
     <string name="screen_fps_summary_power_save">Brug af fast hastighed bruger mindre strøm</string>
     <string name="screen_fps_summary_smooth">Visse apps vil automatisk øge opdateringshastigheden for at forbedre billedkvaliteten</string>
     <string name="screen_fps_title">Opdatér rate</string>
+    <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%d Hz (sparer batteri)</string>
     <string name="screen_fps_unit_smooth">%d Hz (bedre kvalitet)</string>
     <string name="screen_original_gamut">Forbedret</string>
@@ -186,6 +194,7 @@
     <string name="usage_device_limit_app_prolong_time2">Tilføj 40 minutter</string>
     <string name="usage_device_limit_app_prolong_time3">Tilføj 60 minutter</string>
     <string name="usage_device_limit_app_prolong_time4">Begræns ikke i dag</string>
+    <string name="usage_device_limit_app_prolong_time5">Tilføj tid en gang</string>
     <string name="usage_device_limit_notifation_summary_start">Du vil nå din grænse om %1$s</string>
     <string name="usage_device_limit_notifation_title">Resterende tid i dag</string>
     <string name="usage_device_limit_time_over">Du har nået dagens grænse (%1$s)</string>

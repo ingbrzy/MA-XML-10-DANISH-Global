@@ -48,6 +48,7 @@
     <string name="cloud_find_device_off">Slukket</string>
     <string name="cloud_find_device_on">Tændt</string>
     <string name="cloud_lab_title">Laboratorium</string>
+    <string name="cloud_space_full_gallery_notification_content_text">Opgradér din plan for at få mere cloudlagerplads</string>
     <string name="cloud_storage_already_full">Cloud-lagerplads er fuld: %1$s/%2$s</string>
     <string name="cloud_storage_already_used">Optaget: %1$s/%2$s</string>
     <string name="cloud_storage_default_title">Cloud-lagerplads</string>
@@ -67,6 +68,8 @@
     <string name="connect_wlan">Tilslut til wi-fi</string>
     <string name="connect_wlan_china">Connect to WLAN</string>
     <string name="copy">Kopiér</string>
+    <string name="cta_notification_content_text">Tillad %s at tilslutte til internettet for at kunne gendanne elementer</string>
+    <string name="cta_notification_content_title">Kan ikke gendanne elementer fra %s</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_more_than_two">Denne konto bruges også på en anden enhed. Flet elementerne fra flere apps (herunder %1$s og %2$s) med elementerne på denne enhed?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_one">Denne konto bruges også på en anden enhed. Flet elementerne fra %s med elementerne på denne enhed?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_two">Denne konto bruges også på en anden enhed. Flet elementerne fra %1$s og %2$s med elementerne på denne enhed?</string>
@@ -95,6 +98,8 @@
     <string name="feedback_custom_hint">Beskriv de problemer, du oplever, her. Hvis du giver forslag, vil vi sætte pris på flere oplysninger!</string>
     <string name="find_device">Find enhed</string>
     <string name="find_device_dspt_provision">Hvis du mister din enhed, kan du gå til &lt;font color=#0097FF>%s&lt;/font> for at finde, låse eller nulstille den. Du kan når som helst slå denne funktion til og fra i Indstillinger.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_error_network">Tjek din dataforbindelse og prøv igen.</string>
     <string name="find_device_error_server">Serverfejl</string>
     <string name="find_device_gdpr_prompt">Ved at tænde for Find enheden, accepterer du vores <a href="app://com.miui.cloudservice.gdpr.license"><u>Fortrolighedspolitik</u></a>. Hvis du er nødt til at tilbagekalde autoriseringen, slå denne funktion fra.</string>
@@ -116,6 +121,7 @@
     <string name="ks_fingerprint_status">Betalingsstatus</string>
     <string name="ks_name_alipay">IFAA</string>
     <string name="ks_name_fido">FIDO</string>
+    <string name="ks_name_passpoint">Wi-Fi Passpoint</string>
     <string name="ks_name_soter">Soter</string>
     <string name="ks_name_widevine">Widevine (L1)</string>
     <string name="ks_status_available">Tilgængelig</string>
@@ -165,11 +171,6 @@
     <string name="micloud_battery_low_notification_message">Tilslut oplader for at synkronisere.</string>
     <string name="micloud_battery_low_notification_title">Batteri er ved at være fladt.</string>
     <string name="micloud_buy_member_safe">Få mere lagerplads i skyen</string>
-    <string name="micloud_check_sim_notify_text">"Det ser ud til, at du har skiftet SIM-kort. Log ind
-på din Mi Account for at genaktivere Xiaomi Cloud."</string>
-    <string name="micloud_check_sim_notify_title">Genaktivér Xiaomi Cloud</string>
-    <string name="micloud_check_sim_title">"Det ser ud til, at du har skiftet SIM-kort. Log ind
-på din Mi Account for at genaktivere Xiaomi Cloud."</string>
     <string name="micloud_confusion_account_hint">Ændringer, som du laver på denne enhed, vil blive synkroniseret med alle dine enheder. For at beskytte din konto anbefaler vi, at de slukker synkronisering på andre enheder, når du ikke bruger dem.</string>
     <string name="micloud_confusion_account_name">Konto:</string>
     <string name="micloud_confusion_account_notify_text">En anden enhed modificerer din Mi Account. Verificer din konto nu.</string>
@@ -208,7 +209,7 @@ Lokaliser og lås din enhed, for det tilfælde at den går tabt."</string>
     <string name="micloud_dspt_provision_china">Use Xiaomi Cloud to sync data, locate your device, and share things with friends.</string>
     <string name="micloud_dspt_provision_xms">Brug Xiaomi Cloud til at synkronisere data.</string>
     <string name="micloud_dspt_provision_xms_china">Use Xiaomi Cloud to sync data.</string>
-    <string name="micloud_find_device_close_alert_content">Hvis du deaktiverer Find enhed, vil du ikke kunne lokalisere din telefon ved hjælp af denne funktion. Hvis din telefon understøtter NFC-funktionaltet, bliver alle dine bankkort og nøglekort slettet fra Mi Pay.</string>
+    <string name="micloud_find_device_close_alert_content">"If you turn off Find device, you won't be able to locate your device using this feature. If your device supports NFC, all your bank cards and keycards will be deleted from Mi Pay. People with whom you share location won't be able to receive updates on your whereabouts as well."</string>
     <string name="micloud_find_device_close_alert_negtive">Sluk alligevel</string>
     <string name="micloud_find_device_close_alert_positive">Bevar tændt</string>
     <string name="micloud_find_device_close_alert_title">Sluk Find enhed?</string>
@@ -238,11 +239,14 @@ Lokaliser og lås din enhed, for det tilfælde at den går tabt."</string>
     <string name="micloud_find_device_open_fail">Kunne ikke tænde Find enhed.</string>
     <string name="micloud_find_device_opened">Find enhed tændt</string>
     <string name="micloud_find_device_opened_content">Find din enhed på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_sms_alert">En udgående SMS-besked kan være påkrævet for at aktivere denne service. Dit teleselskab opkræver penge for denne besked. Når du skifter dit SIM-kort, sendes der automatisk en besked til genaktivering af denne funktion.</string>
     <string name="micloud_find_device_verify_button">Genaktivér Find enhed</string>
     <string name="micloud_find_device_verify_close">Sluk Find enhed</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke genaktivere Find enhed.</string>
     <string name="micloud_find_device_verify_progress">Genaktiverer Find enhed…</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Synkroniseringen blev aflyst. Prøv igen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Backup af startskærm</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Systemindstillinger og layout af startskærm</string>
@@ -285,6 +289,11 @@ Lokaliser og lås din enhed, for det tilfælde at den går tabt."</string>
     <string name="micloud_manual_pausing">Synkronisering sat på pause</string>
     <string name="micloud_manual_pending">Venter…</string>
     <string name="micloud_manual_reactivate">Genaktiver</string>
+    <string name="micloud_manual_request_permission_cancel">Annuller</string>
+    <string name="micloud_manual_request_permission_confirm">Indstillinger</string>
+    <string name="micloud_manual_request_permission_content">Fro at kunne bruge vores tjenester skal du give Xiaomi Cloud følgende tilladelser i Indstillinger: \"%s\".</string>
+    <string name="micloud_manual_request_permission_content_on_provision">Giv først de påkrævede tilladelser i Sikkerhed</string>
+    <string name="micloud_manual_request_permission_title">Tilladelser påkrævet</string>
     <string name="micloud_manual_sync_all">Synkroniser alle elementer</string>
     <string name="micloud_manual_sync_now">Synkroniser</string>
     <string name="micloud_manual_sync_now_retry">Prøv igen</string>
@@ -326,7 +335,7 @@ Lokaliser og lås din enhed, for det tilfælde at den går tabt."</string>
     <string name="micloud_privacy_warning_title">Bemærk</string>
     <string name="micloud_proceed">Fortsæt</string>
     <string name="micloud_request_permission_confirm">Forstået</string>
-    <string name="micloud_request_permission_content">Xiaomi Cloud skal bruge tilladelser til at synkronisere data. Tillad at Xiaomi Cloud får adgang til Kalender, Kontakter, Mi Account, SIM-kortstatus, opkaldshistorik og beskeder.</string>
+    <string name="micloud_request_permission_content">For at være i stand til at synkronisere kalenderarrangementer, kontakter, beskeder, opkaldshistorik, fotos, videoer og andre elementer har Xiaomi Cloud brug for tilladelser til at få adgang til din kalender, kontakter, konti, SIM-status, opkaldshistorik, beskeder, fotos og videoer.</string>
     <string name="micloud_request_permission_title">Xiaomi Cloud skal bruge tilladelser</string>
     <string name="micloud_request_sync_too_frequent">For mange anmodninger. Vent et øjeblik eller to og prøv så igen.</string>
     <string name="micloud_setting_antispam_summary">Undtagelser og blokerede telefonnumre</string>
@@ -389,6 +398,15 @@ Lokaliser og lås din enhed, for det tilfælde at den går tabt."</string>
     <string name="micloud_wipe_data_confirm_title">Nogle elementer fra følgende apps er synkroniserede med Xiaomi Cloud. Du kan slette dem fra denne enhed og fortsat beholde dem i clouden.</string>
     <string name="micloud_wipe_data_remove">Fjern</string>
     <string name="micloud_wipe_data_retain">Behold</string>
+    <string name="midrive_guide1_desc">Sikkerhedskopiér elementer til clouden for at frigøre lagerplads på din enhed.</string>
+    <string name="midrive_guide1_title">Sikre sikkerhedskopier</string>
+    <string name="midrive_guide2_desc">Download elementer i et hæsblæsende tempo.</string>
+    <string name="midrive_guide2_title">Hurtige downloads</string>
+    <string name="midrive_guide3_desc">Brug Mi Drive på mobile enheder, computere og i browsere.</string>
+    <string name="midrive_guide3_title">Fungerer overalt</string>
+    <string name="midrive_guide_btn_install">Installér Mi Drive</string>
+    <string name="midrive_guide_btn_installed">Åbn Mi Drive</string>
+    <string name="midrive_guide_btn_installing">Installerer…</string>
     <string name="mx_dspt">Mi Message</string>
     <string name="mx_dspt_provision">"Mi Message lader dig sende beskeder til andre MIUI-enheder uden at pålægge betaling, når enheden er tilsluttet til wi-fi.
 
@@ -410,7 +428,7 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="no_sim">Kunne ikke finde SIM-kort</string>
     <string name="not_set">Ikke angivet</string>
     <string name="pay_info_dialog_confirm_to_pay">Betal %s</string>
-    <string name="pay_info_dialog_mibi_balance_prefix">Brug resterende Mi-kreditter: %s</string>
+    <string name="pay_info_dialog_mibi_balance_prefix">Brug tilbageværende Mi Coins: %s</string>
     <string name="pay_info_dialog_title">Vælg betalingsmetode</string>
     <string name="phone_number_required_dspt_provision">Denne service kræver dit telefonnummer.</string>
     <string name="picker_list_empty">Ingen kontakter her</string>
@@ -430,6 +448,7 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="privacy_dialog_sync_all_purpose_china">Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, songs, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices.</string>
     <string name="privacy_doc_cloudservice">Velkommen til Xiaomi Cloud-tjenester! Du kan bruge Xiaomi Cloud til at synkronere dine beskeder, opkaldshistorik, kontakter, noter, browserindstillinger, sange, fotos og videoer, Wi-Fi-indstillinger, optagelser, startskærmslayout, apps, kalenderbegivenheder, blokeringslisteelementer og App-vault på tværs af alle forbundne enheder. Få adgang til de ting, du synkroniserer, fra en hvilken som helst browser på &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Du skal muligvis sende en SMS-besked for at aktivere disse tjenester. Din udbyder vil opkræve dig for denne besked. Når du skifter dit SIM-kort, kan der automatisk blive sendt en besked for at genaktivere disse tjenester.&lt;br />&lt;br />Vi vil beskytte dine personlige oplysninger i overensstemmelse med relevante love, forordninger og fortrolighedspolitikker.&lt;br />For at kunne fungere normalt skal disse tjenester oprette forbindelse til internettet, og kræver følgende tilladelser for at kunne indsamle dine personlige oplysninger:&lt;br />• Kalender:&lt;br />Til synkronisering af begivenheder&lt;br />• Adgang til SMS:&lt;br />Til synkronisering af beskeder&lt;br />• Adgang til MMS:&lt;br />Til synkronisering af beskeder&lt;br />• Adgang til kontakter:&lt;br />Til synkronisering af kontakter&lt;br />• Redigering af kontakter:&lt;br />Til synkronisering af kontakter&lt;br />• Lager:&lt;br />Til lagring af elementer på din enhed (f.eks. billeder, videoer, sange)&lt;br />Hvis du ikke accepterer at give sådanne tilladelser eller dele og uploade dine personlige oplysninger, vil du ikke kunne bruge disse tjenester. Du kan i sådanne tilfælde vælge at afinstallere denne app, logge af eller begrænse tilladelser i Indstillinger.&lt;br />Læs og accepter vores &lt;a href=%1$s>&lt;u>brugeraftale&lt;/u>&lt;/a> og &lt;a href=%2$s>&lt;u>fortrolighedspolitik&lt;/u>&lt;/a>, før du bruger Xiaomi Cloud.&lt;br /></string>
     <string name="privacy_doc_cloudservice_china">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, songs, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices. Access the things you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />An outgoing SMS message may be required to activate these services. Your carrier will charge you for this message. When you switch your SIM card, a message may be sent automatically to reactivate these services.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing SMS:&lt;br />For syncing messages&lt;br />• Accessing MMS:&lt;br />For syncing messages&lt;br />• Accessing contacts:&lt;br />For syncing contacts&lt;br />• Editing contacts:&lt;br />For syncing contacts&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images, videos, songs)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%1$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%2$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using Xiaomi Cloud.&lt;br />"</string>
+    <string name="privacy_doc_cloudservice_global">Xiaomi Cloud skal have forbindelse til internettet for at virke normalt. Synkronisering af data kan kræve brug af mobildata, og at der tændes for wi-fi. Læs og accepter vores &lt;a href=%1$s>&lt;u>Brugeraftalse&lt;/u>&lt;/a> og &lt;a href=%2$s>&lt;u>Fortrolighedspolitik&lt;/u>&lt;/a>, før du bruger Xiaomi Cloud-tjenester.</string>
     <string name="privacy_doc_finddevice_pad">Velkommen til Find enhed! Du kan bruge denne tjeneste til at finde, låse eller slette data på din enhed, hvis du mister den. Du kan gå til &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> for at finde, låse eller nulstille den.&lt;br />&lt;br />Vi vil beskytte dine personlige oplysninger i overensstemmelse med relevante love, regler og fortrolighedspolitikker.&lt;br />For at kunne fungere normalt skal Find enhed oprette forbindelse til internettet, og kræver følgende tilladelser til at kunne indsamle dine personlige oplysninger:&lt;br />• Adgang til enhedsoplysninger:&lt;br />Til at identificere din enhed&lt;br />• Placering:&lt;br />Til at finde din enhed og skifte til Mistet-tilstand&lt;br />Hvis du ikke accepterer at give sådanne tilladelser eller dele og uploade dine personlige oplysninger, vil du ikke kunne bruge disse tjenester. Du kan i så fald vælge at afinstallere denne app, logge af eller begrænse tilladelser i Indstillinger.&lt;br />Læs og accepter vores &lt;a href=%1$s>&lt;u>brugeraftale&lt;/u>&lt;/a> og &lt;a href=%2$s>&lt;u>fortrolighedspolitik&lt;/u>&lt;/a>, før du bruger Find enhed.&lt;br /></string>
     <string name="privacy_doc_finddevice_phone">Velkommen til Find enhed! Du kan bruge denne tjeneste til at finde, låse eller slette data på din enhed, hvis du mister den. Du kan gå til &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> for at finde, låse eller nulstille den.&lt;br />&lt;br />Vi vil beskytte dine personlige oplysninger i overensstemmelse med relevante love, regler og fortrolighedspolitikker.&lt;br />For at kunne fungere normalt skal denne tjeneste oprette forbindelse til internettet, og kræver følgende tilladelser til at kunne indsamle dine personlige oplysninger:&lt;br />• Adgang til enhedsoplysninger:&lt;br />Til at identificere din enhed&lt;br />• Placering:&lt;br />Til at finde din enhed og skifte til Mistet-tilstand&lt;br />Hvis du ikke accepterer at give sådanne tilladelser eller dele og uploade dine personlige oplysninger, vil du ikke kunne bruge disse tjenester. Du kan i så fald vælge at afinstallere denne app, logge af eller begrænse tilladelser i Indstillinger.&lt;br />Læs og accepter vores &lt;a href=%1$s>&lt;u>brugeraftale&lt;/u>&lt;/a> og &lt;a href=%2$s>&lt;u>fortrolighedspolitik&lt;/u>&lt;/a>, før du bruger Find enhed.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad">Velkommen til Find enhed! Du kan bruge denne tjeneste til at finde, låse og slette data på din enhed, hvis du mister den. Du kan gå til &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> for at finde, låse eller nulstille den.&lt;br />&lt;br />Der skal muligvis sendes en SMS-besked for at aktivere denne tjeneste. Din udbyder vil opkræve dig for denne besked. Når du skifter dit SIM-kort, kan der automatisk blive sendt en besked for at genaktivere denne tjeneste.&lt;br />&lt;br />Vil vil beskytte dine personlige oplysninger i overensstemmelse med relevante love, forordninger og fortrolighedspolitikker.&lt;br />For at kunne fungere normalt skal denne tjeneste oprette forbindelse til internettet, og kræver følgende tilladelser for at kunne indsamle dine personlige oplysninger:&lt;br />• Adgang til enhedsoplysninger:&lt;br />Til at identificere din enhed&lt;br />• Placering:&lt;br />Til at finde din enhed og skifte til Mistet-tilstand&lt;br />Hvis du ikke accepterer at give sådanne tilladelser eller dele og uploade dine personlige oplysninger, vil du ikke kunne bruge denne tjeneste. Du kan i sådanne tilfælde vælge at afinstallere denne app, logge af eller begrænse tilladelser i Indstillinger.&lt;br />Læs og accepter vores &lt;a href=%1$s>&lt;u>brugeraftale&lt;/u>&lt;/a> og &lt;a href=%2$s>&lt;u>fortrolighedspolitik&lt;/u>&lt;/a>, før du bruger Find enhed.&lt;br /></string>
@@ -454,9 +473,12 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="special_func_title">Specielle funktioner</string>
     <string name="starred_contact">Favoritter</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_manage_cloud_data_title">Se emner i clouden</string>
     <string name="storage_manage_expansion">Få mere</string>
+    <string name="storage_manage_full_summary">Cloud-lager er fuld. Opgrader din plan.</string>
     <string name="storage_manage_list_title">Cloud-data</string>
     <string name="storage_manage_list_title_action">Se mere</string>
+    <string name="storage_manage_normal_summary">Skift cloud-lagerplan</string>
     <string name="storage_manage_renewal">Forny</string>
     <string name="storage_manage_title">Skift cloud-lagerplan</string>
     <string name="storage_manage_upgrade">Opgrader</string>
@@ -481,6 +503,8 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="sync_dspt_entrance_provision_network_china">This app needs to connect to the internet to work normally. Syncing data may require mobile data connection and turning on WLAN.</string>
     <string name="sync_dspt_entrance_provision_skip">Spring dette trin over</string>
     <string name="sync_dspt_provision">Synkroniser dine fotos, kontakter, noter og mere på tværs af alle dine enheder eller få adgang til dem på</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan når som helst slå denne funktion til og fra i Indstillinger.
 "</string>
     <string name="sync_item_calllog_summary">Synkroniser alle optagelser, der er blevet lavet og modtaget på denne telefon.</string>

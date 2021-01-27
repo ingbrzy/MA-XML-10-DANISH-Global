@@ -16,6 +16,10 @@
         <item quantity="other">Valgte %1$d elementer</item>
         <item quantity="one">Valgte %1$d element</item>
     </plurals>
+    <plurals name="remove_dialog_title_multi_format">
+        <item quantity="other">Fjern %1$d apps fra startskærmen?</item>
+        <item quantity="one">Fjern \"%1$d\" app fra startskærmen?</item>
+    </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
         <item quantity="other">Side %1$d, %2$d apps.</item>
         <item quantity="one">Side %1$d, %2$d app.</item>
