@@ -394,7 +394,6 @@
     <string name="note_sort_way">Vælg, hvordan du vil sortere dine noter</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
-    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Noter er en systemapp. Du vil ikke længere kunne bruge denne app, når du har afinstalleret den.</string>
     <string name="notes_description_title">Afinstallér noter?</string>
     <string name="notification_content_add_todo_from_other_app">Du tilføjede en ny opgave. Tryk for at se.</string>

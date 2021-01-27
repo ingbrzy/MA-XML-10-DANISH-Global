@@ -98,8 +98,6 @@
     <string name="feedback_custom_hint">Beskriv de problemer, du oplever, her. Hvis du giver forslag, vil vi sætte pris på flere oplysninger!</string>
     <string name="find_device">Find enhed</string>
     <string name="find_device_dspt_provision">Hvis du mister din enhed, kan du gå til &lt;font color=#0097FF>%s&lt;/font> for at finde, låse eller nulstille den. Du kan når som helst slå denne funktion til og fra i Indstillinger.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_error_network">Tjek din dataforbindelse og prøv igen.</string>
     <string name="find_device_error_server">Serverfejl</string>
     <string name="find_device_gdpr_prompt">Ved at tænde for Find enheden, accepterer du vores <a href="app://com.miui.cloudservice.gdpr.license"><u>Fortrolighedspolitik</u></a>. Hvis du er nødt til at tilbagekalde autoriseringen, slå denne funktion fra.</string>
@@ -239,14 +237,11 @@ Lokaliser og lås din enhed, for det tilfælde at den går tabt."</string>
     <string name="micloud_find_device_open_fail">Kunne ikke tænde Find enhed.</string>
     <string name="micloud_find_device_opened">Find enhed tændt</string>
     <string name="micloud_find_device_opened_content">Find din enhed på %s</string>
-    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_sms_alert">En udgående SMS-besked kan være påkrævet for at aktivere denne service. Dit teleselskab opkræver penge for denne besked. Når du skifter dit SIM-kort, sendes der automatisk en besked til genaktivering af denne funktion.</string>
     <string name="micloud_find_device_verify_button">Genaktivér Find enhed</string>
     <string name="micloud_find_device_verify_close">Sluk Find enhed</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke genaktivere Find enhed.</string>
     <string name="micloud_find_device_verify_progress">Genaktiverer Find enhed…</string>
-    <string name="micloud_footer_international_url">mi.com/micloud</string>
-    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Synkroniseringen blev aflyst. Prøv igen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Backup af startskærm</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Systemindstillinger og layout af startskærm</string>
@@ -503,8 +498,6 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="sync_dspt_entrance_provision_network_china">This app needs to connect to the internet to work normally. Syncing data may require mobile data connection and turning on WLAN.</string>
     <string name="sync_dspt_entrance_provision_skip">Spring dette trin over</string>
     <string name="sync_dspt_provision">Synkroniser dine fotos, kontakter, noter og mere på tværs af alle dine enheder eller få adgang til dem på</string>
-    <string name="sync_dspt_provision2">i.mi.com</string>
-    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan når som helst slå denne funktion til og fra i Indstillinger.
 "</string>
     <string name="sync_item_calllog_summary">Synkroniser alle optagelser, der er blevet lavet og modtaget på denne telefon.</string>

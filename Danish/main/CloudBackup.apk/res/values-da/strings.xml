@@ -206,8 +206,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Tryk på sikkerhedskopieringsknappen</string>
     <string name="other_device_main_space">First space</string>
     <string name="other_device_second_space">Second space</string>
-    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
-    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
     <string name="provision_background_restore_more_data">Gendan flere elementer i baggrunden</string>

@@ -921,7 +921,6 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_auxiliary_close">Slået fra</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Eksponeringsverifikation</string>
     <string name="pref_camera_auxiliary_focus_peak">Fokusoptimering</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>
