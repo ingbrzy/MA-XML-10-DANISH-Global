@@ -31,7 +31,10 @@
     <string name="afternoon">Eftermiddag</string>
     <string name="am">AM</string>
     <string name="app_name">Skærmoptager</string>
+    <string name="app_notification_channel_record_complete">Notifications about finished recordings</string>
     <string name="app_notification_info">Skærmoptager arbejder i baggrunden</string>
+    <string name="app_notification_record_complete">"Saved screen recording to Gallery
+Tap to view"</string>
     <string name="app_notification_title">Skærmoptager</string>
     <string name="auto_stop_title">Videoen er nu gemt</string>
     <string name="battery_not_allowed" formatted="false">Kan ikke optage, når batteriet er lavere end 3 %. Sørg for, at batteriet er mindst 20 % opladet.</string>

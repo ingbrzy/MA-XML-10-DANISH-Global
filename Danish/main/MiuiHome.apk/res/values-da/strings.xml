@@ -423,6 +423,7 @@
     <string name="navigation_type_full_screen">Bevægelser</string>
     <string name="navigation_type_title">Systemnavigation</string>
     <string name="navigation_type_virtual_key">Knapper</string>
+    <string name="network_error">Kunne ikke oprette forbindelse til netværket. Prøv igen.</string>
     <string name="no_detail_page">Side uden detaljer</string>
     <string name="no_space_toast">Ikke nok plads</string>
     <string name="no_space_toast_when_click_widget">Ikke nok plads på denne side. Prøv at trække dette element til en anden side.</string>
@@ -519,6 +520,8 @@
     <string name="remove_dialog_message">Valgte apps indeholder absolut nødvendige systemfunktioner. Du kan kun fjerne deres startskærms-genveje.</string>
     <string name="remove_dialog_title_format">Fjern \"%s\" fra startskærmen?</string>
     <string name="remove_invalidate_gadget_tips">En af de widgets, du bruger, er ikke længere tilgængelig. Du kan tilføre en anden.</string>
+    <string name="remove_sys_app_content">Du vil kunne tilføje startskærmsgenvejen igen i Indstillinger > Apps > Administrer starskærmsgenveje. Fjern nu?</string>
+    <string name="remove_sys_app_title">Fjern startskærmsgenvejen?</string>
     <string name="reset_cate_tip_content">Hvis du fortsætter, gendannes standard-appgrupperne. Fortsæt alligevel?</string>
     <string name="reset_cate_tip_title">Gendan standardgrupper</string>
     <string name="reset_description_first_time">Du kan gendanne layoutet fra %1$s indenfor to timer</string>
@@ -527,6 +530,7 @@
     <string name="reset_scene_prompt">Skærmen bliver nulstillet til standardlayout.</string>
     <string name="reset_title">Gendan</string>
     <string name="restore_icon_successful">Er nu tilføjet</string>
+    <string name="russia_preinstall_folder_name">Rusland</string>
     <string name="screen_cells_config_title">Startskærmlayout</string>
     <string name="screen_locked_toast">Startskærmens layout er låst.</string>
     <string name="screen_number">%d skærm</string>
@@ -536,6 +540,7 @@
     <string name="select_all">Vælg alle</string>
     <string name="select_frame">Ramme</string>
     <string name="select_photo">Foto</string>
+    <string name="server_error">Der opstod en serverfejl. Vent et minut eller to og prøv så igen.</string>
     <string name="setting_wallpaper_tip">Knib eller swipe for at justere</string>
     <string name="settings">Indstillinger</string>
     <string name="settings_shortcut">Indstillinger</string>
@@ -563,6 +568,7 @@
     <string name="sort_by_not_defined">Automatisk sortering</string>
     <string name="start_activity_failed">Kan ikke starte lanceringsprogram</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s af %2$s tilgængelig</string>
     <string name="status_bar_recent_memory_info2" />

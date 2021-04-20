@@ -404,6 +404,10 @@ Kontakt din administrator for at få flere oplysninger om dette certifikat."</it
         <item quantity="other">%1$d forslag</item>
         <item quantity="one">%1$d forslag</item>
     </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Modtag en alarm, når en af dine øresnegle ikke befinder sig i dit øre eller i opladerboksen i mere end %d minutter</item>
+        <item quantity="one">Modtag en alarm, når en af dine øresnegle ikke befinder sig i dit øre eller i opladerboksen i mere end %d minut</item>
+    </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d elementer</item>
         <item quantity="one">%d element</item>

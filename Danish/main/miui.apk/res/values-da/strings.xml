@@ -381,6 +381,7 @@
     <string name="earthly_branches_you">酉</string>
     <string name="earthly_branches_zi">子</string>
     <string name="email">E-mail</string>
+    <string name="empty" />
     <string name="eras_ad">AD</string>
     <string name="eras_bc">BC</string>
     <string name="error_forbidden">Synkroniseringen er slået fra pga. problemer med din Mi-konto.</string>
@@ -458,7 +459,7 @@
     <string name="immersion_button_close_description">Luk</string>
     <string name="midnight">AM</string>
     <string name="mobile_data_consume">At downloade elementer nu kræver brug af %1$s MB mobil data. Download alligevel?</string>
-    <string name="mobile_data_remind">Advarsel om brug af data</string>
+    <string name="mobile_data_remind">Advarsel om dataforbrug</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
     <string name="monday_shortest">M</string>
@@ -533,6 +534,7 @@
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="solar_term_autumn_begins">Autumn Begins</string>
     <string name="solar_term_autumn_equinox">Autumn Equinox</string>

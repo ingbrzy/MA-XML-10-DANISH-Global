@@ -75,6 +75,7 @@ Prøv igen"</string>
     <string name="btn_retry">Kontroller igen</string>
     <string name="btn_skip">Spring dette trin over</string>
     <string name="button_cancel">Annuller</string>
+    <string name="button_confirm">Forstået</string>
     <string name="button_delete">Slet</string>
     <string name="button_next">Næste</string>
     <string name="can_not_backup_in_lite_mode">Kan ikke sikkerhedskopiere i Lite-tilstand</string>
@@ -178,7 +179,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="expand_button_title">Avanceret</string>
     <string name="get_device_id_error">Kunne ikke få enheds-ID</string>
     <string name="help_and_feedback">Hjælp og feedback</string>
-    <string name="hint_restore_cross_space">Hjemmeskærmens layout kan blive vist forkert, hvis du overfører elementer mellem spaces.</string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Anden launcher</string>
     <string name="home_restore_error">Kunne ikke gendanne startskærm</string>
@@ -192,7 +192,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="menu_item_sort">Sorter efter</string>
     <string name="menu_item_sort_name">Navn</string>
     <string name="menu_item_sort_size">Størrelse</string>
-    <string name="msg_alert_cancel_restore">Gendanner elementer. Stop nu?</string>
+    <string name="msg_alert_cancel_restore">Elementer bliver gendannet fra Xiaomi Cloud. Annuller nu?</string>
     <string name="msg_alert_restore_error">Kunne ikke gendanne elementer fra Xiaomi Cloud. Prøv igen.</string>
     <string name="msg_restore_start_with_metered_network">"Din startskærm genstartes. Sikkerhedskopierede apper downloades automatisk. &lt;br />&lt;b>&lt;font color='red'>%s af filer downloades.&lt;/font>&lt;/b>"</string>
     <string name="msg_restore_with_metered_network_hint">Hvis du fortsætter med at genskabe disse elementer, bruges mobildata til at downloade.</string>
@@ -206,12 +206,18 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Tryk på sikkerhedskopieringsknappen</string>
     <string name="other_device_main_space">First space</string>
     <string name="other_device_second_space">Second space</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
+    <string name="pc_mode_not_support_restore_warning">Kan ikke gendanne elementer i pc-tilstand. Sluk for pc-tilstand og prøv igen.</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
+    <string name="provision_back">Tilbage</string>
     <string name="provision_background_restore_more_data">Gendan flere elementer i baggrunden</string>
     <string name="provision_error_connect_msg">Test netværket og prøv igen. Sikkerhedskopier er ikke tilgængelige, når din enhed er offline.</string>
     <string name="provision_error_connect_title">Kan ikke oprette forbindelse</string>
+    <string name="provision_next">Næste</string>
     <string name="provision_restore_data">Gendanner elementer</string>
+    <string name="provision_skip_underline">Spring over</string>
     <string name="query_restore_description">Gendan startskærms-apps og -indstillinger ved hjælp af denne sikkerhedskopi. Dette vil overskrive appdata for duplikat-apps, der allerede er installeret på denne enhed. Apps, der ikke er inkluderet i sikkerhedskopien, flyttes til den sidste startskærm.</string>
     <string name="query_restore_summary">Fandt en Xiaomi Cloud-sikkerhedskopi til denne enhed. Gendan startskærms-apps og -indstillinger, eller brug den som en ny enhed og slet tidligere Xiaomi Cloud-sikkerhedskopier?</string>
     <string name="recover_home_settings">Gendan indstillinger for startskærm</string>
@@ -248,14 +254,14 @@ Kontrollér dine netværksindstillinger og prøv igen."</string>
     <string name="restore_home_failed">Kunne ikke gendanne startskærmen.</string>
     <string name="restore_home_screen_apps">Gendan fra cloud-sikkerhedskopi</string>
     <string name="restore_init_description">Begynd gendannelse</string>
-    <string name="restore_network_pause">%s (Tryk for at fortsætte)</string>
+    <string name="restore_network_pause">Sat på pause for at gemme mobildata. Tryk for at fortsætte.</string>
     <string name="restore_network_unconnect">%s (Venter på forbindelse)</string>
     <string name="restore_task_cancelling">Annullerer…</string>
     <string name="restore_task_in_process">Gendanner…</string>
     <string name="restore_task_unfinished">Kunne ikke gendanne</string>
     <string name="restore_unfinished">Gendanner. Prøv igen senere</string>
     <string name="restoring_data">Gendanner data…</string>
-    <string name="restoring_file_title_no_progress">Gendanner filer…</string>
+    <string name="restoring_file_title_no_progress">Gendanner apps…</string>
     <string name="restoring_home_screen_apps">Gendanner fra Xiaomi Cloud…</string>
     <string name="restoring_settings">Gendanner indstillinger…</string>
     <string name="retry">Prøv igen</string>

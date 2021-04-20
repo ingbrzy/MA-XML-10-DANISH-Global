@@ -47,7 +47,7 @@
     <string name="config_mode_title">Baggrundsindstillinger</string>
     <string name="config_no_restrict_description">Batteribespareren begrænser ikke appens aktivitet</string>
     <string name="config_no_restrict_title">Ingen restriktioner</string>
-    <string name="config_restrict_function_description">Nogle funktioner (f.eks. pushmeddelelser) kan blive påvirket, men apps vil ikke blive lukket</string>
+    <string name="config_restrict_function_description">Luk apps efter 10 minutters baggrundsaktivitet</string>
     <string name="config_restrict_function_title">Begræns baggrundsapps</string>
     <string name="config_restrict_running_description">Apps lukkes for at spare strøm</string>
     <string name="config_restrict_running_title">Begræns baggrundsaktivitet</string>

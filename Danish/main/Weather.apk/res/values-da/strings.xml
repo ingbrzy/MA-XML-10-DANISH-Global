@@ -148,6 +148,7 @@
     <string name="dynamic_weather">Vejr</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Opdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke oprette forbindelse til netværket</string>
     <string name="empty_view_refresh">Prøv igen</string>
@@ -241,13 +242,17 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="index_item_experience_now">Installer nu</string>
     <string name="indices_title_chance_of_rain">Mulighed for regn</string>
     <string name="indices_title_feel">Ægte fornemmelse</string>
     <string name="indices_title_pressure">Tryk</string>
     <string name="indices_title_wind_speed">Vindhastighed</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-indeks</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Slå placeringstjenester til</string>
     <string name="location_tag">Find</string>
     <string name="manager_city_option_add_home">Føj til startsiden</string>
@@ -400,6 +405,7 @@
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI Vejr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke tage skærmbillede</string>
     <string name="shortcut_short_label_24_hour_forecast">24-timers prognose</string>
@@ -549,8 +555,10 @@
     <string name="welcome_app_title">Velkommen til Vejret!</string>
     <string name="wind_direction_no_data">Vind</string>
     <string name="wind_unit">%1$skm/t</string>
-    <string name="xiaomi_weather_description_content">Vejret giver dig præcise vejroplysninger. Uden denne app virker statuslinjen og startskærmværktøjet ikke korrekt. Sørg for, at du kan undvære disse funktioner, inden du afinstallerer appen.</string>
-    <string name="xiaomi_weather_description_title">Om vejret</string>
+    <string name="xiaomi_weather_description_content">Vejr er en systemapp. Du vil ikke kunne se vejrinformationer eller bruge relaterede widgets, efter du har afinstalleret appen.</string>
+    <string name="xiaomi_weather_description_content_remove">Vejr er en systemapp. Du vil ikke kunne se vejrinformationer eller bruge relaterede widgets, efter du har fjernet startskærmsgenvejen</string>
+    <string name="xiaomi_weather_description_title">Afinstaller \"Vejr\"?</string>
+    <string name="xiaomi_weather_description_title_remove">Fjern \"Vejr\" fra Startskærm?</string>
     <string name="yes_vote_ratio">For %1$s%%</string>
     <string name="yesterday">I går</string>
 </resources>

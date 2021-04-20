@@ -104,6 +104,10 @@
         <item quantity="other">%d gange</item>
         <item quantity="one">%d gang</item>
     </plurals>
+    <plurals name="usage_state_unlock_count_new">
+        <item quantity="other">Gennemsnitligt %.2f gange</item>
+        <item quantity="one">Gennemsnitligt %.2f gang</item>
+    </plurals>
     <plurals name="usage_state_week_day_hour">
         <item quantity="other">Weekender: %d timer</item>
         <item quantity="one">Weekender: %d time</item>

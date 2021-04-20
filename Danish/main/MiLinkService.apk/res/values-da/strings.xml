@@ -48,6 +48,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Kinesisk traditionel kalender</string>
+    <string name="device_desc_trust">Pålidelige enheder</string>
     <string name="dialog_can_not_find_device">Kunne ikke finde enheder i nærheden</string>
     <string name="dialog_cancle">Annuller</string>
     <string name="dialog_connect_fail">Kunne ikke tilslutte</string>
@@ -254,10 +255,23 @@ Hvis du skal slå Miracast til, skal du trykke på knappen [MENU] og vælge Mine
     <string name="nfc_connect_failed_toast">Kunne ikke caste. Prøv igen.</string>
     <string name="night">Aften</string>
     <string name="noon">Middag</string>
+    <string name="normal_device_desc">De enheder du er tilsluttet til, men som du ikke har markeret som tilforladelige</string>
+    <string name="normal_device_desc_limit">De enheder du er tilsluttet til, men som du ikke har markeret som tilforladelige</string>
+    <string name="normal_device_none">Ingen tidligere tilsluttede enheder her</string>
+    <string name="normal_device_title">Ingen pålidelige enheder</string>
     <string name="not_set">Ikke angivet</string>
+    <string name="notification_cast_desc">Caster…</string>
+    <string name="notification_desc_scanning">Søger efter enheder i nærheden…</string>
     <string name="notification_rc_title">XiaoMi TV-assistent</string>
     <string name="notification_show_more">Tryk for at se flere funktioner</string>
     <string name="open_game_accelerate">Tænd for Game turbo</string>
+    <string name="path_setting_cast">Forbindelse &amp; deling/udvalg</string>
+    <string name="path_setting_cast_demo">Forbindelse &amp; deling/udvalg/demoer</string>
+    <string name="path_setting_cast_demo_document">Forbindelse &amp; deling/udvalg/demoer/dokumenter</string>
+    <string name="path_setting_cast_demo_gallery">Forbindelse &amp; deling/udvalg/demoer/fotos &amp;videoer</string>
+    <string name="path_setting_cast_demo_game">Forbindelse &amp; deling/udvalg/demoer/spil</string>
+    <string name="path_setting_cast_feature">Forbindelse &amp; deling/udvalg/specielle funktioner</string>
+    <string name="path_setting_cast_help">Forbindelse &amp; deling/udvalg/hjælp</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="privacy_agree">Accepter</string>
@@ -383,6 +397,13 @@ Læs og accepter vores &lt;a href=%1$s>Brugeraftale&lt;/a> og &lt;a href=%2$s>Pr
     <string name="toast_turn_off_hotspot_before_cast">Deaktiver bærbart hotspot inden casting</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
+    <string name="trust_device_desc">Disse enheder fremgår først her, når de er i nærheden</string>
+    <string name="trust_device_dialog_desc">&lt;Data>%s fremgår først af de tilgængelige enheder, når den er i nærheden, efter du har markeret den som pålidelig.&lt;br>&lt;br>Du kan &lt;a href=milink://com.milink.service/trust>administrere pålidelige enheder&lt;/a> under Indstillinger.&lt;/Data></string>
+    <string name="trust_device_dialog_pos">Stol på</string>
+    <string name="trust_device_dialog_title">Stol på denne enhed?</string>
+    <string name="trust_device_manager">Administrer pålidelige enheder</string>
+    <string name="trust_device_none">Ingen pålidelige enheder her</string>
+    <string name="trust_device_title">Pålidelige enheder</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>
     <string name="tuesday_shortest">Tirs</string>

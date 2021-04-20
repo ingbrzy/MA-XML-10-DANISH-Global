@@ -34,6 +34,12 @@
     <string name="add_custom_image">Tilpasset billede</string>
     <string name="add_from_album">Tilføj fra galleri</string>
     <string name="afternoon">Eftermiddag</string>
+    <string name="align_center_horizontally">Vandret og centreret</string>
+    <string name="align_center_vertically">Lodret og centreret</string>
+    <string name="align_left_horizontally">Vandret og venstrestillet</string>
+    <string name="align_left_vertically">Lodret og venstrestillet</string>
+    <string name="align_right_horizontally">Vandret og højrestillet</string>
+    <string name="align_right_vertically">Lodret og højrestillet</string>
     <string name="align_type">Tilpas</string>
     <string name="always_style">Altid</string>
     <string name="always_style_symmary">Bruger mere strøm</string>
@@ -58,6 +64,7 @@ dd.MM"</string>
     <string name="aod_show_date_and_time">Vis dato og tid</string>
     <string name="aod_show_style_title">Vis elementer</string>
     <string name="aod_style">Tema</string>
+    <string name="aod_theme_store">Temaer der altid vises</string>
     <string name="aod_to_close">Sluk</string>
     <string name="apply">Brug</string>
     <string name="apply_succeed">Tilføjet med succes</string>
@@ -254,6 +261,7 @@ dd.MM"</string>
 vidunderligt er lige om hjørnet"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Skridttæller leveres af Xiaomi Health. Acceptér Xiaomi Healths vilkår og betingelser for at fortsætte.</string>
     <string name="step_component_info_desc">Skridttallet vil forvandle sig til et trofæ, når du har nået dit mål. Skridttæller leveres af Xiaomi Health.</string>
     <string name="step_component_info_tip">Skridttæller leveres af Xiaomi Health. Installer eller opdatér Xiaomi Health og acceptér tilhørende vilkår og betingelser for at fortsætte.</string>

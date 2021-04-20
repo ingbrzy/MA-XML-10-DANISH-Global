@@ -45,6 +45,7 @@
     <string name="bluetooth_enable_notification_content">%s slog Bluetooth til</string>
     <string name="bluetooth_enable_notification_title">Bluetooth er slået til</string>
     <string name="bluetooth_open">Denne app har slået Bluetooth til</string>
+    <string name="bottom_bar_smallwindow_text">Slip for at fastgøre</string>
     <string name="btn_cancel">Annuller</string>
     <string name="btn_sure">OK</string>
     <string name="button_text_cancel">Annuller</string>
@@ -78,10 +79,14 @@
     <string name="device_status_success">Sendt</string>
     <string name="device_status_waiting">Venter…</string>
     <string name="device_type_pc">Computer</string>
+    <string name="disable_nfc">Deaktiverede NFC for at foretage trådløs opladning</string>
+    <string name="disable_nfc_reverse">Deaktiverede NFC for at foretage omvendt trådløs opladning</string>
     <string name="eighthours">8 timer</string>
     <string name="enable_livetalk_summary">Spar 70 % på dine opkaldsgebyrer</string>
     <string name="enable_livetalk_title">Slå genopfyldningspakke til</string>
     <string name="enable_midrop">Tænd</string>
+    <string name="enable_nfc">Oplader ikke længere. NFC er aktiveret på ny.</string>
+    <string name="enable_nfc_reverse">Foretager ikke længere omvendt opladning. NFC er aktiveret på ny.</string>
     <string name="fc_dialog_body">Send fejlfindingsrapport til Mi til analyse? Denne rapport kan indeholde personligt identificerbare oplysninger. Din rapport vil blive brugt til at rette denne fejl og vil aldrig blive delt i nogen kommerciel sammenhæng.</string>
     <string name="fc_dialog_jump_to_preview">Se oversigt</string>
     <string name="file_cannot_print">Kan ikke udskrive dette element.</string>

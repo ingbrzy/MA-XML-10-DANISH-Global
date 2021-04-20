@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Kamera</string>
     <string name="accessibility_carrier_network_change_mode">Skift af operatørnetværk.</string>
     <string name="accessibility_cast_name">Forbindelse oprettet til %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Skærmcasting stoppet.</string>
     <string name="accessibility_cell_data">Mobildata</string>
     <string name="accessibility_cell_data_off">Mobildata slået fra</string>
@@ -114,6 +115,7 @@
     <string name="accessibility_ethernet_connected">Ethernet tilsluttet.</string>
     <string name="accessibility_ethernet_disconnected">Ethernet frakoblet.</string>
     <string name="accessibility_expand_button">Vis mere</string>
+    <string name="accessibility_face_dialog_face_icon">Ansigt</string>
     <string name="accessibility_fingerprint_dialog_app_icon">Programikon</string>
     <string name="accessibility_fingerprint_dialog_fingerprint_icon">Fingeraftryksikon</string>
     <string name="accessibility_fingerprint_dialog_help_area">Hjælpebeskedområde</string>
@@ -387,6 +389,38 @@
     <string name="battery_saver_notification_text">Forringer ydeevne og baggrundsdata</string>
     <string name="battery_saver_notification_title">Batteribesparer er slået til</string>
     <string name="battery_saver_start_action">Slå batteribesparer til</string>
+    <string name="biometric_dialog_authenticated">Godkendt</string>
+    <string name="biometric_dialog_confirm">Bekræft</string>
+    <string name="biometric_dialog_credential_attempts_before_wipe">Prøv igen. %1$d. forsøg ud af %2$d.</string>
+    <string name="biometric_dialog_credential_too_many_attempts">"For mange mislykkede forsøg. 
+Prøv igen om %d sekunder."</string>
+    <string name="biometric_dialog_empty_space_description">Tryk for at annullere godkendelsen</string>
+    <string name="biometric_dialog_face_icon_description_authenticated">Ansigtet er godkendt</string>
+    <string name="biometric_dialog_face_icon_description_authenticating">Søger efter dit ansigt</string>
+    <string name="biometric_dialog_face_icon_description_confirmed">Bekræftet</string>
+    <string name="biometric_dialog_face_icon_description_idle">Prøv igen</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_device">For mange forkerte forsøg. Dataene på denne enhed slettes.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_profile">For mange forkerte forsøg. Denne arbejdsprofil og de tilhørende data slettes.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_user">For mange forkerte forsøg. Denne bruger slettes.</string>
+    <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Dine data bliver slettet</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_device">Hvis du angiver en forkert adgangskode i næste forsøg, slettes dataene på denne enhed.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Hvis du angiver en forkert adgangskode i næste forsøg, slettes din arbejdsprofil og de tilhørende data.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_user">Hvis du angiver en forkert adgangskode i næste forsøg, slettes denne bruger.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Hvis du angiver et forkert mønster i næste forsøg, slettes dataene på denne enhed.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Hvis du angiver et forkert mønster i næste forsøg, slettes din arbejdsprofil og de tilhørende data.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Hvis du angiver et forkert mønster i næste forsøg, slettes denne bruger.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_device">Hvis du angiver en forkert pinkode i næste forsøg, slettes dataene på denne enhed.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Hvis du angiver en forkert pinkode i næste forsøg, slettes din arbejdsprofil og de tilhørende data.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_user">Hvis du angiver en forkert pinkode i næste forsøg, slettes denne bruger.</string>
+    <string name="biometric_dialog_now_wiping_dialog_dismiss">Afvis</string>
+    <string name="biometric_dialog_tap_confirm">Tryk på Bekræft for at udføre</string>
+    <string name="biometric_dialog_try_again">Prøv igen</string>
+    <string name="biometric_dialog_use_password">Brug adgangskode</string>
+    <string name="biometric_dialog_use_pattern">Brug mønster</string>
+    <string name="biometric_dialog_use_pin">Brug pinkode</string>
+    <string name="biometric_dialog_wrong_password">Forkert adgangskode</string>
+    <string name="biometric_dialog_wrong_pattern">Forkert mønster</string>
+    <string name="biometric_dialog_wrong_pin">Forkert pinkode</string>
     <string name="blob_expires_text">Udløber den %s</string>
     <string name="blob_id_text">ID for delte data: %d</string>
     <string name="block">Bloker alle notifikationer</string>
@@ -704,6 +738,7 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="ext_media_unmountable_notification_title">Beskadiget USB-hukommelse</string>
     <string name="external_source_trusted">Tilladt</string>
     <string name="external_source_untrusted">Ikke tilladt</string>
+    <string name="face_dialog_looking_for_face">Forsøger at finde dig…</string>
     <string name="face_unlock_be_on_the_screen">Hold enheden foran dit ansigt</string>
     <string name="face_unlock_check_failed">Kunne ikke genkende dig</string>
     <string name="face_unlock_fail">Kunne ikke verificere ansigt</string>
@@ -711,8 +746,11 @@ Hvis du genoptager, kan der pålægges gebyrer for dataforbrug."</string>
     <string name="face_unlock_fail_retry_global">Tryk foroven for at bruge Face unlock</string>
     <string name="face_unlock_not_found">Kunne ikke genkende dig</string>
     <string name="face_unlock_open_eye">Åbn dine øjne lidt mere</string>
+    <string name="face_unlock_password_and_fingerprint">Indtast adgangskode, eller brug fingeraftryk til at låse op</string>
     <string name="face_unlock_passwork">Brug adgangskode</string>
     <string name="face_unlock_passwork_and_fingerprint">Brug adgangskode eller fingeraftryk</string>
+    <string name="face_unlock_pattern_and_fingerprint">Tegn mønster, og brug fingeraftryk til at låse op</string>
+    <string name="face_unlock_pin_and_fingerprint">Indtast pinkode, eller brug fingeraftryk til at låse op</string>
     <string name="face_unlock_reveal_eye">Gør dine øjne synlige</string>
     <string name="face_unlock_reveal_mouth">Gør dine læber synlige</string>
     <string name="failed_to_open_app_settings_toast">Kunne ikke åbne indstillinger for %1$s</string>
@@ -838,6 +876,9 @@ Når din telefon er kølet ned, vil den køre normalt."</string>
     <string name="inactive_apps_title">Inaktive apps</string>
     <string name="incorrect_pincode">Forkert PIN-kode</string>
     <string name="incorrect_pukcode">Forkert PUK-kode</string>
+    <string name="input_lockscreen_password_hint_text">Indtast adgangskode</string>
+    <string name="input_lockscreen_pattern_hint_text">Tegn mønster</string>
+    <string name="input_lockscreen_pin_hint_text">Indtast pinkode</string>
     <string name="input_password_after_boot_msg">For at låse op for enheden skal du indtaste din adgangskode</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Kan ikke skifte mellem spaces under et opkald</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Kan ikke skifte mellem rum, når forældrekontrol er slået til</string>
@@ -923,6 +964,10 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyguard_charging_back_to_lockscreen">Tilbage til låseskærm</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
+    <string name="keyguard_charging_info_data_c">%s ℃</string>
+    <string name="keyguard_charging_info_data_ma">%s mA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%s V</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Drænet</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">I dag %s</string>
@@ -950,6 +995,7 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke læses. Indsæt et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Intet SIM-kort i telefon.</string>
     <string name="keyguard_missing_sim_message_short">Intet SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Netværk er låst</string>
     <string name="keyguard_password_enter_password_code">Indtast adgangskode for at låse op</string>
     <string name="keyguard_password_enter_pin_code">Indtast PIN-kode</string>
@@ -966,6 +1012,7 @@ Brug kun den medfølgende oplader."</string>
     <string name="keyguard_plugged_in_charging_fast">Oplader hurtigt</string>
     <string name="keyguard_plugged_in_charging_slowly">Oplader langsomt</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Hurtig-opladning. Tryk for at se detaljer.</string>
+    <string name="keyguard_retry">Stryg opad for at prøve igen</string>
     <string name="keyguard_sim_locked_message">SIM-kort er låst.</string>
     <string name="keyguard_sim_puk_locked_message">SIM-kort er PUK-låst.</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Låser SIM-kort op…</string>
@@ -1034,6 +1081,7 @@ Prøv igen om %2$d sekunder."</string>
     <string name="left_keycode">Venstre nøglekode</string>
     <string name="left_nav_bar_button_type">Ekstra venstre knaptype</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Lige et øjeblik…</string>
     <string name="local_backup_password_summary_change">Tryk for at ændre eller fjerne adgangkoden for fulde sikkerhedskopier af startskærmen</string>
     <string name="local_backup_password_summary_none">Fulde sikkerhedskopier af startskærmeen ernt i øjeblikket ikke beskyttet</string>
@@ -1113,6 +1161,7 @@ et scrollende screenshot"</string>
     <string name="miui_guide_dialog_message">Medielyde (musik, videoer osv.) afspilles stadig i lydløs tilstand. Du kan ændre dette i indstillingerne.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Låst op med Bluetooth-enhed</string>
     <string name="miui_ringer_count_down">Nedtælling</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Lydløs</string>
     <string name="miui_ringer_standard_description">Sluk for ringetoner ved indkommende opkald og notifikationer</string>
     <string name="miui_ringer_total">DND</string>
@@ -1148,12 +1197,14 @@ Du er også forbundet til %3$s, som kan overvåge din personlige netværksaktivi
 
 Kontakt din administrator for flere oplysninger."</string>
     <string name="monitoring_description_ca_cert_settings">Åbn pålidelige brugeroplysninger</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Der er installeret et nøglecenter på denne enhed. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_do_body">Din administrator kan overvåge og administrere indstillinger, firmaadgang, apps, data, der er forbundet med din enhed, samt din enheds placeringsoplysninger.</string>
     <string name="monitoring_description_do_body_vpn">Du har forbindelse til %1$s, som kan overvåge din netværksaktivitet, herunder e-mails, apps og websites.</string>
     <string name="monitoring_description_do_header_generic">Din enhed styres af %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruger %2$s til at styre din enhed.</string>
     <string name="monitoring_description_do_learn_more">Få mere at vide</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din virksomhed har installeret et nøglecenter i din arbejdsprofil. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbejdsprofil er forbundet til %1$s, som kan overvåge din netværksaktivitet, herunder e-mails, apps og websites.</string>
     <string name="monitoring_description_management">"Din enhed administreres af din virksomhed.
@@ -1185,6 +1236,7 @@ Kontakt din administrator for flere oplysninger.
 
 Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Åbn VPN-indstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikater</string>
     <string name="monitoring_subtitle_network_logging">Netværkslogning</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1223,6 +1275,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="nav_guide_message">Brug bevægelser til at skjule/vise funktionsknapper.</string>
     <string name="nav_guide_ok">Indstil</string>
     <string name="nav_guide_title">Skjul funktionsknapper</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ingen</string>
     <string name="no_multi_window_app">Ingen apps understøtter splitskærm</string>
     <string name="no_notification_tips">Ingen notifikationer</string>
@@ -1394,6 +1447,7 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="private_dns_mode_provider">Hostnavn på privat DNS-udbyder</string>
     <string name="private_dns_mode_provider_failure">Kan ikke tilslutte</string>
     <string name="private_dns_mode_provider_hostname_hint">Indtast hostnavn på DNS-udbyder</string>
+    <string name="process_kernel_label">Android-OS</string>
     <string name="profile_connect_timeout_subtext">Problem med tilslutning. Sluk enheden og tænd den så igen</string>
     <string name="profile_info_settings_title">Profiloplysninger</string>
     <string name="profile_owned_footer">Profilen kan være overvåget</string>
@@ -1540,7 +1594,6 @@ Du er også forbundet til et VPN, som kan overvåge din netværksaktivitet."</st
     <string name="quick_settings_wifi_not_connected">Ikke tilsluttet</string>
     <string name="quick_settings_wifi_off_label">Wi-Fi er slået fra</string>
     <string name="quick_settings_wifi_on_label">Wi-Fi er slået til</string>
-    <string name="quick_settings_wireless_label">Reverse trådløs opladning</string>
     <string name="quick_settings_work_mode_label">Arbejdstilstand</string>
     <string name="rapid_charge_mode_tip">Hurtigopladning</string>
     <string name="recent_cannot_dock">Kan ikke bruge delt skærm i Second space</string>
@@ -1997,6 +2050,7 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Heksadecimal</string>
     <string name="wapi_yes">Ja</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Opdateret %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Tilgangspunkt midlertidig fuldt</string>
     <string name="wifi_auto_sel_wapi_cert">Vælg automatisk</string>
@@ -2073,15 +2127,6 @@ Lager med brugeroplysninger er muligvis ikke aktiveret."</string>
     <string name="wireless_charge_reset_device">Opladningen går langsomt. Juster din enhed.</string>
     <string name="wireless_charge_reset_device_detail">Sørg for, at din enheds placering på opladningsbasen er korrekt</string>
     <string name="wireless_charge_stop">Stoppede trådløs opladning</string>
-    <string name="wireless_charging_connected_message">Kan ikke bruge reverse trådløs opladning, når din enhed oplader trådløs.</string>
-    <string name="wireless_charging_low_battery_level_message">Kan ikke bruge reverse trådløs opladning, når batteriet er mindre end 30% opladet.</string>
-    <string name="wireless_charging_ok">Forstået</string>
-    <string name="wireless_charging_saver_cancel">Sluk</string>
-    <string name="wireless_charging_saver_message">Batteribesparelse er tændt nu. Lad reverse trådløs opladning være tilgængelig?</string>
-    <string name="wireless_charging_saver_ok">Behold</string>
-    <string name="wireless_charging_tips_disable">Vis ikke igen</string>
-    <string name="wireless_charging_tips_message">Anbring enheder, der understøtter Qi trådløs opladning (telefoner, tilbehør osv.) på bagsiden af denne enhed.</string>
-    <string name="wireless_charging_tips_title">Reverse trådløs opladning</string>
     <string name="wrong_password">Forkert adgangskode</string>
     <string name="zen_alarm_warning">Du vil ikke høre din næste alarm %1$s</string>
     <string name="zen_alarm_warning_indef">Du vil ikke høre din næste alarm %1$s, medmindre du slår dette fra inden da</string>
