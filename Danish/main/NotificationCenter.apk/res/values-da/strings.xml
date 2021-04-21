@@ -113,7 +113,6 @@
     <string name="settings_guide_title">Brug for andre indstillinger?</string>
     <string name="show_badge_notifications">Notifikationsbadges</string>
     <string name="show_badge_notifications_short">Skilte</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_aggregate_default">Salgsfremmende og indholdsrelaterede push-notifikationer grupperes</string>
     <string name="summary_aggregate_home">Push-notifikationer grupperes ikke</string>
