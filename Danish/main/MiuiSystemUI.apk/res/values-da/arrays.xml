@@ -17,15 +17,6 @@
         <item>Højst 3 processer</item>
         <item>Højst 4 processer</item>
     </string-array>
-    <string-array name="aqi_title">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
     <string-array name="battery_labels">
         <item>0 %</item>
         <item>50 %</item>
@@ -33,7 +24,7 @@
     </string-array>
     <string-array name="battery_options">
         <item>Vis altid procent</item>
-        <item>Vis procent under opladning (standard)</item>
+        <item>Vis procent ved opladning (standard)</item>
         <item>Vis ikke dette ikon</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
@@ -136,16 +127,16 @@
         <item>map14</item>
     </string-array>
     <string-array name="bluetooth_map_versions">
-        <item>MAP 1.2 (Default)</item>
+        <item>MAP 1.2 (standard)</item>
         <item>MAP 1.3</item>
         <item>MAP 1.4</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Deaktiveret</item>
-        <item>Filtered</item>
+        <item>Filtreret</item>
         <item>Aktiveret</item>
-        <item>Headers filtered</item>
-        <item>Media packets filtered</item>
+        <item>Overskrifter filtreret</item>
+        <item>Mediepakker filtreret</item>
     </string-array>
     <string-array name="clock_options">
         <item>Vis timer, minutter og sekunder</item>
@@ -162,8 +153,6 @@
         <item>Naturlig</item>
         <item>Standard</item>
     </string-array>
-    <array name="data_type_name_mcc_mnc_key" />
-    <array name="data_type_name_mcc_mnc_value" />
     <string-array name="debug_hw_overdraw_entries">
         <item>Slukket</item>
         <item>Vis overtegningsområder</item>
@@ -185,24 +174,21 @@
         <item>Kontrollér kun for DRM-indhold</item>
         <item>Kontrollér altid</item>
     </string-array>
-    <string-array name="miui_volume_timer_segments_title">
-        <item>Slukket</item>
-        <item>30 minutter</item>
-        <item>1 time</item>
-        <item>2 timer</item>
-        <item>8 timer</item>
+    <string-array name="miui_notification_aggregate_category">
+        <item>Dette er anbefalet indhold.</item>
+        <item>Dette er en reklame.</item>
     </string-array>
     <string-array name="nav_bar_buttons">
         <item>Udklipsholder</item>
-        <item>Nøglekode</item>
-        <item>Tastaturskifter</item>
+        <item>Tastekode</item>
+        <item>Rotationsbekræftelse, tastaturskifter</item>
         <item>Ingen</item>
     </string-array>
     <string-array name="nav_bar_layouts">
         <item>Normal</item>
         <item>Kompakt</item>
-        <item>Venstrevendt</item>
-        <item>Højrevendt</item>
+        <item>Venstreorienteret</item>
+        <item>Højreorienteret</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>Ingen</item>
@@ -218,7 +204,6 @@
         <item>4K (opskaleret, sikker)</item>
         <item>720p, 1080p (dobbelt skærm)</item>
     </string-array>
-    <array name="recents_blacklist_array" />
     <string-array name="select_logd_size_lowram_titles">
         <item>Slukket</item>
         <item>64 KB</item>
@@ -227,11 +212,11 @@
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Slukket</item>
-        <item>64 KB per log buffer</item>
-        <item>256 KB per log buffer</item>
-        <item>1 MB per log buffer</item>
-        <item>4 MB per log buffer</item>
-        <item>16 MB per log buffer</item>
+        <item>64 KB pr. logbuffer</item>
+        <item>256 KB pr. logbuffer</item>
+        <item>1 MB pr. logbuffer</item>
+        <item>4 MB pr. logbuffer</item>
+        <item>16 MB pr. logbuffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Slukket</item>
@@ -301,35 +286,6 @@
         <item>RNDIS (USB-ethernet)</item>
         <item>Audiokilde</item>
         <item>MIDI</item>
-    </string-array>
-    <string-array name="weather_type">
-        <item>Klart</item>
-        <item>Skyet</item>
-        <item>Overskyet</item>
-        <item>Tåget</item>
-        <item>Kraftigt regnvejr</item>
-        <item>Regnskyl</item>
-        <item>Regnvejr</item>
-        <item>Tordenvejr</item>
-        <item>Byger</item>
-        <item>Kraftig nedbør</item>
-        <item>Moderat regn</item>
-        <item>Let regn</item>
-        <item>Slud</item>
-        <item>Snestorm</item>
-        <item>Snevejr</item>
-        <item>Kraftig snevejr</item>
-        <item>Moderat snevejr</item>
-        <item>Let snevejr</item>
-        <item>Kraftig sandstorm</item>
-        <item>Sandstorm</item>
-        <item>Sand</item>
-        <item>Blæsende</item>
-        <item>Hagl</item>
-        <item>Støv</item>
-        <item>Dis</item>
-        <item>Isslag</item>
-        <item></item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>

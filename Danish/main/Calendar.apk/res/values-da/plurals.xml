@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%d dage før arrangementet</item>
-        <item quantity="one">%d dag før arrangementet</item>
+        <item quantity="other">%d dage før</item>
+        <item quantity="one">%d dage før</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">In %1$d days at %2$s</item>
         <item quantity="one">Om %1$d dage kl. %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d dage før arrangementet kl. %2$s</item>
-        <item quantity="one">%1$d dag før arrangementet kl. %2$s</item>
+        <item quantity="other">%1$d dage forinden kl. %2$s</item>
+        <item quantity="one">%1$d dag forinden kl. %2$s</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d timer før arrangementet</item>
-        <item quantity="one">%d time før arrangementet</item>
+        <item quantity="other">%d timer før</item>
+        <item quantity="one">%d time før</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d minutter før arrangementet</item>
-        <item quantity="one">%d minut før arrangementet</item>
+        <item quantity="other">%d minutes before</item>
+        <item quantity="one">%d minutter før</item>
     </plurals>
     <plurals name="Nweeks">
-        <item quantity="other">%d uger før arrangementet</item>
-        <item quantity="one">%d uge før arrangementet</item>
+        <item quantity="other">%d weeks before</item>
+        <item quantity="one">%d uger før</item>
     </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s days</item>
         <item quantity="one">%1$s dage</item>
     </plurals>
     <plurals name="anniversary_notify_before_3_day_title">
-        <item quantity="other">Anniversary: %2$d years since %1$s in 3 days</item>
-        <item quantity="one">Jubilæum: %2$d år siden %1$s om 3 dage</item>
+        <item quantity="other">Jubilæum: %2$d år siden %1$s om %3$d dage</item>
+        <item quantity="one">Jubilæum: %2$d år siden %1$s om %3$d dage</item>
     </plurals>
     <plurals name="anniversary_notify_title">
         <item quantity="other">Anniversary: %2$d years since %1$s</item>
@@ -72,6 +72,10 @@
         <item quantity="other">%1$d days before</item>
         <item quantity="one">%1$d dage før</item>
     </plurals>
+    <plurals name="day_index">
+        <item quantity="other">%1$d dage</item>
+        <item quantity="one">%1$d dag</item>
+    </plurals>
     <plurals name="edit_date_calculate_days_error_hint">
         <item quantity="other">You can enter up to %1$d days</item>
         <item quantity="one">Du kan indtaste op til %1$d dage.</item>
@@ -80,29 +84,41 @@
         <item quantity="other">Kan fastsætte op til %d remindere</item>
         <item quantity="one">Kan fastsætte op til %d reminder</item>
     </plurals>
+    <plurals name="hide_completed_notes">
+        <item quantity="other">Skjul %d færdige opgaver</item>
+        <item quantity="one">Skjul %d færdig opgave</item>
+    </plurals>
+    <plurals name="mesens_card_title_day_in_predict">
+        <item quantity="other">Dag %1$d (forventet)</item>
+        <item quantity="one">Dag %1$d (forventet)</item>
+    </plurals>
+    <plurals name="mesens_card_title_days">
+        <item quantity="other">Dag %1$d</item>
+        <item quantity="one">Dag %1$d</item>
+    </plurals>
+    <plurals name="mesens_card_title_predict_date">
+        <item quantity="other">Næste menstruation om %1$d dage</item>
+        <item quantity="one">Næste menstruation om %1$d dag</item>
+    </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
-        <item quantity="one">+1</item>
+        <item quantity="one">+%d</item>
     </plurals>
-    <plurals name="reminder_custom_unit_day">
+    <plurals name="notes_custom_repeat_days">
+        <item quantity="other">dage</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="notes_custom_repeat_weeks">
+        <item quantity="other">uger</item>
+        <item quantity="one">uge</item>
+    </plurals>
+    <plurals name="num_picker_hint">
         <item quantity="other">" dage"</item>
         <item quantity="one">" dag"</item>
     </plurals>
-    <plurals name="reminder_custom_unit_hour">
-        <item quantity="other">" timer"</item>
-        <item quantity="one">" time"</item>
-    </plurals>
-    <plurals name="reminder_custom_unit_minute">
-        <item quantity="other">" minutter"</item>
-        <item quantity="one">" minut"</item>
-    </plurals>
-    <plurals name="reminder_later_toast">
-        <item quantity="other">Næste påmindelse om %1$d minutter</item>
-        <item quantity="one">Næste påmindelse om %1$d minut</item>
-    </plurals>
     <plurals name="repeat_custom_prompt">
-        <item quantity="other">hver %1$s den %2$s</item>
-        <item quantity="one">hver %1$s den %2$s</item>
+        <item quantity="other">hver %1$s på %2$s</item>
+        <item quantity="one">hver %1$s på %2$s</item>
     </plurals>
     <plurals name="repeat_interval_frequency_day_multiple">
         <item quantity="other">%1$d days</item>
@@ -119,6 +135,38 @@
     <plurals name="repeat_interval_frequency_year_multiple">
         <item quantity="other">%1$d years</item>
         <item quantity="one">%1$d år</item>
+    </plurals>
+    <plurals name="show_completed_notes">
+        <item quantity="other">Vis %d færdige opgaver</item>
+        <item quantity="one">Vis %d færdig opgave</item>
+    </plurals>
+    <plurals name="subtitle_add_record">
+        <item quantity="other">Du har ikke registreret i %1$d dage. Registrer dine menstruationer for at få mere præcise forudsigelser.</item>
+        <item quantity="one">Du har ikke registreret i %1$d dag. Registrer dine menstruationer for at få mere præcise forudsigelser.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_continued_days">
+        <item quantity="other">Denne menstruation varer i alt %1$d dage</item>
+        <item quantity="one">Denne menstruation varer i alt %1$d dag</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_cycle_days">
+        <item quantity="other">Dag %1$d af denne menstruationscyklus</item>
+        <item quantity="one">Dag %1$d af denne menstruationscyklus</item>
+    </plurals>
+    <plurals name="title_menstruation_day">
+        <item quantity="other">Dag %1$d af menstruationen</item>
+        <item quantity="one">Dag %1$d af menstruationen</item>
+    </plurals>
+    <plurals name="title_menstruation_margin_next_time_days">
+        <item quantity="other">%1$d dage til næste menstruation</item>
+        <item quantity="one">%1$d dag til næste menstruation</item>
+    </plurals>
+    <plurals name="title_menstruation_predict_period">
+        <item quantity="other">Anslået dag %1$d af menstruationen</item>
+        <item quantity="one">Anslået dag %1$d af menstruationen</item>
+    </plurals>
+    <plurals name="travel_eta_advice">
+        <item quantity="other">%2$s minutters kørsel til %1$s.</item>
+        <item quantity="one">%2$s minuts kørsel til %1$s.</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">WEEK %d</item>

@@ -85,6 +85,7 @@
     <string name="evening">Eftermiddag</string>
     <string name="expand_button_title">Avanceret</string>
     <string name="first_using_dialog_message">Kompas er nødt til at bruge din enheds netværksforbindelse, kamera og placeringsservicer for at fungere normalt.</string>
+    <string name="first_using_dialog_message_no_camera">Kompas skal tilslutte til internettet og have adgang til placeringsoplysninger for at kunne fungere normalt. Acceptér?</string>
     <string name="first_using_dialog_title">Adgangstilladelse</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
@@ -209,6 +210,7 @@
     <string name="noon">Middag</string>
     <string name="not_set">Ikke angivet</string>
     <string name="open_perm_msg">Kompas er nødt til at få adgang til placeringsoplysninger og kamera. Det er nødvendigt for at kunne bestemme koordinater og give live-forhåndsvisninger. Tillad?</string>
+    <string name="open_perm_msg_no_camera">Kompas skal have adgang til placeringsoplysninger for at kunne bestemme koordinater. Tillad?</string>
     <string name="open_perm_title">Tilladelse påkrævet</string>
     <string name="permission_camera_desc">Til visning af azimuth i live preview</string>
     <string name="permission_location_desc">For visning af koordinater</string>

@@ -167,6 +167,7 @@
     <string name="display_name">Vis navn</string>
     <string name="domain">Domæne</string>
     <string name="download_success">Download lykkedes</string>
+    <string name="empty_by_forbid_access">Indholdet af denne mappe kan ikke vises her på grund af restriktioner i Android 11.</string>
     <string name="enable_documentsui">Slå først %s til under Indstillinger > Installerede apps</string>
     <string name="enable_sd_card">SD-kort er ødelagt eller afbrudt</string>
     <string name="enable_usb">USB-enhed er ødelagt eller afbrudt</string>
@@ -181,6 +182,7 @@
     <string name="error_create_dir">Kunne ikke oprette mappe</string>
     <string name="error_create_file">Kunne ikke oprette fil</string>
     <string name="error_delete_failed">Kunne ikke slette fil</string>
+    <string name="error_file_already_exists">Denne fil eksisterer allerede.</string>
     <string name="error_filename_too_long">Det angivne filnavn er for langt.</string>
     <string name="error_folder_already_exists">Denne fil eksisterer allerede</string>
     <string name="error_info_cant_send_folder">Kan ikke sende mapper.</string>
@@ -238,6 +240,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="favorite_photo">Fotos</string>
     <string name="favorite_ringtone">Ringetoner</string>
     <string name="favorite_screen_cap">Skærmfotos</string>
+    <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feedback_desc">Beskriv problemet, du er stødt ind i.</string>
     <string name="feedback_send_email_body_extra_info">Slet ikke følgende info. Det vil hjælpe os med at lokalisere problemet.</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
@@ -269,6 +272,8 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="homepage_tab_recent">Seneste</string>
     <string name="host">Vært</string>
     <string name="hot_sticker">Klistermærker</string>
+    <string name="ic_remove_desc">Filhåndtering er en systemapp, hvormed du kan se og administrere filer på din enhed. Fjern alligevel?</string>
+    <string name="ic_remove_title">Fjern \"Filhåndtering\" fra Startskærm?</string>
     <string name="if_cancel">Annullér denne handling?</string>
     <string name="image_loading_error">Kunne ikke åbne billede</string>
     <string name="implicit">Implicit</string>
@@ -280,7 +285,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="info_system">System:</string>
     <string name="info_system_version">Systemversion:</string>
     <string name="invalid_name_or_password">Ugyldigt brugernavn eller adgangskode</string>
-    <string name="just_now">netop nu</string>
+    <string name="just_now">Lige nu</string>
     <string name="kilobyteShort">KB</string>
     <string name="list_order">Listevisning</string>
     <string name="load_more">Se mere</string>
@@ -297,6 +302,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="menu_item_deep_clean">Dyb rensning</string>
     <string name="menu_item_ftp">Tilslut til computer</string>
     <string name="menu_item_midrop">Overfør filer</string>
+    <string name="menu_item_midrop_desc">Flere apps</string>
     <string name="menu_item_router">Router</string>
     <string name="menu_item_sort">Sorter efter</string>
     <string name="menu_item_sort_add_time">"Føjet til foretrukne "</string>
@@ -339,6 +345,13 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="notif_server_starting">Starter FTP-server…</string>
     <string name="notif_title">FTP-server kører</string>
     <string name="notification_wechat_expired_empty">WeChat har allerede slettet disse videoklip.</string>
+    <string name="offline_notification_text">Tryk for at åbne annoncen</string>
+    <string name="offline_notification_title">Se den annonce, du gemte, mens du var offline</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Du får en notifikation med linket, når du er online igen</string>
+    <string name="offline_opt_in_decline">Nej tak</string>
+    <string name="offline_opt_in_message">Vi sender dig en notifikation med et link til annoncørens website.</string>
+    <string name="offline_opt_in_title">Åbn annoncen, når du er online igen.</string>
     <string name="ok">OK</string>
     <string name="online_not_support">Kan ikke vise denne fil i øjeblikket.</string>
     <string name="open">Åbn</string>
@@ -417,7 +430,12 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="port_range">Portnummer skal være mellem 1024 og 65535</string>
     <string name="possible_permissions">Valgfrie tilladelser</string>
     <string name="privacy_accept">Acceptér &amp; fortsæt</string>
-    <string name="privacy_message">Før du bruger filadministratoren skal du acceptere &lt;font color=\"#4086f5\">&lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%1$s&amp;lang=%2$s\" style=\"color:#4086f5;\">Brugeraftale&lt;/a>&lt;/font> og &lt;font color=\"#4086f5\">&lt;a href=\"https://privacy.mi.com/all/%2$s\" style=\"color:#4086f5;\">Privatlivspolitik&lt;/a>&lt;/font>.</string>
+    <string name="privacy_cancel"><u>Ikke enig</u></string>
+    <string name="privacy_desc">Velkommen til filhåndteringen! Ud over de grundlæggende funktioner leverer denne app også de følgende tjenester:</string>
+    <string name="privacy_experience_statement">Deltag i vores forbrugeroplevelsesprogram for at dele data med os og hjælpe os med at forbedre vores produkter og tjenester.</string>
+    <string name="privacy_item1">Kategoriserer for nyligt brugte elementer</string>
+    <string name="privacy_item2">At gennemgå og redigere filer</string>
+    <string name="privacy_message">&lt;Data>For at kunne tilbyde dig de grundlæggende tjenester skal filhåndteringen indsamle nødvendige personlige oplysninger, der genererer statistikker om brugen. Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href=\"%1$s\">fortrolighedspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">brugeraftale&lt;/a> og &lt;a href=\"%1$s\">fortrolighedspolitik&lt;/a>, inden du bruger filhåndteringen. I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til fortrolighedspolitikken for filhåndtering. Hvis du ikke accepterer vores fortrolighedspolitik, vil du ikke være i stand til at bruge visse af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.&lt;/Data></string>
     <string name="privacy_title">Velkommen til filadministratoren</string>
     <string name="private_files">Privat</string>
     <string name="private_folder">Private filer</string>
@@ -430,7 +448,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="recommended_content">Anbefalinger</string>
     <string name="remind_no_notice">Husk mit valg</string>
     <string name="rename_alert">Ændrer du filtypenavnet, kan du muligvis ikke åbne filen.</string>
-    <string name="rename_alert2">Filen vil være skjult efter ændring af filtypenavnet.</string>
+    <string name="rename_alert2">Filer med navne, der begynder med *.*, skjules automatisk af systemet. Brug dette navn alligevel?</string>
     <string name="rename_failed">Kunne ikke omdøbe %1$s</string>
     <string name="repair_done">Gendannet</string>
     <string name="repair_error">Kunne ikke gendanne. Prøv igen.</string>
@@ -440,9 +458,16 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="restoring">Gendanner…</string>
     <string name="revoke">Tilbagekald</string>
     <string name="revoke_authorization">Tilbagekald autorisation</string>
+    <string name="revoke_confirm_dialog_cancel">Annuller</string>
+    <string name="revoke_confirm_dialog_content">Slå denne knap fra for at tilbagetrække dit samtykke til fortrolighedspolitikken for Filhåndtering. Vi vil ophøre med at indsamle dine personlige oplysninger. De personlige oplysninger, som vi allerede har indsamlet og gemt, vil blive slettet inden for den specifikke periode, som loven foreskriver. Filhåndtering skal indsamle nødvendige personlige oplysninger for at kunne forbedre deres tjenester. Din tilbagetrækning af samtykke til denne fortrolighedspolitik betragtes som en afvisning af deres forbedrede tjenester baseret på indsamlede personlige oplysninger.</string>
+    <string name="revoke_desc">Slå denne knap fra for at tilbagetrække dit samtykke til fortrolighedspolitikken for Filhåndtering.</string>
+    <string name="revoke_net_dialog_content">Din enhed skal oprette forbindelse til netværket, før du kan tilbagetrække dit samtykke. Kontroller dine netværksindstillinger, og prøv igen.</string>
+    <string name="revoke_net_dialog_ok">Forstået</string>
+    <string name="revoke_net_dialog_title">Kan ikke oprette forbindelse til netværket</string>
     <string name="revoke_success">Autorisationen blev tilbagekaldt</string>
     <string name="revoke_timer">(%1$d s)</string>
     <string name="revoke_tips">Efter du har tilbagekaldt autorisation, holder Filhåndtering op med at indsamle data, og alle de relaterede data slettes fra serverne. Det kan gøre Filhåndtering stort set ubrugelig. Tilbagekald autorisationen alligevel?</string>
+    <string name="revoke_title">Tilbagetrækning af samtykke</string>
     <string name="revoking">Tilbagekalder tilladelse…</string>
     <string name="rlv_last_refreshing_time">Opdateret %1$s</string>
     <string name="rlv_loading_more">Lige et øjeblik...</string>
@@ -522,6 +547,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="time_pm">PM</string>
     <string name="time_to_upgrade">En opdatering er tilgængelig</string>
     <string name="tip">Bemærk</string>
+    <string name="tips_by_forbid_access">Indholdet i denne mappe vil ikke længere være tilgængeligt på grund af systemrestriktioner, introduceret af Android R. Fjern dine personlige filer fra denne mappe så snart som muligt.</string>
     <string name="title_app_tags">Apps</string>
     <string name="title_enable_documentsui">Slå Document-UI til</string>
     <string name="title_expire_video">Ved at udløbe</string>
@@ -541,12 +567,15 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="update_use_mobile_data">Opdater automatisk med mobildata</string>
     <string name="usb_has_removed">USB-enhed blev flyttet</string>
     <string name="used">Brugt</string>
+    <string name="user_experience_desc">Del brugerdata med os for at hjælpe os med at forbedre vores produkter og tjenester</string>
+    <string name="user_experience_title">Brugeroplevelsesprogram</string>
     <string name="user_not_login">Log ind først</string>
     <string name="user_notice_privacy_policy">Fortrolighedspolitik</string>
     <string name="user_notice_term_of_service">Brugeraftale</string>
     <string name="utf8_summary">System FTP-standardkodning</string>
     <string name="version_name">Version</string>
     <string name="video_replay_btn">Afspil igen</string>
+    <string name="view_by_document">Se i Filer</string>
     <string name="wechat_video">Video på %s</string>
     <string name="wifi_state">Wi-Fi-status</string>
     <string name="year_month_day_format">dd MMM, yyyy</string>

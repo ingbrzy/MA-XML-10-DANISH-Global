@@ -53,6 +53,8 @@
     <string name="feedback_tip_cancel">Notifikationsdata vil ikke blive indsamlet</string>
     <string name="feedback_tip_msg">For at kunne gruppere notifikationer mere præcist er vi nødt til at indsamle appnavn, notifikationstitel og -beskrivelse samt tidspunktet for, hvornår notifikationen blev sendt. Indsend din feedback?</string>
     <string name="feedback_tip_title">Feedback på notifikationskategorier</string>
+    <string name="float_notification_snooze_strategy">Skjul midlertidigt</string>
+    <string name="float_notification_snooze_summary">Swipe op på en flydende notifikation for midlertidigt at skjule kommende notifikationer.</string>
     <string name="float_notifications">Flydende notifikationer</string>
     <string name="float_notifications_short">Flydende</string>
     <string name="fold_importance_default">Anbefalet</string>
@@ -77,6 +79,10 @@
     <string name="menu_setting_tip_show_in_home">Notifikationer fra %s vil ikke blive grupperet</string>
     <string name="menu_setting_tip_unfold">Alle notifikationer fra denne app vil blive anset for at være vigtige</string>
     <string name="menu_setting_unfold">Vigtig</string>
+    <string name="miui_snooze_always_float">Skjul ikke</string>
+    <string name="miui_snooze_cancel">Annuller</string>
+    <string name="miui_snooze_default_time">For %d minut</string>
+    <string name="miui_snooze_until_unlock_screen">Indtil låst</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
@@ -96,6 +102,11 @@
     <string name="notification_aggregate_title">Gruppenotifikationer</string>
     <string name="notification_display_setting">Notifikationsskygge</string>
     <string name="notification_display_style">Notifikationsstil</string>
+    <string name="notification_fold_description1">Notifikationsmappen blev introduceret i MIUI 9. Denne funktion filtrerer uvigtige notifikationer fra og lægger dem i en separat mappe.</string>
+    <string name="notification_fold_description2">MIUI husker, hvilke notifikationer du trykker på, og bruger så forskellige kriterier til at bestemme, om de er vigtige.</string>
+    <string name="notification_fold_description3">Hvis notifikationer, som du anser for at være vigtige, stadig havner i notifikationsmappen, bør du sørge for at rapportere sådanne problemer til os. Vi sætter pris på din feedback.</string>
+    <string name="notification_fold_footer_icon_summary">Vis app-ikoner, når ligegyldige notifikationer er grupperet</string>
+    <string name="notification_fold_footer_icon_title">Vis app-ikoner</string>
     <string name="notification_fold_summary">Gruppér ikke vigtige notifikationer automatisk</string>
     <string name="notification_fold_title">Gruppér notifikationer</string>
     <string name="notification_keyguard_hide_content">Vis notifikationer, men skjul indholdet</string>
@@ -113,6 +124,7 @@
     <string name="settings_guide_title">Brug for andre indstillinger?</string>
     <string name="show_badge_notifications">Notifikationsbadges</string>
     <string name="show_badge_notifications_short">Skilte</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_aggregate_default">Salgsfremmende og indholdsrelaterede push-notifikationer grupperes</string>
     <string name="summary_aggregate_home">Push-notifikationer grupperes ikke</string>

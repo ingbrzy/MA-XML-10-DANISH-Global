@@ -1300,8 +1300,6 @@ Forlad denne side nu?"</string>
     <string name="passport_wrong_vcode">Den indtastede kode er forkert</string>
     <string name="passport_wrong_voice">Den indtastede kode er forkert</string>
     <string name="password">Adgangskode</string>
-    <string name="pay_failed_toast">Kunne ikke gennemføre betalingen</string>
-    <string name="pay_success_toast">Du har nu betalt</string>
     <string name="per_month">Pr. måned</string>
     <string name="permission_agree_service">Jeg har læst og accepteret alle følgende vilkår og betingelser.</string>
     <string name="permission_alert_window">For at kunne bruge denne funktion skal du tillade visning af pop-op-vinduer under Instillinger.</string>

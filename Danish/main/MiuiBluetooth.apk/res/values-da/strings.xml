@@ -302,7 +302,7 @@ Tryk 'Wipe and convert…' for at fortsætte."</string>
     <string name="fast_connect_anti_lost_content">"Opret en alarm, der vil aktiveres, når en af dine øresnegle mangler.
 Tjek ndstillingerne for detaljer."</string>
     <string name="fast_connect_device_battery">Batteri</string>
-    <string name="fast_connect_device_box">Boks</string>
+    <string name="fast_connect_device_box">Opladningsboks</string>
     <string name="fast_connect_device_box_name">%1$s boks</string>
     <string name="fast_connect_device_connect_cancel">Annuller</string>
     <string name="fast_connect_device_connect_ok">Forbind</string>
@@ -349,6 +349,7 @@ Hurtigere forbindelsesprotokol"</string>
     <string name="headset_device_error_box_close">Opladerkasse er deaktiveret</string>
     <string name="headset_device_error_disconnect">Begge øretelefoner er frakoblede. Luk opladerkassen og åbn den på ny for at starte forfra på opdateringen.</string>
     <string name="headset_device_error_failed">Kan ikke opdatere</string>
+    <string name="headset_device_error_multconnect">Kan ikke opdatere, når flere enheder er tilsluttede.</string>
     <string name="headset_device_error_no_device">Mindst én øretelefon mangler i opladerkassen</string>
     <string name="headset_device_error_single_device">Kan ikke opdatere én øretelefon. Par igen.</string>
     <string name="headset_device_sync_donot_move_device">Synkroniserer… Vent, indtil synkroniseringen er færdig, inden du bruger øretelefonerne.</string>

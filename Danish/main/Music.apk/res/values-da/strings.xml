@@ -127,6 +127,7 @@
     <string name="back_confirm">Tryk igen for at skubbe appen i baggrunden</string>
     <string name="bluetooth_device">Bluetooth audio-enhed</string>
     <string name="btn_text_edit">Rediger</string>
+    <string name="btn_text_view_all">Se alle</string>
     <string name="buffering">Buffer…</string>
     <string name="button_cancel_download">Annullér</string>
     <string name="button_download_now">Download nu</string>
@@ -286,7 +287,9 @@
     <string name="download_method">Download</string>
     <string name="download_no_application_title">Kan ikke åbne filen</string>
     <string name="download_paused_in_power_save_mode">Download er sat på pause, når batterisparer er slået til</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Downloader…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Downloadkvalitet</string>
     <string name="download_quality_summary">Yderligere indstillinger for sange som du downloader</string>
     <string name="download_queued">I kø</string>
@@ -374,7 +377,9 @@
     <string name="exo_media_action_repeat_all_description">Gentag alle</string>
     <string name="exo_media_action_repeat_off_description">Gentag ingen</string>
     <string name="exo_media_action_repeat_one_description">Gentag én</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Undertekster</string>
     <string name="exo_track_role_commentary">Kommentarspor</string>
@@ -396,6 +401,8 @@
     <string name="fail_to_play">Kan ikke afspille sang</string>
     <string name="failed_not_access_sd_card">Tillad adgang til SD-kort først</string>
     <string name="failed_obtain_permissions">Kunne ikke få tilladelser</string>
+    <string name="failed_to_connect_hint">Kontrollér dine netværksindstillinger, og prøv igen</string>
+    <string name="failed_to_connect_text">Kunne ikke tilslutte til netværket.</string>
     <string name="fans">Følgere</string>
     <string name="fav_login_msg">Log ind på din Mi-konto for at downloade sange</string>
     <string name="favorite_canceled">Fjernet fra favoritter</string>
@@ -446,6 +453,7 @@
     <string name="high_sound_quality">Høj</string>
     <string name="higher_quality_music">Audio i høj kvalitet</string>
     <string name="higher_quality_music_summary">Stream og download filer med højere bitrate</string>
+    <string name="hint_search_songs_playlists_artists">Søg efter sange, spillelister og kunstnere</string>
     <string name="home_tab_home">Hjem</string>
     <string name="home_tab_local">Min musik</string>
     <string name="home_tab_more_music">Mere musik</string>
@@ -540,6 +548,7 @@
     <string name="loadercontainer_loading">Lige et øjeblik…</string>
     <string name="loading_hint">Lige et øjeblik…</string>
     <string name="loading_reached_the_bottom">Det er alt for nu.</string>
+    <string name="loading_text">Lige et øjeblik…</string>
     <string name="local_header_title">Lokal musik</string>
     <string name="local_music">Lokale sange</string>
     <string name="local_music_is_not_available">Du har ingen sange på din enhed.</string>
@@ -613,6 +622,8 @@
     <string name="my_playlist_create_self_playlist">Opret afspilningslister med dine yndlingssange</string>
     <string name="my_playlist_set_to_private">Gør privat</string>
     <string name="my_playlist_set_to_public">Gør offentlig</string>
+    <string name="nav_app_bar_navigate_up_description">Naviger op</string>
+    <string name="nav_app_bar_open_drawer_description">Åbn sidemenuen</string>
     <string name="network_disable">Kunne ikke tilslutte til netværket.</string>
     <string name="network_error_and_retry">Kunne ikke oprette forbindelse, tryk for at prøve igen</string>
     <string name="network_request_error">Kan ikke tilslutte til netværket</string>
@@ -750,13 +761,12 @@
     <string name="privacy_authorize_revoking">Tilbagekalder autorisation…</string>
     <string name="privacy_desc">Fortrolighedspolitik (obligatorisk)</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=da_DK</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musik er nødt til at indsamle nødvendige personoplysninger for at kunne forsyne dig med onlinestreamingtjenester. I vores &lt;a href=\"%1$s\">Fortrolighedspolitik&lt;/a> kan du læse, hvordan vi håndterer de indsamlede oplysninger. Du kan når som helst tilbagekalde din accept af Mi Musiks Fortrolighedspolitik under Indstillinger.
 Læs og accepter vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%1$s\">Fortrolighedspolitik&lt;/a>, før du bruger Mi Musik.
 Hvis du ikke accepterer brugen af de førnævnte tjenester, vil der være nogle funktioner af denne app, som du ikke kan bruge. Appens grundlæggende funktioner vil dog stadig være tilgængelige for dig.&lt;/Data>"</string>
     <string name="privacy_request_subtitle">"Velkommen til Mi Musik! Denne app leverer følgende tjenester:
-
 - En lokal lydafspiller
-
 - Onlinestreamingtjenester"</string>
     <string name="privacy_request_title">Vilkår og betingelser</string>
     <string name="pro_member">PRO-medlem</string>
@@ -896,6 +906,7 @@ Hvis du ikke accepterer brugen af de førnævnte tjenester, vil der være nogle 
     <string name="start_to_download">Downloader…</string>
     <string name="start_to_play">Afspil</string>
     <string name="start_update">Installerer ny version…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lager til dual apps</string>
     <string name="storage_internal">Internt lager</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -993,6 +1004,7 @@ Hvis du ikke accepterer brugen af de førnævnte tjenester, vil der være nogle 
     <string name="upload_playlist_to_hungama_title">Synkroniser online sange med Hungama for at kunne få adgang til dem på andre enheder, hvor du bruger din Mi-konto.</string>
     <string name="upload_playlist_to_hungama_toast">Online sange synkroniseres til Hungama</string>
     <string name="user_agreement">Brugeraftale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=da_DK</string>
     <string name="user_playlist_plaza">Afspilningslister</string>
     <string name="user_privacy_dialog_negative_text">Annuller</string>
     <string name="user_privacy_dialog_positive_count_down_text">Tilbagetræk (%ss)</string>

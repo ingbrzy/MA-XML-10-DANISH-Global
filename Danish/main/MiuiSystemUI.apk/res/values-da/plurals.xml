@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Fornylig åbnede, tilgængelige apps: %d.</item>
-        <item quantity="one">Fornylig åbnede, tilgængelige app: %d.</item>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">for %d dage siden</item>
+        <item quantity="one">for %d dag siden</item>
     </plurals>
-    <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Fornylig åbnede, tilgængelige apps: %d. Stryg op for at fjerne, stryg ned for at låse.</item>
-        <item quantity="one">Fornylig åbnede, tilgængelige app: %d. Stryg op for at fjerne, stryg ned for at låse.</item>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d min. siden</item>
+        <item quantity="one">%d min. siden</item>
     </plurals>
-    <plurals name="auto_disconnect_timer_tip">
-        <item quantity="other">Hænger op om %1$d sekunder</item>
-        <item quantity="one">Hænger op om %1$d sekund</item>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">for %d år siden</item>
+        <item quantity="one">for %d år siden</item>
     </plurals>
-    <plurals name="fold_tips_title">
-        <item quantity="other">%d uvigtig(e) notifikation(er)</item>
-        <item quantity="one">%d ikke-vigtig(e) notifikation(er)</item>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s styringselementer er tilføjet.</item>
+        <item quantity="one">%s styringselement er tilføjet.</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
         <item quantity="other">Forkert PIN-kode, %d forsøg tilbage</item>
@@ -69,52 +69,44 @@
         <item quantity="one">"%1$d t %2$d  m tilbage"</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
-        <item quantity="other">Indtast SIM-PIN-kode. Du har %d forsøg tilbage.</item>
-        <item quantity="one">Indtast SIM-PIN-kode. Du har %d forsøg tilbage, før du er nødt til at kontakte din operatør for at låse din enhed op.</item>
+        <item quantity="other">Angiv pinkoden til SIM-kortet. Du har %d forsøg tilbage.</item>
+        <item quantity="one">Angiv pinkoden til SIM-kortet. Du har %d forsøg tilbage.</item>
     </plurals>
     <plurals name="kg_password_default_puk_message">
-        <item quantity="other">SIM-kortet er nu deaktiveret. Indtast PUK-koden for at fortsætte. Du har %d forsøg tilbage, inden SIM-kortet bliver permanent ubrugeligt. Kontakt operatør for detaljer.</item>
-        <item quantity="one">SIM-kortet er nu deaktiveret. Indtast PUK-koden for at fortsætte. Du har %d forsøg tilbage, inden SIM-kortet bliver permanent ubrugeligt. Kontakt operatør for detaljer.</item>
+        <item quantity="other">SIM-kortet er nu deaktiveret. Angiv PUK-koden for at fortsætte. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt. Kontakt dit mobilselskab for at få flere oplysninger.</item>
+        <item quantity="one">SIM-kortet er nu deaktiveret. Angiv PUK-koden for at fortsætte. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt. Kontakt dit mobilselskab for at få flere oplysninger.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Forkert SIM-PIN-kode. Du har %d forsøg tilbage.</item>
-        <item quantity="one">Forkert SIM-PIN-kode. Du har %d forsøg tilbage, før du er nødt til at kontakte din operatør for at låse din enhed op.</item>
+        <item quantity="other">Forkert pinkode til SIM-kort. Du har %d forsøg tilbage.</item>
+        <item quantity="one">Forkert pinkode til SIM-kort. Du har %d forsøg tilbage.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
-        <item quantity="other">Forkert SIM-PIN-kode. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.</item>
-        <item quantity="one">Forkert SIM-PIN-kode. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.</item>
+        <item quantity="other">Forkert PUK-kode til SIM-kort. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.</item>
+        <item quantity="one">Forkert PUK-kode til SIM-kort. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">Enhed har ikke været låst op i %d timer. Bekræft adgangskode.</item>
-        <item quantity="one">Enhed har ikke været låst op i %d time. Bekræft adgangskode.</item>
+        <item quantity="other">Enheden blev sidst låst op for %d timer siden. Bekræft adgangskoden.</item>
+        <item quantity="one">Enheden blev sidst låst op for %d time siden. Bekræft adgangskoden.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">Enhed har ikke været låst op i %d timer. Bekræft mønster.</item>
-        <item quantity="one">Enhed har ikke været låst op i %d time. Bekræft mønster.</item>
+        <item quantity="other">Enheden blev sidst låst op for %d timer siden. Bekræft mønsteret.</item>
+        <item quantity="one">Enheden blev sidst låst op for %d time siden. Bekræft mønsteret.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">Enhed har ikke været låst op i %d timer. Bekræft PIN-kode.</item>
-        <item quantity="one">Enhed har ikke været låst op i %d time. Bekræft PIN-kode.</item>
+        <item quantity="other">Enheden blev sidst låst op for %d timer siden. Bekræft pinkoden.</item>
+        <item quantity="one">Enheden blev sidst låst op for %d time siden. Bekræft pinkoden.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Prøv igen om %d sekunder.</item>
+        <item quantity="one">Prøv igen om %d sekund.</item>
     </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d ny notifikationer</item>
         <item quantity="one">%d ny notifikation</item>
     </plurals>
-    <plurals name="notification_channels_list_desc_2_and_others">
-        <item quantity="other">%1$s, %2$s og %3$d andre</item>
-        <item quantity="one">%1$s, %2$s og %3$d anden</item>
-    </plurals>
     <plurals name="notification_group_overflow_description">
-        <item quantity="other">%s flere notifikationer indeni.</item>
-        <item quantity="one">%s flere notifikationer indeni.</item>
-    </plurals>
-    <plurals name="notification_num_channels">
-        <item quantity="other">%d notifikationskategorier</item>
-        <item quantity="one">%d notifikationskategori</item>
-    </plurals>
-    <plurals name="notification_num_channels_desc">
-        <item quantity="other">1 ud af %d notifikationskategorier fra denne app</item>
-        <item quantity="one">1 ud af %d notifikationskategori fra denne app</item>
+        <item quantity="other">%s notifikationer mere i gruppen.</item>
+        <item quantity="one">%s notifikation mere i gruppen.</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
         <item quantity="other">Prøv igen om %d minutter</item>
@@ -124,17 +116,21 @@
         <item quantity="other">Prøv igen om %d sekunder</item>
         <item quantity="one">Prøv igen om %d sekund</item>
     </plurals>
-    <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d skift over denne linje er aktive</item>
-        <item quantity="one">%1$d skift over denne linje er aktiv</item>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d enheder</item>
+        <item quantity="one">%d enhed</item>
     </plurals>
-    <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d skærme i oversigt</item>
-        <item quantity="one">1 skærm i oversigt</item>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
     </plurals>
-    <plurals name="view_realtime_clear">
-        <item quantity="other">Nulstil</item>
-        <item quantity="one">Nulstil</item>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Du kan tilføje op til %d brugere.</item>
+        <item quantity="one">Du kan tilføje op til %d bruger.</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
         <item quantity="other">%1$d enheder tilsluttet</item>
