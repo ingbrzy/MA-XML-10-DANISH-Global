@@ -28,13 +28,19 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="actionbar_button_up_description">Tilbage</string>
+    <string name="add_emergency_contact">Tilføj en nødkontakt</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="alarm_close">Swipe op for at slukke</string>
     <string name="alarm_later">Slumre</string>
     <string name="align_type">Indstilling</string>
     <string name="am">AM</string>
     <string name="aod_component">Vises altid</string>
+    <string name="aod_lock_screen_date">EEE dd/MM</string>
+    <string name="aod_lock_screen_date_signature">dd/MM</string>
+    <string name="aod_lock_screen_date_v">"EEE
+dd/MM"</string>
     <string name="aod_show_date_and_time">Dato og tid</string>
+    <string name="app_name">Bagskærm</string>
     <string name="apply">Brug</string>
     <string name="apply_succeed">Tilføjet</string>
     <string name="background_icon">Baggrund</string>
@@ -105,6 +111,7 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="gallery_page_name">From Gallery</string>
+    <string name="has_add_contact">Tilføjet</string>
     <string name="icon_content_description">Ikon for dialogboks</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="letter_space">Tegnafstand</string>
@@ -191,6 +198,7 @@
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -219,6 +227,7 @@
     <string name="mtrl_picker_toggle_to_year_selection">Tryk for at gå til valg af år</string>
     <string name="night">Aften</string>
     <string name="noon">Middag</string>
+    <string name="not_add_contact">Ikke tilføjet</string>
     <string name="not_set">Ikke angivet</string>
     <string name="notification_new_message">Ny besked</string>
     <string name="page_detail_preview_tip">Vend telefonen for at se forhåndsvisning</string>
@@ -236,18 +245,19 @@
     <string name="saturday_shortest">Lør</string>
     <string name="search_menu_title">Søg</string>
     <string name="send">Send</string>
-    <string name="small_display_style">Tema for bagskærm</string>
+    <string name="small_display_style">Bagskærm</string>
+    <string name="sps_cancel">Hold nedtrykket for at afslutte</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_to_image_community">Find mere i Mi-fællesskabet</string>
-    <string name="sub_screen_app_name">Bagskærm</string>
+    <string name="subscreen_could_edit_pic">Træk billede for at skalere. Hold nedtrykket for at slette.</string>
     <string name="subscreen_other">Andet</string>
     <string name="subscreen_other_dialog_cancel">Annuller</string>
-    <string name="subscreen_other_dialog_confirm">OK</string>
+    <string name="subscreen_other_dialog_confirm">Aktivér</string>
     <string name="subscreen_other_dialog_goto">Tilføj</string>
-    <string name="subscreen_other_dialog_message">Superbatterisparer deaktiverer hovedskærmen. Du vil kun kunne se tiden, modtage opkald og ringe til din nødkontakt ved hjælp af bagskærmen. Din enhed vil kunne arbejde i op til %d dage på en enkelt opladning, når superbatterisparer er aktiveret. Aktivér superbatterisparer nu?</string>
+    <string name="subscreen_other_dialog_message">Superbatterisparer deaktiverer hovedskærmen. Du vil kun kunne se tiden, modtage opkald og ringe til din tidligere indstillede nødkontakt. Vores test viser, at din enhed måske vil kunne arbejde i op til %d dage på en enkelt opladning, når superbatterisparer er aktiveret. Dette tidsrum kan dog være kortere på grund af forskellige faktorer. Aktivér superbatterisparer nu?</string>
     <string name="subscreen_other_dialog_title">Superbatterisparer</string>
     <string name="subscreen_other_next_dialog_message">Du er nødt til at tilføje en nødkontakt, inden du bruger superbatterisparer. Tilføj nu?</string>
-    <string name="subscreen_other_wilderness_summary">Superbatterisparer deaktiverer hovedskærmen. Du vil kun kunne se tiden, modtage opkald og ringe til din nødkontakt ved hjælp af bagskærmen. Din enhed vil kunne arbejde i op til %d dage på en enkelt opladning, når superbatterisparer er aktiveret.</string>
+    <string name="subscreen_other_wilderness_summary">Superbatterisparer deaktiverer hovedskærmen. Du vil kun kunne se tiden, modtage opkald og ringe til din tidligere indstillede nødkontakt. Vores test viser, at din enhed måske vil kunne arbejde i op til %d dage på en enkelt opladning, når superbatterisparer er aktiveret. Dette tidsrum kan dog være kortere på grund af forskellige faktorer.</string>
     <string name="subscreen_other_wilderness_title">Superbatterisparer</string>
     <string name="subscreen_settings_fail">Kunne ikke fuldføre handling</string>
     <string name="subscreen_settings_mode">Sluk efter</string>
@@ -328,6 +338,9 @@
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
+    <string name="wilderness_dcalling">Tilsluttet</string>
+    <string name="wilderness_dialing">Kalder op</string>
+    <string name="wilderness_is_starting">Aktivér Super power saver…</string>
     <string name="wireless_change_to_ac_charging">Skift til ikke-trådløs opladning</string>
     <string name="yesterday">I går</string>
 </resources>

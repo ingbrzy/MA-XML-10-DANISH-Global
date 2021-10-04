@@ -38,7 +38,7 @@
     <string name="afternoon">Eftermiddag</string>
     <string name="already_in_small_freeform">Nogle apps er åbnet i flydende vinduer</string>
     <string name="am">AM</string>
-    <string name="app_name">systemui-controls</string>
+    <string name="app_name">System UI-plugin</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="controls_confirmation_message">Confirm change for %s</string>
     <string name="controls_dialog_confirmation">Controls updated</string>
@@ -90,6 +90,7 @@
     <string name="disabled">Ikke tilgængelig</string>
     <string name="dnd_popup_close_message">Forstået</string>
     <string name="dnd_popup_message">Du kan aktivere DND-tilstand for at sætte opkald og notifikationer på lydløs uden at deaktivere medielyde.</string>
+    <string name="dolby_atoms_sound_effect_label">Dolby Atmos</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="eras_ad">e.v.t.</string>
@@ -135,9 +136,20 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="hearing_assist_bluetooth_enable_tips_cancle">Annuller</string>
+    <string name="hearing_assist_bluetooth_enable_tips_start">Aktivér</string>
+    <string name="hearing_assist_bluetooth_enable_tips_summary">Live in-ear monitor fungerer, når Bluetooth er aktiveret. Aktivér Bluetooth nu?</string>
+    <string name="hearing_assist_bluetooth_enable_tips_title">Aktivér Bluetooth</string>
+    <string name="hearing_assist_transmission_label">Live in-ear-monitor</string>
+    <string name="hearing_assist_transmission_tips_cancel">Annuller</string>
+    <string name="hearing_assist_transmission_tips_continue">Aktivér</string>
+    <string name="hearing_assist_transmission_tips_summary">Live in-ear monitor transmitterer din mikrofons signal til tilsluttede Bluetooth-øresnegle. Aktivér nu?</string>
+    <string name="hearing_assist_transmission_tips_title">Live in-ear-monitor</string>
+    <string name="kddi_miui_toast_zen_standard_to_off">Lydløs tilstand er deaktiveret nu. Opkald og notifikationer er ikke sat på lydløs.</string>
+    <string name="kddi_miui_toast_zen_to_standard">Skiftet til lydløs tilstand. Opkald og notifikationer sættes nu på lydløs.</string>
     <string name="loading">Status ukendt</string>
     <string name="midnight">Nat</string>
-    <string name="miui_dnd_count_down">DND-timer</string>
+    <string name="miui_dnd_count_down">Glid for at indstille timer</string>
     <string name="miui_dnd_count_down_time">"DND-timer
 %s"</string>
     <string name="miui_guide_dialog_button_negative_text">Indstillinger</string>
@@ -152,9 +164,11 @@
     <string name="miui_ringer_total">DND</string>
     <string name="miui_ringer_total_description">Slå lyde og vibrationer fra for alle elementer undtagen vækkeur</string>
     <string name="miui_toast_zen_dnd_to_off">Opkald og notifikationer vil ikke længere blive sat på lydløs</string>
+    <string name="miui_toast_zen_dnd_to_off_T">Notifikationer er ikke længere på lydløs</string>
     <string name="miui_toast_zen_standard_to_off">Lydløs tilstand er deaktiveret</string>
     <string name="miui_toast_zen_standard_to_off_when_shield_media">Lydløs tilstand er nu slået fra. Ringetoner såvel som notifikationer og medielyde vil blive afspillet.</string>
     <string name="miui_toast_zen_to_dnd">Opkald og notifikationer vil blive sat på lydløs</string>
+    <string name="miui_toast_zen_to_dnd_T">Notifikationer sættes på lydløs</string>
     <string name="miui_toast_zen_to_dnd_when_lock">Opkald og notifikationer vil blive sat på lydløs, når enheden er låst</string>
     <string name="miui_toast_zen_to_standard">Lydløs tilstand er aktiveret</string>
     <string name="miui_toast_zen_to_standard_when_shield_media">Skiftet til lydløs tilstand. Nu er ringetoner såvel som notifikationer og medielyde sat på lydløs.</string>
@@ -233,6 +247,7 @@
     <string name="quick_settings_pcmode_turn_off_description">Din telefons display vises på den eksterne monitor. Sluk for pc-tilstand?</string>
     <string name="quick_settings_pcmode_turn_on_description">Din telefons display vises på den eksterne monitor. Tænd for pc-tilstand?</string>
     <string name="quick_settings_scanner_label">Scanner</string>
+    <string name="quick_settings_uwbsh_label">Xiaomi Magic Control</string>
     <string name="quick_settings_wireless_label">Omvendt trådløs opladning</string>
     <string name="reboot_info_auto_boot">Kommende alarm: %s</string>
     <string name="reboot_info_shutdown_alarm">Nedlukningsalarm: %s</string>
@@ -318,6 +333,9 @@ Lang eksponering til høje lyde kan føre til problemer med hørelsen."</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="wireless_charging_connected_message">Kan ikke bruge omvendt trådløs opladning, når din enhed oplader trådløst.</string>
+    <string name="wireless_charging_fg_control_cancel">Annuller</string>
+    <string name="wireless_charging_fg_control_messgae">Omvendt trådløs opladning blev slået fra, fordi der er mindre end %d%% tilbage af batteriet. Du kan justere indstillingerne for at lade den omvendte trådløse opladning fungere længere.</string>
+    <string name="wireless_charging_fg_control_ok">Tilpas</string>
     <string name="wireless_charging_low_battery_level_message">Kan ikke bruge omvendt trådløs opladning, når batteriet er mindre end %d %% opladet.</string>
     <string name="wireless_charging_ok">Forstået</string>
     <string name="wireless_charging_saver_cancel">Deaktiver</string>

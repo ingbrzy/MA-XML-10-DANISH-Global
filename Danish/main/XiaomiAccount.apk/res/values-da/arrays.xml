@@ -7,71 +7,71 @@
     <string-array name="settings_search_account_and_authority_global">
         <item>Konti</item>
         <item>Tilføj og administrer tredjepartskonti</item>
-        <item>Autorisering;Konto;Mi-konto;Tilføj;Par;Xiaomi;Oversigt;SNS;Facebook;Google</item>
+        <item>Konti;SNS;Facebook;Google;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_account_and_authority_non_global">
         <item>Konti</item>
         <item>Tilføj og administrer tredjepartskonti</item>
-        <item>Autorisering;Konto;Mi-konto;Tilføj;Par;Xiaomi;Oversigt;SNS;WeChat;QQ;Weibo</item>
+        <item>Konti;SNS;We Chat;QQ;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_change_password">
         <item>Skift adgangskode</item>
         <item>Skift adgangskode for Mi-konto</item>
-        <item>Skift;Adgangskode;Xiaomi;Mi-konto;Konto</item>
+        <item>Skift adgangskode;Opdater adgangskode;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_help_center">
         <item>Hjælp</item>
         <item>Få hjælp og support til Mi-konto</item>
-        <item>Xiaomi;Konto;Mi-konto;Hjælp;Support;Oversigt</item>
+        <item>Mi-konto;Konto;Kontohjælp;Hjælpecenter</item>
     </string-array>
     <string-array name="settings_search_login_2_step_verify">
         <item>2-trins bekræftelse</item>
         <item>Indstil 2-trins-bekræftelse for din Mi-konto</item>
-        <item>Tilmeld;Log ind;2-trinsbekræftelse;Xiaomi;Konto;Mi-konto;Indstillinger</item>
+        <item>Tilmeld;Log ind;2-trin;bekræftelse;Xiaomi;Konto;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_login_and_security">
-        <item>Tilmelding og sikkerhed</item>
+        <item>Kontosikkerhed</item>
         <item>Gendannelse af telefon og e-mail, adgangskodestyring</item>
-        <item>Konto;Sikkerhed;Log ind;Xiaomi;Mi-konto;Telefonnummer;E-mail;Ændring;Adgangskode;Tilføj;Par</item>
+        <item>Kontosikkerhed;Tilmelde sig;Gendannelsestelefon;Gendannelses-e-mail;Kontobeskyttelse;Telefonnummer;E-mail;Skift adgangskode;Tilføj telefonnummer;Tilføj e-mail;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_manage_device">
         <item>Enheder</item>
         <item>Administrer enheder forbundet med din Mi-konto</item>
-        <item>Enheder;Administrer;Tilmeld;Log ind;Enhedsliste;Xiaomi;Mi-konto;Konto</item>
+        <item>Administrer enheder;Mine enheder;Enheder;Enhedsliste;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_payment_information">
         <item>Betalingsoplysning</item>
         <item>Se og administrer betalingsoplysning</item>
-        <item>Betaling;Oplysning;Xiaomi;Mi-konto;Konto</item>
+        <item>Betal;Betaling;Betalingsmetode;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_privacy_policy">
         <item>Fortrolighedspolitik</item>
         <item>Se fortrolighedspolitik for Mi-konto</item>
-        <item>Xiaomi;Konto;Mi-konto;Fortrolighed;Politik;Oversigt</item>
+        <item>Mi-konto;Konto;Fortrolighedspolitik</item>
     </string-array>
     <string-array name="settings_search_security_email_address">
         <item>Gendannelses-e-mail</item>
         <item>Tilføj gendannelses-e-mail</item>
-        <item>Sikkerhed;E-mail;Xiaomi;Konto;Mi-konto;Tilføj;Par</item>
+        <item>Gendannelses-e-mail;E-mail;Tilføj e-mail;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_security_phone_number">
         <item>Gendannelsestelefon</item>
         <item>Tilføj gendannelsestelefon</item>
-        <item>Sikkerhed;Konto;Mi-konto;Telefon;Xiaomi;Telefonnummer;Tilføj;Par</item>
+        <item>Gendannelsestelefon;Tilføj telefon;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_system_ad">
         <item>Reklamer</item>
         <item>Administrer systemreklamer</item>
-        <item>System;Reklamer;Xiaomi;Konto;Mi-konto;Indstillinger</item>
+        <item>Reklamer;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_user_information">
         <item>Kontooplysninger</item>
         <item>Se dit profilbillede og administrer kontooplysninger</item>
-        <item>Konto;Oplysning;Personlig;Profilfoto;Navn;Xiaomi;ID;Mi-konto;Se;Indstillinger</item>
+        <item>Personlig info;profilfoto;kaldenavn;kontooplysning;Mi ID;ID;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_user_protocol">
         <item>Brugeraftale</item>
-        <item>Se brugeraftale for Mi-konto</item>
-        <item>Xiaomi;Konto;Mi-konto;Bruger;Aftale;Oversigt</item>
+        <item>Brugeraftale</item>
+        <item>Mi-konto;Konto;Brugeraftale;EULA</item>
     </string-array>
 </resources>

@@ -51,7 +51,6 @@
     <string name="boot_video_skip">Spring over</string>
     <string name="calculator_introduction">Du kan bruge denne app til beregninger, konvertering af valutaer og fysiske enheder og til at beregne dit afdrag på dit realkreditlån.</string>
     <string name="camera_introduction">Du kan bruge kamera til at tage billeder og optage videoer.</string>
-    <string name="carrier_introduction">For at kunne give dig bedre tjenester kan din enhed med jævne mellemrum afsende din enheds versionsoplysninger, enhedens identifikationsdata (herunder IMEI-/IMSI-/MSISDN-/MAC-adresse, MEID/ICCID) og oplysninger om tilnærmelsesvis placering (herunder basestations-id) til operatøren via Wi-Fi, mobildatanetværk eller gratis SMS. Operatøren lover at analysere dine data kun for at forbedre tjenesternes kvalitet eller for at tilbyde tilpassede tjenester eller teknologier, og operatøren vil ikke offentliggøre relevante oplysninger til tredjeparter på nogen måde, der kan identificere dig personligt. Den specifikke operatørmeddelelse vil være den gældende. Rådfør dig med din operatør med hensyn til prisen for at bruge denne tjeneste.</string>
     <string name="clock_introduction">Du kan bruge denne app til at aflæse tiden såvel som at bruge timer, verdensur, stopur, indstille alarmer mv.</string>
     <string name="close_location_service_setting">Du kan vælge at deaktivere placeringsadgang i Indstillinger > Yderligere indstillinger > Privatliv, eller du kan i Sikkerhed begrænse tilladelser til individuelle app.</string>
     <string name="cm_terms_content">For at forbedre de tjenester, der leveres til dig, kan mobilnetværksudbyderen efter eget valg uploade dine personlige data og oplysningerne om denne enhed til sine servere ved hjælp af Wi-Fi-netværker eller mobildataforbindelse. Disse oplysninger vil kun blive brugt til statistiske formål for at forbedre tjenestens kvalitet og give mere personligt indhold. Disse oplysninger vil ikke blive brugt til at identificere dig personligt og vil ikke blive videregivet til tredjepart.</string>
@@ -80,6 +79,7 @@
     <string name="disagreement_exit_app">Hvis du ikke kan bekræfte at ville give sådanne tilladelser eller at dele eller uploade dine personlige oplysninger, vil du ikke kunne bruge denne app. Du kan vælge at logge ud eller at begrænse tilladelser i indstillingerne i sådanne tilfælde.</string>
     <string name="disagreement_function">Hvis du ikke kan bekræfte at ville give sådanne tilladelser eller at dele eller uploade dine personlige oplysninger, vil du ikke kunne bruge denne funktion. Du kan vælge ikke at bruge denne funktion i sådanne tilfælde.</string>
     <string name="disagreement_location_service">Hvis du ikke kan bekræfte at ville give sådanne tilladelser eller at dele eller uploade dine personlige oplysninger, vil du ikke kunne bruge denne tjeneste.</string>
+    <string name="disagreement_terminate_miuidaemon">Hvis du ikke accepterer at give sådanne tilladelser eller at dele og uploade dine personlige oplysninger, vil du ikke kunne bruge tjenesten. I sådanne tilfælde kan du vælge ikke at bruge tjenesten eller at begrænse tilladelser i Indstillinger. Bemærk, at vi kun bruger tilladelserne, når du begynder at overføre data fra din enhed, når din skærm er beskadiget.</string>
     <string name="disagreement_terminate_service">Hvis du ikke kan bekræfte at ville give sådanne tilladelser eller at dele eller uploade dine personlige oplysninger, vil du ikke kunne bruge denne app. Du kan vælge at afinstallere, at logge ud eller at begrænse tilladelser i indstillingerne i sådanne tilfælde.</string>
     <string name="download_introduction">\"Downloads\" bruger Xunlei til at downloade elementer til din enhed. Dette værktøj virker for download af GetApps, systemopdateringer, temaer, videoer og browser.</string>
     <string name="enable_accessibility_canceled">Tilgængelighed annulleret.</string>
@@ -160,7 +160,7 @@
     <string name="other_settings_user_experience">Brugeroplevelsesprogram</string>
     <string name="other_settings_user_experience_summary">Hjælp os med at forbedre vores produkter og tjenester ved at dele forbrugsstatistikker med os. Se yderligerer oplysninger</string>
     <string name="other_settings_user_experience_summary_index">Se oplysninger</string>
-    <string name="permission_MIUIDaemon_introduction">MIUI Daemon allows you to transfer data from your device when its screen is damaged.</string>
+    <string name="permission_MIUIDaemon_introduction">MIUI Daemon giver dig mulighed for at overføre data fra din enhed, når enhedens skærm er beskadiget.</string>
     <string name="permission_account">Få adgang til konti på din enhed:</string>
     <string name="permission_account_introduction">Til at logge ind med Mi-konto</string>
     <string name="permission_application_package_introduction">Til at få adgang til lageret for at fortolke og scanne installationspakker</string>
@@ -193,9 +193,9 @@
     <string name="permission_picture_introduction">Til at gemme, redigere og synkronisere fotos og videoer</string>
     <string name="permission_read_call_records">Redigér opkaldshistorik:</string>
     <string name="permission_read_call_records_introduction">Til at tilføje elementer til opkaldshistorik og slette blokerede opkald</string>
-    <string name="permission_read_contacts">Accessing contacts</string>
+    <string name="permission_read_contacts">Få adgang til kontakter</string>
     <string name="permission_read_contacts_introduction">For verifying your identity</string>
-    <string name="permission_read_message">Accessing text messages</string>
+    <string name="permission_read_message">Få adgang til beskeder</string>
     <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
     <string name="permission_read_note_introduction">Til at få adgang til noter og vedhæftninger</string>
     <string name="permission_read_write_file">Få adgang til og gemme filer og fotos på din enhed:</string>
@@ -224,6 +224,7 @@
     <string name="provision_skip_underline">Spring over</string>
     <string name="recorder_introduction">Du kan bruge denne app til at optage lyd og lave og lagre sikkerhedskopier i clouden.</string>
     <string name="require_authority_statement">For at give os tilladelse til at tilbyde dig grundlæggende tjenester er du nødt til at give de følgende tilladelser, for at vi kan indsamle dine personlige oplysninger:</string>
+    <string name="require_miuidaemon_authority_statement">For at give os tilladelse til at tilbyde dig denne tjeneste er du nødt til at give de følgende tilladelser, for at vi kan indsamle dine personlige oplysninger:</string>
     <string name="require_network_authority_statement">For at give os tilladelse til at tilbyde dig grundlæggende tjenester er du nødt til at oprette forbindelse til internettet og give de følgende tilladelser, for at vi kan indsamle dine personlige oplysninger:</string>
     <string name="screen_recording_introduction">Med denne app kan du optage, hvad der sker på din skærm.</string>
     <string name="search_menu_title">Søg</string>
@@ -289,7 +290,7 @@ Du skal acceptere vores Brugeraftale og Privatlivspolitik, inden du kan anvende 
     <string name="terms_of_use_label_phrase">, Hyppige sætninger</string>
     <string name="terms_of_use_label_systemhelper">, selvregistreringsservice</string>
     <string name="terms_of_use_label_updater">, Opdater</string>
-    <string name="terms_of_use_lable_apps">Mi-tjenester, Mi SIM-aktiveringstjenester, Xiaomi Cloud, find enhed, startskærm, spilcenter, MIUI Daemon, MSA-systemkomponenter, oversættelsestjenester, MIUI SDK, hurtige apps, app-hvælving, statistikker, Mi Link</string>
+    <string name="terms_of_use_lable_apps">Mi-tjenester, Mi SIM-aktiveringstjenester, Xiaomi Cloud, find enhed, startskærm, spilcenter, MIUI Daemon, MSA-systemkomponenter, oversættelsestjenester, MIUI SDK, hurtige apps, app-boks, statistikker, Mi Link</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Du skal bekræfte Facemojis privatlivspolitik, før du kan bruge denne funktion."</string>
@@ -307,7 +308,7 @@ Du skal bekræfte Mint Keyboards privatlivspolitik, før du kan bruge denne funk
     <string name="title_fingerprint">Indstil kodeord</string>
     <string name="title_set_fingerprint">Skærmlås</string>
     <string name="user_agreement">Brugeraftale</string>
-    <string name="user_agreement_declare">Før du bruger MIUI, skal du læse og bekræfte vores Brugeraftale og Privatlivspolitik. Mens din enhed aktiveres, tilslutter Mi SIM-aktiveringstjeneste, Xiaomi Cloud, Find enhed, Hjemmeskærm, Hyppige sætninger, Oversættelsestjeneste, MIUI Daemon, HTML-fremviser, MIUI SDK, AI-assistent, Batteri og ydeevne, Power Detector, Joyose, OS AI-indstillinger, Tilladelsesadministrator og Opdatering til netværket. Smarte tjenester opretter forbindelse til netværket og finder din placering.</string>
+    <string name="user_agreement_declare">Før du bruger MIUI, skal du læse og acceptere vores brugeraftale og privatlivspolitik. Mi SIM-aktiveringstjeneste, Xiaomi Cloud, Sikkerhedskopiering, Find enhed, Startskærm, Hyppige sætninger, Xiaomi-internetkommunikationstjeneste, Oversættelsestjeneste, MIUI Daemon, HTML Viewer, MIUI SDK, Secure Element Application, AI Assistent, Batteri og performance, Strømindikator, Joyose, OS AI-indstillinger og Opdatering tilslutter til netværket, mens din enhed aktiveres. Smartkort, Administration af tilladelser og smarte tjenester tilslutter til netværket og får adgang til din placering.</string>
     <string name="voice_assist_advice">Mi AI tillader, at du bruger stemmekontrol, men den bruger mere strøm (+1% i timen).</string>
     <string name="voice_assist_condition">"Du vil ikke være i stand til at bruge Mi AI i disse tilfælde:r
 1. Når skærmen er tændt.r

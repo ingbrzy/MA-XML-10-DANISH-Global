@@ -51,7 +51,7 @@
     <string name="action_item_download">Download</string>
     <string name="action_item_favorite">Favorit</string>
     <string name="action_item_hide">Skjul</string>
-    <string name="action_item_hifi">Hovedtelefoner &amp; audioeffekter</string>
+    <string name="action_item_hifi">Øretelefoner</string>
     <string name="action_item_play_all">Bland alle</string>
     <string name="action_item_play_next">Afspil senere</string>
     <string name="action_item_play_video">Afspil musikvideo</string>
@@ -63,6 +63,7 @@
     <string name="ad_data_exception">Reklame-datafejl</string>
     <string name="ad_recommend">Vis reklamer</string>
     <string name="ad_setting">Yderligere indstillinger</string>
+    <string name="add">Tilføj</string>
     <string name="add_music">Tilføj sange</string>
     <string name="add_to_last_of_playlist">Tilføj til slutning af afspilningslisten</string>
     <string name="add_to_playlist">Tilføj til kø</string>
@@ -206,6 +207,7 @@
     <string name="dialog_cannot_resume">Download afbrudt. Det kan ikke genoptages.</string>
     <string name="dialog_clear_history">Ryde listen af for nyligt afspillede sange?</string>
     <string name="dialog_confirm_delete_checkbox_message">Slet også lokale filer</string>
+    <string name="dialog_continue">OK</string>
     <string name="dialog_failed_body">Prøv at downloade senere eller fjern filen fra køen?</string>
     <string name="dialog_file_already_exists">Kan ikke downloade. Denne fil eksisterer allerede.</string>
     <string name="dialog_file_missing_body">Kunne ikke finde den downloadede fil.</string>
@@ -241,6 +243,7 @@
     <string name="dialog_song_view_type_artist">Efter kunstner</string>
     <string name="dialog_song_view_type_folder">Efter mappe</string>
     <string name="dialog_song_view_type_song">Efter sang</string>
+    <string name="dialog_stop_audio_in">Afspilnings-timer</string>
     <string name="dialog_subtitle_make_playlist_public">Offentlige spillelister er tilgængelige for andre mennesker. Private spillelister er kun synlige for dig på alle synkroniserede enheder.</string>
     <string name="dialog_title_clearlist_tracks">Fjern fra kø</string>
     <string name="dialog_title_delete_tracks">Slet</string>
@@ -287,7 +290,9 @@
     <string name="download_method">Download</string>
     <string name="download_no_application_title">Kan ikke åbne filen</string>
     <string name="download_paused_in_power_save_mode">Download er sat på pause, når batterisparer er slået til</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Downloader…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Downloadkvalitet</string>
     <string name="download_quality_summary">Yderligere indstillinger for sange som du downloader</string>
     <string name="download_queued">I kø</string>
@@ -375,7 +380,9 @@
     <string name="exo_media_action_repeat_all_description">Gentag alle</string>
     <string name="exo_media_action_repeat_off_description">Gentag ingen</string>
     <string name="exo_media_action_repeat_one_description">Gentag én</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Undertekster</string>
     <string name="exo_track_role_commentary">Kommentarspor</string>
@@ -606,6 +613,7 @@
     <string name="mulit_choice_management">Styr flere elementer</string>
     <string name="music_browser_label">Musik</string>
     <string name="music_filter">Filtrer audiofiler</string>
+    <string name="music_quality">Lydkvalitet</string>
     <string name="music_recommendation">Sanganbefalinger</string>
     <string name="music_service">Musikservice</string>
     <string name="music_settings">Musik</string>
@@ -638,6 +646,7 @@
     <string name="no_local_songs_selected">Kan ikke sende sange, fordi de ikke er blevet downloadet</string>
     <string name="no_local_source_find">Kunne ikke finde sang</string>
     <string name="no_longer_prompt">Vis ikke igen</string>
+    <string name="no_lyrics">Vis tekster</string>
     <string name="no_results_return">Ingen søgeresultater</string>
     <string name="no_scanned_songs">Tom</string>
     <string name="no_song_downloaded">Kunne ikke finde sange til download</string>
@@ -757,12 +766,14 @@
     <string name="privacy_authorize_revoking">Tilbagekalder autorisation…</string>
     <string name="privacy_desc">Fortrolighedspolitik (obligatorisk)</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=da_DK</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Musik er nødt til at indsamle nødvendige personoplysninger for at kunne forsyne dig med onlinestreamingtjenester. I vores &lt;a href=\"%1$s\">Fortrolighedspolitik&lt;/a> kan du læse, hvordan vi håndterer de indsamlede oplysninger. Du kan når som helst tilbagekalde din accept af Mi Musiks Fortrolighedspolitik under Indstillinger.
 Læs og accepter vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%1$s\">Fortrolighedspolitik&lt;/a>, før du bruger Mi Musik.
 Hvis du ikke accepterer brugen af de førnævnte tjenester, vil der være nogle funktioner af denne app, som du ikke kan bruge. Appens grundlæggende funktioner vil dog stadig være tilgængelige for dig.&lt;/Data>"</string>
     <string name="privacy_request_subtitle">"Velkommen til Mi Musik! Denne app leverer følgende tjenester:
 - En lokal lydafspiller
 - Onlinestreamingtjenester"</string>
+    <string name="privacy_request_subtitle_offline">Velkommen til Mi Music. Denne app giver dig en lokal afspiller til lydfiler.</string>
     <string name="privacy_request_title">Vilkår og betingelser</string>
     <string name="pro_member">PRO-medlem</string>
     <string name="project_device">Mi Phone</string>
@@ -901,6 +912,7 @@ Hvis du ikke accepterer brugen af de førnævnte tjenester, vil der være nogle 
     <string name="start_to_download">Downloader…</string>
     <string name="start_to_play">Afspil</string>
     <string name="start_update">Installerer ny version…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Lager til dual apps</string>
     <string name="storage_internal">Internt lager</string>
     <string name="storage_sd_card">SD-kort</string>
@@ -958,6 +970,7 @@ Hvis du ikke accepterer brugen af de førnævnte tjenester, vil der være nogle 
     <string name="toast_download_in_process">Download i arbejde</string>
     <string name="toast_favorite_has_been_added">Tilføjet til afspilningsliste</string>
     <string name="toast_follow_success">Fulgte med succes</string>
+    <string name="toast_hungama_vip_song">Denne sang er allerede tilgængelig for PRO-medlemmer. Få et abonnement for at downloade denne sang.</string>
     <string name="toast_is_pro">Du er allerede PRO-medlem.</string>
     <string name="toast_my_playlist_illegal_name">Titlen på denne afspilningsliste er ugyldig. Omdøb din afspilningsliste.</string>
     <string name="toast_my_playlist_set_to_private">Denne afspilningsliste er nu privat. Andre kan ikke se den.</string>
@@ -998,6 +1011,7 @@ Hvis du ikke accepterer brugen af de førnævnte tjenester, vil der være nogle 
     <string name="upload_playlist_to_hungama_title">Synkroniser online sange med Hungama for at kunne få adgang til dem på andre enheder, hvor du bruger din Mi-konto.</string>
     <string name="upload_playlist_to_hungama_toast">Online sange synkroniseres til Hungama</string>
     <string name="user_agreement">Brugeraftale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=da_DK</string>
     <string name="user_playlist_plaza">Afspilningslister</string>
     <string name="user_privacy_dialog_negative_text">Annuller</string>
     <string name="user_privacy_dialog_positive_count_down_text">Tilbagetræk (%ss)</string>

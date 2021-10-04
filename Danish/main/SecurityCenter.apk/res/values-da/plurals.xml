@@ -176,6 +176,10 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="other">Søg blandt %d apps</item>
         <item quantity="one">Søg blandt %d app</item>
     </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d risici med relation til privatlivet</item>
+        <item quantity="one">%d risiko med relation til privatlivet</item>
+    </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemer kræver optimering</item>
         <item quantity="one">%1$d problem kræver optimering</item>
@@ -231,6 +235,10 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Loggede ind %d days i træk</item>
         <item quantity="one">Loggede ind %d gang</item>
+    </plurals>
+    <plurals name="gb_toolbox_guide_known">
+        <item quantity="other">Forstået (%ds)</item>
+        <item quantity="one">Forstået (%ds)</item>
     </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
         <item quantity="other">"Prøv Stemmeskifter nu

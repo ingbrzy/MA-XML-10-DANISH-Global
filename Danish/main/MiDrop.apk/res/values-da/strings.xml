@@ -189,14 +189,14 @@ Kontrollér dine netværksindstillinger og prøv igen."</string>
     <string name="er">Destinationsmappe</string>
     <string name="es">Valgt(-e)</string>
     <string name="et">Valgte filer: %1$d | I alt: %2$s</string>
-    <string name="eu">4-16 tegn, bogstaver og cifre, forskel på store og små</string>
+    <string name="eu">Brugernavn og adgangskode skelner imellem store og små bogstaver og skal indeholde %1$d-%2$d tegn. Du kan kombinere engelske bogstaver, specialtegn og tal.</string>
     <string name="ev">Log ind anonymt</string>
     <string name="ew">Brugernavn eller adgangskode er forkert</string>
     <string name="ex">Kunne ikke åbne port. Tjek din netværksforbindelse eller nulstil portnummer.</string>
     <string name="ey">Adgangskode</string>
     <string name="ez">Portnummer</string>
     <string name="f0">Sikkerhed</string>
-    <string name="f1">Log ind</string>
+    <string name="f1">Indstil brugernavn og adgangskode</string>
     <string name="f2">Brugernavn</string>
     <string name="f3">Forenklet kinesisk Windows indkodes</string>
     <string name="f4">GBK</string>

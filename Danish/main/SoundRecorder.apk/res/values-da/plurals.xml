@@ -84,6 +84,10 @@
         <item quantity="other">%d emner valgt</item>
         <item quantity="one">%d emne valgt</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
     <plurals name="notification_warning">
         <item quantity="other">Lav lagerplads (mindre end %d minutter)</item>
         <item quantity="one">Lav lagerplads (mindre end %d minutt)</item>

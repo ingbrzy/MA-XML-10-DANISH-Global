@@ -131,6 +131,7 @@
     <string name="accessibility_keyguard_face_unlock_view">Ansigtsoplåsning</string>
     <string name="accessibility_left_control_center_button">Genvej</string>
     <string name="accessibility_left_lock_screen_magazine_button">Baggrundskarrusel</string>
+    <string name="accessibility_left_xmyzl_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Aktive placeringsanmodninger</string>
     <string name="accessibility_long_click_tile">Åbn indstillinger</string>
     <string name="accessibility_manage_notification">Administrer notifikationer</string>
@@ -560,6 +561,7 @@ Valg"</string>
     <string name="cell_data_off">Fra</string>
     <string name="cell_data_off_content_description">Mobildata er deaktiveret</string>
     <string name="charge_length_format">%1$s siden</string>
+    <string name="choose_clock_dual_clock_hint_text">Kan ikke skifte format, når dobbelt-ur er aktiveret</string>
     <string name="choose_clock_panel_title">Layout af låseskærm</string>
     <string name="choose_clock_third_theme_hint_text">Lås skærm fra det aktuelt anvendte tema</string>
     <string name="choose_clock_title_left_top">Venstrejusteret</string>
@@ -703,6 +705,9 @@ Hvis du fortsætter, bliver du muligvis opkrævet betaling for dit dataforbrug."
     <string name="development_settings_not_available">Udviklermuligheder er ikke tilgængelige for denne bruger</string>
     <string name="development_settings_summary">Sæt muligheder for app-udvikling</string>
     <string name="development_settings_title">Udviklermuligheder</string>
+    <string name="device_locked_without_biometric">Kan ikke låse denne enhed op med fingeraftryk eller ansigtsdata, når du bruger en skærmlås fra en tredjepart</string>
+    <string name="device_locked_without_biometric_face">Kan ikke låse denne enhed op med ansigtsdata, når du bruger en skærmlås fra en tredjepart</string>
+    <string name="device_locked_without_biometric_finger">Kan ikke låse denne enhed op med fingeraftryk, når du bruger en skærmlås fra en tredjepart</string>
     <string name="device_services">Enhedstjenester</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Bemærk: Efter genstart kan denne app ikke starte, før du låser din enhed op.</string>
@@ -778,6 +783,7 @@ Hvis du fortsætter, bliver du muligvis opkrævet betaling for dit dataforbrug."
     <string name="face_unlock_pin_and_fingerprint">Indtast pinkode, eller brug fingeraftryk til at låse op</string>
     <string name="face_unlock_reveal_eye">Gør dine øjne synlige</string>
     <string name="face_unlock_reveal_mouth">Gør dine læber synlige</string>
+    <string name="face_unlock_success">Låst op</string>
     <string name="failed_to_open_app_settings_toast">Kunne ikke åbne indstillinger for %1$s</string>
     <string name="fingerprint_add_text">Fingeraftryksgrænsefladen blev opdateret. Tilføj dit fingeraftryk igen.</string>
     <string name="fingerprint_add_title">Tilføj fingeraftryk</string>
@@ -806,6 +812,7 @@ Hvis du fortsætter, bliver du muligvis opkrævet betaling for dit dataforbrug."
     <string name="fs_gesture_back_ready_title">Gå tilbage</string>
     <string name="fs_gesture_final_over">Jeg er færdig</string>
     <string name="fs_gesture_final_restart">En gang mere</string>
+    <string name="fs_gesture_final_see_more">Se flere demoer i Indstillinger > Startskærm > Systemnavigation</string>
     <string name="fs_gesture_final_summary">Du kan skifte tilbage til at anvende knapper i Indstillinger > Fuldskærmsvisning</string>
     <string name="fs_gesture_final_title">Du er klar til start!</string>
     <string name="fs_gesture_finish">Fint!</string>
@@ -926,13 +933,15 @@ Vil du blive ved med at se dem?"</string>
     <string name="input_lockscreen_password_hint_text">Indtast adgangskode</string>
     <string name="input_lockscreen_pattern_hint_text">Tegn mønster</string>
     <string name="input_lockscreen_pin_hint_text">Indtast pinkode</string>
-    <string name="input_password_after_boot_msg">For at låse op for enheden skal du indtaste din adgangskode</string>
+    <string name="input_password_after_boot_msg">Indtastning af din adgangskode er påkrævet, når enheden genstartes</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Kan ikke skifte mellem spaces under et opkald</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Kan ikke skifte mellem rum, når forældrekontrol er slået til</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">Kan ikke skifte mellem spaces, når Ultra-batterisparer er aktiv</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Du skal gå til First space, efter at enheden genstartes</string>
     <string name="input_password_hint_text">Indtast adgangskode</string>
+    <string name="input_pattern_after_boot_msg">Tegning af dit mønster er påkrævet, når enheden genstartes</string>
     <string name="input_pattern_hint_text">Tegn dit oplåsningsmønster</string>
+    <string name="input_pin_after_boot_msg">Indtastning af din pinkode er påkrævet, når enheden genstartes</string>
     <string name="input_pin_code">Indtast PIN-kode</string>
     <string name="input_puk_code">Indtast PUK-kode</string>
     <string name="install_other_apps">Installér ukendte apper</string>
@@ -1011,6 +1020,7 @@ prioritet"</string>
     <string name="keyguard_charged">Opladet</string>
     <string name="keyguard_charging_back_to_lockscreen">Tilbage til låseskærm</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
+    <string name="keyguard_charging_double_fast_and_level_tip">Booster opladningshastighed %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">I dag %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">I går %s</string>
@@ -1037,6 +1047,7 @@ prioritet"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-kortet mangler eller kan ikke læses. Indsæt et SIM-kort.</string>
     <string name="keyguard_missing_sim_message">Der er ikke noget SIM-kort i telefonen.</string>
     <string name="keyguard_missing_sim_message_short">Intet SIM-kort</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Netværket er låst</string>
     <string name="keyguard_password_enter_password_code">Angiv adgangskoden for at låse op</string>
     <string name="keyguard_password_enter_pin_code">Angiv pinkoden</string>
@@ -1078,7 +1089,7 @@ Kontakt din tjenesteudbyder for at få et nyt SIM-kort."</string>
     <string name="kg_invalid_confirm_pin_hint">Pinkoderne stemmer ikke overens</string>
     <string name="kg_invalid_puk">Angiv den korrekte PUK-kode. Gentagne forsøg deaktiverer permanent SIM-kortet.</string>
     <string name="kg_invalid_sim_pin_hint">Angiv en pinkode på mellem 4 og 8 tal.</string>
-    <string name="kg_invalid_sim_puk_hint">PUK-koden skal være på 8 tal eller mere.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK-kode skal være på 8 tal.</string>
     <string name="kg_login_too_many_attempts">Du har brugt for mange forsøg på at tegne mønsteret korrekt</string>
     <string name="kg_password_instructions">Angiv adgangskode</string>
     <string name="kg_password_pin_failed">Pinkoden til SIM-kortet blev afvist</string>
@@ -1233,6 +1244,7 @@ d. MMMM"</string>
     <string name="miui_notification_menu_setting_success">Udført</string>
     <string name="miui_notification_menu_snooze">Slumre</string>
     <string name="miui_notification_menu_title_not_allow">Begræns</string>
+    <string name="miui_screen_rotation_freeze_message">Låst skærmorientering i liggende format</string>
     <string name="miui_snooze_always_float">Skjul ikke</string>
     <string name="miui_snooze_cancel">Annuller</string>
     <string name="miui_snooze_default_time">I %d minutter</string>
@@ -1271,12 +1283,14 @@ Du har også forbindelse til %3$s, som kan overvåge din personlige netværksakt
 
 Kontakt din administrator for at få flere oplysninger."</string>
     <string name="monitoring_description_ca_cert_settings">Åbn pålidelige loginoplysninger</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Der er installeret et nøglecenter på denne enhed. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_do_body">Din administrator kan overvåge og administrere indstillinger, virksomhedsadgang, apps og data, der er knyttet til denne enhed, samt enhedens placeringsoplysninger.</string>
     <string name="monitoring_description_do_body_vpn">Du har forbindelse til %1$s, som kan overvåge din netværksaktivitet, bl.a. e-mails, apps og websites.</string>
     <string name="monitoring_description_do_header_generic">Din enhed administreres af %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s bruger %2$s til at administrere din enhed.</string>
     <string name="monitoring_description_do_learn_more">Få flere oplysninger</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Din organisation har installeret et nøglecenter på din arbejdsprofil. Din sikre netværkstrafik kan overvåges eller ændres.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Din arbejdsprofil har forbindelse til %1$s, som kan overvåge din netværksaktivitet, bl.a. mails, apps og websites.</string>
     <string name="monitoring_description_management">"Denne enhed tilhører din organisation.
@@ -1308,6 +1322,7 @@ Kontakt din administrator for at få flere oplysninger.
 
 Du har også forbindelse til et VPN, som kan overvåge din netværksaktivitet."</string>
     <string name="monitoring_description_vpn_settings">Åbn VPN-indstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA-certifikater</string>
     <string name="monitoring_subtitle_network_logging">Netværksregistrering</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1338,10 +1353,12 @@ Du har også forbindelse til et VPN, som kan overvåge din netværksaktivitet."<
     <string name="mr_dialog_transferable_header">Afspil på en gruppe</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Enheder</string>
+    <string name="msim_set_sub_not_supported_phone_in_call">Kan ikke indstille under opkald</string>
     <string name="music_controls_no_title">Ingen titel</string>
     <string name="nav_bar">Navigationslinje</string>
     <string name="nav_bar_default">(standard)</string>
     <string name="nav_bar_layout">Layout</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ingen</string>
     <string name="no_auto_saver_action">Nej tak</string>
     <string name="no_shortcut">%1$s understøtter ikke samtalefunktioner</string>
@@ -1413,6 +1430,7 @@ Du har også forbindelse til et VPN, som kan overvåge din netværksaktivitet."<
     <string name="open_lock_screen_magazine_hint_text">Stryg til højre for flere muligheder</string>
     <string name="open_remote_center_hint_text">Stryg mod højre for at se kontroller</string>
     <string name="open_saver_setting_action">Indstillinger</string>
+    <string name="open_xmyzl_hint_text">Swipe til højre for at åbne Xiaomi Magic Control</string>
     <string name="orb_search_action">Søg handling</string>
     <string name="osu_completing_sign_up">Færdiggør tilmelding</string>
     <string name="osu_connect_failed">Kan ikke tilslutte</string>
@@ -1438,7 +1456,7 @@ Du har også forbindelse til et VPN, som kan overvåge din netværksaktivitet."<
     <string name="phone_locked_foget_password_method_content">&lt;Data>Du skal &lt;font color=#a5220e>slette alle data &lt;/font>på din enhed, herunder billeder og kontaktpersoner, og derefter indstille en ny låseskærmsadgangskode.&lt;/Data></string>
     <string name="phone_locked_foget_password_method_next">Næste</string>
     <string name="phone_locked_foget_password_ok">Forstået</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Sluk for din enhed, tryk og hold &lt;font color=#a5220e>Afbryder&lt;/font>- og &lt;font color=#a5220e>Lydstyrke op&lt;/font>-knappen nede på samme tid, indtil du ser Mi-logoet.&lt;/Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Sluk din enhed, og hold derefter knapperne &lt;font color=#e6e6e6>[Tænd]&lt;/font> og &lt;font color=#e6e6e6>[Lydstyrke +]&lt;/font> nedtrykket, indtil du ser &lt;img src=\"\">.</Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Vælg &lt;font color=#a5220e>\"Wipe &amp;amp; Reset\"&lt;/font> og vent indtil enheden genstartes.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Hvordan sletter jeg data?</string>
     <string name="phone_locked_string">Enheden er låst</string>
@@ -1524,6 +1542,7 @@ Du har også forbindelse til et VPN, som kan overvåge din netværksaktivitet."<
     <string name="private_dns_mode_provider">Hostnavn på privat DNS-udbyder</string>
     <string name="private_dns_mode_provider_failure">Kan ikke tilslutte</string>
     <string name="private_dns_mode_provider_hostname_hint">Indtast hostnavn på DNS-udbyder</string>
+    <string name="process_kernel_label">Android-OS</string>
     <string name="profile_connect_timeout_subtext">Problem med tilslutning. Sluk enheden og tænd den så igen</string>
     <string name="profile_info_settings_title">Profiloplysninger</string>
     <string name="profile_owned_footer">Profilen kan overvåges</string>
@@ -1561,7 +1580,7 @@ Du har også forbindelse til et VPN, som kan overvåge din netværksaktivitet."<
     <string name="quick_settings">Kvikmenu</string>
     <string name="quick_settings_autobrightness_label">Automatisk lysstyrke</string>
     <string name="quick_settings_batterysaver_label">Batteribesparer</string>
-    <string name="quick_settings_bluetooth_detail_empty_text">Der er ingen tilgængelige parrede enheder</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Ingen sammenkoblede enheder tilgængelig</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d enheder)</string>
     <string name="quick_settings_bluetooth_off_label">Bluetooth slået fra</string>
@@ -1657,7 +1676,7 @@ Du har også forbindelse til et VPN, som kan overvåge din netværksaktivitet."<
     <string name="quick_settings_rotation_locked_landscape_label">Liggende</string>
     <string name="quick_settings_rotation_locked_portrait_label">Stående</string>
     <string name="quick_settings_rotation_unlocked_label">Roter automatisk</string>
-    <string name="quick_settings_rotationlock_label">Rotation slået fra</string>
+    <string name="quick_settings_rotationlock_label">Lås orientering</string>
     <string name="quick_settings_rssi_emergency_only">Kun nødopkald</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screen_record_label">Optag skærm</string>
@@ -1684,7 +1703,7 @@ Du har også forbindelse til et VPN, som kan overvåge din netværksaktivitet."<
     <string name="quick_settings_wifi_detail_dual_wifi_switching_not_remind">Vis ikke igen</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_prompt">Skifter mellem netværk</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_summary">Hastighedsboost af dual band Wi-Fi skal bruge to forskellige Wi-Fi-bånd. Hvis du tilslutter til et andet hovednetværk, mister du forbindelsen til reservenetværket.</string>
-    <string name="quick_settings_wifi_detail_empty_text">Der er ingen tilgængelige Wi-Fi-netværk</string>
+    <string name="quick_settings_wifi_detail_empty_text">Ingen Wi-Fi-netværker tilgængelig</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_no_network">Intet netværk</string>
     <string name="quick_settings_wifi_not_connected">Ikke forbundet</string>
@@ -1815,6 +1834,8 @@ Du har også forbindelse til et VPN, som kan overvåge din netværksaktivitet."<
     <string name="show_silently">Vis notifikationer lydløst</string>
     <string name="show_touches">Vis fanebalde</string>
     <string name="show_touches_summary">Vis visuel feedback for faneblade</string>
+    <string name="shut_down_password_forget_password_suggesstion_one_content"><Data>Hold knapperne &lt;font color=#e6e6e6>[Power]&lt;/font> og &lt;font color=#e6e6e6>[Volume +]&lt;/font> nedtrykket, indtil du ser &lt;img src=\"\">.</Data></string>
+    <string name="shut_down_password_forget_password_suggesstion_two_content"><Data>Vælg &lt;font color=#e6e6e6>[Ryd data]&lt;/font> og tryk derefter på &lt;font color=#e6e6e6>[Reboot]&lt;/font>.</Data></string>
     <string name="sim_state_locked_dialog_title">Ugyldigt SIM-kort</string>
     <string name="sim_state_locked_puk_dialog_message">Du har indtastet en ugyldig PUK-kode mindst %d gange. Dit SIM-kort er nu ugyldigt. Udskift dette SIM-kort med et andet.</string>
     <string name="simulate_color_space">Simulér farverum</string>

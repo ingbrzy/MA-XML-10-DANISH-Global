@@ -32,6 +32,10 @@
         <item>Back up important settings, including WLAN and display</item>
         <item>"Lock your device remotely if it's lost"</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_pad">
+        <item>Synkroniser dine fotos, notater, optagelser med mere</item>
+        <item>Lås din enhed fjernt, hvis du har mistet den</item>
+    </string-array>
     <string-array name="micloud_entrance_subtitleArray_v2">
         <item>Synkroniser dine kontakter, beskeder, noter, kalender og mere</item>
         <item>Tag backup af apps, startskærmslayout og baggrunde</item>
@@ -42,6 +46,10 @@
         <item>Synkroniser app-data</item>
         <item>Tag backup af startskærmslayout</item>
         <item>Tag backup af systemindstillinger</item>
+        <item>Find enhed</item>
+    </string-array>
+    <string-array name="micloud_entrance_titleArray_pad">
+        <item>Synkroniser app-data</item>
         <item>Find enhed</item>
     </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
@@ -117,9 +125,9 @@
         <item>Noter;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_personal_assistant">
-        <item>Synkroniser App-vault med Xiaomi Cloud</item>
+        <item>Synkroniser app-boks med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
-        <item>App-vault;Kort;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
+        <item>App-boks;Kort;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_phrase">
         <item>Synkroniser hurtige svar</item>
@@ -136,6 +144,11 @@
         <item>Gendan kontakt, billeder, beskeder og mere</item>
         <item>Papirkurv;Slettede elementer;Papirkurv;Gendan;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
+    <string-array name="settings_search_recycle_bin_pad">
+        <item>Slettede elementer i Xiaomi Cloud</item>
+        <item>Gendan fotos, notater med mere</item>
+        <item>Papirkurv;Slettede elementer;Papirkurv;Gendan;Cloud-tjenester;Xiaomi Cloud</item>
+    </string-array>
     <string-array name="settings_search_restore_device">
         <item>Gendan elementer fra Xiaomi Cloud</item>
         <item>Download sikkerhedskopierede elementer til din enhed</item>
@@ -144,6 +157,11 @@
     <string-array name="settings_search_security">
         <item>Sikkerhedssynkronisering med clouden</item>
         <item>Slå synkronisering til</item>
+        <item>Sikkerhed;Cloud;Xiaomi-cloud;Synkronisering;Cloud-tjenester</item>
+    </string-array>
+    <string-array name="settings_search_security_pad">
+        <item>Sikkerhedssynkronisering med clouden</item>
+        <item>Tænd synkronisering</item>
         <item>Sikkerhed;Cloud;Xiaomi-cloud;Synkronisering;Cloud-tjenester</item>
     </string-array>
     <string-array name="settings_search_sms">
@@ -159,6 +177,11 @@
     <string-array name="settings_search_sync_manage">
         <item>Xiaomi Cloud. Alle Mi-tjenester på ét sted.</item>
         <item>Få adgang til dine billeder, kontakter, beskeder og enheder overalt</item>
+        <item>Utilstrækkelig lagerplads;Medlemskab;Lager;Lagerplads;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud;Papirkurv;Slettede elementer;Sikkerhed</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage_pad">
+        <item>Xiaomi Cloud. Alle Mi-tjenester på ét sted.</item>
+        <item>Få adgang til dine fotos, notater og enheder overalt</item>
         <item>Utilstrækkelig lagerplads;Medlemskab;Lager;Lagerplads;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud;Papirkurv;Slettede elementer;Sikkerhed</item>
     </string-array>
     <string-array name="settings_search_wlan">
