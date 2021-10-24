@@ -606,7 +606,6 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -721,7 +720,6 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="private_dns_mode_provider">Hostname for privat DNS-udbyder</string>
     <string name="private_dns_mode_provider_failure">Der kunne ikke oprettes forbindelse</string>
     <string name="private_dns_mode_provider_hostname_hint">Angiv hostname for DNS-udbyder</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Der kunne ikke oprettes forbindelse. Sluk og tænd enheden</string>
     <string name="profile_info_settings_title">Profiloplysninger</string>
     <string name="remaining_length_format">%1$s tilbage</string>
