@@ -31,6 +31,7 @@
     <string name="access_token_expired_warning">Weibo-konto udløbet</string>
     <string name="access_token_invalid_warning">Weibo-konto ugyldig</string>
     <string name="account">Konto</string>
+    <string name="account_and_password">Adgangskode</string>
     <string name="account_bind_devices">Enheder</string>
     <string name="account_bind_secure_email_title">Tilføj e-mail</string>
     <string name="account_bind_secure_phone_title">Tilføj telefonnummer</string>
@@ -62,7 +63,7 @@
  Din konto-ID: %s"</string>
     <string name="account_token_expired_title">Kunne ikke autentificere</string>
     <string name="account_user_avatar">Profilbillede</string>
-    <string name="account_user_avatar_from_album">Select photo</string>
+    <string name="account_user_avatar_from_album">Vælg foto</string>
     <string name="account_user_avatar_from_camera">Tag foto</string>
     <string name="account_user_base_info">Personlige oplysninger</string>
     <string name="account_user_birthday">Fødselsdag</string>
@@ -75,7 +76,11 @@
     <string name="account_user_name_dialog_title">Indtast brugernavn</string>
     <string name="account_user_other_info">Flere kilder</string>
     <string name="account_user_phone">Gendannelsestelefon</string>
+    <string name="account_user_phone_show">Telefon: %s</string>
     <string name="account_user_region">Region</string>
+    <string name="account_verify_guide_bind_mail_desc">Tilføj en gendannelses-e-mail</string>
+    <string name="account_verify_guide_bind_phone_desc">Tilføj en gendannelsestelefon</string>
+    <string name="account_verify_guide_set_password_desc">Indstil en adgangskode</string>
     <string name="account_xiaomi_service">Serviceydelser</string>
     <string name="action_add_phone">Tilføj telefonnummer</string>
     <string name="action_retry">Prøv igen</string>
@@ -200,16 +205,17 @@ Send denne kode til supervisoren."</string>
     <string name="facebook_app_id">2263965750590514</string>
     <string name="facebook_login">Log på med Facebook</string>
     <string name="failed_dup_secure_phone_number">Telefonnummeret er allerede tilknyttet en anden Mi-konto</string>
+    <string name="family_share">Familiedeling</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Find enhed</string>
     <string name="find_device_access_denied">Kan ikke hente status, adgang nægtet</string>
     <string name="find_device_account_error">Kan ikke hente status pga. konto-fejl</string>
     <string name="find_device_activate_account">Aktiver konto</string>
-    <string name="find_device_bad_response_error">A server error occurred. Wait a minute or two and try again.</string>
+    <string name="find_device_bad_response_error">Der opstod en serverfejl. Vent et minut eller to og prøv så igen.</string>
     <string name="find_device_clear_data">Slet data</string>
     <string name="find_device_close">Sluk</string>
     <string name="find_device_error_password_not_confirmed">Kan ikke slukke Find enhed. Indtast din Mi Account-adgangskode igen.</string>
-    <string name="find_device_error_password_recently_changed">"You've changed your password within last %d days. Can't turn off Find device now due to security reasons."</string>
+    <string name="find_device_error_password_recently_changed">Du har ændret din adgangskode indenfor de sidste %d dage. Af sikkerhedsgrunde er det ikke muligt at slukke for Find enhed nu.</string>
     <string name="find_device_interrupted">Aktion blev afbrudt. Vent et minut eller to og prøv så igen.</string>
     <string name="find_device_io_error">Kan ikke tilslutte til netværket</string>
     <string name="find_device_location">Find</string>
@@ -228,7 +234,8 @@ Send denne kode til supervisoren."</string>
     <string name="find_device_request_prepare_error">Kan ikke hente status, prøv igen senere</string>
     <string name="find_device_set_lost_model">Bortkommet-tilstand</string>
     <string name="find_device_title">Find enhed</string>
-    <string name="find_device_unknown_error">"Can't get device status. Wait a minute or two and try again."</string>
+    <string name="find_device_unknown_error">Kan ikke hente enhedens status. Prøv igen om et minut eller to.</string>
+    <string name="find_equipment">Find enhed</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -285,6 +292,7 @@ Send denne kode til supervisoren."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="get_back_password">Nulstil adgangskode</string>
     <string name="get_back_pwd">Nulstiller adgangskode</string>
     <string name="get_device_list_failed">Kan ikke finde enheder</string>
     <string name="get_identity_auth_url_failed">Kunne ikke bekræfte ID</string>
@@ -318,13 +326,14 @@ Send denne kode til supervisoren."</string>
     <string name="loading_micloud_sync_data">Lige et øjeblik…</string>
     <string name="login_check_find_device">Henter sikkerhedsoplysninger om enheden…</string>
     <string name="login_check_find_device_failed_title">Kunne ikke kontrollere enhedens sikkerhedsoplysninger</string>
-    <string name="login_find_device_bind">This device is associated with an existing Mi Account ID (%s).</string>
+    <string name="login_find_device_bind">Denne enhed er forbundet med et eksisterende Mi-konto-ID (%s).</string>
     <string name="logout_account">Log ud</string>
     <string name="logout_failed">Kan ikke logge ud</string>
     <string name="mi_account_identity_title">Bekræft din identitet</string>
     <string name="mi_finance">Mine finanser</string>
     <string name="mi_finance_info">Bonus til nye brugere</string>
     <string name="mi_health">Xiaomi Health</string>
+    <string name="mi_member">Mi Fællesskabet</string>
     <string name="mi_vip_info">Se privilegier</string>
     <string name="midnight">Nat</string>
     <string name="mipay">Betal</string>
@@ -335,6 +344,7 @@ Send denne kode til supervisoren."</string>
     <string name="mipay_indentity_done">Bekræftet</string>
     <string name="mipay_others">Andet</string>
     <string name="mipay_transit_card">Transportkort</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
@@ -404,14 +414,18 @@ Send denne kode til supervisoren."</string>
     <string name="my_device_title">Aktuel enhed</string>
     <string name="need_install_wechat">Installer WeChat først</string>
     <string name="night">Aften</string>
+    <string name="no_install">Ikke installeret</string>
     <string name="no_network_btn">Opdater</string>
     <string name="no_network_title">Kan ikke oprette forbindelse til netværket.</string>
+    <string name="no_password_set">Ikke indstillet</string>
     <string name="no_phone">Intet telefonnummer</string>
     <string name="no_response_retry">Intet svar, prøv igen</string>
     <string name="no_sim_card_or_unactivated">SIM-kort er ikke installeret eller aktiveret</string>
     <string name="nobind">Ikke tilsluttet</string>
     <string name="noon">Middag</string>
     <string name="not_set">Ikke angivet</string>
+    <string name="notify_bind_security_phone">Tilføj en gendannelsestelefon</string>
+    <string name="notify_complete_security_info">Tilføj gendannelsesoplysninger</string>
     <string name="notify_network_restricted_content_bg_network">Mi Accounts internetadgang er begrænset. Tryk for at tillade.</string>
     <string name="notify_network_restricted_content_hidden_state">Mi Accounts baggrundsaktivitet er begrænset. Tryk for at tillade.</string>
     <string name="notify_network_restricted_content_mobile_network">Mi Accounts internetadgang er begrænset. Tryk for at tillade.</string>
@@ -444,6 +458,7 @@ Send denne kode til supervisoren."</string>
     <string name="passport_activing_account">Aktiverer…</string>
     <string name="passport_adding_account">Tilføjer konto…</string>
     <string name="passport_area_code_hot">OFTE BRUGT</string>
+    <string name="passport_area_code_others">Brug et andet præfiks</string>
     <string name="passport_area_code_title">Landekode</string>
     <string name="passport_auto_generate_pwd">Generer sikker adgangskode</string>
     <string name="passport_back">Tilbage</string>
@@ -636,6 +651,7 @@ Send denne kode til supervisoren."</string>
     <string name="passport_title_reg">Opret en konto</string>
     <string name="passport_trust_device">Føj denne enhed til enheder, der er tillid til</string>
     <string name="passport_trying_read_verify_code_sms">Henter bekræftelseskode…</string>
+    <string name="passport_tz_invalid">Sikkerhedsrisiko fundet. Denne enhed kan være rooted (omprogrammeret på rodniveau) eller flashed (tilføjet uautoriserede software). Vælg en anden måde at logge ind på.</string>
     <string name="passport_uplink_reg">Brug telefonnummer</string>
     <string name="passport_uplink_send_sms_hint">Tryk på \"Send\", når du sendes videre til siden med en sammensat besked.</string>
     <string name="passport_uplink_slot1_reg">Brug SIM 1</string>
@@ -673,6 +689,7 @@ Send denne kode til supervisoren."</string>
     <string name="permission_group_phone">Telefon</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Lager</string>
+    <string name="personal_info_desc">Foto, kaldenavn mv.</string>
     <string name="phone_num_use_for">Telefonnummer anvendes til:</string>
     <string name="photoPickerNotFoundText">Ingen fotos til rådighed</string>
     <string name="pm">PM</string>
@@ -719,6 +736,7 @@ Send denne kode til supervisoren."</string>
     <string name="search_user_detail_path">Indstillinger/Mi-konto/Personlige oplysninger</string>
     <string name="search_user_detail_top_key_words">Personlige oplysninger,Skift profilbillede,Skift brugernavn,Skift kaldenavn,Skift fødselsdag, Skift køn</string>
     <string name="select_all">Vælg alt</string>
+    <string name="self_account_info">Personlige oplysninger</string>
     <string name="send">Send</string>
     <string name="send_diagnosis_log">Send diagnoselogfil</string>
     <string name="send_email_activate_message">E-mail til bekræftelse sendt</string>
@@ -788,6 +806,7 @@ Send denne kode til supervisoren."</string>
     <string name="the_united_nations_day">FN-dag</string>
     <string name="the_valentines_day">Valentinsdag</string>
     <string name="the_water_lantern_festival">Vandlanternefestival</string>
+    <string name="third_party_login">Tredjepartskonti</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tors</string>
     <string name="thursday_shortest">Tors</string>

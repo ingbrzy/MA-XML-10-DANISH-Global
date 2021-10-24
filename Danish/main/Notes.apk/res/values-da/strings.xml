@@ -437,6 +437,7 @@
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -483,6 +484,7 @@
     <string name="note_gesture_guide_step3">Hold en note nedtrykket og træk den henover en anden note for at flytte noten dertil</string>
     <string name="note_header_first_enter_guide">Træk ned for at se mere</string>
     <string name="note_invalid_mindnote_hint">Mindmaps er ikke tilgængelige i denne version. Opdater appen for at bruge denne funktion.</string>
+    <string name="note_item_default_title">Tom note</string>
     <string name="note_link_email">Skriv e-mail</string>
     <string name="note_link_other">Åbn med kort-app</string>
     <string name="note_link_select">Vælg tekst</string>
@@ -496,6 +498,7 @@
     <string name="note_sort_way">Sortér</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Noter er en systemapp. Du vil ikke længere kunne bruge denne app, når du har afinstalleret den.</string>
     <string name="notes_description_title">Afinstallér noter?</string>
     <string name="notification_content_add_todo_from_other_app">Du tilføjede en ny opgave. Tryk for at se.</string>
@@ -554,6 +557,12 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Stryg op med 2 fingre for at slette notater uden bekræftelse</string>
     <string name="pref_desc_todo_float_mode">Stryg fra kanten af skærmen for at åbne opgave-værktøjskassen</string>
     <string name="pref_excerpt_link_float">Modtag en påmindelse om at oprette et uddrag, når som helst et URL er kopieret</string>
+    <string name="pref_permission_allowed">Givet</string>
+    <string name="pref_permission_manage">Oplysninger om tilladelser</string>
+    <string name="pref_permission_manage_key_contact">Få adgang til kontakter</string>
+    <string name="pref_permission_manage_key_recording">Optag lyd</string>
+    <string name="pref_permission_manage_key_storage">Få adgang til lager</string>
+    <string name="pref_permission_not_allowed">Ikke givet</string>
     <string name="pref_quick_note_desc">"Brug genvejen ved skærmens kant til at oprette noter og opgaver samt gemme kopierede URL'er, tekst og billeder i Notes."</string>
     <string name="pref_remind_type_summary">Afspil påmindelseslyd i stille tilstand</string>
     <string name="pref_remind_type_summary_new">Ignorer lydløs tilstand og bliv ved med at afspille lyde, indtil der slukkes for alarmen</string>
@@ -870,6 +879,9 @@ Tillad at Notes optager lyd."</string>
     <string name="widget_size_item_2x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x4">%1$d×%2$d</string>
+    <string name="widget_size_item_big">Large</string>
+    <string name="widget_size_item_medium">Medium</string>
+    <string name="widget_size_item_small">Small</string>
     <string name="widget_take_notes_title">Noter</string>
     <string name="yesterday">I går</string>
 </resources>

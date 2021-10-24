@@ -21,16 +21,16 @@
         <item>Lås din enhed fjernt, hvis du har mistet den</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Synkroniser dine kontakter, beskeder, noter, kalender og mere</item>
+        <item>Tag backup af apps, startskærmslayout og baggrunde</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Lås din enhed fjernt, hvis du har mistet den</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china_v2">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Synkroniser dine kontakter, beskeder, noter, kalender og mere</item>
+        <item>Tag backup af apps, startskærmslayout og baggrunde</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Lås din enhed fjernt, hvis du har mistet den</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_pad">
         <item>Synkroniser dine fotos, notater, optagelser med mere</item>
@@ -161,7 +161,7 @@
     </string-array>
     <string-array name="settings_search_security_pad">
         <item>Sikkerhedssynkronisering med clouden</item>
-        <item>Tænd synkronisering</item>
+        <item>Slå synkronisering til</item>
         <item>Sikkerhed;Cloud;Xiaomi-cloud;Synkronisering;Cloud-tjenester</item>
     </string-array>
     <string-array name="settings_search_sms">

@@ -285,6 +285,8 @@ Slå fra for at stoppe synkroniseringen."</string>
     <string name="collect_diagnosis_log">Indsaml logfiler</string>
     <string name="collection_articles">Artikler</string>
     <string name="collection_videos">Videoer</string>
+    <string name="columbus_ad_flag_text">Reklame</string>
+    <string name="columbus_skip_ad">Spring over</string>
     <string name="com_facebook_device_auth_instructions">Gå til &lt;b>facebook.com/device&lt;/b> og indtast koden, som er vist ovenfor.</string>
     <string name="com_facebook_image_download_unknown_error">Uventet fejl under download af billede.</string>
     <string name="com_facebook_internet_permission_error_message">WebView-login kræver INTERNET-tilladelse</string>
@@ -932,7 +934,7 @@ Send denne kode til supervisoren."</string>
     <string name="mw_actionbar_textselection_title">Vælg tekst</string>
     <string name="mw_actionbar_web_search">Websøgning</string>
     <string name="mw_autofill_popup_content_description">Viser popup vedrørende autofyld</string>
-    <string name="mw_chip_remove_icon_content_description">Remove \"%1$s\"</string>
+    <string name="mw_chip_remove_icon_content_description">Fjern \"%1$s\"</string>
     <string name="mw_color_picker_button_black">Sort</string>
     <string name="mw_color_picker_button_blue">Blå</string>
     <string name="mw_color_picker_button_cancel">Annuller</string>
@@ -948,7 +950,7 @@ Send denne kode til supervisoren."</string>
     <string name="mw_color_picker_hue">Farvetone</string>
     <string name="mw_color_picker_saturation">Farvemætning</string>
     <string name="mw_color_picker_value">Værdi</string>
-    <string name="mw_common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="mw_common_google_play_services_install_text">%1$s kan ikke køre uden Google Play-tjenester, og de mangler på din enhed.</string>
     <string name="mw_config_webSettingsDefaultTextEncoding">UTF-8</string>
     <string name="mw_copy_to_clipboard_failure_message">Kan ikke kopiere til udklipsholderen</string>
     <string name="mw_data_traffic_prompt_change">Brug af din mobildataforbindelse til at browse videoer forøger dit dataforbrug. Hvis du overskrider dit abonnements dataforbrugsgrænse, opkræver din operatør ekstra gebyrer.</string>
@@ -972,7 +974,7 @@ Forlad denne side nu?"</string>
     <string name="mw_js_dialog_title_default">JavaScript</string>
     <string name="mw_last_month">Sidste måned</string>
     <string name="mw_license_activity_title">System WebView-licenser</string>
-    <string name="mw_link_copied">Copied URL successfully</string>
+    <string name="mw_link_copied">URL er kopieret</string>
     <string name="mw_low_memory_error">Kan ikke fuldføre forrige operation på grund af lav hukommelse</string>
     <string name="mw_miui_content_copy">Kopiér</string>
     <string name="mw_miui_content_cut">Klip</string>
@@ -1077,7 +1079,7 @@ Forlad denne side nu?"</string>
     <string name="mw_save_password_never">Aldrig</string>
     <string name="mw_save_password_notnow">Ikke nu</string>
     <string name="mw_save_password_remember">Husk</string>
-    <string name="mw_speech_recognition_service_not_found">"Couldn't find Google speech engine"</string>
+    <string name="mw_speech_recognition_service_not_found">Kunne ikke finde Googles talegenerator</string>
     <string name="mw_status_bar_notification_info_overflow">999+</string>
     <string name="mw_time_picker_dialog_am">AM</string>
     <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
@@ -1174,6 +1176,13 @@ Forlad denne side nu?"</string>
     <string name="notification_download_completed">Korrekt downloadet</string>
     <string name="notification_download_failed">Kunne ikke downloade.</string>
     <string name="notification_wechat_expired_empty">WeChat har allerede slettet disse videoklip.</string>
+    <string name="offline_notification_text">Tryk for at åbne annoncen</string>
+    <string name="offline_notification_title">Se den annonce, du gemte, mens du var offline</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">Du får en notifikation med linket, når du er online igen</string>
+    <string name="offline_opt_in_decline">Nej tak</string>
+    <string name="offline_opt_in_message">Vi sender dig en notifikation med et link til annoncørens website.</string>
+    <string name="offline_opt_in_title">Åbn annoncen, når du er online igen.</string>
     <string name="ok">OK</string>
     <string name="open_app_confirm_message">Tillad denne side at åbne %s?</string>
     <string name="open_private_folder">Slip til skjulte mapper</string>
@@ -1597,6 +1606,15 @@ Nogle websteder bruger ikke din tidligere browserhistorik til at personalisere d
     <string name="restart_phone_bind_message">Det kan tage noget tid at modtage SMS. Start forfra alligevel?</string>
     <string name="restart_phone_bind_title">Skift gendannelsestelefon</string>
     <string name="return_to_homepage">Gå tilbage til startsiden</string>
+    <string name="risk_continue">Fortsæt</string>
+    <string name="risk_detail">Oplysninger</string>
+    <string name="risk_malicious_url">Dette website udgør muligvis sikkerhedsrisici.</string>
+    <string name="risk_protect_browsing">Mi Browser tjekker websites for sikkerhedsproblemer</string>
+    <string name="risk_safe_url">Dette website er sikkert</string>
+    <string name="risk_setting_des">Tillad Mi Browser at tjekke websites for sikkerhedsproblemer</string>
+    <string name="risk_setting_title">Sikker browsing</string>
+    <string name="risk_stop">Stop</string>
+    <string name="risk_unspecified_url">Der er et problem med dette websites sikkerhedscertifikat.</string>
     <string name="rlv_last_refreshing_time">Opdateret %1$s</string>
     <string name="rlv_loading_more">Lige et øjeblik…</string>
     <string name="rlv_pull_to_refresh">Træk ned for at opfriske</string>

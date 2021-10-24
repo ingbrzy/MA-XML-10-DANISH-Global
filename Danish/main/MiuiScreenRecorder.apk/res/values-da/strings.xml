@@ -228,11 +228,13 @@ Tryk for at se"</string>
     <string name="not_set">Ikke angivet</string>
     <string name="operation_delete">Slet</string>
     <string name="operation_send">Send</string>
+    <string name="permission_desc">Permissions details</string>
     <string name="permission_intro_microphone">For at optage lyd, når lydkilden er indstillet til mikrofon</string>
     <string name="permission_intro_storage">For at gemme skærmoptagelser</string>
     <string name="permission_microphone_desc">Bruger mikrofonen som lydkilde ved skærmoptagelser</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
+    <string name="privacy_settings">Privacy</string>
     <string name="quit_recording">Afslut Skærmoptager</string>
     <string name="recording_failure">Kunne ikke optage. Start forfra</string>
     <string name="recording_max_size">Optagelsen blev stoppet og gemt, fordi videofilen nåede sin størrelsesgrænse. Start optagelsen fra hvor du slap af, hvis du ikke er færdig endnu.</string>
@@ -337,6 +339,7 @@ Tryk for at se"</string>
     <string name="using_record_confirm_ok">Tillad</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
+    <string name="view_privacy">View Privacy Policy</string>
     <string name="view_recorded_file">Tryk for at se optaget fil</string>
     <string name="view_recorded_videos">Se optagelser</string>
     <string name="warning_recording_when_a2dp_connect">Din enhed understøtter ikke optagelse af systemlyde, mens der bruges Bluetooth-headset.</string>
