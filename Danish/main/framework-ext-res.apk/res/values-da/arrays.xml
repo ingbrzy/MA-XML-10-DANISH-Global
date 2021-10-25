@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>Prøv igen</item>
+        <item></item>
+        <item></item>
+        <item>Dæk fingeraftryksscanneren fuldstændigt og påfør tryk</item>
+        <item></item>
+        <item>Dæk fingeraftryksscanneren fuldstændigt og påfør tryk</item>
+        <item>Aftør fingeraftryksscanneren og prøv igen</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Dæk fingeraftryksscanneren fuldstændigt og påfør tryk</item>
+        <item>Dæk fingeraftryksscanneren fuldstændigt og påfør tryk</item>
+        <item>For hurtig! Kunne ikke detektere fingeraftryk</item>
+        <item>Flyt din finger en smule og prøv igen</item>
+        <item>Løft din finger og placér den på ny på scanneren</item>
+        <item>Hold din finger lidt længere på scanneren</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Bevæg din finger en smule</item>
+        <item>Dette fingeraftryk er blevet tilføjet. Brug en anden finger</item>
+    </string-array>
+</resources>

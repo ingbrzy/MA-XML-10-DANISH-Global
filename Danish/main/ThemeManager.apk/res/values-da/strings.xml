@@ -186,7 +186,9 @@
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Automatisk</string>
     <string name="exo_track_selection_none">Ingen</string>
     <string name="exo_track_selection_title_audio">Lyd</string>
@@ -310,6 +312,7 @@
     <string name="incompatible_dialog_ok">Forstået</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblemer</string>
     <string name="is_setting_wallpaper_message">Indstiller baggrund…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmer</string>
     <string name="item_resource_audio_optional_color_ring">Tilbagekaldsringetone</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -469,9 +472,6 @@
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Utilstrækkelig saldo)</string>
     <string name="payment_method">Betalingsmetode</string>
-    <string name="permission_desc">For at lagre gemte temaer og andre elementer</string>
-    <string name="permission_summary">Obligatoriske tilladelser (til appens grundlæggende tjenester og funktioner)</string>
-    <string name="permission_title">Få adgang til fotos eller filer på enheden</string>
     <string name="personal_recommend_desc">Modtag anbefalinger om indhold, baseret på dine præferencer</string>
     <string name="personal_recommend_title">Personaliserede anbefalinger</string>
     <string name="peyment_pay_now_btn">Betal</string>
@@ -530,7 +530,6 @@
     <string name="related_theme">Temaer</string>
     <string name="related_wallpaper">Baggrunde</string>
     <string name="reload">Prøv igen</string>
-    <string name="res_migrate_tip">For at gøre Temaer kompatible med de kommende versioner af Android flyttede vi dine downloadede elementer til en ny placering. Genstart appen for at anvende ændringer og se dit downloadede indhold.</string>
     <string name="resource_account_abnormal_state">Kontofejl. Vent et minut eller to og prøv så igen.</string>
     <string name="resource_account_fail_to_add">Kan ikke tilføje konto</string>
     <string name="resource_account_login">Log ind</string>
@@ -669,6 +668,7 @@
     <string name="resource_pack_price_info">Oprindelig pris: %1$s</string>
     <string name="resource_pack_warning">Du har allerede købt %1$d komponenter i dette tema. Det er billigere, hvis du køber de resterende komponenter enkeltvis.</string>
     <string name="resource_present">Gave</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Gratis</string>
     <string name="resource_price_unit">Mi Credits</string>
     <string name="resource_purchase_common_error">Der er opstået en fejl. Prøv igen</string>
@@ -680,7 +680,6 @@
     <string name="resource_ranking">Populær</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Betalt</string>
-    <string name="resource_right_ack_check_error">Denne kode udløb</string>
     <string name="resource_ringtone_default">Ringetoner</string>
     <string name="resource_ringtone_playing_error">Fejl</string>
     <string name="resource_ringtone_volume_mute">Ringetone sat på lydløs</string>
@@ -798,6 +797,7 @@
     <string name="sim_one">SIM 1</string>
     <string name="sim_two">SIM 2</string>
     <string name="similar_theme">Tilsvarende temaer</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_file">For at gemme downloadede elementer</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
@@ -908,6 +908,7 @@
     <string name="theme_is_external_priority_storage">Gem på SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen genstartes øjeblikkeligt for at anvende denne indstilling.</string>
     <string name="theme_multiple_button_title_customize">Brugertilpas</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_on_the_phone_alert">Kan ikke afspille under opkald</string>
     <string name="theme_select_others">Gennemse</string>

@@ -36,7 +36,6 @@
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">Kunne ikke låse op. %s.</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
-    <string name="close">Luk</string>
     <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -62,10 +61,10 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="evening">Eftermiddag</string>
     <string name="expand_button_title">Avanceret</string>
     <string name="find_device">Find enhed</string>
-    <string name="find_device_capture_done_notification_content">View the photo on i.mi.com</string>
-    <string name="find_device_capture_done_notification_title">Find device took a photo remotely</string>
-    <string name="find_device_capture_notification_content">A request to take a photo remotely with this device was submitted by your account</string>
-    <string name="find_device_capture_notification_title">Find device is about to take a photo</string>
+    <string name="find_device_capture_done_notification_content">Se fotoet på i.mi.com</string>
+    <string name="find_device_capture_done_notification_title">Find enhed tog et foto på afstand</string>
+    <string name="find_device_capture_notification_content">Din konto har indsendt en anmodning om at tage et foto på afstand med denne enhed</string>
+    <string name="find_device_capture_notification_title">Find enhed er ved at tage et foto</string>
     <string name="find_device_crash">Find enhed lukkede uventet.</string>
     <string name="find_device_error_access_denied">Adgang nægtet.</string>
     <string name="find_device_error_account_sys_timeout">Kunne ikke oprette forbindelse til Mi-konto.</string>
@@ -76,16 +75,14 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="find_device_error_server">Serverfejl (%s).</string>
     <string name="find_device_error_unknown">Ukendt fejl (%s).</string>
     <string name="find_device_noise_title">Find enhedsalarm</string>
-    <string name="find_device_notice">Gå til &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> for at finde og låse din enhed, markere den som mistet, slette data eller tage billeder på afstand.</string>
+    <string name="find_device_notice">Hvis din enhed er gået tabt, kan du besøge &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> og lokalisere, låse eller slette data på afstand.</string>
     <string name="find_device_notice_sms_alert_with_common_charge_hint">For at opdatere SIM-status og sørge for, at alle tjenester fungerer normalt, sendes én &lt;font color=#0097FF>&lt;b>betalings-sms&lt;/b>&lt;/font>, efter du har skiftet SIM-kort. Du vil blive opkrævet et beløb for denne sms af din udbyder.</string>
     <string name="find_device_notice_sms_alert_with_domestic_charge_hint">For at opdatere SIM-status og sørge for, at alle tjenester fungerer normalt, sendes én &lt;font color=#0097FF>&lt;b>indenlandsk betalings-sms&lt;/b>&lt;/font>, efter du har skiftet SIM-kort. Du vil blive opkrævet et beløb for denne sms af din udbyder.</string>
     <string name="find_device_notice_sms_alert_with_internal_charge_hint">For at opdatere SIM-status og sørge for, at alle tjenester fungerer normalt, sendes én &lt;font color=#0097FF>&lt;b>international betalings-sms&lt;/b>&lt;/font>, efter du har skiftet SIM-kort. Du vil blive opkrævet et beløb for denne sms af din udbyder.</string>
     <string name="find_device_stop_noise">Tryk på slukke lyden</string>
     <string name="find_device_storage_corrupted">Find enhed-lager beskadiget. Din enhed er nu usikker.</string>
-    <string name="find_device_success_title">Find enhed er slået til</string>
+    <string name="find_device_success_title">Find enhed er aktiveret</string>
     <string name="find_device_telephony_fault">Find enhed: Telefonfejl (%s).</string>
-    <string name="fmt_chinese_date">N月e</string>
-    <string name="fmt_date">D</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">MMMM dd</string>
@@ -101,11 +98,7 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="fmt_date_short_month_day">MM/dd</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
     <string name="fmt_date_short_year_month_day">MM/dd/yyyy</string>
-    <string name="fmt_date_time">D T</string>
-    <string name="fmt_date_time_timezone">D T z</string>
-    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
-    <string name="fmt_time">T</string>
     <string name="fmt_time_12hour">hh</string>
     <string name="fmt_time_12hour_minute">hh:mm</string>
     <string name="fmt_time_12hour_minute_pm">tt:mm aa</string>
@@ -124,18 +117,8 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="fmt_time_minute_second_millis">m:s.S</string>
     <string name="fmt_time_second">s</string>
     <string name="fmt_time_second_millis">s.S</string>
-    <string name="fmt_time_timezone">T z</string>
-    <string name="fmt_timezone">z</string>
-    <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
-    <string name="fmt_weekday_time">W T</string>
-    <string name="fmt_weekday_time_timezone">W T z</string>
-    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -229,7 +212,6 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
     <string name="search_menu_title">Søg</string>
-    <string name="send">Send</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captcha må ikke være tom</string>
     <string name="stop_on_empty_password">Adgangskoden må ikke være tom</string>

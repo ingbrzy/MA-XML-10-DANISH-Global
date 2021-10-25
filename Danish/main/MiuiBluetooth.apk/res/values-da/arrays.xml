@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="animator_duration_scale_entries">
-        <item>Animation fra</item>
+        <item>Animation slukket</item>
         <item>Animationsskala 0,5x</item>
         <item>Animationsskala 1x</item>
         <item>Animationsskala 1,5x</item>
@@ -29,85 +29,97 @@
         <item>Xiaomi Wear</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Brug systemvalg (standard)</item>
-        <item>16 bit pr. eksempel</item>
-        <item>24 bit pr. eksempel</item>
-        <item>32 bit pr. eksempel</item>
+        <item>Brug systempræference (standard)</item>
+        <item>16 bits/prøve</item>
+        <item>24 bits/prøve</item>
+        <item>32 bits/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Brug systemvalg (standard)</item>
-        <item>16 bit pr. eksempel</item>
-        <item>24 bit pr. eksempel</item>
-        <item>32 bit pr. eksempel</item>
+        <item>Brug systempræference (standard)</item>
+        <item>16 bits/prøve</item>
+        <item>24 bits/prøve</item>
+        <item>32 bits/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
         <item>Optimeret til lydkvalitet</item>
-        <item>Afbalancer lyd- og forbindelseskvalitet</item>
+        <item>Velafbalanceret lyd- og forbindelseskvalitet</item>
         <item>Optimeret til forbindelseskvalitet</item>
-        <item>Bedste resultat (tilpasset bithastighed)</item>
+        <item>Bedste præstation (auto-bithastighed)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimeret til lydkvalitet (990 kbps/909 kbps)</item>
-        <item>Afbalancer lyd- og forbindelseskvalitet (660 kbps/606 kbps)</item>
-        <item>Optimeret til forbindelseskvalitet (330 kbps/303 kbps)</item>
-        <item>Bedste resultat (tilpasset bithastighed)</item>
+        <item>Optimeret til lydkvalitet (990kbps/909kbps)</item>
+        <item>Optimeret til lyd- og forbindelseskvalitet (660kbps/606kbps)</item>
+        <item>Optimeret til forbindelseskvalitet (330kbps/303kbps)</item>
+        <item>Bedste præstation (auto-bithastighed)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™-lyd</item>
-        <item>Qualcomm® aptX™ HD-lyd</item>
+        <item>Qualcomm® aptX™ lyd</item>
+        <item>Qualcomm® aptX™ HD lyd</item>
         <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive-audio</item>
+        <item>Qualcomm® aptX™ TWS+ lyd</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™-lyd</item>
-        <item>Qualcomm® aptX™ HD-lyd</item>
+        <item>Qualcomm® aptX™ lyd</item>
+        <item>Qualcomm® aptX™ HD lyd</item>
         <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive-audio</item>
+        <item>Qualcomm® aptX™ TWS+ lyd</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Aktiver valgfrie codecs</item>
+        <item>Deaktiver valgfrie codecs</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
-        <item>, aktiv</item>
-        <item>, aktiv (medier)</item>
-        <item>, aktiv (telefon)</item>
+        <item>" | Aktiv"</item>
+        <item>" | Aktiv (medie)"</item>
+        <item>" | Aktiv (telefon)"</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp15</item>
-        <item>avrcp13</item>
         <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.5 (standard)</item>
+        <item>AVRCP 1.4 (standard)</item>
         <item>AVRCP 1.3</item>
-        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
@@ -122,39 +134,41 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Deaktiveret</item>
-        <item>Filtreret er aktiveret</item>
+        <item>Filtreret</item>
         <item>Aktiveret</item>
+        <item>Overskrifter filtreret</item>
+        <item>Mediepakker filtreret</item>
     </string-array>
     <string-array name="color_mode_descriptions">
-        <item>Forbedrede farver</item>
-        <item>Naturlige farver, som øjet opfatter dem</item>
-        <item>Farver, der er optimeret til digitalt indhold</item>
+        <item>Udvidede farver</item>
+        <item>Naturlige farver som set med øjet</item>
+        <item>Farver optimeret til digitalt indhold</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Klare (standard)</item>
-        <item>Naturlige</item>
+        <item>Vibrerende (standard)</item>
+        <item>Naturlig</item>
         <item>Standard</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Fra</item>
-        <item>Vis områder med overlap</item>
-        <item>Vis områder for deuteranomali</item>
+        <item>Slukket</item>
+        <item>Vis overtegningsområder</item>
+        <item>Vis områder for deuter-uregelmæssigheder</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Ingen</item>
         <item>Logcat</item>
         <item>Systrace (grafik)</item>
-        <item>Kaldestak på glGetError</item>
+        <item>Sæt stak tændt for glGetError</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Brug aldrig HDCP-kontrol</item>
-        <item>Brug kun HDCP-kontrol ved DRM-indhold</item>
+        <item>Brug kun HDCP-kontrol til DRM-indhold</item>
         <item>Brug altid HDCP-kontrol</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Tjek aldrig</item>
-        <item>Tjek kun for DRM-indhold</item>
-        <item>Tjek altid</item>
+        <item>Kontrollér aldrig</item>
+        <item>Kontrollér kun for DRM-indhold</item>
+        <item>Kontrollér altid</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>Ingen</item>
@@ -171,51 +185,51 @@
         <item>720p, 1080p (dobbelt skærm)</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Fra</item>
-        <item>64 kB</item>
-        <item>256 kB</item>
+        <item>Slukket</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
         <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Fra</item>
-        <item>64 kB pr. logbuffer</item>
-        <item>256 kB pr. logbuffer</item>
+        <item>Slukket</item>
+        <item>64 KB pr. logbuffer</item>
+        <item>256 KB pr. logbuffer</item>
         <item>1 MB pr. logbuffer</item>
         <item>4 MB pr. logbuffer</item>
-        <item>8 MB pr. logbuffer</item>
+        <item>16 MB pr. logbuffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Fra</item>
-        <item>64 kB</item>
-        <item>256 kB</item>
+        <item>Slukket</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
         <item>1 MB</item>
         <item>4 MB</item>
-        <item>8 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Fra</item>
+        <item>Slukket</item>
         <item>Alle logbuffere</item>
-        <item>Alle undtagen radiologbuffere</item>
-        <item>kun logbuffer for kerne</item>
+        <item>Alt undtagen radio-logbuffere</item>
+        <item>Kun headset-logbuffer</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Fra</item>
-        <item>Alle</item>
-        <item>Radio undtaget</item>
-        <item>kun kerne</item>
+        <item>Slukket</item>
+        <item>Alt</item>
+        <item>Alt undtagen radio</item>
+        <item>Kun headset</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Fra</item>
-        <item>Tegn ikke-rektangulært klippeområde med blåt</item>
+        <item>Slukket</item>
+        <item>Tegn ikke-rektangulært klipområde i blåt</item>
         <item>Fremhæv testede tegnekommandoer med grønt</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Fra</item>
-        <item>På skærmen som søjler</item>
-        <item>I adb shell dumpsys gfxinfo</item>
+        <item>Slukket</item>
+        <item>På skærm som bjælker</item>
+        <item>In adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animation fra</item>
+        <item>Animation slukket</item>
         <item>Animationsskala 0,5x</item>
         <item>Animationsskala 1x</item>
         <item>Animationsskala 1,5x</item>
@@ -229,63 +243,60 @@
         <item>Normal</item>
         <item>Hurtig</item>
         <item>Hurtigere</item>
-        <item>Meget hurtig</item>
-        <item>Lynhurtig</item>
-        <item>Ekstra lynhurtig</item>
+        <item>Meget hurtigt</item>
+        <item>Hastigt</item>
+        <item>Meget hastigt</item>
         <item>Hurtigst</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>Oplader</item>
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Lydkilde</item>
+        <item>RNDIS (USB-ethernet)</item>
+        <item>Audiokilde</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scanner ...</item>
-        <item>Opretter forbindelse...</item>
-        <item>Godkender...</item>
-        <item>Henter IP-adresse…</item>
+        <item>Scanner…</item>
+        <item>Tilslutter…</item>
+        <item>Autentificerer…</item>
+        <item>Får IP-adresse…</item>
         <item>Tilsluttet</item>
-        <item>Sat på pause</item>
-        <item>Afbryder ...</item>
-        <item>Afbrudt</item>
-        <item>Mislykkedes</item>
+        <item>Suspenderet</item>
+        <item>Afbryder…</item>
+        <item>Forbindelse afbrudt</item>
+        <item>Lykkedes ikke</item>
         <item>Blokeret</item>
         <item>Undgår midlertidigt dårlig forbindelse</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scanner ...</item>
-        <item>Opretter forbindelse til %1$s ...</item>
-        <item>Godkender med %1$s ...</item>
-        <item>Henter IP-adresse fra %1$s ...</item>
-        <item>Forbundet til %1$s</item>
-        <item>Sat på pause</item>
-        <item>Afbryder fra %1$s ...</item>
-        <item>Afbrudt</item>
-        <item>Mislykkedes</item>
-        <item>Blokeret</item>
-        <item>Undgår midlertidigt dårlig forbindelse</item>
-    </string-array>
-    <string-array name="wifitrackerlib_wifi_status">
-        <item></item>
-        <item>Søger…</item>
-        <item>Opretter forbindelse…</item>
-        <item>Godkender…</item>
-        <item>Henter IP-adresse…</item>
-        <item>Forbundet</item>
+        <item>Scanner…</item>
+        <item>Tillutter til %1$s…</item>
+        <item>Autentificerer med %1$s…</item>
+        <item>Får IP-adresse fra %1$s…</item>
+        <item>Tilsluttet til %1$s</item>
         <item>Suspenderet</item>
-        <item>Afbryder…</item>
-        <item>Afbrudt</item>
-        <item>Mislykkedes</item>
+        <item>Afbryder fra %1$s…</item>
+        <item>Forbindelse afbrudt</item>
+        <item>Lykkedes ikke</item>
         <item>Blokeret</item>
         <item>Undgår midlertidigt dårlig forbindelse</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animation fra</item>
+        <item>Animation slukket</item>
         <item>Animationsskala 0,5x</item>
         <item>Animationsskala 1x</item>
         <item>Animationsskala 1,5x</item>
