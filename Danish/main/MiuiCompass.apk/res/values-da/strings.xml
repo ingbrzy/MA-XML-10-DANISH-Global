@@ -51,6 +51,7 @@
     <string name="calibrate_success">Kalibreret</string>
     <string name="calibrate_tip">Hæld din enhed for at rulle bolden rundt i cirklen.</string>
     <string name="calibrate_title">Kalibrer kompas</string>
+    <string name="calibrating">Kalibrerer kompas</string>
     <string name="cancel">Annuller</string>
     <string name="cannot_get_location">--</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
@@ -225,6 +226,7 @@
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mere</string>
     <string name="morning">Morgen</string>
+    <string name="new_cta_app_purpose">se anvisninger og koordinater</string>
     <string name="new_cta_v2_app_purpose">Viser retninger, koordinater, atmosfærisk tryk og aktuel højde</string>
     <string name="new_permission_camera_desc">For at kalibrere</string>
     <string name="new_permission_location_desc">For at vise koordinater</string>
@@ -236,6 +238,7 @@
     <string name="open_perm_msg">Kompas er nødt til at få adgang til placeringsoplysninger og kamera. Det er nødvendigt for at kunne bestemme koordinater og give live-forhåndsvisninger. Tillad?</string>
     <string name="open_perm_msg_no_camera">Kompas skal have adgang til placeringsoplysninger for at kunne bestemme koordinater. Tillad?</string>
     <string name="open_perm_title">Tilladelse påkrævet</string>
+    <string name="pageIndicator">%1$s. %2$s.</string>
     <string name="permission_camera_desc">Til visning af azimuth i live preview</string>
     <string name="permission_description">Oplysninger om tilladelser</string>
     <string name="permission_location_desc">For visning af koordinater</string>

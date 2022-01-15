@@ -128,6 +128,10 @@
         <item quantity="other">Fundet %d optagelser</item>
         <item quantity="one">Fundet %d optagelse</item>
     </plurals>
+    <plurals name="text_btn_list_with_message">
+        <item quantity="other">%d nye optagelser</item>
+        <item quantity="one">%d ny optagelse</item>
+    </plurals>
     <plurals name="time_left_for_clear_file">
         <item quantity="other">%d dage tilbage</item>
         <item quantity="one">%d dag tilbage</item>

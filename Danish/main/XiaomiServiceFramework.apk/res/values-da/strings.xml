@@ -10,6 +10,7 @@ Enheds-id skal være en gyldig IMEI- eller MAC-adresse. Uden enheds-id vil visse
     <string name="explain_send_sms_permission_title">Bekræft dit telefonnummer</string>
     <string name="pop_up_allow_notify_dialog">Tillad</string>
     <string name="pop_up_deny_notify_dialog">Afvis</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sync_notification_title_format">Aktuelt synkroniseringselement: %1$s</string>
     <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="xmsf_activate_info">XMSF aktiverer oplysninger</string>

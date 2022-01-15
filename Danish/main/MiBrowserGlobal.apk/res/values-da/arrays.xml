@@ -12,12 +12,20 @@
         <item>Grøn</item>
         <item>Blå</item>
     </string-array>
+    <string-array name="nf_ad_feedback_reason">
+        <item>Ikke interessant</item>
+        <item>Set før</item>
+        <item>Lav kvalitet</item>
+        <item>Upassende foto</item>
+        <item>Bedragerisk information</item>
+    </string-array>
     <string-array name="nf_feedback_reason">
         <item>Anstødeligt indhold</item>
         <item>Løgn</item>
         <item>Gamle nyheder</item>
         <item>Ekstremistiske visninger</item>
         <item>Underbevidst reklamering</item>
+        <item>Jeg bryder mig ikke om det</item>
     </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
         <item>Gå tilbage/fremad</item>

@@ -67,6 +67,7 @@
     <string name="alert_vibrate_enable_summary">Vibrer, når alarm lyder</string>
     <string name="alert_volume">Lydstyrke for ringetone</string>
     <string name="alert_volume_summary">Indstil lydstyrke for ringetone for alarmer og timere</string>
+    <string name="alert_xiaoai_ringtone_desc">Mi AI taler…</string>
     <string name="already_exist">Denne timer findes allerede</string>
     <string name="am">AM</string>
     <string name="analog_gadget">Analogt ur</string>
@@ -110,6 +111,7 @@
     <string name="channel_name_timer">Timer</string>
     <string name="check_theme_app_install">Sørg for, at Themes-appen er installeret på din enhed.</string>
     <string name="check_voice_assist_app_version">Opdater Mi Al til den seneste version.</string>
+    <string name="cities_show_limit_desc">Kan ikke vises flere ure</string>
     <string name="city_time_contrast_desc">Tryk for at sammenligne tid i forskellige byer</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="clock_bg_button_setting_summary_common">Vælg baggrundsfarve for appen Ur</string>
@@ -285,7 +287,7 @@
     <string name="life_post_weather_invalid">Tryk for at få oplysninger om vejret</string>
     <string name="life_post_weather_no_network">Tilslut til netværket for at opdatere vejrudsigt</string>
     <string name="life_post_weather_temperature_centigrade">°</string>
-    <string name="listen_news_privacy">&lt;Data>For at kunne tilbyde personlige tjenester og inkludere morgennyheder i dine alarmer, skal uret have forbindelse til internettet. Inden uret bruges, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Fortrolighedspolitik&lt;/a>. Accepter?&lt;/Data></string>
+    <string name="listen_news_privacy">&lt;Data>For at kunne tilbyde personlige tjenester og inkludere morgennyheder i dine alarmer, skal uret have forbindelse til internettet. Inden uret bruges, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>. Accepter?&lt;/Data></string>
     <string name="loading_ringtone">Indlæser ringetone…</string>
     <string name="menu_add_worldclock">Tilføj ur</string>
     <string name="menu_desk_clock">Ur</string>
@@ -339,9 +341,9 @@
     <string name="module_update_success">Opdateret audio til intelligente MIUI-alarmer blev downloadet. Du kan sende intelligente MIUI-alarmer under Clock-indstillinger.</string>
     <string name="module_update_success_control">Forstået</string>
     <string name="module_weather_ringtone_download_data">Vejralarmen vælger forskellige ringetoner alt efter det aktuelle vejr. Uret skal downloade ≈30MB lyde for at få det til at fungere. Download nu?</string>
-    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Vejralarmen vælger forskellige ringetoner alt efter det aktuelle vejr. Uret skal være tilsluttet til internettet for at downloade ≈30 MB lyd. Inden uret bruges, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Fortrolighedspolitik&lt;/a>. Accepter?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Vejralarmen vælger forskellige ringetoner alt efter det aktuelle vejr. Uret skal være tilsluttet til internettet for at downloade ≈30 MB lyd. Inden uret bruges, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>. Accepter?&lt;/Data></string>
     <string name="module_weather_ringtone_download_wifi">Vejralarmen vælger forskellige ringetoner alt efter det aktuelle vejr. Uret skal downloade lyde for at få det til at fungere. Download nu?</string>
-    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Vejralarmen vælger forskellige ringetoner alt efter det aktuelle vejr. Uret skal være tilsluttet til internettet for at downloade lyde. Inden uret bruges, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Fortrolighedspolitik&lt;/a>. Accepter?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Vejralarmen vælger forskellige ringetoner alt efter det aktuelle vejr. Uret skal være tilsluttet til internettet for at downloade lyde. Inden uret bruges, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>. Accepter?&lt;/Data></string>
     <string name="module_weather_ringtone_introduce">Vejralarmen vælger forskellige ringetoner alt efter det aktuelle vejr. Den tillader også, at du lytter til den aktuelle vejrmelding om morgenen.</string>
     <string name="module_weather_ringtone_introduce_global">Vejralarmen vælger forskellige ringetoner alt efter det aktuelle vejr.</string>
     <string name="module_weather_ringtone_update_data">Vejralarmen kommer nu med baggrundsmusik og bedre talte bekendtgørelser. Uret skal downloade ≈30MB lyde for at få det til at fungere. Download nu?</string>
@@ -354,9 +356,9 @@
     <string name="module_week_ringtone_update_data">Naturalarmer afspiller forskellige lyde afhængig af datoen. Uret skal downloade ≈30 MB lyd, for at det kan fungere. Download nu?</string>
     <string name="module_week_ringtone_update_success">Naturalarmer afspiller forskellige lyde afhængig af datoen. Du kan oprette en ny alarm for at prøve denne funktion.</string>
     <string name="module_white_noise_download_data">Uret skal downloade lydfiler til omgivende støjtimere. Der kræves ≈30 MB af dine mobildata til dette download. Download nu?</string>
-    <string name="module_white_noise_download_data_privacy">&lt;Data>For at kunne downloade lydfiler til omgivende støjtimere (≈30 MB) og tilbyde personlige tjenester skal uret have forbindelse til internettet. Inden du kan bruge uret, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Fortrolighedspolitik&lt;/a>. Du bruger mobildata nu. Accepter?&lt;/Data></string>
+    <string name="module_white_noise_download_data_privacy">&lt;Data>For at kunne downloade lydfiler til omgivende støjtimere (≈30 MB) og tilbyde personlige tjenester skal uret have forbindelse til internettet. Inden du kan bruge uret, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>. Du bruger mobildata nu. Accepter?&lt;/Data></string>
     <string name="module_white_noise_download_wifi">Uret skal downloade lydfiler til omgivende støjtimere. Download nu?</string>
-    <string name="module_white_noise_download_wifi_privacy">&lt;Data>For at kunne downloade lydfiler til omgivende støjtimere og tilbyde tilpassede tjenester skal uret have forbindelse til internettet. Inden du kan bruge uret, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Fortrolighedspolitik&lt;/a>. Accepter?&lt;/Data></string>
+    <string name="module_white_noise_download_wifi_privacy">&lt;Data>For at kunne downloade lydfiler til timere vedrørende omgivende støj og tilbyde tilpassede tjenester skal Ur tilslutte til internettet. Inden du kan bruge Ur, skal du også læse og acceptere vores &lt;a href=\"%1$s\">brugeraftale&lt;/a> og &lt;a href=\"%2$s\">privatlivspolitik&lt;/a>. Acceptér?&lt;/Data></string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
     <string name="monday_shortest">Man</string>
@@ -405,7 +407,7 @@
     <string name="net_permission_cancel">Accepter ikke</string>
     <string name="net_permission_ok">Accepter</string>
     <string name="network_privacy">&lt;Data>For at kunne hente relevante oplysninger om lokale helligdage og indstille alarmer skal uret have forbindelse til internettet. Inden uret bruges, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>. Acceptér?&lt;/Data></string>
-    <string name="network_privacy_global">&lt;Data>For at kunne tilbyde personlige tjenester skal uret have forbindelse til internettet. Inden uret bruges, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Fortrolighedspolitik&lt;/a>. Accepter?&lt;/Data></string>
+    <string name="network_privacy_global">&lt;Data>For at kunne tilbyde personlige tjenester skal uret have forbindelse til internettet. Inden uret bruges, skal du også læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>. Accepter?&lt;/Data></string>
     <string name="never">En gang</string>
     <string name="new_label">Tilføj alarmlabel</string>
     <string name="night">Aften</string>
@@ -430,8 +432,8 @@
     <string name="personal_recommend">Anbefalinger til personaliseret indhold</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
-    <string name="privacy_policy">Fortrolighedspolitik</string>
-    <string name="privacy_policy_title">Fortrolighedspolitik</string>
+    <string name="privacy_policy">Privatlivspolitik</string>
+    <string name="privacy_policy_title">Privatlivspolitik</string>
     <string name="privacy_settings_title">Privatliv</string>
     <string name="query_privacy_policy">Se privatlivspolitik</string>
     <string name="reach_upper_limit">Kan ikke tilføje flere timere</string>
@@ -444,6 +446,7 @@
     <string name="repeat_count_value_ten">10</string>
     <string name="repeat_count_value_three">3</string>
     <string name="repeat_count_value_two">2</string>
+    <string name="repeat_type">Gentag</string>
     <string name="reset">Nulstil</string>
     <string name="revert">Vend</string>
     <string name="ringtone_all">Alle ringetoner</string>
@@ -463,7 +466,9 @@
     <string name="search_stopwatch_keywords">Stopur</string>
     <string name="search_timer_keywords">Timer</string>
     <string name="search_worldclock_keywords">Tid;Verdensur;Ur</string>
+    <string name="select_all">Vælg alle</string>
     <string name="select_operation">Vælg</string>
+    <string name="selected">Valgt</string>
     <string name="send">Send</string>
     <string name="set_alarm">Vælg tid</string>
     <string name="set_alarm_choose_ringtone">Vælg ringetone</string>
@@ -486,6 +491,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmen går af, hvis den er sat til mindst 10 minutter efter, du slukker for din enhed</string>
     <string name="shutdown_alarm_title">Sluk for alarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sluk én gang på %s</string>
     <string name="sleep_analysis">Statistikker</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -529,6 +535,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ingen overlap</string>
     <string name="stopwatch_reset_notification">Stopur blev nulstillet</string>
     <string name="stopwatch_running_notification">Stopur</string>
@@ -537,6 +544,7 @@
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Tillad denne app at oprette forbindelse til internettet for at få adgang til alle dens funktioner.</string>
     <string name="system_permission_main_purpose">Visning af tid, indstilling af alarmer og timere ved hjælp af stopur</string>
     <string name="system_permission_purpose">Opretter hverdagsalarmer og indstiller tilpassede ringetoner</string>
@@ -643,6 +651,11 @@
     <string name="tuesday_shortest">Tirs</string>
     <string name="turn_off_a_repeat_alarm">Sluk en repeterende alarm</string>
     <string name="turn_off_this_repeat_alarm">Sluk denne repeterende alarm</string>
+    <string name="tv_blank_list_other_text">Intet her endnu</string>
+    <string name="tv_blank_list_show_text">Intet her endnu. Søg efter en placering for at tilføje den til dit verdensur.</string>
+    <string name="tv_world_clock_edit_title1">Placeringer vist på startskærmen</string>
+    <string name="tv_world_clock_edit_title2">Andre gemte placeringer</string>
+    <string name="unselect_all">Fravælg alle</string>
     <string name="upcoming_alarm">Kommende alarm: %s</string>
     <string name="upcoming_alarm_hint">Nu kan du slukke for denne alarm</string>
     <string name="update_health_app">Opdater Xiaomi Health</string>
@@ -670,8 +683,10 @@
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="week_ringtone_recommend_desc">Naturalarm afspiller forskellige lyde afhængig af datoen. Indstil den til at være din standardalarm?</string>
+    <string name="white_noise">Omgivende støj</string>
     <string name="white_noise_selector">Vælg lyd</string>
     <string name="workday_alarm_clock">Hverdagsalarm</string>
+    <string name="worldclock_edit_label">Verdensur</string>
     <string name="worldclock_empty_text">Ingen ure</string>
     <string name="worldclock_input_hint_text">Søg efter land eller by</string>
     <string name="worldclock_local_time">Lokal tid</string>
@@ -689,5 +704,6 @@
     <string name="worldcolock_timezone_date">dd MMM</string>
     <string name="worldcolock_timezone_gap">%s B</string>
     <string name="worldcolock_timezone_local">Samme som lokal tid</string>
+    <string name="xiaoai_ringtone_title">Mi AI-ringetoner</string>
     <string name="yesterday">I går</string>
 </resources>

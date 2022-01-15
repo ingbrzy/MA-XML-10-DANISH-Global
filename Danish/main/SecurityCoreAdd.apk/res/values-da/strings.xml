@@ -69,6 +69,7 @@ føjes denne funktion automatisk til Andet rum."</string>
     <string name="close_second_space">Slettede Andet rum</string>
     <string name="close_second_space_success">Slettede Andet rum</string>
     <string name="closed">Slået fra</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv igen.</string>
     <string name="complete_setting">Afslut</string>
     <string name="complete_setting_sub_title">Du kan også komme tilbage senere for at tilpasse indstillingerne.</string>
     <string name="complete_setting_title">Du er klar!</string>

@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="access_denied_info">For mange forsøg. Vent et øjeblik eller to og prøv så igen.</string>
     <string name="account_bind_secure_email_title">Tilføj gendannelses-e-mail</string>
     <string name="account_bind_secure_phone_title">Tilføj gendannelsestelefonnummer</string>
     <string name="account_crop_user_avatar">Beskær foto</string>
@@ -79,6 +80,7 @@
     <string name="confirm_bundled_phone_dialog_title">Bekræft tilknyttet telefonnummer</string>
     <string name="confirm_new_pwd">Bekræft ny adgangskode</string>
     <string name="confirm_unbundled_phone_dialog_message">Dette telefonnummer var tilknyttet Mi-konto %2$s den %1$s. Hvis du fortsætter, vil det ikke længere være tilknyttet Mi-konto %3$s. Fortsæt?</string>
+    <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -88,6 +90,9 @@
     <string name="diagnosis_log_sent_format">"Logfiler er nu sendt.
 ID:%s
 Send denne kode til supervisoren."</string>
+    <string name="doing_login">Logger ind…</string>
+    <string name="doing_query_account">Tjekker kontooplysninger…</string>
+    <string name="doing_register">Opretter konto…</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="eras_ad">e.v.t.</string>
@@ -96,6 +101,7 @@ Send denne kode til supervisoren."</string>
     <string name="error_invalid_bind_address">Den indtastede e-mailadresse er ugyldig.</string>
     <string name="evening">Eftermiddag</string>
     <string name="exceed_binded_phone_times_notice">Dette telefonnummer er allerede tilknyttet en anden Mi-konto.</string>
+    <string name="expand_button_title">Avanceret</string>
     <string name="failed_dup_secure_phone_number">Telefonnummeret er allerede tilknyttet en anden Mi-konto</string>
     <string name="find_psw">Glem adgangskode</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -159,13 +165,20 @@ Send denne kode til supervisoren."</string>
     <string name="get_phone_bind_exceed_limit">Du kan tilknytte op til 3 Mi-konti til et telefonnummer. Kan ikke tilføje nye konti.</string>
     <string name="get_phone_verifycode_exceed_limit">For mange bekræftelseskoder sendt til dette nummer. Vent 24 timer og prøv igen.</string>
     <string name="goto_sign_up">Opret konto</string>
+    <string name="i_know">Forstået</string>
     <string name="identity">Identifikation</string>
     <string name="inconsistent_pwd">Adgangskoder er ikke ens</string>
     <string name="input_email_address_notice">Vi anvender denne e-mail til at verificere din konto</string>
+    <string name="input_length_exceeds_limit">Den indtastede tekst er for lang</string>
     <string name="input_new_pwd">Indtast ny adgangskode</string>
     <string name="isornot_your_mi_account">Er dette din Mi Account?</string>
     <string name="just_a_second">Lige et øjeblik…</string>
     <string name="loading">Lige et øjeblik…</string>
+    <string name="login_by_local_phone_long_text">Log på nu</string>
+    <string name="login_by_local_phone_short_text">Log på</string>
+    <string name="login_other">En anden Mi-konto</string>
+    <string name="login_register_by_local_phone_long_text">Opret konto</string>
+    <string name="login_with_sns">Andre måder at logge ind på</string>
     <string name="logout_account">Log ud</string>
     <string name="midnight">Nat</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
@@ -231,12 +244,16 @@ Send denne kode til supervisoren."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mere</string>
     <string name="morning">Morgen</string>
+    <string name="network_error_info">Der opstod en netværksfejl. Kontrollér dine netværksindstillinger og prøv igen.</string>
+    <string name="network_timeout_info">Kunne ikke oprette forbindelse til netværket. Prøv igen.</string>
     <string name="nick_name">Kaldenavn</string>
     <string name="night">Aften</string>
     <string name="no_account">Ikke logget ind</string>
     <string name="no_phone">Intet telefonnummer</string>
     <string name="noon">Middag</string>
+    <string name="not_set">Ikke angivet</string>
     <string name="ok">OK</string>
+    <string name="open_settings">Indstillinger</string>
     <string name="passport_access_denied">Adgang nægtet</string>
     <string name="passport_account_label">Mi-konto</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
@@ -244,6 +261,7 @@ Send denne kode til supervisoren."</string>
     <string name="passport_area_code_title">Landekode</string>
     <string name="passport_bad_authentication">Ugyldigt brugernavn eller adgangskode</string>
     <string name="passport_barcode_add_account_prompt">For at tilføje en konto skal du scanne QR-koden igen, efter du har logget ind.</string>
+    <string name="passport_can_not_receive_verification_code">Kan du ikke modtage verifikationskoden?</string>
     <string name="passport_captcha_title">Captcha</string>
     <string name="passport_checking_account">Kontrollerer adgangskode…</string>
     <string name="passport_close">Luk</string>
@@ -332,8 +350,19 @@ Send denne kode til supervisoren."</string>
     <string name="phone_number">Telefonnummer</string>
     <string name="photoPickerNotFoundText">Ingen fotos tilgængelige.</string>
     <string name="pm">PM</string>
+    <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
+    <string name="progressbar_title">Tjekker for sikkerhedsproblemer…</string>
     <string name="psw_hint">Adgangskode</string>
     <string name="psw_sign_in">Log på ved hjælp af adgangskode</string>
+    <string name="register_by_local_phone_long_text">Opret konto</string>
+    <string name="register_by_local_phone_short_text">Opret konto</string>
+    <string name="request_agree">Tillad</string>
+    <string name="request_camera_permission_message">Vi vil beskytte dine oplysninger i henhold til de relevante love og bestemmelser. Denne app skal have følgende tilladelser for at fungere normalt:&lt;br>&lt;br>&lt;b>Brug af kamera (for at bruge dit profilfoto)&lt;/b>&lt;br>&lt;br>Hvis du ikke vil give sådanne tilladelser, vil du ikke kunne bruge nogle af denne apps funktioner. Men dens grundlæggende funktioner vil du stadig kunne bruge. Du kan altid begrænse tilladelser eller tilbagekalde din autorisation i Indstillinger.</string>
+    <string name="request_cancel">Annuller</string>
+    <string name="request_error_invalid_token">Kunne ikke verificere</string>
+    <string name="request_error_network">Der opstod en netværksfejl. Kontrollér dine netværksindstillinger og prøv igen.</string>
+    <string name="request_error_unknown">Der opstod en systemfejl. Gå tilbage og prøv igen.</string>
+    <string name="request_gallery_permission_message">Tillad adgang til Galleri:&lt;br />For at opsætte profilbilleder</string>
     <string name="resend_active_email">Gensend</string>
     <string name="resend_email_reach_limit_message">Du har anmodet om for mange verifikations-e-mails. Tjek, om verifikations-e-mailen skulle være i din spammappe.</string>
     <string name="resend_email_reach_limit_title">For mange forsøg</string>
@@ -353,15 +382,19 @@ Send denne kode til supervisoren."</string>
     <string name="service_error">Serverfejl</string>
     <string name="set_success">Ændret</string>
     <string name="sign_in">Logger ind</string>
-    <string name="sign_in_progress">Logger ind/u2026</string>
+    <string name="sign_in_progress">Logger ind…</string>
     <string name="sign_in_title">Log ind med din Mi-konto</string>
+    <string name="skip_query_account">Spring over</string>
     <string name="sms_send_success">Afsendt</string>
     <string name="sns_access_token_expired_warning">Session er udløbet. Log ind igen for at forbinde denne konto igen.</string>
     <string name="sns_bind_limit">For mange forsøg. Prøv andre måder at logge ind på.</string>
     <string name="sns_sign_in">Andre måder at logge ind på</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="system_error_info">Systemet er optaget. Vent et minut eller to og prøv igen.</string>
     <string name="temporary_not_available">Denne funktion er endnu ikke tilgængelig</string>
     <string name="the_anniversary_of_lifting_martial_law">Jubilæum for indførelse af undtagelsestilstand</string>
     <string name="the_anti_aggression_day">Antiaggressionsdag</string>
@@ -417,13 +450,26 @@ Send denne kode til supervisoren."</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>
     <string name="tuesday_shortest">Tirs</string>
+    <string name="unknown_error_info">Ukendt fejl</string>
     <string name="update_email_address_dialog_message">Du skal verificere din identitet, inden du kan opdatere gendannelses-e-mailen.</string>
     <string name="update_email_address_dialog_title">Opdatér gendannelses-e-mail</string>
     <string name="update_phone_notice">Skift sikkerhedsindstillinger</string>
     <string name="upload_error_log">Upload logfiler</string>
+    <string name="user_agreement_hint_3rd_app">&lt;Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a> og Mi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a>, Mi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a> samt &lt;a href=%5$s>vilkår og betingelser for China Mobiles verifikationstjenester&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a>, Mi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a> samt &lt;a href=%5$s>vilkår og betingelser for eSurfings tjenester vedrørende kontoverifikation&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a>, Mi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a> samt &lt;a href=%5$s>vilkår og betingelser for China Unicoms verifikationstjenester&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Jeg har læst og accepteret Mi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_first_login">Vi opretter automatisk en konto, hvis du bruger dit telefonnummer for første gang.</string>
+    <string name="user_agreement_hint_with_mobile">&lt;Data>Jeg har læst og accepteret Mi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for China Mobiles verifikationstjenester&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_telecom">&lt;Data>Jeg har læst og accepteret Mi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for eSurfings tjenester vedrørende kontoverifikation&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_unicom">&lt;Data>Jeg har læst og accepteret Mi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for China Unicoms verifikationstjenester&lt;/a>.&lt;/Data></string>
     <string name="user_avatar_update_title">Skift profilbillede</string>
     <string name="user_avatar_uploading">Lige et øjeblik…</string>
     <string name="user_id_hint">E-mail/telefonnummer/Mi-konto-id</string>
+    <string name="user_name_phone_number">Telefonnummer</string>
+    <string name="v7_preference_off">FRA</string>
+    <string name="v7_preference_on">TIL</string>
     <string name="v_code_title">Indtast verifikationskode</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>

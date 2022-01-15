@@ -206,6 +206,13 @@
     <string name="copy">Kopiér</string>
     <string name="current_preview">Forvisning</string>
     <string name="current_wallpaper">Aktuel</string>
+    <string name="custom_define_permission_desc_android.permission.CALL_PHONE">For at foretage opkald til nødkontakter i Lite-tilstand</string>
+    <string name="custom_define_permission_desc_android.permission.READ_CONTACTS">For at vise nødkontakter i Lite-tilstand</string>
+    <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">For at vise enhedsstatus</string>
+    <string name="custom_define_permission_desc_android.permission_group.CALENDAR">For at vise Kalender-widgets</string>
+    <string name="custom_define_permission_desc_android.permission_group.CAMERA">For at vise Galleri-widgets</string>
+    <string name="custom_define_permission_desc_android.permission_group.LOCATION">For at få adgang til WLAN-widgetnavn i Android Q</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">For at få adgang til og gemme startskærmsdata</string>
     <string name="custom_wallpaper_picker">Gennemse</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -415,7 +422,7 @@
     <string name="launcher_search_bar_value_enable">Tændt</string>
     <string name="launcher_slide_up_title">Stryg opad på startskærmen</string>
     <string name="launcher_sliding_up_gesture">Stryg op på startskærmen for at åbne søgning</string>
-    <string name="launcher_title">Startskærm og seneste</string>
+    <string name="launcher_title">Startskærm og nylige</string>
     <string name="like">Føj til favoritter</string>
     <string name="liked">Føjet til favoritter</string>
     <string name="loading_desktop">Lige et øjeblik…</string>
@@ -428,13 +435,13 @@
     <string name="lock_screen_success_message">Anvendt på låseskærm</string>
     <string name="lock_screen_wallpaper">Baggrundsbillede for låseskærm</string>
     <string name="maml_download_dialog_cancel_text">Vent på Wi-Fi</string>
-    <string name="maml_download_dialog_cancel_text_china">Wait for WLAN</string>
-    <string name="maml_download_dialog_checkbox_text">Vis ikke igen</string>
+    <string name="maml_download_dialog_cancel_text_china">Vent på WLAN</string>
+    <string name="maml_download_dialog_checkbox_text">Vis ikke igen i %d minutter</string>
     <string name="maml_download_dialog_confirm_text">Download</string>
     <string name="maml_download_dialog_message">%s MB mobildata vil blive brugt til at downloade dette element. Download alligevel?</string>
     <string name="maml_download_dialog_title">Advarsel om dataforbrug</string>
     <string name="maml_download_tip_wait_wifi">Dette element downloades, når du tilslutter til Wi-Fi</string>
-    <string name="maml_download_tip_wait_wifi_china">This item will be downloaded when you connect to WLAN</string>
+    <string name="maml_download_tip_wait_wifi_china">Dette element downloades, når du opretter forbindelse til WLAN</string>
     <string name="manager_group_settings">Administrer appkategorier</string>
     <string name="memory_clear_nothing_result">Intet at rydde i cache</string>
     <string name="memory_clear_result">%1$sB ryddet</string>
@@ -581,7 +588,7 @@
     <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Annuller</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå fra</string>
-    <string name="open_personal_assistant_dialog_desc">Du vil ikke være i stand til at bruge app-boks og modtage dens opdateringer. Slå fra nu?</string>
+    <string name="open_personal_assistant_dialog_desc">Efter du slår app-boksen fra, vil du ikke være i stand til at se dine app-boks-widgets. Ligeledes vil deres opdaterede versioner ikke være tilgængelige for dig. Vil du slå den fra alligevel?</string>
     <string name="open_personal_assistant_dialog_desc_international">Du vil ikke kunne bruge App-boks-kort (aktier, genveje etc.) og modtage opdateringer, efter du har slået denne funktion fra.</string>
     <string name="open_personal_assistant_dialog_title">Slå App-boks fra</string>
     <string name="open_personal_assistant_settings">Indstillinger for app-boks</string>
@@ -644,7 +651,7 @@
     <string name="recents_exit_multi_window_mode">Afslut</string>
     <string name="recents_forbid_dock_when_screening_toast_text">Kan ikke bruge opdelt skærm under casting</string>
     <string name="recents_incompatible_app_message">Denne app understøtter ikke opdelt skærm</string>
-    <string name="recents_layout_style">Arranger elementer i Seneste</string>
+    <string name="recents_layout_style">Arranger elementer i Nylige</string>
     <string name="recents_layout_style_horizontal">Vandret</string>
     <string name="recents_layout_style_vertical">Lodret</string>
     <string name="recents_smallwindow_drag_text">Træk herhen for at fastgøre</string>
@@ -724,6 +731,7 @@
     <string name="sort_by_not_defined">Automatisk sortering</string>
     <string name="start_activity_failed">Kan ikke starte lanceringsprogram</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s af %2$s tilgængelig</string>
     <string name="status_bar_recent_memory_info2" />

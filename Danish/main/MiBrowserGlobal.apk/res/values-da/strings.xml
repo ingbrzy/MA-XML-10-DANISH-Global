@@ -235,7 +235,7 @@ Slå fra for at stoppe synkroniseringen."</string>
     <string name="category_folder">Mapper</string>
     <string name="category_installed_app">Installerede apps</string>
     <string name="category_midrive">Mi Drive</string>
-    <string name="category_move_limit_notice">Du kan flytte fra 3 til 7 elementer til den øverste del af skærmen</string>
+    <string name="category_move_limit_notice">Du kan flytte fra %1$d til %2$d elementer til den øvre del af skærmen</string>
     <string name="category_music">Musik</string>
     <string name="category_other">Øvrige</string>
     <string name="category_photo">Fotos</string>
@@ -373,6 +373,9 @@ Slå fra for at stoppe synkroniseringen."</string>
     <string name="copy">Kopiér</string>
     <string name="copy_url">Kopier URL</string>
     <string name="could_not_load_data">Kunne ikke loade data. Opdater og prøv igen</string>
+    <string name="crash_page_button">Prøv igen</string>
+    <string name="crash_page_description">Noget gik galt under visningen af denne webpage.</string>
+    <string name="crash_page_title">Øv, surt!</string>
     <string name="create_qr_code">QR-kode</string>
     <string name="current_version_pad">Tablet</string>
     <string name="current_version_pc">Skrivebord</string>
@@ -431,7 +434,7 @@ Send denne kode til supervisoren."</string>
     <string name="download_btn_select_none">Fravælg alt</string>
     <string name="download_business_app_new_version">Den seneste version af denne app er allerede installeret</string>
     <string name="download_business_app_update_install">Klar til at installere opdatering.</string>
-    <string name="download_business_v5_edit_mode_title_empty">0 valgt</string>
+    <string name="download_business_v5_edit_mode_title_empty">Vælg emner</string>
     <string name="download_change_dir">Skift mappe</string>
     <string name="download_complete">Korrekt downloadet</string>
     <string name="download_completed">Downloadet</string>
@@ -452,7 +455,7 @@ Send denne kode til supervisoren."</string>
     <string name="download_dialog_failed_body">Prøv igen senere eller fjern denne fil fra downloadkøen?</string>
     <string name="download_dialog_file_already_exists">Du har allerede downloadet denne fil</string>
     <string name="download_dialog_file_length_hint_txt">"Filstørrelse: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">Mindre end 1 KB</string>
+    <string name="download_dialog_file_length_lessthan1kb">Mindre end %1$d kB</string>
     <string name="download_dialog_file_length_nolength_error_txt">Kunne ikke downloade</string>
     <string name="download_dialog_file_length_nolength_txt">Lige et øjeblik…</string>
     <string name="download_dialog_file_missing_body">Kunne ikke finde filen. Har du flyttet eller slettet den?</string>
@@ -693,6 +696,8 @@ Send denne kode til supervisoren."</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="game_center_recommend_play">Spil</string>
+    <string name="game_center_recommend_title">Anbefalet til dig</string>
     <string name="game_played">Seneste</string>
     <string name="gcm_fallback_notification_channel_label">Diverse</string>
     <string name="geolocation_permissions_prompt_dont_share">Afvis</string>
@@ -804,9 +809,9 @@ Send denne kode til supervisoren."</string>
     <string name="lockpattern_need_to_unlock_wrong">Prøv igen</string>
     <string name="lockpattern_pattern_confirmed_header">Her er dit oplåsningsmønster:</string>
     <string name="lockpattern_pattern_entered_header">Færdig!</string>
-    <string name="lockpattern_recording_incorrect_too_short">Prøv igen. Forbind mindst fire prikker.</string>
+    <string name="lockpattern_recording_incorrect_too_short">Prøv igen. Forbind mindst %1$d prikker.</string>
     <string name="lockpattern_recording_inprogress">Slip, når dit område er frit</string>
-    <string name="lockpattern_recording_intro_header">Forbind mindst 4 prikker</string>
+    <string name="lockpattern_recording_intro_header">Forbind mindst %1$d prikker</string>
     <string name="lockpattern_retry_button_text">Nulstil</string>
     <string name="login_failed_toast">Kunne ikke logge ind. Opdater og prøv igen</string>
     <string name="login_or_register">eller</string>
@@ -817,7 +822,7 @@ Send denne kode til supervisoren."</string>
     <string name="make_private_msg_1">Skjule denne fil?</string>
     <string name="make_private_msg_2">Skjule disse filer?</string>
     <string name="max_tabs_warning">Kan ikke åbne flere faner</string>
-    <string name="maximum_input_alert">Kan ikke indtaste mere end 2048 tegn</string>
+    <string name="maximum_input_alert">Kan ikke indtaste mere end %1$d tegn</string>
     <string name="menu_addtodesk">Tilføj til startskærm</string>
     <string name="menu_exit_nightmode">Afslut</string>
     <string name="menu_hv_swap">V/H-skærm</string>
@@ -1329,7 +1334,7 @@ Forlad denne side nu?"</string>
     <string name="pf_guide_msg_if_has_downloading">Kan ikke vise igangværende downloads til privat mappe</string>
     <string name="pf_move_out">Flyt fra privat mappe</string>
     <string name="pf_move_out_dialog_btn_confirm">Fjern</string>
-    <string name="pf_move_out_dialog_content">Fjernede elementer bliver gemt på deres oprindelige placering.</string>
+    <string name="pf_move_out_dialog_content">Fjernede elementer vil blive vist blandt nylige filer.</string>
     <string name="pf_move_out_dialog_title">Flytter fra privat mappe</string>
     <string name="pf_toast_add_success">Flyttet til privat mappe</string>
     <string name="phone">Hukommelse</string>
@@ -1620,7 +1625,7 @@ Nogle websteder bruger ikke din tidligere browserhistorik til at personalisere d
     <string name="rlv_pull_to_refresh">Træk ned for at opfriske</string>
     <string name="rlv_refreshing">Opfrisker…</string>
     <string name="rlv_release_to_refresh">Slip for at opfriske</string>
-    <string name="rlz_access_point">Y1</string>
+    <string name="rlz_access_point">Y%1$d</string>
     <string name="root_folder_lable">Ingen</string>
     <string name="router_download_exist">Denne fil findes allerede</string>
     <string name="router_download_failed">Kunne ikke downloade</string>
@@ -1678,7 +1683,7 @@ Nogle websteder bruger ikke din tidligere browserhistorik til at personalisere d
     <string name="search_google">Google</string>
     <string name="search_hint">Søg</string>
     <string name="search_menu_title">Søg</string>
-    <string name="search_s139">139</string>
+    <string name="search_s139">%1$d</string>
     <string name="search_settings_description">Bogmærker og webhistorik</string>
     <string name="search_shipin">Video</string>
     <string name="search_sm">SM</string>
@@ -1977,8 +1982,8 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="vpn_data_used_info">Brugt %2$s af %1$s</string>
     <string name="vpn_detail_guide1">Lås alle servere op for at forøge hastigheden af din forbindelse</string>
     <string name="vpn_detail_guide2">Abonnér på VPN-tjenester for at få adgang til flere websites</string>
-    <string name="vpn_detail_guide3">Du er næsten løbet tør for trafik. Prøv vores 12-måneders abonnement! Tryk for at læse om dine muligheder.</string>
-    <string name="vpn_detail_guide4">Du er løbet tør for trafik. Prøv vores 12-måneders abonnement! Tryk for at læse om dine muligheder.</string>
+    <string name="vpn_detail_guide3">Du er næsten løbet tør for trafik. Prøv vores %1$d-måneders plan. Tryk for at få mere at vide om dine valgmuligheder.</string>
+    <string name="vpn_detail_guide4">Du er løbet tør for trafik. Prøv vores %1$d-måneders plan. Tryk for at få mere at vide om dine valgmuligheder.</string>
     <string name="vpn_detail_guide5">Du er næsten løbet tør for trafik</string>
     <string name="vpn_detail_guide6">Du er løbet tør for trafik</string>
     <string name="vpn_detail_subscribe">Abonnér</string>
@@ -2009,7 +2014,7 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="whatsapp_how_it_works">Sådan fungerer det</string>
     <string name="whatsapp_intro_dialog_title">Ny funktion</string>
     <string name="whatsapp_no_status_tips">Ingen billeder eller videoer her endnu. Se dine WhatsApp-statusopdateringer og kom tilbage her igen.</string>
-    <string name="whatsapp_principle_page_message">WhatsApp gemmer fotos og videoer, som du besøger, i en skjult mappe. Disse elementer forsvinder efter 24 timer. Nu kan du bruge Mi Browser til at gemme dem.</string>
+    <string name="whatsapp_principle_page_message">WhatsApp gemmer fotos og videoer, som du besøger, i en skjult mappe. Disse elementer forsvinder efter %1$d timer. Nu kan du bruge Mi Browser til at gemme dem.</string>
     <string name="whatsapp_principle_page_title">Du kan gemme billeder og videoer fra WhatsApp-statusser ved hjælp af Mi Browser</string>
     <string name="whatsapp_principle_step_1">Gennemse billeder og videoer fra Status-fanebladet i WhatsApp.</string>
     <string name="whatsapp_principle_step_2">Kom tilbage her for at gemme dem.</string>

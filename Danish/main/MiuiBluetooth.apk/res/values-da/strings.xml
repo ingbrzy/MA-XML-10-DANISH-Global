@@ -352,7 +352,6 @@ Hurtigere forbindelsesprotokol"</string>
     <string name="headset_device_error_multconnect">Kan ikke opdatere, når flere enheder er tilsluttede.</string>
     <string name="headset_device_error_no_device">Mindst én øretelefon mangler i opladerkassen</string>
     <string name="headset_device_error_single_device">Kan ikke opdatere én øretelefon. Par igen.</string>
-    <string name="headset_device_sync">Synkroniserer…</string>
     <string name="headset_device_sync_donot_move_device">Synkroniserer… Vent, indtil synkroniseringen er færdig, inden du bruger øretelefonerne.</string>
     <string name="headset_device_sync_wait_connect">Synkroniserer… Vent, indtil forbindelsen automatisk er etableret, inden du bruger øretelefonerne.</string>
     <string name="headset_download_failed">Kunne ikke downloade</string>
@@ -366,7 +365,6 @@ Hurtigere forbindelsesprotokol"</string>
     <string name="headset_fw_file_position_failed">Kunne ikke få adgang til fil</string>
     <string name="headset_fw_file_readfailed">Kan ikke hente opdateringsoplysninger</string>
     <string name="headset_loss_notify_summary">Det ser ud til, at mindst en af dine øresnegle ikke befinder sig i opladerboksen. Prøv at finde den!</string>
-    <string name="headset_loss_notify_summary1">Det ser ud , som om dine øretelefoner ikke er i æsken. Læg dem tilbage for at oplade dem.</string>
     <string name="headset_loss_notify_title">Manglende alarm vedrørende øresnegl</string>
     <string name="headset_read_fw_state">Kan ikke hente opdateringsoplysninger</string>
     <string name="headset_update_failed">Kunne ikke opdatere</string>

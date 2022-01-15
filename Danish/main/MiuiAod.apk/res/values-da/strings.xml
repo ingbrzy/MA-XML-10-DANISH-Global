@@ -236,8 +236,8 @@ dd.MM"</string>
     <string name="night">Aften</string>
     <string name="noon">Middag</string>
     <string name="not_set">Ikke angivet</string>
-    <string name="notification_anim_pulse">Puls</string>
-    <string name="notification_anim_rhythm">Rytme</string>
+    <string name="notification_anim_pulse">Pulsering (rød)</string>
+    <string name="notification_anim_rhythm">Pulsering (blå)</string>
     <string name="notification_anim_star">Stjerneskin</string>
     <string name="notification_nothing">Ingen</string>
     <string name="notification_screen_on">Gør skærmen mere spændende</string>
@@ -283,6 +283,7 @@ dd.MM"</string>
 vidunderligt er lige om hjørnet"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Skridttæller leveres af Xiaomi Health. Acceptér Xiaomi Healths vilkår og betingelser for at fortsætte.</string>
     <string name="step_component_info_desc">Skridttallet vil forvandle sig til et trofæ, når du har nået dit mål. Skridttæller leveres af Xiaomi Health.</string>
     <string name="step_component_info_tip">Skridttæller leveres af Xiaomi Health. Installer eller opdatér Xiaomi Health og acceptér tilhørende vilkår og betingelser for at fortsætte.</string>
@@ -293,6 +294,7 @@ vidunderligt er lige om hjørnet"</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
     <string name="temporary_style">I 10 sekunder efter tryk</string>
+    <string name="temporary_style_5">I 5 sekunder efter tryk</string>
     <string name="temporary_style_summary">Anbefalet</string>
     <string name="text_color">Tekstfarve</string>
     <string name="text_length_exceed_limit_alert">*Den indtastede tekst er for lang</string>

@@ -176,4 +176,12 @@
         <item quantity="other">Subtitles are delayed for %.1f seconds</item>
         <item quantity="one">Undertekster er forsinket i %.1f sekunder</item>
     </plurals>
+    <plurals name="toast_bookmark_max_size">
+        <item quantity="other">Tilføj op til %d bogmærker</item>
+        <item quantity="one">Tilføj op til %d bogmærke</item>
+    </plurals>
+    <plurals name="video_view_count">
+        <item quantity="other">%d visninger</item>
+        <item quantity="one">%d visning</item>
+    </plurals>
 </resources>

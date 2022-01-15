@@ -72,24 +72,6 @@
     <string name="close">Luk</string>
     <string name="combine_loan">Kombineret lån</string>
     <string name="commercial_loan">Kommercielt lån</string>
-    <string name="common_google_play_services_enable_button">Aktivér</string>
-    <string name="common_google_play_services_enable_text">Du skal aktivere Google Play-tjenester, for at %1$s kan fungere.</string>
-    <string name="common_google_play_services_enable_title">Aktivér Google Play-tjenester</string>
-    <string name="common_google_play_services_install_button">Installer</string>
-    <string name="common_google_play_services_install_text">Du skal installere Google Play-tjenester, før %1$s kan køre på din enhed.</string>
-    <string name="common_google_play_services_install_title">Hent Google Play-tjenester</string>
-    <string name="common_google_play_services_notification_channel_name">Google Play-tjenesters tilgængelighed</string>
-    <string name="common_google_play_services_notification_ticker">Fejl i Google Play-tjenester</string>
-    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv igen.</string>
-    <string name="common_google_play_services_unsupported_text">%1$s fungerer ikke uden Google Play-tjenester, som ikke understøttes på din enhed.</string>
-    <string name="common_google_play_services_update_button">Opdater</string>
-    <string name="common_google_play_services_update_text">%1$s kan ikke køre, medmindre du opdaterer Google Play-tjenester.</string>
-    <string name="common_google_play_services_update_title">Opdater Google Play-tjenester</string>
-    <string name="common_google_play_services_updating_text">%1$s kan ikke køre uden Google Play-tjenester, som i øjeblikket opdateres.</string>
-    <string name="common_google_play_services_wear_update_text">Du skal bruge en ny version af Google Play-tjenester. Opdateringen gennemføres automatisk om et øjeblik.</string>
-    <string name="common_open_on_phone">Åbn på telefonen</string>
-    <string name="common_signin_button_text">Log ind</string>
-    <string name="common_signin_button_text_long">Log ind med Google</string>
     <string name="convert_currency">Valutaomregner</string>
     <string name="convertion_unit">Enheds-omregner</string>
     <string name="convertion_unit_area">Arealomregner</string>
@@ -104,7 +86,7 @@
     <string name="copy">Kopiér</string>
     <string name="cos">cos</string>
     <string name="cosDesc">cosinus</string>
-    <string name="currency_dialog_privacy_content">&lt;Data>Valutakonvertereren skal oprette forbindelse til internettet for at få de seneste valutakurser. Læs og accepter vores &lt;a href=\"%1$s\">brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Fortrolighedspolitik&lt;/a>, før du bruger denne funktion.&lt;/Data></string>
+    <string name="currency_dialog_privacy_content">&lt;Data>Valutakonvertereren skal oprette forbindelse til internettet for at få de seneste valutakurser. Læs og accepter vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>, før du bruger denne funktion.&lt;/Data></string>
     <string name="currency_update_connect_to_get_data">Valutakurser leveres af Webull. Tilslut til netværket for at få de nyeste info.</string>
     <string name="currency_update_support">Valutakurser leveres af Webull.</string>
     <string name="currency_update_time_format">Valutakurser leveret af Webull (%s)</string>
@@ -124,8 +106,8 @@
     <string name="description_content">Udover grundfunktioner fungerer Lommeregner også som en omregner med flere funktioner samt skatteberegner. Vær sikker på at du ikke har brug for disse, inden du afinstallerer appen.</string>
     <string name="description_title">Om lommeregner</string>
     <string name="devided_by_zero_reminder_message">Kan ikke dividere med nul</string>
-    <string name="dialog_privacy_content">&lt;Data>Udover lommeregnerens grundlæggende funktioner indeholder vores app også en videnskabelig lommeregner og en omregner til forskellige formål. Nogle funktioner kræver forbindelse til internettet for at fungere normalt. Du skal læse og acceptere vores &lt;a href=\"%1$s\">brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Fortrolighedspolitik&lt;/a>, før du bruger lommeregneren.&lt;/Data></string>
-    <string name="dialog_privacy_disagree_msg">Ved at slå knappen fra for at tilbagetrække dit samtykke til fortrolighedspolitikken for Lommeregner. Vi vil ophøre med at indsamle dine personlige oplysninger. De personlige oplysninger, som vi allerede har indsamlet og gemt, vil blive slettet inden for den specifikke periode, som loven foreskriver. Lommeregner skal indsamle nødvendige personlige oplysninger for at kunne tilbyde dig grundlæggende tjenester. Din tilbagetrækning af samtykke til denne fortrolighedspolitik betragtes som en afvisning af deres tjenester baseret på indsamlede personlige oplysninger.</string>
+    <string name="dialog_privacy_content">&lt;Data>Udover lommeregnerens grundlæggende funktioner indeholder vores app også en videnskabelig lommeregner og en omregner til forskellige formål. Nogle funktioner kræver forbindelse til internettet for at fungere normalt. Du skal læse og acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>, før du bruger lommeregneren.&lt;/Data></string>
+    <string name="dialog_privacy_disagree_msg">Ved at slå knappen fra for at tilbagetrække dit samtykke til fortrolighedspolitikken for Lommeregner. Vi vil ophøre med at indsamle dine personlige oplysninger. De personlige oplysninger, som vi allerede har indsamlet og gemt, vil blive slettet inden for den specifikke periode, som loven foreskriver. Lommeregner skal indsamle nødvendige personlige oplysninger for at kunne tilbyde dig grundlæggende tjenester. Din tilbagetrækning af samtykke til denne privatlivspolitik betragtes som en afvisning af deres tjenester baseret på indsamlede personlige oplysninger.</string>
     <string name="dialog_privacy_revoke_btn_ok">Tilbagetræk</string>
     <string name="dialog_privacy_revoke_title">Tilbagetrækning af samtykke</string>
     <string name="dialog_privacy_title">Vilkår og betingelser</string>
@@ -480,7 +462,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="network_confirm_content">Valutaomregner, skatte- og panteberegnere skal være forbundet til internettet og have adgang til placeringsservice, for at kunne virke normalt.</string>
     <string name="network_confirm_title">Kræver tilladelser</string>
     <string name="network_purpose">Velkommen til Lommeregner. Lommeregner kan omregne valutaer, beregne afdrag på lån med mere.</string>
-    <string name="new_privacy_string">&lt;Data>Velkommen til Lommeregner!&lt;br/> Denne app indeholder de følgende funktioner.&lt;br/>• Basal lommeregner&lt;br/>• Videnskabelig lommeregner&lt;br/>• Universel omregner (f.eks. valuta, måleenheder osv.)&lt;br/>• Beregningsskabeloner for lån, investering, EMI (Equated Monthly Installment) med mere&lt;br/>For at kunne tilbyde dig de grundlæggende tjenester skal Lommeregner indsamle nødvendige personlige oplysninger. Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href= \"%1$s\">Fortrolighedspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%3$s\">Fortrolighedspolitik&lt;/a>, inden du bruger Lommeregner. I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til Fortrolighedspolitikken for Lommeregner. Hvis du ikke accepterer vores Fortrolighedspolitik, vil du ikke kunne bruge nogle af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.&lt;/Data></string>
+    <string name="new_privacy_string">&lt;Data>Velkommen til Lommeregner!&lt;br/> Denne app indeholder de følgende funktioner.&lt;br/>• Basal lommeregner&lt;br/>• Videnskabelig lommeregner&lt;br/>• Universel omregner (f.eks. valuta, måleenheder osv.)&lt;br/>• Beregningsskabeloner for lån, investering, EMI (Equated Monthly Installment) med mere&lt;br/>For at kunne tilbyde dig de grundlæggende tjenester skal Lommeregner indsamle nødvendige personlige oplysninger. Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href= \"%1$s\">Privatlivspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%3$s\">Privatlivspolitik&lt;/a>, inden du bruger Lommeregner. I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til Fortrolighedspolitikken for Lommeregner. Hvis du ikke accepterer vores Privatlivspolitik, vil du ikke kunne bruge nogle af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.&lt;/Data></string>
     <string name="night">Aften</string>
     <string name="none">Ingen</string>
     <string name="noon">Middag</string>
@@ -509,7 +491,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="preference_follow_weibo_title">Sina Weibo</string>
     <string name="preference_help">Hjælp &amp; feedback</string>
     <string name="preference_other">Andet</string>
-    <string name="preference_privacy_title">Fortrolighedspolitik</string>
+    <string name="preference_privacy_title">Privatlivspolitik</string>
     <string name="preference_rating_title">Bedøm vores app</string>
     <string name="preference_settings">Indstillinger</string>
     <string name="preference_use_degress_summary">Erstat radianer med vinkler i trigonometriske funktioner</string>
@@ -519,7 +501,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="preference_use_voice_title">Taleudgang</string>
     <string name="preference_user_feedback_title">Feedback</string>
     <string name="privacy_dialog_title">Fortrolighed</string>
-    <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="privacy_policy">Privatlivspolitik</string>
     <string name="privacy_revoke_error">Kunne ikke trække tilbage. Prøv igen.</string>
     <string name="privacy_revoke_progress">Tilbagetrækning…</string>
     <string name="privacy_switch">Tilbagetrækning af samtykke</string>
@@ -712,6 +694,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="unit_data_display_currency_btn">Bhutansk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Hviderussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Canadisk dollar</string>
     <string name="unit_data_display_currency_cdf">Congolesisk franc</string>
     <string name="unit_data_display_currency_chf">Schweiziske franc</string>
@@ -1054,12 +1037,15 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_calculator_delete_description">Lommeregner er en systemapp. Du vil ikke kunne bruge flere omregnere og andre funktioner, efter du har afinstalleret appen.</string>
     <string name="xiaomi_calculator_delete_title">Afinstaller Kalender?</string>
     <string name="xiaomi_calculator_remove_icon_description">Lommeregner er en systemapp. Du vil ikke kunne bruge flere omregnere og andre funktioner, efter du har fjernet startskærmsgenvejen.</string>
     <string name="xiaomi_calculator_remove_icon_title">Fjern \"Lommeregner\" fra Startskærm?</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke forbinde til Downloads. Kontrollér, om denne app har alle de nødvendige tilladelser i indstillingerne > installeret apps.</string>
     <string name="xiaomi_external_storage_unavailable">Lager er ikke tilgængeligt. Kontrollér dit SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s

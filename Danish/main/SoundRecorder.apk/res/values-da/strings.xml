@@ -37,6 +37,7 @@
     <string name="alert_message_delete_record">Når optagelsen slettes fra din enhed, slettes denne optagelse også fra Xiaomi Cloud. Slet nu?</string>
     <string name="alert_message_delete_record_title">Slet optagelse?</string>
     <string name="all_record">Alle optagelser</string>
+    <string name="allowed">Bevilget</string>
     <string name="am">AM</string>
     <string name="app_name">Optager</string>
     <string name="app_record">App-optagelser</string>
@@ -184,6 +185,7 @@
     <string name="head_set_tip_dialog_title">Brug intern mikrofon</string>
     <string name="icon_content_description">Ikon for dialogboks</string>
     <string name="invalid_argument">Argumentet er ugyldigt</string>
+    <string name="invisible_mode_error_tip">Deaktivér inkognitotilstand i Indstillinger for at kunne bruge mikrofonen</string>
     <string name="item_view_role_description">Fane</string>
     <string name="keywords_search_call_record">Optag opkald;Optag opkald;Opkaldsoptagelse;Opkaldsoptagelser</string>
     <string name="keywords_search_record">Ny optagelse;Tilføj optagelse;Optagelse;Optagelser;Afskrift;Transkribere;Optager;Stemmeoptager;Lydoptager;Optager-app;Optagelses-app;Hvordan optager jeg;Hvordan optager jeg lyd;Hvor er optageren;MIUI-optager</string>
@@ -221,6 +223,7 @@
     <string name="mi_account_ok">Log ind</string>
     <string name="mi_account_title">Log ind med Mi-konto</string>
     <string name="midnight">Nat</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
@@ -293,6 +296,7 @@
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -333,6 +337,7 @@
     <string name="no_records">Ingen optagelser her endnu</string>
     <string name="noon">Middag</string>
     <string name="normal_settings_pref_title">Generelle indstillinger</string>
+    <string name="not_allowed">Ikke bevilget</string>
     <string name="not_set">Ikke angivet</string>
     <string name="notification_message_all_paused">Venter på Wi-Fi-forbindelse.</string>
     <string name="notification_playback">Afspiller…</string>
@@ -378,6 +383,15 @@
     <string name="pay_error_cancel">Betaling blev annulleret</string>
     <string name="pay_error_null">Kunne ikke fuldføre betalingen. Tjek din konto.</string>
     <string name="pay_error_unknown">Ukendt fejl</string>
+    <string name="permission_desc">Oplysninger om tilladelser</string>
+    <string name="permission_dialog_cancel">Annuller</string>
+    <string name="permission_dialog_ok">Indstillinger</string>
+    <string name="permission_record">Optag lyd</string>
+    <string name="permission_record_description">Til levering af lydoptagelsestjenester</string>
+    <string name="permission_storage">Få adgang til lager</string>
+    <string name="permission_storage_description">Til at administrere optagelser og downloade dem fra skyen</string>
+    <string name="permission_storage_description_for_download">Til at downloade optagelser fra skyen</string>
+    <string name="permission_storage_description_for_manage_files">Til administration af optagelser</string>
     <string name="play_speed">%1$.1fX hastighed</string>
     <string name="playback_delete_records">Slet optagelse</string>
     <string name="playback_share_records">Del optagelse</string>
@@ -399,6 +413,8 @@
     <string name="preference_status_bar_indicator_prompt">Under optagelse vises en blå indikator på Låseskærmen.</string>
     <string name="preference_tip_rename">Døb optagelser manuelt</string>
     <string name="privacy_policy_title">Privatlivspolitik</string>
+    <string name="privacy_settings">Privatliv</string>
+    <string name="progress">Statuslinje for afspilning</string>
     <string name="recognition_button_add_to_queue">Føj til kø</string>
     <string name="recognition_button_cancel">Ikke nu</string>
     <string name="recognition_button_start">Transskribér</string>
@@ -466,6 +482,7 @@
     <string name="record_mark_point">Marker %s</string>
     <string name="record_name_hour">.</string>
     <string name="record_name_minute">​</string>
+    <string name="record_permission_dialog_title">Mikrofontilladelser påkrævet</string>
     <string name="record_quliaty_preference_title">Optagelseskvalitet</string>
     <string name="record_resotre">Genskab optagelser</string>
     <string name="recorder_record">Lyd</string>
@@ -498,6 +515,11 @@
     <string name="rename_no_more_tip">Vis ikke igen</string>
     <string name="retry">Prøv igen</string>
     <string name="runtime_permission_ungranted">Kan ikke bruge optageren på grund af manglende tilladelser</string>
+    <string name="saf_permission_dialog_content">På grund af Android-begrænsninger skal Optager have tilladelse til at få adgang til optagelser, der er lavet af andre apps. Tillad Optager at få adgang til disse optagelser for at kunne se dem.</string>
+    <string name="saf_permission_dialog_grant_permission_immediately">Indstillinger</string>
+    <string name="saf_permission_dialog_later">Nej tak</string>
+    <string name="saf_permission_dialog_no_more_tip">Vis ikke igen</string>
+    <string name="saf_permission_dialog_title">Tilladelser påkrævet</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
@@ -516,6 +538,7 @@
     <string name="search_tip_rename">Døb optagelser manuelt</string>
     <string name="send">Send</string>
     <string name="service_instructions">Om iflyrec.com</string>
+    <string name="settings_saf_permission">Tilladelser til administration af filer</string>
     <string name="share">Del</string>
     <string name="share_dialog_title">Del med</string>
     <string name="shortcut_records">Optagelser</string>
@@ -536,6 +559,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Optager…</string>
     <string name="status_bar_recording_pause">Optager sat på pause</string>
+    <string name="storage_permission_dialog_title">Lagertilladelser påkrævet</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
@@ -625,6 +649,7 @@
     <string name="user_feedback">Feedback</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
+    <string name="view_privacy">Se privatlivspolitik</string>
     <string name="webview_check_network">Netværksindstillinger</string>
     <string name="webview_data_error">Der opstod en fejl</string>
     <string name="webview_locating_fail">Kunne ikke finde din placering</string>

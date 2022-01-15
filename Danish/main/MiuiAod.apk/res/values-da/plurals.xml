@@ -40,6 +40,20 @@
         <item quantity="other">" %1$stimer %2$s"</item>
         <item quantity="one">" %1$stime %2$s"</item>
     </plurals>
+    <plurals name="character_pitch_minus">
+        <item quantity="other">Formindsket tegnmellemrum. Tegnmellemrum %s.</item>
+        <item quantity="one">Formindsket tegnmellemrum. Tegnmellemrum %s.</item>
+    </plurals>
+    <plurals name="character_pitch_plus">
+        <item quantity="other">Forøget tegnmellemrum. Tegnmellemrum %s.</item>
+        <item quantity="one">Forøget tegnmellemrum. Tegnmellemrum %s.</item>
+    </plurals>
+    <plurals name="choose_long_gif_limit_toast_tip">
+        <item quantity="other">"Varigheden af afspilningen af animationer kan ikke overskride %d sekunder.
+Længere animationer stoppes på dette tidspunkt."</item>
+        <item quantity="one">"Varigheden af afspilningen af animationer kan ikke overskride %d sekund.
+Længere animationer stoppes på dette tidspunkt."</item>
+    </plurals>
     <plurals name="count_selected">
         <item quantity="other">%d elementer valgt</item>
         <item quantity="one">%d element valgt</item>
@@ -67,6 +81,14 @@
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Lige nu</item>
         <item quantity="one">Lige nu</item>
+    </plurals>
+    <plurals name="line_spacing_puls">
+        <item quantity="other">Forøget linjeafstand. Linjeafstand %s.</item>
+        <item quantity="one">Forøget linjeafstand. Linjeafstand %s.</item>
+    </plurals>
+    <plurals name="lines_pacing_minus">
+        <item quantity="other">Formindsket linjeafstand. Linjeafstand %s.</item>
+        <item quantity="one">Formindsket linjeafstand. Linjeafstand %s.</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d emner valgt</item>
