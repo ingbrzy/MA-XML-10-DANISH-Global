@@ -665,7 +665,6 @@ Med dual-telefonoptagelse kan du også tilslutte til den anden enhed i nærheden
     <string name="edit_smile">Smli</string>
     <string name="edit_solid">Kontur</string>
     <string name="emoticon">Emoji-pakke</string>
-    <string name="empty" />
     <string name="eras_ad">e.v.t.</string>
     <string name="eras_bc">f.v.t.</string>
     <string name="error_fail_to_start_audio_capture">Kunne ikke starte lydudløser.</string>
@@ -1285,7 +1284,6 @@ Hold motivet skarpt, mens du slører baggrunden."</string>
     <string name="pref_camera_auxiliary_close">Slået fra</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Eksponeringsverifikation</string>
     <string name="pref_camera_auxiliary_focus_peak">Fokusoptimering</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>

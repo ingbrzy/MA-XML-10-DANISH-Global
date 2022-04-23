@@ -143,8 +143,6 @@
     <string name="feedback_custom_hint">Beskriv de problemer, du oplever, her. Hvis du giver forslag, vil vi sætte pris på flere oplysninger!</string>
     <string name="find_device">Find enhed</string>
     <string name="find_device_dspt_provision">Hvis du mister din enhed, kan du gå til &lt;font color=#0097FF>%s&lt;/font> for at finde, låse eller nulstille den. Du kan når som helst slå denne funktion til og fra i Indstillinger.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Ved at tænde for Find enhed accepterer du vores <a href="app://com.miui.cloudservice.gdpr.license"><u>Fortrolighedspolitik</u></a>. Slå denne funktion fra, hvis du ønsker at tilbagekalde din accept.</string>
     <string name="find_device_operation_failure_rpc">Kunne ikke udføre operationen på grund af en RPC-fejl.</string>
     <string name="find_device_permissions_footer">Tryk på \"Giv\" for at give den tilladelse, du har valgt.</string>
