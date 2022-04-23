@@ -48,6 +48,18 @@
     <string name="cant_replace_or_remove_work_profile">Arbejdsprofilen kan ikke erstattes eller fjernes</string>
     <string name="cant_set_up_device">Enheden kan ikke konfigureres</string>
     <string name="cant_set_up_profile">Profilen kan ikke konfigureres</string>
+    <string name="car_ui_alert_dialog_default_button">Luk</string>
+    <string name="car_ui_preference_switch_off">Fra</string>
+    <string name="car_ui_preference_switch_on">Til</string>
+    <string name="car_ui_restricted_while_driving">Funktionen er ikke tilgængelig, mens du kører</string>
+    <string name="car_ui_scrollbar_page_down_button">Rul ned</string>
+    <string name="car_ui_scrollbar_page_up_button">Rul op</string>
+    <string name="car_ui_scrolling_limited_message">Rullefunktionen er begrænset under kørsel</string>
+    <string name="car_ui_toolbar_default_search_hint">Søg…</string>
+    <string name="car_ui_toolbar_menu_item_overflow_title">Overløb</string>
+    <string name="car_ui_toolbar_menu_item_search_title">Søg</string>
+    <string name="car_ui_toolbar_menu_item_settings_title">Indstillinger</string>
+    <string name="car_ui_toolbar_nav_icon_content_description">Tilbage</string>
     <string name="change_device_launcher">Skift enhedsstarter</string>
     <string name="close_list">Luk listen</string>
     <string name="collapse">Skjul</string>
@@ -178,7 +190,7 @@
     <string name="setup_provisioning_header_description">Konfigurerer administrationsappen</string>
     <string name="setup_work_device">Arbejdsenheden konfigureres...</string>
     <string name="setup_work_profile">Konfigurer arbejdsprofil</string>
-    <string name="something_went_wrong">Der opstod en fejl</string>
+    <string name="something_went_wrong">Noget gik galt</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_setup_reset_device_question">Vil du afbryde konfigurationen og nulstille enheden?</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>

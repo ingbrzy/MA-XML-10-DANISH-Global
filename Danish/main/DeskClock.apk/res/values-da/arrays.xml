@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="alarm_in_furture">
-        <item>Alarm om mindre end 1 minut.</item>
+        <item>Alarm om mindre end 1 minut</item>
         <item>Alarm om %1$s</item>
         <item>Alarm om %2$s</item>
         <item>Alarm om %1$s %2$s</item>

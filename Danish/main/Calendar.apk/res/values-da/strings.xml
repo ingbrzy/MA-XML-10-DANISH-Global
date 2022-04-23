@@ -60,6 +60,7 @@
     <string name="alert_title">Kalendernotifikationer</string>
     <string name="all_events">Alle begivenheder</string>
     <string name="all_records">Alle registreringer</string>
+    <string name="already_num">Tid siden %s</string>
     <string name="am">AM</string>
     <string name="anniversary_event_title">Jubilæum: %1$s</string>
     <string name="anniversary_secondary_tag">Jubilæum</string>
@@ -138,6 +139,7 @@
     <string name="copy">Kopiér</string>
     <string name="copy_email">Kopiér mailadressen</string>
     <string name="copy_number">Kopiér telefonnummeret</string>
+    <string name="count_down_date_view">Nedtælling</string>
     <string name="countdown_event_title">Nedtælling: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Nedtælling: %1$s om %2$d dage</string>
     <string name="countdown_notify_title">Nedtælling: %1$s</string>
@@ -175,8 +177,10 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Kinesisk traditionel kalender</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Indstil dato og tid</string>
     <string name="date_today">" (i dag)"</string>
+    <string name="date_view">Dato</string>
     <string name="day">Dag</string>
     <string name="day_view_new_event_hint">Ny begivenhed</string>
     <string name="default_reminder_mode">Remindere</string>
@@ -222,7 +226,7 @@
     <string name="edit_event_to_label">Til</string>
     <string name="edit_your_long_holidays">Redigér ferier</string>
     <string name="ee_dd_short_month">EEEE dd. MMM</string>
-    <string name="eee_dd_long_month">EEEE dd. MMMM</string>
+    <string name="eee_dd_long_month">EEEE d. MMMM</string>
     <string name="email_guests_label">E-mail gæster</string>
     <string name="email_install_hint">Mail er blevet afinstalleret. Installer Mail igen for at gendanne kalenderkonti eller for at tilføje en ny konto.</string>
     <string name="email_picker_label">E-mail med</string>
@@ -374,6 +378,7 @@
     <string name="import_action">Importér</string>
     <string name="import_birthday">Importér fødselsdag</string>
     <string name="imported">Importeret</string>
+    <string name="in_progress">foregår i øjeblikket</string>
     <string name="insert_event_dialog_btn_negative">Nej</string>
     <string name="insert_event_dialog_btn_positive">Ja</string>
     <string name="insert_event_dialog_message">Føj denne event til kalender?</string>
@@ -396,7 +401,7 @@
     <string name="long_holiday_month_off">Månedlige fridage</string>
     <string name="long_holiday_title_length_warning">Ferienavn er for langt</string>
     <string name="long_holiday_week_off">Ugentlige fridage</string>
-    <string name="long_month_date_format">dd. MMMM yyyy</string>
+    <string name="long_month_date_format">d. MMMM yyyy</string>
     <string name="lunar_date">Månedato</string>
     <string name="manage_holidays">Administrer ferier</string>
     <string name="manage_title">Administrer</string>
@@ -406,8 +411,8 @@
     <string name="match_select_activity_label">Ligaer</string>
     <string name="match_zodiac">Match stjernetegn</string>
     <string name="medium_date_format">EEE d. MMMM yyyy</string>
-    <string name="mens_date_format_m_d">dd. MMM</string>
-    <string name="mens_date_format_y_m_d">dd. MMM yyyy</string>
+    <string name="mens_date_format_m_d">d. MMM</string>
+    <string name="mens_date_format_y_m_d">d. MMM yyyy</string>
     <string name="menstrual_assistant">Menstruation</string>
     <string name="menstruation_alert_auth_message">Tillad menstruationsassistenten at starte automatisk for at kunne modtage notifikationer. Du får kun besked om vigtige ting.</string>
     <string name="menstruation_auto_start_message">Tillad menstruationsassistenten at starte automatisk</string>
@@ -525,6 +530,7 @@
     <string name="movie_card_title">Film</string>
     <string name="movie_card_trailer">Trailer</string>
     <string name="name_title_menstruation_today_end">Menstruationen forventes at slutte i dag</string>
+    <string name="near_agenda_view">Kommende begivenheder</string>
     <string name="network_not_available">Kan ikke tilslutte til netværket.</string>
     <string name="never">Aldrig</string>
     <string name="new_event_description">Ny</string>
@@ -538,7 +544,8 @@
     <string name="no_internet_dialog_message">Din enhed skal oprette forbindelse til netværket, før du kan tilbagetrække dit samtykke. Kontroller dine netværksindstillinger, og prøv igen.</string>
     <string name="no_internet_dialog_title">Der opstod en fejl</string>
     <string name="no_long_holidays">Ingen kommende lange ferier</string>
-    <string name="no_network">Kunne ikke tilslutte til netværket./nTjek netværksindstillinger og prøv igen.</string>
+    <string name="no_network">"Kunne ikke tilslutte til netværket.
+Tjek netværksindstillinger og prøv igen."</string>
     <string name="no_network_btn">Prøv igen</string>
     <string name="no_records">Der er endnu ingen emner her.</string>
     <string name="no_storage">Ikke nok hukommelse</string>
@@ -712,11 +719,11 @@
     <string name="share_image">Del</string>
     <string name="share_image_label">Del via</string>
     <string name="share_title">Del</string>
-    <string name="short_date_format">dd. MMM</string>
+    <string name="short_date_format">d. MMM</string>
     <string name="show_day_view">Vis dag</string>
     <string name="show_indic_date_summary">Indisk kalender er tilgængelig, når et af de indiske sprog er valgt som dit systemsprog</string>
     <string name="show_menstruation_info">Vis menstruationsoplysninger</string>
-    <string name="simple_date_format">dd/MM/yyyy</string>
+    <string name="simple_date_format">dd.MM.yyyy</string>
     <string name="single_selected_holiday">%1$s er en fridag</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
@@ -726,10 +733,13 @@
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip">Spring over</string>
-    <string name="small_week_date_format">EEE dd/MM/yyyy</string>
+    <string name="small_week_date_format">EEE dd.MM.yyyy</string>
+    <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
+    <string name="spec_agenda_view">Særlige begivenheder</string>
     <string name="start_date_calculate">Beregn</string>
     <string name="stats_title">Statistikker</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_num">Tid indtil %s</string>
     <string name="storage_permission_denied">Giv først adgang til hukommelse</string>
     <string name="subscribe_card">Abonner nu</string>
     <string name="subscribe_card_success">Abonnementstegning lykkedes. Se informationerne på hjemmesiden.</string>
@@ -854,6 +864,7 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="today">I dag</string>
     <string name="today_at_time_fmt">I dag kl. %s</string>
     <string name="today_icon_voice_contentdescription">Tilbage til i dag</string>
+    <string name="today_no_event">Ingen begivenheder for i dag.</string>
     <string name="today_no_events">Ingen events</string>
     <string name="todays_panchang_title">Dagens Panchang</string>
     <string name="todo_audio_event">"[Voice task] "</string>
@@ -919,7 +930,13 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="widget_events">Næste event</string>
     <string name="widget_get_weather_info">Få vejrudsigt</string>
     <string name="widget_no_events">Ingen events</string>
+    <string name="widget_normal_agenda_tip_empty">Ingen begivenheder for i dag.</string>
+    <string name="widget_normal_agenda_today_done">Alle begivenheder er gennemført for i dag.</string>
+    <string name="widget_normal_more_event">Flere begivenheder</string>
+    <string name="widget_normal_new_event">Tilføj begivenhed</string>
+    <string name="widget_normal_weekN">Uge %d</string>
     <string name="widget_select_style">Vælg en stil</string>
+    <string name="widget_spec_agenda_birth_today">I dag</string>
     <string name="work_day_indication">: (</string>
     <string name="xiaomi_calendar_delete_description">Kalender er en systemapp, hvormed du kan oprette og administrere events. Nogle af dens funktioner vil fortsat være tilgængelige, efter du har fjernet startskærmsgenvejen.</string>
     <string name="xiaomi_calendar_delete_title">Fjern \"Kalender\" fra Startskærm?</string>

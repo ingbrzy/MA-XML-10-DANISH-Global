@@ -100,6 +100,18 @@
         <item quantity="other">%d videoer</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="mangotv_feature_list_title1">
+        <item quantity="other">%1$1d ud af %2$2d afsnit tilgængelige</item>
+        <item quantity="one">%1$1d ud af %2$2d afsnit tilgængeligt</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title2">
+        <item quantity="other">%1$1d ud af %2$2d afsnit tilgængelige</item>
+        <item quantity="one">%1$1d ud af %2$2d afsnit tilgængeligt</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title_all">
+        <item quantity="other">%d afsnit i alt</item>
+        <item quantity="one">%d afsnit i alt</item>
+    </plurals>
     <plurals name="mediation_animate_close_after">
         <item quantity="other">%s sek. tilbage</item>
         <item quantity="one">%s sek. tilbage</item>
@@ -107,6 +119,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d emner valgt</item>
         <item quantity="one">%d emne valgt</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
     </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Dit indhold indeholder elementer (%1$s), der overtræder vores fællesskabsstandarder. Din konto er suspenderet i %2$d dage indtil %3$s.</item>

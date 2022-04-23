@@ -35,8 +35,10 @@
     <string name="afternoon">Eftermiddag</string>
     <string name="am">AM</string>
     <string name="app_name">Skærmbillede</string>
+    <string name="can_drag">Træk for at indsætte eller sende</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="close">Luk</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">For at gemme skærmbilleder</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -102,12 +104,16 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
+    <string name="long_screenshot_error">Der er opstået en fejl. Prøv igen.</string>
     <string name="long_screenshot_guide_text">"Tryk for at lave
 et scrollende screenshot"</string>
+    <string name="long_screenshot_intercepted_error">Kunne ikke tage skærmbillede. Prøv igen.</string>
     <string name="long_screenshot_out_of_memory_error">Billedet er for stort</string>
     <string name="long_screenshot_processing">Behandler…</string>
+    <string name="long_screenshot_processing_description_accessibility">Behandler</string>
     <string name="long_screenshot_stop">Færdig</string>
     <string name="long_screenshot_top_msg">Opretter skærmbillede…</string>
+    <string name="long_screenshot_top_msg_description_accessibility">Opretter skærmbillede</string>
     <string name="long_screenshot_top_msg_manual">Beskær skærmbilledet og tryk på knappen for at udføre</string>
     <string name="midnight">Nat</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
@@ -187,11 +193,13 @@ et scrollende screenshot"</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
+    <string name="save_success">Gemt</string>
     <string name="screenshot_edit">Rediger</string>
     <string name="screenshot_failed_in_landscape_mode">Ikke muligt at lave rulle-skærmbilleder i liggende tilstand</string>
     <string name="screenshot_feedback_txt">Feedback</string>
     <string name="screenshot_insert_failed">Kunne ikke indlæse skærmbillede. Tag et nyt eller vis billedet i Galleri.</string>
     <string name="screenshot_long_screenshot">Rul</string>
+    <string name="screenshot_save">Gem</string>
     <string name="screenshot_send">Send</string>
     <string name="screenshot_thumbnail">Thumbnail af screenshot</string>
     <string name="search_menu_title">Søg</string>

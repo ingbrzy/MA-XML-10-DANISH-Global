@@ -64,6 +64,10 @@
         <item quantity="other">Lige nu</item>
         <item quantity="one">Lige nu</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d emner valgt</item>
+        <item quantity="one">%d emne valgt</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minut siden</item>

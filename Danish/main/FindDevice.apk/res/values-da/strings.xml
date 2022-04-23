@@ -36,6 +36,7 @@
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">Kunne ikke låse op. %s.</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
+    <string name="close">Luk</string>
     <string name="copy">Kopiér</string>
     <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">For at få adgang til telefonnummer så denne enhed kan lokaliseres, når den ikke er tilsluttet til internettet</string>
     <string name="custom_define_permission_desc_android.permission.SEND_SMS">Til lokalisering af denne enhed, når den ikke er tilsluttet til internettet</string>
@@ -86,6 +87,8 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="find_device_storage_corrupted">Find enhed-lager beskadiget. Din enhed er nu usikker.</string>
     <string name="find_device_success_title">Find enhed er aktiveret</string>
     <string name="find_device_telephony_fault">Find enhed: Telefonfejl (%s).</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">MMMM dd</string>
@@ -101,7 +104,11 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="fmt_date_short_month_day">MM/dd</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
     <string name="fmt_date_short_year_month_day">MM/dd/yyyy</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
+    <string name="fmt_time">T</string>
     <string name="fmt_time_12hour">hh</string>
     <string name="fmt_time_12hour_minute">hh:mm</string>
     <string name="fmt_time_12hour_minute_pm">tt:mm aa</string>
@@ -120,8 +127,18 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="fmt_time_minute_second_millis">m:s.S</string>
     <string name="fmt_time_second">s</string>
     <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -215,6 +232,7 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
     <string name="search_menu_title">Søg</string>
+    <string name="send">Send</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captcha må ikke være tom</string>
     <string name="stop_on_empty_password">Adgangskoden må ikke være tom</string>
@@ -226,6 +244,9 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="sys_notification_async_open_failed_title">Kunne ikke slå Find enhed til</string>
     <string name="sys_notification_async_verify_content">Vores opdaterede Sikkerhedspolitik kræver, at Find enhed genaktiveres.</string>
     <string name="sys_notification_async_verify_title">Genaktiver Find enhed</string>
+    <string name="talkback_back">Tilbage</string>
+    <string name="talkback_hide_pwd">Skjul adgangskode</string>
+    <string name="talkback_show_pwd">Vis adgangskode</string>
     <string name="the_anniversary_of_lifting_martial_law">Jubilæum for indførelse af undtagelsestilstand</string>
     <string name="the_anti_aggression_day">Antiaggressionsdag</string>
     <string name="the_arbor_day">Arbor-dag</string>

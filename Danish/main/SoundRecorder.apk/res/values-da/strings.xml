@@ -296,6 +296,7 @@
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -328,6 +329,11 @@
     <string name="network_tip_dialog_title">Der kræves internetforbindelse</string>
     <string name="network_unavailable_tip">Opret forbindelse til netværket og prøv igen.</string>
     <string name="new_record_name">Ny optagelse</string>
+    <string name="new_saf_permission_dialog_content">"Optagertilladelser blev opdateret. Tillad, at optageren får adgang til optagelser af opkald.
+
+Sådan gives tilladelse
+Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Næste</string>
     <string name="night">Aften</string>
     <string name="no_content">Ingen elementer her endnu</string>
     <string name="no_file">Tom</string>
@@ -385,6 +391,8 @@
     <string name="permission_desc">Oplysninger om tilladelser</string>
     <string name="permission_dialog_cancel">Annuller</string>
     <string name="permission_dialog_ok">Indstillinger</string>
+    <string name="permission_read_phone_state">Få adgang til enhedsoplysninger</string>
+    <string name="permission_read_phone_state_description">For at få adgang til opkaldsstatus for automatisk at stoppe optagelse, når opkald modtages</string>
     <string name="permission_record">Optag lyd</string>
     <string name="permission_record_description">Til levering af lydoptagelsestjenester</string>
     <string name="permission_storage">Få adgang til lager</string>
@@ -624,6 +632,7 @@
     <string name="the_united_nations_day">FN-dag</string>
     <string name="the_valentines_day">Valentinsdag</string>
     <string name="the_water_lantern_festival">Vandlanternefestival</string>
+    <string name="this_folder">Brug denne mappe</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tors</string>
     <string name="thursday_shortest">Tors</string>

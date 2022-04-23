@@ -45,7 +45,7 @@
         <item>Betal;Betaling;Betalingsmetode;Mi-konto;Konto</item>
     </string-array>
     <string-array name="settings_search_privacy_policy">
-        <item>Fortrolighedspolitik</item>
+        <item>Privatlivspolitik</item>
         <item>Se fortrolighedspolitik for Mi-konto</item>
         <item>Mi-konto;Konto;Fortrolighedspolitik</item>
     </string-array>

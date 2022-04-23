@@ -449,7 +449,7 @@ Send denne kode til supervisoren."</string>
     <string name="download_dialog_content_open_mi_picks">Åbn (%1$ds)</string>
     <string name="download_dialog_content_ordinary_download">Almindeligt download</string>
     <string name="download_dialog_content_rcmd_get_apps">GetApps — Mi officielt app-marked</string>
-    <string name="download_dialog_content_rcmd_text">Millioner af gratis apps &amp; spil. Installer uden at logge ind.</string>
+    <string name="download_dialog_content_rcmd_text">Millioner af gratis apps og spil. Installer uden at logge ind.</string>
     <string name="download_dialog_content_security_download">Sikkert download (anbefalet)</string>
     <string name="download_dialog_default_path_invalid">Den valgte downloadplacering er ugyldig. Gemmer til standardplacering…</string>
     <string name="download_dialog_failed_body">Prøv igen senere eller fjern denne fil fra downloadkøen?</string>
@@ -752,6 +752,7 @@ Send denne kode til supervisoren."</string>
     <string name="homepage_search_hint">Søg</string>
     <string name="homepage_top_card_menu">Top</string>
     <string name="hot_games">Populær</string>
+    <string name="i_know">Stop</string>
     <string name="identity">Identifikation</string>
     <string name="if_cancel">Annullér denne handling?</string>
     <string name="ignore_add_game_center_dialog_this_week">Vis ikke denne uge</string>
@@ -1512,7 +1513,7 @@ Nogle websteder bruger ikke din tidligere browserhistorik til at personalisere d
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="preference_des_autocomplete_search">Udfyld automatisk søgningers baseret på browsinghistorik, forslag fra søgemaskiner og populære websites</string>
     <string name="preference_title_autocomplete_search">"Udfyld automatisk søgninger og URL'er"</string>
-    <string name="privacy_accept">Acceptér &amp; fortsæt</string>
+    <string name="privacy_accept">Acceptér og fortsæt</string>
     <string name="privacy_agreement">Brugeraftale</string>
     <string name="privacy_authorize_cannot_revoke_dialog_msg">Denne handling kræver at dit Performance ID uploades, hvilket ikke er muligt i inkognitotilstand. Forlad inkognitotilstanden og prøv igen.</string>
     <string name="privacy_authorize_network_error">Din enhed skal oprette forbindelse til netværket, før du kan tilbagetrække dit samtykke. Kontroller dine netværksindstillinger, og prøv igen.</string>
@@ -1529,12 +1530,12 @@ Nogle websteder bruger ikke din tidligere browserhistorik til at personalisere d
     <string name="privacy_improve_performance">Brugeroplevelsesprogram</string>
     <string name="privacy_improve_performance_desc">Tillad Xiaomi at indsamle og analysere brugerdata for at forbedre vores produkter og tjenester</string>
     <string name="privacy_message">Før du bruger browseren, skal du acceptere vores &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Brugeraftale&lt;/a>&lt;/font> og &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Fortrolighedspolitik&lt;/a>&lt;/font>.</string>
-    <string name="privacy_message_main_tips_first">Mi Browser indsamler nødvendige personoplysninger for at forsyne dig med de basale tjenester. Du kan finde ud af, hvordan vi behandler de indsamlede oplysninger i vores &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Fortrolighedspolitik&lt;/a>&lt;/font>. Du kan altid tilbagekalde din accept af Mi Browsers Fortrolighedspolitik under indstillinger > Privatliv &amp; Sikkerhed. Læs og accepter vores &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Brugeraftale&lt;/a>&lt;/font> og &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Fortrolighedspolitik&lt;/a>&lt;/font>, før du bruger Mi Browser.</string>
+    <string name="privacy_message_main_tips_first">Mi Browser indsamler nødvendige personoplysninger for at forsyne dig med de basale tjenester. Du kan finde ud af, hvordan vi behandler de indsamlede oplysninger i vores &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Fortrolighedspolitik&lt;/a>&lt;/font>. Du kan altid tilbagekalde din accept af Mi Browsers Fortrolighedspolitik under indstillinger > Privatliv og Sikkerhed. Læs og accepter vores &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Brugeraftale&lt;/a>&lt;/font> og &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Fortrolighedspolitik&lt;/a>&lt;/font>, før du bruger Mi Browser.</string>
     <string name="privacy_message_main_tips_second">For at kunne søge efter apps på denne enhed og vide, hvilke apps der er installeret, er Mi Browser nødt til at få adgang til app-installationsinfo, som ikke gemmes lokalt eller uploades i nogen form.</string>
     <string name="privacy_message_welcome">Velkommen til Mi Browser! Vores app leverer følgende tjenester:</string>
     <string name="privacy_message_welcome_tip_first">– Hurtig og sikker web-browsing</string>
     <string name="privacy_message_welcome_tip_second">– Downloader billeder og videoer fra sociale medieplatforme</string>
-    <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="privacy_policy">Privatlivspolitik</string>
     <string name="privacy_reset_fail">Kunne ikke nulstille. Prøv igen.</string>
     <string name="privacy_sub_title">Vilkår og betingelser</string>
     <string name="privacy_title">Velkommen til Mi Browser</string>
@@ -1921,7 +1922,7 @@ Nogle websteder bruger ikke din tidligere browserhistorik til at personalisere d
     <string name="user_defined_webpage_title">Føj til startsiden</string>
     <string name="user_experience_agree">Tilmeld</string>
     <string name="user_experience_content">"Brugeroplevelsesprogrammet hjælper os med at forbedre vores produkter og tjenester på en målrettet måde og at introducere nye funktioner og tjenester, der hjælper dig. Vi begynder at indsamle og analysere relevante data (f.eks. data om brug af produktet), efter du har tilmeldt dig til programmet. Ved at trykke på \"Tilmeld\" forneden accepterer du vilkår og betingelser for &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Brugeroplevelsesprogrammet&lt;/a>&lt;/font>.
-Du kan altid melde fra under Indstillinger > Fortrolighed &amp; Sikkerhed."</string>
+Du kan altid melde fra under Indstillinger > Fortrolighed og Sikkerhed."</string>
     <string name="user_experience_disagree">Tilmeld ikke</string>
     <string name="user_experience_title">Brugeroplevelsesprogram</string>
     <string name="user_guide_color_mode_info">Lys tilstand og mørk tilstand er tilgængelige</string>

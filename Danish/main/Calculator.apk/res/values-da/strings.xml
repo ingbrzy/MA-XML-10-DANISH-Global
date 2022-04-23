@@ -93,13 +93,13 @@
     <string name="currency_update_updating">Opdaterer satser…</string>
     <string name="current_rate_remind_commercial" />
     <string name="current_rate_remind_fund" />
-    <string name="date_format">dd. MMM yyyy</string>
+    <string name="date_format">d. MMM yyyy</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Kinesisk traditionel kalender</string>
     <string name="date_time_picker_dialog_title">Indstil dato og tid</string>
-    <string name="dateformat">dd/MM/yyyy</string>
+    <string name="dateformat">dd.MM.yyyy</string>
     <string name="day">dag</string>
     <string name="degDesc">Vinkel</string>
     <string name="deleteDesc">slet</string>
@@ -278,7 +278,7 @@
     <string name="l_name_discount">Rabat (%s)</string>
     <string name="label_about">Om</string>
     <string name="label_clear_history">Ryd alt</string>
-    <string name="label_date_difference">Difference</string>
+    <string name="label_date_difference">Forskel</string>
     <string name="label_days">Dage</string>
     <string name="label_delete">Ryd</string>
     <string name="label_emi">EMI</string>
@@ -346,6 +346,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="menuDesc">menu</string>
     <string name="midnight">Nat</string>
     <string name="minusDesc">minus</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
@@ -489,7 +490,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="preference_follow_web_title">Officielt websted</string>
     <string name="preference_follow_wechat_title">WeChat</string>
     <string name="preference_follow_weibo_title">Sina Weibo</string>
-    <string name="preference_help">Hjælp &amp; feedback</string>
+    <string name="preference_help">Hjælp og feedback</string>
     <string name="preference_other">Andet</string>
     <string name="preference_privacy_title">Privatlivspolitik</string>
     <string name="preference_rating_title">Bedøm vores app</string>
@@ -694,6 +695,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="unit_data_display_currency_btn">Bhutansk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Hviderussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Canadisk dollar</string>
     <string name="unit_data_display_currency_cdf">Congolesisk franc</string>
     <string name="unit_data_display_currency_chf">Schweiziske franc</string>
@@ -1036,12 +1038,15 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_calculator_delete_description">Lommeregner er en systemapp. Du vil ikke kunne bruge flere omregnere og andre funktioner, efter du har afinstalleret appen.</string>
     <string name="xiaomi_calculator_delete_title">Afinstaller Kalender?</string>
     <string name="xiaomi_calculator_remove_icon_description">Lommeregner er en systemapp. Du vil ikke kunne bruge flere omregnere og andre funktioner, efter du har fjernet startskærmsgenvejen.</string>
     <string name="xiaomi_calculator_remove_icon_title">Fjern \"Lommeregner\" fra Startskærm?</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke forbinde til Downloads. Kontrollér, om denne app har alle de nødvendige tilladelser i indstillingerne > installeret apps.</string>
     <string name="xiaomi_external_storage_unavailable">Lager er ikke tilgængeligt. Kontrollér dit SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s

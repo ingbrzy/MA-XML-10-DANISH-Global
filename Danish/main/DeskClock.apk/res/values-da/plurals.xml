@@ -158,7 +158,7 @@
     </plurals>
     <plurals name="timer_message_minute">
         <item quantity="other">"%1$d minutter "</item>
-        <item quantity="one">%1$d minut</item>
+        <item quantity="one">"%1$d minut "</item>
     </plurals>
     <plurals name="timer_message_second">
         <item quantity="other">%1$d sekunder</item>

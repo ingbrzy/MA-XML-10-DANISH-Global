@@ -82,6 +82,7 @@
     <string name="account_verify_guide_bind_mail_desc">Tilføj en gendannelses-e-mail</string>
     <string name="account_verify_guide_bind_phone_desc">Tilføj en gendannelsestelefon</string>
     <string name="account_verify_guide_set_password_desc">Indstil en adgangskode</string>
+    <string name="account_verify_guide_verify_phone_desc">Bekræft gendannelsestelefon</string>
     <string name="account_xiaomi_service">Serviceydelser</string>
     <string name="action_add_phone">Tilføj telefonnummer</string>
     <string name="action_retry">Prøv igen</string>
@@ -121,6 +122,10 @@ Du kan logge ind på din Mi-konto ved hjælp af %s nu."</string>
     <string name="cloud_description_closed">Optaget | Synkronisering slået fra</string>
     <string name="cloud_description_normal">Optaget</string>
     <string name="cloud_service">Xiaomi Cloud</string>
+    <string name="cloud_service_status_backup_not_open">Backup er deaktiveret</string>
+    <string name="cloud_service_status_cloud_not_open">Deaktiveret</string>
+    <string name="cloud_service_status_storage_full">Lager er fuldt</string>
+    <string name="cloud_service_status_storage_not_enough">Ikke nok plads</string>
     <string name="collect_diagnosis_log">Generer diagnoselogfil</string>
     <string name="com_facebook_device_auth_instructions">Gå til &lt;b>facebook.com/device&lt;/b> og indtast koden, som er vist ovenfor.</string>
     <string name="com_facebook_image_download_unknown_error">Uventet fejl under download af billede.</string>
@@ -440,6 +445,8 @@ Send denne kode til supervisoren."</string>
     <string name="notify_network_restricted_content_hidden_state">Mi Accounts baggrundsaktivitet er begrænset. Tryk for at tillade.</string>
     <string name="notify_network_restricted_content_mobile_network">Mi Accounts internetadgang er begrænset. Tryk for at tillade.</string>
     <string name="notify_network_restricted_title">Mi-konto kunne ikke tilslutte til netværket</string>
+    <string name="notify_verify_again_security_phone">Bekræft</string>
+    <string name="notify_verify_security_phone">Telefon</string>
     <string name="oauth_get_scopes_failed">Kunne ikke hente kontoinformationer</string>
     <string name="oauth_getting_scopes">Bekræfter konto…</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> vil få følgende tilladelser:&lt;br> &lt;br> %3$s</string>
@@ -573,8 +580,8 @@ Send denne kode til supervisoren."</string>
     <string name="passport_phone_num_hint_text">Telefonnummer</string>
     <string name="passport_phone_ticket_login">Log på med SMS</string>
     <string name="passport_prev">Tilbage</string>
-    <string name="passport_privacy_policy">Fortrolighedspolitik</string>
-    <string name="passport_privacy_policy_required">Fortrolighedspolitik (obligatorisk)</string>
+    <string name="passport_privacy_policy">Privatlivspolitik</string>
+    <string name="passport_privacy_policy_required">Privatlivspolitik (obligatorisk)</string>
     <string name="passport_provision_activator_phone_summary_sim1_prefix">SIM <xliff id="sim1" refersto="1">%1$d</xliff> %2$s</string>
     <string name="passport_provision_activator_phone_summary_sim2_prefix">SIM <xliff id="sim2" refersto="2">%1$d</xliff> %2$s</string>
     <string name="passport_provision_input_email_register_prompt">Dine personlige data lagres i henhold til love og bestemmelser for den region, du vælger.</string>

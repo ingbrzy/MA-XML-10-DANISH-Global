@@ -99,7 +99,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
-    <string name="i_get_it">Got it</string>
+    <string name="i_get_it">Forstået</string>
     <string name="icon_add_description">Tilføj genvej på startskærm</string>
     <string name="icon_remove_confirm">Fjern</string>
     <string name="icon_remove_description_content">\"Tjenester og feedback\" er en systemapp. Du kan fortsat bruge den via Indstillinger, efter du har fjernet genvejen på startskærmen.</string>
@@ -172,7 +172,7 @@
     <string name="miui_feedback_edit_submit_dialog_cancel">Er ikke enig</string>
     <string name="miui_feedback_edit_submit_dialog_confirm">Bekræft</string>
     <string name="miui_feedback_edit_submit_dialog_content">&lt;Data>Du skal acceptere vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Brugeraftale&lt;/a> for at kunne bruge Feedback. Problemerne, du anmelder sammen med de emner, du vedhæfter (kan indeholde personoplysninger såvel som oplysningerne om din enhed og netværk) vil blive uploadet til MIUIs servere. Det vil hjælpe os med at lokalisere og løse de problemer, du anmeldte.&lt;/Data></string>
-    <string name="miui_feedback_edit_submit_dialog_content_global">&lt;Data>Din feedback og vedhæftelser (om nogen) samt logfiler (du kan fjerne markeringen fra de tilsvarende felter for de elementer, som du ikke ønsker at indlæse) sendes til MIUIs servere. Logfilerne kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">fortrolighedspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">brugeraftale&lt;/a>.&lt;/Data></string>
+    <string name="miui_feedback_edit_submit_dialog_content_global">&lt;Data>Din feedback og vedhæftelser (om nogen) samt logfiler (du kan fjerne markeringen fra de tilsvarende felter for de elementer, som du ikke ønsker at indlæse) sendes til MIUIs servere. Logfilerne kan indeholde personlige oplysninger og dine placeringsdata. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privatlivspolitik&lt;/a> og &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Brugeraftale&lt;/a>.&lt;/Data></string>
     <string name="miui_feedback_edit_submit_dialog_not_show_again">Vis ikke igen</string>
     <string name="miui_feedback_edit_submit_dialog_title">Send rapport</string>
     <string name="miui_feedback_edit_submit_directly">Indsend</string>
@@ -185,6 +185,9 @@
     <string name="miui_feedback_edit_toast_screenshot_too_large">Kan ikke uploade billeder eller videoer, der er større end 100 Mb</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Indtast app-navn</string>
     <string name="miui_feedback_main_answer_title">Der findes et svar på dette spørgsmål</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"Servicehotline: 0120-300-521
+Åbningstid: 9:00 - 18:00 (bortset fra planlagte helligdage)
+E-mail: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_frequent_question_title">OSS</string>
     <string name="miui_feedback_main_item_catch_full_log">Hent logfiler</string>
     <string name="miui_feedback_main_item_customer_service">Eftersalgstjenester</string>
@@ -340,10 +343,10 @@
     <string name="permission_user_protocol">Brugeraftale (obligatorisk)</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
-    <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
+    <string name="privacy_policy_update_hint">"%1$s privatlivspolitik blev opdateret:
 %2$s
-Read and agree to the new version of %3$s before you continue."</string>
-    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+Læs og acceptér den nye version af %3$s, inden du fortsætter."</string>
+    <string name="privacy_policy_update_title">Opdateret privatlivspolitik</string>
     <string name="public_authorize_now">Indstillinger</string>
     <string name="public_loading_text">Lige et øjeblik…</string>
     <string name="public_net_error_retry">Prøv igen</string>
@@ -413,16 +416,16 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>
     <string name="tuesday_shortest">Tirs</string>
-    <string name="user_must_known">Attention</string>
-    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_must_known">Bemærk</string>
+    <string name="user_must_known_content">Du vil ikke kunne fortsætte med at bruge vores tjenester, medmindre du accepterer den nye version af vores %s. Acceptér den opdaterede privatlivspolitik nu?</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
-    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
-    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
-    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
-    <string name="withdrawing">Withdrawing consent…</string>
+    <string name="withdraw_consent_failed">Kunne ikke trække samtykke tilbage</string>
+    <string name="withdraw_consent_failed_hint">Der opstod en serverfejl. Vent et minut eller to, og prøv så igen.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Din enhed skal oprette forbindelse til netværket, før du kan tilbagetrække dit samtykke. Kontrollér dine netværksindstillinger, og prøv igen.</string>
+    <string name="withdrawing">Tilbagetrækning af samtykke…</string>
     <string name="yesterday">I går</string>
 </resources>

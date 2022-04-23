@@ -302,7 +302,6 @@ Alle kan få adgang til disse oplysninger på din låseskærm og ringe til dine 
     <string name="enable_verbose_vendor_logging">Aktivér detaljeret leverandørlogging</string>
     <string name="enable_verbose_vendor_logging_summary">Medtag yderligere enhedsspecifikke leverandørlogfiler i fejlrapporter, som muligvis indeholder personlige oplysninger. Dette bruger muligvis mere batteri og/eller lagerplads.</string>
     <string name="enabled_by_admin">Aktiveret af administratoren</string>
-    <string name="enhanced_connectivity">Enhanced Connectivity</string>
     <string name="enhanced_connectivity_summary">Aktivér funktionen Enhanced Connectivity.</string>
     <string name="expand_button_title">Avanceret</string>
     <string name="external_source_trusted">Tilladt</string>
@@ -320,7 +319,7 @@ Alle kan få adgang til disse oplysninger på din låseskærm og ringe til dine 
     <string name="force_rtl_layout_all_locales">Tving læsning mod venstre</string>
     <string name="force_rtl_layout_all_locales_summary">Gennemtving højre mod venstre-layout for alle sprog</string>
     <string name="guest_exit_guest">Fjern gæsten</string>
-    <string name="guest_new_guest">Tilføj gæsten</string>
+    <string name="guest_new_guest">Tilføj gæst</string>
     <string name="guest_nickname">Gæst</string>
     <string name="h_h">H H</string>
     <string name="hdcp_checking_dialog_title">Angiv HDCP-kontroladfærd</string>
@@ -335,7 +334,7 @@ Alle kan få adgang til disse oplysninger på din låseskærm og ringe til dine 
     <string name="ims_reg_status_not_registered">Ikke registreret</string>
     <string name="ims_reg_status_registered">Registreret</string>
     <string name="ims_reg_title">Status for IMS-registrering</string>
-    <string name="imsi_protection_warning">Dette netværk kræver et unikt id, der kan bruges til at spore enhedens placering. <annotation id="url">Få flere oplysninger</annotation></string>
+    <string name="imsi_protection_warning">Dette netværk kræver et SIM-id, der kan bruges til at spore enhedens placering. <annotation id="url">Få flere oplysninger</annotation></string>
     <string name="inactive_app_active_summary">Aktiv. Tryk for at skifte.</string>
     <string name="inactive_app_inactive_summary">Inaktiv. Tryk for at skifte.</string>
     <string name="inactive_apps_title">Apps på standby</string>
@@ -579,7 +578,7 @@ Når du tilføjer en ny bruger, skal vedkommende konfigurere sit område.
 Alle brugere kan opdatere apps for alle andre brugere. Indstillinger og tjenester for hjælpefunktioner overføres muligvis ikke til den nye bruger."</string>
     <string name="user_add_user_message_short">"Når du tilføjer en ny bruger, skal personen konfigurere sit rum.
 
-Enhver bruger kan opdatere apps for alle andre brugere."</string>
+Alle brugere kan opdatere apps for alle de andre brugere."</string>
     <string name="user_add_user_title">Vil du tilføje en ny bruger?</string>
     <string name="user_add_user_type_title">Tilføj</string>
     <string name="user_guest">Gæst</string>
@@ -609,6 +608,7 @@ Enhver bruger kan opdatere apps for alle andre brugere."</string>
     <string name="wifi_cant_connect">Kan ikke forbinde</string>
     <string name="wifi_cant_connect_to_ap">Der kan ikke oprettes forbindelse til \"%1$s\"</string>
     <string name="wifi_check_password_try_again">Tjek adgangskoden, og prøv igen</string>
+    <string name="wifi_connected_low_quality">Dårlig kvalitet</string>
     <string name="wifi_connected_no_internet">Intet internet</string>
     <string name="wifi_disabled_by_recommendation_provider">Ingen forbindelse på grund af lav netværkskvalitet</string>
     <string name="wifi_disabled_generic">Deaktiveret</string>

@@ -52,30 +52,10 @@
         <item>Synkroniser app-data</item>
         <item>Find enhed</item>
     </string-array>
-    <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
-        <item>Til at identificere din enhed</item>
-        <item>Til at finde din enhed og skifte til Mistet-tilstand</item>
-    </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
         <item>Til at finde din enhed og skifte til Bortkommet-tilstand</item>
         <item>Til lokalisering af denne enhed, når den ikke er tilsluttet til internettet</item>
         <item>For at få adgang til telefonnummer så denne enhed kan lokaliseres, når den ikke er tilsluttet til internettet</item>
-    </string-array>
-    <string-array name="privacy_dialog_sync_runtime_perm_desc">
-        <item>Til at synkronisere begivenheder</item>
-        <item>Til at synkronisere beskeder</item>
-        <item>Til at synkronisere beskeder</item>
-        <item>Til at synkronisere kontakter</item>
-        <item>Til at synkronisere kontakter</item>
-        <item>Til at gemme elementer på din enhed (f.eks. billeder, videoer, sange)</item>
-    </string-array>
-    <string-array name="privacy_dialog_sync_runtime_perm_title">
-        <item>Få adgang til kalenderbegivenheder</item>
-        <item>Send SMS</item>
-        <item>Læs MMS</item>
-        <item>Få adgang til kontakter</item>
-        <item>Rediger og slet kontakter</item>
-        <item>Få adgang til fotos og filer på enheden</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Sikkerhedskopier</item>
@@ -121,11 +101,6 @@
         <item>Synkroniser galleri med Xiaomi Cloud</item>
         <item>Aktiver/konfigurer synkronisering</item>
         <item>Galleri;Billeder;Cloud;Synkronisering;Cloud-tjenesterXiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_music">
-        <item>Synkroniser musik med Xiaomi Cloud</item>
-        <item>Slå synkronisering til</item>
-        <item>Musik;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_notes">
         <item>Synkroniser noter med Xiaomi Cloud</item>
@@ -206,9 +181,5 @@
         <item>Sync WLAN settings with Xiaomi Cloud</item>
         <item>Turn on sync</item>
         <item>WLAN;wifi;Wi-Fi;Cloud;Sync;Cloud services;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="user_detail_fixed_items">
-        <item>Se synkroniserede elementer</item>
-        <item>Lageroplysninger</item>
     </string-array>
 </resources>
