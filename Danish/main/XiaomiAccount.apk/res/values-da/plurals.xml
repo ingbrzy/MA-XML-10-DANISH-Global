@@ -36,6 +36,10 @@
         <item quantity="other">%d min siden</item>
         <item quantity="one">1 min siden</item>
     </plurals>
+    <plurals name="area_code_search_result_size">
+        <item quantity="other">Fundet %d resultater</item>
+        <item quantity="one">Fundet %d resultat</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>

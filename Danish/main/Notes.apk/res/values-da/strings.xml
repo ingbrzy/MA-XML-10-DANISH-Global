@@ -360,7 +360,7 @@
     <string name="menu_unstick">Tag ned</string>
     <string name="merge_to_folder">Opret en mappe</string>
     <string name="midnight">Nat</string>
-    <string name="mind_note_first_enter_guide">Tryk for at oprette et tankekort</string>
+    <string name="mind_note_first_enter_guide">Tryk for at skabe et mindmap</string>
     <string name="mind_note_mind_map_view">Mindmap-visning</string>
     <string name="mind_note_outline_view">Oversigt</string>
     <string name="mind_note_toolbar_add_brother_node">Tilføj en beslægtet knude</string>
@@ -496,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -557,6 +558,7 @@
     <string name="note_sort_way">Sortér</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Noter er en systemapp. Du vil ikke længere kunne bruge denne app, når du har afinstalleret den.</string>
     <string name="notes_description_title">Afinstallér noter?</string>
     <string name="notification_content_add_todo_from_other_app">Du tilføjede en ny opgave. Tryk for at se.</string>
@@ -580,7 +582,7 @@
     <string name="pad_todo_create_hint">Tilføj opgave</string>
     <string name="password_toggle_content_description">Vis adgangskode</string>
     <string name="pc_action_create_new_folder">Mappe</string>
-    <string name="pc_action_create_new_mind_note">Tankekort</string>
+    <string name="pc_action_create_new_mind_note">Mindmap</string>
     <string name="pc_action_create_new_normal_note">Note</string>
     <string name="pc_action_create_new_note">Opret en note</string>
     <string name="pc_action_search_notes_hint">Søg efter noter</string>
@@ -946,6 +948,7 @@ Tillad at Notes optager lyd."</string>
     <string name="view_all_notes">Vis alle</string>
     <string name="warn_cannot_add_new_bullet">Kan ikke tilføje ny punktliste, fordi noten er for lang</string>
     <string name="warn_cannot_add_new_checkbox">Kan ikke tilføje nyt afkrydsningsfelt, da noten er for lang</string>
+    <string name="warn_cannot_add_new_content">Kan ikke tilføje nyt inhold, fordi noten er for lang</string>
     <string name="warn_cannot_add_new_doodle">Kan ikke tilføje nyt doodle, fordi noten er for lang</string>
     <string name="warn_cannot_add_new_element">Kan ikke tilføje nyt element, fordi noten er for lang</string>
     <string name="warn_cannot_add_new_link_card">Kan ikke tilføje nyt link, fordi noten er for lang</string>
@@ -972,6 +975,8 @@ Tillad at Notes optager lyd."</string>
     <string name="widget_size_item_big">Stor</string>
     <string name="widget_size_item_medium">Medium</string>
     <string name="widget_size_item_small">Lille</string>
+    <string name="widget_size_item_super_big">Ekstra stor</string>
+    <string name="widget_size_not_support">Ekstra store widgets understøttes ikke på denne enhed</string>
     <string name="widget_take_notes_title">Noter</string>
     <string name="yesterday">I går</string>
 </resources>

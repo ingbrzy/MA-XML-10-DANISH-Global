@@ -37,6 +37,7 @@
     <string name="add_private_files">Tilføj filer</string>
     <string name="add_remote">Tilføj fjern enhed</string>
     <string name="agree_all">Jeg har læst og accepteret alle følgende vilkår og betingelser.</string>
+    <string name="agree_privacy_policy">Acceptér privatlivspolitik</string>
     <string name="all">Alle</string>
     <string name="already_latest_version">Aktuel version er opdateret.</string>
     <string name="anonymous">Anonym</string>
@@ -207,6 +208,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="feedback_desc">Beskriv problemet, du er stødt ind i.</string>
     <string name="feedback_send_email_body_extra_info">Slet ikke følgende info. Det vil hjælpe os med at lokalisere problemet.</string>
+    <string name="feeling_ok">Neutral</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Læsbar: </string>
     <string name="file_info_canwrite">Skrivbar: </string>
@@ -232,6 +234,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="ftp_username_hint">Brugernavn</string>
     <string name="gbk_summary">Forenklet kinesisk Windows standardkodning</string>
     <string name="gigabyteShort">GB</string>
+    <string name="great">Meget tilfreds</string>
     <string name="grid_order">Mønstervisning</string>
     <string name="homepage_tab_recent">Seneste</string>
     <string name="host">Vært</string>
@@ -277,7 +280,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="menu_item_usb">USB</string>
     <string name="mi_router_label">Router</string>
     <string name="mode">Tilstand</string>
-    <string name="month_day_format">dd MMM</string>
+    <string name="month_day_format">d. MMM</string>
     <string name="more">Mere</string>
     <string name="more_option">Flere muligheder</string>
     <string name="move_failed">Kan ikke flytte</string>
@@ -288,7 +291,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="msg_set_password">Opsæt adgangskode først</string>
     <string name="mtp_device">Medie-enhed (MTP)</string>
     <string name="must_permissions">Obligatoriske tilladelser</string>
-    <string name="must_privacy_policy">Fortrolighedspolitik (obligatorisk)</string>
+    <string name="must_privacy_policy">Privatlivspolitik (obligatorisk)</string>
     <string name="must_user_service">Brugeraftale (obligatorisk)</string>
     <string name="name_empty">Du skal indtaste et navn.</string>
     <string name="network_settings_error">Kan ikke tilslutte til netværket</string>
@@ -307,6 +310,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="not_connect_user">Kan ikke forbinde: %1$s og %2$s</string>
     <string name="not_installed_documentsui">Document-UI ikke installeret</string>
     <string name="not_support_documentui">Document-UI understøttes ikke på denne enhed</string>
+    <string name="not_very_dissatisfied">Utilfreds</string>
     <string name="notif_server_starting">Starter FTP-server…</string>
     <string name="notif_title">FTP-server kører</string>
     <string name="notification_wechat_expired_empty">WeChat har allerede slettet disse videoklip.</string>
@@ -387,13 +391,13 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="port">Port</string>
     <string name="port_range">Portnummer skal være mellem 1024 og 65535</string>
     <string name="possible_permissions">Valgfrie tilladelser</string>
-    <string name="privacy_accept">Acceptér &amp; fortsæt</string>
+    <string name="privacy_accept">Acceptér og fortsæt</string>
     <string name="privacy_cancel"><u>Ikke enig</u></string>
     <string name="privacy_desc">Velkommen til filhåndteringen! Ud over de grundlæggende funktioner leverer denne app også de følgende tjenester:</string>
     <string name="privacy_experience_statement">Deltag i vores forbrugeroplevelsesprogram for at dele data med os og hjælpe os med at forbedre vores produkter og tjenester.</string>
     <string name="privacy_item1">Kategoriserer for nyligt brugte elementer</string>
     <string name="privacy_item2">At gennemgå og redigere filer</string>
-    <string name="privacy_message">&lt;Data>For at kunne tilbyde dig de grundlæggende tjenester skal filhåndteringen indsamle nødvendige personlige oplysninger, der genererer statistikker om brugen. Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href=\"%1$s\">fortrolighedspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">brugeraftale&lt;/a> og &lt;a href=\"%1$s\">fortrolighedspolitik&lt;/a>, inden du bruger filhåndteringen. I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til fortrolighedspolitikken for filhåndtering. Hvis du ikke accepterer vores fortrolighedspolitik, vil du ikke være i stand til at bruge visse af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.&lt;/Data></string>
+    <string name="privacy_message">&lt;Data>For at kunne tilbyde dig de grundlæggende tjenester skal filhåndteringen indsamle nødvendige personlige oplysninger, der genererer statistikker om brugen. Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">brugeraftale&lt;/a> og &lt;a href=\"%1$s\">privatlivspolitik&lt;/a>, inden du bruger filhåndteringen. I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til fortrolighedspolitikken for filhåndtering. Hvis du ikke accepterer vores fortrolighedspolitik, vil du ikke være i stand til at bruge visse af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.&lt;/Data></string>
     <string name="privacy_title">Velkommen til filadministratoren</string>
     <string name="private_files">Privat</string>
     <string name="private_folder">Private filer</string>
@@ -439,6 +443,7 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="s5">Opret kalenderbegivenhed</string>
     <string name="s6">Vil du tillade, at annoncen opretter en kalenderbegivenhed?</string>
     <string name="s7">Testannonce</string>
+    <string name="satisfied">Tilfreds</string>
     <string name="save_seven_day">Ryd én gang om ugen</string>
     <string name="scan_code_download_from_play">Scan denne QR-kode for at downloade fra Play Store</string>
     <string name="search_description">Søg efter alle filer på enheden</string>
@@ -494,7 +499,9 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="storage_usb">USB-lagerplads</string>
     <string name="storage_warning">Kan ikke bruge eksternt lager</string>
     <string name="str_clean">Rens</string>
-    <string name="tab_common_app">Apper &amp; mapper</string>
+    <string name="switch_to_grid_mode">Skift til mønstervisning</string>
+    <string name="switch_to_list_mode">Skift til listevisning</string>
+    <string name="tab_common_app">Apps og mapper</string>
     <string name="tab_more">Flere</string>
     <string name="terabyteShort">TB</string>
     <string name="terms_conditions">Vilkår og betingelser</string>
@@ -524,17 +531,18 @@ Tryk og hold en mappe og tryk på \"More\" for at tilføje."</string>
     <string name="user_experience_desc">Del brugerdata med os for at hjælpe os med at forbedre vores produkter og tjenester</string>
     <string name="user_experience_title">Brugeroplevelsesprogram</string>
     <string name="user_not_login">Log ind først</string>
-    <string name="user_notice_privacy_policy">Fortrolighedspolitik</string>
+    <string name="user_notice_privacy_policy">Privatlivspolitik</string>
     <string name="user_notice_term_of_service">Brugeraftale</string>
     <string name="utf8_summary">System FTP-standardkodning</string>
     <string name="version_name">Version</string>
+    <string name="very_dissatisfied">Meget utilfreds</string>
     <string name="view_by_document">Se i Filer</string>
     <string name="wechat_video">Video på %s</string>
     <string name="whatsapp_cache_garbage">Cache</string>
     <string name="whatsapp_cache_garbage_cleanup">Ryd</string>
     <string name="whatsapp_cache_garbage_tip">Rydning af cache sletter ikke noget vigtigt. Efterfølgende vil du kunne bruge appen som før.</string>
     <string name="wifi_state">Wi-Fi-status</string>
-    <string name="year_month_day_format">dd MMM, yyyy</string>
+    <string name="year_month_day_format">d. MMM yyyy</string>
     <string name="yes">Ja</string>
     <string name="yesterday">I går</string>
 </resources>

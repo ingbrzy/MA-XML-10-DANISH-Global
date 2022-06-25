@@ -120,6 +120,10 @@
         <item quantity="other">%d emner valgt</item>
         <item quantity="one">%d emne valgt</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Dit indhold indeholder elementer (%1$s), der overtræder vores fællesskabsstandarder. Din konto er suspenderet i %2$d dage indtil %3$s.</item>
         <item quantity="one">Dit indhold indeholder elementer (%1$s), der overtræder vores fællesskabsstandarder. Din konto er suspenderet i %2$d dag indtil %3$s.</item>

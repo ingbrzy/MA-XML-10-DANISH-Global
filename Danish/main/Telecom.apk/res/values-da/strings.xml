@@ -119,6 +119,8 @@ Hvis denne tilladelse er deaktiveret, vil eksisterende alarmer og tidsbestemte h
     <string name="answering_ends_other_managed_calls">Hvis du besvarer, afsluttes dine igangværende opkald</string>
     <string name="answering_ends_other_managed_video_call">Hvis du besvarer, afsluttes dit igangværende videoopkald</string>
     <string name="answering_ends_other_video_call">Hvis du besvarer, afsluttes dit videoopkald i %1$s</string>
+    <string name="anti_fraud_notification_msg">Basvar dette opkald for undgå telecom-svindel</string>
+    <string name="anti_fraud_notification_title">Advarsel om svindel</string>
     <string name="apn_settings_not_available">Indstillingerne for adgangspunktet (APN) er ikke tilgængelige for denne bruger</string>
     <string name="app_process_limit_title">Grænse for baggrundsprocesser</string>
     <string name="available_via_carrier">Tilgængelig via %1$s</string>
@@ -356,6 +358,7 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="disabled">Deaktiveret</string>
     <string name="disabled_by_admin">Deaktiveret af administrator</string>
     <string name="disabled_by_admin_summary_text">Kontrolleret af administratoren</string>
+    <string name="do_not_show_again">Vis ikke igen</string>
     <string name="duplicate_video_call_not_allowed">Opkaldet kan ikke tilføjes på nuværende tidspunkt.</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
@@ -606,6 +609,7 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -720,6 +724,7 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="private_dns_mode_provider">Hostname for privat DNS-udbyder</string>
     <string name="private_dns_mode_provider_failure">Der kunne ikke oprettes forbindelse</string>
     <string name="private_dns_mode_provider_hostname_hint">Angiv hostname for DNS-udbyder</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Der kunne ikke oprettes forbindelse. Sluk og tænd enheden</string>
     <string name="profile_info_settings_title">Profiloplysninger</string>
     <string name="remaining_length_format">%1$s tilbage</string>
@@ -743,6 +748,11 @@ Advarsel! Alle dine data vil blive fuldstændigt slettet.
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
     <string name="saved_network">Gemt af %1$s</string>
+    <string name="scam_cancle">Annuller</string>
+    <string name="scam_message">Du opretter viderestilling af opkald. Herefter besvares alle indkommende opkald af telefonnummer %1$s. Hvis ikke du ejer dette nummer til viderestilling, risikerer du muligvis at eksponere dine personlige oplysninger eller kompromittere din ejendoms sikkerhed. Brug denne funktion med forsigtighed.</string>
+    <string name="scam_message_2">**21*Viderestillingsnummer# er viderestillingskoden. Kontakt din udbyder, hvis du skulle have spørgsmål.</string>
+    <string name="scam_ok">Ring</string>
+    <string name="scam_title">Påmindelse om risiko for svindel</string>
     <string name="screen_zoom_summary_custom">Tilpasset (%d)</string>
     <string name="screen_zoom_summary_default">Standard</string>
     <string name="screen_zoom_summary_extremely_large">Størst</string>

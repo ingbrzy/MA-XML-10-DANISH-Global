@@ -167,6 +167,7 @@ dd.MM"</string>
     <string name="midnight">Nat</string>
     <string name="mini_time">Lille ur</string>
     <string name="minimalist_clock">Enkelt ur</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
@@ -270,7 +271,7 @@ dd.MM"</string>
     <string name="select_notification_notify_style">Vælg notifikationseffekt</string>
     <string name="send">Send</string>
     <string name="share">Del</string>
-    <string name="share_to_community">Del med Mi-fællesskabet</string>
+    <string name="share_to_community">Del med Xiaomi Community</string>
     <string name="show_battery">Vis batteristatus</string>
     <string name="show_battery_status">Vis batteristatus</string>
     <string name="show_lunar">Vis traditionel kinesisk kalender</string>
@@ -283,10 +284,11 @@ dd.MM"</string>
 vidunderligt er lige om hjørnet"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Skridttæller leveres af Xiaomi Health. Acceptér Xiaomi Healths vilkår og betingelser for at fortsætte.</string>
     <string name="step_component_info_desc">Skridttallet vil forvandle sig til et trofæ, når du har nået dit mål. Skridttæller leveres af Xiaomi Health.</string>
     <string name="step_component_info_tip">Skridttæller leveres af Xiaomi Health. Installer eller opdatér Xiaomi Health og acceptér tilhørende vilkår og betingelser for at fortsætte.</string>
-    <string name="step_to_image_community">Find mere i Mi-fællesskabet</string>
+    <string name="step_to_image_community">Find mere i Xiaomi Community</string>
     <string name="summary">For at reducere strømforbruget vises elementer ikke, når din enhed henligger i mørke i lang tid.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
@@ -338,6 +340,7 @@ vidunderligt er lige om hjørnet"</string>
     <string name="the_united_nations_day">FN-dag</string>
     <string name="the_valentines_day">Valentinsdag</string>
     <string name="the_water_lantern_festival">Vandlanternefestival</string>
+    <string name="theme_manager_other">Flere elementer</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tors</string>
     <string name="thursday_shortest">Tors</string>

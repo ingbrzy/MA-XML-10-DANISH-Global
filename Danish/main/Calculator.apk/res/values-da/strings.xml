@@ -463,7 +463,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="network_confirm_content">Valutaomregner, skatte- og panteberegnere skal være forbundet til internettet og have adgang til placeringsservice, for at kunne virke normalt.</string>
     <string name="network_confirm_title">Kræver tilladelser</string>
     <string name="network_purpose">Velkommen til Lommeregner. Lommeregner kan omregne valutaer, beregne afdrag på lån med mere.</string>
-    <string name="new_privacy_string">&lt;Data>Velkommen til Lommeregner!&lt;br/> Denne app indeholder de følgende funktioner.&lt;br/>• Basal lommeregner&lt;br/>• Videnskabelig lommeregner&lt;br/>• Universel omregner (f.eks. valuta, måleenheder osv.)&lt;br/>• Beregningsskabeloner for lån, investering, EMI (Equated Monthly Installment) med mere&lt;br/>For at kunne tilbyde dig de grundlæggende tjenester skal Lommeregner indsamle nødvendige personlige oplysninger. Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href= \"%1$s\">Privatlivspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%3$s\">Privatlivspolitik&lt;/a>, inden du bruger Lommeregner. I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til Fortrolighedspolitikken for Lommeregner. Hvis du ikke accepterer vores Privatlivspolitik, vil du ikke kunne bruge nogle af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.&lt;/Data></string>
+    <string name="new_privacy_string">&lt;Data>Velkommen til Lommeregner!&lt;br/>Denne app indeholder følgende funktioner:&lt;br/>• Basal lommeregner&lt;br/>• Videnskabelig lommeregner&lt;br/>• Universel omregner (f.eks. valuta, måleenheder osv.)&lt;br/>• Beregningsskabeloner for lån, investering, EMI mv.&lt;br/>Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">brugeraftale&lt;/a> og &lt;a href=\"%3$s\">privatlivspolitik&lt;/a>, inden du bruger Lommeregner. I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til privatlivspolitikken for Lommeregner. Hvis du ikke accepterer vores privatlivspolitik, vil du ikke kunne bruge nogle af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.&lt;/Data></string>
     <string name="night">Aften</string>
     <string name="none">Ingen</string>
     <string name="noon">Middag</string>
@@ -602,6 +602,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="tax_total_insurance_provident_fund">Forsikrings- &amp; huslån</string>
     <string name="tax_unemployment">Arbejdsløshed</string>
     <string name="tax_update_time_format">Data leveret af HeXun (%s)</string>
+    <string name="tenure_year_month">%1$s og %2$s</string>
     <string name="the_anniversary_of_lifting_martial_law">Jubilæum for indførelse af undtagelsestilstand</string>
     <string name="the_anti_aggression_day">Antiaggressionsdag</string>
     <string name="the_arbor_day">Arbor-dag</string>
@@ -695,6 +696,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="unit_data_display_currency_btn">Bhutansk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Hviderussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Canadisk dollar</string>
     <string name="unit_data_display_currency_cdf">Congolesisk franc</string>
     <string name="unit_data_display_currency_chf">Schweiziske franc</string>
@@ -1037,12 +1039,15 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
     <string name="xiaomi_calculator_delete_description">Lommeregner er en systemapp. Du vil ikke kunne bruge flere omregnere og andre funktioner, efter du har afinstalleret appen.</string>
     <string name="xiaomi_calculator_delete_title">Afinstaller Kalender?</string>
     <string name="xiaomi_calculator_remove_icon_description">Lommeregner er en systemapp. Du vil ikke kunne bruge flere omregnere og andre funktioner, efter du har fjernet startskærmsgenvejen.</string>
     <string name="xiaomi_calculator_remove_icon_title">Fjern \"Lommeregner\" fra Startskærm?</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke forbinde til Downloads. Kontrollér, om denne app har alle de nødvendige tilladelser i indstillingerne > installeret apps.</string>
     <string name="xiaomi_external_storage_unavailable">Lager er ikke tilgængeligt. Kontrollér dit SD-kort.</string>
+    <string name="xiaomi_kilobytes_unit">%1$s kB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_update_dialog_message">"Introducerer version %1$s
 Størrelse: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s

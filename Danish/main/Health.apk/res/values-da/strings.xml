@@ -154,9 +154,9 @@ You'll be able to track your workouts and activity."</string>
     <string name="date_format_y_2">yyyy</string>
     <string name="date_format_y_m">MMM yyyy</string>
     <string name="date_format_y_m_d">dd/MM/yyyy</string>
-    <string name="date_format_y_m_d_2">MM dd, åååå</string>
+    <string name="date_format_y_m_d_2">d. MMM yyyy</string>
     <string name="date_format_y_m_d_h_m">MM/dd/yyyy HH:mm</string>
-    <string name="date_format_y_m_d_h_m_2">MM dd, åååå TT:mm</string>
+    <string name="date_format_y_m_d_h_m_2">d. MMM yyyy HH:mm</string>
     <string name="date_format_y_m_d_h_m_3">MM/dd/yyyy HH:mm</string>
     <string name="date_format_y_m_d_h_m_4">MM/dd/yyyy HH:mm:ss</string>
     <string name="date_format_y_m_d_h_m_s">dd/MM/yyyy HH:mm:ss</string>
@@ -235,6 +235,11 @@ Xiaomi Health vil kun underrette dig om vigtige emner."</string>
     <string name="dialog_sleep_goal_title">Sleep duration goal</string>
     <string name="dialog_sleep_record_auto_start">For at spore søvn mere præcist, skal du tillade, at Xiaomi Health starter automatisk.</string>
     <string name="dialog_sure">OK</string>
+    <string name="dialog_upgrade_description">"1. Nyt design.
+2. Synkroniser data på tværs af enheder.
+3. Se sundhedsdata fra Health, Xiaomi Wear og andre apps på et sted."</string>
+    <string name="dialog_upgrade_positive_btn">Opdatér</string>
+    <string name="dialog_upgrade_title">Mi Fitness</string>
     <string name="dialog_user_agreement_purpose">Velkommen til Xiaomi Health! Du kan bruge denne app til a tælle skridt, spore søvn, menstruationer og vægt samt synkronisere dine statistikker med skyen.</string>
     <string name="dialog_user_agreement_purpose2">Velkommen til Xiaomi Health! Du kan bruge denne app til at tælle dine skridt, analysere søvn, holde styr på menstruationer, registrere vægt med mere.</string>
     <string name="disable">Off</string>

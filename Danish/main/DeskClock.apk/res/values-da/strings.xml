@@ -36,6 +36,7 @@
     <string name="add_alarm">Tilføj alarm</string>
     <string name="add_clock">Tilføj ur</string>
     <string name="add_common_timer">Tilføj timer</string>
+    <string name="add_new_sound">Tilføj ringetone</string>
     <string name="add_timer">Hyppig timer</string>
     <string name="add_timer_dialog_title">Tilføj timer</string>
     <string name="add_timezone_title">Tilføj tidszone</string>
@@ -64,6 +65,7 @@
     <string name="alarmclock_empty_text">Ingen alarmer</string>
     <string name="alarmclock_silent_hint">Alarm er gjort tavs.</string>
     <string name="alert">Ringetone</string>
+    <string name="alert_page_desc">Tryk og hold, stryg så opad for at slukke for alarmen</string>
     <string name="alert_ringtone">Alarmringetone</string>
     <string name="alert_vibrate_enable_summary">Vibrer, når alarm lyder</string>
     <string name="alert_volume">Lydstyrke for ringetone</string>
@@ -125,6 +127,7 @@
     <string name="common_timer_selector">Vælg timer</string>
     <string name="confirm">Bekræft</string>
     <string name="confirm_abort">Afvis</string>
+    <string name="confirm_remove_custom_ringtone">Hvis du sletter denne ringetone, vil alarmer og timere, der bruger den, afspille standardringetonen i stedet for. Slet nu?</string>
     <string name="content_desc_keep_screen">\"Hold skærmen tændt\"-knap</string>
     <string name="continue_operation">Fortsæt</string>
     <string name="continue_step">Næste</string>
@@ -132,6 +135,7 @@
     <string name="control_set_alarm_with_existing">Alarm indstillet: %s</string>
     <string name="copy">Kopiér</string>
     <string name="current_stopwatch_time">Nuværende tid</string>
+    <string name="custom_ringtone_lost_permissions">Kan ikke få adgang til denne lyd.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -147,6 +151,7 @@
     <string name="delete_timer_item_title">Slet timeropgave</string>
     <string name="delete_timezone_title">Slet tidszone</string>
     <string name="deskclock_sleep_no_disturbance">Ur - administrer sengetid - DND-tilstand</string>
+    <string name="device_sounds">Enhedslyde</string>
     <string name="dialog_confirm_abort">Afvis ændringer?</string>
     <string name="dialog_legal_off_day">&lt;Data>Det ser ud, som om du bruger feriealarmer. Denne funktion er nødt til at oprette forbindelse til internettet for at fungere normalt. Inden brug af denne funktion skal du acceptere vores &lt;a href=\"%1$s\">Brugeraftale&lt;/a> og &lt;a href=\"%2$s\">Privatlivspolitik&lt;/a>. Acceptér?&lt;/Data></string>
     <string name="dialog_legal_off_day_desc">Uret har ikke tilladelse til at oprette forbindelse til internettet for at opdatere oplysninger om ferier. Feriealarmer vil aktivere lørdage og søndage.</string>
@@ -498,6 +503,7 @@
     <string name="shutdown_alarm_enable_summary">Alarmen går af, hvis den er sat til mindst 10 minutter efter, du slukker for din enhed</string>
     <string name="shutdown_alarm_title">Nedlukningsalarm</string>
     <string name="silent_alarm_summary">Stille</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sluk én gang på %s</string>
     <string name="sleep_analysis">Statistikker</string>
     <string name="sleep_analysis_chart_date_format">dd.MM</string>
@@ -543,6 +549,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Ingen overlap</string>
     <string name="stopwatch_reset_notification">Stopur blev nulstillet</string>
     <string name="stopwatch_running_notification">Stopur</string>
@@ -551,6 +558,7 @@
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Tillad denne app at oprette forbindelse til internettet for at få adgang til alle dens funktioner.</string>
     <string name="system_permission_main_purpose">Visning af tid, indstilling af alarmer og timere ved hjælp af stopur</string>
     <string name="system_permission_purpose">Opretter hverdagsalarmer og indstiller tilpassede ringetoner</string>
@@ -666,6 +674,7 @@
     <string name="tv_blank_list_show_text">Intet her endnu. Søg efter en placering for at tilføje den til dit verdensur.</string>
     <string name="tv_world_clock_edit_title1">Placeringer vist på startskærmen</string>
     <string name="tv_world_clock_edit_title2">Andre gemte placeringer</string>
+    <string name="unknown_ringtone_title">Ukendt</string>
     <string name="unselect_all">Fravælg alle</string>
     <string name="upcoming_alarm">Kommende alarm: %s</string>
     <string name="upcoming_alarm_hint">Nu kan du slukke for denne alarm</string>
@@ -698,6 +707,8 @@
     <string name="week_ringtone_recommend_desc">Naturalarm afspiller forskellige lyde afhængig af datoen. Indstil den til at være din standardalarm?</string>
     <string name="white_noise">Omgivende støj</string>
     <string name="white_noise_guide_desc">Tilføj en baggrundslyd for at forblive fokuseret</string>
+    <string name="white_noise_not_selected">Ikke valgt</string>
+    <string name="white_noise_selected">Valgt</string>
     <string name="white_noise_selector">Vælg lyd</string>
     <string name="workday_alarm_clock">Hverdagsalarm</string>
     <string name="worldclock_edit_label">Verdensur</string>
@@ -721,4 +732,5 @@
     <string name="worldcolock_timezone_local">Samme som lokal tid</string>
     <string name="xiaoai_ringtone_title">Mi AI-ringetoner</string>
     <string name="yesterday">I går</string>
+    <string name="your_sounds">Mine lyde</string>
 </resources>

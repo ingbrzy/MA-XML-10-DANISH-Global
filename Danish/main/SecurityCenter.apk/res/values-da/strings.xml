@@ -919,6 +919,7 @@ Du vil ikke miste nogen appdata."</string>
     <string name="card_main_private_space_summary">Brug af andet rum er som at have 2 enheder</string>
     <string name="card_main_private_space_title">Andet rum</string>
     <string name="card_main_sectool_title">Værktøjer</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Opret</string>
     <string name="card_main_xspace_summary">Opret to konti til enhver app</string>
     <string name="card_main_xspace_title">Dobbelte apps</string>
@@ -971,6 +972,8 @@ Du vil ikke miste nogen appdata."</string>
     <string name="cmcc_app_check_dialog_negative">Senere</string>
     <string name="cmcc_app_check_dialog_positive">Genstart nu</string>
     <string name="cmcc_app_check_dialog_title">System repareret</string>
+    <string name="columbus_ad_flag_text">Reklame</string>
+    <string name="columbus_skip_ad">Spring over</string>
     <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv igen.</string>
     <string name="confirmSecondSpacePassword">Bekræft adgangskode til det andet rum</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
@@ -1179,6 +1182,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">Morgen</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-mail</string>
     <string name="empty" />
     <string name="empty_app">Ingen apps</string>
@@ -1253,7 +1257,9 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="exo_download_notification_channel_name">Downloads</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Undertekster</string>
     <string name="exo_track_role_commentary">Kommentarspor</string>
@@ -1507,6 +1513,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="gamebox_app_not_find">Installer appen først.</string>
     <string name="gamebox_brightness">Lysstyrke</string>
     <string name="gamebox_browser_not_find">Installer Mi Browser først</string>
+    <string name="gamebox_bullet_chat">Kommentarer på skærmen</string>
     <string name="gamebox_collimator">Sigte</string>
     <string name="gamebox_display_1">Ingen</string>
     <string name="gamebox_display_2">Mættet</string>
@@ -1608,6 +1615,10 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="gb_dialog_record_way_ai">Al-optagelser er gemt i gameboksen og gemmes der i 7 dage.</string>
     <string name="gb_dialog_record_way_finish">Færdig</string>
     <string name="gb_dialog_record_way_manual">Optag manuelt videoer, der er op til 30 sekunder lange</string>
+    <string name="gb_dialog_record_way_manual_desc" formatted="false">Optag manuelt %d-%d sekunders video i løbet af spilsessionen.</string>
+    <string name="gb_dialog_record_way_setting_tip_one">Forøget strømforbrug og langsom reaktion</string>
+    <string name="gb_dialog_record_way_setting_tip_title">Denne funktion kan muligvis medføre følgende problemer:</string>
+    <string name="gb_dialog_record_way_setting_tip_two">Konflikt med andre skærmoptagere</string>
     <string name="gb_dialog_record_way_setting_tips">Bemærk: Optagelse af dine spillesessioner kræver et højere strømforbrug, hvilket kan resultere i forsinkelse.</string>
     <string name="gb_dialog_record_way_title">Vælg optagelsesmetode</string>
     <string name="gb_first_guide_function_shiled_title">Sluk for systemfunktioner, når Game Turbo er tændt</string>
@@ -1636,6 +1647,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_game_video_page_null">Optag de vigtige øjeblikke af dine spillesessioner</string>
     <string name="gb_game_video_record_finish_tips">Gemt manuelt optaget video i GameTurbo</string>
     <string name="gb_game_video_save">Gem</string>
+    <string name="gb_game_video_save_tip">Gemt</string>
     <string name="gb_game_video_type_ai">AI</string>
     <string name="gb_game_video_type_ai_record">Optag ved hjælp af Al</string>
     <string name="gb_game_video_type_manual">Manuelt</string>
@@ -1648,6 +1660,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_gpu_driver_update_app_tips">Aktuel version er opdateret</string>
     <string name="gb_have_signed">Tjekkede ind i dag</string>
     <string name="gb_manual_record_dialog_del_video_message">Slet valgte videoer permanent?</string>
+    <string name="gb_manual_video_record_title">Optagelser</string>
     <string name="gb_msg_completely_shielded">Skjul beskeder</string>
     <string name="gb_msg_completely_shielded_summary">Skjul</string>
     <string name="gb_msg_not_shielded_summary">Vis</string>
@@ -1667,26 +1680,39 @@ ved at sænke opdateringsfrekvensen og temperaturgrænserne"</string>
     <string name="gb_performance_tips">"Præstationstilstand forbedrer den grafiske ydelse,
 men øger også strømforbruget og bevirker, at din enhed kan blive overophedet"</string>
     <string name="gb_shortcut_pref_title">Genvej til startskærm</string>
-    <string name="gb_shoulder_key">Skulderknapper</string>
+    <string name="gb_shoulder_guide_message1">Flyt [L] til enhver brugsposition for at bruge den via popup-udløseren</string>
+    <string name="gb_shoulder_guide_message2">Handling [1] aktiveres ved at trykke på knappen. Handling [2] aktiveres ved at slippe knappen.</string>
+    <string name="gb_shoulder_guide_tips1">Åbn værktøjskassen, og konfigurér popup-udløsere</string>
+    <string name="gb_shoulder_guide_title1">Handling</string>
+    <string name="gb_shoulder_guide_title2">Sekvens</string>
+    <string name="gb_shoulder_key">Popup-udløsere</string>
     <string name="gb_shoulder_key_add_show_btn">Vis virtuelle knapper i løbet af forskellige spil</string>
-    <string name="gb_shoulder_key_add_tips">Flyt knapperne [L] og [R] til enhver brugsposition og brug dem via skulderknapperne</string>
+    <string name="gb_shoulder_key_add_tips">Flyt [L] og [R] til enhver brugsposition, og brug dem via popup-udløsere</string>
     <string name="gb_shoulder_key_btn_cancel">Annuller</string>
     <string name="gb_shoulder_key_btn_save_exit">Gem</string>
-    <string name="gb_shoulder_key_dialog_message">Du kan bruge begge skulderknapper samtidigt for at starte Game Turbo, når du ikke spiller spil.</string>
-    <string name="gb_shoulder_key_dialog_txt">Du kan aktivere Game Turbo ved hjælp af skulderknapper.</string>
+    <string name="gb_shoulder_key_dialog_message">Du kan bruge begge popup-udløsere samtidigt for at starte Game Turbo, når du ikke spiller spil.</string>
+    <string name="gb_shoulder_key_dialog_txt">Du kan aktivere Game Turbo ved hjælp af popup-udløsere.</string>
     <string name="gb_shoulder_key_guide_btn_done">Forstået</string>
     <string name="gb_shoulder_key_guide_btn_next">Næste</string>
-    <string name="gb_shoulder_key_guide_tips">Konfigurer skulderknapper for at spille som en pro!</string>
-    <string name="gb_shoulder_key_guide_tips1">Åbn værktøjskasse og konfigurer skulderknapper</string>
+    <string name="gb_shoulder_key_guide_tips">Konfigurér popup-udløsere for at spille som en professionel!</string>
+    <string name="gb_shoulder_key_guide_tips1">Åbn værktøjskassen, og konfigurér popup-udløsere</string>
     <string name="gb_shoulder_key_light_effect">Farveanimation</string>
     <string name="gb_shoulder_key_light_effect_color">Farve</string>
-    <string name="gb_shoulder_key_light_effect_subtitle">Farveanimation vises, når skulderknapperne er aktiverede, og du spiller spil</string>
+    <string name="gb_shoulder_key_light_effect_subtitle">Farveanimationer vises, når popup-udløsere er aktiverede, og du spiller spil</string>
     <string name="gb_shoulder_key_light_effect_title">Animationer</string>
     <string name="gb_shoulder_key_settings_guide_tips1">Flyt knapperne [L] og [R] til enhver brugsposition for at afslutte konfigureringen</string>
-    <string name="gb_shoulder_key_settings_guide_tips2">Brug skulderknapperne til de funktioner, som du tildelte til dem i løbet af forskellige spil</string>
-    <string name="gb_shoulder_key_settings_summary">Brug begge skulderknapper for at starte Game Turbo, når du ikke spiller spil.</string>
-    <string name="gb_shoulder_key_settings_title">Brug skulderknapper til Game Turbo</string>
+    <string name="gb_shoulder_key_settings_guide_tips2">Brug popup-udløsere til de funktioner, som du tildelte til dem i løbet af forskellige spil</string>
+    <string name="gb_shoulder_key_settings_summary">Brug begge popup-udløsere for at starte Game Turbo, når du ikke spiller spil.</string>
+    <string name="gb_shoulder_key_settings_title">Brug popup-udløsere til Game Turbo</string>
     <string name="gb_shoulder_key_settings_title_new">Hurtigstart Game Turbo</string>
+    <string name="gb_shoulder_set_left_right">Konfigurér [%s]</string>
+    <string name="gb_shoulder_set_title">Aktivér popup-udløsere for at konfigurere dem</string>
+    <string name="gb_shoulder_set_title2">Flyt [%s] og til enhver brugsposition, og brug den via popup-udløsere</string>
+    <string name="gb_shoulder_single_trigger">Handling</string>
+    <string name="gb_shoulder_subsection_down">Tryk</string>
+    <string name="gb_shoulder_subsection_trigger">Sekvens</string>
+    <string name="gb_shoulder_subsection_up">Giv slip</string>
+    <string name="gb_shoulder_update_left_right">Redigér %s</string>
     <string name="gb_sign_gift">Kik forbi for at få belønninger</string>
     <string name="gb_sign_gift_button_text">Modtag</string>
     <string name="gb_sign_notification_summary">Spil spil uden netværksforsinkelse</string>
@@ -1768,13 +1794,13 @@ af dine spillesessioner"</string>
     <string name="gd_setting_group_custom_line_location">Værktøjskasses placering</string>
     <string name="gd_setting_group_custom_settings">Personliggørelse</string>
     <string name="gd_setting_group_custom_vtb_apps">Video-apps</string>
-    <string name="gd_setting_group_smart_tool_box">Sidebar</string>
+    <string name="gd_setting_group_smart_tool_box">Sidebjælke</string>
     <string name="gd_setting_group_title_switch">Scenarier</string>
     <string name="gd_setting_gtb">Vis, mens du spiller spil</string>
     <string name="gd_setting_gtb_desc">Særlige funktioner til spil</string>
     <string name="gd_setting_miui_dock">Vis altid</string>
     <string name="gd_setting_shorthand">Kviknoter</string>
-    <string name="gd_setting_title">Sidebar</string>
+    <string name="gd_setting_title">Sidebjælke</string>
     <string name="gd_setting_vtb">Vis, mens du afspiller videoer</string>
     <string name="gd_setting_vtb_desc">Specielle funktioner til videoafspilning</string>
     <string name="gd_splite_screen_tips">Opdelt skærm understøtter ikke flydende vinduer</string>
@@ -2182,6 +2208,7 @@ Din enhed er nu %d%% hurtigere."</string>
     <string name="menu_text_license_manager">Tilladelser</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2190,6 +2217,7 @@ Din enhed er nu %d%% hurtigere."</string>
     <string name="menu_text_optimize_manage">Boost hastigheden</string>
     <string name="menu_text_optimize_manage_1">Boost hastigheden</string>
     <string name="menu_text_power_manager">Batteri</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Fjern fra undtagelser</string>
     <string name="menu_white">Føj til undtagelser</string>
     <string name="mi_ime_not_used">Brug et tastatur, der er godkendt af Xiaomi</string>
@@ -2606,7 +2634,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="pc_fast_charge_notifi_action_text_on">Boost</string>
     <string name="pc_fast_charge_notifi_power_threshold_title">Fastsæt batteriniveauet for påmindelser</string>
     <string name="pc_fast_charge_notifi_summary">Oplader op til %s hurtigere end normalt…</string>
-    <string name="pc_fast_charge_notifi_summary_on">Denne funktion kan opvarme din enhed</string>
+    <string name="pc_fast_charge_notifi_summary_on">Ændring af hastighed boostes, når skærmen er slukket. Din enhed vil varme op.</string>
     <string name="pc_fast_charge_notifi_switch_summary">Giv besked om at booste opladningshastigheden, når den medleverede oplader på %d W er tilsluttet, og batteriet er under det indstillede niveau</string>
     <string name="pc_fast_charge_notifi_switch_title">Giv besked om at booste</string>
     <string name="pc_fast_charge_notifi_title">%dW-opladning</string>
@@ -2820,6 +2848,11 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_center_dialog_msg_top">Når batteribesparelse er slået til, gennemfører MIUI følgende optimeringer:</string>
     <string name="power_center_hints_scan_danger_result">Du kan løse problemer med batteriet nu</string>
     <string name="power_center_list_item_auto_brightness">Indstil automatisk skærmens lysstyrke</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Slå Bluetooth fra</string>
     <string name="power_center_list_item_deep_save_title">Avancerede indstillinger</string>
@@ -3078,6 +3111,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="pref_normal_traffic_limit">Når dataplan er opbrugt</string>
     <string name="pref_open_adjust_traffic">Opdater dataforbrug hver dag med statistik fra din teleudbyder</string>
     <string name="pref_operator_not_set">Teleudbyder ikke indstillet</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Når du går over din dataplan</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_pkg_begin_date">Data for nulstilling af forbrug</string>
@@ -3328,6 +3362,7 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
     <string name="privacy_using_record">Optager lyd</string>
     <string name="privacyapp_number_masked_text">Meddelelsers indhold er skjult</string>
     <string name="privacyapp_number_unmasked_text">Meddelelsers indhold kan skjules</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Annonce</string>
@@ -3403,6 +3438,7 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
     <string name="result_sms_title_antispam">"Truet af skadelige SMS-URL'er"</string>
     <string name="result_sms_title_auth">Finansiel SMS-lækage-risiko eksisterer</string>
     <string name="result_wifi_header">Wi-Fi-risici detekteret</string>
+    <string name="resume">Gendan</string>
     <string name="right_precent">100%</string>
     <string name="risk_app_install_agree_button">Hav tillid til denne app</string>
     <string name="risk_app_install_agree_checkbox">Jeg er villig til at tage alle mulige risici.</string>
@@ -4425,7 +4461,7 @@ Tilbageværende data inkluderer data, der er overført fra den foregående måne
     <string name="vb_video_effects_3d">Surroundsound</string>
     <string name="vb_video_effects_3d_summary">Forøg lydgengivelsens dybde for øretelefoner og højttalere</string>
     <string name="vb_video_effects_3d_summary_headset">Forøg følelsen af fordybelse og omslutning, når du lytter til audio i øretelefonerne.</string>
-    <string name="vb_video_effects_3d_surround">Surroundsound</string>
+    <string name="vb_video_effects_3d_surround">Virtuel fordybende lyd</string>
     <string name="vb_video_effects_display_style">Stil</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
     <string name="vb_video_effects_dolby_dialog_enhancer">Forbedret dialog</string>
@@ -4453,7 +4489,7 @@ Tilbageværende data inkluderer data, der er overført fra den foregående måne
     <string name="vb_video_effects_settings_stereo">Lydstyrke</string>
     <string name="vb_video_effects_some_headphone">Understøttes af udvalgte øretelefonmodeller</string>
     <string name="vb_video_effects_spatial">Track hovedbevægelse</string>
-    <string name="vb_video_effects_spatial_summary">"Justér surroundsound baseret på hovedbevægelser
+    <string name="vb_video_effects_spatial_summary">"Justér immersive lyd baseret på hovedbevægelser
 *Kun understøttet på øretelefonmodeller til spil"</string>
     <string name="vb_video_effects_srs_premium_sound">Lyd</string>
     <string name="vb_video_super_division">Øg opløsningen</string>

@@ -166,6 +166,7 @@
     <string name="clipboard_read_allow_once">%1$s fik adgang til elementer i udklipsholderen</string>
     <string name="clipboard_read_deny_dialog_title">Begrænset adgang til udklipsholder for %1$s</string>
     <string name="close">Luk</string>
+    <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -177,6 +178,7 @@
     <string name="eras_ad">e.v.t.</string>
     <string name="eras_bc">f.v.t.</string>
     <string name="evening">Eftermiddag</string>
+    <string name="expand_button_title">Avanceret</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -323,6 +325,7 @@
     <string name="night">Aften</string>
     <string name="no">Nej</string>
     <string name="noon">Middag</string>
+    <string name="not_set">Ikke angivet</string>
     <string name="notification_click_tip">Tryk for at se oplysninger</string>
     <string name="ok">OK</string>
     <string name="perm_action_allow">Tillad</string>
@@ -366,6 +369,7 @@
     <string name="permission_warning_template_ask">Giv %1$s de følgende tilladelser?</string>
     <string name="permisson_reject_notice_toast_text2">har ikke tilladelse til %1$s.</string>
     <string name="pm">PM</string>
+    <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="real_location_off">Omtrentlig placering er slået til</string>
     <string name="real_location_on">Omtrentlig placering er slået fra</string>
     <string name="saturday">Lørdag</string>
@@ -390,6 +394,7 @@
     <string name="storage_policy_notify_gallery_title">%1$s må ikke få adgang til Gallery</string>
     <string name="storage_policy_notify_sociality_title">%1$s må ikke få adgang til beskeder i sociale medie-apps</string>
     <string name="storage_policy_notify_title">%1$s må ikke få adgang til Gallery</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
@@ -444,6 +449,8 @@
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>
     <string name="tuesday_shortest">Tirs</string>
+    <string name="v7_preference_off">FRA</string>
+    <string name="v7_preference_on">TIL</string>
     <string name="virtual_reject_notice_content">Et tomt svar blev sendt til appen for at beskytte dine personlige oplysninger</string>
     <string name="virtual_reject_notice_title_calendar">Får adgang til kalender via %1$s</string>
     <string name="virtual_reject_notice_title_calllog">Får adgang til opkaldshistorik via %1$s</string>

@@ -49,8 +49,8 @@
         <item quantity="one">for %d år siden</item>
     </plurals>
     <plurals name="controls_number_of_favorites">
-        <item quantity="other">%s styringselementer er tilføjet.</item>
-        <item quantity="one">%s styringselement er tilføjet.</item>
+        <item quantity="other">%s styring er tilføjet.</item>
+        <item quantity="one">%s styring er tilføjet.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halv time siden</item>
@@ -82,11 +82,11 @@
     </plurals>
     <plurals name="input_password_after_timeout_msg">
         <item quantity="other">Indtast din adgangskode mindst én gang hver %d. time for altid at huske den</item>
-        <item quantity="one">Indtast din adgangskode mindst én gang hver %d. time for altid at huske den</item>
+        <item quantity="one">Indtast din adgangskode mindst én gang hver %d time for altid at huske den</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
         <item quantity="other">Indtast din adgangskode mindst én gang hver %d. time for altid at huske den</item>
-        <item quantity="one">Indtast din adgangskode mindst én gang hver %d. time for altid at huske den</item>
+        <item quantity="one">Indtast din adgangskode mindst én gang hver %d time for altid at huske den</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">Omkring %d timer tilbage</item>
@@ -113,16 +113,16 @@
         <item quantity="one">%1$d t %2$d m</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
-        <item quantity="other">"%d  timer tilbage"</item>
-        <item quantity="one">"%d  time tilbage"</item>
+        <item quantity="other">%d timer tilbage</item>
+        <item quantity="one">%d time tilbage</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
-        <item quantity="other">"%d  minutter tilbage"</item>
-        <item quantity="one">"%d  minut tilbage"</item>
+        <item quantity="other">%d minutter tilbage</item>
+        <item quantity="one">%d minut tilbage</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_time_text">
-        <item quantity="other">"%1$d t %2$d  m tilbage"</item>
-        <item quantity="one">"%1$d t %2$d  m tilbage"</item>
+        <item quantity="other">%1$d t %2$d m tilbage</item>
+        <item quantity="one">%1$d t %2$d m tilbage</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
         <item quantity="other">Angiv pinkoden til SIM-kortet. Du har %d forsøg tilbage.</item>
@@ -164,6 +164,10 @@
         <item quantity="other">%d emner valgt</item>
         <item quantity="one">%d emne valgt</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d ny notifikationer</item>
         <item quantity="one">%d ny notifikation</item>
@@ -201,7 +205,7 @@
         <item quantity="one">Du kan tilføje op til %d bruger.</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d enheder tilsluttet</item>
-        <item quantity="one">%1$d enhed tilsluttet</item>
+        <item quantity="other">%1$d enheder er tilsluttet</item>
+        <item quantity="one">%1$d enhed er tilsluttet</item>
     </plurals>
 </resources>

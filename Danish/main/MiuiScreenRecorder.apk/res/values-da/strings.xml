@@ -141,6 +141,7 @@ Tryk for at se"</string>
     <string name="hint_volume_down">Skru ned for lyd</string>
     <string name="hint_volume_up">Skru op for lyd</string>
     <string name="home_title_none">Valgte elementer</string>
+    <string name="invisible_mode_error_tip">Du er inkognito. Kan ikke optage lyd.</string>
     <string name="is_checked">Valgt</string>
     <string name="is_go_home">Gå tilbage til skærmoptager</string>
     <string name="is_go_home_summary">Åbn skærmoptagerens startside, efter du har stoppet optagelsen</string>

@@ -697,7 +697,7 @@ Læs og acceptér den nye version af %3$s, inden du fortsætter."</string>
     <string name="system_app_select">Indbyggede apps</string>
     <string name="system_error_info">Systemet er optaget. Vent et minut eller to og prøv igen.</string>
     <string name="tab_title_chat">FAQ/OSS</string>
-    <string name="tab_title_my_reports">Mine rapporter</string>
+    <string name="tab_title_my_reports">Min feedback</string>
     <string name="tab_title_preferences">Indstillinger</string>
     <string name="tab_title_report">Feedback</string>
     <string name="temporary_not_available">Denne funktion er endnu ikke tilgængelig</string>
