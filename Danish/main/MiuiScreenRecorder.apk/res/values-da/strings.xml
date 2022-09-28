@@ -33,7 +33,7 @@
     <string name="app_name">Skærmoptager</string>
     <string name="app_notification_channel_record_complete">Notifikationer om færdige optagelser</string>
     <string name="app_notification_info">Skærmoptager arbejder i baggrunden</string>
-    <string name="app_notification_record_complete">"Gemt skærmoptagelser i Galleri
+    <string name="app_notification_record_saved">"Optagelsen blev gemt
 Tryk for at se"</string>
     <string name="app_notification_title">Skærmoptager</string>
     <string name="auto_stop_title">Videoen er nu gemt</string>

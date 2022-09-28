@@ -61,12 +61,20 @@
         <item quantity="one">%1$d dag siden</item>
     </plurals>
     <plurals name="download_business_v5_edit_mode_title">
-        <item quantity="other">%1$d valgt</item>
-        <item quantity="one">%1$d valgt</item>
+        <item quantity="other">Valgt %1$d elementer</item>
+        <item quantity="one">Valgt %1$d element</item>
     </plurals>
     <plurals name="download_dialog_confirm_delete_downloads_message">
         <item quantity="other">Slet %d opgaver?</item>
         <item quantity="one">Slet %d opgave?</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spol %d sekunder frem</item>
+        <item quantity="one">Spol %d sekund frem</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spol %d sekunder tilbage</item>
+        <item quantity="one">Spol %d sekund tilbage</item>
     </plurals>
     <plurals name="file_count">
         <item quantity="other">%1$d elementer</item>
@@ -108,9 +116,17 @@
         <item quantity="other">om %d minutter</item>
         <item quantity="one">om 1 minut</item>
     </plurals>
+    <plurals name="intercept_panel_img_text">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="intercept_panel_protection_total">
+        <item quantity="other">Beskyttet %d gange</item>
+        <item quantity="one">Beskyttet %d gang</item>
+    </plurals>
     <plurals name="le_notification_download_completed">
-        <item quantity="other">%d elementer er nu downloadet</item>
-        <item quantity="one">%d element er nu downloadet</item>
+        <item quantity="other">%1$s elementer er downloadet</item>
+        <item quantity="one">%1$s element er downloadet</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Lige nu</item>
@@ -148,6 +164,10 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minut siden</item>
     </plurals>
+    <plurals name="person_menu_protect_count">
+        <item quantity="other">Beskyttet %s gange</item>
+        <item quantity="one">Beskyttet %s gang</item>
+    </plurals>
     <plurals name="players">
         <item quantity="other">%d spillere</item>
         <item quantity="one">%d spiller</item>
@@ -155,6 +175,10 @@
     <plurals name="pref_adblock_counts">
         <item quantity="other">Blokerede %d reklamer</item>
         <item quantity="one">Blokerede %d reklame</item>
+    </plurals>
+    <plurals name="reading__search_resultful">
+        <item quantity="other">Fundet %1$d resultater</item>
+        <item quantity="one">Fundet %1$d resultat</item>
     </plurals>
     <plurals name="search_trending_views">
         <item quantity="other">%s søgeanmodninger</item>
@@ -176,6 +200,10 @@
         <item quantity="other">%d populære sange</item>
         <item quantity="one">%d populære sang</item>
     </plurals>
+    <plurals name="tag_count">
+        <item quantity="other">%d faner</item>
+        <item quantity="one">%d fane</item>
+    </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">Valgte %1$d elementer</item>
         <item quantity="one">Valgte %1$d element</item>
@@ -183,6 +211,10 @@
     <plurals name="video_collection_reminder_view">
         <item quantity="other">Du har ikke set %d af dine favoritvideoer i lang tid.</item>
         <item quantity="one">Du har ikke set %d favoritvideo i lang tid.</item>
+    </plurals>
+    <plurals name="video_views">
+        <item quantity="other">%s visninger</item>
+        <item quantity="one">%s visning</item>
     </plurals>
     <plurals name="videos_updated_amount">
         <item quantity="other">Se %1$d nye videoer</item>
@@ -199,5 +231,45 @@
     <plurals name="vote_all_people">
         <item quantity="other">%d personer har stemt</item>
         <item quantity="one">%d person har stemt</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_ad">
+        <item quantity="other">Blokeret %d gange</item>
+        <item quantity="one">Blokeret %d gang</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_allow_times">
+        <item quantity="other">Tilladt %d gange</item>
+        <item quantity="one">Tilladt %d gang</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_disallow_times">
+        <item quantity="other">Begrænset %d gange</item>
+        <item quantity="one">Begrænset %d gang</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_privacy">
+        <item quantity="other">Stoppet %d gange</item>
+        <item quantity="one">Stoppet %d gang</item>
+    </plurals>
+    <plurals name="web_permission_ad_subtitle">
+        <item quantity="other">Blokerede %s reklamer</item>
+        <item quantity="one">Blokerede %s reklame</item>
+    </plurals>
+    <plurals name="web_permission_allow_default_subtitle">
+        <item quantity="other">Tilladt %s gange</item>
+        <item quantity="one">Tilladt %s gang</item>
+    </plurals>
+    <plurals name="web_permission_deny_default_subtitle">
+        <item quantity="other">Begrænset %s gange</item>
+        <item quantity="one">Begrænset %s gang</item>
+    </plurals>
+    <plurals name="web_permission_privacy_subtitle">
+        <item quantity="other">Stoppede %s gange</item>
+        <item quantity="one">Stoppede %s gang</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_day">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">%s dag</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_time">
+        <item quantity="other">%s gange</item>
+        <item quantity="one">%s gang</item>
     </plurals>
 </resources>

@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="access_denied_info">For mange forsøg. Vent et øjeblik eller to og prøv så igen.</string>
     <string name="action_collapse">Skjul</string>
     <string name="action_expand">Vis mere</string>
     <string name="action_folder_description">Se mapper</string>
@@ -137,6 +138,7 @@
     <string name="dlg_hide_message">Skjuler…</string>
     <string name="dlg_info_creating_message">Opretter billede…</string>
     <string name="dlg_info_save_to_gallery_message">Gemmer billede i Galleri…</string>
+    <string name="dlg_info_save_to_local_message">Gemmer…</string>
     <string name="dlg_message_password_reset">Adgangskoden til skjulte noter erstattes med adgangskoden til privatlivsbeskyttelse, som virker for beskeder, fotos og skjulte mapper</string>
     <string name="dlg_message_set_password">Adgangskode til privatlivsbeskyttelse virker til beskeder, billeder og skjulte mapper</string>
     <string name="dlg_message_use_privacy_password">Brug fortrolighedsbeskyttende adgangskode. Den fungerer til beskeder, fotos og skjulte mapper.</string>
@@ -496,6 +498,7 @@
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -522,6 +525,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Tryk for at gå til valg af dag</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Skift til input-tilstand for tekst</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tryk for at gå til valg af år</string>
+    <string name="network_error_info">Der opstod en netværksfejl. Kontrollér dine netværksindstillinger og prøv igen.</string>
+    <string name="network_timeout_info">Kunne ikke oprette forbindelse til netværket. Prøv igen.</string>
     <string name="new_app_name">Mi Notes</string>
     <string name="new_audio_create_cancel_talkback_des">Annulleret</string>
     <string name="new_audio_create_done_talkback_des">Oprettet</string>
@@ -552,11 +557,14 @@
     <string name="note_mindnote_entrance_hint_newversion">"Begynd med at skrive "</string>
     <string name="note_mindnote_entrance_icon_text">Opret en mindmap</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Opret en mindmap</string>
+    <string name="note_mindnote_not_support_in_phone_model">Kan ikke redigere mindmaps på denne enhed</string>
     <string name="note_module_name">Noter</string>
     <string name="note_not_text_stub">Ingen tekst</string>
     <string name="note_sort_way">Sortér</string>
+    <string name="note_write_hint">Begynd at skrive</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Noter er en systemapp. Du vil ikke længere kunne bruge denne app, når du har afinstalleret den.</string>
     <string name="notes_description_title">Afinstallér noter?</string>
     <string name="notification_content_add_todo_from_other_app">Du tilføjede en ny opgave. Tryk for at se.</string>
@@ -619,6 +627,8 @@
     <string name="permission_phone_state_desc">For at stoppe optagelse af stemmenoter under opkald</string>
     <string name="permission_read_contact_desc">Associere noterne oprettet under opkald til kontakter</string>
     <string name="permission_storage_desc">For at gemme noter som billeder</string>
+    <string name="permission_storage_desc_new_v12">For at tilføje billeder til noter og gemme noter som billeder</string>
+    <string name="permission_storage_desc_pad_new_v12">For at tilføje billeder til noter og gemme noter som billeder</string>
     <string name="permission_storage_desc_pad_v12">Til at tilføje billeder til noter og gemme noter som billeder</string>
     <string name="permission_storage_desc_v12">Til at tilføje billeder til noter og gemme noter som billeder</string>
     <string name="permission_xiaoai_desc">&lt;Data>Mi AI indsamler dine stemmeoptagelser og enheds-id for at transskribere lyd og oprette stemmenoter. Læs mere i Mi AIs &lt;a href=\"%1$s\">Privatlivspolitik&lt;/a>.&lt;/Data></string>
@@ -656,6 +666,7 @@
     <string name="privacy_note_content_empty">Ingen elementer her endnu.</string>
     <string name="private_entry_available">Slip for at åbne privat mappe</string>
     <string name="private_entry_default">Træk nedad for at åbne privat mappe</string>
+    <string name="progressbar_title">Tjekker for sikkerhedsproblemer…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Kviknoter tillader, at du opretter noter og uddrag</string>
     <string name="recover_notes_hint">Der opstod en fejl. Gå til i.mi.com for at gendanne noter.</string>
@@ -704,6 +715,9 @@
     <string name="save_to_gallery_failure_message">Kunne ikke gemme</string>
     <string name="save_to_gallery_icon_name">Gem i Galleri</string>
     <string name="save_to_gallery_success_message">Gemt korrekt</string>
+    <string name="save_to_local_failure_message">Kunne ikke gemme</string>
+    <string name="save_to_local_icon_name">Gem</string>
+    <string name="save_to_local_success_message">Gemt med succes</string>
     <string name="search">Noter</string>
     <string name="search_hint">Søg i noter</string>
     <string name="search_keyword_notes">Noter;Memo</string>
@@ -765,6 +779,7 @@
     <string name="sync_note_folder">%1$s og %2$s</string>
     <string name="sync_note_todo">%1$s og %2$s</string>
     <string name="sync_tips">Tryk for at synkronisere med clouden.</string>
+    <string name="system_error_info">Systemet er optaget. Vent et minut eller to og prøv igen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Jubilæum for indførelse af undtagelsestilstand</string>
     <string name="the_anti_aggression_day">Antiaggressionsdag</string>
     <string name="the_arbor_day">Arbor-dag</string>
@@ -940,6 +955,7 @@ Tillad at Notes optager lyd."</string>
     <string name="tuesday_shortest">Tirs</string>
     <string name="unclassfied_folder_name">Ikke kategoriseret</string>
     <string name="undo">Fortryd</string>
+    <string name="unknown_error_info">Ukendt fejl</string>
     <string name="unknown_source">Ukendt kilde</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>

@@ -68,6 +68,7 @@
     <string name="afternoon">Eftermiddag</string>
     <string name="am">AM</string>
     <string name="auth_fail_warning">Session udløbet. Log ind igen.</string>
+    <string name="back">Tilbage</string>
     <string name="bind_sign_in_title">Tilføj Mi-konto</string>
     <string name="change_activate_email">Skift e-mailadresse</string>
     <string name="change_password">Skift adgangskode</string>
@@ -75,6 +76,7 @@
     <string name="choose_to_signup">Nej, jeg opretter en</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="close">Luk</string>
+    <string name="close_country_code_content_description">Slet landekode</string>
     <string name="collect_diagnosis_log">Indsaml logfiler</string>
     <string name="confirm_activate_email">Verificeret</string>
     <string name="confirm_bundled_phone_dialog_title">Bekræft tilknyttet telefonnummer</string>
@@ -102,6 +104,7 @@ Send denne kode til supervisoren."</string>
     <string name="evening">Eftermiddag</string>
     <string name="exceed_binded_phone_times_notice">Dette telefonnummer er allerede tilknyttet en anden Mi-konto.</string>
     <string name="expand_button_title">Avanceret</string>
+    <string name="facebook_login_btn_content_description">Log ind med Facebook</string>
     <string name="failed_dup_secure_phone_number">Telefonnummeret er allerede tilknyttet en anden Mi-konto</string>
     <string name="find_psw">Glem adgangskode</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -164,7 +167,9 @@ Send denne kode til supervisoren."</string>
     <string name="get_ph_ticket">Få kode</string>
     <string name="get_phone_bind_exceed_limit">Du kan tilknytte op til 3 Mi-konti til et telefonnummer. Kan ikke tilføje nye konti.</string>
     <string name="get_phone_verifycode_exceed_limit">For mange bekræftelseskoder sendt til dette nummer. Vent 24 timer og prøv igen.</string>
+    <string name="google_login_btn_content_description">Log på med Google</string>
     <string name="goto_sign_up">Opret konto</string>
+    <string name="header_help">Hjælp</string>
     <string name="i_know">Forstået</string>
     <string name="identity">Identifikation</string>
     <string name="inconsistent_pwd">Adgangskoder er ikke ens</string>
@@ -181,6 +186,23 @@ Send denne kode til supervisoren."</string>
     <string name="login_with_sns">Andre måder at logge ind på</string>
     <string name="logout_account">Log ud</string>
     <string name="midnight">Nat</string>
+    <string name="miui_clock_city_name_local">Lokal</string>
+    <string name="miui_clock_city_name_second">Andet ur</string>
+    <string name="miui_lock_screen_date">EEEE dd/MM</string>
+    <string name="miui_lock_screen_date_12">EEEE dd/MM</string>
+    <string name="miui_lock_screen_date_two_lines">"EEEE
+dd/MM"</string>
+    <string name="miui_lock_screen_date_two_lines_12">"EEEE
+dd/MM"</string>
+    <string name="miui_lock_screen_large_date">"EEE
+dd/MM"</string>
+    <string name="miui_lock_screen_large_date_12">"EEE
+dd/MM"</string>
+    <string name="miui_vertical_time_format_12">"hh
+mm"</string>
+    <string name="miui_vertical_time_format_24">"HH
+mm"</string>
+    <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
@@ -352,8 +374,12 @@ Send denne kode til supervisoren."</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="progressbar_title">Tjekker for sikkerhedsproblemer…</string>
+    <string name="protocal_dialog_cancel">Annuller</string>
+    <string name="protocal_dialog_confirm">Acceptér</string>
+    <string name="protocal_dialog_title">Bemærk</string>
     <string name="psw_hint">Adgangskode</string>
     <string name="psw_sign_in">Log på ved hjælp af adgangskode</string>
+    <string name="qq_login_btn_content_description">Log ind med QQ</string>
     <string name="register_by_local_phone_long_text">Opret konto</string>
     <string name="register_by_local_phone_short_text">Opret konto</string>
     <string name="request_agree">Tillad</string>
@@ -389,6 +415,7 @@ Send denne kode til supervisoren."</string>
     <string name="sns_access_token_expired_warning">Session er udløbet. Log ind igen for at forbinde denne konto igen.</string>
     <string name="sns_bind_limit">For mange forsøg. Prøv andre måder at logge ind på.</string>
     <string name="sns_sign_in">Andre måder at logge ind på</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
@@ -463,6 +490,7 @@ Send denne kode til supervisoren."</string>
     <string name="user_agreement_hint_with_mobile">&lt;Data>Jeg har læst og accepteret Mi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for China Mobiles verifikationstjenester&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_telecom">&lt;Data>Jeg har læst og accepteret Mi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for eSurfings tjenester vedrørende kontoverifikation&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_unicom">&lt;Data>Jeg har læst og accepteret Mi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for China Unicoms verifikationstjenester&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default">"&lt;Data>Read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> and Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>.&lt;/Data>"</string>
     <string name="user_avatar_update_title">Skift profilbillede</string>
     <string name="user_avatar_uploading">Lige et øjeblik…</string>
     <string name="user_id_hint">E-mail/telefonnummer/Mi-konto-id</string>
@@ -473,5 +501,7 @@ Send denne kode til supervisoren."</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
+    <string name="weibo_login_btn_content_description">Log ind med Weibo</string>
+    <string name="weixin_login_btn_content_description">Log ind med WeChat</string>
     <string name="yesterday">I går</string>
 </resources>

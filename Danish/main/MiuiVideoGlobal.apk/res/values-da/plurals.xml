@@ -98,6 +98,14 @@ Kun tilgængelig i dag"</item>
         <item quantity="other">Du har set %d minutter i dag</item>
         <item quantity="one">Du har set %d minut i dag</item>
     </plurals>
+    <plurals name="incentive_popup_window_share_success">
+        <item quantity="other">Deling fuldført. Du tjente %d point.</item>
+        <item quantity="one">Deling fuldført. Du tjente %d point.</item>
+    </plurals>
+    <plurals name="incentive_popup_window_subscribe_success">
+        <item quantity="other">Abonnement er tegnet. Du tjente %d point.</item>
+        <item quantity="one">Abonnement er tegnet. Du tjente %d point.</item>
+    </plurals>
     <plurals name="incentive_task_watchvideo_begin">
         <item quantity="other">Optjen %d point!</item>
         <item quantity="one">Optjen %d point!</item>

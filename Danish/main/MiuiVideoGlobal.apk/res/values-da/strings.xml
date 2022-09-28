@@ -123,6 +123,7 @@
     <string name="cast_closed_captions_unavailable">Undertekster er ikke tilgængelige</string>
     <string name="cast_connecting_to_device">Der oprettes forbindelse til %1$s</string>
     <string name="cast_disconnect">Afbryd</string>
+    <string name="cast_dynamic_group_name_format">%1$s+%2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Billede, der vises, mens Cast-modtageren afspiller en annonce</string>
     <string name="cast_expanded_controller_ad_in_progress">Igangværende annonce…</string>
     <string name="cast_expanded_controller_background_image">Albumgrafik</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol ti sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Slå lyden fra</string>
     <string name="cast_notification_connected_message">Forbundet til %1$s</string>
@@ -166,6 +168,8 @@
     <string name="choose">Vælg</string>
     <string name="choose_to_signin">Ja</string>
     <string name="choose_to_signup">Nej, jeg opretter en</string>
+    <string name="chromecast_connecting">Tilslutter til Chromecast…</string>
+    <string name="chromecast_playing">Du ser denne video med Chromecast</string>
     <string name="clear_text_end_icon_content_description">Ryd tekst</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="click_to_open_pip">Tryk for at vise billede-i-billede</string>
@@ -233,6 +237,7 @@
     <string name="continue_play">Fortsæt</string>
     <string name="controller_bar_edit">Redigér</string>
     <string name="copy">Kopiér</string>
+    <string name="copy_toast_msg">Linket er kopieret til udklipsholderen</string>
     <string name="data_empty">Ingen elementer her</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -244,6 +249,8 @@ Mi Video er klar til at blive opdateret.
 Opdatér appen nu og tjek vores nye cool funktioner.
 Mi Video-teamet"</string>
     <string name="description">Beskrivelse</string>
+    <string name="desktop_widget_local_media">Mediafiler</string>
+    <string name="desktop_widget_new">Ny</string>
     <string name="detail_select_source">Vælg kilde for playpack</string>
     <string name="diagnosis_log_send_failed">Kunne ikke sende logfiler. Prøv igen.</string>
     <string name="diagnosis_log_sent_format">"Logfiler er nu sendt.
@@ -381,6 +388,9 @@ Send denne kode til supervisoren."</string>
     <string name="failed_dup_secure_phone_number">Telefonnummeret er allerede tilknyttet en anden Mi-konto</string>
     <string name="failed_to_fetch_data">Kunne ikke loade oplysninger.</string>
     <string name="failure">Kunne ikke downloade</string>
+    <string name="fallback_menu_item_copy_link">Kopiér link</string>
+    <string name="fallback_menu_item_open_in_browser">Åbn i browser</string>
+    <string name="fallback_menu_item_share_link">Del link</string>
     <string name="favor_movie">Film</string>
     <string name="favor_online_video">Videoer</string>
     <string name="favor_playlist">Afspilningslister</string>
@@ -538,6 +548,7 @@ Send denne kode til supervisoren."</string>
     <string name="galleryplus_notification_linkvideo_title4">Hundreder af videoer, gratis i et begrænset tidsrum</string>
     <string name="galleryplus_notification_linkvideo_title5">Stream dine foretrukne shows gratis</string>
     <string name="galleryplus_notification_try_now_btn">Prøv nu</string>
+    <string name="galleryplus_notification_type_link_video">Skifter til lokale videoer</string>
     <string name="galleryplus_online_cta">Mi Video er nødt til at tilslutte til internettet for at fungere normalt. Enig?</string>
     <string name="galleryplus_online_cta_agree">Bekræft</string>
     <string name="galleryplus_online_cta_disagree">Bekræft ikke</string>
@@ -642,8 +653,10 @@ Denne handling kommer ikke til at påvirke dine galleribilleder."</string>
     <string name="incentive_exchange">Indløs</string>
     <string name="incentive_exchange_code">Kode</string>
     <string name="incentive_exchange_code_copy">Kopiér</string>
+    <string name="incentive_exchange_code_copy_and_start">Brug</string>
     <string name="incentive_exchange_details">Oplysninger</string>
     <string name="incentive_exchange_details_current">Ordre i alt</string>
+    <string name="incentive_exchange_details_dotask">Optjen point</string>
     <string name="incentive_exchange_details_total">Saldo</string>
     <string name="incentive_exchange_empty_tip">Intet her endnu. Indløs point for at komme i gang.</string>
     <string name="incentive_exchange_expire_tip">Uafhentede point forsvinder ved midnat</string>
@@ -651,6 +664,7 @@ Denne handling kommer ikke til at påvirke dine galleribilleder."</string>
     <string name="incentive_exchange_successful">Indløst</string>
     <string name="incentive_exchange_tip">Disse point er kun tilgængelige i dag</string>
     <string name="incentive_login_for_claim">Log ind på din Google-konto for at få point</string>
+    <string name="incentive_login_success_for_already_claimd">Er nu logget ind. Har fået point.</string>
     <string name="incentive_login_tip">Log ind for at optjene point og få belønninger</string>
     <string name="incentive_my_points">Mine point</string>
     <string name="incentive_popup_window_share">Del for at optjene point</string>
@@ -666,10 +680,16 @@ Denne handling kommer ikke til at påvirke dine galleribilleder."</string>
     <string name="incentive_task_title_novice">For nybegyndere</string>
     <string name="incentive_task_to_get">Begynd</string>
     <string name="incentive_task_to_login">Log ind</string>
+    <string name="incentive_toast_share_success_new">Deling fuldført</string>
+    <string name="incentive_toast_subscribe_success_new">Abonnement er tegnet</string>
+    <string name="incentive_ui_tab_earn_credits">Point</string>
     <string name="incentive_view_all_prizes">Se alle belønninger</string>
     <string name="incentive_view_details">Oplysninger</string>
     <string name="inconsistent_pwd">Adgangskoder er ikke ens</string>
     <string name="init_channels">Gendan standardindstillinger</string>
+    <string name="inline_auto_play_tip">"Bruger mobildata… "</string>
+    <string name="inline_auto_play_to_set">Indstillinger</string>
+    <string name="inline_mute_click_tip">Tryk for at slå lydløs fra</string>
     <string name="input_email_address_notice">Vi anvender denne e-mail til at verificere din konto</string>
     <string name="input_new_pwd">Indtast ny adgangskode</string>
     <string name="input_size_tips_new">Du kan indtaste op til %d tegn</string>
@@ -684,6 +704,7 @@ Denne handling kommer ikke til at påvirke dine galleribilleder."</string>
     <string name="item_download_path">Download-placering</string>
     <string name="item_download_path_setting">Indstillinger for download-placering</string>
     <string name="item_setting_go_back">Tilbagetrækning af samtykke</string>
+    <string name="item_title_for_search_page_hot">Populære</string>
     <string name="item_title_unknown">Ukendt titel</string>
     <string name="item_view_role_description">Fane</string>
     <string name="just_a_second">Lige et øjeblik…</string>
@@ -695,8 +716,14 @@ til videoer"</string>
     <string name="later">Senere</string>
     <string name="live_now">Live nu</string>
     <string name="live_title">Live TV</string>
+    <string name="live_tv_dialog_item_passed">Dette program er afsluttet. Se det næste gang.</string>
+    <string name="live_tv_dialog_subscirbe_button">Abonnér</string>
+    <string name="live_tv_dialog_subscirbe_tips">Abonnér på %1$s, og gå aldrig glip af et afsnit</string>
     <string name="live_tv_title">Live-TV</string>
+    <string name="live_tv_toast_item_subscirbe">Du abonnerer allerede på dette program</string>
     <string name="loading">Lige et øjeblik…</string>
+    <string name="local_adjust_zoom_mode_hint">Du ser i %s-format</string>
+    <string name="local_crop_zoom_mode">Billedet er beskåret</string>
     <string name="local_diversion_all_local_videos">Alle videoer på enhed</string>
     <string name="local_diversion_close_recommend">Luk</string>
     <string name="local_diversion_download_more_video">Flere videoer</string>
@@ -714,6 +741,7 @@ til videoer"</string>
     <string name="local_push_setting_power_tag">Notifikationer om lokale videoer</string>
     <string name="local_push_title">Populært i dag</string>
     <string name="local_push_video_title">Søg efter nye lokale videoer</string>
+    <string name="local_stretch_zoom_mode">Billedet er strakt</string>
     <string name="local_video_create_a_new_playlist">Ny afspilningsliste</string>
     <string name="local_video_date">Dato</string>
     <string name="local_video_dialog_default">Standard</string>
@@ -734,6 +762,7 @@ til videoer"</string>
     <string name="local_video_size">Størrelse</string>
     <string name="local_video_space">Anvendt: %s</string>
     <string name="local_video_time">Varighed</string>
+    <string name="local_zoom_adjust_button">Skift visningstilstand</string>
     <string name="lock_screen">Låseskærm</string>
     <string name="login">Log ind</string>
     <string name="login_tip">Log ind for at kunne modtage vores svar på din feedback.</string>
@@ -761,6 +790,7 @@ til videoer"</string>
     <string name="lp_video_zoom_title">Zoom</string>
     <string name="lv_advance_sound">Forbedr lyd</string>
     <string name="lv_airkan_control_device_des">For at kontrollere afspilning skal du trykke på bjælken i bunden.</string>
+    <string name="lv_airkan_device_my_device">Min enhed</string>
     <string name="lv_airkan_device_xiaomi_phone">Min Mi-telefon</string>
     <string name="lv_airkan_playing">Caster på %s</string>
     <string name="lv_airkan_tips">Tryk for at caste</string>
@@ -839,10 +869,10 @@ til videoer"</string>
     <string name="lv_subtitle_no_subtitle">Undertekster er ikke tilgængelige</string>
     <string name="lv_subtitle_non_subtitle_file">Ingen filer med undertekster forefindes</string>
     <string name="lv_subtitle_offset_add_1s_new">+%d s</string>
-    <string name="lv_subtitle_offset_add_dot5s_new">+%f s</string>
+    <string name="lv_subtitle_offset_add_dot5s_new">+%.1f s</string>
     <string name="lv_subtitle_offset_normal">Flyt ikke undertekster</string>
     <string name="lv_subtitle_offset_sub_1s_new">-%d s</string>
-    <string name="lv_subtitle_offset_sub_dot5s_new">-%f s</string>
+    <string name="lv_subtitle_offset_sub_dot5s_new">-%.1f s</string>
     <string name="lv_subtitle_onlinesub_language">Sprog: %s</string>
     <string name="lv_subtitle_onlinesub_loading">Loader undertekster…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Loader undertekster…</string>
@@ -969,10 +999,11 @@ til videoer"</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mere</string>
     <string name="morning">Morgen</string>
-    <string name="mr_button_content_description">Cast-knap</string>
-    <string name="mr_cast_button_connected">Cast-knap. Der er oprettet forbindelse</string>
-    <string name="mr_cast_button_connecting">Cast-knap. Opretter forbindelse</string>
-    <string name="mr_cast_button_disconnected">Cast-knap. Forbindelsen er afbrudt</string>
+    <string name="mr_button_content_description">Cast</string>
+    <string name="mr_cast_button_connected">Cast. Forbundet</string>
+    <string name="mr_cast_button_connecting">Cast. Forbinder</string>
+    <string name="mr_cast_button_disconnected">Cast. Afbrudt</string>
+    <string name="mr_cast_dialog_title_view_placeholder">Der er ingen tilgængelige oplysninger</string>
     <string name="mr_chooser_searching">Finder enheder</string>
     <string name="mr_chooser_title">Cast til</string>
     <string name="mr_controller_album_art">Albumgrafik</string>
@@ -986,8 +1017,11 @@ til videoer"</string>
     <string name="mr_controller_pause">Sæt på pause</string>
     <string name="mr_controller_play">Afspil</string>
     <string name="mr_controller_stop">Stop</string>
-    <string name="mr_controller_stop_casting">Stop med at caste</string>
+    <string name="mr_controller_stop_casting">Stop cast</string>
     <string name="mr_controller_volume_slider">Lydstyrkeskyder</string>
+    <string name="mr_dialog_default_group_name">Gruppe</string>
+    <string name="mr_dialog_groupable_header">Tilføj en enhed</string>
+    <string name="mr_dialog_transferable_header">Afspil på en gruppe</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Enheder</string>
     <string name="mtrl_badge_numberless_content_description">Ny notifikation</string>
@@ -996,6 +1030,7 @@ til videoer"</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -1063,6 +1098,7 @@ til videoer"</string>
     <string name="notification_recall_desc">Mi Video kan sende dig meddelelser om populære videoer og dine abonnementer.</string>
     <string name="notification_recall_title">Slå meddelelser til</string>
     <string name="notification_tool">Værktøjskasse</string>
+    <string name="notification_type_channel_music">Afspilning af musik</string>
     <string name="notify_apk_installed">Download lykkedes</string>
     <string name="offline_notification_text">Tryk for at åbne annoncen</string>
     <string name="offline_notification_title">Se den annonce, du gemte, mens du var offline</string>
@@ -1073,7 +1109,12 @@ til videoer"</string>
     <string name="offline_opt_in_title">Åbn annoncen, når du er online igen.</string>
     <string name="ok">OK</string>
     <string name="online_play_hint">For eksempel: http://www.example.com/video.mp4</string>
+    <string name="online_play_start_loading_tip">Lige et øjeblik…</string>
+    <string name="online_play_start_ready_loading_tip_b">Indlæser %.2f B/s</string>
+    <string name="online_play_start_ready_loading_tip_kb">Indlæser %.2f kB/s</string>
+    <string name="online_play_start_ready_loading_tip_mb">Indlæser %.2f MB/s</string>
     <string name="online_play_title">Indtast URL</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Seneste abonnementer</string>
     <string name="order_recently_updated">Senest opdateret</string>
     <string name="out_of_memory_background_playback_is_suspended">Sat afspilning på pause på grund af utilstrækkelig hukommelse</string>
@@ -1434,6 +1475,7 @@ Forøge din kontos sikkerhed"</string>
     <string name="popup_click_for_download_video">Download video</string>
     <string name="popup_pip_activate_button">Indstillinger</string>
     <string name="popup_pip_not_activated">Tillad først Mi Video at bruge billede-i-billede.</string>
+    <string name="popup_recommend_text">Find flere videoer, du vil elske</string>
     <string name="popup_window_home_tip">Download onlinevideoer</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="privacy_agree_subtitle">Samtykke til privatlivspolitikken giver dig adgang til alle funktioner i Mi Video</string>
@@ -1534,6 +1576,15 @@ Forøge din kontos sikkerhed"</string>
     <string name="sending">Sender…</string>
     <string name="service_error">Serverfejl</string>
     <string name="set_success">Ændret</string>
+    <string name="settings_inline_auto_play">Altid automatisk afspilning</string>
+    <string name="settings_inline_auto_play_close">Automatisk afspilning er deaktiveret</string>
+    <string name="settings_inline_auto_play_tip_close_forever">Altid deaktiveret</string>
+    <string name="settings_inline_auto_play_tip_close_month">Deaktiveret i én måned</string>
+    <string name="settings_inline_auto_play_tip_open">Aktiveret</string>
+    <string name="settings_inline_auto_play_tip_title">Påmindelser om mobildataforbrug</string>
+    <string name="settings_inline_auto_play_title">Automatisk afspilning</string>
+    <string name="settings_inline_auto_play_wify">Automatisk afspilning kun på Wi-fi</string>
+    <string name="settings_inline_title">Automatisk afspilning på startsiden</string>
     <string name="settings_manager_hidden_folder">Administrer skjulte videoer</string>
     <string name="share">Del</string>
     <string name="share_fail">Kunne ikke dele. Kontrollér dine netværksindstillinger og prøv igen.</string>
@@ -1554,13 +1605,14 @@ Forøge din kontos sikkerhed"</string>
     <string name="small_video_load_more_hint">Swipe opad for at afspille flere videoer</string>
     <string name="small_video_snack_download_description">Download SnackVideo for at se de nyeste videoer fra dine yndlingsinstruktører.</string>
     <string name="small_video_snack_download_title">SnackVideo</string>
-    <string name="small_video_tab_expose_hint">Tap for more short videos</string>
+    <string name="small_video_tab_expose_hint">Tryk for flere korte videoer</string>
     <string name="sms_send_success">Afsendt</string>
     <string name="sns_access_token_expired_warning">Session er udløbet. Log ind igen for at forbinde denne konto igen.</string>
     <string name="sns_bind_limit">For mange forsøg. Prøv andre måder at logge ind på.</string>
     <string name="sns_sign_in">Andre måder at logge ind på</string>
     <string name="source">"Kilde: "</string>
     <string name="start_download_tip">Føjet til kø. Tjek fremskridt i Profil > Downloads.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lager</string>
     <string name="submit">Indsend</string>
@@ -1831,6 +1883,12 @@ Forøge din kontos sikkerhed"</string>
     <string name="welcome_tip_into_mivideo">Kom i gang</string>
     <string name="welcome_tip_skip">Spring over</string>
     <string name="welcome_tip_title">Velkommen til Mi Video</string>
+    <string name="widget_local_video">Lokale videoer</string>
+    <string name="widget_local_video_click">Tryk for at se videoer, der er lagret på din enhed.</string>
+    <string name="widget_more_channel">Flere kanaler</string>
+    <string name="widget_more_channel_click">Tryk for at se tv-kanaler</string>
+    <string name="widget_trending_click">Tryk for at se dagens mest populære videoer</string>
+    <string name="widget_trending_today">Populære i dag</string>
     <string name="yesterday">I går</string>
     <string name="yt_subscription_notification_setting_title">Abonnements-notifikationer</string>
     <string name="ytb_account">Konti</string>

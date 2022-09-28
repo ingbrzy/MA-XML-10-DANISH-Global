@@ -59,6 +59,7 @@
     <string name="copies_increase">Plus én kopi</string>
     <string name="copy">Kopiér</string>
     <string name="could_not_create_file">Filen kunne ikke oprettes</string>
+    <string name="current_page_template">%1$d af %2$d</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -262,6 +263,7 @@
     <string name="printer_busy">Printer er optaget</string>
     <string name="printer_error">Printerfejl</string>
     <string name="printer_error_msg">Printerfejl: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Flere oplysninger om denne printer</string>
     <string name="printer_notification_error_title">Kunne ikke udskrive %1$s</string>
     <string name="printer_unavailable">Printer er ikke tilgængelig</string>

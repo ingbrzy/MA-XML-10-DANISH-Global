@@ -465,7 +465,9 @@ Hurtigere forbindelsesprotokol"</string>
     <string name="hdcp_checking_dialog_title">Sæt opførsel af HDCP-kontrol</string>
     <string name="hdcp_checking_title">HDCP-kontrol</string>
     <string name="headset_battery_fw_failed">Oplad først din enhed</string>
+    <string name="headset_battery_low">Lavt batteri. Oplad dine øretelefoner nu.</string>
     <string name="headset_connect_device">Tilslut enhed</string>
+    <string name="headset_connect_timeout">Forbindelsen udløb. Prøv igen.</string>
     <string name="headset_device_check_failed">Kunne ikke søge efter opdateringer</string>
     <string name="headset_device_donot_move">Hav enheden i nærheden</string>
     <string name="headset_device_enter_upgrade_failed">Kunne ikke indlede opdateringen</string>
@@ -491,6 +493,7 @@ Hurtigere forbindelsesprotokol"</string>
     <string name="headset_loss_notify_summary">Det ser ud til, at mindst en af dine øresnegle ikke befinder sig i opladerboksen. Prøv at finde den!</string>
     <string name="headset_loss_notify_summary1">Det ser ud , som om dine øretelefoner ikke er i æsken. Læg dem tilbage for at oplade dem.</string>
     <string name="headset_loss_notify_title">Manglende alarm vedrørende øresnegl</string>
+    <string name="headset_not_in_case">Anbring begge øretelefoner i kassen, og begynd forfra.</string>
     <string name="headset_read_fw_state">Kan ikke hente opdateringsoplysninger</string>
     <string name="headset_update_failed">Kunne ikke opdatere</string>
     <string name="headset_update_ok">Færdig</string>
@@ -682,6 +685,7 @@ Hurtigere forbindelsesprotokol"</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
