@@ -330,17 +330,12 @@ et scrollende screenshot"</string>
     <string name="screen_editor_btn_save">Gem</string>
     <string name="screen_editor_btn_shell_off">Fjern enhedsramme</string>
     <string name="screen_editor_btn_shell_on">Tilføj enhedsramme</string>
-    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">Slet dette skærmbillede?</string>
     <string name="screen_editor_delete_dialog_picture_msg">Slet dette billede nu?</string>
-    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Udført</string>
-    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
-    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">Kan ikke tilføje enhedsramme til beskårne screenshots</string>
     <string name="screen_editor_shell_net_error">Tilslut til netværket for at downloade enhedsramme</string>
     <string name="screen_editor_shell_res_downloading">Downloader enhedsramme…</string>
-    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Annuller</string>
     <string name="screen_save_dialog_btn_delete">Slet skærmbillede</string>
     <string name="screen_save_dialog_btn_save">Gem i Galleri</string>

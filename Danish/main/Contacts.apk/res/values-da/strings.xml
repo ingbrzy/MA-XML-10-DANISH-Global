@@ -505,7 +505,6 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
-    <string name="from_account_format">%1$s</string>
     <string name="full_name">Navn</string>
     <string name="gallery">Galleri</string>
     <string name="ghostData_company">Firma</string>
@@ -639,7 +638,6 @@
     <string name="menu_sync_remove">Fjern synkroniseringsgruppe</string>
     <string name="midnight">Nat</string>
     <string name="miprofile_account_type">Kontaktkort</string>
-    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Rediger profil</string>
     <string name="miprofile_name">Min profil</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -796,7 +794,6 @@ Tryk på \"%1$s\", og vælg derefter \"%2$s\"."</string>
     <string name="permission_retry_dialog_msg_pad">For at kunne bruge dit SIM-kort med denne app og administrere dine kontakter skal du tillade denne app at få adgang til og redigere dine kontakter samt at få adgang til enhedsoplysningerne.</string>
     <string name="permission_retry_setting">Indstillinger</string>
     <string name="phoneLabelsGroup">Telefon</string>
-    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Nummer er for langt.</string>
     <string name="phone_primary">Primær</string>
     <string name="photoPickerNotFoundText">Der er ingen tilgængelige billeder på enheden.</string>
@@ -1042,7 +1039,6 @@ Tryk på \"%1$s\", og vælg derefter \"%2$s\"."</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ingen gruppemedlemmer</string>
     <string name="six_letter">MNO</string>
-    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Firmaer</string>
     <string name="smart_group_company_unavailable">Ingen firmaoplysninger</string>
     <string name="smart_group_frequency_1">Indenfor den sidste måned</string>
@@ -1084,7 +1080,6 @@ Tryk på \"%1$s\", og vælg derefter \"%2$s\"."</string>
     <string name="starred_contacts">Favoritter</string>
     <string name="status_available">Tilgængelig</string>
     <string name="status_away">Væk</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Optaget</string>
     <string name="strequentList">Favoritter</string>
     <string name="success_message_import_from_account">Kontakt importeret.</string>
