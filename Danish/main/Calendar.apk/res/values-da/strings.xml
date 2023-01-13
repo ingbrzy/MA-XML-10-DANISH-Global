@@ -91,6 +91,7 @@
     <string name="birthday_saved">Fødselsdag gemt</string>
     <string name="birthday_term">fødselsdag</string>
     <string name="button_record_menstruation">Registrer</string>
+    <string name="calendar_account_settings">Kontoindstillinger</string>
     <string name="calendar_permission_desc">Administrer begivenheder</string>
     <string name="calendar_privacy_policy">Privatlivspolitik</string>
     <string name="can_not_create_long_event">Eventnavn er for langt.</string>
@@ -112,6 +113,7 @@
     <string name="change">Skift</string>
     <string name="change_response_title">Ændr svar</string>
     <string name="change_zodiac">Skift stjernetegn</string>
+    <string name="check_new_version">Søg efter opdateringer</string>
     <string name="chips_action_cancel">Annuller</string>
     <string name="chips_action_copy">Kopiér</string>
     <string name="chips_permission_text">Tillad forslag til kontaktpersoner</string>
@@ -180,6 +182,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Kinesisk traditionel kalender</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Indstil dato og tid</string>
     <string name="date_today">" (i dag)"</string>
     <string name="date_view">Dato</string>
@@ -194,6 +197,7 @@
     <string name="description_calendar_edit_event">System-apps/Kalender/Agenda</string>
     <string name="directory_searching_fmt">Søger %s…</string>
     <string name="discard_label">Annuller</string>
+    <string name="display_to_calendar">Vis i Kalender</string>
     <string name="does_not_repeat">Engangsevent</string>
     <string name="dropdown_delete_button_desc">Fjern %s fra modtagere</string>
     <string name="early_morning">Morgen</string>
@@ -387,6 +391,7 @@
     <string name="horoscope">Horoskop</string>
     <string name="horoscope_card_title">Dagens horskop</string>
     <string name="horoscope_select_activity_label">Vælg stjernetegn</string>
+    <string name="hour_1">%d time</string>
     <string name="image_processing">Billede er ikke klar endnu</string>
     <string name="import_action">Importér</string>
     <string name="import_birthday">Importér fødselsdag</string>
@@ -451,6 +456,10 @@
     <string name="mesens_card_title_today_begin">Menstruationen begynder muligvis i dag</string>
     <string name="mesens_card_title_tomorrow_begin">Menstruationen begynder muligvis i morgen</string>
     <string name="midnight">Nat</string>
+    <string name="minutes_10">%d minutter</string>
+    <string name="minutes_15">%d minutter</string>
+    <string name="minutes_30">%d minutter</string>
+    <string name="minutes_5">%d minutter</string>
     <string name="missing_name">(Intet navn)</string>
     <string name="missing_required_permission">Du har skærpet påkrævede tilladelser.</string>
     <string name="miuix_access_state_desc">Valgt</string>
@@ -713,7 +722,6 @@ Tjek netværksindstillinger og prøv igen."</string>
     <string name="save">Gem</string>
     <string name="saving_event">Event gemt</string>
     <string name="saving_event_with_guest">Sender opdateringer…</string>
-    <string name="search_calendar">Dato;Solar Vilkår;Lunar;Almanac;Fortune;Agenda;Møde;Påmindelse;Ferie;Helligdag;Fødselsdag;2016;2017;Forårsfestival;Nytår;International Arbejdsdag;Sensommerfestival</string>
     <string name="search_calendar_edit_event">Møde;Påmindelse;Agenda</string>
     <string name="search_calendar_settings">Kalender;Agenda;Påmindelse</string>
     <string name="search_events">Søg efter events</string>
@@ -753,6 +761,9 @@ Tjek netværksindstillinger og prøv igen."</string>
     <string name="share_image_label">Del via</string>
     <string name="share_title">Del</string>
     <string name="short_date_format">d. MMM</string>
+    <string name="shortcut_new_event">Tilføj begivenhed</string>
+    <string name="shortcut_next_agenda">Næste begivenhed</string>
+    <string name="shortcut_settings">Indstillinger</string>
     <string name="show_day_view">Vis dag</string>
     <string name="show_indic_date_summary">Indisk kalender er tilgængelig, når et af de indiske sprog er valgt som dit systemsprog</string>
     <string name="show_menstruation_info">Vis menstruationsoplysninger</string>
@@ -792,6 +803,7 @@ Du kan også tilføje remindere, så du ikke går glip af noget vigtigt."</strin
     <string name="subtitle_mi_calendar_predict_menstruation">Registrer og forudsig kommende menstruationer ved hjælp af Kalender</string>
     <string name="subtitle_record_and_start_predict">Registrer en menstruation for at anslå, hvornår den næste starter</string>
     <string name="subtitle_stick_record">Registrer dine menstruationer for at få mere præcise forudsigelser</string>
+    <string name="suggestions_and_feedback">Feedback</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>

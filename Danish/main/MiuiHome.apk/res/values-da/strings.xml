@@ -301,6 +301,7 @@
     <string name="dual_app">Dobbelte apps</string>
     <string name="early_morning">Morgen</string>
     <string name="edit">Redigér</string>
+    <string name="edit_folder">Redigér mappe</string>
     <string name="edit_folder_title">Rediger mappens navn</string>
     <string name="edit_mode_dual_app">Opret dual app</string>
     <string name="edit_mode_group">Gruppe</string>
@@ -387,9 +388,16 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fold_pair_install_shortcut_launcher_success">Er nu oprettet</string>
     <string name="fold_pair_install_shortcut_long_click">Tryk og hold for at tilføje til startskærmen</string>
     <string name="fold_pair_installed_shortcut_launcher">Denne genvej findes allerede</string>
     <string name="folder_name">Mappe</string>
+    <string name="folder_picker_big_2x2_9_text">XXL</string>
+    <string name="folder_picker_big_text">Forstørret</string>
+    <string name="folder_picker_default_text">Almindelig</string>
+    <string name="folder_picker_options_tab_text">Størrelse</string>
+    <string name="folder_picker_sliding_button_tab_text">Foreslå fremhævede apps</string>
+    <string name="folder_picker_tab_text">Mappe</string>
     <string name="frame_load_failed">Kan ikke indlæse ramme</string>
     <string name="free_style_apps_title">Vælg app</string>
     <string name="free_style_drawer_title">Alle apps</string>
@@ -469,6 +477,7 @@
     <string name="icon_style">Stil</string>
     <string name="image_too_small_message">Originalbilledet er ikke stort nok.</string>
     <string name="install">Installer</string>
+    <string name="intelligent_exposed_button_summary_text">Brug smarte forslag baseret på din app-brug til at fremhæve apps i forstørrede mapper</string>
     <string name="invalid_contact_shortcut">Ugyldig kontakt</string>
     <string name="is_setting_wallpaper_message">Indstiller baggrundsbillede…</string>
     <string name="is_system_wallpaper_message">Kan ikke slette systemressourcer</string>
@@ -554,6 +563,7 @@ Forbedret sikkerhed."</string>
     <string name="minus_one_screen">App-boks</string>
     <string name="miui_screen_config_title">Indstillinger for startskærm</string>
     <string name="miui_widget_menu_replace_text">Skift</string>
+    <string name="miui_widget_toast_for_not_support_by_pa">App-boks understøtter ikke widgets af denne størrelse</string>
     <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
@@ -580,6 +590,8 @@ Forbedret sikkerhed."</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
     <string name="monday_shortest">Man</string>
+    <string name="monochrome_summary">Skift baggrundsfarve for kompatible ikoner</string>
+    <string name="monochrome_title">Baggrundsfarve</string>
     <string name="month_april">April</string>
     <string name="month_april_short">Apr</string>
     <string name="month_april_shortest">Apr</string>
@@ -624,6 +636,7 @@ Forbedret sikkerhed."</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -795,6 +808,8 @@ Forbedret sikkerhed."</string>
     <string name="quick_search_guide_quick_search">Hurtig søgning</string>
     <string name="quick_search_guide_title">Vælg standardtilstand</string>
     <string name="recent_apps">Nylige</string>
+    <string name="recent_menu_item_add_pair">Opret en startskærmsgenvej til denne kombination af opdelt skærm</string>
+    <string name="recent_menu_item_add_pair_first_toast">Opret en startskærmsgenvej til denne kombination af opdelt skærm</string>
     <string name="recent_menu_item_info">Oplysninger</string>
     <string name="recent_menu_item_lock">Lås</string>
     <string name="recent_menu_item_multi_window">Opdel</string>
@@ -901,6 +916,7 @@ Forbedret sikkerhed."</string>
     <string name="sort_by_not_defined">Automatisk sortering</string>
     <string name="start_activity_failed">Kan ikke starte lanceringsprogram</string>
     <string name="starting_preset_app">Starter…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s af %2$s tilgængelig</string>
     <string name="status_bar_recent_memory_info2" />
@@ -983,6 +999,8 @@ Forbedret sikkerhed."</string>
     <string name="title_select_shortcut">Vælg genvej</string>
     <string name="toast_drag_to_assistant_reject">Klargør app-boks…</string>
     <string name="toast_screen_icons_misplaced">Gendannet fra anden kilde. Nogle ikoner kan være placeret forkert.</string>
+    <string name="toast_split_app_unsupported">Denne app understøtter ikke opdelt skærm</string>
+    <string name="toast_split_select_app">Tryk på en app for at bruge opdelt skærm</string>
     <string name="today">I dag</string>
     <string name="toggle_select_title">Vælg omskifterknap</string>
     <string name="toggle_title">Omskifterknap</string>
@@ -1033,8 +1051,12 @@ Forbedret sikkerhed."</string>
     <string name="widget_global_search">Søg</string>
     <string name="widget_quick_function">Hurtigfunktioner</string>
     <string name="widgets_preview_title">Tilføj widgets</string>
+    <string name="work_mode_off_detailed_text">Arbejdsapps kan ikke sende dig notifikationer, bruge dit batteri eller få adgang til din lokation</string>
     <string name="work_mode_off_label">Notifikationer er deaktiverede, og apps er ikke tilgængelige nu</string>
+    <string name="work_mode_off_text">Arbejdsapps er sat på pause</string>
     <string name="work_mode_on_label">Administreres af din organisation</string>
+    <string name="work_mode_toggle_off">Deaktivér arbejdsapps</string>
+    <string name="work_mode_toggle_on">Aktivér arbejdsapps</string>
     <string name="work_profile_first_content">Personoplysninger er separate og skjult fra arbejds-apps</string>
     <string name="work_profile_got_button">Forstået</string>
     <string name="work_profile_next_button">Næste</string>

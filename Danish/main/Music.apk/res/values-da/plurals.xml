@@ -130,6 +130,10 @@ Bemærk: Filen vil blive slettet også fra denne enhed."</item>
         <item quantity="other">Spol %d sekunder tilbage</item>
         <item quantity="one">Spol %d sekund tilbage</item>
     </plurals>
+    <plurals name="feed_play_times">
+        <item quantity="other">%s visninger</item>
+        <item quantity="one">%s visning</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">%d gratis downloads tilbage</item>
         <item quantity="one">%d gratis download tilbage</item>

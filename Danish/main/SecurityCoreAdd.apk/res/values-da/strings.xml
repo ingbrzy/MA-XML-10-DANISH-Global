@@ -43,6 +43,7 @@ føjes denne funktion automatisk til Andet rum."</string>
     <string name="air_space_exit">Forlad rum</string>
     <string name="air_space_setting">Rumindstillinger</string>
     <string name="airspace_users_full">Kunne ikke oprette flere arbejdsområder</string>
+    <string name="alwaysUsePrompt">Husk mit valg</string>
     <string name="am">AM</string>
     <string name="appData">Installerede apps</string>
     <string name="app_name">Sikkerhedskernekomponent</string>
@@ -264,8 +265,7 @@ Sørg for, at navnet på din virksomhed er korrekt. Læs og acceptér den relate
     <string name="green_guard_title3">Administrer apps</string>
     <string name="greenguard_child_des">Styr dine venners og din families enheder</string>
     <string name="greenguard_child_des_title">Scan QR-kode for at tilføje enhed</string>
-    <string name="greenguard_functional_description">"Fjernbetjen enheder, se info om placeringer,
-styr installerede apper og begræns adgangen"</string>
+    <string name="greenguard_functional_description">Fjernbetjen enheder, se placeringsoplysninger, og administrer installerede apps</string>
     <string name="greenguard_install_cancle">Nej tak</string>
     <string name="greenguard_install_confirm">Installer</string>
     <string name="greenguard_install_message">Family Guard er en system-app. Du behøver ikke internettet for at installere den.</string>
@@ -692,6 +692,7 @@ Visse dobbelte apps kræver understøttelse af Google Services Framework I dette
     <string name="xspace_guide_description">"Hver konto
 fortjener sin egen app"</string>
     <string name="xspace_guide_title">Prøv Dual aps</string>
+    <string name="xspace_head">Dobbelt app</string>
     <string name="xspace_header">Dobbelte apps</string>
     <string name="xspace_instagram_title">Instagram</string>
     <string name="xspace_install_complete">&lt;font>Dual-app er nu oprettet. &lt;/font>&lt;font color=#0D84FF>Åbn nu&lt;/font>.</string>
@@ -707,6 +708,7 @@ fortjener sin egen app"</string>
     <string name="xspace_notification_error">Log ind på dual WeChat og prøv igen</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Slet konti for dobbelt-apps</string>
+    <string name="xspace_resolver_activity_title">Vælg app</string>
     <string name="xspace_setting_label">Indstillinger for dobbelt app</string>
     <string name="xspace_settins">Indstil</string>
     <string name="xspace_start">Opret</string>

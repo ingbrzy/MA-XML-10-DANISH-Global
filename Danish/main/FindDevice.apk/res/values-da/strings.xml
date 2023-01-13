@@ -71,7 +71,7 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="find_device_capture_notification_title">Find enhed er ved at tage et foto</string>
     <string name="find_device_crash">Find enhed lukkede uventet.</string>
     <string name="find_device_error_access_denied">Adgang nægtet.</string>
-    <string name="find_device_error_account_sys_timeout">Kunne ikke oprette forbindelse til Mi-konto.</string>
+    <string name="find_device_error_account_sys_timeout">"Kunne ikke oprette forbindelse til Mi-konto. "</string>
     <string name="find_device_error_account_unknown_error">Mi-kontofejl (%s).</string>
     <string name="find_device_error_custom">%s</string>
     <string name="find_device_error_network">Netværksfejl.</string>

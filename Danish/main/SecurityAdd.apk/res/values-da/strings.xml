@@ -58,6 +58,7 @@
     <string name="dual_app_title">Dobbelte apper</string>
     <string name="dual_app_words">Hver konto fortjener sin egen app</string>
     <string name="early_morning">Morgen</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">e.v.t.</string>
     <string name="eras_bc">f.v.t.</string>
     <string name="evening">Eftermiddag</string>
@@ -148,14 +149,16 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="free_send_net_booster">Gratis netværkshastighedsboost</string>
-    <string name="free_send_net_booster_busniess">Få gratis Xunlei-hastighedsboost</string>
-    <string name="free_send_net_booster_busniess_tip">Tryk for at modtage</string>
-    <string name="free_send_net_booster_tip">Få en god spiloplevelse med gratis netværkshastighedsboost.</string>
+    <string name="free_send_net_booster">Prøv Game Turbo gratis</string>
+    <string name="free_send_net_booster_busniess">Prøv Game Turbo gratis</string>
+    <string name="free_send_net_booster_busniess_tip">Boost din spiloplevelse, og vind et spilskin. Dette tilbud gælder kun i dag.</string>
+    <string name="free_send_net_booster_tip">Boost din spiloplevelse, og vind en Xiaomi-enhed.</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="game_booster">Spilhastighedsbooster</string>
+    <string name="gamebooster_dialog_recover">Forny</string>
+    <string name="gamebooster_dialog_start_booster">Begynd</string>
     <string name="gamebooster_network_dialog_message">Tillad at Sikkerhed opretter forbindelse til netværket for at bruge alle funktioner i Game Turbo?</string>
     <string name="gamebooster_network_dialog_message_pad">Tillad, at Sikkerhed opretter forbindelse til netværket for at bruge alle funktioner i Game Turbo?</string>
     <string name="gamebooster_network_dialog_title">Nogle funktioner er ikke tilgængelige</string>
@@ -319,7 +322,7 @@
     <string name="morning">Morgen</string>
     <string name="net_booster_expire_notification">Sessionen til boost af netværkshastighed er ved at være slut</string>
     <string name="net_booster_overdue_notification">Sessionen til boost af netværkshastighed er ved at være slut</string>
-    <string name="net_booster_overdue_notification_tip">Sessionen til netværkshastighedsboost vil slutte snart. Forny sessionen?</string>
+    <string name="net_booster_overdue_notification_tip">Sessionen om boost af netværkshastigheden er slut. Du kan begynde at opleve netværksforsinkelser. Forny sessionen nu?</string>
     <string name="network_not_available">Kan ikke tilslutte til netværket</string>
     <string name="night">Aften</string>
     <string name="no_network">Kan ikke tilslutte til netværket</string>
@@ -331,6 +334,8 @@
     <string name="pc_activity_title">Optimer batteri</string>
     <string name="pm">PM</string>
     <string name="pm_lable_name">Om rodadgang</string>
+    <string name="power_center_battery_duration_screen_on">Resterende skærmtid</string>
+    <string name="power_main_battery_last_hour_minute_screen_on">%1$s %2$s resterende skærmtid</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="privacy_declare_dialog_title">Servicevilkår</string>
     <string name="privacy_prompt_traffic_purchase_message">"Dit telefonnummer og oplysninger fra teleudbyder krypteres og uploades til Mi's servere, for at få flere oplysninger om muligheder for køb af data."</string>
@@ -348,6 +353,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>

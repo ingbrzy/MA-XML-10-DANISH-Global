@@ -36,6 +36,10 @@
         <item quantity="other">%d min siden</item>
         <item quantity="one">1 min siden</item>
     </plurals>
+    <plurals name="category_limit_notify_content">
+        <item quantity="other">%2$d minutter tilbage til \"%1$s\" i dag</item>
+        <item quantity="one">%2$d minut tilbage til \"%1$s\" i dag</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>
@@ -76,9 +80,21 @@
         <item quantity="other">Du har holdt din enhed i %d minutter uden afbrydelser</item>
         <item quantity="one">Du har holdt din enhed i %d minut uden afbrydelser</item>
     </plurals>
+    <plurals name="steady_on_screen_rest_time">
+        <item quantity="other">Hvil i %d minutter</item>
+        <item quantity="one">Hvil i %d minut</item>
+    </plurals>
     <plurals name="steady_on_screen_time_pick">
         <item quantity="other">%d min.</item>
         <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="steady_on_screen_tip_title">
+        <item quantity="other">Du har allerede brugt denne enhed i %d minutter</item>
+        <item quantity="one">Du har allerede brugt denne enhed i %d minut</item>
+    </plurals>
+    <plurals name="tip_most_unavailable_period">
+        <item quantity="other">Du kan tilføje op til %d pauser</item>
+        <item quantity="one">Du kan tilføje op til %d pause</item>
     </plurals>
     <plurals name="trend_from_last_several_day_equal">
         <item quantity="other">Skærmtiden i dag er lig med dit %d-dages gennemsnit</item>

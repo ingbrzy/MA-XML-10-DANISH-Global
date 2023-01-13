@@ -37,16 +37,16 @@
         <item quantity="one">1 min siden</item>
     </plurals>
     <plurals name="abc_slice_duration_days">
-        <item quantity="other">for %d dage siden</item>
-        <item quantity="one">for %d dag siden</item>
+        <item quantity="other">For %d dage siden</item>
+        <item quantity="one">For %d dag siden</item>
     </plurals>
     <plurals name="abc_slice_duration_min">
-        <item quantity="other">%d min. siden</item>
-        <item quantity="one">%d min. siden</item>
+        <item quantity="other">For %d min. siden</item>
+        <item quantity="one">For %d min. siden</item>
     </plurals>
     <plurals name="abc_slice_duration_years">
-        <item quantity="other">for %d år siden</item>
-        <item quantity="one">for %d år siden</item>
+        <item quantity="other">For %d år siden</item>
+        <item quantity="one">For %d år siden</item>
     </plurals>
     <plurals name="accessibility_usage_summary">
         <item quantity="other">%1$d apps har fuld adgang til din enhed</item>
@@ -144,8 +144,12 @@
         <item quantity="other">%d tilgængelige enheder</item>
         <item quantity="one">%d tilgængelig enhed</item>
     </plurals>
+    <plurals name="clean_time">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
     <plurals name="color_game_led_freq_entries">
-        <item quantity="other">Hvert %d sekund</item>
+        <item quantity="other">Hvert %d. sekund</item>
         <item quantity="one">Hvert %d sekund</item>
     </plurals>
     <plurals name="connected_devices_number">
@@ -237,12 +241,12 @@
         <item quantity="one">Lige nu</item>
     </plurals>
     <plurals name="location_app_permission_summary_location_on">
-        <item quantity="other">%1$d ud af %2$d apps har adgang til din placering</item>
-        <item quantity="one">%1$d ud af %2$d app har adgang til din placering</item>
+        <item quantity="other">%1$d ud af %2$d apps har adgang til din lokation</item>
+        <item quantity="one">%1$d ud af %2$d app har adgang til din lokation</item>
     </plurals>
     <plurals name="location_settings_summary_location_on">
-        <item quantity="other">Til – %1$d apps har adgang til din placering</item>
-        <item quantity="one">Til – %1$d app har adgang til din placering</item>
+        <item quantity="other">Til – %1$d apps har adgang til din lokation</item>
+        <item quantity="one">Til – %1$d app har adgang til din lokation</item>
     </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Skal indeholde mindst %d bogstaver</item>
@@ -311,6 +315,10 @@
     <plurals name="manage_trust_agents_summary_on">
         <item quantity="other">%d aktive trust agents</item>
         <item quantity="one">%d aktiv trust agent</item>
+    </plurals>
+    <plurals name="max_number_of_processes">
+        <item quantity="other">Højst %d processer</item>
+        <item quantity="one">Højst %d proces</item>
     </plurals>
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">%1$d apps har brugt hukommelse inden for de sidste %2$s</item>
@@ -453,7 +461,7 @@
         <item quantity="one">%1$d gemt høreapparat</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">Du er %1$d skridt fra at åbne enhedsoplysninger.</item>
+        <item quantity="other">"You're %1$d steps away from opening device info."</item>
         <item quantity="one">Du er %1$d skridt fra at åbne enhedsoplysninger.</item>
     </plurals>
     <plurals name="show_rep_countdown">
@@ -468,22 +476,6 @@
         <item quantity="other">Tillad eller fjern certifikater</item>
         <item quantity="one">Tillad eller fjern certifikat</item>
     </plurals>
-    <plurals name="ssl_ca_cert_info_message">
-        <item quantity="other">"%s har installeret certifikatmyndigheder for din arbejdsprofil, hvilket giver dem mulighed for at overvåge aktivitet på dit arbejdsnetværk, herunder e-mails, apps og sikre websites.
-
-Kontakt din administrator for at få flere oplysninger om disse certifikater."</item>
-        <item quantity="one">"%s har installeret en certifikatmyndighed for din arbejdsprofil, hvilket giver dem mulighed for at overvåge aktivitet på dit arbejdsnetværk, herunder e-mails, apps og sikre websites.
-
-Kontakt din administrator for at få flere oplysninger om dette certifikat."</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_info_message_device_owner">
-        <item quantity="other">"%s har installeret certifikatmyndigheder på din enhed, hvilket giver dem mulighed for at overvåge netværksaktivitet på din enhed, herunder e-mails, apps og sikre websites.
-
-Kontakt din administrator for at få flere oplysninger om disse certifikater."</item>
-        <item quantity="one">"%s har installeret en certifikatmyndighed på din enhed, hvilket giver dem mulighed for at overvåge netværksaktivitet på din enhed, herunder e-mails, apps og sikre websites.
-
-Kontakt din administrator for at få flere oplysninger om dette certifikat."</item>
-    </plurals>
     <plurals name="ssl_ca_cert_settings_button">
         <item quantity="other">Tjek certifikater</item>
         <item quantity="one">Tjek certifikat</item>
@@ -495,6 +487,26 @@ Kontakt din administrator for at få flere oplysninger om dette certifikat."</it
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%d apps kan vise notifikationer</item>
         <item quantity="one">%d app kan vise notifikationer</item>
+    </plurals>
+    <plurals name="string_after_int_minute">
+        <item quantity="other">Efter %d minutter</item>
+        <item quantity="one">Efter %d minut</item>
+    </plurals>
+    <plurals name="string_bits_per_sample">
+        <item quantity="other">%d bits/prøve</item>
+        <item quantity="one">%d bit/prøve</item>
+    </plurals>
+    <plurals name="string_int_hour">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="string_int_minute">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="string_int_second">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary">
         <item quantity="other">%1$d andre forslag</item>

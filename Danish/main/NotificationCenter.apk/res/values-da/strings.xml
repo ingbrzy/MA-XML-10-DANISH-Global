@@ -44,6 +44,8 @@
     <string name="date_picker_lunar">Kinesisk traditionel kalender</string>
     <string name="date_time_picker_dialog_title">Indstil dato og tid</string>
     <string name="default_list_type">Sortér efter modtaget tid</string>
+    <string name="disable_description_content">Notifikationer er en system-app. Hvis du deaktiverer den, kan du ikke administrere app-meddelelser. Deaktivere alligevel?</string>
+    <string name="disable_description_title">Deaktiver system-app?</string>
     <string name="disable_float_notification">Flydende notifikationer er ikke tilladt</string>
     <string name="disable_lockscreen_notification">Låseskærmsnotifikationer er ikke tilladt</string>
     <string name="disable_show_badge_notification">Notifikationsbadges er ikke tilladt</string>
@@ -233,6 +235,7 @@
     <string name="settings_guide_title">Brug for andre indstillinger?</string>
     <string name="show_badge_notifications">Notifikationsbadges</string>
     <string name="show_badge_notifications_short">Skilte</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Flydende notifikationer er ikke tilladt</string>

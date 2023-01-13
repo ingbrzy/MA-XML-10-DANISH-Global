@@ -70,8 +70,8 @@
     <string name="aqi_alert_channel_name">AQI-varser</string>
     <string name="aqi_data_source">Drevet af Colorful Clouds</string>
     <string name="aqi_desc">Luftkvalitetsindeks</string>
-    <string name="aqi_detail_24_hours">24-timers prognose</string>
-    <string name="aqi_detail_5_days">5-dages prognose</string>
+    <string name="aqi_detail_24_hours">%d-timers prognose</string>
+    <string name="aqi_detail_5_days">%d-dags prognose</string>
     <string name="aqi_detail_co_unit">Enhed: mg/m³</string>
     <string name="aqi_detail_title">Luftkvalitetsindeks</string>
     <string name="aqi_detail_unit">Enhed: μg/m³</string>
@@ -163,6 +163,7 @@
     <string name="dynamic_weather">Vejr</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_city">Administrer byer</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Opdaterer…</string>
     <string name="empty_view_net_unavailable">Kunne ikke oprette forbindelse til netværket</string>
     <string name="empty_view_refresh">Prøv igen</string>
@@ -272,6 +273,7 @@
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">dd.MM</string>
     <string name="index_item_experience_now">Installer nu</string>
     <string name="indices_title_chance_of_rain">Mulighed for regn</string>
@@ -283,15 +285,16 @@
     <string name="indices_wind_direction_north">N</string>
     <string name="indices_wind_direction_south">S</string>
     <string name="indices_wind_direction_west">V</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV-indeks</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Slå placeringstjenester til</string>
     <string name="location_tag">Find</string>
     <string name="manager_city_option_add_home">Føj til startsiden</string>
     <string name="manager_city_option_view_on_home">Se på startsiden</string>
     <string name="midnight">Nat</string>
     <string name="minute_rain">Nedbørsprognose</string>
-    <string name="minute_rain_after_an_hour">Om 1 time</string>
-    <string name="minute_rain_after_two_hour">Om 2 timer</string>
     <string name="minute_rain_feedback_subtitle">Fortæl os, hvordan vejret er.</string>
     <string name="minute_rain_feedback_title">Vejroplysningerne ser forkerte ud.</string>
     <string name="minute_rain_now">Nu</string>
@@ -364,7 +367,6 @@
     <string name="morning">Morgen</string>
     <string name="network_unavailable">Kan ikke oprette forbindelse til netværket.</string>
     <string name="night">Aften</string>
-    <string name="night_not_disturb_settings_summary">Bloker alarmer mellem kl. 23:00 og 7:00</string>
     <string name="night_not_disturb_settings_title">Forstyr ikke om natten</string>
     <string name="no_data">Ingen data</string>
     <string name="no_internet_message">Din enhed skal oprette forbindelse til netværket, før du kan tilbagetrække dit samtykke. Kontroller dine netværksindstillinger, og prøv igen.</string>
@@ -445,9 +447,10 @@
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI Vejr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke tage skærmbillede</string>
-    <string name="shortcut_short_label_24_hour_forecast">24-timers prognose</string>
+    <string name="shortcut_short_label_24_hour_forecast">%d-timers prognose</string>
     <string name="shortcut_short_label_recent_forecast">Tjek vejrudsigten</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
@@ -564,7 +567,7 @@
     <string name="unit">Enheder</string>
     <string name="unit_temperature">Temperaturenheder</string>
     <string name="unit_wind">Vindhastighedsenheder</string>
-    <string name="update_night_setting_summary_text">Opdater vejroplysninger mellem kl. 23.00 og 07.00</string>
+    <string name="update_night_setting_summary_text">Opdater vejroplysninger mellem kl. %1$s og %2$s</string>
     <string name="update_night_setting_title_text">Opdater automatisk om natten</string>
     <string name="update_notification_info">Opdaterer data i baggrunden…</string>
     <string name="updated_a_moment_ago">Opdateret for et øjeblik siden</string>
@@ -575,10 +578,8 @@
     <string name="video_banner_weather_forecast">Vejrudsigt</string>
     <string name="video_banner_weather_update">Seneste vejrudsigter</string>
     <string name="view_forecast_item_yesterday">I går</string>
-    <string name="view_indexes_item_day_after_tommorrow">Om 2 dage</string>
     <string name="view_indexes_item_today">I dag</string>
     <string name="view_indexes_item_tommorrow">I morgen</string>
-    <string name="warning_weather_day_and_night_settings_summary">Modtag daglige opsummeringer, der indeholder oplysninger om vejret kl. 7:00 og 19:00</string>
     <string name="warning_weather_day_and_night_settings_title">Daglige opsummeringer</string>
     <string name="weather_alert_channel_name">Advarsler</string>
     <string name="weather_aqi_full_air_quality_forcast">Fuld prognose for luftkvalitet</string>
@@ -593,6 +594,7 @@
     <string name="wednesday_shortest">Ons</string>
     <string name="welcome_app_title">Velkommen til Vejret!</string>
     <string name="wind_direction_no_data">Vind</string>
+    <string name="wind_power">%d</string>
     <string name="wind_unit">%1$skm/t</string>
     <string name="xiaomi_weather_description_content">Vejr er en systemapp. Du vil ikke kunne se vejrinformationer eller bruge relaterede widgets, efter du har afinstalleret appen.</string>
     <string name="xiaomi_weather_description_content_remove">Vejr er en systemapp. Du vil ikke kunne se vejrinformationer eller bruge relaterede widgets, efter du har fjernet startskærmsgenvejen</string>

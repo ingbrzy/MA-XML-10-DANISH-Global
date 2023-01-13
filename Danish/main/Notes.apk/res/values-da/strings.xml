@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="access_denied_info">For mange forsøg. Vent et øjeblik eller to og prøv så igen.</string>
+    <string name="access_photos_and_videos">Få adgang til fotos og videoer</string>
     <string name="action_collapse">Skjul</string>
     <string name="action_expand">Vis mere</string>
     <string name="action_folder_description">Se mapper</string>
@@ -41,7 +42,7 @@
     <string name="actionbar_button_up_description">Tilbage</string>
     <string name="actionbar_close_description">Luk</string>
     <string name="actionbar_home_description">Tilbage</string>
-    <string name="add_account_desc">Synkronisér dine noter med din Mi-konto?</string>
+    <string name="add_account_desc">Synkronisér dine noter med din Xiaomi-konto?</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="alarm_bar_title">Påmindelse</string>
     <string name="alert_action_edit_anyway">Fortsæt redigering</string>
@@ -61,6 +62,9 @@
     <string name="app_name">Noter</string>
     <string name="app_notification_info">Noter arbejder i baggrunden</string>
     <string name="app_widget">Noter</string>
+    <string name="app_widget_name_create_note">Opret noter</string>
+    <string name="app_widget_name_create_todo">Opret opgaver</string>
+    <string name="app_widget_name_fast_entry">Genveje</string>
     <string name="app_widget_name_new">Noter</string>
     <string name="application_icon">App-ikon</string>
     <string name="audio_btn_mode_meeting">Møde</string>
@@ -193,7 +197,7 @@
     <string name="empty_folder_import_notes">Importér noter</string>
     <string name="empty_folder_no_notes">Ingen noter her</string>
     <string name="enable_sync">Synkroniser</string>
-    <string name="enable_sync_desc">Synkronisér dine noter med din Mi-konto (%1$s)?</string>
+    <string name="enable_sync_desc">Synkronisér dine noter med din Xiaomi-konto (%1$s)?</string>
     <string name="eras_ad">e.v.t.</string>
     <string name="eras_bc">f.v.t.</string>
     <string name="error_contact_not_exist">Kontaktperson findes ikke</string>
@@ -498,6 +502,7 @@
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -532,6 +537,7 @@
     <string name="new_audio_create_guide_tip">Tryk og hold for at oprette en stemmenote</string>
     <string name="new_audio_create_talkback_des">Tryk for at oprette en tekstnote. Tryk og hold for at oprette en stemmenote. Slip knappen for at stoppe optagelsen og oprette noten, eller stryg op for at annullere.</string>
     <string name="new_data_empty_note">Ingen elementer her endnu</string>
+    <string name="new_lite_audio_create_talkback_des">Tryk for at oprette en note</string>
     <string name="night">Aften</string>
     <string name="no_network">Kan ikke tilslutte til netværket</string>
     <string name="noon">Middag</string>
@@ -563,6 +569,7 @@
     <string name="note_write_hint">Begynd at skrive</string>
     <string name="notealert_enter">Åbn notat</string>
     <string name="notealert_ok">Afvis</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Noter er en systemapp. Du vil ikke længere kunne bruge denne app, når du har afinstalleret den.</string>
     <string name="notes_description_title">Afinstallér noter?</string>
     <string name="notification_content_add_todo_from_other_app">Du tilføjede en ny opgave. Tryk for at se.</string>
@@ -623,6 +630,8 @@
     <string name="permission_microphone_desc">Til optagelse af stemmenoter</string>
     <string name="permission_network_for_cloud_desc">For at synkronisere noter med clouden skal du tilslutte til internettet. Mobildata kan blive brugt til at synkronisere elementer. Tilslut nu?</string>
     <string name="permission_phone_state_desc">For at stoppe optagelse af stemmenoter under opkald</string>
+    <string name="permission_photos_desc">For at tilføje af billeder til noter</string>
+    <string name="permission_photos_desc_pad">For at tilføje af billeder til noter</string>
     <string name="permission_read_contact_desc">Associere noterne oprettet under opkald til kontakter</string>
     <string name="permission_storage_desc">For at gemme noter som billeder</string>
     <string name="permission_storage_desc_new_v12">For at tilføje billeder til noter og gemme noter som billeder</string>
@@ -725,6 +734,7 @@
     <string name="search_setting_description">Søg tekst i dine noter</string>
     <string name="select_account_prompt">Synkronisér noter</string>
     <string name="send">Send</string>
+    <string name="send_notifications_for_reminder">For at sende påmindelser</string>
     <string name="set_alarm_description">Indstil alarm</string>
     <string name="setting_big_screen_layout_columns">Sidebjælke</string>
     <string name="setting_big_screen_layout_flat">Flise</string>
@@ -868,6 +878,7 @@ Tillad at Notes læser dine kontakter og finder konti på enheden."</string>
 Tillad at Notes læser indholdet af dit SD-kort."</string>
     <string name="toast_refuse_to_use_phone_state">"Telefontilladelser er begrænsede.
 Tillad at Notes læser telefonstatus og -identitet."</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt">Giv denne app adgang til dine fotos for at kunne føje billeder til noter</string>
     <string name="toast_refuse_to_use_record_audio">"Mikrofontilladelser er begrænsede.
 Tillad at Notes optager lyd."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Tillad at Notes får adgang til hukommelsen for at kunne tilføje billeder til dine noter</string>
@@ -974,6 +985,9 @@ Tillad at Notes optager lyd."</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
+    <string name="widget_all_notes_name">Alle noter</string>
+    <string name="widget_all_todo_name">Alle opgaver</string>
+    <string name="widget_click_check">Tryk for at vise</string>
     <string name="widget_content_loading">Lige et øjeblik…</string>
     <string name="widget_create_select_size">Vælg størrelse</string>
     <string name="widget_empty_content">Tryk for at vælge et notat</string>
@@ -990,5 +1004,7 @@ Tillad at Notes optager lyd."</string>
     <string name="widget_size_item_super_big">Ekstra stor</string>
     <string name="widget_size_not_support">Ekstra store widgets understøttes ikke på denne enhed</string>
     <string name="widget_take_notes_title">Noter</string>
+    <string name="widget_total_notes">%1$d</string>
+    <string name="widget_total_todo">%1$d</string>
     <string name="yesterday">I går</string>
 </resources>

@@ -13,6 +13,7 @@
     <string name="android_ringtone_default_with_actual">Standard ringetone (%1$s)</string>
     <string name="android_ringtone_silent">Ingen</string>
     <string name="android_ringtone_unknown">Ukendt ringetone</string>
+    <string name="app_continuity_channel_name">Justeringer af appens layout</string>
     <string name="application_cannot_open_alipay_health_code">"Couldn't open Alipay health code"</string>
     <string name="application_cannot_open_alipay_payment_code">Kunne ikke åbne Alipay-betalingskode</string>
     <string name="application_cannot_open_alipay_scanner">Kunne ikke åbne Alipay-scanner</string>
@@ -80,8 +81,8 @@
     <string name="button_text_delete_timer">Afinstaller (%d)</string>
     <string name="button_text_next_step">Næste</string>
     <string name="button_text_next_step_timer">Næste (%d)</string>
-    <string name="call_record_or">eller</string>
-    <string name="caller_info_name_delimiter">eller</string>
+    <string name="call_record_or">" eller "</string>
+    <string name="caller_info_name_delimiter">" eller "</string>
     <string name="cancel_action">Annuller</string>
     <string name="candy">Slik</string>
     <string name="carousel">Karrusel</string>
@@ -111,6 +112,10 @@
     <string name="crystal">Krystal</string>
     <string name="cut">Klip</string>
     <string name="dance">Dans</string>
+    <string name="dark_mode_enable">Aktivér</string>
+    <string name="dark_mode_suggest_message">Du kan automatisk skifte til mørk tilstand ved solnedgang for at få en mere behagelig visningsoplevelse.</string>
+    <string name="dark_mode_suggest_title">Det bliver mørkt</string>
+    <string name="dark_mode_suggest_toast">Mørk tilstand vil fra nu af blive aktiveret automatisk ved solnedgang og blive deaktiveret ved solopgang</string>
     <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="daydream">Dagdrøm</string>
     <string name="default_device_name">Ukendt enhed</string>
@@ -130,6 +135,7 @@
     <string name="dewdrops">Morgendug</string>
     <string name="digitaluniverse">Digitalt univers (stereo)</string>
     <string name="disable_nfc">Deaktiverede NFC for at foretage trådløs opladning</string>
+    <string name="disable_nfc_haptic_reverse">Deaktiverede NFC og vibration for at foretage omvendt trådløs opladning</string>
     <string name="disable_nfc_reverse">Deaktiverede NFC for at foretage omvendt trådløs opladning</string>
     <string name="echo">Ekko</string>
     <string name="eighthours">8 timer</string>
@@ -137,6 +143,7 @@
     <string name="enable_livetalk_title">Slå genopfyldningspakke til</string>
     <string name="enable_midrop">Tænd</string>
     <string name="enable_nfc">Oplader ikke længere. NFC er aktiveret på ny.</string>
+    <string name="enable_nfc_haptic_reverse">Stoppede omvendt opladning. NFC og vibration er igen aktive.</string>
     <string name="enable_nfc_reverse">Foretager ikke længere omvendt opladning. NFC er aktiveret på ny.</string>
     <string name="expect">Begejstring</string>
     <string name="fadein">Fade ind</string>
@@ -154,6 +161,7 @@
     <string name="flip_screen_camera_tip">Vend enheden om for at bruge kameraet</string>
     <string name="flute">Fløjte</string>
     <string name="fm_record_smaple_prefix_miui">FM-optagelse</string>
+    <string name="fold_small_not_split">Opdelt skærm understøttes ikke på ekstern skærmen</string>
     <string name="force_exit_message">Tvunget til at lukke %1$s</string>
     <string name="force_exit_skip_message">Kan ikke lukke %1$s, da det kræves af systemet.</string>
     <string name="fourhours">2 timer</string>
@@ -163,6 +171,7 @@
     <string name="fp_nav_center_action_choose_dlg_title">Slå hurtigtryk til</string>
     <string name="freeform_exchange_tip">Slip for at åbne app</string>
     <string name="freeform_exchange_tip2">Træk til hjørnet for at annullere</string>
+    <string name="freeform_exchange_tip3">Åbn flydende vindue i fuldskærmstilstand</string>
     <string name="frenchchic">Chik</string>
     <string name="frequent_email">Ofte brugt e-mail</string>
     <string name="frequent_phrases">Hyppige sætninger</string>
@@ -204,6 +213,13 @@
     <string name="international_livetalk_enable">Bruger genopfyldningspakke til internationale opkald</string>
     <string name="key_btn_ok">OK</string>
     <string name="key_btn_space">Plads</string>
+    <string name="keyboard_connect_failed">Kunne ikke tilslutte tastaturet. Tilslut igen.</string>
+    <string name="keyboard_identity_reject_confirm">Forstået</string>
+    <string name="keyboard_identity_reject_message">Det ser ud til, at dit tastatur ikke er kompatibelt med denne enhed.</string>
+    <string name="keyboard_identity_transfer_error_message">Kunne ikke tilslutte tastaturet. Prøv igen.</string>
+    <string name="keyboard_upgrade_failed">Kunne ikke opdatere tastatur</string>
+    <string name="keyboard_upgrade_start">Opdaterer tastatur…</string>
+    <string name="keyboard_upgrade_success">Tastaturet er nu opdateret</string>
     <string name="kungfu">Kung fu</string>
     <string name="leisure">Fritid</string>
     <string name="livetalk_not_enable">Genopfyldningspakke slået fra</string>
@@ -235,6 +251,8 @@
     <string name="miremix">Mi (Remix)</string>
     <string name="miui_forbid_poweroff_when_device_locked">Kan ikke slukke, da enheden er låst.</string>
     <string name="miui_multiwindow_not_support_cvw">Kan ikke justere vinduestørrelse for denne app</string>
+    <string name="miui_multiwindow_not_support_small_window">%1$s understøtter ikke flydende vinduer</string>
+    <string name="miui_multiwindow_not_support_split">%1$s understøtter ikke opdelt skærm</string>
     <string name="miui_screen_ratio_hint">Skærmforholdsproblemer</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Vis ikke igen</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Gå til Indstillinger</string>
@@ -262,6 +280,7 @@
     <string name="oneplus_phone">OnePlus</string>
     <string name="open_close_tip_action">Forstået</string>
     <string name="open_close_tip_content">For at lukke det flydende vindue skal du trykke og holde på handlingsbjælken og efterfølgende skubbe op</string>
+    <string name="open_miui_optimization">Aktivér først MIUI-optimering</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
     <string name="orange">Orange</string>
@@ -309,8 +328,19 @@
     <string name="redmi_note_5">Redmi Note 5</string>
     <string name="redmi_note_7">Redmi Note 7</string>
     <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
+    <string name="relaunch_action">Genstart</string>
+    <string name="relaunch_dialog_alwaysUsePrompt">Husk mit valg</string>
+    <string name="relaunch_dialog_button_cancel">Annuller</string>
+    <string name="relaunch_dialog_button_confirm">Genstart</string>
+    <string name="relaunch_dialog_message">Denne apps størrelse kan kun ændres efter genstart. Alle ikke-gemte ændringer går tabt, hvis du genstarter appen nu. Genstart alligevel?</string>
+    <string name="relaunch_dialog_title">Genstart \"%s\" nu?</string>
+    <string name="relaunch_fold_notification_content">Denne app vises muligvis ikke korrekt på denne skærm. Genstart appen for at justere layoutene.</string>
+    <string name="relaunch_notification_title">Genstart \"%s\"</string>
+    <string name="relaunch_unfold_notification_content">Denne app vises muligvis ikke korrekt på denne skærm. Genstart appen for at justere layoutene.</string>
     <string name="remain">Tilbage: %s</string>
     <string name="replace">Erstat</string>
+    <string name="rescuepartyplus_config_reset_context">Nogle data kan være blevet slettet. Tryk for at se detaljer.</string>
+    <string name="rescuepartyplus_config_reset_title">Systemreparation fuldført</string>
     <string name="resolver_app_recommend_flag">Anbefalet</string>
     <string name="resolver_checkbox_always">Altid</string>
     <string name="resolver_checkbox_once">Én gang</string>
@@ -325,6 +355,11 @@
     <string name="rog_phone">ROG</string>
     <string name="samsung">Samsung</string>
     <string name="samsung_phone">Samsung-telefon</string>
+    <string name="sc_notification_warning_content">Hvis appen ikke vises korrekt, kan du gendanne dens standardvisning eller ændre præferencer for visning af appen under Indstillinger</string>
+    <string name="sc_notification_warning_restore">Gendan</string>
+    <string name="sc_notification_warning_settings">Indstillinger</string>
+    <string name="sc_notification_warning_title">Appen viser præferencer</string>
+    <string name="sc_relaunch_dialog_message">Denne app vises muligvis ikke korrekt på denne skærm. Genstart appen for at justere layoutene.</string>
     <string name="scanning_device_tips">Søger efter enheder i nærheden… Sørg for, at den anden enhed er i en tilstand, så den kan findes.</string>
     <string name="screen_button_notification_text">Slå dem til, tryk på Hjem-knappen og tænd/sluk-knappen samtidigt.</string>
     <string name="screen_button_notification_title">Navigationsknapperne er slået fra</string>
@@ -357,6 +392,7 @@
     <string name="set_password_action">Indstil kodeord</string>
     <string name="set_password_message">Indstil en adgangskode for at bruge denne funktion.</string>
     <string name="set_password_title">Indstil en ny adgangskode</string>
+    <string name="shortcut_no_support_on_pc_mode">Denne gestus understøttes ikke i PC-tilstand</string>
     <string name="shutdown_confirm_title">Sluk enheden nu?</string>
     <string name="shutdown_progress">Slukker…</string>
     <string name="silence_mode">Lydløs tilstand</string>
@@ -413,6 +449,8 @@
     <string name="status_bar_toggle_wifi_ap">Hotspot</string>
     <string name="stoneskimming_preview">Lette skridt</string>
     <string name="stop_operate_camera_frequently">Du åbner frontkameraet for ofte.</string>
+    <string name="stylus_pen_mask_screenshot">Tryk på skærmen for at tage et screenshot</string>
+    <string name="stylus_pen_mask_text">Tryk på skærmen for at begynde at skrive</string>
     <string name="subinfo_default_name">SIM %d</string>
     <string name="sunlight_notification_content">Justér automatisk lysstyrke til kraftigt omgivende lys</string>
     <string name="sunlight_notification_title">Aktivér tilstanden sollys</string>
@@ -441,6 +479,7 @@
     <string name="unknown_caller">Ukendt nummer</string>
     <string name="unrecognized_manufacture">Ukendt</string>
     <string name="unrecognized_model">Ukendt enhed</string>
+    <string name="unreplace_freeform_count_max">Kan ikke åbne flere flydende vinduer</string>
     <string name="user_authentication_failed">AUTENTIFIKATIONSFEJL -29-</string>
     <string name="user_switching_dialog_switch_into_kid_space">Skifter til børne-space…</string>
     <string name="user_switching_dialog_switch_out_kid_space">Forlader børne-space…</string>

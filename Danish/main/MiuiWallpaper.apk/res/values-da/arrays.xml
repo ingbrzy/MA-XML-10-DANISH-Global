@@ -30,9 +30,4 @@
         <item>Baggrund/Super-baggrunde</item>
         <item>Super-baggrunde;Baggrund;Dynamisk baggrund;3D-baggrund</item>
     </string-array>
-    <string-array name="settings_search_weather">
-        <item>Vejr</item>
-        <item>Baggrund/Superbaggrunde/Vejr</item>
-        <item>Vejr;Vejrudsigt;Superbaggrunde;Baggrund</item>
-    </string-array>
 </resources>

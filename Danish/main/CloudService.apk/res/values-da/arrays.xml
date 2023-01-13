@@ -68,7 +68,7 @@
         <item>Cloud;Sikkerhedskopier;Sikkerhedskopiering;Cloud-tjenester;Xiaomi Cloud;Startskærm;Layout;Apps;Indstillinger;Hyppighed for sikkerhedskopiering;Administrer sikkerhedskopier;Gendan</item>
     </string-array>
     <string-array name="settings_search_browser">
-        <item>Synkroniser browser med Xiaomi Cloud</item>
+        <item>Synkroniser Browser med Xiaomi Cloud</item>
         <item>Slå synkronisering til</item>
         <item>Browser;Cloud;Synkronisering;Cloud-tjenester;Xiaomi Cloud</item>
     </string-array>

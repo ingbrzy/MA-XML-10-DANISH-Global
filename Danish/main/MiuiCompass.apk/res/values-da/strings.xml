@@ -47,6 +47,7 @@
     <string name="calibrate_failed">Kalibrering af højde fejlede.</string>
     <string name="calibrate_failed_no_location">Kan ikke kalibrere.</string>
     <string name="calibrate_failed_timeout">Kan ikke tilslutte til serveren.</string>
+    <string name="calibrate_new_tip">Hæld din enhed noget for at rulle bolden rundt i cirklen</string>
     <string name="calibrate_rotate_again">Prøv igen</string>
     <string name="calibrate_success">Kalibreret</string>
     <string name="calibrate_tip">Hæld din enhed for at rulle bolden rundt i cirklen.</string>
@@ -228,7 +229,7 @@
     <string name="morning">Morgen</string>
     <string name="new_cta_app_purpose">se anvisninger og koordinater</string>
     <string name="new_cta_v2_app_purpose">Viser retninger, koordinater, atmosfærisk tryk og aktuel højde</string>
-    <string name="new_permission_camera_desc">For at kalibrere</string>
+    <string name="new_permission_camera_desc">For at vise forhåndsvisning af retninger live</string>
     <string name="new_permission_location_desc">For at vise koordinater</string>
     <string name="night">Aften</string>
     <string name="noon">Middag</string>

@@ -260,6 +260,7 @@ Indtast det telefonnummer, der er knyttet til dit nye SIM-kort, for at aktivere 
     <string name="search_menu_title">Søg</string>
     <string name="send">Send</string>
     <string name="sim_activate_failed">Kunne ikke aktivere tjeneste</string>
+    <string name="sim_activate_notificat_channel">Aktiveringsnotifikationer</string>
     <string name="sim_activate_prepare">Aktivér tjeneste</string>
     <string name="sim_activated_failed_msg">Kunne ikke aktivere tjeneste. Tryk for at prøve igen.</string>
     <string name="sim_unactivated_feature_title">\"%s\" blev ikke aktiveret</string>

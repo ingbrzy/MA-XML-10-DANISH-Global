@@ -44,6 +44,18 @@
         <item quantity="other">%s stjerner valgt</item>
         <item quantity="one">%s stjerne valgt</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spol %d sekunder frem</item>
+        <item quantity="one">Spol %d sekund frem</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spol %d sekunder tilbage</item>
+        <item quantity="one">Spol %d sekund tilbage</item>
+    </plurals>
+    <plurals name="fcmpts_dialog_one">
+        <item quantity="other">Se %s sekunder mere af en video for at optjene point og indløse belønninger</item>
+        <item quantity="one">Se %s sekund mere af en video for at optjene point og indløse belønninger</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Går tilbage til hjemmesiden om %1$d sekunder…</item>
         <item quantity="one">Går tilbage til hjemmesiden om %1$d sekund…</item>
@@ -51,6 +63,10 @@
     <plurals name="half_hour_ago">
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>
+    </plurals>
+    <plurals name="hint_local_guide_views">
+        <item quantity="other">%s visninger</item>
+        <item quantity="one">%s visning</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Om 1 time</item>
@@ -194,6 +210,10 @@ Kun tilgængelig i dag"</item>
         <item quantity="other">%d nye notifikationer</item>
         <item quantity="one">%d ny notifikation</item>
     </plurals>
+    <plurals name="music_playlist_title_count">
+        <item quantity="other">%d sange</item>
+        <item quantity="one">%d sang</item>
+    </plurals>
     <plurals name="new_incentive_toast_share_success">
         <item quantity="other">Delt. Du har optjent %d point. Få dem i Pointcenteret.</item>
         <item quantity="one">Delt. Du har optjent %d point. Få dem i Pointcenteret.</item>
@@ -277,6 +297,10 @@ Kun tilgængelig i dag"</item>
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">Tilføj op til %d bogmærker</item>
         <item quantity="one">Tilføj op til %d bogmærke</item>
+    </plurals>
+    <plurals name="v_confirm_hide_videos_new">
+        <item quantity="other">Skjul %d valgte filer?</item>
+        <item quantity="one">Skjul %d valgte fil?</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s synes godt om</item>

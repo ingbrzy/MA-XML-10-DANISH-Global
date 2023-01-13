@@ -36,6 +36,10 @@
         <item quantity="other">%d min siden</item>
         <item quantity="one">1 min siden</item>
     </plurals>
+    <plurals name="backup_action_long_time_not_backup_content">
+        <item quantity="other">Det ser ud til, at du ikke har taget backup af elementer i %s uger. Tag backups for at undgå at miste noget vigtigt.</item>
+        <item quantity="one">Det ser ud til, at du ikke har taget backup af elementer i %s uge. Tag backups for at undgå at miste noget vigtigt.</item>
+    </plurals>
     <plurals name="cloud_backup_detail_manage_summary">
         <item quantity="other">%1$s sikkerhedskopier (%2$s)</item>
         <item quantity="one">%1$s sikkerhedskopier (%2$s)</item>
@@ -72,16 +76,16 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minut siden</item>
     </plurals>
-    <plurals name="restore_app_order_installed">
-        <item quantity="other">%d apper på denne enhed</item>
-        <item quantity="one">%d app på denne enhed</item>
+    <plurals name="session_starting_app_count_backup_text">
+        <item quantity="other">Taget backup af %d apps</item>
+        <item quantity="one">Taget backup af %d app</item>
     </plurals>
-    <plurals name="restore_app_order_normal">
-        <item quantity="other">Almindelig prioritet: %d apps</item>
-        <item quantity="one">Almindelig prioritet: %d app</item>
+    <plurals name="session_starting_app_count_restore_text">
+        <item quantity="other">Gendannet %d apps</item>
+        <item quantity="one">Gendannet %d app</item>
     </plurals>
-    <plurals name="restore_app_order_prior">
-        <item quantity="other">Høj prioritet: %d apps</item>
-        <item quantity="one">Høj prioritet: %d app</item>
+    <plurals name="session_time_remain">
+        <item quantity="other">Ca. %s min tilbage</item>
+        <item quantity="one">Ca. %s min tilbage</item>
     </plurals>
 </resources>

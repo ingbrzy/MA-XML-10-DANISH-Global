@@ -7,7 +7,6 @@
 Hvis du ikke har anmodet om backup, skal du ikke tillade denne handling."</string>
     <string name="backup_confirm_title">Fuld backup</string>
     <string name="backup_enc_password_optional">Hvis du ønsker at kryptere sikkerhedsdataene, skal du indtaste en adgangskode nedenfor:</string>
-    <string name="backup_enc_password_required">Eftersom din enhed er krypteret, skal du kryptere din backup. Angiv en adgangskode nedenfor:</string>
     <string name="backup_enc_password_text">Angiv en adgangskode, som skal bruges til kryptering af alle dine sikkerhedsdata. Hvis dette felt er tomt, bruges din aktuelle adgangskode til backup:</string>
     <string name="current_password_text">Angiv din aktuelle adgangskode til backup nedenfor:</string>
     <string name="deny_backup_button_label">Undlad at sikkerhedskopiere</string>

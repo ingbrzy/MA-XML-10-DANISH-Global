@@ -215,6 +215,7 @@
     <string name="conn_of_function_safe">Netværksforbindelse til Sikkerhed</string>
     <string name="connecting">Opretter forbindelse…</string>
     <string name="copy">Kopiér</string>
+    <string name="copy_toast_msg">Linket er kopieret til udklipsholderen</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -301,6 +302,7 @@
     <string name="download">Download</string>
     <string name="downloading">Downloader</string>
     <string name="early_morning">Morgen</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tom</string>
     <string name="empty_content_no_privacy">Tom</string>
     <string name="empty_content_no_similar_image">Ingen fotos</string>
@@ -318,6 +320,15 @@
     <string name="eras_ad">e.v.t.</string>
     <string name="eras_bc">f.v.t.</string>
     <string name="evening">Eftermiddag</string>
+    <string name="exo_download_completed">Downloaden er udført</string>
+    <string name="exo_download_description">Download</string>
+    <string name="exo_download_downloading">Downloader</string>
+    <string name="exo_download_failed">Download mislykkedes</string>
+    <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_paused">Downloads er sat på pause</string>
+    <string name="exo_download_paused_for_network">Downloads venter på netværksforbindelse</string>
+    <string name="exo_download_paused_for_wifi">Downloads venter på Wi-Fi-netværk</string>
+    <string name="exo_download_removing">Fjerner downloads</string>
     <string name="expand_button_title">Avanceret</string>
     <string name="facebook_clean_exit_confirm_cancel">Fortsæt scanning</string>
     <string name="facebook_clean_exit_confirm_msg">Er ikke færdig med at scanne Facebook endnu. Stop scanning nu?</string>
@@ -328,6 +339,9 @@
     <string name="facebook_group_gif">"GIF'er"</string>
     <string name="facebook_group_image">Billeder</string>
     <string name="facebook_group_video">Videoer</string>
+    <string name="fallback_menu_item_copy_link">Kopiér link</string>
+    <string name="fallback_menu_item_open_in_browser">Åbn i browser</string>
+    <string name="fallback_menu_item_share_link">Del link</string>
     <string name="file">Filer</string>
     <string name="file_not_found">Fil ikke fundet</string>
     <string name="flow_rank_title">Dataforbrug</string>
@@ -477,6 +491,7 @@
     <string name="hints_garbage_cleanup_result_safe">Alt ser fint ud</string>
     <string name="hints_garbage_handle_item_content">%1$d elementer, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Tom</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Sjældent brugt</string>
     <string name="hints_installed_app_near">Brugt for nylig</string>
     <string name="hints_installed_app_never">Aldrig brugt</string>

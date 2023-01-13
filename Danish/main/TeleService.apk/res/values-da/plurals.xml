@@ -36,20 +36,6 @@
         <item quantity="other">%d min siden</item>
         <item quantity="one">1 min siden</item>
     </plurals>
-    <plurals name="alert_dialog_exit_ecm">
-        <item quantity="other">Telefonen vil være i tilstanden Nødopkald i %s minutter. Mens denne tilstand er aktiveret, kan du ikke bruge nogen apps, der kræver dataforbindelse. Vil du afslutte denne tilstand nu?</item>
-        <item quantity="one">Telefonen vil være i tilstanden Nødopkald i %s minutter. Mens denne tilstand er aktiveret, kan du ikke bruge nogen apps, der kræver dataforbindelse. Vil du afslutte denne tilstand nu?</item>
-    </plurals>
-    <plurals name="alert_dialog_exit_ecm_without_data_restriction_hint">
-        <item quantity="other">"Telefonen er i nødtilbagekaldstilstand i %s minutter.
-Vil du lukke nu?"</item>
-        <item quantity="one">"Telefonen er i nødtilbagekaldstilstand i %s minut.
-Vil du lukke nu?"</item>
-    </plurals>
-    <plurals name="alert_dialog_not_avaialble_in_ecm">
-        <item quantity="other">Den valgte handling er ikke tilgængelig i tilstanden Nødopkald. Telefonen vil være i denne tilstand i %s minutter. Vil du afslutte denne tilstand nu?</item>
-        <item quantity="one">Den valgte handling er ikke tilgængelig i tilstanden Nødopkald. Telefonen vil være i denne tilstand i %s minutter. Vil du afslutte denne tilstand nu?</item>
-    </plurals>
     <plurals name="auto_answer_summary_delay">
         <item quantity="other">forsinkelse: %d sekunder</item>
         <item quantity="one">forsinkelse: %d sekund</item>
@@ -102,10 +88,6 @@ Vil du lukke nu?"</item>
         <item quantity="other">%d emner valgt</item>
         <item quantity="one">%d emne valgt</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d nye notifikationer</item>
-        <item quantity="one">%d ny notifikation</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minut siden</item>
@@ -115,9 +97,5 @@ Vil du lukke nu?"</item>
 %d forsøg tilbage."</item>
         <item quantity="one">"
 %d forsøg tilbage."</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d enheder er tilsluttet</item>
-        <item quantity="one">%1$d enhed er tilsluttet</item>
     </plurals>
 </resources>

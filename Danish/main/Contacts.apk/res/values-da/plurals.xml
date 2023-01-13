@@ -168,6 +168,10 @@
         <item quantity="other">%d emner valgt</item>
         <item quantity="one">%d emne valgt</item>
     </plurals>
+    <plurals name="notification_missedCallsMsg">
+        <item quantity="other">%d ubesvarede opkald</item>
+        <item quantity="one">%d ubesvaret opkald</item>
+    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d valgt</item>
         <item quantity="one">%1$d valgt</item>

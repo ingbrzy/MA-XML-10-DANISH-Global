@@ -150,7 +150,7 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="four_note">Det tager omtrent 3 minutter at gennemføre testen.</string>
+    <string name="four_note">Det tager omtrent %d minutter at gennemføre testen.</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
@@ -270,6 +270,7 @@
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -307,7 +308,7 @@
     <string name="music_audio_effect_settings">Effektindstillinger</string>
     <string name="music_audio_visual_wake_lock">Hold skærmen tændt</string>
     <string name="music_audio_visual_wake_lock_summary">Sluk ikke skærmen, når visuelle effekter vises</string>
-    <string name="music_below_thirty_years">Op til 30 år</string>
+    <string name="music_below_thirty_years">Op til %d år gammel</string>
     <string name="music_customized_sound_summary">Tilpas volumen til din hørelse</string>
     <string name="music_customized_sound_title">Volumenjustering</string>
     <string name="music_delete">Slet</string>
@@ -404,10 +405,10 @@
     <string name="music_sound_num">Tilpassede faste indstillinger %s</string>
     <string name="music_sound_sample">Faste indstillinger for systemet</string>
     <string name="music_sure_to_delete_sound_msg">Slet valgte faste indstillinger nu?</string>
-    <string name="music_thirty_to_sixty_years">30-60 år</string>
+    <string name="music_thirty_to_sixty_years" formatted="false">%d-%d år gammel</string>
     <string name="music_title_dolby_control">Dolby Digital Plus</string>
     <string name="music_unsupport_effect_summary">USB-hovedtelefoner understøttes ikke</string>
-    <string name="music_upper_sixty_years">Mere end 60 år</string>
+    <string name="music_upper_sixty_years">Mere end %d år gammel</string>
     <string name="name">Navn</string>
     <string name="night">Aften</string>
     <string name="noon">Middag</string>
@@ -512,7 +513,8 @@
     <string name="sound_transmission_start">Start</string>
     <string name="sound_transmission_stop">Pause</string>
     <string name="sound_transmission_title">Trådløs mikrofon</string>
-    <string name="spatial_audio_summary">Justér fordybende lyd baseret på hovedbevægelse</string>
+    <string name="spatial_audio">Immersiv lyd</string>
+    <string name="spatial_audio_summary">Oplev immersion og rumfornemmelse, når lyden afspilles gennem øretelefoner</string>
     <string name="speaker_scenario_resume">Gendan originale effekter</string>
     <string name="start_test_sound">Begynd test</string>
     <string name="status_bar_notification_info_overflow">999+</string>

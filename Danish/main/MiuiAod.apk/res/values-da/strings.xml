@@ -259,6 +259,8 @@ dd.MM"</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_cancel">Annuller</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -285,6 +287,8 @@ dd.MM"</string>
     <string name="mtrl_picker_toggle_to_day_selection">Tryk for at gå til valg af dag</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Skift til input-tilstand for tekst</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tryk for at gå til valg af år</string>
+    <string name="mtrl_timepicker_cancel">Annuller</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Mit tema</string>
     <string name="night">Aften</string>
     <string name="noon">Middag</string>
@@ -323,6 +327,8 @@ dd.MM"</string>
     <string name="select_notification_animation_style">Vælg specialeffekter</string>
     <string name="select_notification_notify_style">Vælg notifikationseffekt</string>
     <string name="send">Send</string>
+    <string name="settings_view_btn_check_off">Deaktiveret</string>
+    <string name="settings_view_btn_check_on">Aktiveret</string>
     <string name="share">Del</string>
     <string name="share_to_community">Del med Xiaomi Community</string>
     <string name="show_battery">Vis batteristatus</string>
@@ -337,6 +343,7 @@ dd.MM"</string>
 vidunderligt er lige om hjørnet"</string>
     <string name="standard_clock_panel">Standard</string>
     <string name="standard_style">Standard</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Skridttæller leveres af Xiaomi Health. Acceptér Xiaomi Healths vilkår og betingelser for at fortsætte.</string>
     <string name="step_component_info_desc">Skridttallet vil forvandle sig til et trofæ, når du har nået dit mål. Skridttæller leveres af Xiaomi Health.</string>
     <string name="step_component_info_tip">Skridttæller leveres af Xiaomi Health. Installer eller opdatér Xiaomi Health og acceptér tilhørende vilkår og betingelser for at fortsætte.</string>

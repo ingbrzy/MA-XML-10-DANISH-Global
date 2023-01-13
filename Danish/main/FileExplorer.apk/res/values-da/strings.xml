@@ -29,8 +29,10 @@
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="access_limit">Adgangsbegrænsninger</string>
     <string name="access_tips">Kan ikke få adgangs til elementer. Prøv at bruge Android Storage Access Framework i stedet for.</string>
+    <string name="action_cache_to_local">Download til enhed</string>
     <string name="action_mode_deselect_all">Vælg alt fra</string>
     <string name="action_mode_select_all">Vælg alt</string>
+    <string name="action_release_file_cache">Ryd cache</string>
     <string name="actionbar_button_up_description">Tilbage</string>
     <string name="ad_download">Download</string>
     <string name="add_private">Gør filer private</string>
@@ -66,6 +68,16 @@
     <string name="can_not_send_with_too_many">Kan ikke sende så mange samtidige elementer</string>
     <string name="cancel">Annuller</string>
     <string name="cancel_error">Kunne ikke fjerne. Prøv igen.</string>
+    <string name="cancel_mi_drive">Annuller Mi Drive-tjenester</string>
+    <string name="cancel_mi_drive_alert_description" formatted="false">Ryd alle elementer fra Mi Drive for at kunne annullrere tjenester. Følg disse trin for at rydde elementer:&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. På Mi Drive-startsiden skal du trykke og holde et element for at få knappen Vælg alle til at blive vist. Brug denne knap til at vælge op til 200 filer ad gangen og slette dem.&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. Herefter skal du rydde dine nyligt slettede elementer.</string>
+    <string name="cancel_mi_drive_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Vi anbefaler, at du tager backup af dine elementer, før du sletter dem. For at gøre det skal du besøge i.mi.com, klikke på Mi Drive og downloade dine elementer til en computer.&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Bemærk, at nyligt slettede elementer ikke kan gendannes, efter du har slettet dem.</string>
+    <string name="cancel_mi_drive_confirm_button">Annuller tjenester</string>
+    <string name="cancel_mi_drive_confirm_description">Hvis du fortsætter, annullerer du Mi Drive-tjenester. Vi vil ophøre med at indsamle dine personlige oplysninger, og de personlige oplysninger, der allerede er indsamlet og opbevaret, vil blive slettet indenfor den specifikke periode i overensstemmelse med gældende love og bestemmelser, medmindre andet kræves.</string>
+    <string name="cancel_mi_drive_confirm_hint">Annullering af Mi Drive-tjenester vil ikke påvirke din brug af andre Xiaomi-produkter og -tjenester. Hvis du vil slette din Xiaomi-konto, kan du gøre det &lt;font color=#0097FF>&lt;a href=%1$s>her&lt;/a>&lt;/font>.</string>
+    <string name="cancel_mi_drive_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>Følgende elementer vil blive slettet permanent efter annullering af tjenester:&lt;/font>&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Alle elementer på Mi Drive, herunder, men ikke begrænset til, dokumenter, private filer og slettede elementer.&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Enhedstilladelser, indstillinger og andet cachelagret indhold.&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Mi Drives upload- og downloadhistorik.</string>
+    <string name="cancel_mi_drive_privacy_revoked_retry">Aktivér Mi Drive, og prøv igen</string>
+    <string name="cancel_mi_drive_success">Tjenester er nu annulleret</string>
+    <string name="cancel_mi_drive_title">Annuller tjenester</string>
     <string name="cancel_msg">Fravælg alle?</string>
     <string name="cancel_operation">Annullér handling</string>
     <string name="cancel_success">Flyttede filer til %s</string>
@@ -75,6 +87,7 @@
     <string name="category_all">Alle filer</string>
     <string name="category_apk">"APK'er"</string>
     <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_cloud_drive">Mi Drive</string>
     <string name="category_document">Dokumenter</string>
     <string name="category_download">Downloads</string>
     <string name="category_editor_mode">Redigér</string>
@@ -110,6 +123,26 @@
     <string name="click_to_switch_volume_pad">Tryk for at skifte mellem intern lagerplads og SD-kort</string>
     <string name="clock_in">Tjekker ind…</string>
     <string name="close">Luk</string>
+    <string name="cloud_copy_to_local_title">Gem i…</string>
+    <string name="cloud_drive_files">Mi Drive-filer</string>
+    <string name="cloud_drive_not_login_summary">Ikke logget ind</string>
+    <string name="cloud_drive_settings">Mi Drive-indstillinger</string>
+    <string name="cloud_empty_hint_text">"Intet her endnu.
+Prøv at flytte filer fra din enhed til Mi Drive."</string>
+    <string name="cloud_guide_summary_text">Synkronisér automatisk dine elementer med alle dine enheder</string>
+    <string name="cloud_guide_title_text">Synkronisér med Mi Drive</string>
+    <string name="cloud_permission_storage_desc">For at gemme fotos og dokumenter på din enhed</string>
+    <string name="cloud_recycle_bin">Senest slettede elementer</string>
+    <string name="cloud_space_full">Cloudlageret er fuldt. Opgradér dit lagerabonnement for at kunne uploade flere elementer.</string>
+    <string name="cloud_transfer_download_error">Kunne ikke downloade</string>
+    <string name="cloud_transfer_download_loading">Downloader</string>
+    <string name="cloud_transfer_downloading">Downloader</string>
+    <string name="cloud_transfer_pause">På pause</string>
+    <string name="cloud_transfer_upload_error">Kunne ikke uploade</string>
+    <string name="cloud_transfer_uploading">Uploader</string>
+    <string name="cloud_transfer_wait_download">Venter på at downloade</string>
+    <string name="cloud_transfer_wait_network">Venter på internettet</string>
+    <string name="cloud_transfer_wait_upload">Venter på at uploade</string>
     <string name="compress_fail">Kunne ikke komprimere. En fil med samme navn findes allerede.</string>
     <string name="compress_fail_unknown">Kunne ikke komprimere. Lagerplads opbrugt eller en ukendt fejl opstod.</string>
     <string name="compress_message">Komprimér til…</string>
@@ -124,6 +157,10 @@
     <string name="copy_to">Kopiér til…</string>
     <string name="create_folder">Opret</string>
     <string name="create_shortcut_success">Genvej er tilføjet</string>
+    <string name="cta_function_account_operation">For hurtigt at logge ind på din Xiaomi-konto</string>
+    <string name="data_consume_dialog_message">Du bruger i øjeblikket mobildata. Hvis du fortsætter, vil det forbruge %s data.</string>
+    <string name="data_consume_dialog_title">Brug mobildata?</string>
+    <string name="data_consume_dialog_upload_title">Upload ved hjælp af mobildata</string>
     <string name="data_consumption_cancel">Acceptér ikke</string>
     <string name="data_consumption_checkbox_hint">Vis ikke igen</string>
     <string name="data_consumption_confirm">OK</string>
@@ -157,7 +194,14 @@
     <string name="delete_folder">Slet nu?</string>
     <string name="des_hide_pwd">Skjul adgangskode</string>
     <string name="des_show_pwd">Vis adgangskode</string>
+    <string name="dialog_account_permission_denied_msg">Giv denne app adgang til enhedskonti for at kunne logge ind på Mi Drive. Du kan give denne tilladelse i Indstillinger.</string>
+    <string name="dialog_account_permission_denied_negative_button">Annuller</string>
+    <string name="dialog_account_permission_denied_positive_button">Indstillinger</string>
+    <string name="dialog_account_permission_denied_title">Tilladelser påkrævet</string>
     <string name="dialog_keep_choice">Husk mit valg</string>
+    <string name="dialog_open_mi_drive_button">Forstået</string>
+    <string name="dialog_open_mi_drive_err">Genstart Mi Drive, og prøv igen.</string>
+    <string name="dialog_open_mi_drive_title">Serverfejl</string>
     <string name="dialog_select_type">Vælg type</string>
     <string name="dialog_type_audio">Lyd</string>
     <string name="dialog_type_image">Billeder</string>
@@ -199,6 +243,7 @@
     <string name="error_not_support">Ikke understøttet</string>
     <string name="error_open_file_failed_no_app_found">Kunne ikke finde apps til at åbne denne fil med.</string>
     <string name="evening">Eftermiddag</string>
+    <string name="exception_net_not_available">Kontrollér dine netværksindstillinger, og prøv igen</string>
     <string name="exit">Luk</string>
     <string name="expand_button_title">Avanceret</string>
     <string name="extended_storage_file_can_not_open">Kan ikke åbne filen. Kopiér den til internt lager.</string>
@@ -211,6 +256,7 @@
     <string name="favorite_photo">Fotos</string>
     <string name="favorite_ringtone">Ringetoner</string>
     <string name="favorite_screen_cap">Screenshots</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Læsbar: </string>
     <string name="file_info_canwrite">Skrivbar: </string>
     <string name="file_info_ishidden">Skjult: </string>
@@ -280,7 +326,7 @@
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
     <string name="friday_shortest">Fre</string>
-    <string name="ftp_account_req_notice">Username and password are case-sensitive and must contain %1$d-%2$d characters. You can combine English letters, special symbols, and numbers.</string>
+    <string name="ftp_account_req_notice">Brugernavn og adgangskode skelner imellem store og små bogstaver og skal indeholde %1$d-%2$d tegn. Du kan kombinere engelske bogstaver, specialtegn og tal.</string>
     <string name="ftp_anonymous_login">Log ind anonymt</string>
     <string name="ftp_anonymous_warning_msg">Anonymiseringsfunktioner kan udgøre sikkerhedsrisici? Brug funktionen alligevel?</string>
     <string name="ftp_anonymous_warning_title">Bemærk</string>
@@ -307,6 +353,7 @@
     <string name="guide_three_title">Omarrangér genveje</string>
     <string name="guide_two_summary">Gallerifotos og screenshots er som standard skjult.</string>
     <string name="guide_two_title">Se kun vigtige elementer</string>
+    <string name="h5_ppt_to_pdf_introduce_title">"Om oprettelse af PDF'er"</string>
     <string name="hint_switch_to_grid_mode">Skiftede til gittervisning</string>
     <string name="hint_switch_to_list_mode">Skiftede til listevisning</string>
     <string name="home_action_up">Tilbage</string>
@@ -315,10 +362,14 @@
     <string name="homepage_tab_file_view_phone">Lager</string>
     <string name="homepage_tab_recent">Nylige</string>
     <string name="hot_sticker">Klistermærker</string>
+    <string name="hybrid_provider">Leveret af %1$s</string>
     <string name="if_cancel">Annullér denne handling?</string>
     <string name="image_loading_error">Kunne ikke åbne billede</string>
     <string name="imm_str_storage">Lager</string>
     <string name="import_files_from_old_phones">Importér fra gammel enhed</string>
+    <string name="install_media_editor_button_text">Download</string>
+    <string name="install_media_editor_message">"Du skal først downloade plug-in'et for at kunne redigere elementer. Download nu?"</string>
+    <string name="install_media_editor_title">Plug-in påkrævet</string>
     <string name="instruction">Indtast følgende adresse i FTP-klienten: </string>
     <string name="instruction_pre_pad">Administrer filer på denne enhed ved hjælp af en computer</string>
     <string name="instruction_pre_phone">Administrer filer på denne enhed ved hjælp af en computer</string>
@@ -343,6 +394,7 @@
     <string name="make_private_msg_1">Gør denne fil privat?</string>
     <string name="make_private_msg_2">Gør disse filer private?</string>
     <string name="make_private_msg_3">Alle filer i denne mappe vil blive gjort private.</string>
+    <string name="manage_cloud_space">Administrer cloudlager</string>
     <string name="menu_item_cleanup">Ryd op</string>
     <string name="menu_item_ftp">Tilslut til computer</string>
     <string name="menu_item_router">Router</string>
@@ -359,6 +411,12 @@
     <string name="mi_router_label">Router</string>
     <string name="mi_share">Mi Share</string>
     <string name="midnight">Nat</string>
+    <string name="midrive_display_related">Skærm</string>
+    <string name="midrive_get_cloudvideo_file">Lige et øjeblik…</string>
+    <string name="midrive_hide_recent_cloud_files">Vis ikke Mi Drive-filer i Seneste</string>
+    <string name="midrive_not_found">Kunne ikke få adgang til dette element</string>
+    <string name="midrive_overseas_unavailable">Denne funktion er kun tilgængelig på det kinesiske fastland.</string>
+    <string name="midrive_reset_privacy_and_check_availability_retry">Mi Drive kunne ikke aktiveres. Prøv igen.</string>
     <string name="midriver_install_button_text">Installér</string>
     <string name="midriver_not_install_title">Mi Drive er afinstalleret</string>
     <string name="mirror_can_not_drag_mask">Træk for at bruge Mi Share</string>
@@ -464,6 +522,7 @@
     <string name="need_read_storage_permission">Filhåndtering kræver tilladelser til at få adgang til enhedens lager for at fungere normalt.</string>
     <string name="network_not_available">Kan ikke oprette forbindelse til netværket</string>
     <string name="new_folder_name">Ny mappe</string>
+    <string name="new_storage_info_detail">Ledig: %1$s | Total: %2$s</string>
     <string name="next">Næste</string>
     <string name="night">Aften</string>
     <string name="no">Nej</string>
@@ -472,6 +531,9 @@
     <string name="no_enough_storage_indication">Enhedens lagerplads er opbrugt.</string>
     <string name="no_enough_storage_title">Utilstrækkelig lagerplads</string>
     <string name="no_file">Tom</string>
+    <string name="no_network">Kan ikke tilslutte til netværket</string>
+    <string name="no_network_error_message">Kontrollér dine netværksindstillinger, og prøv igen.</string>
+    <string name="no_network_error_title">Kunne ikke tilslutte til netværket</string>
     <string name="no_permission">Giv de påkrævede tilladelser til at få adgang til denne funktion</string>
     <string name="no_wifi">Ingen Wi-Fi-netværk</string>
     <string name="noon">Middag</string>
@@ -481,16 +543,29 @@
     <string name="not_use">Ikke nu</string>
     <string name="notif_server_starting">Starter FTP-server…</string>
     <string name="notif_title">FTP-server kører</string>
+    <string name="notification_title_sync_result">Synkronisering fuldført</string>
+    <string name="notification_title_syncing">Synkroniserer…</string>
+    <string name="notification_title_syncing_with_count">Synkroniserer elementer. Resterende filer: %1$s</string>
     <string name="online_not_support">Kan ikke vise denne fil i øjeblikket.</string>
+    <string name="open_cloud_drive">Aktivér Mi Drive</string>
     <string name="open_or_close_wlan">Aktivér og deaktivér Wi-Fi</string>
     <string name="open_private_folder">Slip for at se private filer</string>
     <string name="operation_add_fav">Tilføjer til favoritter…</string>
+    <string name="operation_batch_failed_err">Denne handling kunne ikke fuldføres for flere filer.</string>
+    <string name="operation_cache_use_data">Download</string>
+    <string name="operation_cache_use_free_network">Vent på Wi-fi</string>
     <string name="operation_cancel">Annuller</string>
+    <string name="operation_cloud_copy_to_local">Gem i…</string>
     <string name="operation_compress">Komprimér</string>
     <string name="operation_compressing">Komprimerer…</string>
     <string name="operation_copy">Kopiér</string>
     <string name="operation_create_folder">Opret mappe</string>
     <string name="operation_create_folder_message">Angiv mappenavn</string>
+    <string name="operation_create_folder_name_conflict">Mappen kunne ikke oprettes. Der findes allerede en mappe med dette navn.</string>
+    <string name="operation_create_folder_name_illegal_char">Mappen kunne ikke oprettes. Mappenavnet indeholder ikke-understøttede tegn.</string>
+    <string name="operation_create_folder_network_not_available">Kunne ikke oprette mappe. Kontrollér dine netværksindstillinger, og prøv igen.</string>
+    <string name="operation_create_folder_not_support_for_overseas">Mappen kunne ikke oprettes. Funktionen er kun tilgængelig på det kinesiske fastland.</string>
+    <string name="operation_create_folder_other">Mappen kunne ikke oprettes</string>
     <string name="operation_decompressing">Udpakker…</string>
     <string name="operation_del_fav">Fjerner fra favoritter…</string>
     <string name="operation_delete">Slet</string>
@@ -498,28 +573,59 @@
     <string name="operation_delete_confirm_message_folder">"Alt mappeindhold slettes.
 "</string>
     <string name="operation_deleting">Sletter…</string>
+    <string name="operation_download">Download</string>
+    <string name="operation_download_error_no_space">Ikke nok lagerplads</string>
+    <string name="operation_download_error_other">Der opstod en systemfejl. Vent et minut eller to, og prøv så igen.</string>
+    <string name="operation_download_error_title">Kunne ikke downloade</string>
+    <string name="operation_editor">Redigér</string>
     <string name="operation_encrypt_summary">Kryptér filer i private mapper. Dekryptering af store filer kan tage længere tid end forventet.</string>
     <string name="operation_encrypt_title">Kryptér private filer</string>
     <string name="operation_favorite">Føj til favoritter</string>
+    <string name="operation_file_downloading_err">Denne handling kunne ikke fuldføres. Vent, til denne fil er downloadet, og prøv igen.</string>
+    <string name="operation_file_exist_err">Denne handling kunne ikke fuldføres. Denne fil findes allerede.</string>
+    <string name="operation_file_not_found_err">Denne handling kunne ikke fuldføres. Den originale fil kunne ikke findes.</string>
+    <string name="operation_gallary">Se i Galleri</string>
     <string name="operation_hide_sys">Vis ikke skjulte filer</string>
     <string name="operation_info">Oplysninger</string>
     <string name="operation_move">Flyt</string>
     <string name="operation_moving">Flytter…</string>
     <string name="operation_new_folder">Opret mappe</string>
+    <string name="operation_no_network_err">Kunne ikke tilslutte til netværket. Kontrollér dine netværksindstillinger, og prøv igen.</string>
+    <string name="operation_not_support_directory_rename">Denne mappe kan ikke omdøbes.</string>
+    <string name="operation_not_support_err">Denne handling kunne ikke fuldføres.</string>
     <string name="operation_open">Åbn</string>
     <string name="operation_open_mode">Åbn med</string>
     <string name="operation_other_apps">Åben i en anden app</string>
     <string name="operation_paste">Indsæt</string>
     <string name="operation_paste_to_folder">Indsæt i mappe</string>
     <string name="operation_pasting">Kopierer…</string>
+    <string name="operation_pic_to_pdf">Opret PDF</string>
     <string name="operation_refresh">Opdatér</string>
     <string name="operation_rename">Omdøb</string>
+    <string name="operation_rename_err">Kunne ikke omdøbe</string>
     <string name="operation_rename_message">Angiv nyt navn</string>
+    <string name="operation_retry">Prøv igen</string>
     <string name="operation_send">Send</string>
     <string name="operation_send_to_pc">Flyt til computer</string>
+    <string name="operation_set_pic_wallpaper">Vælg som baggrundsbillede</string>
     <string name="operation_show_privacy_policy">Vis Privatlivspolitik</string>
     <string name="operation_show_sys">Vis skjulte filer</string>
+    <string name="operation_sync_cloud_data_error">Der opstod en serverfejl. Vent et minut eller to, og prøv så igen.</string>
     <string name="operation_unfavorite">Fjern fra favoritter</string>
+    <string name="operation_unknown_err">Denne handling kunne ikke fuldføres.</string>
+    <string name="operation_upload_buy_space">Opgradér</string>
+    <string name="operation_upload_delete">Slet</string>
+    <string name="operation_upload_err_file_not_found">Det ser ud til, at denne fil ikke findes.</string>
+    <string name="operation_upload_err_file_size_zero">Kan ikke uploade tomme filer.</string>
+    <string name="operation_upload_err_full_space">Cloudlageret er fuldt. Opgradér dit lagerabonnement for at kunne uploade flere elementer.</string>
+    <string name="operation_upload_err_illegal_char">Filnavnet indeholder ikke-understøttede tegn.</string>
+    <string name="operation_upload_err_larger_than_4g">Filer, der er større end %d GB, kan ikke uploades.</string>
+    <string name="operation_upload_err_not_support_overseas">Kun brugere på det kinesiske fastland kan uploade elementer på nuværende tidspunkt.</string>
+    <string name="operation_upload_err_other">Der opstod en systemfejl. Vent et minut eller to, og prøv så igen.</string>
+    <string name="operation_upload_error_title">Kunne ikke uploade</string>
+    <string name="operation_upload_retry">Prøv igen</string>
+    <string name="operation_upload_save_to_local">Gem i…</string>
+    <string name="operation_upload_use_data">Upload</string>
     <string name="otg_data_transfer_success">Overført</string>
     <string name="otg_data_transferring">Overfører filer… Frakobl ikke eksternt lager.</string>
     <string name="otg_file_security_note">OGTSecurity</string>
@@ -529,9 +635,16 @@
     <string name="partial_encrypt_success">Nogle filer kunne ikke gøres private. Prøv igen.</string>
     <string name="path_name_email">E-mail</string>
     <string name="perm_manage_external_storage">Få adgang til alle filer</string>
+    <string name="permission_account_desc">For at få adgang til kontooplysninger, der er gemt på din enhed</string>
+    <string name="permission_account_desc_pad">For at få adgang til kontooplysninger, der er gemt på din enhed</string>
+    <string name="permission_account_title">Få adgang til enhedens konti</string>
+    <string name="permission_account_title_pad">Få adgang til enhedens konti</string>
     <string name="permission_denial">Kunne ikke tilgå filer. Tildel Filhåndtering filrettigheder i Indstillinger.</string>
     <string name="permission_description">Oplysninger om tilladelser</string>
     <string name="permission_required">Kunne ikke tilgå filer. Tildel Filhåndtering filrettigheder i Indstillinger.​</string>
+    <string name="permission_storage_desc_pad">For at gemme fotos og dokumenter på din enhed</string>
+    <string name="permission_storage_title">Få adgang til enhedens lager</string>
+    <string name="permission_storage_title_pad">Få adgang til enhedens lager</string>
     <string name="phone">Hukommelse</string>
     <string name="phone_storage">Lagerplads</string>
     <string name="phone_storage_apk_title">"APK'er: "</string>
@@ -550,6 +663,7 @@
     <string name="pick_folder">Vælg mappe</string>
     <string name="pm">PM</string>
     <string name="port_range">Portnummer skal være mellem 1024 og 65535</string>
+    <string name="pre_privacy_recall">Tilbagetrækning af samtykke</string>
     <string name="pref_permission_allowed">Givet</string>
     <string name="pref_permission_manage_key_storage">Få adgang til fotos og filer på enheden</string>
     <string name="pref_permission_not_allowed">Ikke givet</string>
@@ -557,6 +671,14 @@
     <string name="privacy_policy">Privatlivspolitik</string>
     <string name="privacy_policy_renew">Opdateret privatlivspolitik</string>
     <string name="privacy_policy_renew_content">&lt;Data>Filhåndterings &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> er blevet opdateret. For fuldt ud at forstå dine rettigheder som bruger samt de måder, vi bruger dine data på, skal du læse og acceptere den nye version af privatlivspolitikken, før du fortsætter.&lt;/Data></string>
+    <string name="privacy_recall_alert_description" formatted="false">Ryd alle elementer fra Mi Drive for at kunne trække samtykket tilbage. Følg disse trin for at rydde elementer:&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. På Mi Drive-startsiden skal du trykke og holde et element for at få knappen Vælg alle til at blive vist. Brug denne knap til at vælge op til 200 filer ad gangen og slette dem.&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. Herefter skal du rydde dine nyligt slettede elementer.</string>
+    <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Vi anbefaler, at du tager backup af dine elementer, før du sletter dem. For at gøre det skal du besøge i.mi.com, klikke på Mi Drive og downloade dine elementer til en computer.&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Bemærk, at nyligt slettede elementer ikke kan gendannes, efter du har slettet dem.</string>
+    <string name="privacy_recall_confirm_button">Træk tilbage</string>
+    <string name="privacy_recall_confirm_description">Hvis du fortsætter, vil du trække dit samtykke til Filhåndterings privatlivspolitik tilbage. Vi vil ophøre med at indsamle dine personlige oplysninger. De personlige oplysninger, der allerede er indsamlet og opbevaret, vil blive slettet indenfor den specifikke periode i overensstemmelse med gældende love og bestemmelser, medmindre andet kræves.</string>
+    <string name="privacy_recall_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>Følgende elementer vil blive slettet permanent efter tilbagetrækning af samtykke:&lt;/font>&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Alle elementer på Mi Drive, herunder, men ikke begrænset til, dokumenter, private filer og slettede elementer.&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Enhedstilladelser, indstillinger og andet cachelagret indhold.&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Mi Drives upload- og downloadhistorik.</string>
+    <string name="privacy_recall_success">Samtykke er nu trukket tilbage</string>
+    <string name="privacy_recall_title">Tilbagetrækning af samtykke</string>
+    <string name="privacy_recalling">Trækker samtykke tilbage…</string>
     <string name="private_files">Privat</string>
     <string name="private_folder">Private filer</string>
     <string name="private_folder_no_file_hints">Hold en fil eller en mappe nedtrykket for at gøre den privat</string>
@@ -568,11 +690,15 @@
     <string name="pull_to_enter_private">Træk nedad for at åbne privat mappe</string>
     <string name="qq_msg">På grund af begrænsninger i Android 11 kan Filhåndtering ikke få adgang til og vise QQ-dokumenter.</string>
     <string name="qq_title">Kan ikke få adgang til WeChat-dokumenter</string>
+    <string name="query_quota_exception">Der opstod en serverfejl. Vent et minut eller to, og prøv så igen.</string>
+    <string name="query_quota_searching">Lige et øjeblik…</string>
     <string name="recent_hide_camera_and_screenshots">Vis ikke gallerielementer eller screenshots blandt nylige filer</string>
+    <string name="recent_hide_cloud_drive_files">Vis ikke Mi Drive-filer i Seneste</string>
     <string name="refresh_success">Opdatering fuldført</string>
     <string name="reinstall_midriver_message">Installér igen nu?</string>
     <string name="release_enter_private">Slip for at åbne privat mappe</string>
     <string name="remainder_size">Tilbage: %s</string>
+    <string name="reminder_card_title">Bemærk</string>
     <string name="rename_alert">Ændrer du filtypenavnet, kan du muligvis ikke åbne filen.</string>
     <string name="rename_alert2">Filer med navne, der begynder med *.*, skjules automatisk af systemet. Brug dette navn alligevel?</string>
     <string name="rename_failed">Kunne ikke omdøbe %1$s</string>
@@ -629,6 +755,7 @@
     <string name="set_pattern">Opgradér din adgangskode</string>
     <string name="set_pattern_btn">Opsæt</string>
     <string name="set_pattern_msg">Indstil din adgangskode igen. Den privatlivsbeskyttende adgangskode fungerer også for fotos, beskeder og noter.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Mindre end %d kB</string>
     <string name="size_lv2" formatted="false">%1d kB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>
@@ -746,9 +873,12 @@
     <string name="unknown_error">Der opstod en ukendt fejl. Vent et minut eller to og prøv så igen.</string>
     <string name="unlock_pattern_msg">Den privatlivsbeskyttende adgangskode fungerer også for fotos, beskeder og noter.</string>
     <string name="unlock_pattern_title">Ny adgangskode</string>
+    <string name="update_no_network">Kunne ikke tilslutte til netværket. Kontrollér dine netværksindstillinger, og prøv igen.</string>
     <string name="upload_user_photo">Upload</string>
     <string name="usb_label">USB</string>
     <string name="use">Brug</string>
+    <string name="use_mobile_data_update_summary">Brug mobildata til automatisk at synkronisere ændringer i filer, der er downloadet fra Mi Drive</string>
+    <string name="use_mobile_data_update_title">Brug mobildata til at synkronisere</string>
     <string name="use_to_all">Anvend på alle</string>
     <string name="used">Brugt</string>
     <string name="user_guide_continue_use">OK</string>
@@ -757,7 +887,12 @@
     <string name="utf8_title">UTF-8</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
+    <string name="video_data_consume_dialog_confirm">Fortsæt</string>
+    <string name="video_data_consume_dialog_title">Brug mobildata?</string>
     <string name="view_type">Se</string>
+    <string name="web_sso_login_fail">Du skal logge ind igen</string>
+    <string name="web_sso_login_message">Logger ind…</string>
+    <string name="webview_reload">Prøv igen</string>
     <string name="wechat_msg">På grund af begrænsninger i Android 11 kan Filhåndtering ikke få adgang til og vise dokumenterne, der forhåndsvistes i WeChat. Åbn og gem dokumenter i WeChat for at få dem til at blive vist her.</string>
     <string name="wechat_title">Kan ikke få adgang til WeChat-dokumenter</string>
     <string name="wechat_video">Video på %s</string>

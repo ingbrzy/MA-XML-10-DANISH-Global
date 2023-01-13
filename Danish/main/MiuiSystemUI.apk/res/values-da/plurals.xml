@@ -37,20 +37,24 @@
         <item quantity="one">1 min siden</item>
     </plurals>
     <plurals name="abc_slice_duration_days">
-        <item quantity="other">for %d dage siden</item>
-        <item quantity="one">for %d dag siden</item>
+        <item quantity="other">For %d dage siden</item>
+        <item quantity="one">For %d dag siden</item>
     </plurals>
     <plurals name="abc_slice_duration_min">
-        <item quantity="other">%d min. siden</item>
-        <item quantity="one">%d min. siden</item>
+        <item quantity="other">For %d min. siden</item>
+        <item quantity="one">For %d min. siden</item>
     </plurals>
     <plurals name="abc_slice_duration_years">
-        <item quantity="other">for %d år siden</item>
-        <item quantity="one">for %d år siden</item>
+        <item quantity="other">For %d år siden</item>
+        <item quantity="one">For %d år siden</item>
     </plurals>
     <plurals name="controls_number_of_favorites">
         <item quantity="other">%s styring er tilføjet.</item>
         <item quantity="one">%s styring er tilføjet.</item>
+    </plurals>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="other">%s apps er aktive</item>
+        <item quantity="one">%s app er aktiv</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halv time siden</item>
@@ -140,22 +144,6 @@
         <item quantity="other">Forkert PUK-kode til SIM-kort. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.</item>
         <item quantity="one">Forkert PUK-kode til SIM-kort. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.</item>
     </plurals>
-    <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">Enheden blev sidst låst op for %d timer siden. Bekræft adgangskoden.</item>
-        <item quantity="one">Enheden blev sidst låst op for %d time siden. Bekræft adgangskoden.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">Enheden blev sidst låst op for %d timer siden. Bekræft mønsteret.</item>
-        <item quantity="one">Enheden blev sidst låst op for %d time siden. Bekræft mønsteret.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">Enheden blev sidst låst op for %d timer siden. Bekræft pinkoden.</item>
-        <item quantity="one">Enheden blev sidst låst op for %d time siden. Bekræft pinkoden.</item>
-    </plurals>
-    <plurals name="kg_too_many_failed_attempts_countdown">
-        <item quantity="other">Prøv igen om %d sekunder.</item>
-        <item quantity="one">Prøv igen om %d sekund.</item>
-    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Lige nu</item>
         <item quantity="one">Lige nu</item>
@@ -203,9 +191,5 @@
     <plurals name="user_limit_reached_message">
         <item quantity="other">Du kan tilføje op til %d brugere.</item>
         <item quantity="one">Du kan tilføje op til %d bruger.</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d enheder er tilsluttet</item>
-        <item quantity="one">%1$d enhed er tilsluttet</item>
     </plurals>
 </resources>
