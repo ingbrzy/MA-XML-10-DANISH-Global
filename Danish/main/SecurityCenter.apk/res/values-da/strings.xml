@@ -130,7 +130,7 @@
     <string name="adb_install_open_error">Kunne ikke tillade. Kontroller din netværksforbindelse</string>
     <string name="adb_install_reject_notiy">Tillad ikke installation af %s via USB</string>
     <string name="adb_install_reject_notiy_desc">Du kan tillade installation via USB i udviklerindstillinger</string>
-    <string name="adb_login_xiaomi_account">Log først ind på din Xiaomi-konto</string>
+    <string name="adb_login_xiaomi_account">Log først ind på din Mi-konto</string>
     <string name="add_bill_reminder_alarm">Indstil advarsel om telefonsaldo</string>
     <string name="add_done">Tilføjet</string>
     <string name="add_game">Tilføj spil</string>
@@ -559,14 +559,14 @@ Du vil ikke miste nogen appdata."</string>
     <string name="applock_add_account">Tilføj</string>
     <string name="applock_add_account_ignore">Ikke nu</string>
     <string name="applock_add_account_ignore_with_seconds">Ikke nu (%d s)</string>
-    <string name="applock_add_account_info">Tilføj din Xiaomi-konto for at kunne nulstille din adgangskode, hvis du skulle glemme den.</string>
+    <string name="applock_add_account_info">Tilføj din Mi-konto for at kunne nulstille din adgangskode, hvis du skulle glemme den.</string>
     <string name="applock_add_account_setting">Konto og privatliv</string>
-    <string name="applock_add_account_tips">Med Xiaomi-konto vil du kunne gendanne din App-lås, hvis du glemmer den.</string>
-    <string name="applock_add_account_title">Tilføj din Xiaomi-konto</string>
+    <string name="applock_add_account_tips">Med Mi-konto vil du kunne gendanne din Applås, hvis du glemmer den.</string>
+    <string name="applock_add_account_title">Tilføj din Mi-konto</string>
     <string name="applock_already_add_account">Nuværende konto: %s</string>
     <string name="applock_app_recommend_lock_title">Du kan låse følgende apps</string>
-    <string name="applock_bind_account_dialog_content">Din Xiaomi-konto er den eneste måde at gendanne din App-lås på, hvis du skulle glemme den. Log ind for at tilføje din Xiaomi-konto.</string>
-    <string name="applock_bind_account_dialog_title">Tilføj din Xiaomi-konto</string>
+    <string name="applock_bind_account_dialog_content">Din Mi-konto er den eneste måde at gendanne din Applås på, hvis du skulle glemme den. Log ind for at tilføje din Mi-konto.</string>
+    <string name="applock_bind_account_dialog_title">Tilføj din Mi-konto</string>
     <string name="applock_bind_account_title">Glem adgangskode</string>
     <string name="applock_close_dialog_summary">Din app-lås vil blive slettet. Aktivér app-lås nu?</string>
     <string name="applock_close_dialog_title">Slå app-lås fra?</string>
@@ -588,7 +588,7 @@ Du vil ikke miste nogen appdata."</string>
     <string name="applock_guide_tip1_without_face">Du kan få adgang på flere måder. Lås apps op med dit fingeraftryk eller indtast adgangskode.</string>
     <string name="applock_guide_tip1_without_finger">Du kan få adgang på flere måder. Lås apps op med dit ansigt eller indtast adgangskode.</string>
     <string name="applock_guide_tip1_without_finger_face">Du kan få adgang på flere måder.</string>
-    <string name="applock_guide_tip2">Tilføj din Xiaomi-konto for at kunne nulstille din adgangskode.</string>
+    <string name="applock_guide_tip2">Tilføj din Mi-konto for at kunne nulstille din adgangskode.</string>
     <string name="applock_guide_tip3">Skjul notifikationsindhold.</string>
     <string name="applock_guide_tip3_global">Skjul notifikationsindhold.</string>
     <string name="applock_guide_title">Beskyt dit privatliv med app-lås</string>
@@ -600,7 +600,7 @@ Du vil ikke miste nogen appdata."</string>
     <string name="applock_login_and_add_account">Log på og tilføj</string>
     <string name="applock_mixtype_hidepwd_icon">Skjul</string>
     <string name="applock_mixtype_showpwd_icon">Vis</string>
-    <string name="applock_no_account_login">Du er ikke logget ind på din Xiaomi-konto</string>
+    <string name="applock_no_account_login">Du er ikke logget ind på din Mi-konto</string>
     <string name="applock_not_add_account"><u>Ikke nu</u></string>
     <string name="applock_not_login_account">Du er ikke logget på</string>
     <string name="applock_numeric_pwd_type_line">Antal cifre i alt i adgangskoden: %1$d. Indtastede cifre: %2$d.</string>
@@ -876,10 +876,10 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="bill_traffic_reminder_instruction_text">De faktiske detaljer om de planer, der leveres af mobiloperatører, kan variere, og faktureringsforsinkelser kan forekomme. Oplysningerne her er kun til din orientering.</string>
     <string name="bind_xiaomi_account_cancel">Annuller</string>
     <string name="bind_xiaomi_account_confirm">Tilføj</string>
-    <string name="bind_xiaomi_account_dialog_summery">Du er ved at tilføje Xiaomi-konto %s. Hvis du glemmer din adgangskode, kan du bruge denne konto til at nulstille den. Kontoen fjernes automatisk, hvis du logger af.</string>
-    <string name="bind_xiaomi_account_success">Xiaomi-konto er nu tilføjet</string>
-    <string name="bind_xiaomi_account_summary">Brug Xiaomi-konto til at nulstille din adgangskode</string>
-    <string name="bind_xiaomi_account_title">Tilføj Xiaomi-konto</string>
+    <string name="bind_xiaomi_account_dialog_summery">Du er ved at tilføje Mi-konto %s. Hvis du glemmer din adgangskode, kan du bruge denne konto til at nulstille den. Kontoen fjernes automatisk, hvis du logger af.</string>
+    <string name="bind_xiaomi_account_success">Mi-kontoen er nu tilføjet</string>
+    <string name="bind_xiaomi_account_summary">Brug Mi-konto til at nulstille din adgangskode</string>
+    <string name="bind_xiaomi_account_title">Tilføj Mi-konto</string>
     <string name="birthday">Fødselsdag</string>
     <string name="bl_no_blacklist">Ingen blokerede numre.</string>
     <string name="bl_no_block_call">Ingen blokerede opkald.</string>
@@ -988,6 +988,7 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="card_main_private_space_summary">Brug af andet rum er som at have 2 enheder</string>
     <string name="card_main_private_space_title">Andet rum</string>
     <string name="card_main_sectool_title">Værktøjer</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Opret</string>
     <string name="card_main_xspace_summary">Opret to konti til enhver app</string>
     <string name="card_main_xspace_title">Dobbelte apps</string>
@@ -1053,7 +1054,7 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="confirmSecondSpacePassword">Bekræft adgangskode til det andet rum</string>
     <string name="confirm_ai_allow_all_permission">Skift status for indstillinger til \"Vælg for mig\" for alle apps?</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
-    <string name="confirm_bind_xiaomi_account_dialog_title">Xiaomi-konto tilføjes</string>
+    <string name="confirm_bind_xiaomi_account_dialog_title">Tilføjer Mi-konto</string>
     <string name="confirm_close">Deaktivér</string>
     <string name="confirm_fingerprint_msg">Bekræft dit fingeraftryk</string>
     <string name="confirm_leave">Nej tak</string>
@@ -1273,6 +1274,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_phone_num">Redigér SIM-telefonnummer</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-mail</string>
     <string name="empty" />
     <string name="empty_app">Ingen apps</string>
@@ -1308,6 +1310,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="exit_dialog_garbage_clean_title">Frigør lagerplads</string>
     <string name="exit_dialog_homepage_optimise_message">Din enheds ydelses-score er lavere end 80. Optimer nu?</string>
     <string name="exit_dialog_release_memory_positive_button">Luk</string>
+    <string name="exit_dialog_release_memory_title">&lt;Data>Gør din enhed hurtigere med &lt;font color=#0099ff>%d%%&lt;/font>&lt;/Data></string>
     <string name="exit_dialog_release_memory_title_new">&lt;Data>Gør din enhed &lt;font color=#0099ff>%s&lt;/font> hurtigere&lt;/Data></string>
     <string name="exit_dialog_release_storage_message">Mere end 80 % af lageret på din enhed er optaget. Frigør plads ved at afinstallere de apps, du aldrig bruger.</string>
     <string name="exit_dialog_release_storage_message_new">Mere end %s af lageret på din enhed er optaget. Frigør plads ved at afinstallere de apps, du aldrig bruger.</string>
@@ -1351,7 +1354,9 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="exo_download_paused_for_wifi">Downloads venter på Wi-Fi-netværk</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Undertekster</string>
     <string name="exo_track_role_commentary">Kommentarspor</string>
@@ -1908,7 +1913,7 @@ men øger også strømforbruget og bevirker, at din enhed kan blive overophedet"
     <string name="gb_voice_changer_recommend">Anbefalet</string>
     <string name="gb_voice_changer_renew_dailog">Forny dit abonnement for at kunne bruge denne effekt.</string>
     <string name="gb_voice_changer_robot">Robot</string>
-    <string name="gb_voice_changer_setting_account_title">Xiaomi-konto</string>
+    <string name="gb_voice_changer_setting_account_title">Mi-konto</string>
     <string name="gb_voice_changer_setting_become_vip">Abonner</string>
     <string name="gb_voice_changer_setting_gender_subtitle">Juster effekter og anbefalinger for valgt køn</string>
     <string name="gb_voice_changer_setting_gender_title">Køn</string>
@@ -1924,7 +1929,7 @@ Skift mellem forskellige karakterer og specialeffekter."</string>
     <string name="gb_voice_changer_user_status_expired">Abonnement udløbet</string>
     <string name="gb_voice_changer_user_status_get_trial_card_dialog">"Få en %d-dages gratis prøveversion
 og oplev vores Stemmeskifter!"</string>
-    <string name="gb_voice_changer_user_status_no_login">Log ind på Xiaomi-konto</string>
+    <string name="gb_voice_changer_user_status_no_login">Log på Mi-konto</string>
     <string name="gb_voice_changer_user_status_remain_time">Udløbsdato: %s</string>
     <string name="gb_voice_changer_user_status_renew">Forny</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Dit abonnement er udløbet. Forny abonnementet nu for at få fordele!</string>
@@ -2036,10 +2041,10 @@ af dine spillesessioner"</string>
     <string name="gtb_dialog_btn_close">Slå fra</string>
     <string name="gtb_dialog_btn_open">Slå til</string>
     <string name="gtb_dialog_hint_smart_5g">Du kan slå denne funktion til og fra i Game Turbos indstillinger.</string>
-    <string name="gtb_dialog_privacy_speed_message">Du er ved at bruge Xunyou Game Booster. Denne tjeneste indsamler dit Xiaomi-konto-id for at registrere varigheden af dit medlemskab.</string>
+    <string name="gtb_dialog_privacy_speed_message">Du er ved at bruge Xunyou Game Booster. Denne tjeneste indsamler din Mi-konto-id for at registrere varigheden af dit medlemskab.</string>
     <string name="gtb_dialog_privacy_speed_tips">&lt;Data>Jeg har læst og accepteret Xunyou Game Boosters &lt;a href=\"%1$s\">privatlivspolitik.&lt;/a>&lt;/Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou Game Booster</string>
-    <string name="gtb_dialog_privacy_voice_message">Du er ved at bruge Xunyou Game Voice Changer. Denne tjeneste indsamler din Xiaomi-konto-id for at registrere varigheden af dit medlemskab.</string>
+    <string name="gtb_dialog_privacy_voice_message">Du er ved at bruge Xunyou Game Voice Changer. Denne tjeneste indsamler din Mi-konto-id for at registrere varigheden af dit medlemskab.</string>
     <string name="gtb_dialog_privacy_voice_tips">&lt;Data>Jeg har læst og accepteret Xunyou Game Voice Changers &lt;a href=\"%1$s\">privatlivspolitik.&lt;/a>&lt;/Data></string>
     <string name="gtb_dialog_privacy_voice_title">Xunyou Game Voice Changer</string>
     <string name="gtb_dialog_summary_smart_5g">Når som helst Game Turbo opdager et 5G-netværk, kan det tilslutte din enhed til det bedste tilgængelige netværk for at mindske netværksforsinkelse. Slå denne funktion til nu?</string>
@@ -2363,6 +2368,8 @@ svarer"</string>
     <string name="memory_check_content">Frigjorte %s</string>
     <string name="memory_clean_memory_size_tip">Cache</string>
     <string name="memory_clean_no_need_clean">Alt ser fint ud</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">"%s frigjort.
+Din enhed er nu %d%% hurtigere."</string>
     <string name="memory_clean_no_need_clean_1_new" formatted="false">"%s frigjort.
 Din enhed er nu %s hurtigere."</string>
     <string name="memory_clear_unused">Ryd cache (%s)</string>
@@ -2387,6 +2394,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="menu_item_notification_antispam_text_avail">Blokeringsliste</string>
     <string name="menu_item_notification_antispam_text_normal">Blokeringsliste</string>
     <string name="menu_item_notification_garbage_text">%s</string>
+    <string name="menu_item_notification_optimize_text">%d%% optaget</string>
     <string name="menu_item_notification_optimize_text_new">%s optaget</string>
     <string name="menu_item_notification_power_text">Batterioptimering</string>
     <string name="menu_item_notification_title">Vis menuen i notifikationsskygge</string>
@@ -2414,6 +2422,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="menu_summary_networkassistants_3">Nok data tilbage</string>
     <string name="menu_summary_networkassistants_4">Løber tør for data</string>
     <string name="menu_summary_optimize_manage">Ryd hukommelse</string>
+    <string name="menu_summary_optimize_manage_1">Gør din enhed %d%% hurtigere</string>
     <string name="menu_summary_optimize_manage_1_new">Gør din enhed %s hurtigere</string>
     <string name="menu_summary_power_manager">Batteribesparer giver dig mere tid mellem opladninger</string>
     <string name="menu_summary_power_manager_1">Batteri er fuldt opladt</string>
@@ -2429,6 +2438,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="menu_text_license_manager">Tilladelser</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2437,6 +2447,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="menu_text_optimize_manage">Boost hastigheden</string>
     <string name="menu_text_optimize_manage_1">Boost hastigheden</string>
     <string name="menu_text_power_manager">Batteri</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Fjern fra undtagelser</string>
     <string name="menu_white">Føj til undtagelser</string>
     <string name="mi_ime_not_used">Brug et tastatur, der er godkendt af Xiaomi</string>
@@ -2541,6 +2552,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -2707,6 +2719,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="notification_link_cleaner_3001">Ryd uønskede filer i WeChat for at gøre din enhed hurtigere</string>
     <string name="notification_link_cleaner_3002">Ryd WeChats uønskede filer</string>
     <string name="notification_link_cleaner_4000">"Ryd QQ's uønskede filer"</string>
+    <string name="notification_link_optimizemanage_1011">%d%% er optaget. Ryd nu.</string>
     <string name="notification_link_optimizemanage_1011_new">%s af hukommelsen er optaget. Ryd nu.</string>
     <string name="notification_low_battery_need_charge">Tilslut oplader</string>
     <string name="notification_low_battery_open_save_mode">Aktivér batterisparer</string>
@@ -2723,6 +2736,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="notification_masked_subtitle">App-lås sørger for det</string>
     <string name="notification_optimize_button_text">Ryd</string>
     <string name="notification_optimize_message">Ryd hukommelsen for at booste hastigheden</string>
+    <string name="notification_optimize_title">%d%% hukommelse er optaget</string>
     <string name="notification_optimize_title_new">%s af hukommelsen er optaget</string>
     <string name="notification_power_consume_issue_summary">Højt strømforbrug</string>
     <string name="notification_power_consume_suggest_summary">Korriger problemer for at spare strøm</string>
@@ -2866,9 +2880,9 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="password_forget_pattern_message_none">Apps er ikke låst. Du kan nulstille dit adgangskode.</string>
     <string name="password_forget_pattern_reset">Nulstil</string>
     <string name="password_forget_pattern_title">Bemærk</string>
-    <string name="password_promotion_not_login_xiaomi_account_message">Tilføj din Xiaomi-konto for at kunne nulstille din adgangskode, hvis du skulle glemme den.</string>
+    <string name="password_promotion_not_login_xiaomi_account_message">Tilføj din Mi-konto for at kunne nulstille din adgangskode, hvis du skulle glemme den.</string>
     <string name="password_promotion_postbutton_text">Tilføj</string>
-    <string name="password_promotion_title">Tilføj Xiaomi-konto</string>
+    <string name="password_promotion_title">Tilføj Mi-konto</string>
     <string name="password_toggle_content_description">Vis adgangskode</string>
     <string name="password_type">Skift adgangskode</string>
     <string name="password_type_underline"><u>Skift adgangskode</u></string>
@@ -3116,6 +3130,11 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_center_dialog_msg_top">Når batteribesparelse er slået til, gennemfører MIUI følgende optimeringer:</string>
     <string name="power_center_hints_scan_danger_result">Du kan løse problemer med batteriet nu</string>
     <string name="power_center_list_item_auto_brightness">Indstil automatisk skærmens lysstyrke</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Slå Bluetooth fra</string>
     <string name="power_center_list_item_deep_save_title">Avancerede indstillinger</string>
@@ -3401,6 +3420,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="pref_normal_traffic_limit">Når dataplan er opbrugt</string>
     <string name="pref_open_adjust_traffic">Opdater dataforbrug hver dag med statistik fra din teleudbyder</string>
     <string name="pref_operator_not_set">Teleudbyder ikke indstillet</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Når du går over din dataplan</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_pkg_begin_date">Data for nulstilling af forbrug</string>
@@ -3548,9 +3568,9 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="privacy_pop_record">Har optaget lyd i dag</string>
     <string name="privacy_pop_storage">Har fået adgang til lager i dag</string>
     <string name="privacy_prompt_tc_sms_report_message">Dit telefonnummer og info om teleudbyder krypteres og uploades til Mi-servere, for at kunne opdatere dataforbrugs-info.</string>
-    <string name="privacy_prompt_traffic_adjust_message">"Efter at du påbegynder kalibreringen, forbinder MIUI til netværket, afkoder din teleudbyders info, telefonnummer, IMEI og Xiaomi-konto og uploader disse til Mi-servere. Dette gøres for at hente teleudbyderens kalibreringsskabelon og finde ud af, om det er muligt at købe data på din placering.
+    <string name="privacy_prompt_traffic_adjust_message">"Efter at du påbegynder kalibreringen, forbinder MIUI til netværket, afkoder din teleudbyders info, telefonnummer, IMEI og Mi-konto og uploader disse til Mi-servere. Dette gøres for at hente teleudbyderens kalibreringsskabelon og finde ud af, om det er muligt at købe data, hvor du befinder dig.
 
-Under kalibreringen sender MIUI en tekstbesked til din teleudbyder for at modtage kalibreringsskabelonen."</string>
+Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente dennes kalibreringsskabelon."</string>
     <string name="privacy_prompt_upload">Upload</string>
     <string name="privacy_protect_summary">Beskyt dine personlige oplysninger</string>
     <string name="privacy_protect_title">Beskyttelse af personlige oplysninger</string>
@@ -3676,6 +3696,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="privacy_using_record">Optager lyd</string>
     <string name="privacyapp_number_masked_text">Meddelelsers indhold er skjult</string>
     <string name="privacyapp_number_unmasked_text">Meddelelsers indhold kan skjules</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Annonce</string>
@@ -3745,7 +3766,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="report_warning_title">Bemærk</string>
     <string name="required_permissions">Obligatoriske tilladelser</string>
     <string name="required_permissions_desc">Disse tilladelser er påkrævede for at gøre de grundlæggende funktioner og tjenester i denne app tilgængelige.</string>
-    <string name="reset_data_dialog_message">Denne enhed er ikke tilknyttet din Xiaomi-konto. Adgangskoden kan ikke gendannes eller nulstilles. Sikkerhedskopiér alle vigtige elementer, og foretag en fabriksnulstilling. Alle data vil blive slettet permanent, og dit SD-kort vil blive formateret under fabriksnulstillingen.</string>
+    <string name="reset_data_dialog_message">Denne enhed er ikke tilknyttet din Mi-konto. Adgangskoden kan ikke gendannes eller nulstilles. Sikkerhedskopiér alle vigtige elementer, og foretag en fabriksnulstilling. Alle data vil blive slettet permanent, og dit SD-kort vil blive formateret under fabriksnulstillingen.</string>
     <string name="reset_data_dialog_ok">Fabriksnulstilling</string>
     <string name="reset_data_title">Kan ikke gendanne adgangskode</string>
     <string name="result_autoscan_header">Betalingsmonitorering</string>
@@ -3816,6 +3837,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="scan_open_shut_down_password_title">Bekræftelse på nedlukning</string>
     <string name="scan_status_risk">Risikabel</string>
     <string name="scan_status_safe">Sikker</string>
+    <string name="scanning_bar_number">%d%%</string>
     <string name="scanning_bar_number_new">%s</string>
     <string name="screenrecord_not_find">Installer den nyeste version af Screen Recorder og prøv igen.</string>
     <string name="sd_eject">Afmonter SD-kort</string>
@@ -3859,7 +3881,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="set_now">Indstillinger</string>
     <string name="set_numeric_password_name">Indstil PIN</string>
     <string name="set_package_tips">Vi sender en sms til din operatør for at kontrollere din dataplan. Oplysningerne, som du giver, bliver krypteret og uploadet til vores servere for at udarbejde denne besked.</string>
-    <string name="set_package_tips_detail">Oplysninger, der er uploadet til Xiaomis servere, omfatter din operatørs oplysninger såvel som dit telefonnummer, IMEI og din Xiaomi-konto.</string>
+    <string name="set_package_tips_detail">Oplysninger, der er uploadet til Xiaomis servere, omfatter din operatørs oplysninger såvel som dit telefonnummer, IMEI og din Mi-konto.</string>
     <string name="set_pattern_password_name">Indstil mønster</string>
     <string name="set_traffic_tips">Indstil din dataplan for at administrere forbrug af mobildata og undgå yderligere operatørgebyrer.</string>
     <string name="setting">Indstillinger</string>
@@ -4299,7 +4321,7 @@ For at bruge dette ^1 med denne enhed skal du først konfigurere det."</string>
     <string name="storage_item_doc_name">Dokumenter</string>
     <string name="storage_item_other_name">Andet</string>
     <string name="storage_item_picture_name">Billeder</string>
-    <string name="storage_item_system_data">Systemfiler</string>
+    <string name="storage_item_system_data">System</string>
     <string name="storage_item_system_name">System</string>
     <string name="storage_item_video_name">Video</string>
     <string name="storage_menu_mount">Monter</string>
@@ -4379,6 +4401,7 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="superpower_dialog_button_ok">OK</string>
     <string name="superpower_dialog_massage">Ultra-batterisparer begrænser de mest strømforbrugende funktioner og mindsker din enheds ydelse for at holde basisfunktionerne (f.eks. opkald, SMS og oprette forbindelse til netværk) tilgængelige længst muligt. Tænd for Ultra-batterisparer?</string>
     <string name="superpower_dialog_title">Ultra-batterisparer</string>
+    <string name="superpower_notification_new_title">Mindre end %d%% batteri tilbage</string>
     <string name="superpower_notification_new_title_new">Mindre end %s batteri tilbage</string>
     <string name="superpower_notification_summary">Oplad din enhed eller deaktiver Ultra-batterisparer</string>
     <string name="superpower_notification_time_12">EEEE d. MMMM</string>
@@ -4582,7 +4605,7 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="title_block_calls_from_strangers">Mister vigtige opkald?</string>
     <string name="title_chain_start">Begræns kædestart</string>
     <string name="title_cleaner_cloudscan">Scanning af cloud-papirkurv</string>
-    <string name="title_cloud_account">Xiaomi-konto</string>
+    <string name="title_cloud_account">Mi-konto</string>
     <string name="title_cloud_service">Xiaomi Cloud</string>
     <string name="title_cloud_space_almost_full">Cloudlager næsten fuldt. Elementer vil muligvis ikke blive synkroniseret.</string>
     <string name="title_cloud_space_full">Cloud er fyldt</string>

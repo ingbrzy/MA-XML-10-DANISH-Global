@@ -32,7 +32,6 @@
     <string name="am">AM</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="close">Luk</string>
-    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv igen.</string>
     <string name="copy">Kopiér</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -184,6 +183,7 @@
     <string name="miui_feedback_edit_toast_module_required">Vælg element</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Din beskrivelse bør være længere</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Vælg kategori</string>
+    <string name="miui_feedback_edit_toast_screenshot_too_large">Kan ikke uploade billeder eller videoer, der er større end 100 Mb</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Indtast app-navn</string>
     <string name="miui_feedback_main_answer_title">Der findes et svar på dette spørgsmål</string>
     <string name="miui_feedback_main_customer_service_onfo_for_jp">"Servicehotline: 0120-300-521

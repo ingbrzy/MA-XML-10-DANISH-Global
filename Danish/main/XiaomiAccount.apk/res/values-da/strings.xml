@@ -138,11 +138,6 @@ Du kan logge ind på din Xiaomi-konto ved hjælp af %s nu."</string>
     <string name="cloud_member_vipname_premium">Premium</string>
     <string name="cloud_member_vipname_ultra">Ultra</string>
     <string name="cloud_service">Xiaomi Cloud</string>
-    <string name="cloud_service_cloud_open">Aktivér</string>
-    <string name="cloud_service_space_full">Lager er fuldt</string>
-    <string name="cloud_service_space_not_enough">Ikke nok lagerplads</string>
-    <string name="cloud_service_space_used">Optaget</string>
-    <string name="cloud_service_state_error">Kunne ikke indlæse</string>
     <string name="cloud_service_status_backup_not_open">Backup er deaktiveret</string>
     <string name="cloud_service_status_cloud_not_open">Deaktiveret</string>
     <string name="cloud_service_status_storage_full">Lager er fuldt</string>
@@ -221,8 +216,6 @@ Du kan logge ind på din Xiaomi-konto ved hjælp af %s nu."</string>
     <string name="diagnosis_log_sent_format">"Logfilen er nu sendt.
 ID:%s
 Send denne kode til supervisoren."</string>
-    <string name="dind_device_service_not_open">Deaktiveret</string>
-    <string name="dind_device_service_opened">Aktiveret</string>
     <string name="download_file">Downloader %s…</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
@@ -241,7 +234,6 @@ Send denne kode til supervisoren."</string>
     <string name="facebook_login">Log på med Facebook</string>
     <string name="failed_dup_secure_phone_number">Telefonnummeret er allerede tilknyttet en anden Xiaomi-konto</string>
     <string name="family_service">Familietjenester</string>
-    <string name="family_service_not_open">Invitér medlemmer</string>
     <string name="family_share">Familiedeling</string>
     <string name="find_device">Find enhed</string>
     <string name="find_device_access_denied">Kan ikke hente status, adgang nægtet</string>
@@ -373,7 +365,6 @@ Send denne kode til supervisoren."</string>
     <string name="login_with_other">Flere valgmuligheder</string>
     <string name="logout_account">Log ud</string>
     <string name="logout_failed">Kan ikke logge ud</string>
-    <string name="mi_account">Min konto</string>
     <string name="mi_account_identity_title">Bekræft din identitet</string>
     <string name="mi_finance">Mine finanser</string>
     <string name="mi_finance_info">Bonus til nye brugere</string>
@@ -771,11 +762,6 @@ Send denne kode til supervisoren."</string>
     <string name="push_notify_dialog_title">Kontobekræftelse</string>
     <string name="pwd_width_phone_number_or_mail_num">Adgangskoden må ikke indeholde dit telefonnummer, e-mail eller Xiaomi-konto-id</string>
     <string name="qq">QQ</string>
-    <string name="qrcode_login_entry_text">&lt;Data>Logget ind på en anden enhed? Brug &lt;a href=>hurtig-login&lt;/a>&lt;/Data></string>
-    <string name="qrcode_login_load_refresh">&lt;Data>Denne QR-kode er udløbet. Tryk for at &lt;a href=>opdatere&lt;/a>.&lt;/Data></string>
-    <string name="qrcode_login_load_retry">&lt;Data>Kunne ikke indlæses. &lt;a href=>Prøv igen&lt;/a>.&lt;/Data></string>
-    <string name="qrcode_login_message">Scan med din Xiaomi-telefon eller din tablets scanner-app, Xiaomi Home eller en anden Xiaomi-app for at logge ind</string>
-    <string name="qrcode_login_title">Scan for at logge ind</string>
     <string name="recycle_phone_notification_msg">Det ser ud til, at dit telefonnummer er blevet genbrugt. Tryk for at opdatere.</string>
     <string name="recycle_phone_notification_title">Xiaomi-konto-sikkerhedsrisiko</string>
     <string name="removing_account">Logger ud…</string>
@@ -910,8 +896,6 @@ Send denne kode til supervisoren."</string>
     <string name="two_factor_auth_need_code_summary">Du kommer til at se en kode på andre tilsluttede Mi-enheder. Indtast denne kode på en ny enhed for at logge ind.</string>
     <string name="two_factor_auth_summary">Når du prøver at logge ind på en enhed eller et nyt sted, modtager du notifikationer herom på andre tilsluttede enheder. Du skal i så fald bekræfte, om sådanne forsøg på at logge ind er autoriseret af dig.</string>
     <string name="unbind_sns_description">Efter at du afbryder forbindelsen for denne konto, kan du ikke anvende dine %s-kontooplysninger til at logge ind på din Xiaomi-konto.</string>
-    <string name="unit_gb">" GB"</string>
-    <string name="unit_mb">" MB"</string>
     <string name="unknown_error_info">Ukendt fejl</string>
     <string name="unlock_help_notice">"Hjælp:
 1. Hvis du har glemt din adgangskode, så gå til id.mi.com for at nulstille den.
@@ -965,6 +949,5 @@ Send denne kode til supervisoren."</string>
     <string name="weixin">WeChat</string>
     <string name="weixin_login">Log ind med WeChat</string>
     <string name="xiao_mi_vip">Mi VIP</string>
-    <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="yesterday">I går</string>
 </resources>

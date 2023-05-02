@@ -19,16 +19,6 @@
         <item>Skift adgangskode for Xiaomi-konto</item>
         <item>Skift adgangskode;Opdater adgangskode;Mi-konto;Konto;Xiaomi-konto</item>
     </string-array>
-    <string-array name="settings_search_cloud_space_share">
-        <item>Familielagerplads</item>
-        <item>Se/aktivér familielagerplads</item>
-        <item>Familielagerplads;Lagerdeling</item>
-    </string-array>
-    <string-array name="settings_search_family_service">
-        <item>Familietjenester</item>
-        <item>Se/aktivér familietjenester</item>
-        <item>Familie;Familietjenester;Familiedeling</item>
-    </string-array>
     <string-array name="settings_search_help_center">
         <item>Hjælp</item>
         <item>Få hjælp og support til Xiaomi-konto</item>

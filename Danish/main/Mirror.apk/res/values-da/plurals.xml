@@ -36,6 +36,18 @@
         <item quantity="other">%d min siden</item>
         <item quantity="one">1 min siden</item>
     </plurals>
+    <plurals name="download_canceled_title_multi">
+        <item quantity="other">Afviste %2$d filer, herunder %1$s</item>
+        <item quantity="one">Afviste %2$d fil, herunder %1$s</item>
+    </plurals>
+    <plurals name="download_succeeded_title_multi">
+        <item quantity="other">Modtog %2$d filer, herunder %1$s</item>
+        <item quantity="one">Modtog %2$d fil, herunder %1$s</item>
+    </plurals>
+    <plurals name="download_title_multi">
+        <item quantity="other">%2$d filer, herunder %1$s</item>
+        <item quantity="one">%2$d fil, herunder %1$s</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>
