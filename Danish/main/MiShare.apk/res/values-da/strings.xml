@@ -396,6 +396,7 @@ Inden brug af Mi Share skal du give følgende tilladelser og tillade den at inds
     <string name="somepc_send_muchfile_files">%1$s sender flere end %2$d filer til dig…</string>
     <string name="start_receive_much_files_from_pc">Modtaget flere end %2$d filer fra %1$s…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sub_title_mishare_switch">Denne funktion slås automatisk fra efter %d minutter</string>
     <string name="success_receive_much_file_from_pc">Modtaget flere end %2$d filer fra %1$s. Tryk for at se.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
@@ -457,15 +458,19 @@ Inden brug af Mi Share skal du give følgende tilladelser og tillade den at inds
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Anmeld</string>
+    <string name="toast_auto_close_in_minutes">Mi Share slås fra efter %d minutter</string>
+    <string name="toast_transfering">Overførsel af varer. Prøv igen senere.</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
     <string name="transfer_intercept_to_remote">Kunne ikke sende: %1$s</string>
     <string name="transfer_to_pc_summary">Den seneste version af AloT-softwaren, der er installeret på Mi Notebooks, er kompatible med Mi Share. Du kan kontrollere listen over understøttede bærbarmodeller på MIUI-websitet. Hvis din bærbar er på listen, men AloT ikke er installeret på den, skal du opdatere din bærbars BIOS og netværksadpterdriver, og downloade AloT.</string>
     <string name="transfer_to_pc_summary_new">&lt;Data>Den nyeste installerede version af MIUI+ på Mi Notebooks er kompatibel med Mi Share. Du kan tjekke listen med understøttede laptop-modeller på websitet for MIUI+ (&lt;a href=%1$s>%2$s&lt;/a>). Hvis din laptop er på listen, men MIUI+ ikke er installeret din laptop, skal du opdatere din laptops BIOS og driveren til netværksadapteren og downloade MIUI+.&lt;/Data></string>
     <string name="transfer_to_pc_title">Send filer til computere</string>
-    <string name="transfer_to_phone_summary">Slå Mi Share til ved brug af radioknappen i notifikationsskyggen, Du vil derefter ikke kunne se enheder i nærheden, når du begynder at dele et billede eller en fil. Tryk på modtagerens enhed for at sende det element, du deler.</string>
+    <string name="transfer_to_phone_summary">Aktivér Mi Share ved brug af radioknappen i notifikationsskyggen, Du vil derefter kunne se enheder i nærheden, når du begynder at dele et billede eller en fil. Tryk på modtagerens enhed for at sende det element, du deler.</string>
+    <string name="transfer_to_phone_summary_new">Slå Mi Share til i Kontrolcenter for nemt at kunne sende og modtage elementer. Når du har slået det til, kan du dele elementer med enheder i nærheden i %d minutter, før det slukker automatisk.</string>
     <string name="transfer_to_phone_title">Send filer til telefoner</string>
-    <string name="transfer_to_summary">Slå Mi Share til ved brug af radioknappen i notifikationsskyggen, Du vil derefter kunne se enheder i nærheden, når du begynder at dele et billede eller en fil. Tryk på modtagerens enhed for at sende det element, du deler.</string>
+    <string name="transfer_to_summary">Aktivér Mi Share til ved brug af radioknappen i notifikationsskyggen, Du vil derefter kunne se enheder i nærheden, når du begynder at dele et billede eller en fil. Tryk på modtagerens enhed for at sende det element, du deler.</string>
+    <string name="transfer_to_summary_new">Slå Mi Share til i Kontrolcenter for nemt at kunne sende og modtage elementer. Når du har slået det til, kan du dele elementer med enheder i nærheden i %d minutter, før det slukker automatisk.</string>
     <string name="transfer_to_title">Send filer til mobile enheder</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>

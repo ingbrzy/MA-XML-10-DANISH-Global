@@ -629,6 +629,10 @@ Din enhedsapp bestemmer, hvilke enheder der kan styres på denne måde."</string
     <string name="daltonizer_mode_protanomaly">Protanopi (rød-grøn)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanopi (blå-gul)</string>
     <string name="daltonizer_type_overridden">Tilsidesat af %1$s</string>
+    <string name="dark_mode_power_save_alert_dialog_confirm">Forstået</string>
+    <string name="dark_mode_power_save_alert_dialog_message">"Hvis du deaktiverer MIUI-optimering og aktiverer batteribesparer, aktiveres Mørk tilstand automatisk.
+For at deaktivere Mørk tilstand skal du deaktivere batteribesparer eller aktivere MIUI-optimering i Indstillinger > Udviklerindstillinger > Aktivér MIUI-optimering."</string>
+    <string name="dark_mode_power_save_alert_dialog_title">Mørk tilstand</string>
     <string name="data_connection_3_5g">H</string>
     <string name="data_connection_3_5g_plus">H+</string>
     <string name="data_connection_3g">3G</string>
@@ -1452,6 +1456,7 @@ Kontakt din it-administrator for at få mere at vide."</string>
     <string name="monitoring_description_personal_profile_named_vpn">Dine personlige apps har forbindelse til nettet via %1$s. Din netværksaktivitet, herunder mails og browserdata, er synlig for din VPN-udbyder.</string>
     <string name="monitoring_description_two_named_vpns">Denne enhed har forbindelse til internettet via %1$s og %2$s. Din netværksaktivitet, herunder mails og browserdata, er synlig for din it-administrator.</string>
     <string name="monitoring_description_vpn_settings">Åbn VPN-indstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s kan muligvis administrere apps, få adgang til data, der er tilknyttet denne enhed, og ændre enhedens indstillinger.
 
 Kontakt %2$s, hvis du har spørgsmål."</string>
@@ -1530,6 +1535,7 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -1559,6 +1565,7 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="music_controls_no_title">Ingen titel</string>
     <string name="nav_bar">Navigationslinje</string>
     <string name="nav_bar_layout">Layout</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s har sendt et billede</string>
     <string name="new_notification_text_content_description">%1$s har sendt en besked: %2$s</string>
     <string name="new_status_content_description">%1$s har opdateret sin status: %2$s</string>
@@ -1764,6 +1771,7 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="private_dns_mode_provider">Hostname for privat DNS-udbyder</string>
     <string name="private_dns_mode_provider_failure">Der kunne ikke oprettes forbindelse</string>
     <string name="private_dns_mode_provider_hostname_hint">Angiv hostname for DNS-udbyder</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Der kunne ikke oprettes forbindelse. Sluk og tænd enheden</string>
     <string name="profile_info_settings_title">Profiloplysninger</string>
     <string name="qr_code_scanner_title">Scan QR-kode</string>
@@ -1929,9 +1937,9 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="reboot_info_auto_boot_global">Kommende alarm: %s</string>
     <string name="reboot_info_shutdown_alarm_global">Nedlukningsalarm: %s</string>
     <string name="recent_conversations">Seneste samtaler</string>
-    <string name="recent_used_camera">Denne app brugte kamera</string>
-    <string name="recent_used_camera_and_microphone">Denne app optog lyd og brugte kamera</string>
-    <string name="recent_used_microphone">Denne app optog lyd</string>
+    <string name="recent_used_camera">Denne app havde adgang til kameraet</string>
+    <string name="recent_used_camera_and_microphone">Denne app havde adgang til kameraet og mikrofonen</string>
+    <string name="recent_used_microphone">Denne app havde adgang til mikrofonen</string>
     <string name="remaining_length_format">%1$s tilbage</string>
     <string name="remote_input_image_insertion_text">sendte et billede</string>
     <string name="remove_from_settings">Fjern fra Indstillinger</string>
@@ -2103,6 +2111,8 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E, MMM d</string>
     <string name="status_bar_clock_date_weekday_format">EEEE d. MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE d. MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d. MMM"</string>
     <string name="status_bar_date_format_12">"E
@@ -2352,9 +2362,9 @@ Alle brugere kan opdatere apps for alle de andre brugere."</string>
     <string name="user_setup_dialog_title">Vil du konfigurere brugeren nu?</string>
     <string name="user_setup_profile_dialog_message">Vil du oprette en profil nu?</string>
     <string name="user_switch_to_user">Skift til %s</string>
-    <string name="using_camera">Denne app bruger kamera</string>
-    <string name="using_camera_and_microphone">Denne app optager og bruger kamera</string>
-    <string name="using_microphone">Denne app optager lyd</string>
+    <string name="using_camera">Denne app har adgang til kameraet</string>
+    <string name="using_camera_and_microphone">Denne app har adgang til kameraet og mikrofonen</string>
+    <string name="using_microphone">Denne app har adgang til mikrofonen</string>
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
     <string name="verify_apps_over_usb_summary">Tjek apps, der er installeret via ADB/ADT, for skadelig adfærd</string>

@@ -2,9 +2,9 @@
 <resources>
     <string-array name="additional_cal_dialog_labels">
         <item>Ingen</item>
-        <item>Hijri Samvat</item>
-        <item>Shaka Samvat</item>
-        <item>Vikrami Samvat</item>
+        <item>Islamisk kalender</item>
+        <item>Indiens nationale kalender</item>
+        <item>Vikram-kalender</item>
     </string-array>
     <string-array name="aquarius_info">
         <item>vandmand</item>
@@ -29,6 +29,10 @@
     <string-array name="change_response_labels">
         <item>Kun dette event</item>
         <item>Alle events i serien</item>
+    </string-array>
+    <string-array name="close_alarm_repeating_labels">
+        <item>Deaktivér én gang</item>
+        <item>Altid deaktiveret</item>
     </string-array>
     <string-array name="date_calculate_spinner">
         <item>Forlæns</item>
@@ -78,6 +82,10 @@
         <item>vægt</item>
         <item>Vægten</item>
         <item>23/9 - 23/10</item>
+    </string-array>
+    <string-array name="open_alarm_repeating_labels">
+        <item>Aktivér én gang</item>
+        <item>Altid aktiveret</item>
     </string-array>
     <string-array name="panchang_weeks">
         <item>Søndag</item>
