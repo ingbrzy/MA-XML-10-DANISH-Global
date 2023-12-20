@@ -71,11 +71,13 @@
     <string name="dialog_connect_verify_perssion_fail">Kunne ikke tillade casting på dit TV. Vent et minut eller to, og prøv igen.</string>
     <string name="dialog_connected">Tilsluttet</string>
     <string name="dialog_connecting">Tilslutter…</string>
-    <string name="dialog_location_permission_message">Denne app skal have adgang til din placering for at kunne finde eksterne skærme i nærheden. Vælg \"Tillad hele tiden\", når du giver denne tilladelse for at undgå mulige fejl.</string>
+    <string name="dialog_location_permission_message">Denne app skal have adgang til din placering for at kunne finde eksterne skærme i nærheden. Vælg \"Tillad altid\", når du giver denne tilladelse for at undgå mulige fejl.</string>
     <string name="dialog_location_permission_title">Tilladelser påkrævet</string>
     <string name="dialog_miplay_permission_message">Tillad, at Casting optager lyd, får adgang til filer i den interne hukommelse og får adgang til din placering for at være i stand til at bruge denne funktion normalt. Tryk på \"Indstillinger\" og vælg \"App-tilladelser\" for at fortsætte.</string>
     <string name="dialog_miplay_permission_positive">Indstillinger</string>
     <string name="dialog_miplay_permission_title">Tilladelser påkrævet</string>
+    <string name="dialog_nearbydevice_permission_message">Giv denne enhed adgang til enheder i nærheden for at kunne bruge castingfunktioner.</string>
+    <string name="dialog_nearbydevice_permission_title">Tilladelser påkrævet</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
     <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Tilslut både din mobile enhed og dit tv til det samme Wi-Fi-netværk.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. På nogle tv-modeller er denne funktion kun tilgængelig, når skærmspejling er aktiveret. Se &lt;a href=milink://com.milink.service/specification>\"Hjælp\"&lt;/a> for at få mere at vide.&lt;/Data></string>
     <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
@@ -348,6 +350,7 @@ Hvis du skal slå Miracast til, skal du trykke på knappen [MENU] og vælge Mine
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -562,6 +565,7 @@ Læs og accepter vores &lt;a href=%1$s>Brugeraftale&lt;/a> og &lt;a href=%2$s>Pr
     <string name="toast_msg_for_multi_window">Kan ikke bruge denne funktion med delt skærm</string>
     <string name="toast_msg_for_small_window">Du kan minimere det vindue, der castes, så du kan bruge andre funktioner i din telefon uden at afbryde castingprocessen.</string>
     <string name="toast_nfc_dont_move">Flyt ikke din telefon</string>
+    <string name="toast_nfc_same_wifi">Tilslut både dit tv og denne enhed til det samme netværk</string>
     <string name="toast_title_for_small_window">Vælg \"Minimer vindue\" i appen</string>
     <string name="toast_turn_off_hotspot_before_cast">Deaktiver bærbart hotspot inden casting</string>
     <string name="today">I dag</string>

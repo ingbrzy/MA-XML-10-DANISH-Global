@@ -49,16 +49,16 @@ total %2$d sang"</item>
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d time siden</item>
+        <item quantity="one">%d time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om en time</item>
-        <item quantity="one">Om en time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halv time</item>
@@ -69,8 +69,8 @@ total %2$d sang"</item>
         <item quantity="one">Omgående</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Lige nu</item>
@@ -78,7 +78,7 @@ total %2$d sang"</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d min siden</item>
-        <item quantity="one">1 min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d kommentarer</item>
@@ -142,6 +142,10 @@ Bemærk: Filen vil blive slettet også fra denne enhed."</item>
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>
     </plurals>
+    <plurals name="hide_reason_duration">
+        <item quantity="other">Mindre end %1$d s</item>
+        <item quantity="one">Mindre end %1$d s</item>
+    </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Om 1 time</item>
         <item quantity="one">Om 1 time</item>
@@ -170,6 +174,10 @@ Bemærk: Filen vil blive slettet også fra denne enhed."</item>
         <item quantity="other">Følger %d personer</item>
         <item quantity="one">Følger %d person</item>
     </plurals>
+    <plurals name="media_store_new_songs_add">
+        <item quantity="other">%d nye sange</item>
+        <item quantity="one">%d ny sang</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d emner valgt</item>
         <item quantity="one">%d emne valgt</item>
@@ -197,6 +205,10 @@ Bemærk: Filen vil blive slettet også fra denne enhed."</item>
     <plurals name="reader_count">
         <item quantity="other">%d følgere</item>
         <item quantity="one">%d følger</item>
+    </plurals>
+    <plurals name="reward_seconds_remaining">
+        <item quantity="other">VIP-medlemskab om %d sekunder</item>
+        <item quantity="one">VIP-medlemskab om %d sekund</item>
     </plurals>
     <plurals name="send_songs_toast">
         <item quantity="other">%d sange bliver sendt</item>
@@ -233,5 +245,17 @@ Bemærk: Filen vil blive slettet også fra denne enhed."</item>
     <plurals name="vip_remain_days_hint">
         <item quantity="other">%d dage tilbage</item>
         <item quantity="one">%d dag tilbage</item>
+    </plurals>
+    <plurals name="web_reward_dialog_title">
+        <item quantity="other">Hvis du ser i %d sekunder, får du et VIP-medlemskab som belønning. Afslut alligevel?</item>
+        <item quantity="one">Hvis du ser i %d sekund, får du et VIP-medlemskab som belønning. Afslut alligevel?</item>
+    </plurals>
+    <plurals name="whitelist_multi_added">
+        <item quantity="other">Tilføjet %d filer</item>
+        <item quantity="one">Tilføjet %d fil</item>
+    </plurals>
+    <plurals name="whitelist_multi_added_before">
+        <item quantity="other">%d filer var blevet tilføjet før</item>
+        <item quantity="one">%d fil var blevet tilføjet før</item>
     </plurals>
 </resources>

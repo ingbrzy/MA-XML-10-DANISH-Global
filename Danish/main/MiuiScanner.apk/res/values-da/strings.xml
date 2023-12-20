@@ -48,6 +48,9 @@
     <string name="back">Tilbage</string>
     <string name="barcode_into_rectangle">Anbring koden indeni rammen</string>
     <string name="birthday">Fødselsdag:</string>
+    <string name="btn_add_schedule">Tilføj begivenhed</string>
+    <string name="btn_send_email">Send e-mail</string>
+    <string name="btn_send_message">Send SMS</string>
     <string name="camera_error_title">Kamerafejl</string>
     <string name="cancel">Annuller</string>
     <string name="choose_open_code_app">Vælg en app</string>
@@ -60,15 +63,17 @@
     <string name="common_save">Gem</string>
     <string name="company">Firma:</string>
     <string name="confirm">Ok</string>
-    <string name="connect_wifi">Forbind til dette netværk</string>
+    <string name="connect_wifi">Tilslut</string>
     <string name="contact_details">QR-kode kontakt:</string>
     <string name="continue_access_web_url">Gå til websted</string>
     <string name="continue_to_website">Gå til websted</string>
     <string name="copy">Kopiér</string>
     <string name="copy_text">Kopiér tekst</string>
     <string name="copy_text_success">Tekst kopieret</string>
+    <string name="copy_web_url">Kopiér URL</string>
     <string name="crop_cancel_description">Annuller</string>
     <string name="crop_done_description">Udført</string>
+    <string name="cta_purpose">Scanner skal bruge dit kamera og behandle de billeder, du tager, mens du bruger appen. Brug ikke Scanner til at tage billeder af de genstande, der indeholder dine personlige oplysninger. Ved at trykke på \"Bekræft\" accepterer du vores Privatlivspolitik og giver Scanner tilladelse til at tilslutte til internettet.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -95,6 +100,8 @@
     <string name="drag_barcode_into_frame">Træk rammen så den passer til koden</string>
     <string name="early_morning">Morgen</string>
     <string name="email">E-mail:</string>
+    <string name="email_message">Brødtekst</string>
+    <string name="email_sub">Emne</string>
     <string name="empty" />
     <string name="eras_ad">e.v.t.</string>
     <string name="eras_bc">f.v.t.</string>
@@ -103,10 +110,11 @@
     <string name="error_get_image">Kunne ikke hente billede</string>
     <string name="error_media_storage_failure">Kunne ikke gemme foto</string>
     <string name="error_permissions">Scanner har ikke nødvendige tilladelser til at fungere normalt. Gå til indstillinger og kontroller tilladeler for at fortsætte.</string>
+    <string name="error_permissions_location">Tillad denne app at få adgang til den præcise placering, så appen kan fungere normalt</string>
     <string name="error_permissions_storage">Tillad adgang til dine fotos for at kunne bruge denne funktion</string>
     <string name="evening">Eftermiddag</string>
     <string name="expand_button_title">Avanceret</string>
-    <string name="feed_search_fail">Ingen resultater. Prøv igen</string>
+    <string name="feed_search_fail">Kunne ikke finde resultater</string>
     <string name="feedback_description_camera_access">Scanner kan ikke forbinde til kamera</string>
     <string name="feedback_description_save_photo">Kunne ikke gemme foto eller video</string>
     <string name="feedback_phone">phone</string>
@@ -171,12 +179,12 @@
     <string name="friday_shortest">Fre</string>
     <string name="got_it">Forstået</string>
     <string name="import_contact">Importér kontaktperson</string>
-    <string name="impunity_declaration_content">Scanneren skal bruge dit kamera og behandle de billeder, du tager, mens du bruger appen. Brug ikke scanneren til at tage billeder af de genstande, der indeholder dine personlige oplysninger. Ved at trykke på \"Acceptér\" accepterer du vores &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">Privatlivspolitik&lt;/a>&lt;/font> og giver scanneren tilladelse til at tilslutte til internettet.</string>
+    <string name="impunity_declaration_content">Scanner skal bruge dit kamera og behandle de billeder, du tager, mens du bruger appen. Brug ikke Scanner til at tage billeder af de genstande, der indeholder dine personlige oplysninger. Ved at trykke på \"Bekræft\" accepterer du vores &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">Privatlivspolitik&lt;/a>&lt;/font> og giver Scanner tilladelse til at tilslutte til internettet.</string>
     <string name="impunity_declaration_negative_text">Afslut</string>
     <string name="jingdong">JD</string>
     <string name="kuaidi100_data">Drevet af Kuaidi 100</string>
     <string name="label_choose_picture">Vælg billede</string>
-    <string name="label_flash_light">Blink lys</string>
+    <string name="label_flash_light">Blitz</string>
     <string name="language_entry_chinese_cn">Simplificeret kinesisk</string>
     <string name="language_entry_english">Engelsk</string>
     <string name="language_entry_french">Fransk</string>
@@ -185,7 +193,7 @@
     <string name="language_entry_korean">Koreansk</string>
     <string name="language_entry_spanish">Spansk</string>
     <string name="logistics">Ekspresslevering</string>
-    <string name="low_version_tip">Opdatér MIUI til den nyeste version for at kunne bruge Scanner.</string>
+    <string name="low_version_tip">Opdatér til den nyeste systemversion for at kunne bruge Scanner.</string>
     <string name="midnight">Nat</string>
     <string name="mihome_goto_install">Installér</string>
     <string name="mihome_goto_update">Opdatér</string>
@@ -198,7 +206,7 @@
     <string name="mipayin_dialog_more">Flere</string>
     <string name="mipayin_dialog_title">Åbn med</string>
     <string name="miracast_connect">Cast</string>
-    <string name="miracast_connect_fail">Kunne ikke caste. Prøv igen</string>
+    <string name="miracast_connect_fail">Kunne ikke caste. Prøv igen.</string>
     <string name="miracast_connecting">Caster…</string>
     <string name="miracast_details">Scan QR-kode for at caste</string>
     <string name="miracast_message">Cast til %s?</string>
@@ -282,6 +290,7 @@
     <string name="note">Bemærk:</string>
     <string name="now_state">"Aktuel status: "</string>
     <string name="once">Kun én gang</string>
+    <string name="open_web_url">Åbn i Browser</string>
     <string name="pay_save_this_choose">Husk mit valg</string>
     <string name="payment_text">Åbn med %s</string>
     <string name="phone">Telefon:</string>
@@ -290,7 +299,7 @@
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="preparing_sd">Forbereder intern hukommelse…</string>
     <string name="privacy_policy">Privatlivspolitik</string>
-    <string name="qr_code_details">QR-kode oplysninger</string>
+    <string name="qr_code_details">Tekst</string>
     <string name="queryNum">Se ordre</string>
     <string name="query_faile">Ordrestatus og -detaljer er ikke blevet synkroniseret endnu. Kontroller din ordre manuelt.</string>
     <string name="query_more">Flere oplysninger</string>
@@ -301,6 +310,10 @@
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
     <string name="scan_result">Resultat</string>
+    <string name="schedule_date">Dato</string>
+    <string name="schedule_description">Beskrivelse</string>
+    <string name="schedule_location">Placering</string>
+    <string name="schedule_title">Titel</string>
     <string name="sdk_not_ready">Forbereder SDK. Prøv igen senere.</string>
     <string name="search_menu_title">Søg</string>
     <string name="secure_access_web_url">Åbn websted</string>
@@ -323,6 +336,7 @@
     <string name="sunday_shortest">Søn</string>
     <string name="switch_open">Tænd</string>
     <string name="taobao">Taobao</string>
+    <string name="text_search">Søg</string>
     <string name="the_anniversary_of_lifting_martial_law">Jubilæum for indførelse af undtagelsestilstand</string>
     <string name="the_anti_aggression_day">Antiaggressionsdag</string>
     <string name="the_arbor_day">Arbor-dag</string>
@@ -371,7 +385,9 @@
     <string name="time_picker_label_minute">M</string>
     <string name="title">Titel:</string>
     <string name="to_install_title">Denne QR-kode videresender dig til en ikke-installeret app. Download denne app nu?</string>
+    <string name="to_message">SMS-indhold</string>
     <string name="to_pay">Fuldfør betaling</string>
+    <string name="to_person">Modtager</string>
     <string name="today">I dag</string>
     <string name="toinstall">Download</string>
     <string name="tomorrow">I morgen</string>
@@ -392,16 +408,17 @@
     <string name="vender_info_translation_kingsoft">Drevet af Kingsoft</string>
     <string name="waybill_num">"Ordre: "</string>
     <string name="web">Websted:</string>
-    <string name="website_details">Websted:</string>
+    <string name="website_details">URL</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="wifi_details">WiFi:</string>
     <string name="wifi_exist_fail">Hotspot \"%1$s\" eksisterer allerede. Slet det og scan så koden igen for at oprette forbindelse.</string>
     <string name="wifi_open_fail">Kan ikke slå Wi-Fi til</string>
+    <string name="wifi_password">Adgangskode</string>
     <string name="wifi_psd_toolong">Adgangskoden er for lang. Indtast adgangskoden manuelt.</string>
     <string name="wifi_pwd">Adgangskode:</string>
-    <string name="wifi_security">Sikkerhed:</string>
-    <string name="wifi_ssid">SSID:</string>
+    <string name="wifi_security">Kryptering</string>
+    <string name="wifi_ssid">Netværksnavn</string>
     <string name="yesterday">I går</string>
 </resources>

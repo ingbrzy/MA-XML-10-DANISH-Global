@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="wifi_eap_error_message_code_16384_carrier_overrides">
-        <item>:::1839:::%1$s: Du kan ikke oprette forbindelse til Verizon Wi-Fi Access på grund af fejlen 16384.</item>
+        <item>:::1839:::%1$s: Du kan ikke oprette forbindelse til Verizon Wi-Fi. (Fejl = 16384)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_16385_carrier_overrides">
-        <item>:::1839:::%1$s: Du kan ikke oprette forbindelse til Verizon Wi-Fi Access på grund af fejlen 16385.</item>
+        <item>:::1839:::%1$s: Du kan ikke oprette forbindelse til Verizon Wi-Fi. (Fejl = 16385)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_32760_carrier_overrides">
         <item>:::1839:::%1$s: Du kan ikke oprette forbindelse til Verizon Wi-Fi Access uden for Verizons dækningsområde (fejl = 32760).</item>
@@ -28,9 +28,9 @@
         <item>:::1839:::%1$s: Verizon Wi-Fi Access er ikke tilgængeligt i dit område. Prøv igen senere eller fra en anden placering (fejl = 32766).</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_32767_carrier_overrides">
-        <item>:::1839:::%1$s: Du kan ikke oprette forbindelse til Verizon Wi-Fi Access. Prøv igen senere eller fra en anden placering.</item>
+        <item>:::1839:::%1$s: Du kan ikke oprette forbindelse til Verizon Wi-Fi Access. Prøv igen senere eller fra et andet sted. (Fejl = 32767)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_unknown_error_code_carrier_overrides">
-        <item>:::1839:::%1$s: Du kan ikke oprette forbindelse til Verizon Wi-Fi Access.</item>
+        <item>:::1839:::%1$s: Du kan ikke oprette forbindelse til Verizon Wi-Fi. (Ukendt fejl)</item>
     </string-array>
 </resources>

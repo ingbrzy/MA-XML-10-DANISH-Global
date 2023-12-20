@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accept">Accepter</string>
+    <string name="apm_enabled_first_time_message">Din enhed beholder Wi-Fi aktiveret i flytilstand. Deaktiver Wi-Fi, hvis du ikke vil have, at det forbliver aktiveret.</string>
+    <string name="apm_enabled_first_time_title">Wi‑Fi forbliver aktiv</string>
     <string name="decline">Afvis</string>
     <string name="dlg_ok">OK</string>
+    <string name="notification_channel_apm_alerts">APM-underretninger</string>
     <string name="notification_channel_network_alerts">Netværksunderretninger</string>
     <string name="notification_channel_network_available">Tilgængeligt netværk</string>
     <string name="notification_channel_network_status">Netværksstatus</string>
@@ -21,6 +24,10 @@
 %1$s
 
 "</string>
+    <string name="wifi_ca_cert_dialog_message_expiration_text">"Certifikatet udløber:
+%1$s
+
+"</string>
     <string name="wifi_ca_cert_dialog_message_hint">"Tillad kun, at der oprettes forbindelse til dette netværk, hvis oplysningerne nedenfor ser korrekte ud.
 
 "</string>
@@ -36,23 +43,23 @@
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_message_signature_name_text">"Signatur:
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">"SHA-256-fingeraftryk:
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_preT_abort_text">Opret ikke forbindelse</string>
-    <string name="wifi_ca_cert_dialog_preT_continue_text">Opret forbindelse alligevel</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">Afbryd forbindelsen nu</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">Oprethold forbindelsen</string>
     <string name="wifi_ca_cert_dialog_preT_message_hint">Netværket %1$s mangler et certifikat.</string>
     <string name="wifi_ca_cert_dialog_preT_message_link">Se, hvordan du tilføjer certifikater</string>
-    <string name="wifi_ca_cert_dialog_preT_title">Dette netværk kan ikke bekræftes</string>
+    <string name="wifi_ca_cert_dialog_preT_title">Dette netværk kan ikke verificeres</string>
     <string name="wifi_ca_cert_dialog_title">Er dette et netværk, du har tillid til?</string>
     <string name="wifi_ca_cert_failed_to_install_ca_cert">Installationen af certifikatet mislykkedes.</string>
     <string name="wifi_ca_cert_notification_message">Gennemgå netværksoplysningerne for %1$s, inden du opretter forbindelse. Tryk for at fortsætte.</string>
     <string name="wifi_ca_cert_notification_preT_abort_text">Opret ikke forbindelse</string>
     <string name="wifi_ca_cert_notification_preT_continue_text">Opret forbindelse alligevel</string>
     <string name="wifi_ca_cert_notification_preT_message">Netværket %1$s mangler et certifikat. Tryk for at se, hvordan du tilføjer certifikater.</string>
-    <string name="wifi_ca_cert_notification_preT_title">Dette netværk kan ikke bekræftes</string>
-    <string name="wifi_ca_cert_notification_title">Netværket skal bekræftes</string>
+    <string name="wifi_ca_cert_notification_preT_title">Dette netværk kan ikke verificeres</string>
+    <string name="wifi_ca_cert_notification_title">Netværket skal verificeres</string>
     <string name="wifi_cannot_connect_with_randomized_mac_message">Tryk for at ændre privatlivsindstillingerne, og prøv igen</string>
     <string name="wifi_cannot_connect_with_randomized_mac_title">Der kan ikke oprettes forbindelse til %1$s</string>
     <string name="wifi_connect_alert_message">Applikationen %1$s vil gerne have forbindelse til Wi-Fi-netværk %2$s</string>
@@ -82,14 +89,29 @@ Denne ændring kan gøre det muligt for enheder i nærheden spore din enheds lok
     <string name="wifi_enable_request_dialog_negative_button">Tillad ikke</string>
     <string name="wifi_enable_request_dialog_positive_button">Tillad</string>
     <string name="wifi_enable_request_dialog_title">Vil du give %1$s tilladelse til at aktivere Wi‑Fi?</string>
+    <string name="wifi_enabled_apm_first_time_message">Hvis du holder Wi-Fi aktiveret, sørger din enhed for, at Wi-Fi forbliver aktiveret, næste gang du slår flytilstand til</string>
+    <string name="wifi_enabled_apm_first_time_title">Wi-Fi aktiveret i flytilstand</string>
     <string name="wifi_interface_priority_approve">Tillad</string>
+    <string name="wifi_interface_priority_interface_name_ap">Wi‑Fi Hotspot</string>
+    <string name="wifi_interface_priority_interface_name_ap_bridge">Wi‑Fi Hotspot</string>
+    <string name="wifi_interface_priority_interface_name_nan">Wi‑Fi Aware</string>
+    <string name="wifi_interface_priority_interface_name_p2p">Wi-Fi Direct</string>
+    <string name="wifi_interface_priority_interface_name_sta">STA</string>
     <string name="wifi_interface_priority_message">Dette kan skabe problemer for %3$s.</string>
     <string name="wifi_interface_priority_message_plural">Dette kan skabe problemer for følgende apps: %3$s.</string>
     <string name="wifi_interface_priority_reject">Tillad ikke</string>
     <string name="wifi_interface_priority_title">%1$s anmoder om at bruge en netværksressource</string>
+    <string name="wifi_network_disabled_by_admin_button">Luk</string>
+    <string name="wifi_network_disabled_by_admin_message">%1$s er blevet deaktiveret af din administrator.</string>
+    <string name="wifi_network_disabled_by_admin_title">Utilgængeligt netværk</string>
+    <string name="wifi_network_switch_dialog_negative_button">Skift ikke</string>
+    <string name="wifi_network_switch_dialog_positive_button">Skift</string>
+    <string name="wifi_network_switch_dialog_title_bad_internet">%1$s er af dårlig kvalitet. Vil du skifte til %2$s?</string>
+    <string name="wifi_network_switch_dialog_title_no_internet">%1$s lader ikke til at have forbindelse til internettet. Vil du skifte til %2$s?</string>
     <string name="wifi_p2p_enter_pin_message">Skriv den påkrævede pinkode:</string>
     <string name="wifi_p2p_frequency_conflict_message">Telefonens Wi-Fi-forbindelse vil midlertidigt blive afbrudt, når den er tilsluttet %1$s</string>
     <string name="wifi_p2p_from_message">Fra:</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{Acceptér inden for # sekund.}one{Acceptér inden for # sekund.}other{Acceptér inden for # sekunder.}}</string>
     <string name="wifi_p2p_invitation_sent_title">Invitationen er sendt</string>
     <string name="wifi_p2p_invitation_to_connect_title">Invitation til forbindelse</string>
     <string name="wifi_p2p_show_pin_message">Pinkode:</string>

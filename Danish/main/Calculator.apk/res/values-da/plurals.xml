@@ -5,16 +5,16 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d time siden</item>
+        <item quantity="one">%d time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om en time</item>
-        <item quantity="one">Om en time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halv time</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Omgående</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Lige nu</item>
@@ -34,19 +34,11 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d min siden</item>
-        <item quantity="one">1 min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
-    <plurals name="age_label_days">
-        <item quantity="other">%d dage</item>
-        <item quantity="one">%d dag</item>
-    </plurals>
-    <plurals name="age_label_months">
-        <item quantity="other">%d måneder</item>
-        <item quantity="one">%d måned</item>
-    </plurals>
-    <plurals name="age_label_yrs">
-        <item quantity="other">år</item>
-        <item quantity="one">år</item>
+    <plurals name="delete_msg">
+        <item quantity="other">Slet %d elementer nu?</item>
+        <item quantity="one">Slet %d element nu?</item>
     </plurals>
     <plurals name="entries">
         <item quantity="other">%d elementer</item>
@@ -76,10 +68,6 @@
         <item quantity="other">Lige nu</item>
         <item quantity="one">Lige nu</item>
     </plurals>
-    <plurals name="loan_repayment_detail">
-        <item quantity="other">Detaljeret tilbagebetaling (%d år)</item>
-        <item quantity="one">Detaljeret tilbagebetaling (%d år)</item>
-    </plurals>
     <plurals name="loan_repayment_detail_unit">
         <item quantity="other">Detaljeret tilbagebetaling (%d år), CNY</item>
         <item quantity="one">Detaljeret tilbagebetaling (%d år), CNY</item>
@@ -96,6 +84,10 @@
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minut siden</item>
     </plurals>
+    <plurals name="select_items">
+        <item quantity="other">Valgte %d elementer</item>
+        <item quantity="one">Valgte %d element</item>
+    </plurals>
     <plurals name="tenure_months">
         <item quantity="other">%d måneder</item>
         <item quantity="one">%d måned</item>
@@ -103,5 +95,29 @@
     <plurals name="tenure_years">
         <item quantity="other">%d år</item>
         <item quantity="one">%d år</item>
+    </plurals>
+    <plurals name="unit_data_display_data_b">
+        <item quantity="other">Bytes</item>
+        <item quantity="one">Byte</item>
+    </plurals>
+    <plurals name="unit_data_display_data_gb">
+        <item quantity="other">Gigabytes</item>
+        <item quantity="one">Gigabyte</item>
+    </plurals>
+    <plurals name="unit_data_display_data_kb">
+        <item quantity="other">Kilobytes</item>
+        <item quantity="one">Kilobyte</item>
+    </plurals>
+    <plurals name="unit_data_display_data_mb">
+        <item quantity="other">Megabytes</item>
+        <item quantity="one">Megabyte</item>
+    </plurals>
+    <plurals name="unit_data_display_data_pb">
+        <item quantity="other">Petabytes</item>
+        <item quantity="one">Petabyte</item>
+    </plurals>
+    <plurals name="unit_data_display_data_tb">
+        <item quantity="other">Terabytes</item>
+        <item quantity="one">Terabyte</item>
     </plurals>
 </resources>

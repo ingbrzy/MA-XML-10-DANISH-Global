@@ -2,7 +2,7 @@
 <resources>
     <plurals name="Ndays">
         <item quantity="other">%d dage før</item>
-        <item quantity="one">%d dage før</item>
+        <item quantity="one">%d dag før</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">Om %1$d dage kl. %2$s</item>
@@ -17,8 +17,8 @@
         <item quantity="one">%d time før</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d minutes before</item>
-        <item quantity="one">%d minutter før</item>
+        <item quantity="other">%d minutter før</item>
+        <item quantity="one">%d minut før</item>
     </plurals>
     <plurals name="Nweeks">
         <item quantity="other">%d uger før</item>

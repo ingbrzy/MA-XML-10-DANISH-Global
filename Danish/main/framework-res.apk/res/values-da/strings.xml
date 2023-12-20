@@ -23,9 +23,10 @@
     <string name="dialog_alert_title">Bemærk!</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Denne video kan ikke streames på denne enhed.</string>
     <string name="selectTextMode">Markér tekst</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon for fingeraftryk</string>
     <string name="paste_as_plain_text">Indsæt som almindelig tekst</string>
-    <string name="autofill">AutoFyld</string>
+    <string name="autofill">Autofyld</string>
     <string name="BaMmi">Opkaldsspærring</string>
     <string name="CLIRDefaultOffNextCallOff">Standarder for opkalds-id til ikke begrænset. Næste opkald: Ikke begrænset</string>
     <string name="CLIRDefaultOffNextCallOn">Standarder for opkalds-id til ikke begrænset. Næste opkald: Begrænset</string>
@@ -169,11 +170,11 @@
     <string name="ThreeWCMmi">Trevejsopkald</string>
     <string name="accept">Accepter</string>
     <string name="accessibility_binding_label">Hjælpefunktioner</string>
-    <string name="accessibility_button_instructional_text">Du kan skifte mellem funktioner ved at holde knappen Hjælpefunktioner nede.</string>
-    <string name="accessibility_button_prompt_text">Vælg, hvilken funktion du vil bruge, når du trykker på knappen Hjælpefunktioner:</string>
+    <string name="accessibility_button_instructional_text">Du kan skifte mellem funktioner ved at holde knappen til hjælpefunktioner nede.</string>
+    <string name="accessibility_button_prompt_text">Vælg, hvilken funktion du vil bruge, når du trykker på knappen til hjælpefunktioner:</string>
     <string name="accessibility_dialog_button_allow">Tillad</string>
     <string name="accessibility_dialog_button_deny">Afvis</string>
-    <string name="accessibility_edit_shortcut_menu_button_title">Vælg, hvilke funktioner du vil bruge med knappen Hjælpefunktioner</string>
+    <string name="accessibility_edit_shortcut_menu_button_title">Vælg, hvilke funktioner du vil bruge med knappen til hjælpefunktioner</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Vælg de funktioner, du vil bruge via lydstyrkeknapperne</string>
     <string name="accessibility_enable_service_title">Vil du give %1$s fuld kontrol over din enhed?</string>
     <string name="accessibility_freeform_caption">Titellinje for %1$s.</string>
@@ -206,7 +207,7 @@ Du kan ændre de valgte funktioner i Indstillinger > Hjælpefunktioner."</string
 
 Du kan ændre denne genvej til en anden funktion i Indstillinger > Hjælpefunktioner."</string>
     <string name="accessibility_shortcut_single_service_warning_title">Vil du aktivere %1$s-genvejen?</string>
-    <string name="accessibility_shortcut_spoken_feedback">Hold begge lydstyrkeknapper nede i tre sekunder for at bruge %1$s</string>
+    <string name="accessibility_shortcut_spoken_feedback">Slip lydstyrkeknapperne. Du kan aktivere %1$s ved at holde begge lydstyrkeknapper nede igen i 3 sekunder.</string>
     <string name="accessibility_shortcut_toogle_warning">Når genvejen er aktiveret, kan du starte en hjælpefunktion ved at trykke på begge lydstyrkeknapper i tre sekunder.</string>
     <string name="accessibility_shortcut_warning_dialog_title">Vil du bruge genvejen til Hjælpefunktioner?</string>
     <string name="accessibility_system_action_back_label">Tilbage</string>
@@ -270,9 +271,7 @@ Du kan ændre denne genvej til en anden funktion i Indstillinger > Hjælpefunkti
     <string name="android_preparing_apk">Forbereder %1$s.</string>
     <string name="android_start_title">Telefonen starter…</string>
     <string name="android_system_label">Android-system</string>
-    <string name="android_upgrading_apk">Optimerer app %1$d ud af %2$d.</string>
     <string name="android_upgrading_complete">Gennemfører start.</string>
-    <string name="android_upgrading_fstrim">Lageret optimeres.</string>
     <string name="android_upgrading_notification_title">Afslutter systemopdatering…</string>
     <string name="android_upgrading_starting_apps">Åbner dine apps.</string>
     <string name="android_upgrading_title">Telefonen opdaterer…</string>
@@ -296,14 +295,15 @@ Du kan ændre denne genvej til en anden funktion i Indstillinger > Hjælpefunkti
     <string name="app_not_found">Der blev ikke fundet nogen applikation, der kan håndtere denne handling</string>
     <string name="app_running_notification_text">Tryk for at få flere oplysninger eller for at stoppe appen.</string>
     <string name="app_running_notification_title">%1$s kører</string>
-    <string name="app_streaming_blocked_message">Du har ikke adgang til denne app på din %1$s. Prøv på din telefon i stedet.</string>
+    <string name="app_streaming_blocked_message">Dette er ikke tilgængeligt på din %1$s på nuværende tidspunkt. Prøv på din telefon i stedet.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog">Denne app anmoder om yderligere sikkerhed. Prøv på din telefon i stedet.</string>
-    <string name="app_streaming_blocked_message_for_permission_dialog">Du har ikke adgang til denne app på din %1$s på nuværende tidspunkt. Prøv på din telefon i stedet.</string>
+    <string name="app_streaming_blocked_message_for_settings_dialog">Du kan ikke gøre dette på din %1$s. Prøv på din telefon i stedet.</string>
     <string name="app_streaming_blocked_title">%1$s er ikke understøttet</string>
     <string name="app_streaming_blocked_title_for_camera_dialog">Kameraet er ikke tilgængeligt</string>
     <string name="app_streaming_blocked_title_for_fingerprint_dialog">Fortsæt på telefonen</string>
     <string name="app_streaming_blocked_title_for_microphone_dialog">Mikrofonen er ikke tilgængelig</string>
     <string name="app_streaming_blocked_title_for_permission_dialog">Der kræves tilladelse</string>
+    <string name="app_streaming_blocked_title_for_playstore_dialog">Play Butik er ikke tilgængelig</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Telefonindstillingerne er ikke tilgængelige</string>
     <string name="app_suspended_default_message">%1$s er ikke tilgængelig lige nu. Dette administreres af %2$s.</string>
     <string name="app_suspended_more_details">Få flere oplysninger</string>
@@ -311,25 +311,13 @@ Du kan ændre denne genvej til en anden funktion i Indstillinger > Hjælpefunkti
     <string name="app_suspended_unsuspend_message">Afslut pause for app</string>
     <string name="app_upgrading_toast">%1$s opgraderer…</string>
     <string name="as_app_forced_to_restricted_bucket">%1$s er blevet placeret i samlingen BEGRÆNSET</string>
-    <string name="autofill_address_name_separator">" "</string>
-    <string name="autofill_address_summary_format">$1$2$3</string>
-    <string name="autofill_address_summary_name_format">$1$2$3</string>
-    <string name="autofill_address_summary_separator">", "</string>
-    <string name="autofill_area">Område</string>
+    <string name="auto_data_switch_content">Du kan altid ændre dette under Indstillinger</string>
+    <string name="auto_data_switch_title">Der blev skiftet til %s-data</string>
     <string name="autofill_continue_yes">Fortsæt</string>
-    <string name="autofill_county">Amt</string>
-    <string name="autofill_department">Afdeling</string>
-    <string name="autofill_district">Distrikt</string>
-    <string name="autofill_emirate">Emirat</string>
     <string name="autofill_error_cannot_autofill">Indhold kan ikke udfyldes automatisk</string>
-    <string name="autofill_island">Ø</string>
-    <string name="autofill_parish">Sogn</string>
     <string name="autofill_picker_accessibility_title">Valgmuligheder for AutoFyld</string>
     <string name="autofill_picker_no_suggestions">Ingen forslag fra autofyld</string>
     <string name="autofill_picker_some_suggestions">{count,plural, =1{Ét forslag fra Autofyld}one{# forslag fra Autofyld}other{# forslag fra Autofyld}}</string>
-    <string name="autofill_postal_code">Postnummer</string>
-    <string name="autofill_prefecture">Præfektur</string>
-    <string name="autofill_province">Provins</string>
     <string name="autofill_save_accessibility_title">Gem i AutoFyld</string>
     <string name="autofill_save_never">Aldrig</string>
     <string name="autofill_save_no">Nej tak</string>
@@ -347,15 +335,12 @@ Du kan ændre denne genvej til en anden funktion i Indstillinger > Hjælpefunkti
     <string name="autofill_save_type_payment_card">betalingskort</string>
     <string name="autofill_save_type_username">brugernavn</string>
     <string name="autofill_save_yes">Gem</string>
-    <string name="autofill_state">Stat</string>
-    <string name="autofill_this_form">Autofyld</string>
     <string name="autofill_update_title">Vil du opdatere i <b>%1$s</b>?</string>
     <string name="autofill_update_title_with_2types">Vil du opdatere %1$s og %2$s i <b>%3$s</b>?</string>
     <string name="autofill_update_title_with_3types">Vil du opdatere disse elementer i <b>%4$s</b>: %1$s, %2$s og %3$s?</string>
     <string name="autofill_update_title_with_type">Vil du opdatere %1$s i <b>%2$s</b>?</string>
     <string name="autofill_update_yes">Opdater</string>
     <string name="autofill_window_title">Udfyld automatisk med %1$s</string>
-    <string name="autofill_zip_code">Postnummer</string>
     <string name="back_button_label">Tilbage</string>
     <string name="badPin">Den gamle pinkode, som du har indtastet, er ikke korrekt.</string>
     <string name="badPuk">Den indtastede PUK-kode er forkert.</string>
@@ -367,7 +352,7 @@ Du kan ændre denne genvej til en anden funktion i Indstillinger > Hjælpefunkti
     <string name="beforeOneMonthDurationPast">Før for 1 måned siden</string>
     <string name="biometric_app_setting_name">Brug biometri</string>
     <string name="biometric_dialog_default_subtitle">Brug dine biometriske data for at fortsætte</string>
-    <string name="biometric_dialog_default_title">Bekræft, at det er dig</string>
+    <string name="biometric_dialog_default_title">Verificer, at det er dig</string>
     <string name="biometric_error_canceled">Godkendelsen blev annulleret</string>
     <string name="biometric_error_device_not_secured">Der er ikke angivet pinkode, mønster eller adgangskode</string>
     <string name="biometric_error_generic">Der opstod fejl i forbindelse med godkendelse</string>
@@ -395,7 +380,7 @@ Du kan ændre denne genvej til en anden funktion i Indstillinger > Hjælpefunkti
     <string name="call_notification_incoming_text">Indgående opkald</string>
     <string name="call_notification_ongoing_text">Igangværende opkald</string>
     <string name="call_notification_screening_text">Et indgående opkald screenes</string>
-    <string name="capability_desc_canCaptureFingerprintGestures">Kan registrere bevægelser, der foretages på enhedens fingeraftrykslæser.</string>
+    <string name="capability_desc_canCaptureFingerprintGestures">Kan registrere bevægelser, der foretages på enhedens fingeraftrykssensor.</string>
     <string name="capability_desc_canControlMagnification">Tjek skærmens zoomniveau og position.</string>
     <string name="capability_desc_canPerformGestures">Kan trykke, stryge, knibe sammen og udføre andre bevægelser.</string>
     <string name="capability_desc_canRequestFilterKeyEvents">Dette omfatter personlige data såsom kreditkortnumre og adgangskoder.</string>
@@ -429,10 +414,18 @@ Du kan ændre denne genvej til en anden funktion i Indstillinger > Hjælpefunkti
     <string name="chooser_no_direct_share_targets">Der er ingen anbefalede personer at dele med</string>
     <string name="chooser_wallpaper">Skift baggrund</string>
     <string name="clearDefaultHintMsg">Ryd standard i Systemindstillinger > Apps > Downloadet.</string>
+    <string name="clone_profile_label_badge">Klon af %1$s</string>
     <string name="close_button_text">Luk</string>
     <string name="color_correction_feature_name">Farvekorrigering</string>
     <string name="color_inversion_feature_name">Ombytning af farver</string>
     <string name="common_name">Fællesnavn:</string>
+    <string name="concurrent_display_notification_active_content">%1$s bruger begge skærme til at vise indhold</string>
+    <string name="concurrent_display_notification_active_title">Dual Screen er aktiveret</string>
+    <string name="concurrent_display_notification_name">Dual Screen</string>
+    <string name="concurrent_display_notification_power_save_content">Dual Screen er ikke tilgængelig, fordi Batterisparefunktion er aktiveret. Du kan deaktivere dette i Indstillinger.</string>
+    <string name="concurrent_display_notification_power_save_title">Dual Screen er ikke tilgængelig</string>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen er ikke tilgængelig, fordi din telefon er for varm</string>
+    <string name="concurrent_display_notification_thermal_title">Enheden er for varm</string>
     <string name="condition_provider_service_binding_label">Tjeneste til formidling af betingelser</string>
     <string name="conference_call">Telefonmøde</string>
     <string name="config_pdp_reject_dialog_title" />
@@ -455,6 +448,12 @@ Du kan ændre denne genvej til en anden funktion i Indstillinger > Hjælpefunkti
     <string name="create_contact_using">"Opret kontakt
 ved hjælp af %s"</string>
     <string name="crossSimFormat_spn_cross_sim_calling">%s-opkald via alternativt SIM</string>
+    <string name="csd_dose_reached_warning">"Vil du fortsætte med at lytte ved høj lydstyrke?
+
+Høretelefonernes lydstyrke har været høj i længere tid end anbefalet, hvilket kan skade din hørelse"</string>
+    <string name="csd_momentary_exposure_warning">"Der er registreret høj lyd
+
+Høretelefonernes lydstyrke har været højere end anbefalet, hvilket kan skade din hørelse"</string>
     <string name="data_saver_description">Datasparefunktionen forhindrer nogle apps i at sende eller modtage data i baggrunden for at reducere dataforbruget. En app, der er i brug, kan få adgang til data, men gør det måske ikke så ofte. Dette kan f.eks. betyde, at billeder ikke vises, før du trykker på dem.</string>
     <string name="data_saver_enable_button">Aktivér</string>
     <string name="data_saver_enable_title">Vil du aktivere Datasparefunktion?</string>
@@ -491,9 +490,10 @@ ved hjælp af %s"</string>
     <string name="default_audio_route_category_name">System</string>
     <string name="default_audio_route_name">Telefon</string>
     <string name="default_audio_route_name_dock_speakers">Dockstationens højttalere</string>
-    <string name="default_audio_route_name_hdmi">HDMI</string>
+    <string name="default_audio_route_name_external_device">Ekstern enhed</string>
     <string name="default_audio_route_name_headphones">Hovedtelefoner</string>
     <string name="default_audio_route_name_usb">USB</string>
+    <string name="default_card_name">KORT %d</string>
     <string name="default_notification_channel_label">Uden kategori</string>
     <string name="delete">Slet</string>
     <string name="deleteText">Slet</string>
@@ -501,11 +501,14 @@ ved hjælp af %s"</string>
     <string name="demo_restarting_message">Nulstiller enheden…</string>
     <string name="demo_starting_message">Starter demoen…</string>
     <string name="deny">Afvis</string>
+    <string name="deprecated_abi_message">Denne app er ikke kompatibel med den nyeste Android-version. Tjek, om der er en opdatering, eller kontakt appudvikleren.</string>
     <string name="deprecated_target_sdk_app_store">Søg efter opdatering</string>
-    <string name="deprecated_target_sdk_message">Denne app er lavet til en ældre version af Android og fungerer muligvis ikke korrekt. Prøv at søge efter opdateringer, eller kontakt udvikleren.</string>
+    <string name="deprecated_target_sdk_message">Denne app er udviklet til en ældre version af Android. Den fungerer muligvis ikke korrekt, og den omfatter ikke de nyeste sikkerhedsfunktioner og den nyeste privatlivsbeskyttelse. Tjek, om der er en opdatering, eller kontakt appudvikleren.</string>
     <string name="description_target_unlock_tablet">Glid hurtigt henover for at låse op.</string>
     <string name="device_ownership_relinquished">Administratoren har gjort personlig brug af enheden utilgængelig</string>
     <string name="device_policy_manager_service">Device Policy Manager Service</string>
+    <string name="device_state_notification_settings_button">Gå til Indstillinger</string>
+    <string name="device_state_notification_turn_off_button">Sluk</string>
     <string name="device_storage_monitor_notification_channel">Lagerplads på enheden</string>
     <string name="dial_number_using">"Ring til nummer
 ved hjælp af %s"</string>
@@ -516,10 +519,12 @@ ved hjælp af %s"</string>
     <string name="display_manager_overlay_display_name">Overlejring nr. %1$d</string>
     <string name="display_manager_overlay_display_secure_suffix">, sikker</string>
     <string name="display_manager_overlay_display_title">%1$s: %2$d x %3$d, %4$d dpi</string>
+    <string name="display_rotation_camera_compat_toast_after_rotation">Roter, og få en bedre visning</string>
+    <string name="display_rotation_camera_compat_toast_in_multi_window">Åbn %s i fuld skærm for at få en bedre visning</string>
     <string name="dlg_ok">OK</string>
     <string name="done_accessibility_shortcut_menu_button">Udfør</string>
     <string name="done_label">Udfør</string>
-    <string name="double_tap_toast">Tip! Dobbeltklik for at zoome ind eller ud.</string>
+    <string name="dream_preview_title">Preview, %1$s</string>
     <string name="dump_heap_notification">%1$s har overskredet sin hukommelsesgrænse</string>
     <string name="dump_heap_notification_detail">Der er indsamlet en heap dump. Tryk for at dele.</string>
     <string name="dump_heap_ready_notification">Din heap dump for %1$s er klar</string>
@@ -527,11 +532,11 @@ ved hjælp af %s"</string>
     <string name="dump_heap_system_text">Processen for %1$s overskrider hukommelsesgrænsen på %2$s. Der er en tilgængelig heap dump, som du kan dele. Vær opmærksom på, at denne heap dump kan indeholde følsomme personlige oplysninger, som processen har adgang til, f.eks. ting, du har indtastet.</string>
     <string name="dump_heap_text">Processen %1$s har overskredet sin proceshukommelsesgrænse på %2$s. En heap dump er tilgængelig og kan deles med udvikleren. Vær forsigtig! Denne heap dump kan indeholde dine personlige oplysninger, som appen har adgang til.</string>
     <string name="dump_heap_title">Vil du dele en heap dump?</string>
-    <string name="duration_days_relative">{count,plural, =1{For # dag siden}one{For # dag siden}other{For # dage siden}}</string>
+    <string name="duration_days_relative">{count,plural, =1{1 dag siden}one{1 dag siden}other{# dag siden}}</string>
     <string name="duration_days_relative_future">{count,plural, =1{# dag}one{# dag}other{# dage}}</string>
     <string name="duration_days_shortest">%d d.</string>
     <string name="duration_days_shortest_future">om %d d.</string>
-    <string name="duration_hours_relative">{count,plural, =1{For # time siden}one{For # time siden}other{For # timer siden}}</string>
+    <string name="duration_hours_relative">{count,plural, =1{# time siden}one{# time siden}other{# timer siden}}</string>
     <string name="duration_hours_relative_future">{count,plural, =1{# time}one{# time}other{# timer}}</string>
     <string name="duration_hours_shortest">%d t.</string>
     <string name="duration_hours_shortest_future">om %d t.</string>
@@ -544,8 +549,8 @@ ved hjælp af %s"</string>
     <string name="duration_years_shortest">%d år</string>
     <string name="duration_years_shortest_future">om %d år</string>
     <string name="dynamic_mode_notification_channel_name">Notifikation med oplysninger om rutinetilstand</string>
-    <string name="dynamic_mode_notification_summary">Batterisparefunktion er aktiveret for at forlænge batteritiden</string>
-    <string name="dynamic_mode_notification_title">Enheden løber muligvis tør for batteri, inden du normalt oplader den</string>
+    <string name="dynamic_mode_notification_summary">Reducerer batteriforbruget for at forlænge batteritiden</string>
+    <string name="dynamic_mode_notification_title">Batterisparefunktion er aktiveret</string>
     <string name="editTextMenuTitle">Teksthandlinger</string>
     <string name="edit_accessibility_shortcut_menu_button">Rediger genveje</string>
     <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
@@ -593,7 +598,7 @@ ved hjælp af %s"</string>
     <string name="ext_media_new_notification_title">Nyt %s</string>
     <string name="ext_media_nomedia_notification_message">Nogle funktioner virker muligvis ikke som de skal. Indsæt en ny lagerenhed.</string>
     <string name="ext_media_nomedia_notification_title">%s er fjernet</string>
-    <string name="ext_media_ready_notification_message">Til overførsel af billeder og medier</string>
+    <string name="ext_media_ready_notification_message">Til opbevaring af billeder, videoer, musik m.m.</string>
     <string name="ext_media_seamless_action">Skift udgang</string>
     <string name="ext_media_status_bad_removal">Fjernet på usikker vis</string>
     <string name="ext_media_status_checking">Kontrollerer…</string>
@@ -611,38 +616,41 @@ ved hjælp af %s"</string>
     <string name="ext_media_unmountable_notification_title">Problem med %s</string>
     <string name="ext_media_unmounting_notification_message">Fjern ikke</string>
     <string name="ext_media_unmounting_notification_title">Skubber %s ud</string>
-    <string name="ext_media_unsupported_notification_message">Denne enhed understøtter ikke dette %s. Tryk for at konfigurere det til et understøttet format.</string>
-    <string name="ext_media_unsupported_notification_title">%s understøttes ikke</string>
+    <string name="ext_media_unsupported_notification_message">Tryk for at konfigurere .</string>
+    <string name="ext_media_unsupported_notification_title">%s er registreret</string>
     <string name="extract_edit_menu_button">Rediger</string>
-    <string name="face_acquired_insufficient">Der blev ikke registreret ansigtsdata. Prøv igen.</string>
-    <string name="face_acquired_not_detected">Sørg for, at dit ansigt er direkte foran telefonen.</string>
-    <string name="face_acquired_obscured">Hvis noget skjuler dit ansigt, skal du fjerne det.</string>
-    <string name="face_acquired_pan_too_extreme">Du skal ikke dreje hovedet så meget.</string>
+    <string name="face_acquired_dark_glasses_detected_alt">Mørke briller er registreret. Dit ansigt skal være helt synligt.</string>
+    <string name="face_acquired_insufficient">Din ansigtsmodel kan ikke oprettes. Prøv igen.</string>
+    <string name="face_acquired_mouth_covering_detected_alt">Ansigtsdækning er registreret. Dit ansigt skal være helt synligt.</string>
+    <string name="face_acquired_not_detected">Dit ansigt kan ikke registreres. Hold din telefon i øjenhøjde.</string>
+    <string name="face_acquired_obscured">Hvis noget skjuler dit ansigt, skal du fjerne det</string>
+    <string name="face_acquired_pan_too_extreme">Kig mere direkte på din telefon</string>
     <string name="face_acquired_poor_gaze">Kig mere direkte på din enhed.</string>
     <string name="face_acquired_recalibrate">Registrer dit ansigt igen.</string>
-    <string name="face_acquired_roll_too_extreme">Du skal ikke dreje hovedet så meget.</string>
+    <string name="face_acquired_recalibrate_alt">Din ansigtsmodel kan ikke oprettes. Prøv igen.</string>
+    <string name="face_acquired_roll_too_extreme">Kig mere direkte på din telefon</string>
     <string name="face_acquired_sensor_dirty">Rengør toppen af din skærm, inkl. den sorte bjælke</string>
-    <string name="face_acquired_tilt_too_extreme">Ret dit hoved lidt op.</string>
+    <string name="face_acquired_tilt_too_extreme">Kig mere direkte på din telefon</string>
     <string name="face_acquired_too_bright">Der er for lyst. Prøv en mere dæmpet belysning.</string>
-    <string name="face_acquired_too_close">Flyt telefonen længere væk.</string>
-    <string name="face_acquired_too_dark">For mørkt. Prøv med mere belysning.</string>
-    <string name="face_acquired_too_different">Ansigtet kan ikke længere genkendes. Prøv igen.</string>
-    <string name="face_acquired_too_far">Flyt telefonen tættere på.</string>
-    <string name="face_acquired_too_high">Løft telefonen højere op.</string>
-    <string name="face_acquired_too_left">Flyt telefonen til højre.</string>
-    <string name="face_acquired_too_low">Sænk telefonen.</string>
+    <string name="face_acquired_too_close">Flyt telefonen længere væk</string>
+    <string name="face_acquired_too_dark">Der er ikke nok lys</string>
+    <string name="face_acquired_too_different">Ansigtet kan ikke genkendes. Prøv igen.</string>
+    <string name="face_acquired_too_far">Flyt telefonen tættere på</string>
+    <string name="face_acquired_too_high">Løft telefonen højere op</string>
+    <string name="face_acquired_too_left">Flyt telefonen længere til højre</string>
+    <string name="face_acquired_too_low">Sænk telefonen</string>
     <string name="face_acquired_too_much_motion">Der er for meget bevægelse. Hold telefonen stille.</string>
-    <string name="face_acquired_too_right">Flyt telefonen til venstre.</string>
-    <string name="face_acquired_too_similar">Det minder for meget om et andet. Skift stilling.</string>
+    <string name="face_acquired_too_right">Flyt telefonen længere til venstre for dig</string>
+    <string name="face_acquired_too_similar">Flyt dit hoved en smule</string>
     <string name="face_app_setting_name">Brug ansigtslås</string>
     <string name="face_authenticated_confirmation_required">Ansigtet er godkendt. Tryk på Bekræft.</string>
     <string name="face_authenticated_no_confirmation_required">Ansigtet er godkendt</string>
     <string name="face_dialog_default_subtitle">Brug dit ansigt for at fortsætte</string>
     <string name="face_error_canceled">Ansigtshandlingen blev annulleret.</string>
-    <string name="face_error_hw_not_available">Ansigt ikke bekræftet. Hardware ikke tilgængelig.</string>
+    <string name="face_error_hw_not_available">Ansigt ikke verificeret. Hardware ikke tilgængelig.</string>
     <string name="face_error_hw_not_present">Ansigtslås understøttes ikke på denne enhed</string>
     <string name="face_error_lockout">Du har prøvet for mange gange. Prøv igen senere.</string>
-    <string name="face_error_lockout_permanent">Du har brugt for mange forsøg. Ansigtslås er deaktiveret.</string>
+    <string name="face_error_lockout_permanent">Du har brugt for mange forsøg. Ansigtslås er utilgængelig.</string>
     <string name="face_error_lockout_screen_lock">Du har brugt for mange forsøg. Angiv skærmlåsen i stedet.</string>
     <string name="face_error_no_space">Der kan ikke gemmes nye ansigtsdata. Slet et gammelt først.</string>
     <string name="face_error_not_enrolled">Du har ikke konfigureret ansigtslås.</string>
@@ -675,36 +683,39 @@ Kontakt din organisations administrator, hvis du har spørgsmål."</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Funktionskoden er komplet.</string>
     <string name="fcError">Forbindelsesproblemer eller ugyldig funktionskode.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_count">{count,plural, =1{{file_name} + # fil}one{{file_name} + # fil}other{{file_name} + # filer}}</string>
     <string name="find">Find</string>
     <string name="find_next">Find næste</string>
     <string name="find_on_page">Find på siden</string>
     <string name="find_previous">Find forrige</string>
     <string name="fingerprint_acquired_already_enrolled">Prøv med et andet fingeraftryk</string>
-    <string name="fingerprint_acquired_imager_dirty">Rengør fingeraftrykslæseren, og prøv igen</string>
-    <string name="fingerprint_acquired_imager_dirty_alt">Rengør læseren, og prøv igen</string>
+    <string name="fingerprint_acquired_imager_dirty">Rengør fingeraftrykssensoren, og prøv igen</string>
+    <string name="fingerprint_acquired_imager_dirty_alt">Rengør sensoren, og prøv igen</string>
     <string name="fingerprint_acquired_immobile">Flyt fingeren en smule hver gang</string>
-    <string name="fingerprint_acquired_insufficient">Fingeraftrykket kunne ikke behandles. Prøv igen.</string>
-    <string name="fingerprint_acquired_partial">Hold fingeren nede på læseren</string>
+    <string name="fingerprint_acquired_insufficient">Fingeraftrykket kan ikke genkendes. Prøv igen.</string>
+    <string name="fingerprint_acquired_partial">Hold fingeren på sensoren</string>
+    <string name="fingerprint_acquired_power_press">Et tryk på afbryderknappen er blevet registreret</string>
     <string name="fingerprint_acquired_too_bright">Der er for lyst</string>
-    <string name="fingerprint_acquired_too_fast">Hold fingeren nede på læseren</string>
+    <string name="fingerprint_acquired_too_fast">Hold fingeren på sensoren</string>
     <string name="fingerprint_acquired_too_slow">Du bevægede fingeren for langsomt. Prøv igen.</string>
     <string name="fingerprint_acquired_try_adjusting">Prøv at justere den</string>
     <string name="fingerprint_app_setting_name">Brug fingeraftryk</string>
     <string name="fingerprint_authenticated">Fingeraftrykket blev godkendt</string>
     <string name="fingerprint_dialog_default_subtitle">Brug dit fingeraftryk for at fortsætte</string>
-    <string name="fingerprint_error_bad_calibration">Fingeraftrykslæseren kan ikke bruges. Få den repareret</string>
+    <string name="fingerprint_error_bad_calibration">Fingeraftrykssensoren kan ikke bruges. Få den repareret</string>
     <string name="fingerprint_error_canceled">Fingeraftrykshandlingen blev annulleret.</string>
     <string name="fingerprint_error_hw_not_available">Hardwaren til fingeraftryk er ikke tilgængelig.</string>
-    <string name="fingerprint_error_hw_not_present">Denne enhed har ingen fingeraftrykslæser.</string>
-    <string name="fingerprint_error_lockout">Du har prøvet for mange gange. Prøv igen senere.</string>
-    <string name="fingerprint_error_lockout_permanent">Du har brugt for mange forsøg. Fingeraftrykslæseren er deaktiveret.</string>
+    <string name="fingerprint_error_hw_not_present">Denne enhed har ingen fingeraftrykssensor.</string>
+    <string name="fingerprint_error_lockout">Du har brugt for mange forsøg. Brug skærmlåsen i stedet.</string>
+    <string name="fingerprint_error_lockout_permanent">Du har brugt for mange forsøg. Brug skærmlåsen i stedet.</string>
     <string name="fingerprint_error_no_fingerprints">Der er ikke registreret nogen fingeraftryk.</string>
     <string name="fingerprint_error_no_space">Fingeraftrykket kan ikke gemmes</string>
     <string name="fingerprint_error_not_match">Fingeraftrykket blev ikke genkendt</string>
+    <string name="fingerprint_error_power_pressed">Der blev trykket på afbryderknappen</string>
     <string name="fingerprint_error_security_update_required">Sensoren er midlertidigt deaktiveret.</string>
-    <string name="fingerprint_error_timeout">Registrering af fingeraftryk fik timeout. Prøv igen.</string>
-    <string name="fingerprint_error_unable_to_process">Prøv igen.</string>
+    <string name="fingerprint_error_timeout">Konfigurationen af fingeraftryk fik timeout. Prøv igen.</string>
+    <string name="fingerprint_error_unable_to_process">Fingeraftrykket kan ikke behandles. Prøv igen.</string>
     <string name="fingerprint_error_user_canceled">Fingeraftrykshandlingen blev annulleret af brugeren.</string>
     <string name="fingerprint_error_vendor_unknown">Noget gik galt. Prøv igen.</string>
     <string name="fingerprint_name_template">Fingeraftryk %d</string>
@@ -712,7 +723,7 @@ Kontakt din organisations administrator, hvis du har spørgsmål."</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Brug dit fingeraftryk eller din skærmlås for at fortsætte</string>
     <string name="fingerprint_recalibrate_notification_content">Få den repareret.</string>
     <string name="fingerprint_recalibrate_notification_name">Oplåsning med fingeraftryk</string>
-    <string name="fingerprint_recalibrate_notification_title">Fingeraftrykslæseren kan ikke bruges</string>
+    <string name="fingerprint_recalibrate_notification_title">Fingeraftrykssensoren kan ikke bruges</string>
     <string name="fingerprint_setup_notification_content">Tryk for at tilføje et fingeraftryk</string>
     <string name="fingerprint_setup_notification_title">Konfigurer flere måder at låse op på</string>
     <string name="fingerprint_udfps_error_not_match">Fingeraftrykket blev ikke genkendt</string>
@@ -728,24 +739,22 @@ Kontakt din organisations administrator, hvis du har spørgsmål."</string>
     <string name="forward_intent_to_work">Du bruger denne app i din arbejdsprofil</string>
     <string name="fp_power_button_bp_message">"Du har trykket på afbryderknappen, hvilket som regel slukker skærmen.
 
-Prøv at trykke let på knappen for at bekræfte dit fingeraftryk."</string>
+Prøv at trykke let på knappen for at verificere dit fingeraftryk."</string>
     <string name="fp_power_button_bp_negative_button">Fortsæt</string>
     <string name="fp_power_button_bp_positive_button">Sluk skærm</string>
-    <string name="fp_power_button_bp_title">Vil du bekræfte dit fingeraftryk?</string>
+    <string name="fp_power_button_bp_title">Vil du verificere dit fingeraftryk?</string>
+    <string name="fp_power_button_enrollment_button_text">Deaktiver</string>
     <string name="fp_power_button_enrollment_message">"Du har trykket på afbryderknappen, hvilket som regel slukker skærmen.
 
 Prøv at trykke let på knappen, mens du konfigurerer dit fingeraftryk."</string>
-    <string name="fp_power_button_enrollment_negative_button">Fortsæt</string>
-    <string name="fp_power_button_enrollment_positive_button">Sluk skærm</string>
-    <string name="fp_power_button_enrollment_title">Vil du fortsætte konfigurationen?</string>
+    <string name="fp_power_button_enrollment_title">Sluk skærmen for at afslutte konfigurationen</string>
     <string name="gadget_host_error_inflating">Widget kunne ikke tilføjes.</string>
     <string name="geofencing_service">Tjeneste til geografisk afgrænsning</string>
-    <string name="gigabyteShort">GB</string>
     <string name="global_action_assist">Assistance</string>
     <string name="global_action_bug_report">Fejlrapport</string>
     <string name="global_action_emergency">Nødsituation</string>
-    <string name="global_action_lock">Skærmlås</string>
-    <string name="global_action_lockdown">Lås enhed</string>
+    <string name="global_action_lock">Skærm­lås</string>
+    <string name="global_action_lockdown">Ekstralås</string>
     <string name="global_action_logout">Afslut sessionen</string>
     <string name="global_action_power_off">Sluk</string>
     <string name="global_action_power_options">Afbryderknap</string>
@@ -779,6 +788,7 @@ Prøv at trykke let på knappen, mens du konfigurerer dit fingeraftryk."</string
     <string name="harmful_app_warning_open_anyway">ÅBN ALLIGEVEL</string>
     <string name="harmful_app_warning_title">Der er registreret en skadelig app</string>
     <string name="harmful_app_warning_uninstall">AFINSTALLER</string>
+    <string name="hearing_aids_feature_name">Høreapparater</string>
     <string name="heavy_weight_notification">%1$s er i gang</string>
     <string name="heavy_weight_notification_detail">Tryk for at vende tilbage til spillet</string>
     <string name="heavy_weight_switcher_text">Du kan forbedre ydeevnen ved kun at åbne ét af disse spil ad gangen.</string>
@@ -849,6 +859,13 @@ Er du sikker på, at du vil navigere væk fra denne side?"</string>
     <string name="js_dialog_before_unload_title">Bekræft navigation</string>
     <string name="js_dialog_title">På siden på \"%s\" står der:</string>
     <string name="js_dialog_title_default">JavaScript</string>
+    <string name="keyboard_layout_notification_more_than_three_selected_message">Tastaturlayoutet er angivet som %1$s, %2$s, %3$s… Tryk for at ændre dette.</string>
+    <string name="keyboard_layout_notification_multiple_selected_message">Tryk for at se tastaturer</string>
+    <string name="keyboard_layout_notification_multiple_selected_title">Fysiske tastaturer er konfigureret</string>
+    <string name="keyboard_layout_notification_one_selected_message">Tastaturlayoutet er angivet som %s. Tryk for at ændre dette.</string>
+    <string name="keyboard_layout_notification_selected_title">%s er konfigureret</string>
+    <string name="keyboard_layout_notification_three_selected_message">Tastaturlayoutet er angivet som %1$s, %2$s, %3$s. Tryk for at ændre dette.</string>
+    <string name="keyboard_layout_notification_two_selected_message">Tastaturlayoutet er angivet som %1$s, %2$s. Tryk for at ændre dette.</string>
     <string name="keyboardview_keycode_alt">Alt</string>
     <string name="keyboardview_keycode_cancel">Annuller</string>
     <string name="keyboardview_keycode_delete">Slet</string>
@@ -917,6 +934,7 @@ Gå til "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_reordering_delete_drop_target_text">Fjern</string>
     <string name="kg_sim_pin_instructions">Angiv pinkode til SIM-kort</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kortet låses op…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Du har indtastet din adgangskode forkert %1$d gange. 
 
 Prøv igen om %2$d sekunder."</string>
@@ -929,9 +947,10 @@ Prøv igen om %2$d sekunder."</string>
     <string name="kg_wrong_password">Forkert adgangskode</string>
     <string name="kg_wrong_pattern">Forkert mønster</string>
     <string name="kg_wrong_pin">Forkert pinkode</string>
-    <string name="kilobyteShort">kB</string>
+    <string name="language_picker_regions_section_suggested">Forslag</string>
     <string name="language_picker_section_all">Alle sprog</string>
     <string name="language_picker_section_suggested">Foreslået</string>
+    <string name="language_picker_section_suggested_bilingual">Foreslåede sprog</string>
     <string name="language_selection_title">Tilføj et sprog</string>
     <string name="last_month">Seneste måned</string>
     <string name="last_num_days">{count,plural, =1{Seneste dag}one{De seneste # dag}other{De seneste # dage}}</string>
@@ -999,7 +1018,7 @@ Kontakt din trådløse tjenesteudbyder for at få et andet SIM-kort."</string>
     <string name="lockscreen_sim_locked_message">SIM-kortet er låst.</string>
     <string name="lockscreen_sim_puk_locked_instructions">Se brugervejledningen, eller kontakt kundeservice.</string>
     <string name="lockscreen_sim_puk_locked_message">SIM-kortet er låst med PUK-koden.</string>
-    <string name="lockscreen_sim_unlock_progress_dialog_message">Låser SIM-kortet op ...</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">SIM-kortet låses op…</string>
     <string name="lockscreen_sound_off_label">Lyd slået fra</string>
     <string name="lockscreen_sound_on_label">Lyd slået til</string>
     <string name="lockscreen_storage_locked">Lås op for at se alle funktioner og data</string>
@@ -1021,19 +1040,11 @@ Prøv igen om %2$d sekunder."</string>
     <string name="lockscreen_transport_rew_description">Spol tilbage</string>
     <string name="lockscreen_transport_stop_description">Stop</string>
     <string name="lockscreen_unlock_label">Lås op</string>
-    <string name="log_access_confirmation_allow">Tillad engangsadgang</string>
-    <string name="log_access_confirmation_body">"Enhedslogs registrerer, hvad der sker på din enhed. Apps kan bruge disse logs til at finde og løse problemer.
-
-Nogle logs kan indeholde følsomme oplysninger, så giv kun apps, du har tillid til, adgang til alle enhedslogs. 
-
-Selvom du ikke giver denne app adgang til alle enhedslogs, kan den stadig tilgå sine egne logs. Producenten af din enhed kan muligvis fortsat tilgå visse logs eller oplysninger på din enhed. Få flere oplysninger"</string>
-    <string name="log_access_confirmation_deny">Tillad ikke</string>
-    <string name="log_access_confirmation_title">Vil du give %s adgang til alle enhedslogs?</string>
-    <string name="log_access_do_not_show_again">Vis ikke igen</string>
     <string name="low_internal_storage_view_text">Nogle systemfunktioner virker måske ikke</string>
     <string name="low_internal_storage_view_text_no_boot">Der er ikke nok ledig lagerplads til systemet. Sørg for, at du har 250 MB ledig plads, og genstart.</string>
     <string name="low_internal_storage_view_title">Der er snart ikke mere lagerplads</string>
     <string name="low_memory">Telefonens lager er fuldt. Slet nogle filer for at frigøre plads.</string>
+    <string name="managed_profile_app_label">Skift til %1$s til arbejdsbrug</string>
     <string name="managed_profile_label">Skift til arbejdsprofil</string>
     <string name="managed_profile_label_badge">%1$s – arbejde</string>
     <string name="managed_profile_label_badge_2">2. %1$s til arbejde</string>
@@ -1147,7 +1158,6 @@ Selvom du ikke giver denne app adgang til alle enhedslogs, kan den stadig tilgå
     <string name="mediasize_na_tabloid">Tabloid</string>
     <string name="mediasize_unknown_landscape">Ukendt liggende format</string>
     <string name="mediasize_unknown_portrait">Ukendt stående format</string>
-    <string name="megabyteShort">MB</string>
     <string name="meid">MEID</string>
     <string name="menu_alt_shortcut_label">Alt+</string>
     <string name="menu_ctrl_shortcut_label">Ctrl+</string>
@@ -1158,6 +1168,8 @@ Selvom du ikke giver denne app adgang til alle enhedslogs, kan den stadig tilgå
     <string name="menu_shift_shortcut_label">Shift+</string>
     <string name="menu_space_shortcut_label">plads</string>
     <string name="menu_sym_shortcut_label">Sym+</string>
+    <string name="mic_access_off_toast">Mikrofonen er blokeret</string>
+    <string name="mic_access_on_toast">Mikrofonen er tilgængelig</string>
     <string name="midnight">midnat</string>
     <string name="mime_type_apk">Android-app</string>
     <string name="mime_type_audio">Lyd</string>
@@ -1177,8 +1189,15 @@ Selvom du ikke giver denne app adgang til alle enhedslogs, kan den stadig tilgå
     <string name="mime_type_spreadsheet_ext">%1$s-regneark</string>
     <string name="mime_type_video">Video</string>
     <string name="mime_type_video_ext">%1$s-video</string>
-    <string name="miniresolver_open_in_personal">Vil du åbne %s på din personlige profil?</string>
-    <string name="miniresolver_open_in_work">Vil du åbne %s på din arbejdsprofil?</string>
+    <string name="miniresolver_call">Ring op</string>
+    <string name="miniresolver_call_in_work">Vil du foretage et opkald via en arbejdsapp?</string>
+    <string name="miniresolver_call_information">Din organisation tillader kun, at du foretager opkald via arbejdsapps</string>
+    <string name="miniresolver_open_in_personal">Vil du åbne indholdet via %s (personlig)?</string>
+    <string name="miniresolver_open_in_work">Vil du åbne indholdet via %s (arbejde)?</string>
+    <string name="miniresolver_open_work">Vil du åbne %s (arbejde)?</string>
+    <string name="miniresolver_sms_information">Din organisation tillader kun, at du sender beskeder via arbejdsapps</string>
+    <string name="miniresolver_switch">Skift</string>
+    <string name="miniresolver_switch_to_work">Vil du skifte til en arbejdsapp?</string>
     <string name="miniresolver_use_personal_browser">Brug personlig browser</string>
     <string name="miniresolver_use_work_browser">Brug arbejdsbrowser</string>
     <string name="minute">min.</string>
@@ -1195,6 +1214,7 @@ Selvom du ikke giver denne app adgang til alle enhedslogs, kan den stadig tilgå
     <string name="mmcc_imsi_unknown_in_hlr_msim_template">SIM-kortet %d er ikke provisioneret</string>
     <string name="mmiComplete">MMI-nummer fuldført.</string>
     <string name="mmiError">Forbindelsesproblemer eller ugyldigt MMI-nummer.</string>
+    <string name="mmiErrorNotSupported">Funktionen understøttes ikke.</string>
     <string name="mmiErrorWhileRoaming">Det er ikke muligt at ændre indstillingerne for viderestilling af opkald fra din telefon, mens du bruger roaming.</string>
     <string name="mmiFdnError">Du kan kun foretage handlinger med dine numre til begrænset opkald.</string>
     <string name="mobile_no_internet">Mobilnetværket har ingen internetadgang</string>
@@ -1212,8 +1232,8 @@ Selvom du ikke giver denne app adgang til alle enhedslogs, kan den stadig tilgå
 
 Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. personlige oplysninger såsom beskeder og navne på kontakter. Funktionen kan også afvise eller svare på notifikationer, f.eks. ved at besvare telefonopkald og justere Forstyr ikke."</string>
     <string name="nas_upgrade_notification_title">Forbedrede notifikationer</string>
-    <string name="needPuk">Dit SIM-kort er låst med PUK-koden. Angiv PUK-koden for at låse den op.</string>
-    <string name="needPuk2">Angiv PUK2-koden for at låse op for SIM-kortet.</string>
+    <string name="needPuk">Dit SIM-kort er låst med PUK-koden. Angiv PUK-koden for at låse det op.</string>
+    <string name="needPuk2">Angiv PUK2-koden for at fjerne blokeringen fra SIM-kortet.</string>
     <string name="negative_duration">−%1$s</string>
     <string name="network_available_sign_in">Log ind på netværk</string>
     <string name="network_logging_notification_text">Din organisation administrerer denne enhed og kan overvåge netværkstrafik. Tryk for at se info.</string>
@@ -1272,7 +1292,6 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="notification_channel_system_changes">Systemændringer</string>
     <string name="notification_channel_updates">Opdateringer</string>
     <string name="notification_channel_usb">USB-forbindelse</string>
-    <string name="notification_channel_virtual_keyboard">Virtuelt tastatur</string>
     <string name="notification_channel_voice_mail">Talebeskeder</string>
     <string name="notification_channel_vpn">VPN-status</string>
     <string name="notification_channel_wfc">Wi-Fi-opkald</string>
@@ -1286,13 +1305,14 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="notification_hidden_text">Ny notifikation</string>
     <string name="notification_history_title_placeholder">Tilpasset appnotifikation</string>
     <string name="notification_listener_binding_label">Notifikationslytter</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_phishing_alert_content_description">Phishingadvarsel</string>
     <string name="notification_ranker_binding_label">Tjeneste til rangering af notifikationer</string>
     <string name="notification_reply_button_accessibility">Svar</string>
     <string name="notification_title">Loginfejl for %1$s</string>
     <string name="notification_title_abusive_bg_apps">En app aflader batteriet</string>
     <string name="notification_title_long_running_fgs">En app er stadig aktiv</string>
-    <string name="notification_verified_content_description">Bekræftet</string>
+    <string name="notification_verified_content_description">Verificeret</string>
     <string name="notification_work_profile_content_description">Arbejdsprofil</string>
     <string name="now_string_shortest">nu</string>
     <string name="number_picker_decrement_button">Lavere</string>
@@ -1301,9 +1321,8 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="number_picker_increment_scroll_mode">Tryk og hold %s nede.</string>
     <string name="old_app_action">Gå tilbage til %1$s</string>
     <string name="older">Ældre</string>
-    <string name="oneMonthDurationPast">for 1 måned siden</string>
+    <string name="oneMonthDurationPast">1 måned siden</string>
     <string name="one_handed_mode_feature_name">Enhåndstilstand</string>
-    <string name="open_permission_deny">Du har ikke tilladelse til at åbne denne side.</string>
     <string name="orgTypeCustom">Tilpasset</string>
     <string name="orgTypeOther">Andet</string>
     <string name="orgTypeWork">Arbejde</string>
@@ -1318,11 +1337,7 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="password_keyboard_label_alpha_key">ABC</string>
     <string name="password_keyboard_label_alt_key">ALT</string>
     <string name="password_keyboard_label_symbol_key">\?123</string>
-    <string name="pasted_content">%1$s indsatte indhold, som du har kopieret</string>
-    <string name="pasted_from_app">%1$s indsatte indhold fra %2$s</string>
     <string name="pasted_from_clipboard">%1$s indsatte indhold fra din udklipsholder</string>
-    <string name="pasted_image">%1$s indsatte et billede, som du har kopieret</string>
-    <string name="pasted_text">%1$s indsatte tekst, som du har kopieret</string>
     <string name="peerTtyModeFull">Den anden enhed har skiftet til FULD TTY-tilstand</string>
     <string name="peerTtyModeHco">Den anden enhed har skiftet til TTY-tilstanden HCO</string>
     <string name="peerTtyModeOff">Den anden enhed har slået TTY-tilstanden FRA</string>
@@ -1363,7 +1378,7 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="permdesc_bodySensors_background">Tillader, at appen kan få adgang til kropssensordata, f.eks. pulsen, temperaturen og iltmætningen af blodet, mens appen er i baggrunden.</string>
     <string name="permdesc_broadcastSticky">Tillader, at appen kan sende klæbende udsendelser, der forbliver tilbage, når udsendelsen er slut. Overdreven brug kan gøre din telefon langsom eller ustabil ved at tvinge den til at bruge for meget hukommelse.</string>
     <string name="permdesc_callCompanionApp">Tillader, at appen kan se og styre igangværende opkald på enheden. Dette omfatter oplysninger såsom telefonnumre og status for opkaldene.</string>
-    <string name="permdesc_callPhone">Tillader, at appen kan ringe til telefonnumre uden din indgriben. Dette kan resultere i uventede opkrævninger eller opkald. Bemærk, at appen med denne tilladelse ikke kan ringe til nødopkaldsnumre. Skadelige apps kan koste dig penge ved at foretage opkald uden din bekræftelse.</string>
+    <string name="permdesc_callPhone">Tillader, at appen kan ringe til telefonnumre uden din indgriben. Dette kan resultere i uventede debiteringer eller opkald. Vær opmærksom på, at dette ikke giver appen tilladelse til at ringe til alarmnumre. Skadelige apps kan koste dig penge ved at foretage opkald uden din bekræftelse eller ved at ringe op til operatørkoder, hvilket resulterer i, at indgående opkald automatisk viderestilles til et andet nummer.</string>
     <string name="permdesc_camera">Denne app kan tage billeder og optage video med kameraet, mens appen er i brug.</string>
     <string name="permdesc_cameraOpenCloseListener">Denne app kan modtage tilbagekald, når en kameraenhed åbnes (via appen) eller lukkes.</string>
     <string name="permdesc_changeNetworkState">Tillader, at appen kan ændre netværksforbindelsens tilstand.</string>
@@ -1371,19 +1386,36 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="permdesc_changeWifiMulticastState">Tillader, at appen kan modtage pakker, der sendes til alle enheder på et Wi-Fi-netværk ved hjælp af multicastadresser, ikke kun din telefon. Den bruger mere strøm end tilstanden, der ikke anvender multicast.</string>
     <string name="permdesc_changeWifiState">Tillader, at appen kan oprette og afbryde forbindelsen fra Wi-Fi-adgangspunkter og foretage ændringer i enhedskonfigurationen for Wi-Fi-netværk.</string>
     <string name="permdesc_changeWimaxState">Tillader, at appen kan oprette forbindelse fra telefonen og afbryde forbindelsen til telefonen på WiMAX-netværk.</string>
+    <string name="permdesc_companionProfileWatch">Tillader, at en medfølgende app kan administrere ure.</string>
     <string name="permdesc_connection_manager">Tillader, at appen administrerer telefonforbindelser.</string>
     <string name="permdesc_control_incall_experience">Tillader, at appen leverer brugeroplevelsen under opkald.</string>
     <string name="permdesc_createNetworkSockets">Tillader, at appen kan oprette netværkssockets og bruge tilpassede netværksprotokoller. Browseren og andre apps indeholder midler til at sende data til internettet, så med denne tilladelse er der ingen forpligtelse til at sende data til internettet.</string>
+    <string name="permdesc_deliverCompanionMessages">Tillader, at en medfølgende app kan levere medfølgende meddelelser til andre enheder.</string>
+    <string name="permdesc_detectScreenCapture">Denne app får en notifikation, når der tages et screenshot, mens appen er i brug.</string>
     <string name="permdesc_disableKeyguard">Tillader, at appen kan deaktivere tastaturlåsen og anden form for tilknyttet adgangskodesikkerhed. Telefonen deaktiverer f.eks. tastaturlåsen ved indgående telefonopkald og aktiverer tastaturlåsen igen, når opkaldet er afsluttet.</string>
     <string name="permdesc_enableCarMode">Tillader, at appen kan aktivere biltilstand.</string>
     <string name="permdesc_exemptFromAudioRecordRestrictions">Fritag appen fra begrænsninger ift. optagelse af lyd.</string>
     <string name="permdesc_expandStatusBar">Tillader, at appen kan udvide og skjule statusbjælken.</string>
     <string name="permdesc_foregroundService">Tillad, at appen anvender tjenester i forgrunden.</string>
+    <string name="permdesc_foregroundServiceCamera">Tillader, at appen benytter tjenester af typen \"camera\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceConnectedDevice">Tillader, at appen benytter tjenester af typen \"connectedDevice\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceDataSync">Tillader, at appen benytter tjenester af typen \"dataSync\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceFileManagement">Tillader, at appen benytter tjenester af typen \"fileManagement\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceHealth">Tillader, at appen benytter tjenester af typen \"health\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceLocation">Tillader, at appen benytter tjenester af typen \"location\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceMediaPlayback">Tillader, at appen benytter tjenester af typen \"mediaPlayback\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceMediaProjection">Tillader, at appen benytter tjenester af typen \"mediaProjection\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceMicrophone">Tillader, at appen benytter tjenester af typen \"microphone\" i forgrunden</string>
+    <string name="permdesc_foregroundServicePhoneCall">Tillader, at appen benytter tjenester af typen \"phoneCall\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceRemoteMessaging">Tillader, at appen benytter tjenester af typen \"remoteMessaging\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceSpecialUse">Tillader, at appen benytter tjenester af typen \"specialUse\" i forgrunden</string>
+    <string name="permdesc_foregroundServiceSystemExempted">Tillader, at appen benytter tjenester af typen \"systemExempted\" i forgrunden</string>
     <string name="permdesc_fullScreenIntent">Tillader, at appen viser notifikationer som aktiviteter i fuld skærm på en låst enhed</string>
     <string name="permdesc_getAccounts">Tillader, at appen kan hente listen over konti, der er kendt af telefonen. Dette kan omfatte alle konti, der er oprettet af de apps, som du har installeret.</string>
     <string name="permdesc_getPackageSize">Tillader, at en app kan hente sin kode, data og cachestørrelser</string>
     <string name="permdesc_getTasks">Tillader, at appen kan hente oplysninger om nuværende og seneste opgaver. Med denne tilladelse kan appen finde oplysninger om, hvilke apps der bruges på enheden.</string>
     <string name="permdesc_handoverStatus">Tillader, at applikationen modtager oplysninger om aktuelle Android Beam-overførsler</string>
+    <string name="permdesc_hideOverlayWindows">Denne app anmoder om, at systemet skjuler overlejringer, der stammer fra apps, så disse overlejringerne ikke vises over appen.</string>
     <string name="permdesc_highSamplingRateSensors">Tillader, at appen kan sample sensordata ved en højere frekvens end 200 Hz</string>
     <string name="permdesc_imagesWrite">Tillader, at appen kan ændre din billedsamling.</string>
     <string name="permdesc_install_shortcut">Tillader, at en applikation føjer genveje til startskærmen uden brugerindgriben.</string>
@@ -1399,6 +1431,7 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="permdesc_modifyNetworkAccounting">Tillader, at appen kan ændre den måde, som netværksforbrug udregnes på i forhold til apps. Anvendes ikke af normale apps.</string>
     <string name="permdesc_nearby_wifi_devices">Giver appen tilladelse til at informere om, oprette forbindelse til og fastslå den relative placering af Wi‑Fi-enheder i nærheden</string>
     <string name="permdesc_nfc">Tillader, at appen kan kommunikere med NFC-tags (Near Field Communication), -kort og -læsere.</string>
+    <string name="permdesc_observeCompanionDevicePresence">Tillader, at en medfølgende app kan registrere tilstedeværelsen af tilknyttede enheder, når enhederne er i nærheden eller langt væk.</string>
     <string name="permdesc_persistentActivity">Tillader, at appen gør dele af sig selv vedholdende i hukommelsen. Dette kan begrænse den tilgængelige hukommelse for andre apps, hvilket gør telefonen langsommere.</string>
     <string name="permdesc_postNotification">Giver appen tilladelse til at vise notifikationer</string>
     <string name="permdesc_preferredPaymentInfo">Tillader, at appen får foretrukne oplysninger vedrørende NFC-betalingstjeneste, f.eks. registrerede hjælpemidler og rutedestinationer.</string>
@@ -1409,7 +1442,6 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="permdesc_readCallLog">Denne app kan læse din opkaldshistorik.</string>
     <string name="permdesc_readCellBroadcasts">Tillader, at appen læser Cell Broadcast-underretninger, der modtages af din enhed. I nogle områder sendes der Cell Broadcast-underretninger for at advare om nødsituationer. Ondsindede apps kan forstyrre ydelsen eller driften af ​din ​enhed, når der modtages en Cell Broadcast-meddelelse om en nødsituation.</string>
     <string name="permdesc_readContacts">Tillader, at appen læser data om de kontakter, der er gemt på din telefon. Apps får også adgang til de konti på din telefon, som har oprettet kontakter. Dette kan omfatte konti, som er oprettet af apps, du har installeret. Med denne tilladelse kan apps gemme dine kontaktdata, og skadelige apps kan dele kontaktdata uden din viden.</string>
-    <string name="permdesc_readHistoryBookmarks">Tillader, at appen kan læse historikken om alle webadresser, som browseren har besøgt, og alle browserens bogmærker. Bemærk! Denne tilladelse håndhæves muligvis ikke af tredjepartsbrowsere eller andre apps med websøgningsfunktioner.</string>
     <string name="permdesc_readInstallSessions">Tillader, at en applikation læser installationssessioner. Dermed kan applikationen se oplysninger om aktive pakkeinstallationer.</string>
     <string name="permdesc_readMediaAudio">Tillader, at appen læser lydfiler fra din delte lagerplads.</string>
     <string name="permdesc_readMediaImages">Tillader, at appen læser billedfiler fra din delte lagerplads.</string>
@@ -1420,6 +1452,7 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="permdesc_readSms">Denne app kan læse alle sms-beskeder, der er gemt på din telefon.</string>
     <string name="permdesc_readSyncSettings">Tillader, at appen kan læse synkroniseringsindstillingerne for en konto. Denne tilladelse kan f.eks. fastslå, om appen Personer er synkroniseret med en konto.</string>
     <string name="permdesc_readSyncStats">Tillader, at en app kan læse synkroniseringsstatistikkerne for en konto, f.eks. historikken for synkroniserede begivenheder og hvor meget data der synkroniseres.</string>
+    <string name="permdesc_readVisualUserSelect">Tillader, at appen læser billed- og videofiler, som du vælger fra din delte lagerplads.</string>
     <string name="permdesc_receiveBootCompleted">Tillader, at appen kan åbne sig selv, når systemet er færdig med at starte op. Dette kan gøre opstarten af telefonen langsommere og generelt gøre systemet langsommere, når appen altid kører.</string>
     <string name="permdesc_receiveMms">Tillader, at appen kan modtage og behandle mms-beskeder. Det betyder, at appen kan overvåge eller slette de beskeder, der sendes til din enhed, uden at vise dem til dig.</string>
     <string name="permdesc_receiveSms">Tillader, at appen kan modtage og behandle sms-beskeder. Det betyder, at appen kan overvåge eller slette de beskeder, der sendes til din enhed, uden at vise dem til dig.</string>
@@ -1436,6 +1469,7 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="permdesc_requestPasswordComplexity">Giver appen tilladelse til at kende skærmlåsens kompleksitet (høj, medium, lav eller ingen), hvilket kan afsløre oplysninger om skærmlåsens længde og type. Appen kan også foreslå brugerne at opdatere deres skærmlås til et bestemt niveau, men brugerne kan frit ignorere det og gå videre. Bemærk! Skærmlåsen gemmes ikke som almindelig tekst, så appen kender ikke den nøjagtige adgangskode.</string>
     <string name="permdesc_route_media_output">Tillader, at en applikation viderefører medieoutput til andre eksterne enheder.</string>
     <string name="permdesc_runInBackground">Denne app kan køre i baggrunden. Dette kan dræne batteriet hurtigere.</string>
+    <string name="permdesc_schedule_exact_alarm">Denne app kan planlægge opgaver, som skal udføres på et ønsket tidspunkt i fremtiden. Det betyder også, at appen kan køre, når du ikke aktivt bruger enheden.</string>
     <string name="permdesc_sdcardRead">Tillader, at appen kan læse indholdet af din delte lagerplads.</string>
     <string name="permdesc_sdcardWrite">Tillader, at appen kan skrive indholdet af din delte lagerplads.</string>
     <string name="permdesc_sendSms">Tillader, at appen kan sende sms-beskeder. Dette kan resultere i uventede opkrævninger. Skadelige apps kan koste dig penge ved at sende beskeder uden din bekræftelse.</string>
@@ -1445,6 +1479,7 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="permdesc_setWallpaper">Tillader, at appen kan konfigurere systembaggrunden.</string>
     <string name="permdesc_setWallpaperHints">Tillader, at appen giver tips til systembaggrundens størrelse.</string>
     <string name="permdesc_sim_communication">Tillader, at appen sender kommandoer til SIM-kortet. Dette er meget farligt.</string>
+    <string name="permdesc_startForegroundServicesFromBackground">Tillader, at en medfølgende app kan starte tjenester i forgrunden via tilladelser til tjenester i baggrunden.</string>
     <string name="permdesc_startReviewPermissionDecisions">Giver modtageren mulighed for at åbne skærmen til gennemgang af beslutninger om tilladelser. Dette bør aldrig være nødvendigt for standardapps.</string>
     <string name="permdesc_startViewAppFeatures">Giver den app, som har tilladelsen, mulighed for at se oplysninger om en apps funktioner.</string>
     <string name="permdesc_startViewPermissionUsage">Tillader, at brugeren kan bruge en tilladelse for en app. Dette bør aldrig være nødvendigt for almindelige apps.</string>
@@ -1454,10 +1489,13 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="permdesc_systemAlertWindow">Denne app kan vises oven på andre apps eller andre dele af skærmen. Dette kan forstyrre den normale brug af appen og ændre visningen af andre apps.</string>
     <string name="permdesc_systemCamera">Denne privilegerede app eller systemapp kan til enhver tid tage billeder og optage video med et systemkamera. Appen skal også have tilladelsen android.permission.CAMERA</string>
     <string name="permdesc_transmitIr">Tillader, at appen bruger telefonens infrarøde sender.</string>
+    <string name="permdesc_turnScreenOn">Tillader, at appen tænder skærmen.</string>
     <string name="permdesc_uninstall_shortcut">Tillader, at applikationen fjerner genveje på startskærmen uden brugerindgriben.</string>
+    <string name="permdesc_updatePackagesWithoutUserAction">Tillader, at den app, der har tilladelsen, kan opdatere den app, den tidligere har installeret, uden at brugeren foretager sig noget</string>
     <string name="permdesc_useBiometric">Tillader, at appen kan bruge biometrisk hardware til godkendelse</string>
     <string name="permdesc_useDataInBackground">Denne app kan bruge data i baggrunden. Dette kan øge dataforbruget.</string>
     <string name="permdesc_useFingerprint">Tillader, at appen kan bruge hardware til fingeraftryk til godkendelse</string>
+    <string name="permdesc_use_exact_alarm">Denne app kan planlægge handlinger som f.eks. alarmer og påmindelser, der underretter dig på et ønsket tidspunkt i fremtiden.</string>
     <string name="permdesc_use_sip">Tillader, at appen foretager og modtager SIP-opkald.</string>
     <string name="permdesc_uwb_ranging">Tillad, at appen fastlægger den relative position mellem UWB-enheder (Ultra-Wideband) i nærheden</string>
     <string name="permdesc_vibrate">Tillader, at appen kan administrere vibratoren.</string>
@@ -1467,8 +1505,6 @@ Forbedrede notifikationer kan få adgang til indhold i notifikationer, bl.a. per
     <string name="permdesc_writeCalendar">Denne app kan tilføje, fjerne eller ændre kalenderbegivenheder på din telefon. Denne app kan sende meddelelser, der kan se ud, som om de kommer fra kalenderejere, eller ændre begivenheder uden at give ejeren besked.</string>
     <string name="permdesc_writeCallLog">Tillader, at appen ændrer telefonens opkaldshistorik, f.eks. data om indgående og udgående opkald. Ondsindede apps kan bruge dette til at slette eller ændre din opkaldshistorik.</string>
     <string name="permdesc_writeContacts">Tillader, at appen kan ændre data om de kontakter, der er gemt på din telefon. Denne tilladelse giver apps mulighed for at slette kontaktdata.</string>
-    <string name="permdesc_writeGeolocationPermissions">Tillader, at appen kan ændre browserens tilladelser angående geoplacering. Ondsindede apps kan benytte dette til at sende oplysninger om sted til vilkårlige websites.</string>
-    <string name="permdesc_writeHistoryBookmarks">Tillader, at appen kan ændre browserens historik eller de bogmærker, der er gemt på din telefon. Dette kan give appen tilladelse til at slette eller ændre browserdata. Bemærk! Denne tilladelse håndhæves muligvis ikke af tredjepartsbrowsere eller andre apps med websøgningsfunktioner.</string>
     <string name="permdesc_writeSettings">Tillader, at appen kan ændre systemets indstillingsdata. Ondsindede apps kan ødelægge din systemkonfiguration.</string>
     <string name="permdesc_writeSyncSettings">Tillader, at en app kan ændre synkroniseringsindstillingerne for en konto. Denne tilladelse kan f.eks. anvendes til at aktivere synkronisering af appen Personer med en konto.</string>
     <string name="permgroupdesc_activityRecognition">få adgang til din fysiske aktivitet</string>
@@ -1549,19 +1585,36 @@ for kontoen %s."</string>
     <string name="permlab_changeWifiMulticastState">tillade Wi-Fi-multicastmodtagelse</string>
     <string name="permlab_changeWifiState">oprette og afbryde Wi-Fi-forbindelse</string>
     <string name="permlab_changeWimaxState">skifte WiMAX-tilstand</string>
+    <string name="permlab_companionProfileWatch">Tilladelse til at administrere ure for urprofilens medfølgende app</string>
     <string name="permlab_connection_manager">administrere telefonforbindelser</string>
     <string name="permlab_control_incall_experience">leverer brugeroplevelsen under opkald</string>
     <string name="permlab_createNetworkSockets">få fuld netværksadgang</string>
+    <string name="permlab_deliverCompanionMessages">Levér meddelelser fra medfølgende app</string>
+    <string name="permlab_detectScreenCapture">registrer screenshots af appvindue</string>
     <string name="permlab_disableKeyguard">deaktivere din skærmlås</string>
     <string name="permlab_enableCarMode">aktivere biltilstand</string>
     <string name="permlab_exemptFromAudioRecordRestrictions">fritaget fra begrænsninger ift. optagelse af lyd</string>
     <string name="permlab_expandStatusBar">udvid/skjul statuslinje</string>
     <string name="permlab_foregroundService">kør tjeneste i forgrunden</string>
+    <string name="permlab_foregroundServiceCamera">kør tjenesten af typen \"camera\" i forgrunden</string>
+    <string name="permlab_foregroundServiceConnectedDevice">kør tjenesten af typen \"connectedDevice\" i forgrunden</string>
+    <string name="permlab_foregroundServiceDataSync">kør tjenesten af typen \"dataSync\" i forgrunden</string>
+    <string name="permlab_foregroundServiceFileManagement">kør tjenesten af typen \"fileManagement\" i forgrunden</string>
+    <string name="permlab_foregroundServiceHealth">kør tjenesten af typen \"health\" i forgrunden</string>
+    <string name="permlab_foregroundServiceLocation">kør tjenesten af typen \"location\" i forgrunden</string>
+    <string name="permlab_foregroundServiceMediaPlayback">kør tjenesten af typen \"mediaPlayback\" i forgrunden</string>
+    <string name="permlab_foregroundServiceMediaProjection">kør tjenesten af typen \"mediaProjection\" i forgrunden</string>
+    <string name="permlab_foregroundServiceMicrophone">kør tjenesten af typen \"microphone\" i forgrunden</string>
+    <string name="permlab_foregroundServicePhoneCall">kør tjenesten af typen \"phoneCall\" i forgrunden</string>
+    <string name="permlab_foregroundServiceRemoteMessaging">kør tjenesten af typen \"remoteMessaging\" i forgrunden</string>
+    <string name="permlab_foregroundServiceSpecialUse">kør tjenesten af typen \"specialUse\" i forgrunden</string>
+    <string name="permlab_foregroundServiceSystemExempted">kør tjenesten af typen \"systemExempted\" i forgrunden</string>
     <string name="permlab_fullScreenIntent">Vis notifikationer som aktiviteter i fuld skærm på en låst enhed</string>
     <string name="permlab_getAccounts">finde konti på enheden</string>
     <string name="permlab_getPackageSize">måle appens lagerplads</string>
     <string name="permlab_getTasks">hente kørende apps</string>
     <string name="permlab_handoverStatus">modtag status for Android Beam-overførsler</string>
+    <string name="permlab_hideOverlayWindows">skjul overlejringer fra andre apps</string>
     <string name="permlab_highSamplingRateSensors">få adgang til sensordata ved høj samplingfrekvens</string>
     <string name="permlab_imagesWrite">ændre din billedsamling</string>
     <string name="permlab_install_shortcut">installere genveje</string>
@@ -1577,6 +1630,7 @@ for kontoen %s."</string>
     <string name="permlab_modifyNetworkAccounting">skift afregning af netværksbrug</string>
     <string name="permlab_nearby_wifi_devices">interagere med Wi‑Fi-enheder i nærheden</string>
     <string name="permlab_nfc">administrere Near Field Communication</string>
+    <string name="permlab_observeCompanionDevicePresence">Registrer tilstedeværelsen af tilknyttede enheder</string>
     <string name="permlab_persistentActivity">sørge for, at appen altid kører</string>
     <string name="permlab_postNotification">vise notifikationer</string>
     <string name="permlab_preferredPaymentInfo">Foretrukne oplysninger vedrørende NFC-betalingstjeneste</string>
@@ -1587,7 +1641,6 @@ for kontoen %s."</string>
     <string name="permlab_readCallLog">læse opkaldshistorik</string>
     <string name="permlab_readCellBroadcasts">læse Cell Broadcast-meddelelser</string>
     <string name="permlab_readContacts">læse dine kontakter</string>
-    <string name="permlab_readHistoryBookmarks">læse dine webbogmærker og -historik</string>
     <string name="permlab_readInstallSessions">læs installationssessioner</string>
     <string name="permlab_readMediaAudio">Læse lydfiler fra den delte lagerplads</string>
     <string name="permlab_readMediaImages">Læse billedfiler fra den delte lagerplads</string>
@@ -1598,6 +1651,7 @@ for kontoen %s."</string>
     <string name="permlab_readSms">læse dine tekstbeskeder (sms eller mms)</string>
     <string name="permlab_readSyncSettings">læse indstillinger for synkronisering</string>
     <string name="permlab_readSyncStats">læse synkroniseringsstatistikker</string>
+    <string name="permlab_readVisualUserSelect">læse brugervalgte billed- og videofiler fra delt lagerplads</string>
     <string name="permlab_receiveBootCompleted">køre ved opstart</string>
     <string name="permlab_receiveMms">modtage tekstbeskeder (mms)</string>
     <string name="permlab_receiveSms">modtage tekstbeskeder (sms)</string>
@@ -1614,6 +1668,7 @@ for kontoen %s."</string>
     <string name="permlab_requestPasswordComplexity">anmode om skærmlåsens kompleksitet</string>
     <string name="permlab_route_media_output">viderefør medieoutput</string>
     <string name="permlab_runInBackground">kør i baggrunden</string>
+    <string name="permlab_schedule_exact_alarm">Planlæg handlinger med nøjagtige tidspunkter</string>
     <string name="permlab_sdcardRead">læse indholdet af din delte lagerplads</string>
     <string name="permlab_sdcardWrite">ændre eller slette indholdet af din delte lagerplads</string>
     <string name="permlab_sendSms">Send og se sms-beskeder</string>
@@ -1623,6 +1678,7 @@ for kontoen %s."</string>
     <string name="permlab_setWallpaper">angive baggrund</string>
     <string name="permlab_setWallpaperHints">ændre størrelsen på din baggrund</string>
     <string name="permlab_sim_communication">send kommandoer til SIM</string>
+    <string name="permlab_startForegroundServicesFromBackground">Start tjenester i forgrunden via tilladelser til tjenester i baggrunden</string>
     <string name="permlab_startReviewPermissionDecisions">starte visningen af beslutninger om tilladelser</string>
     <string name="permlab_startViewAppFeatures">se appfunktioner</string>
     <string name="permlab_startViewPermissionUsage">start brugen at tilladelsesvisning</string>
@@ -1632,10 +1688,13 @@ for kontoen %s."</string>
     <string name="permlab_systemAlertWindow">Denne app kan vises oven på andre apps</string>
     <string name="permlab_systemCamera">Giv en app eller tjeneste adgang til systemkameraer for at tage billeder og optage video</string>
     <string name="permlab_transmitIr">send infrarød</string>
+    <string name="permlab_turnScreenOn">tænd skærmen</string>
     <string name="permlab_uninstall_shortcut">afinstaller genveje</string>
+    <string name="permlab_updatePackagesWithoutUserAction">opdater app, uden at brugeren foretager sig noget</string>
     <string name="permlab_useBiometric">brug biometrisk hardware</string>
     <string name="permlab_useDataInBackground">brug data i baggrunden</string>
     <string name="permlab_useFingerprint">bruge hardware til fingeraftryk</string>
+    <string name="permlab_use_exact_alarm">Planlæg alarmer eller påmindelser om begivenheder</string>
     <string name="permlab_use_sip">foretage/modtage SIP-opkald</string>
     <string name="permlab_uwb_ranging">fastlægge den relative position mellem UWB-enheder i nærheden</string>
     <string name="permlab_vibrate">administrere vibration</string>
@@ -1644,8 +1703,6 @@ for kontoen %s."</string>
     <string name="permlab_writeCalendar">tilføje eller ændre kalenderbegivenheder og sende mail til gæster uden ejerens viden</string>
     <string name="permlab_writeCallLog">skriv opkaldshistorik</string>
     <string name="permlab_writeContacts">ændre dine kontakter</string>
-    <string name="permlab_writeGeolocationPermissions">skifte tilladelser til geoplacering i Browser</string>
-    <string name="permlab_writeHistoryBookmarks">skrive webbogmærker og -historik</string>
     <string name="permlab_writeSettings">ændre systemindstillinger</string>
     <string name="permlab_writeSyncSettings">slå synkronisering til og fra</string>
     <string name="perms_description_app">Leveret af %1$s.</string>
@@ -1654,7 +1711,6 @@ for kontoen %s."</string>
     <string name="personal_apps_suspension_soon_text">Personlige apps bliver blokeret %1$s kl. %2$s. Din it-administrator tillader ikke, at din arbejdsprofil deaktiveres i mere end %3$d dage.</string>
     <string name="personal_apps_suspension_text">Dine personlige apps er blokeret, indtil du aktiverer din arbejdsprofil</string>
     <string name="personal_apps_suspension_title">Aktivér din arbejdsprofil</string>
-    <string name="petabyteShort">Pb</string>
     <string name="phoneTypeAssistant">Assistent</string>
     <string name="phoneTypeCallback">Tilbagekald</string>
     <string name="phoneTypeCar">Bil</string>
@@ -1721,6 +1777,7 @@ for kontoen %s."</string>
     <string name="profile_encrypted_title">Nogle funktioner er begrænsede</string>
     <string name="progress_erasing">Sletter delt lagerplads…</string>
     <string name="quick_contacts_not_available">Der blev ikke fundet nogen applikation, som kan vise denne kontakt.</string>
+    <string name="rating_label">{rating,plural, =1{En stjerne ud af {max}}one{# stjerne ud af {max}}other{# stjerner ud af {max}}}</string>
     <string name="reason_service_unavailable">Udskrivningstjenesten er ikke aktiveret</string>
     <string name="reason_unknown">ukendt</string>
     <string name="reboot_safemode_confirm">Vil du genstarte i sikker tilstand? Dette vil deaktivere alle tredjepartsapplikationer, som du har installeret. De vil blive genoprettet, når du genstarter igen.</string>
@@ -1735,6 +1792,7 @@ for kontoen %s."</string>
     <string name="redo">Annuller fortryd</string>
     <string name="reduce_bright_colors_feature_name">Ekstra dæmpet belysning</string>
     <string name="region_picker_section_all">Alle områder</string>
+    <string name="region_picker_section_suggested_bilingual">Foreslåede områder</string>
     <string name="relationTypeAssistant">Assistent</string>
     <string name="relationTypeBrother">Bror</string>
     <string name="relationTypeChild">Barn</string>
@@ -1763,8 +1821,8 @@ for kontoen %s."</string>
     <string name="resolver_no_work_apps_available">Der er ingen arbejdsapps</string>
     <string name="resolver_personal_tab">Personlig</string>
     <string name="resolver_personal_tab_accessibility">Visningen Personligt</string>
-    <string name="resolver_switch_on_work">Tryk for at aktivere</string>
-    <string name="resolver_turn_on_work_apps">Arbejdsprofilen er sat på pause</string>
+    <string name="resolver_switch_on_work">Genoptag</string>
+    <string name="resolver_turn_on_work_apps">Dine arbejdsapps er sat på pause</string>
     <string name="resolver_work_tab">Arbejde</string>
     <string name="resolver_work_tab_accessibility">Visningen Arbejde</string>
     <string name="restr_pin_confirm_pin">Bekræft den nye pinkode</string>
@@ -1807,15 +1865,10 @@ for kontoen %s."</string>
     <string name="safe_media_volume_warning">"Vil du skrue højere op end det anbefalede lydstyrkeniveau?
 
 Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</string>
-    <string name="save_password_label">Bekræft</string>
-    <string name="save_password_message">Ønsker du, at browseren skal huske denne adgangskode?</string>
-    <string name="save_password_never">Aldrig</string>
-    <string name="save_password_notnow">Ikke nu</string>
-    <string name="save_password_remember">Husk</string>
     <string name="screen_compat_mode_hint">Aktivér dette igen i Systemindstillinger > Apps > Downloadet.</string>
     <string name="screen_compat_mode_scale">Skaler</string>
     <string name="screen_compat_mode_show">Vis altid</string>
-    <string name="screen_lock">Skærmlås</string>
+    <string name="screen_lock">Skærm­lås</string>
     <string name="screen_lock_app_setting_name">Brug skærmlås</string>
     <string name="screen_lock_dialog_default_subtitle">Angiv din skærmlås for at fortsætte</string>
     <string name="screenshot_edit">Rediger</string>
@@ -1833,8 +1886,9 @@ Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</st
     <string name="select_hours">Vælg timer</string>
     <string name="select_input_method">Vælg inputmetode</string>
     <string name="select_keyboard_layout_notification_message">Tryk for at vælge sprog og layout</string>
-    <string name="select_keyboard_layout_notification_title">Konfigurer fysisk tastatur</string>
+    <string name="select_keyboard_layout_notification_title">Konfigurer %s</string>
     <string name="select_minutes">Vælg minutter</string>
+    <string name="select_multiple_keyboards_layout_notification_title">Konfigurer fysiske tastaturer</string>
     <string name="select_year">Vælg år</string>
     <string name="selected">valgt</string>
     <string name="sendText">Vælg en handling for teksten</string>
@@ -1860,7 +1914,6 @@ Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</st
     <string name="serviceErased">Sletningen er fuldført.</string>
     <string name="serviceNotProvisioned">Tjenesten provisioneres ikke.</string>
     <string name="serviceRegistered">Registreringen er afsluttet.</string>
-    <string name="setup_autofill">Konfigurer Autofyld</string>
     <string name="sha1_fingerprint">SHA-1-fingeraftryk:</string>
     <string name="sha256_fingerprint">SHA-256-fingeraftryk:</string>
     <string name="share">Del</string>
@@ -1885,10 +1938,10 @@ Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</st
     <string name="silent_mode_silent">Ringeren er deaktiveret</string>
     <string name="silent_mode_vibrate">Ringervibrering</string>
     <string name="sim_added_message">Genstart din enhed for at få adgang til mobilnetværket.</string>
-    <string name="sim_added_title">SIM-kort blev tilføjet</string>
+    <string name="sim_added_title">SIM-kortet er tilføjet</string>
     <string name="sim_done_button">Afslut</string>
     <string name="sim_removed_message">Det mobile netværk er utilgængeligt, indtil du genstarter med et gyldigt SIM-kort.</string>
-    <string name="sim_removed_title">SIM-kort blev fjernet</string>
+    <string name="sim_removed_title">SIM-kortet er fjernet</string>
     <string name="sim_restart_button">Genstart</string>
     <string name="sipAddressTypeCustom">Tilpasset</string>
     <string name="sipAddressTypeHome">Hjem</string>
@@ -1930,7 +1983,7 @@ Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</st
     <string name="stk_cc_ussd_to_ussd">Ændret til en USSD-anmodning</string>
     <string name="storage_internal">Intern delt lagerplads</string>
     <string name="storage_sd_card">SD-kort</string>
-    <string name="storage_sd_card_label">SD-kort fra %s</string>
+    <string name="storage_sd_card_label">SD-kort (%s)</string>
     <string name="storage_usb">USB-lager</string>
     <string name="storage_usb_drive">USB-drev</string>
     <string name="storage_usb_drive_label">USB-drev fra %s</string>
@@ -1947,7 +2000,6 @@ Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</st
     <string name="system_error_wipe_data">Der er et internt problem med enheden, og den vil muligvis være ustabil, indtil du gendanner fabriksdataene.</string>
     <string name="system_locale_title">Systemstandard</string>
     <string name="taking_remote_bugreport_notification_title">Opretter fejlrapport…</string>
-    <string name="terabyteShort">Tb</string>
     <string name="test_harness_mode_notification_message">Gendan fabriksindstillingerne for at deaktivere tilstanden Testsele.</string>
     <string name="test_harness_mode_notification_title">Tilstanden Testsele er aktiveret</string>
     <string name="tethered_notification_message">Tryk for at opsætte.</string>
@@ -1956,7 +2008,6 @@ Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</st
     <string name="tethered_notification_one_device_message">%1$s forbundet enhed</string>
     <string name="tethered_notification_title">Tethering eller hotspot aktivt</string>
     <string name="textSelectionCABTitle">Tekstmarkering</string>
-    <string name="text_copied">Teksten er kopieret til udklipsholderen.</string>
     <string name="time_of_day" formatted="false">%H:%M:%S</string>
     <string name="time_picker_decrement_hour_button">Sænk timetal</string>
     <string name="time_picker_decrement_minute_button">Sænk minuttal</string>
@@ -2012,15 +2063,19 @@ Du kan skade hørelsen ved at lytte til meget høj musik over længere tid."</st
     <string name="usb_tether_notification_title">USB-sammenbinding er aktiveret</string>
     <string name="usb_unsupported_audio_accessory_message">Tilsluttet enhed er ikke kompatibel med denne telefon. Tryk for at få mere at vide.</string>
     <string name="usb_unsupported_audio_accessory_title">Detekteret analogt lydudstyr</string>
+    <string name="usb_uvc_notification_title">Enheden er forbundet som webcam</string>
     <string name="use_a_different_app">Brug en anden app</string>
     <string name="user_creation_account_exists">Vil du give %1$s tilladelse til at oprette en ny bruger med %2$s (der findes allerede en bruger med denne konto)?</string>
     <string name="user_creation_adding">Vil du give %1$s tilladelse til at oprette en nye bruger med %2$s?</string>
     <string name="user_logging_out_message">%1$s logges ud…</string>
+    <string name="user_owner_app_label">Skift til %1$s til privat brug</string>
     <string name="user_owner_label">Skift til personlig profil</string>
     <string name="user_switched">Nuværende bruger %1$s.</string>
     <string name="user_switching_message">Skifter til %1$s…</string>
     <string name="validity_period">Gyldighed:</string>
     <string name="vdm_camera_access_denied">Kameraet på din telefon kan ikke tilgås via din %1$s</string>
+    <string name="vdm_pip_blocked">Funktionen Integreret billede er ikke tilgængelig, når der streames</string>
+    <string name="vdm_secure_window">Der er ikke adgang til dette indhold under streaming. Prøv på din telefon i stedet.</string>
     <string name="view_and_control_notification_content">%s kan se og styre din skærm. Tryk for at se mere.</string>
     <string name="view_and_control_notification_title">Tjek adgangsindstillingerne</string>
     <string name="volume_alarm">Lydstyrke for alarm</string>
@@ -2065,6 +2120,7 @@ Vil du lukke den?"</string>
     <string name="wfcSpnFormat_spn_wlan_call">WLAN-opkald via %s</string>
     <string name="wfcSpnFormat_vowifi">VoWifi</string>
     <string name="wfcSpnFormat_wifi">Wi-Fi</string>
+    <string name="wfcSpnFormat_wifi_call">Wi-Fi-opkald</string>
     <string name="wfcSpnFormat_wifi_calling">Wi-Fi-opkald</string>
     <string name="wfcSpnFormat_wifi_calling_bar_spn">Wi-Fi-opkald | %s</string>
     <string name="wfcSpnFormat_wifi_calling_wo_hyphen">Wi-Fi-opkald</string>
@@ -2105,13 +2161,16 @@ Vil du lukke den?"</string>
     <string name="window_magnification_prompt_content">Du kan nu forstørre noget af skærmen</string>
     <string name="window_magnification_prompt_title">Nye indstillinger for forstørrelse</string>
     <string name="wireless_display_route_description">Trådløs skærm</string>
-    <string name="work_mode_off_message">Få adgang til dine arbejdsapps og notifikationer</string>
-    <string name="work_mode_off_title">Vil du aktivere arbejdsapps?</string>
-    <string name="work_mode_turn_on">Slå til</string>
+    <string name="work_mode_emergency_call_button">Nødopkald</string>
+    <string name="work_mode_off_title">Vil du genoptage arbejdsapps?</string>
+    <string name="work_mode_turn_on">Genoptag</string>
     <string name="work_profile_deleted">Arbejdsprofilen blev slettet</string>
     <string name="work_profile_deleted_description_dpm_wipe">Din arbejdsprofil er ikke længere tilgængelig på denne enhed</string>
     <string name="work_profile_deleted_details">Administrationsappen til arbejdsprofilen mangler eller er beskadiget. Derfor er din arbejdsprofil og dine relaterede data blevet slettet. Kontakt din administrator for at få hjælp.</string>
     <string name="work_profile_deleted_reason_maximum_password_failure">For mange mislykkede adgangskodeforsøg</string>
+    <string name="work_profile_telephony_paused_text">Du har sat arbejdsapps på pause. Du kan ikke modtage telefonopkald eller beskeder.</string>
+    <string name="work_profile_telephony_paused_title">Opkald og beskeder er slået fra</string>
+    <string name="work_profile_telephony_paused_turn_on_button">Genaktiver arbejdsapps</string>
     <string name="write_fail_reason_cancelled">Annulleret</string>
     <string name="write_fail_reason_cannot_write">Fejl ved skrivning af indhold</string>
     <string name="year">år</string>
@@ -2133,6 +2192,7 @@ Vil du lukke den?"</string>
     <string name="zen_mode_feature_name">Forstyr ikke</string>
     <string name="zen_mode_forever">Indtil du deaktiverer</string>
     <string name="zen_mode_forever_dnd">Indtil du slår \"Forstyr ikke\" fra</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Indtil %1$s</string>
     <string name="zen_mode_until_next_day">Indtil %1$s</string>
     <string name="zen_upgrade_notification_content">Tryk for at se, hvad der er blokeret.</string>
