@@ -68,7 +68,7 @@
     <string name="cta_agree_desc">Tillad denne app at tilslutte til internettet, og giv de obligatoriske tilladelser, der er anført ovenfor.</string>
     <string name="cta_btn_agree">Bekræft</string>
     <string name="cta_btn_disagree">Bekræft ikke</string>
-    <string name="cta_main_purpose">Velkommen til Screenshot Editor! Du kan bruge denne app til at beskære og redigere dine skærmbilleder.</string>
+    <string name="cta_main_purpose"><string name="cta_main_purpose">Welcome to Screenshot Editor! You can use this app to crop and edit your screenshots. This app needs to connect to the internet and access audio and video files on your device to be able to provide necessary services.</string></string>
     <string name="custom_define_permission_desc_android.permission_group.STORAGE">For at gemme skærmbilleder</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -170,6 +170,10 @@
     <string name="lenovo">Lenovo</string>
     <string name="lenovo_phone">Lenovo</string>
     <string name="loading_text_format" formatted="false">Fjerner private oplysninger fra fotos (%d/%d)…</string>
+    <string name="long_screenshot_content_auto">Tager skærmbillede…</string>
+    <string name="long_screenshot_content_loading">Lige et øjeblik…</string>
+    <string name="long_screenshot_content_manual">Justér manuelt slutpunktet for skærmbilledet, og tryk derefter på \"Færdig\".</string>
+    <string name="long_screenshot_done">Færdig</string>
     <string name="long_screenshot_error">Der er opstået en fejl. Prøv igen.</string>
     <string name="long_screenshot_guide_text">"Tryk for at lave
 et scrollende screenshot"</string>
@@ -178,6 +182,7 @@ et scrollende screenshot"</string>
     <string name="long_screenshot_processing">Behandler…</string>
     <string name="long_screenshot_processing_description_accessibility">Behandler</string>
     <string name="long_screenshot_stop">Færdig</string>
+    <string name="long_screenshot_title">Scrollende skærmbillede</string>
     <string name="long_screenshot_top_msg">Opretter skærmbillede…</string>
     <string name="long_screenshot_top_msg_description_accessibility">Opretter skærmbillede</string>
     <string name="long_screenshot_top_msg_manual">Beskær skærmbilledet og tryk på knappen for at udføre</string>
@@ -209,6 +214,7 @@ et scrollende screenshot"</string>
     <string name="miuix_appcompat_delete_description">Slet</string>
     <string name="miuix_appcompat_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_deselect_all_description">Fravælg alt</string>
+    <string name="miuix_appcompat_edit">Redigér</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Annuller</string>
     <string name="miuix_appcompat_search_input_description">Søg</string>
     <string name="miuix_appcompat_select_all">Vælg alle</string>
@@ -364,12 +370,17 @@ et scrollende screenshot"</string>
     <string name="screen_editor_btn_save">Gem</string>
     <string name="screen_editor_btn_shell_off">Fjern enhedsramme</string>
     <string name="screen_editor_btn_shell_on">Tilføj enhedsramme</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">Slet dette skærmbillede?</string>
     <string name="screen_editor_delete_dialog_picture_msg">Slet dette billede nu?</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Udført</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">Kan ikke tilføje enhedsramme til beskårne screenshots</string>
     <string name="screen_editor_shell_net_error">Tilslut til netværket for at downloade enhedsramme</string>
     <string name="screen_editor_shell_res_downloading">Downloader enhedsramme…</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Annuller</string>
     <string name="screen_save_dialog_btn_delete">Slet skærmbillede</string>
     <string name="screen_save_dialog_btn_save">Gem i Galleri</string>
@@ -397,6 +408,7 @@ et scrollende screenshot"</string>
     <string name="screenshot_long_screenshot">Rul</string>
     <string name="screenshot_save">Gem</string>
     <string name="screenshot_send">Send</string>
+    <string name="screenshot_succeed">Tog et skærmbillede</string>
     <string name="screenshot_thumbnail">Thumbnail af screenshot</string>
     <string name="scroll_annotation">Kør og kommentér</string>
     <string name="scroll_annotation_btn_quit">Afslut kommentering</string>

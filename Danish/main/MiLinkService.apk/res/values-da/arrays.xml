@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_search_connect_car">
+        <item>Kombinér apps</item>
+        <item>Interkonnektivitet/kombinér apps</item>
+        <item>Bilfunktioner</item>
+    </string-array>
+    <string-array name="settings_search_connection_home">
+        <item>Interkonnektivitet</item>
+        <item>Interkonnektivitet/Interkonnektivitet</item>
+        <item>Enheds-interkonnektivitet, tjenester til interkonnektivitet mellem enheder, Xiaomi, Xiaomi AIoT, AIoT, Screen Combo, smart tilslutning, Mi Smart Hub, interkonnektivitet, Duo, Xiaomi-telefon, Xiaomi-laptop, multiskærm, duet, casting, kombinér apps, handoff, app-handoff, spejl, Xiaomi Ecosystem, enhedstilslutning</item>
+    </string-array>
+    <string-array name="settings_search_connection_privacy">
+        <item>Privatliv</item>
+        <item>Interkonnektivitet/privatliv</item>
+        <item>Privatliv og interkonnektivitet, privatliv</item>
+    </string-array>
+    <string-array name="settings_search_connection_service">
+        <item>Xiaomi-interkonnektivitet</item>
+        <item>Interkonnektivitet/Xiaomi-interkonnektivitet</item>
+        <item>Xiaomi-tjenester til interkonnektivitet, Xiaomi-interkonnektivitet</item>
+    </string-array>
+    <string-array name="settings_search_relay_app">
+        <item>App-handoff</item>
+        <item>Interkonnektivitet/App-handoff</item>
+        <item>Overfør apps, handoff, overfør</item>
+    </string-array>
+    <string-array name="settings_search_relay_call">
+        <item>Opkald</item>
+        <item>Interkonnektivitet/opkald</item>
+        <item>Opkald</item>
+    </string-array>
+    <string-array name="settings_search_relay_network">
+        <item>Hjælp til netværk</item>
+        <item>Interkonnektivitet/hjælp til netværk</item>
+        <item>Hjælp til netværk, tethering, hotspot-deling</item>
+    </string-array>
+    <string-array name="settings_search_share_Launcher">
+        <item>Startskærm+</item>
+        <item>Interkonnektivitet/Startskærm+</item>
+        <item>Startskærm+, Mi Smart Hub, skærmdeling</item>
+    </string-array>
+    <string-array name="settings_search_share_clipboard">
+        <item>Udklipsholder</item>
+        <item>Interkonnektivitet/udklipsholder</item>
+        <item>Udklipsholder</item>
+    </string-array>
+    <string-array name="settings_search_share_notify">
+        <item>Notifikationer på tværs af enheder</item>
+        <item>Interkonnektivitet/notifikationer</item>
+        <item>Notifikationer på tværs af enheder</item>
+    </string-array>
+</resources>

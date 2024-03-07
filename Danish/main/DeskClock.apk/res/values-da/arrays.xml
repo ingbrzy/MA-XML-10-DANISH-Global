@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alarm_in_furture">
-        <item>Alarm om mindre end 1 minut</item>
+    <string-array name="alarm_in_furture_new_array">
+        <item>Alarm om mindre end %d minut</item>
         <item>Alarm om %1$s</item>
         <item>Alarm om %2$s</item>
         <item>Alarm om %1$s %2$s</item>
@@ -24,15 +24,15 @@
         <item>Man til fre</item>
         <item>Brugertilpasset</item>
     </string-array>
-    <string-array name="alarm_set">
-        <item>Alarm starter om mindre end 1 minut.</item>
-        <item>Alarmen vil lyde om %1$s.</item>
-        <item>Alarmen vil lyde om %2$s.</item>
-        <item>Alarmen vil lyde om %1$s og %2$s.</item>
-        <item>Alarmen vil lyde om %3$s.</item>
-        <item>Alarmen vil lyde om %1$s og %3$s.</item>
-        <item>Alarmen vil lyde om %2$s og %3$s.</item>
-        <item>Alarmen vil lyde om %1$s %2$s og %3$s.</item>
+    <string-array name="alarm_set_new_array">
+        <item>Alarmen vil starte om mindre end %d minut.</item>
+        <item>Alarmen vil starte om %1$s.</item>
+        <item>Alarmen vil starte om %2$s.</item>
+        <item>Alarmen vil starte om %1$s og %2$s.</item>
+        <item>Alarmen vil starte om %3$s.</item>
+        <item>Alarmen vil starte om %1$s og %3$s.</item>
+        <item>Alarmen vil starte om %2$s og %3$s.</item>
+        <item>Alarmen vil starte om %1$s %2$s og %3$s.</item>
     </string-array>
     <string-array name="aqi_value">
         <item>God</item>
@@ -42,20 +42,19 @@
         <item>Meget dårlig</item>
         <item>Alvorlig</item>
     </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Aldrig</item>
-        <item>1 minut</item>
-        <item>5 minutter</item>
-        <item>10 minutter</item>
-        <item>15 minutter</item>
-        <item>20 minutter</item>
-        <item>25 minutter</item>
-        <item>30 minutter</item>
-    </string-array>
     <string-array name="bedtime_guide_repeat_type">
         <item>Mandag til fredag</item>
         <item>Hver dag</item>
         <item>Hverdage</item>
+    </string-array>
+    <string-array name="bedtime_guide_repeat_type_international">
+        <item>Man til fre</item>
+        <item>Hver dag</item>
+    </string-array>
+    <string-array name="bedtime_repeat_entires_international">
+        <item>Hver dag</item>
+        <item>Man til fre</item>
+        <item>Tilpasset</item>
     </string-array>
     <string-array name="bedtime_repeat_entries">
         <item>Hver dag</item>
@@ -164,7 +163,7 @@
         <item>Baku</item>
         <item>Bangkok</item>
         <item>Beirut</item>
-        <item>Calcutta</item>
+        <item>Kolkata</item>
         <item>Damaskus</item>
         <item>Dhaka</item>
         <item>Dubai</item>
@@ -250,7 +249,7 @@
         <item>Sofia</item>
         <item>Stockholm</item>
         <item>Tallinn</item>
-        <item>Vatikanstaten</item>
+        <item>Vatikanet</item>
         <item>Wien</item>
         <item>Vilnius</item>
         <item>Warszawa</item>
@@ -350,11 +349,6 @@
         <item>Tegucigalpa</item>
         <item>Paramaribo</item>
         <item>Quito</item>
-    </string-array>
-    <string-array name="clock_bg_setting_entries">
-        <item>Hvid</item>
-        <item>Sort</item>
-        <item>Auto</item>
     </string-array>
     <string-array name="countries_names_miui">
         <item>Elfenbenskysten</item>
@@ -644,40 +638,6 @@
         <item>Surinam</item>
         <item>Ecuador</item>
     </string-array>
-    <string-array name="days_of_week">
-        <item>Søn.</item>
-        <item>Man.</item>
-        <item>Tirs.</item>
-        <item>Ons.</item>
-        <item>Tors.</item>
-        <item>Fre.</item>
-        <item>Lør.</item>
-    </string-array>
-    <string-array name="notification_adv_time_entries">
-        <item>På indstillet tidspunkt</item>
-        <item>15 minutter før</item>
-        <item>30 minutter før</item>
-        <item>1 time før</item>
-        <item>Ingen</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 minut</item>
-        <item>5 minutter</item>
-        <item>10 minutter</item>
-        <item>15 minutter</item>
-        <item>20 minutter</item>
-        <item>25 minutter</item>
-        <item>30 minutter</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
     <string-array name="time">
         <item>%1$s</item>
         <item>%2$s</item>
@@ -700,10 +660,5 @@
         <item>Gør intet</item>
         <item>Slumre</item>
         <item>Afvis</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>

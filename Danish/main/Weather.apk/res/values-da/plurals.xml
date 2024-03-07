@@ -5,16 +5,16 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d time siden</item>
+        <item quantity="one">%d time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om en time</item>
-        <item quantity="one">Om en time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halv time</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Omgående</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Lige nu</item>
@@ -34,7 +34,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d min siden</item>
-        <item quantity="one">1 min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_day">
         <item quantity="other">%d timer siden</item>
@@ -125,8 +125,8 @@
         <item quantity="one">Laveste temperatur: %1$s grad Fahrenheit</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Klart</item>
-        <item quantity="one">Klart</item>
+        <item quantity="other">bb</item>
+        <item quantity="one">Ryd</item>
     </plurals>
     <plurals name="yes_vote_num">
         <item quantity="other"> | %1$s personer</item>

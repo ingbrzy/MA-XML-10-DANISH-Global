@@ -4,6 +4,10 @@
         <item>Mand</item>
         <item>Kvinde</item>
     </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>Mand</item>
+        <item>Kvinde</item>
+    </string-array>
     <string-array name="settings_search_account_and_authority_global">
         <item>Konti</item>
         <item>Tilføj og administrer tredjepartskonti</item>
@@ -11,23 +15,28 @@
     </string-array>
     <string-array name="settings_search_account_and_authority_non_global">
         <item>Konti</item>
-        <item>Tilføj og administrer tredjepartskonti</item>
-        <item>Konti;SNS;We Chat;QQ;Mi-konto;Konto;Xiaomi-konto</item>
+        <item>Se dine tilsluttede WeChat- og andre SNS-konti</item>
+        <item>tilladelser;SNS;WeChat;Xiaomi-konto;konto</item>
     </string-array>
     <string-array name="settings_search_change_password">
         <item>Skift adgangskode</item>
         <item>Skift adgangskode for Xiaomi-konto</item>
         <item>Skift adgangskode;Opdater adgangskode;Mi-konto;Konto;Xiaomi-konto</item>
     </string-array>
+    <string-array name="settings_search_cloud_space_share">
+        <item>Familie-lagerplads</item>
+        <item>Se/aktivér familie-lagerplads</item>
+        <item>Familie-lagerplads;Lagerdeling</item>
+    </string-array>
+    <string-array name="settings_search_family_service">
+        <item>Familietjenester</item>
+        <item>Se/aktivér familietjenester</item>
+        <item>Familie;Familietjenester;Familiedeling</item>
+    </string-array>
     <string-array name="settings_search_help_center">
         <item>Hjælp</item>
         <item>Få hjælp og support til Xiaomi-konto</item>
         <item>Mi-konto;Konto;Xiaomi-konto;Kontohjælp;Hjælpecenter</item>
-    </string-array>
-    <string-array name="settings_search_login_2_step_verify">
-        <item>2-trins bekræftelse</item>
-        <item>Indstil 2-trins-bekræftelse for din Xiaomi-konto</item>
-        <item>Tilmeld;Log ind;2-trin;bekræftelse;Xiaomi;Konto;Mi-konto;Konto;Xiaomi-konto</item>
     </string-array>
     <string-array name="settings_search_login_and_security">
         <item>Kontosikkerhed</item>

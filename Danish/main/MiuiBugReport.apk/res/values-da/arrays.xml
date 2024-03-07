@@ -9,7 +9,7 @@
         <item>Kan ikke få adgang til netværket. Tilslut igen til Wi-fi, eller genstart routeren.</item>
     </string-array>
     <string-array name="net_diag_err_link_quality_china">
-        <item>Poor WLAN connection. Switch wireless bands or reboot the router.</item>
+        <item>Dårlig Wi-fi-forbindelse. Skift trådløse bånd, eller genstart routeren.</item>
         <item>"Can't access network. Reconnect to WLAN or reboot the router."</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity">
@@ -17,7 +17,7 @@
         <item>Netværksadgangen er begrænset. Justér tiden på denne enhed, og tjek routerens netværksindstillinger.</item>
         <item>Netværksfejl. Tjek HTTP-proxyindstillingerne.</item>
         <item>Netværksfejl. Tjek, om routeren kan få adgang til internettet.</item>
-        <item>Kan ikke tilslutte til netværket. Tilslut igen til Wi-fi, eller genstart routeren.</item>
+        <item>Kan ikke få adgang til netværket. Tilslut igen til Wi-fi, eller genstart routeren.</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity_china">
         <item>Autentifikation er påkrævet for netværksadgang</item>
@@ -29,7 +29,7 @@
     <string-array name="net_diag_err_network_dns">
         <item>DNS-serverfejl. Tjek routerens DNS-konfiguration.</item>
         <item>Store forsinkelser fra DNS-serveren. Tjek routerens DNS-konfiguration.</item>
-        <item>"Kan ikke få adgang til gateway'en. Tilslut igen til Wi-fi, eller genstart routeren."</item>
+        <item>Kan ikke få adgang til netværket. Tilslut igen til Wi-fi, eller genstart routeren.</item>
     </string-array>
     <string-array name="net_diag_err_network_dns_china">
         <item>DNS-serverfejl. Tjek routerens DNS-konfiguration.</item>

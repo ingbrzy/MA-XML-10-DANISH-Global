@@ -79,6 +79,24 @@
     <string name="cloud_storage_upgrade_text">Opgradér</string>
     <string name="cloud_storage_upgrade_text_now">Opgradér</string>
     <string name="cloud_storage_zero_upgrade_button_text_now">Opgradér gratis</string>
+    <string name="common_google_play_services_enable_button">Aktivér</string>
+    <string name="common_google_play_services_enable_text">Du skal aktivere Google Play-tjenester, for at %1$s kan fungere.</string>
+    <string name="common_google_play_services_enable_title">Aktivér Google Play-tjenester</string>
+    <string name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">Du skal installere Google Play-tjenester, før %1$s kan køre på din enhed.</string>
+    <string name="common_google_play_services_install_title">Hent Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play-tjenesters tilgængelighed</string>
+    <string name="common_google_play_services_notification_ticker">Fejl i Google Play-tjenester</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv igen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s fungerer ikke uden Google Play-tjenester, som ikke understøttes på din enhed.</string>
+    <string name="common_google_play_services_update_button">Opdater</string>
+    <string name="common_google_play_services_update_text">%1$s kan ikke køre, medmindre du opdaterer Google Play-tjenester.</string>
+    <string name="common_google_play_services_update_title">Opdater Google Play-tjenester</string>
+    <string name="common_google_play_services_updating_text">%1$s kan ikke køre uden Google Play-tjenester, som i øjeblikket opdateres.</string>
+    <string name="common_google_play_services_wear_update_text">Du skal bruge en ny version af Google Play-tjenester. Opdateringen gennemføres automatisk om et øjeblik.</string>
+    <string name="common_open_on_phone">Åbn på telefonen</string>
+    <string name="common_signin_button_text">Log ind</string>
+    <string name="common_signin_button_text_long">Log ind med Google</string>
     <string name="confirm_save">Behold</string>
     <string name="connect_network">Tilslut til wi-fi eller indsæt et SIM-kort</string>
     <string name="connect_network_china">Connect to WLAN or insert a SIM card</string>
@@ -164,6 +182,8 @@
     <string name="feedback_custom_hint">Beskriv de problemer, du oplever, her. Hvis du giver forslag, vil vi sætte pris på flere oplysninger!</string>
     <string name="find_device">Find enhed</string>
     <string name="find_device_dspt_provision">Hvis du mister din enhed, kan du gå til &lt;font color=#0097FF>%s&lt;/font> for at finde, låse eller nulstille den. Du kan når som helst slå denne funktion til og fra i Indstillinger.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Ved at aktivere \"Find enhed\", accepterer du vores <u><a href="app://com.miui.cloudservice.gdpr.license">privatlivspolitik</a></u>. Deaktivér denne funktion, hvis du vil trække dit samtykke tilbage.</string>
     <string name="find_device_operation_failure_rpc">Kunne ikke udføre operationen på grund af en RPC-fejl.</string>
     <string name="find_device_permissions_footer">Tryk på \"Giv\" for at give den tilladelse, du har valgt.</string>

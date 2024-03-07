@@ -32,6 +32,13 @@
     <string name="add_ringtone_text">Tilføj ringetone</string>
     <string name="alarm_sound_default">Standardlyd for alarmer</string>
     <string name="app_label">Lyde</string>
+    <string name="call_notification_answer_action">Besvar</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Afvis</string>
+    <string name="call_notification_hang_up_action">Læg på</string>
+    <string name="call_notification_incoming_text">Indgående opkald</string>
+    <string name="call_notification_ongoing_text">Igangværende opkald</string>
+    <string name="call_notification_screening_text">Et indgående opkald screenes</string>
     <string name="delete_ringtone_text">Slet</string>
     <string name="notification_sound_default">Standardlyd for notifikationer</string>
     <string name="ringtone_default">Standardringetone</string>

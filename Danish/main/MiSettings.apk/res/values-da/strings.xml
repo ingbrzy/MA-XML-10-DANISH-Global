@@ -47,8 +47,10 @@
     <string name="anti_flicker_mode">Flimmerfri</string>
     <string name="anti_flicker_mode_categroy">Tilstande</string>
     <string name="anti_flicker_mode_summary">Undgå overdrevet flimring og mindsk belastningen på øjnene under forhold med svagt lys.</string>
+    <string name="anti_flicker_mode_summary_new">Brug DC-dæmpning i svagt lys for at reducere belastningen af øjnene</string>
     <string name="anti_flicker_title">Flimmerfri tilstand</string>
     <string name="app_name">Indstillinger</string>
+    <string name="app_use">App-skærmtid</string>
     <string name="application_sound">Appnotifikationer</string>
     <string name="apply_ringtone">Apply</string>
     <string name="arctic_fox">Arctic fox</string>
@@ -111,7 +113,6 @@
     <string name="branch_whipbird">Turdidae</string>
     <string name="brown_pelican">Brown pelican</string>
     <string name="calendar_sound">Påmindelser om arrangementer</string>
-    <string name="calendar_tip">Lyde, der minder om arrangementer, fungerer for kalenderpåmindelser, noter og opgaver</string>
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Capybaras are semiaquatic herbivore rodents who can hold their breath underwater for up to five minutes at a time.</string>
@@ -307,6 +308,10 @@ genereres ikke i Andet rum"</string>
     <string name="focus_time_exception_tip">Det ser ud til, at systemtiden ændrede sig. Fokustilstand deaktiveret.</string>
     <string name="follow_apps_settings">Baseret på app-indstillinger</string>
     <string name="follow_sim1">Brug SIM 1-indstillinger</string>
+    <string name="footer_global_fps">"
+%1$d. Når du aktiverer præstationstilstand, ændres opdateringshastigheden til systemets maksimum, der er på %2$d Hz. Appindstillinger til høj opdateringshastighed vil være midlertidigt utilgængelige."</string>
+    <string name="footer_max_fps" formatted="false">"
+%d. Opdateringsfrekvensen kan justeres til op til %s Hz for understøttede apps og spil."</string>
     <string name="force_rest">Brug sessionspauser</string>
     <string name="force_rest_summary">Hold obligatoriske pauser, når sessionerne når den fastsatte grænse</string>
     <string name="force_rest_time">Pausens varighed</string>
@@ -419,18 +424,21 @@ genereres ikke i Andet rum"</string>
     <string name="marabou_stork">Marabou stork</string>
     <string name="marabou_stork_info">The marabou stork is a massive bird, a frequent scavenger.</string>
     <string name="masked_palm_civet">Masked palm civet</string>
+    <string name="max_fps_string">Op til %s Hz</string>
     <string name="medium_tree_finch">Medium tree finch</string>
+    <string name="mi_transfer_banner_summary">Flere enhedsmærker understøttes</string>
+    <string name="mi_transfer_banner_title">Overfør elementer fra din gamle enhed</string>
     <string name="midnight">Nat</string>
     <string name="miuix_access_state_desc">Valgt</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mere</string>
     <string name="miuix_appcompat_cancel_description">Annuller</string>
     <string name="miuix_appcompat_confirm_description">Bekræft</string>
     <string name="miuix_appcompat_delete_description">Slet</string>
-    <string name="miuix_appcompat_deselect_all">Vælg fra</string>
-    <string name="miuix_appcompat_deselect_all_description">Fravælg alle</string>
+    <string name="miuix_appcompat_deselect_all">Fravælg alt</string>
+    <string name="miuix_appcompat_deselect_all_description">Fravælg alt</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Annuller</string>
     <string name="miuix_appcompat_search_input_description">Søg</string>
     <string name="miuix_appcompat_select_all">Vælg alle</string>
@@ -582,6 +590,7 @@ genereres ikke i Andet rum"</string>
     <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%d Hz (sparer batteri)</string>
     <string name="screen_fps_unit_smooth">%d Hz (bedre kvalitet)</string>
+    <string name="screen_fps_unit_string">%s Hz</string>
     <string name="screen_original_gamut">Forbedret</string>
     <string name="screen_original_gamut_summary">Vis alt skærmindhold i det bredest mulige farveudvalg</string>
     <string name="screen_paper_mode_apps_loading">Lige et øjeblik…</string>
@@ -640,6 +649,7 @@ genereres ikke i Andet rum"</string>
     <string name="stop_summary">Alle statistikker og data om skærmtid bliver slettet, når du deaktiverer denne funktion</string>
     <string name="suggestion">Feedback</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_max_fps_for_intelligent">Juster opdateringsfrekvensen dynamisk til op til %s Hz baseret på scenarier for at afbalancere ydeevne og strømforbrug</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
@@ -794,7 +804,7 @@ For at kunne fungere normalt skal denne app indsamle oplysninger om skærmtid: A
 Denne app kræver også forbindelse til internettet og kræver følgende tilladelser for at kunne indsamle dine personlige oplysninger:"</string>
     <string name="usage_home_premission_second_summary">Denne app er nødt til at indsamle dine personlige oplysninger for at fungere normalt. Vi vil beskytte dine personlige oplysninger i henhold til relevante love, bestemmelser og privatlivspolitikker.</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">Vi vil beskytte dine personlige oplysninger i henhold til gældende love, bestemmelser og privatlivspolitikker. Hvis du ikke accepterer at give sådanne tilladelser eller at dele og uploade dine personlige oplysninger, vil du ikke kunne bruge denne app. Du kan tilbagekalde din autorisation i Skærmtid > Indstillinger > Deaktivér skærmtid.</string>
-    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Før du bruger denne app, bedes du læse og acceptere vores &lt;a href='%1s'>Brugeraftale&lt;/a> og&lt;a href='%2s'>Privatlivspolitik&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false"><Data>"Før du bruger denne app, bedes du læse og acceptere vores &lt;a href='%1s'>Brugeraftale&lt;/a> og&lt;a href='%2s'>Privatlivspolitik&lt;/a>."</Data></string>
     <string name="usage_home_premission_second_summary_new">Vi vil beskytte dine personlige oplysninger i henhold til gældende love, bestemmelser og privatlivspolitikker. Hvis du ikke accepterer at give sådanne tilladelser eller at dele og uploade dine personlige oplysninger, vil du ikke kunne bruge denne app. Du kan tilbagekalde din autorisation i Skærmtid > Indstillinger > Deaktivér skærmtid. Hvis du har yderligere spørgsmål om privatliv, kan du kontakte os på privacy@xiaomi.com.</string>
     <string name="usage_new_category_limit_summary">Indstil daglige brugsgrænser for alle apps i denne kategori</string>
     <string name="usage_new_category_limit_title">Begræns brugen af appkategori</string>
@@ -842,7 +852,7 @@ Denne app kræver også forbindelse til internettet og kræver følgende tillade
     <string name="usage_optional_title">Valgfrie tilladelser</string>
     <string name="usage_permisison_agree_desc_o">For at kunne give dig statistikker om skærmtid skal denne app indsamle følgende data: antal gange du låser enheden op samt en liste over dine apps sammen med de korresponderende brugsvarigheder.</string>
     <string name="usage_permisison_agree_desc_p">For at kunne give dig statistikker om skærmtid og fokustilstand skal denne app indsamle følgende data: antal gange du låser enheden op, en liste over dine apps sammen med de korresponderende brugsvarigheder, antal gange din skærm tænder samt indstillinger for fokustilstand.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Denne app skal tilslutte til internettet og indsamle de påkrævede personlige data for at fungere normalt. For fuldt ud at forstå dine rettigheder som bruger såvel som de måder, vi bruger dine data på, skal du læse og bekræfte vores &lt;a href='%1s'>Brugeraftale&lt;/a> og &lt;a href='%2s'>Privatlivspolitik&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false"><Data>"Denne app skal tilslutte til internettet og indsamle de påkrævede personlige data for at fungere normalt. For fuldt ud at forstå dine rettigheder som bruger såvel som de måder, vi bruger dine data på, skal du læse og bekræfte vores &lt;a href='%1s'>Brugeraftale&lt;/a> og &lt;a href='%2s'>Privatlivspolitik&lt;/a>."</Data></string>
     <string name="usage_permission_main_desc">"Velkommen til skærmtid!
 Denne app skal tilslutte til internettet og kræver følgende tilladelser for at kunne fungere normalt:"</string>
     <string name="usage_permission_title">Bemærk</string>

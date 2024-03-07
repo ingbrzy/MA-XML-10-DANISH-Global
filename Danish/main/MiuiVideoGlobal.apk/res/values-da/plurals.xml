@@ -5,16 +5,16 @@
         <item quantity="one">1 time siden</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 time siden</item>
-        <item quantity="one">1 time siden</item>
+        <item quantity="other">%d time siden</item>
+        <item quantity="one">%d time siden</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">En halv time siden</item>
         <item quantity="one">En halv time siden</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om en time</item>
-        <item quantity="one">Om en time</item>
+        <item quantity="other">Om %d timer</item>
+        <item quantity="one">Om %d time</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Om en halv time</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Omgående</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">om %d min</item>
-        <item quantity="one">om 1 min</item>
+        <item quantity="other">Om %d min</item>
+        <item quantity="one">Om %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Lige nu</item>
@@ -34,7 +34,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d min siden</item>
-        <item quantity="one">1 min siden</item>
+        <item quantity="one">%d min siden</item>
     </plurals>
     <plurals name="comment_model_watch_reply">
         <item quantity="other">Vis %d svar</item>
@@ -51,10 +51,6 @@
     <plurals name="exo_controls_rewind_by_amount_description">
         <item quantity="other">Spol %d sekunder tilbage</item>
         <item quantity="one">Spol %d sekund tilbage</item>
-    </plurals>
-    <plurals name="fcmpts_dialog_one">
-        <item quantity="other">Se %s sekunder mere af en video for at optjene point og indløse belønninger</item>
-        <item quantity="one">Se %s sekund mere af en video for at optjene point og indløse belønninger</item>
     </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Går tilbage til hjemmesiden om %1$d sekunder…</item>
@@ -84,36 +80,6 @@
         <item quantity="other">om %d minutter</item>
         <item quantity="one">om 1 minut</item>
     </plurals>
-    <plurals name="incentive_dialog_congratulation_get_credits_title">
-        <item quantity="other">Du optjente %d point!</item>
-        <item quantity="one">Du optjente %d point!</item>
-    </plurals>
-    <plurals name="incentive_dialog_credits">
-        <item quantity="other">%d point</item>
-        <item quantity="one">%d point</item>
-    </plurals>
-    <plurals name="incentive_dialog_login_and_get_credits_message">
-        <item quantity="other">Log ind for at gøre krav på og optjene %d ekstra point</item>
-        <item quantity="one">Log ind for at gøre krav på og optjene %d ekstra point</item>
-    </plurals>
-    <plurals name="incentive_dialog_seconds">
-        <item quantity="other">%d sekunder</item>
-        <item quantity="one">%d sekund</item>
-    </plurals>
-    <plurals name="incentive_guide_all_time_tip">
-        <item quantity="other">Se %d minutter i alt for at optjene point! Fuldfør opgaven nu?</item>
-        <item quantity="one">Se %d minut i alt for at optjene point! Fuldfør opgaven nu?</item>
-    </plurals>
-    <plurals name="incentive_guide_coins_tip">
-        <item quantity="other">"Du har %d point at gøre krav på
-Kun tilgængelige i dag"</item>
-        <item quantity="one">"Du har %d point at gøre krav på
-Kun tilgængelig i dag"</item>
-    </plurals>
-    <plurals name="incentive_guide_current_time_tip">
-        <item quantity="other">Du har set %d minutter i dag</item>
-        <item quantity="one">Du har set %d minut i dag</item>
-    </plurals>
     <plurals name="incentive_popup_window_share_success">
         <item quantity="other">Deling fuldført. Du tjente %d point.</item>
         <item quantity="one">Deling fuldført. Du tjente %d point.</item>
@@ -122,34 +88,6 @@ Kun tilgængelig i dag"</item>
         <item quantity="other">Abonnement er tegnet. Du tjente %d point.</item>
         <item quantity="one">Abonnement er tegnet. Du tjente %d point.</item>
     </plurals>
-    <plurals name="incentive_task_watchvideo_begin">
-        <item quantity="other">Optjen %d point!</item>
-        <item quantity="one">Optjen %d point!</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_finish">
-        <item quantity="other">Dagens opgaver færdige! Du har optjent %d point.</item>
-        <item quantity="one">Dagens opgaver færdige! Du har optjent %d point.</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_of_one">
-        <item quantity="other">Du så %1$1ds og optjente %2$2d point!</item>
-        <item quantity="one">Du så %1$1ds og optjente %2$2d point!</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_tip1">
-        <item quantity="other">Se en tilfældig video for at optjene %d point</item>
-        <item quantity="one">Se en tilfældig video for at optjene %d point</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_tip2">
-        <item quantity="other">Se %1$1d sekunder af en video for at optjene %2$2d point</item>
-        <item quantity="one">Se %1$1d sekunder af en video for at optjene %2$2d point</item>
-    </plurals>
-    <plurals name="incentive_toast_share_success">
-        <item quantity="other">Optjente %d point. Fortsæt med at dele for at optjene flere.</item>
-        <item quantity="one">Optjente %d point. Fortsæt med at dele for at optjene flere.</item>
-    </plurals>
-    <plurals name="incentive_toast_subscribe_success">
-        <item quantity="other">Optjente %d point. Fortsæt med at abonnere for at optjene flere.</item>
-        <item quantity="one">Optjente %d point. Fortsæt med at abonnere for at optjene flere.</item>
-    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Lige nu</item>
         <item quantity="one">Lige nu</item>
@@ -157,6 +95,10 @@ Kun tilgængelig i dag"</item>
     <plurals name="local_diversion_video_number">
         <item quantity="other">%d videoer</item>
         <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="local_longpress_speed_chenge_tip">
+        <item quantity="other">Afspiller med %sX hastighed. Slip for at afspille ved normal hastighed.</item>
+        <item quantity="one">Afspiller med %sX hastighed. Slip for at afspille ved normal hastighed.</item>
     </plurals>
     <plurals name="local_video_floder">
         <item quantity="other">%d mapper</item>
@@ -181,10 +123,6 @@ Kun tilgængelig i dag"</item>
     <plurals name="lv_subtitle_onlinesub_size_float_kb">
         <item quantity="other">Størrelse: %.2f KB</item>
         <item quantity="one">Størrelse: %.2f KB</item>
-    </plurals>
-    <plurals name="lv_video_count">
-        <item quantity="other">%d videoer</item>
-        <item quantity="one">%d video</item>
     </plurals>
     <plurals name="mangotv_feature_list_title1">
         <item quantity="other">%1$1d ud af %2$2d afsnit tilgængelige</item>
@@ -214,14 +152,6 @@ Kun tilgængelig i dag"</item>
         <item quantity="other">%d sange</item>
         <item quantity="one">%d sang</item>
     </plurals>
-    <plurals name="new_incentive_toast_share_success">
-        <item quantity="other">Delt. Du har optjent %d point. Få dem i Pointcenteret.</item>
-        <item quantity="one">Delt. Du har optjent %d point. Få dem i Pointcenteret.</item>
-    </plurals>
-    <plurals name="new_incentive_toast_subscribe_success">
-        <item quantity="other">Tilmeldt. Du har optjent %d point. Få dem i Pointcenteret.</item>
-        <item quantity="one">Tilmeldt. Du har optjent %d point. Få dem i Pointcenteret.</item>
-    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Dit indhold indeholder elementer (%1$s), der overtræder vores fællesskabsstandarder. Din konto er suspenderet i %2$d dage indtil %3$s.</item>
         <item quantity="one">Dit indhold indeholder elementer (%1$s), der overtræder vores fællesskabsstandarder. Din konto er suspenderet i %2$d dag indtil %3$s.</item>
@@ -233,14 +163,6 @@ Kun tilgængelig i dag"</item>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minut siden</item>
-    </plurals>
-    <plurals name="ovp_detail_v_video_count">
-        <item quantity="other">%d videoer</item>
-        <item quantity="one">%d video</item>
-    </plurals>
-    <plurals name="ovp_home_item_unit">
-        <item quantity="other">%d videoer</item>
-        <item quantity="one">%d video</item>
     </plurals>
     <plurals name="plus_edit_delete_comfire_text">
         <item quantity="other">Slet %s elementer nu?</item>
@@ -297,10 +219,6 @@ Kun tilgængelig i dag"</item>
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">Tilføj op til %d bogmærker</item>
         <item quantity="one">Tilføj op til %d bogmærke</item>
-    </plurals>
-    <plurals name="v_confirm_hide_videos_new">
-        <item quantity="other">Skjul %d valgte filer?</item>
-        <item quantity="one">Skjul %d valgte fil?</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s synes godt om</item>

@@ -76,7 +76,7 @@
     <string name="currency_update_time_format">Valutakurser leveret af Webull (%s)</string>
     <string name="currency_update_updating">Opdaterer satser…</string>
     <string name="data_analysis">Analyse</string>
-    <string name="date_format">dd.MM.yyyy</string>
+    <string name="date_format">d. MMM yyyy</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -185,7 +185,7 @@
     <string name="friday_shortest">Fre</string>
     <string name="fund_loan">Finansier lån</string>
     <string name="further_education">Videre uddannelse</string>
-    <string name="get_loaction_permission_title">Find</string>
+    <string name="get_loaction_permission_title">Få adgang til placering</string>
     <string name="get_location_fail_prompt">Kunne ikke hente placering</string>
     <string name="gst_initial_value">%d</string>
     <string name="gst_percentage">%s</string>
@@ -232,11 +232,12 @@
     <string name="label_days">Dage</string>
     <string name="label_emi">EMI</string>
     <string name="label_from_date">Fra</string>
-    <string name="label_interest">Rente (%)</string>
+    <string name="label_interest">Rente (procent)</string>
     <string name="label_investment_duration">Varighed</string>
     <string name="label_months">Måneder</string>
     <string name="label_powered_by">Drives af Mi Lommeregner</string>
     <string name="label_principal">Hovedstol</string>
+    <string name="label_share">Del</string>
     <string name="label_statistics">Statistikker</string>
     <string name="label_to_date">Til</string>
     <string name="label_total_interest">Renter i alt</string>
@@ -356,13 +357,13 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="mt_max">Det beløb, du har indtastet, er for stort</string>
     <string name="mulDesc">multiplicer</string>
     <string name="n_a">N/A</string>
-    <string name="name_cgst" formatted="false">CGST/SGST: %s %</string>
+    <string name="name_cgst">CGST/SGST: 2.5</string>
     <string name="name_discount">Rabat (%)</string>
     <string name="name_original">Oprindelig pris</string>
     <string name="name_price">Slutpris</string>
     <string name="name_save">"Du sparer "</string>
     <string name="negDesc">Skift mellem temperaturer under og over nul</string>
-    <string name="new_privacy_string">&lt;Data>Velkommen til Lommeregner!&lt;br/>Denne app indeholder følgende funktioner:&lt;br/>• Basal lommeregner&lt;br/>• Videnskabelig lommeregner&lt;br/>• Universel omregner (f.eks. valuta, måleenheder osv.)&lt;br/>• Beregningsskabeloner for lån, investering, EMI mv.&lt;br/>Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">brugeraftale&lt;/a> og &lt;a href=\"%3$s\">privatlivspolitik&lt;/a>, inden du bruger Lommeregner. I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til privatlivspolitikken for Lommeregner. Hvis du ikke accepterer vores privatlivspolitik, vil du ikke kunne bruge nogle af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.&lt;/Data></string>
+    <string name="new_privacy_string"><Data>Velkommen til Lommeregner!&lt;br/>Denne app indeholder følgende funktioner:&lt;br/>• Basal lommeregner&lt;br/>• Videnskabelig lommeregner&lt;br/>• Universel omregner (f.eks. valuta, måleenheder osv.)&lt;br/>• Beregningsskabeloner for lån, investering, EMI mv.&lt;br/>Du kan få at vide, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">brugeraftale&lt;/a> og &lt;a href=\"%3$s\">privatlivspolitik&lt;/a>, inden du bruger Lommeregner. I Indstillinger kan du til enhver tid tilbagetrække dit samtykke til privatlivspolitikken for Lommeregner. Hvis du ikke accepterer vores privatlivspolitik, vil du ikke kunne bruge nogle af denne apps funktioner, men dens grundlæggende funktioner vil stadig være tilgængelige for dig.</Data></string>
     <string name="night">Aften</string>
     <string name="none">Ingen</string>
     <string name="noon">Middag</string>
@@ -376,7 +377,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="permission_location_miui12">Får adgang til placering</string>
     <string name="permission_option_desc_miui12">Disse tilladelser er påkrævede, når du bruger supplerende funktioner.</string>
     <string name="permission_option_miui12">Valgfrie tilladelser</string>
-    <string name="permission_privacy_link">&lt;Data>Før du bruger denne app, bedes du læse og acceptere vores &lt;a href=%1$s>Brugeraftale&lt;/a> og&lt;a href=%2$s>Privatlivspolitik&lt;/a>.&lt;/Data></string>
+    <string name="permission_privacy_link"><Data>Før du bruger denne app, bedes du læse og acceptere vores &lt;a href=%1$s>Brugeraftale&lt;/a> og&lt;a href=%2$s>Privatlivspolitik&lt;/a>.</Data></string>
     <string name="permission_purpose_miui12_system">Velkommen til lommeregner! Denne app kombinerer funktionerne af en almindelig lommeregner med forskellige omformere og livsstilsfunktioner.</string>
     <string name="permission_remove_desc_miui12">Giv denne app tilladelse til at tilslutte til internettet og giv de valgfrie tilladelser for at kunne bruge alle dens funktioner.</string>
     <string name="permission_title_miui12">Bemærk</string>
@@ -408,7 +409,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="preference_use_voice_title">Taleudgang</string>
     <string name="preference_user_feedback_title">Feedback</string>
     <string name="preference_view_privacy_title">Se privatlivspolitik</string>
-    <string name="privacy_dialog_title">Bemærk</string>
+    <string name="privacy_dialog_title">Fortrolighed</string>
     <string name="privacy_revoke_error">Kunne ikke trække tilbage. Prøv igen.</string>
     <string name="privacy_revoke_progress">Tilbagetrækning…</string>
     <string name="privacy_switch">Tilbagetrækning af samtykke</string>
@@ -428,7 +429,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="search_menu_title">Søg</string>
     <string name="secondFunctionDesc">Skift til anden funktion</string>
     <string name="send">Send</string>
-    <string name="settingsDesc">indstillinger</string>
+    <string name="settingsDesc">Indstillinger</string>
     <string name="sinDesc">sinus</string>
     <string name="sqrtDesc">kvadratrod</string>
     <string name="statistic_label_balance">Saldo</string>
@@ -573,6 +574,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="unit_data_display_currency_btn">Bhutansk ngultrum</string>
     <string name="unit_data_display_currency_bwp">Botswansk pula</string>
     <string name="unit_data_display_currency_byn">Hviderussisk rubel</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Canadisk dollar</string>
     <string name="unit_data_display_currency_cdf">Congolesisk franc</string>
     <string name="unit_data_display_currency_chf">Schweiziske franc</string>
@@ -753,7 +755,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="unit_data_display_weight_uk.cwt">UK hundredweight</string>
     <string name="unit_data_display_weight_uk.st">Stone</string>
     <string name="unit_data_display_weight_us.cwt">US hundredweight</string>
-    <string name="unit_data_short_area_acre">alle nuværende</string>
+    <string name="unit_data_short_area_acre">ac</string>
     <string name="unit_data_short_area_are">en</string>
     <string name="unit_data_short_area_ha">ha</string>
     <string name="unit_data_short_area_mu">mu</string>
@@ -784,9 +786,9 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="unit_data_short_length_cun">cun</string>
     <string name="unit_data_short_length_dm">dm</string>
     <string name="unit_data_short_length_fen">fen</string>
-    <string name="unit_data_short_length_fm">Pengeautomat</string>
+    <string name="unit_data_short_length_fm">tt</string>
     <string name="unit_data_short_length_ft">ft</string>
-    <string name="unit_data_short_length_fur">pels</string>
+    <string name="unit_data_short_length_fur">fur</string>
     <string name="unit_data_short_length_gongli">gongli</string>
     <string name="unit_data_short_length_hao">hao</string>
     <string name="unit_data_short_length_in">in</string>
@@ -858,7 +860,7 @@ Etårs- og femårs-LPR vil blive noteret hver den 20. (forsinkelser kan forekomm
     <string name="unit_data_short_weight_qian">qian</string>
     <string name="unit_data_short_weight_st">sh.t</string>
     <string name="unit_data_short_weight_t">t</string>
-    <string name="unit_data_short_weight_taijin">jin(tw)</string>
+    <string name="unit_data_short_weight_taijin">jin (Taiwan)</string>
     <string name="unit_data_short_weight_ug">μg</string>
     <string name="unit_data_short_weight_uk.cwt">cwt</string>
     <string name="unit_data_short_weight_uk.st">st</string>

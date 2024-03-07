@@ -10,6 +10,7 @@
     <string name="download_queued">I kø</string>
     <string name="download_remaining">%s tilbage</string>
     <string name="download_running">Downloader</string>
+    <string name="download_running_percent">Downloader %s</string>
     <string name="download_unknown_title">&lt;Uden overskrift></string>
     <string name="notif_title_file_size">%1$d i alt</string>
     <string name="notif_title_single_downloading">Downloader %1$s</string>
@@ -32,7 +33,6 @@
     <string name="permlab_downloadManager">Få adgang til download.</string>
     <string name="permlab_downloadManagerAdvanced">Avancerede funktioner i download.</string>
     <string name="permlab_downloadWithoutNotification">Download filer uden meddelelse</string>
-    <string name="permlab_seeAllExternal">Se alle downloads til USB-lagring</string>
     <string name="root_downloads">Download</string>
     <string name="wifi_recommended_body">"Ved at starte denne %1$s download nu kan det forkorte dit batteris levetid og/eller resultere i overdrevent brug af din mobile dataforbindelse, hvilket kan lede til ekstra gebyrer fra din teleudbyder, afhængigt af din dataplan.
 

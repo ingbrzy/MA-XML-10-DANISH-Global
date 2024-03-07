@@ -60,7 +60,7 @@
     <string name="feedback">Feedback</string>
     <string name="float_notification_snooze_strategy">Skjul midlertidigt</string>
     <string name="float_notification_snooze_summary">Swipe op på en flydende notifikation for midlertidigt at skjule kommende notifikationer.</string>
-    <string name="float_notification_snooze_summary_1_min">Swipe up on a floating notification to hide upcoming ones for %d minute</string>
+    <string name="float_notification_snooze_summary_1_min">Stryg opad på en flydende notifikation for at skjule kommende notifikationer i %d minut</string>
     <string name="float_notification_snooze_summary_always_float">Vis altid flydende meddelelser</string>
     <string name="float_notification_snooze_summary_until_unlock">Stryg opad på en flydende meddelelse for at skjule kommende meddelelser, indtil enheden er låst</string>
     <string name="float_notifications">Flydende notifikationer</string>
@@ -235,6 +235,7 @@
     <string name="settings_guide_title">Brug for andre indstillinger?</string>
     <string name="show_badge_notifications">Notifikationsbadges</string>
     <string name="show_badge_notifications_short">Skilte</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Statuslinje</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Flydende notifikationer er ikke tilladt</string>

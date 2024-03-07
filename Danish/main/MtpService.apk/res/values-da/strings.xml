@@ -29,6 +29,13 @@
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="accessing_notification_title">Adgang til filer fra %1$s</string>
     <string name="app_label">MTP-host</string>
+    <string name="call_notification_answer_action">Besvar</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Afvis</string>
+    <string name="call_notification_hang_up_action">Læg på</string>
+    <string name="call_notification_incoming_text">Indgående opkald</string>
+    <string name="call_notification_ongoing_text">Igangværende opkald</string>
+    <string name="call_notification_screening_text">Et indgående opkald screenes</string>
     <string name="downloads_app_label">Downloads</string>
     <string name="error_busy_device">Den anden enhed er optaget. Du kan ikke overføre filer, før den er tilgængelig.</string>
     <string name="error_locked_device">Der blev ikke fundet nogen filer. Den anden enhed er muligvis låst. Hvis dette er tilfældet, skal du låse den op og prøve igen.</string>

@@ -33,11 +33,17 @@
     <string name="afternoon">Eftermiddag</string>
     <string name="am">AM</string>
     <string name="app_name">Find enhed</string>
+    <string name="call_notification_answer_action">Besvar</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Afvis</string>
+    <string name="call_notification_hang_up_action">Læg på</string>
+    <string name="call_notification_incoming_text">Indgående opkald</string>
+    <string name="call_notification_ongoing_text">Igangværende opkald</string>
+    <string name="call_notification_screening_text">Et indgående opkald screenes</string>
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">Kunne ikke låse op. %s.</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="close">Luk</string>
-    <string name="copy">Kopiér</string>
     <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">For at få adgang til telefonnummer så denne enhed kan lokaliseres, når den ikke er tilsluttet til internettet</string>
     <string name="custom_define_permission_desc_android.permission.SEND_SMS">Til lokalisering af denne enhed, når den ikke er tilsluttet til internettet</string>
     <string name="custom_define_permission_desc_android.permission_group.LOCATION">Til at finde din enhed og skifte til Bortkommet-tilstand</string>
@@ -48,7 +54,7 @@
     <string name="date_time_picker_dialog_title">Indstil dato og tid</string>
     <string name="default_debt_msg_words">"Denne enhed låst pga. en forfalden afdragsbetaling.
 Kontakt din salgsrepræsentant for flere oplysninger."</string>
-    <string name="default_lock_msg_words">Denne enhed for knyttet til en eksisterende Mi-konti. Af sikkerhedsmæssige årsager skal du indtaste din adgangskode for at bekræfte enheden.</string>
+    <string name="default_lock_msg_words">Denne enhed er tilknyttet en eksisterende Xiaomi-konto. Af sikkerhedsmæssige årsager skal du indtaste adgangskoden for at verificere enheden.</string>
     <string name="default_lock_msg_words_with_phone">Hej! Jeg har mistet denne enhed. Er du sød at kontakte mig? Tak!</string>
     <string name="device_locked">Enheden er låst</string>
     <string name="device_lost">Denne enhed er mistet</string>
@@ -63,16 +69,14 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="eras_ad">e.v.t.</string>
     <string name="eras_bc">f.v.t.</string>
     <string name="evening">Eftermiddag</string>
-    <string name="expand_button_title">Avanceret</string>
-    <string name="find_device">Find enhed</string>
     <string name="find_device_capture_done_notification_content">Se fotoet på i.mi.com</string>
     <string name="find_device_capture_done_notification_title">Find enhed tog et foto på afstand</string>
     <string name="find_device_capture_notification_content">Din konto har indsendt en anmodning om at tage et foto på afstand med denne enhed</string>
     <string name="find_device_capture_notification_title">Find enhed er ved at tage et foto</string>
     <string name="find_device_crash">Find enhed lukkede uventet.</string>
     <string name="find_device_error_access_denied">Adgang nægtet.</string>
-    <string name="find_device_error_account_sys_timeout">"Kunne ikke oprette forbindelse til Mi-konto. "</string>
-    <string name="find_device_error_account_unknown_error">Mi-kontofejl (%s).</string>
+    <string name="find_device_error_account_sys_timeout">Kunne ikke tilslutte til Xiaomi-konto.</string>
+    <string name="find_device_error_account_unknown_error">Xiaomi-kontofejl (%s).</string>
     <string name="find_device_error_custom">%s</string>
     <string name="find_device_error_network">Netværksfejl.</string>
     <string name="find_device_error_password_changed">Kontoadgangskoden er for nylig blevet ændret.</string>
@@ -89,44 +93,44 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="find_device_telephony_fault">Find enhed: Telefonfejl (%s).</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
-    <string name="fmt_date_day">dd</string>
+    <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
-    <string name="fmt_date_long_month_day">MMMM dd</string>
+    <string name="fmt_date_long_month_day">d MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">MMMM dd, yyyy</string>
-    <string name="fmt_date_numeric_day">dd</string>
-    <string name="fmt_date_numeric_month">MM</string>
-    <string name="fmt_date_numeric_month_day">MM/dd</string>
+    <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
+    <string name="fmt_date_numeric_day">d</string>
+    <string name="fmt_date_numeric_month">M</string>
+    <string name="fmt_date_numeric_month_day">d-M</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">MM/yyyy</string>
-    <string name="fmt_date_numeric_year_month_day">MM/dd/yyyy</string>
-    <string name="fmt_date_short_month">MM</string>
-    <string name="fmt_date_short_month_day">MM/dd</string>
+    <string name="fmt_date_numeric_year_month">M-yyyy</string>
+    <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
+    <string name="fmt_date_short_month">MMM</string>
+    <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">MM/dd/yyyy</string>
+    <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
     <string name="fmt_date_time">D T</string>
     <string name="fmt_date_time_timezone">D T z</string>
     <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">hh</string>
-    <string name="fmt_time_12hour_minute">hh:mm</string>
-    <string name="fmt_time_12hour_minute_pm">tt:mm aa</string>
-    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
-    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">tt:mm:ss.S aa</string>
-    <string name="fmt_time_12hour_minute_second_pm">tt:mm:ss aa</string>
-    <string name="fmt_time_12hour_pm">tt aa</string>
-    <string name="fmt_time_24hour">H</string>
-    <string name="fmt_time_24hour_minute">HH:mm</string>
-    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
-    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
-    <string name="fmt_time_millis">S</string>
-    <string name="fmt_time_minute">m</string>
-    <string name="fmt_time_minute_second">m:s</string>
-    <string name="fmt_time_minute_second_millis">m:s.S</string>
-    <string name="fmt_time_second">s</string>
-    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
+    <string name="fmt_time_12hour_pm">ha</string>
+    <string name="fmt_time_24hour">"H 'o''clock'"</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_millis">"S'ms'"</string>
+    <string name="fmt_time_minute">"m'min'"</string>
+    <string name="fmt_time_minute_second">"m'min' s's'"</string>
+    <string name="fmt_time_minute_second_millis">"m'min' s.S's'"</string>
+    <string name="fmt_time_second">"s's'"</string>
+    <string name="fmt_time_second_millis">"s.S's'"</string>
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
@@ -147,15 +151,16 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="login_extra_steps">Loginbekræftelse</string>
     <string name="login_failed">Kunne ikke logge på. %s.</string>
     <string name="midnight">Nat</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Vælg fra</string>
+    <string name="miuix_access_state_desc">Valgt</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mere</string>
     <string name="miuix_appcompat_cancel_description">Annuller</string>
     <string name="miuix_appcompat_confirm_description">Bekræft</string>
     <string name="miuix_appcompat_delete_description">Slet</string>
-    <string name="miuix_appcompat_deselect_all">Vælg fra</string>
-    <string name="miuix_appcompat_deselect_all_description">Fravælg alle</string>
+    <string name="miuix_appcompat_deselect_all">Fravælg alt</string>
+    <string name="miuix_appcompat_deselect_all_description">Fravælg alt</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Annuller</string>
     <string name="miuix_appcompat_search_input_description">Søg</string>
     <string name="miuix_appcompat_select_all">Vælg alle</string>
@@ -212,8 +217,8 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="morning">Morgen</string>
     <string name="night">Aften</string>
     <string name="noon">Middag</string>
-    <string name="not_set">Ikke angivet</string>
-    <string name="open_wifi_settings">Åbn Wi-Fi-indstillinger</string>
+    <string name="open_wifi_settings">Open WLAN settings</string>
+    <string name="open_wifi_settings_china">Open WLAN settings</string>
     <string name="passport_checking_vcode">Kontrollerer adgangskode…</string>
     <string name="passport_error_empty_vcode">Indtast verifikationskode</string>
     <string name="passport_notification_need_unlock_again">Prøv at låse op igen</string>
@@ -222,11 +227,10 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="passport_vcode_prompt_long">Indtast verifikationskode</string>
     <string name="passport_verify">Kontroller</string>
     <string name="password">Indtast adgangskode</string>
-    <string name="phone_locked">Denne enhed er associeret med et Mi-konto (%s). Indtast adgangskode for at aktivere enheden.</string>
+    <string name="phone_locked">Denne enhed er tilknyttet en Xiaomi-konto (%s). Indtast adgangskode for at aktivere enheden.</string>
     <string name="phone_locked_account_email">, tilknyttet e-mail: %s</string>
     <string name="phone_locked_account_phone">, tilknyttet telefonnummer: %s</string>
     <string name="pm">PM</string>
-    <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="return_to_call">Vend tilbage til opkald</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
@@ -236,7 +240,6 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captcha må ikke være tom</string>
     <string name="stop_on_empty_password">Adgangskoden må ikke være tom</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Søndag</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
@@ -307,29 +310,33 @@ Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="unlock_error_device_id">Kan ikke hente enheds-id</string>
     <string name="unlock_error_interrupted">Afbrudt</string>
     <string name="unlock_error_network">Kan ikke oprette forbindelse til netværket</string>
-    <string name="unlock_error_passport_sdk_timeout">Mi-konto SDK svarer ikke</string>
     <string name="unlock_error_rpc">RPC-fejl</string>
     <string name="unlock_error_server">Serverfejl</string>
-    <string name="unlock_error_ssl_hand_shake">Kunne ikke tilslutte til serveren. Prøv at indstille dato og klokkeslæt manuelt.</string>
     <string name="unlock_error_unknown">Kan ikke logge ind</string>
     <string name="unlock_error_user_name">Ugyldig brugernavn</string>
     <string name="unlock_error_wrong_vcode">Den indtastede kode er forkert</string>
-    <string name="unlock_help">"Opret forbindelse til netværket.
-Indsæt et fungerende SIM-kort og opret ikke forbindelse til ugyldige Wi-Fi-netværk.
+    <string name="unlock_help">"Connect to the network.
+Insert a working SIM card and don't connect to invalid WLAN networks.
 
-Glemt adgangskoden?
-Gå til id.mi.com, vælg \"glemt adgangskoden?\" og følg instruktionerne.
+Forgot password?
+Go to id.mi.com, select \"Forgot password?\", and follow the instructions.
 
-Enheden kan ikke aktiveres?
-Gå til i.mi.com/ss og indsend din ansøgning om at låse enheden op."</string>
+Can't activate device?
+Go to i.mi.com/ss and submit your application to unlock the device."</string>
+    <string name="unlock_help_china">"Connect to the network.
+Insert a working SIM card and don't connect to invalid WLAN networks.
+
+Forgot password?
+Go to id.mi.com, select \"Forgot password?\", and follow the instructions.
+
+Can't activate device?
+Go to i.mi.com/ss and submit your application to unlock the device."</string>
     <string name="unlock_help_title">Hjælp til oplåsning:</string>
     <string name="unlock_number">Oplåsningskode: %s</string>
     <string name="unlock_wrong_captcha">Den indtastede kode er forkert</string>
     <string name="unlocking">Aktiverer…</string>
-    <string name="v7_preference_off">FRA</string>
-    <string name="v7_preference_on">TIL</string>
     <string name="verifing_account">Bekræfter adgangskode…</string>
-    <string name="verify_password_failed">Kunne ikke bekræfte Mi-konto-id. %s.</string>
+    <string name="verify_password_failed">Kunne ikke verificere Xiaomi-konto-id. %s.</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
