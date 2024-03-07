@@ -875,7 +875,6 @@ Prøv at flytte filer fra din enhed til Mi Drive."</string>
     <string name="set_pattern">Opgradér din adgangskode</string>
     <string name="set_pattern_btn">Opsæt</string>
     <string name="set_pattern_msg">Indstil din adgangskode igen. Den privatlivsbeskyttende adgangskode fungerer også for fotos, beskeder og noter.</string>
-    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Mindre end %d kB</string>
     <string name="size_lv2" formatted="false">%1d kB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>
