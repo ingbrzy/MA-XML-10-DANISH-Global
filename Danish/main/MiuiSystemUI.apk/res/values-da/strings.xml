@@ -1223,6 +1223,7 @@ Kontakt din it-administrator for at få mere at vide."</string>
     <string name="monitoring_description_personal_profile_named_vpn">Dine personlige apps har forbindelse til nettet via %1$s. Din netværksaktivitet, herunder mails og browserdata, er synlig for din VPN-udbyder.</string>
     <string name="monitoring_description_two_named_vpns">Denne enhed har forbindelse til internettet via %1$s og %2$s. Din netværksaktivitet, herunder mails og browserdata, er synlig for din it-administrator.</string>
     <string name="monitoring_description_vpn_settings">Åbn VPN-indstillinger</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s kan muligvis administrere apps, få adgang til data, der er tilknyttet denne enhed, og ændre enhedens indstillinger.
 
 Kontakt %2$s, hvis du har spørgsmål."</string>
@@ -1422,6 +1423,8 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Vælg &lt;font color=#a5220e>\"Wipe &amp;amp; Reset\"&lt;/font> og vent indtil enheden genstartes.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Hvordan sletter jeg data?</string>
     <string name="phone_locked_string">Enheden er låst</string>
+    <string name="pin_toast">Kør opad fra bunden af skærmen, og hold pause for at frigøre denne app</string>
+    <string name="pin_toast_nav">Tryk og hold knapperne Tilbage og Forhåndsvisning for at frigøre denne app</string>
     <string name="pip_close">Luk</string>
     <string name="pip_collapse">Skjul</string>
     <string name="pip_edu_text">Tryk to gange på <annotation icon="home_icon">HJEM</annotation> for at se indstillinger</string>
@@ -1823,6 +1826,8 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="status_bar_clock_date_format_12">E d. MMM</string>
     <string name="status_bar_clock_date_time_format">H:mm E d. MMM</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E, MMM d</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Ethernet</string>
     <string name="status_bar_settings_auto_rotation">Roter skærm automatisk</string>
     <string name="status_bar_work">Arbejdsprofil</string>

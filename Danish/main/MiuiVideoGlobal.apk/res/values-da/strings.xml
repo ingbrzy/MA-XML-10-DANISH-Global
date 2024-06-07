@@ -75,6 +75,7 @@
     <string name="ad_bar_notification_setting_title">Events</string>
     <string name="ad_click_to_play">Tryk for at afspille</string>
     <string name="ad_flag_text">Reklame</string>
+    <string name="ad_topview_repeat_play">Tryk for at afspille igen</string>
     <string name="add_local_shortcut_add">Tilføj</string>
     <string name="add_local_shortcut_des">Tilføj \"Mine videoer\" til startskærmen for at få adgang til lokale videoer med et enkelt tryk.</string>
     <string name="add_search_channel_link">URL</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol ti sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Slå lyden fra</string>
     <string name="cast_notification_connected_message">Forbundet til %1$s</string>
@@ -261,7 +263,7 @@ Send denne kode til supervisoren."</string>
     <string name="dialog_cancel">Annuller</string>
     <string name="dialog_clearn_content">Ryd browserhistorik nu?</string>
     <string name="dialog_clearn_title">Ryd historik</string>
-    <string name="dialog_confirm">OK</string>
+    <string name="dialog_confirm">Tilføj</string>
     <string name="dialog_delete_bookmarks_content">Slet bogmærke?</string>
     <string name="dialog_disagree_continue">Fortsæt</string>
     <string name="dialog_disagree_info">Hvis du ikke accepterer privatlivspolitikken til Mi Video vil du ikke kunne bruge vores onlinetjenester og vil kun kunne se videoer, der er gemt på din enhed. Fortsæt alligevel?</string>
@@ -330,6 +332,8 @@ Mi Video har brug for at indsamle de nødvendige personlige oplysninger for at k
     <string name="download_unable_tip">Kan ikke downloade dette element</string>
     <string name="download_video">Downloader video</string>
     <string name="downloading">Downloader…</string>
+    <string name="draw_ad_button_click_text">Ryst eller tryk for at åbne</string>
+    <string name="draw_ad_button_slide_text">Skub for flere detaljer</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="empty_channels">Administrer kanaler</string>
@@ -414,14 +418,10 @@ Mi Video har brug for at indsamle de nødvendige personlige oplysninger for at k
     <string name="feedback_activity_title">Feedback</string>
     <string name="feedback_contact_empty">Indtast dine kontaktoplysninger</string>
     <string name="feedback_contact_title">Kontaktoplysninger</string>
-    <string name="feedback_detail_input_hint">Indtast din besked</string>
-    <string name="feedback_hint">Beskriv problemet, du er stødt på.</string>
     <string name="feedback_hint_contact">Telefon/QQ/e-mail</string>
     <string name="feedback_hint_text">Beskriv problemet, du er stødt på.</string>
-    <string name="feedback_input_tip">Her kan du beskrive problemer og komme med forslag.</string>
     <string name="feedback_net_error">Kunne ikke indsende. Kontroller dine netværksindstillinger og prøv igen.</string>
     <string name="feedback_sent">Indsend</string>
-    <string name="feedback_success">Indsendt</string>
     <string name="feedback_success_toast">Indsendt korrekt. Tak for din feedback!</string>
     <string name="feedback_tag_title">Kategori</string>
     <string name="feedback_text_empty_toast">Indtast først din feedback.</string>
@@ -642,6 +642,7 @@ Denne handling kommer ikke til at påvirke dine galleribilleder."</string>
     <string name="hidden_channels">Følgende kanaler vil ikke blive vist på hjemmesiden.</string>
     <string name="hide">Skjul</string>
     <string name="hide_video_toast">Dette element er blevet skjult. Du kan finde og administrere skjulte elementer i Lokal > Mapper > Skjulte elementer.</string>
+    <string name="hiding_dialog_ok">Vælg</string>
     <string name="hint_icon_ad_title">Anbefalet</string>
     <string name="hint_in_mivideo">Nu kan du tjekke sidepanelet for yderligere funktioner</string>
     <string name="history">Historik</string>
@@ -695,7 +696,6 @@ Denne handling kommer ikke til at påvirke dine galleribilleder."</string>
     <string name="inline_mute_click_tip">Tryk for at slå lydløs fra</string>
     <string name="input_email_address_notice">Vi anvender denne e-mail til at verificere din konto</string>
     <string name="input_new_pwd">Indtast ny adgangskode</string>
-    <string name="input_size_tips_new">Du kan indtaste op til %d tegn</string>
     <string name="isornot_your_mi_account">Er dette din Mi Account?</string>
     <string name="item_card_all_replies">Alle svar</string>
     <string name="item_card_continue_play">Automatisk afspilning</string>
@@ -799,7 +799,6 @@ til videoer"</string>
     <string name="local_zoom_adjust_button">Skift visningstilstand</string>
     <string name="lock_screen">Låseskærm</string>
     <string name="login">Log ind</string>
-    <string name="login_tip">Log ind for at kunne modtage vores svar på din feedback.</string>
     <string name="logo_neverthink">Curated by Neverthink.tv</string>
     <string name="logout">Log af</string>
     <string name="logout_account">Log ud</string>
@@ -887,6 +886,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="manager_request_continue">Tillad</string>
     <string name="manager_request_tip">Vis ikke igen</string>
     <string name="manager_request_title">Kan ikke få adgang til denne fil</string>
+    <string name="mangotv_episode">Episode %d</string>
     <string name="mangotv_feature_list_title3">Tilføjet afsnit %s</string>
     <string name="mangotv_feature_more">Mere</string>
     <string name="mangotv_feature_title1">Afsnit</string>
@@ -916,11 +916,13 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="miuix_appcompat_delete_description">Slet</string>
     <string name="miuix_appcompat_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_deselect_all_description">Fravælg alt</string>
+    <string name="miuix_appcompat_edit">Redigér</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Annuller</string>
     <string name="miuix_appcompat_search_input_description">Søg</string>
     <string name="miuix_appcompat_select_all">Vælg alle</string>
     <string name="miuix_appcompat_select_all_description">Vælg alle</string>
     <string name="miuix_appcompat_select_item">Vælg emner</string>
+    <string name="miuix_dialog_ok">OK</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
@@ -1016,6 +1018,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -1045,7 +1048,6 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="music_new_user_dialog_got_it">Forstået</string>
     <string name="music_new_user_dialog_tip">Velkommen til Mi Video! Denne app har en lokal videoafspiller og onlinetjenester til musik- og videostreaming.</string>
     <string name="my_favorite_channels">Mine favoritkanaler</string>
-    <string name="my_feedback_title">Min feedback</string>
     <string name="native_body">Brødtekst</string>
     <string name="native_headline">Overskrift</string>
     <string name="native_media_view">Medievisning</string>
@@ -1056,6 +1058,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="network_failed">Kunne ikke forbinde til netværket</string>
     <string name="newyearfestival_go_to_draw_prizes">Gå til lodtrækning</string>
     <string name="newyearfestival_watch_the_video_to_draw_prizes">Se videoer for at deltage i lodtrækning</string>
+    <string name="next_button">Næste</string>
     <string name="nick_name">Kaldenavn</string>
     <string name="night">Aften</string>
     <string name="no_account">Ikke logget ind</string>
@@ -1098,13 +1101,14 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="offline_opt_in_decline">Nej tak</string>
     <string name="offline_opt_in_message">Vi sender dig en notifikation med et link til annoncørens website.</string>
     <string name="offline_opt_in_title">Åbn annoncen, når du er online igen.</string>
-    <string name="ok">OK</string>
+    <string name="ok">Ok</string>
     <string name="online_play_hint">For eksempel: http://www.example.com/video.mp4</string>
     <string name="online_play_start_loading_tip">Lige et øjeblik…</string>
     <string name="online_play_start_ready_loading_tip_b">Indlæser %.2f B/s</string>
     <string name="online_play_start_ready_loading_tip_kb">Indlæser %.2f kB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">Indlæser %.2f MB/s</string>
     <string name="online_play_title">Indtast URL</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Seneste abonnementer</string>
     <string name="order_recently_updated">Senest opdateret</string>
     <string name="out_of_memory_background_playback_is_suspended">Sat afspilning på pause på grund af utilstrækkelig hukommelse</string>
@@ -1241,6 +1245,8 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="photoPickerNotFoundText">Ingen fotos tilgængelige.</string>
     <string name="pip">PiP</string>
     <string name="pip_not_supported_toast">Opdatér til den nyeste systemversion for at kunne bruge billede-i-billede.</string>
+    <string name="play_at_normal_speed">Afspiller på 1X hastighed</string>
+    <string name="play_at_speed">Afspiller ved en hastighed på %.1fX</string>
     <string name="play_list_player_skeleton_file">mnc_live_tv_list_player_skeleton.json</string>
     <string name="play_list_save_dialog_create">Opret afspilningsliste</string>
     <string name="play_list_save_dialog_title">Tilføj til afspilningsliste</string>
@@ -1412,6 +1418,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="remaining_space_not_enough">Kan ikke downloade på grund af utilstrækkelig lagerplads</string>
     <string name="reminder">Bemærk</string>
     <string name="rename">Omdøb</string>
+    <string name="rename_dialog_ok">OK</string>
     <string name="rename_word_out">Dette filnavn er for langt</string>
     <string name="report">Rapporter</string>
     <string name="report_content_dislike">Vold eller upassende adfærd</string>
@@ -1465,7 +1472,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="sending">Sender…</string>
     <string name="service_error">Serverfejl</string>
     <string name="set_success">Ændret</string>
-    <string name="setting_privacy_title">Terms and conditions</string>
+    <string name="setting_privacy_title">Vilkår og betingelser</string>
     <string name="settings_inline_auto_play">Altid automatisk afspilning</string>
     <string name="settings_inline_auto_play_close">Automatisk afspilning er deaktiveret</string>
     <string name="settings_inline_auto_play_tip_close_forever">Altid deaktiveret</string>
@@ -1480,6 +1487,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="shake_to_open_ad">Ryst for at få mere at vide</string>
     <string name="share">Del</string>
     <string name="share_text_before_link">Se og download fantastiske videoer gratis på Mi Video</string>
+    <string name="share_title">Del</string>
     <string name="share_ugc_waitting">Genererer link…</string>
     <string name="shorts_assemble_ad_recommend">Anbefalede</string>
     <string name="show_the_location">Notifikationstyper</string>
@@ -1494,6 +1502,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="slide_or_click_to_open_ad">Stryg eller tryk for at få mere at vide</string>
     <string name="slide_save_message">Genererer video…</string>
     <string name="slide_to_open_ad">Stryg for at få mere at vide</string>
+    <string name="small_mango_play_next_episode">Næste afsnit</string>
     <string name="small_video_load_more_hint">Swipe opad for at afspille flere videoer</string>
     <string name="small_video_report">Rapportér</string>
     <string name="small_video_report_dialog_title">Vælg en årsag</string>
@@ -1506,9 +1515,9 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="sns_sign_in">Andre måder at logge ind på</string>
     <string name="source">"Kilde: "</string>
     <string name="start_download_tip">Føjet til kø. Tjek fremskridt i Profil > Downloads.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lager</string>
-    <string name="submit">Indsend</string>
     <string name="subscribe">ABONNÈR</string>
     <string name="subscribe_author_recommend_btn">Abonnér</string>
     <string name="subscribe_author_recommend_title">Abonnér for at se de nyeste videoer fra disse producenter</string>
@@ -1528,6 +1537,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
     <string name="sure_to_logout">Log af nu?</string>
+    <string name="swipe_to_exit">Stryg igen for at afslutte</string>
     <string name="switch_ratio_pause">Afspilningshastighed er ustabil. Skift tilbage til standardhastigheden.</string>
     <string name="sync_favorites_limit_new">Der er flere end %d videoer blandt dine favoritter. Vi er nødt til at slette nogle af de tidligere videoer for at kunne fortsætte synkroniseringen.</string>
     <string name="sync_favorites_message">Synkronisér favoritter fra denne enhed med din konto? Elementer, der ikke længere er tilgængelige, vil blive fjernet.</string>
@@ -1654,7 +1664,6 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="toast_incentive_redeem_fail_short_of_storage_2002">Denne belønning er ikke tilgængelig i øjeblikket. Prøv igen senere.</string>
     <string name="toast_m3u8_download_path_tip">Kan ikke ændre download-stien for indhold i m3u8-format</string>
     <string name="toast_play_error_tip">Kan ikke afspille denne fil</string>
-    <string name="toast_request_too_frequently">Ikke så hurtigt!</string>
     <string name="toast_share_failed">Kunne ikke dele. Vent et minut eller to og prøv så igen.</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
@@ -1663,9 +1672,6 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>
     <string name="tuesday_shortest">Tirs</string>
-    <string name="type_content">Indhold</string>
-    <string name="type_issue">Problem</string>
-    <string name="type_suggestion">Forslag</string>
     <string name="ugc_no_net">Kunne ikke tilslutte til netværket. Kontrollér dine netværksindstillinger og prøv igen.</string>
     <string name="ui_common_title_back">Tilbage</string>
     <string name="unknow">Ukendt.</string>
@@ -1690,7 +1696,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="v_menu_hide">Skjul</string>
     <string name="v_more">Mere</string>
     <string name="v_next">Næste</string>
-    <string name="v_ok">Ok</string>
+    <string name="v_ok">Næste</string>
     <string name="v_online_play">Stream online</string>
     <string name="v_pw_need_update_app">Opdatér Mi Video for at bruge alle dens funktioner</string>
     <string name="v_save">Gem</string>
@@ -1701,6 +1707,7 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="video_download_fail">Kunne ikke downloade video</string>
     <string name="video_download_fail_hint">Kunne ikke downloade</string>
     <string name="video_download_floating_guide">Download videoer gratis</string>
+    <string name="video_download_folder">Downloadede videoer</string>
     <string name="video_download_folder_title">Download af Mi-videoer</string>
     <string name="video_download_forbidden">Kunne ikke downloade fra dette website</string>
     <string name="video_download_login_guide">Log ind på %s for at kunne downloade videoer</string>

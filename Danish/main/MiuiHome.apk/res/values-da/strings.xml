@@ -353,6 +353,7 @@
     <string name="gadget_search_label">Søg</string>
     <string name="gadget_weather_title">Vejr</string>
     <string name="global_search">Søg</string>
+    <string name="global_shelf">App-finder</string>
     <string name="got_it_botton">Forstået</string>
     <string name="guide_install_app_msg">Denne app er ikke installeret på din enhed. Find og installer appen nu?</string>
     <string name="guide_install_app_title">Find og installer app?</string>
@@ -360,6 +361,7 @@
     <string name="guide_privacy_dialog_title">Servicevilkår</string>
     <string name="home_gesture_content_center">Indholdscenter</string>
     <string name="home_gesture_global_search">Søg</string>
+    <string name="home_gesture_global_shelf">App-finder</string>
     <string name="home_gesture_no_action">Ingen</string>
     <string name="home_gesture_notification_and_control_center">Notifikationsskygge og Kontrolcenter</string>
     <string name="home_gesture_notification_bar">Notifikationer</string>
@@ -378,7 +380,7 @@
     <string name="international_home_pull_down_sub_content">I Indstillinger > Startskærm > Stryg nedad på startskærmen kan du i stedet ændre denne gestus for at åbne Kontrolcenter.</string>
     <string name="international_home_pull_down_up_btn_get">Forstået</string>
     <string name="international_home_pull_up_content">Stryg opad på startskærmen for at åbne Indholdscenter.</string>
-    <string name="international_home_pull_up_sub_content">For at åbne søgning skal du stryge nedad fra midten af din startskærm.</string>
+    <string name="international_home_pull_up_sub_content">For at finde apps og forslag til apps skal du stryge nedad fra midten af din startskærm.</string>
     <string name="item_view_role_description">Fane</string>
     <string name="jeejen_description">"Større UI-elementer.
 Mere tilgængelige opkald.
@@ -443,7 +445,7 @@ Forbedret sikkerhed."</string>
     <string name="mi_wallpaper">MIUI Temaer</string>
     <string name="midnight">Nat</string>
     <string name="minus_one_screen">App-boks</string>
-    <string name="miui_screen_config_title">Indstillinger for startskærm</string>
+    <string name="miui_screen_config_title">Startskærmlayout</string>
     <string name="miui_setting_config_title">Indstillinger for startskærm</string>
     <string name="miui_widget_menu_replace_text">Udskift</string>
     <string name="miui_widget_toast_for_not_support_by_pa">App-boks understøtter ikke widgets af denne størrelse</string>
@@ -519,6 +521,7 @@ Forbedret sikkerhed."</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -648,8 +651,9 @@ Forbedret sikkerhed."</string>
     <string name="recent_menu_item_info">Oplysninger</string>
     <string name="recent_menu_item_lock">Lås</string>
     <string name="recent_menu_item_unlock">Oplås</string>
-    <string name="recent_menu_item_worldcirculate">应用流转</string>
-    <string name="recent_menu_item_worldcirculate_disable">应用无法流转</string>
+    <string name="recent_menu_item_worldcirculate">Overfør app-opgaver</string>
+    <string name="recent_menu_item_worldcirculate_disable">Kan ikke overføre app-opgaver på tværs af tilsluttede enheder</string>
+    <string name="recent_pin_text">Hæng op</string>
     <string name="recents_app_info_button_label">App-oplysninger</string>
     <string name="recents_config_title">Nylige</string>
     <string name="recents_dimiss_task">Ryd</string>
@@ -731,6 +735,7 @@ Forbedret sikkerhed."</string>
     <string name="small_window">Flydende vindue</string>
     <string name="start_activity_failed">Kan ikke starte lanceringsprogram</string>
     <string name="start_new_window">Nyt vindue</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s af %2$s tilgængelig</string>
     <string name="status_bar_recent_memory_info2" />
@@ -748,8 +753,10 @@ Forbedret sikkerhed."</string>
     <string name="switch_personal_assistant_app_vault">App-boks</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Ingen</string>
+    <string name="switch_personal_assistant_summary">Stryg til højre på startskærmen for at åbne Google Discover</string>
     <string name="switch_screen_button_order">Spejlknapper</string>
     <string name="switch_screen_button_order_desc">Spejl tilbage- og menuknapper</string>
+    <string name="system_sdk_disabled_toast">System-SDK er deaktiveret. Aktivér det først.</string>
     <string name="system_shortcuts_edit">Redigér</string>
     <string name="system_shortcuts_icon_remove">Fjern</string>
     <string name="system_shortcuts_more_operation">App-oplysninger</string>

@@ -56,6 +56,9 @@
     <string name="bluetooth_sap_notif_message">Vil du anmode klienten om at afbryde forbindelsen?</string>
     <string name="bluetooth_sap_notif_ticker">Bluetooth-adgang til SIM-kort</string>
     <string name="bluetooth_sap_notif_title">Bluetooth-adgang til SIM-kort</string>
+    <string name="bt_Auracast_audio_share_notification_content">Tryk for at se oplysninger</string>
+    <string name="bt_Auracast_audio_share_notification_title">Udsender lyd fra denne enhed…</string>
+    <string name="bt_audio_share_assistant_notification_title">Modtagelse af en udsendelse fra en enhed i nærheden…</string>
     <string name="bt_audio_share_notification_content">Tryk for at se indstillinger</string>
     <string name="bt_audio_share_notification_title">Deler lyd</string>
     <string name="bt_enable_cancel">Annuller</string>
@@ -84,6 +87,7 @@
     <string name="call_notification_screening_text">Et indgående opkald screenes</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="close">Luk</string>
+    <string name="close_broadcast_audio">Stop</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -259,6 +263,7 @@
     <string name="not_exist_file">Ingen fil</string>
     <string name="not_exist_file_desc">"Filen findes ikke. 
 "</string>
+    <string name="notice_audio_share_classic_disconnected">Lyddeling stoppet</string>
     <string name="notice_audio_share_disconnected">Deler ikke længere lyd på grund af afbrudt forbindelse</string>
     <string name="notification_received">Bluetooth-deling: Modtog %1$s</string>
     <string name="notification_received_fail">Bluetooth-deling: Filen %1$s blev ikke modtaget</string>
@@ -272,7 +277,9 @@
     <string name="opp_notification_group">Bluetooth-deling</string>
     <string name="outbound_history_title">Udgående overførsler</string>
     <string name="outbound_noti_title">Bluetooth-deling: Sendte filer</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Der var timeout ved forbindelsen med %1$s</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Der var timeout i indgangssessionnøgle med %1$s</string>
     <string name="pbap_notification_group">Deling af kontakter via Bluetooth</string>
     <string name="pbap_session_key_dialog_header">Bluetooth-sessionsnøgle kræves</string>

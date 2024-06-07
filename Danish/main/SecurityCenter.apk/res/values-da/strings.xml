@@ -343,6 +343,9 @@
     <string name="app_manager_copy_pkg_to_clip">Kopieret til udklipsholder</string>
     <string name="app_manager_data_size">Brugerdata</string>
     <string name="app_manager_default_cleared">Ryddet</string>
+    <string name="app_manager_default_close_summary">Ingen standardindstillinger angivet.</string>
+    <string name="app_manager_default_open_summary">Du har valgt at opstarte denne app som standard for nogle handlinger.</string>
+    <string name="app_manager_default_open_title">Nulstil standardindstillinger</string>
     <string name="app_manager_defaults_setting">Standard apps</string>
     <string name="app_manager_details_electric_title">Batteri</string>
     <string name="app_manager_details_storage_title">Lager</string>
@@ -968,6 +971,7 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="card_main_private_space_summary">Brug af andet rum er som at have 2 enheder</string>
     <string name="card_main_private_space_title">Andet rum</string>
     <string name="card_main_sectool_title">Værktøjer</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">Administrer videor</string>
     <string name="card_main_whatsappclean_title">WhatsApp-renser</string>
     <string name="card_main_xspace_action">Opret</string>
@@ -1096,15 +1100,15 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="connected_devices_notification">Notifikationer</string>
     <string name="connected_devices_notification_desc">Vis denne enheds notifikationer på enheder i nærheden, der er logget ind på den samme konto</string>
     <string name="connected_devices_notification_title">Tillad enheden ovenfor at vise denne enheds notifikationer?</string>
-    <string name="connected_devices_permission">Sammenkobling og tilladelser</string>
-    <string name="connected_devices_permission_settings">Sammenkobling og tilladelser</string>
+    <string name="connected_devices_permission">Interkonnektivitet og tilladelser</string>
+    <string name="connected_devices_permission_settings">Interkonnektivitet og tilladelser</string>
     <string name="connected_devices_record">Optag</string>
     <string name="connected_devices_record_desc">Tillad enheder i nærheden, der er logget ind på den samme konto, at optage lyd på denne enhed</string>
     <string name="connected_devices_record_title">Tillad enheden ovenfor at optage lyd på denne enhed?</string>
     <string name="connected_devices_screen">Skærm</string>
     <string name="connected_devices_screen_desc">Tillad enheder i nærheden, der er logget ind på den samme konto, at se og interagere med denne enheds skærmindhold</string>
     <string name="connected_devices_screen_title">Tillad enheden ovenfor at se og interagere med denne enheds skærmindhold?</string>
-    <string name="connected_interconnection">Sammenkobling</string>
+    <string name="connected_interconnection">Interkonnektivitet</string>
     <string name="connecting">Opretter forbindelse…</string>
     <string name="continue_install">Installer</string>
     <string name="continue_set">Fortsæt</string>
@@ -1337,6 +1341,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="dynamic_performance_optimization_title">Dynamisk ydeevne</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_phone_num">Redigér SIM-telefonnummer</string>
+    <string name="ellipsis">…</string>
     <string name="email">E-mail</string>
     <string name="empty" />
     <string name="empty_app">Ingen apps</string>
@@ -1414,7 +1419,9 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="exo_download_paused_for_wifi">Downloads venter på Wi-Fi-netværk</string>
     <string name="exo_download_removing">Fjerner downloads</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternativt spor</string>
     <string name="exo_track_role_closed_captions">Undertekster</string>
     <string name="exo_track_role_commentary">Kommentarspor</string>
@@ -1601,6 +1608,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="fod_finger_notice_title">Placer din finger på skærmen</string>
     <string name="fod_finger_windows_tips">Verificer dit fingeraftryk</string>
     <string name="fod_tips_split_screen_more_than_half">Indtast adgangskode</string>
+    <string name="fold_application_mode_name">App-layouts</string>
     <string name="forbid_autobright_summary">Automatisk lysstyrke vil blive slukket, mens du spiller, og blive gendannet, når du er færdig</string>
     <string name="forbid_autobright_title">Ret skærmens lysstyrke</string>
     <string name="foreground_traffic">Forgrunds %s</string>
@@ -2120,9 +2128,9 @@ af dine spillesessioner"</string>
     <string name="grant_dialog_button_deny_and_dont_ask_again">Nægt og spørg ikke igen</string>
     <string name="group_audio">Musik og audio</string>
     <string name="group_clipboard">Udklipsholder</string>
-    <string name="group_connect_device">Sammenkobling</string>
+    <string name="group_connect_device">Interkonnektivitet</string>
     <string name="group_file">Filer og dokumenter</string>
-    <string name="group_file_less_t">Access files and media</string>
+    <string name="group_file_less_t">Få adgang til filer og medier</string>
     <string name="group_head_data_ai_clipboard">Beskyttelse af udklipsholder</string>
     <string name="group_head_data_camera_desc">Slå fra for at begrænse kameraadgang for alle apps</string>
     <string name="group_head_data_clipboard_desc">Slå fra for at begrænse adgangen til udklipsholderen for alle apps</string>
@@ -2599,6 +2607,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="menu_text_license_manager">Tilladelser</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2607,6 +2616,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="menu_text_optimize_manage">Boost hastigheden</string>
     <string name="menu_text_optimize_manage_1">Boost hastigheden</string>
     <string name="menu_text_power_manager">Batteri</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Fjern fra undtagelser</string>
     <string name="menu_white">Føj til undtagelser</string>
     <string name="mi_ime_not_used">Brug et tastatur, der er godkendt af Xiaomi</string>
@@ -2715,6 +2725,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -3246,7 +3257,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="pc_wireless_charging_special_stand_summary2">Installér din enhed på standeren, der fulgte med din trådløse oplader, for at få den bedste opladningsydelse</string>
     <string name="pc_wireless_charging_special_stand_title">Brug den medfølgende ladestander</string>
     <string name="pc_wireless_handle_connected">Enhed tilsluttet</string>
-    <string name="pc_wireless_handle_title">Greb på trådløst kamera</string>
+    <string name="pc_wireless_handle_title">Kameragreb</string>
     <string name="pc_work_in_save_mode">Batteribesparer</string>
     <string name="pc_work_in_super_save_mode">Ultra-batterisparer</string>
     <string name="pc_xiaoai_create_auto_task">Ny opgave fra Mi AI</string>
@@ -3307,7 +3318,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="permission_group_camera">Denne tilladelse giver apps mulighed for at bruge kameraet til at tage billeder eller optage videoer.</string>
     <string name="permission_group_contact">Med denne tilladelse kan apps få adgang til eller redigere kontakter samt se app-kontakter, der er oprettet på denne enhed.</string>
     <string name="permission_group_file">Denne tilladelse giver apps adgang til alle filer, der er gemt på denne enhed.</string>
-    <string name="permission_group_file_less_t">This permission allows apps to access photos, videos, audio, and other files stored on this device.</string>
+    <string name="permission_group_file_less_t">Denne tilladelse giver apps adgang til fotos, videoer, lyd og andre filer, der er gemt på denne enhed.</string>
     <string name="permission_group_image_video">Denne tilladelse giver apps adgang til fotos og videoer, der er gemt på denne enhed.</string>
     <string name="permission_group_location">Denne tilladelse giver apps adgang til placeringsoplysninger via netværk eller satellit.</string>
     <string name="permission_group_microphone">Denne tilladelse giver apps mulighed for at bruge mikrofonen til at optage lyd.</string>
@@ -3426,7 +3437,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="pm_remember_choice">Husk mit valg</string>
     <string name="pm_root_success_notification_infomation">Sørg for at forstå de risici, der er forbundet med rodadgang</string>
     <string name="pm_root_success_notification_title">Tilladt rodadgang</string>
-    <string name="popular_action_anti_spam_title_global">Blokér opkald og beskeder</string>
+    <string name="popular_action_anti_spam_title_global">Blokér spamopkald</string>
     <string name="popular_action_app_lock_title_global">Beskyt apps med app-lås</string>
     <string name="popular_action_card_title">Populære funktioner</string>
     <string name="popular_action_first_aid_title_global">For nye brugere</string>
@@ -3482,6 +3493,11 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="power_center_dialog_msg_top">Når batterispareren er aktiveret, udføres følgende optimeringer:</string>
     <string name="power_center_hints_scan_danger_result">Du kan løse problemer med batteriet nu</string>
     <string name="power_center_list_item_auto_brightness">Indstil automatisk skærmens lysstyrke</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">t</string>
     <string name="power_center_list_item_close_bluetooth">Slå Bluetooth fra</string>
     <string name="power_center_list_item_deep_save_title">Avancerede indstillinger</string>
@@ -3794,6 +3810,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="pref_normal_traffic_limit">Når dataplan er opbrugt</string>
     <string name="pref_open_adjust_traffic">Opdater dataforbrug hver dag med statistik fra din teleudbyder</string>
     <string name="pref_operator_not_set">Teleudbyder ikke indstillet</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Når du går over din dataplan</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_pkg_begin_date">Data for nulstilling af forbrug</string>
@@ -4094,6 +4111,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="privacy_using_record">Optager lyd</string>
     <string name="privacyapp_number_masked_text">Meddelelsers indhold er skjult</string>
     <string name="privacyapp_number_unmasked_text">Meddelelsers indhold kan skjules</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Annonce</string>
@@ -5329,7 +5347,7 @@ Hvis du tænder for den ene, deaktiveres den anden."</string>
     <string name="vb_video_effects_spatial_summary_new">Oplev forbedret følelse af rumlighed og retning af understøttet lyd, når du bruger hovedtelefoner</string>
     <string name="vb_video_effects_srs_premium_sound">Lyd</string>
     <string name="vb_video_super_division">Øg opløsningen</string>
-    <string name="vb_video_super_division_desc">"Øg automatisk opløsningen, når den er ≤720p.
+    <string name="vb_video_super_division_desc">"Øg automatisk opløsningen, når den er ≤720P.
 
 Brug af denne funktion øger strømforbruget.
 
@@ -5379,6 +5397,7 @@ Prøv at øge opløsningen!"</string>
     <string name="virus_update_tips_title">Advarsel</string>
     <string name="virus_wait_network_dialog_message">Din telefon har ikke forbindelse til Wi-Fi lige nu. Brug mobildataforbindelse?</string>
     <string name="vtb_ai_subtitle">Undertekster</string>
+    <string name="vtb_ai_subtitle_intl">AI-undertekster</string>
     <string name="vtb_func_desc">Om denne funktion</string>
     <string name="vtb_func_display_style_desc0">AI kan genkende personer, dyr, planter, himlen, bygninger og andre objekter i videoer og dynamisk fremhæve dem.</string>
     <string name="vtb_func_display_style_desc1">Udvalgte effekter bruges ikke på HDR-videoer på udvalgte enheder.</string>

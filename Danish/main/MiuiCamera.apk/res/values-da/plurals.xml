@@ -37,8 +37,8 @@
         <item quantity="one">1 min siden</item>
     </plurals>
     <plurals name="accessibility_auto_night_tip">
-        <item quantity="other">%d-second timer for Night mode</item>
-        <item quantity="one">%d-second timer for Night mode</item>
+        <item quantity="other">%d-sekunders-timer til nattilstand</item>
+        <item quantity="one">%d-sekund-timer til nattilstand</item>
     </plurals>
     <plurals name="accessibility_focus_face_detect">
         <item quantity="other">Fokuseret. %d ansigter detekteret</item>
@@ -55,14 +55,6 @@
     <plurals name="accessibility_vv_duartion">
         <item quantity="other">Varighed: %d sekunder</item>
         <item quantity="one">Varighed: %d sekund</item>
-    </plurals>
-    <plurals name="cinemaster_toast_camera_overflow">
-        <item quantity="other">Du kan tilslutte op til %d kameraer til det samme netværk</item>
-        <item quantity="one">Du kan tilslutte op til %d kamera til det samme netværk</item>
-    </plurals>
-    <plurals name="cinemaster_toast_monitor_overflow">
-        <item quantity="other">Du kan tilslutte op til %d skærme til det samme netværk</item>
-        <item quantity="one">Du kan tilslutte op til %d skærm til det samme netværk</item>
     </plurals>
     <plurals name="clone_guide_tip2">
         <item quantity="other">Du kan oprette op til %d kloner ad gangen.</item>
@@ -87,10 +79,6 @@
     <plurals name="fastmotion_pro_sec_unit">
         <item quantity="other">%1$d sek.</item>
         <item quantity="one">%1$d sek.</item>
-    </plurals>
-    <plurals name="friend_mode_display_first_dialog">
-        <item quantity="other">Slået timer til (%1$d sek.). Billederne overføres til denne enhed.</item>
-        <item quantity="one">Slået timer til (%1$d sek.). Billederne overføres til denne enhed.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">En halv time siden</item>
@@ -127,10 +115,6 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minutter siden</item>
         <item quantity="one">1 minut siden</item>
-    </plurals>
-    <plurals name="number_unit_seconds_split">
-        <item quantity="other">%d s</item>
-        <item quantity="one">%d s</item>
     </plurals>
     <plurals name="pad_ccc_temperature_warning_msg">
         <item quantity="other">Din enhed er overophedet. Kamera lukkes om %d sekunder. Dine fotos og videoer gemmes automatisk.</item>

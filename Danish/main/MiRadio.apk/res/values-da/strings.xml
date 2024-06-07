@@ -57,7 +57,7 @@
     <string name="menu_label">Menu</string>
     <string name="menu_new_station">Tilføj</string>
     <string name="menu_online_service">Onlinetjenester</string>
-    <string name="menu_privacy">Fortrolighedspolitik</string>
+    <string name="menu_privacy">Privatlivspolitik</string>
     <string name="menu_record_list">Optagelser</string>
     <string name="menu_record_start">Start optagelse</string>
     <string name="menu_record_stop">Stop optagelse</string>
@@ -87,6 +87,9 @@
     <string name="stations_list">Stationsliste</string>
     <string name="stations_list_empty">Ingen faste indstillinger</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="talkback_back">Gå tilbage</string>
+    <string name="talkback_close">Luk</string>
+    <string name="talkback_speed">Hastighed</string>
     <string name="toast_added_to_list">Føjet til liste</string>
     <string name="toast_added_to_presets">Tilføjet til faste indstillinger</string>
     <string name="toast_fm_error_startfailed">Optagefejl: En anden app bruger måske optagefunktionen.</string>
@@ -99,7 +102,6 @@
     <string name="toast_sleep_mode">Radio holder op med at spille om %s</string>
     <string name="toast_sleep_mode_exit">Automatisk slukning annulleret</string>
     <string name="turn_off_fm">Sluk for FM</string>
-    <string name="txt_divider">" | "</string>
     <string name="txt_sleep_mode">Dvaletilstand</string>
     <string name="using_recorder_cancel">Afslå</string>
     <string name="using_recorder_confirm">Tillad</string>

@@ -22,13 +22,13 @@
     </string-array>
     <string-array name="settings_search_relay_app">
         <item>App-handoff</item>
-        <item>Interkonnektivitet/App-handoff</item>
+        <item>Interkonnektivitet/apps</item>
         <item>Overfør apps, handoff, overfør</item>
     </string-array>
     <string-array name="settings_search_relay_call">
-        <item>Opkald</item>
-        <item>Interkonnektivitet/opkald</item>
-        <item>Opkald</item>
+        <item>Call sync</item>
+        <item>Interconnectivity/Call sync</item>
+        <item>Call sync, cross-device calls, call handoff, calls</item>
     </string-array>
     <string-array name="settings_search_relay_network">
         <item>Hjælp til netværk</item>

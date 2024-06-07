@@ -188,7 +188,7 @@
     <string name="kddi_miui_toast_zen_standard_to_off">Lydløs tilstand er deaktiveret nu. Opkald og notifikationer er ikke sat på lydløs.</string>
     <string name="kddi_miui_toast_zen_to_standard">Skiftet til lydløs tilstand. Opkald og notifikationer sættes nu på lydløs.</string>
     <string name="loading">Status ukendt</string>
-    <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="midnight">Nat</string>
     <string name="miplay_accessibility_cast">Vælg enhed</string>
     <string name="miplay_accessibility_cover">Cover</string>
@@ -201,6 +201,8 @@
     <string name="miplay_bluetooth_share_des_text">"Brugere af Xiaomi-øretelefoner: Åbn opladningsetuiet, eller tryk og hold etuiets knap for %d s
 Ikke-Xiaomi-øretelefonbrugere: Nulstil dine øretelefoner i Bluetooth-indstillingerne, og tilslut derefter"</string>
     <string name="miplay_bluetooth_share_headphone_pairing">Tilføj øretelefoner for at dele lyd</string>
+    <string name="miplay_bluetooth_share_music_cancel_btn_content_des">Holdt op med at dele lyd</string>
+    <string name="miplay_bluetooth_share_music_together_btn_content_des">Tilføj øretelefoner for at dele lyd</string>
     <string name="miplay_bluetooth_share_subTitle_text">Del enhedens lyd med en anden person</string>
     <string name="miplay_bluetooth_share_title_text">Del lyd</string>
     <string name="miplay_detail_divider_title">Højttaler</string>

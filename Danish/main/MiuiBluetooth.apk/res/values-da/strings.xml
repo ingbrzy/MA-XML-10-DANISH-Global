@@ -88,6 +88,7 @@ Tjek ndstillingerne for detaljer."</string>
     <string name="fast_connect_device_battery">Batteri</string>
     <string name="fast_connect_device_box">Opladningsboks</string>
     <string name="fast_connect_device_box_name">%1$s boks</string>
+    <string name="fast_connect_device_button_audio_share_fail">Forstået</string>
     <string name="fast_connect_device_connect_cancel">Annuller</string>
     <string name="fast_connect_device_connect_ok">Forbind</string>
     <string name="fast_connect_device_connect_retry">Prøv igen</string>
@@ -96,6 +97,12 @@ Tjek ndstillingerne for detaljer."</string>
     <string name="fast_connect_device_headset_l">Venstre</string>
     <string name="fast_connect_device_headset_r">Højre</string>
     <string name="fast_connect_device_headset_reset">Hold knappen på boksen nede</string>
+    <string name="fast_connect_device_message_audio_share">Del denne enheds lyd med dette par øretelefoner</string>
+    <string name="fast_connect_device_replace_current_device">Skift enhed</string>
+    <string name="fast_connect_device_start_audio_share">Del</string>
+    <string name="fast_connect_device_title_audio_share">Lyt sammen med %1$s</string>
+    <string name="fast_connect_device_title_audio_share_fail">Kunne ikke tilslutte til %1$s. Prøv igen.</string>
+    <string name="fast_connect_device_title_audio_share_success">Lytter sammen med %1$s</string>
     <string name="fast_connect_device_title_connect_fail">Kunne ikke forbinde %1$s</string>
     <string name="fast_connect_device_title_connecting">Opretter forbindelse…</string>
     <string name="fast_connect_device_title_find_headset">Find %1$s</string>
