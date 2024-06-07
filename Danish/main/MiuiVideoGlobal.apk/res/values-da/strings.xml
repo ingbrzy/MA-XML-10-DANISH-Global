@@ -135,7 +135,6 @@
     <string name="cast_forward">Spol frem</string>
     <string name="cast_forward_10">Spol ti sekunder frem</string>
     <string name="cast_forward_30">Spol 30 sekunder frem</string>
-    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">LIVE</string>
     <string name="cast_mute">Slå lyden fra</string>
     <string name="cast_notification_connected_message">Forbundet til %1$s</string>
@@ -1018,7 +1017,6 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_selection">Aktuelt valg: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
@@ -1108,7 +1106,6 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="online_play_start_ready_loading_tip_kb">Indlæser %.2f kB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">Indlæser %.2f MB/s</string>
     <string name="online_play_title">Indtast URL</string>
-    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">Seneste abonnementer</string>
     <string name="order_recently_updated">Senest opdateret</string>
     <string name="out_of_memory_background_playback_is_suspended">Sat afspilning på pause på grund af utilstrækkelig hukommelse</string>
@@ -1515,7 +1512,6 @@ Vi bruger kun denne tilladelse til at finde de videoer, du søger efter, og vi f
     <string name="sns_sign_in">Andre måder at logge ind på</string>
     <string name="source">"Kilde: "</string>
     <string name="start_download_tip">Føjet til kø. Tjek fremskridt i Profil > Downloads.</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD-kort</string>
     <string name="storage_internal_sdcard">Internt lager</string>
     <string name="subscribe">ABONNÈR</string>
